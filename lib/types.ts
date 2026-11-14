@@ -67,6 +67,8 @@ export interface PortfolioCompany {
   signals: Signal[];
   founders: Founder[];
   sources: Source[]; // why Cala links this company to the fund
+  /** Short neutral summary written by Gemini only from facts already in this object (D29); absent when not generated. */
+  overview?: { text: string; sources: Source[] };
   /** pending = not fetched yet; unavailable = data source gave up (429s) or time budget hit (D17). */
   state: "pending" | "enriched" | "unavailable";
 }
