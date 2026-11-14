@@ -39,9 +39,9 @@ export interface Signal {
 export interface Founder {
   name: string;
   linkedinUrl?: string;
-  /** Where the founder link came from (D14b, D20). */
+  /** Where the founder link came from (D14b, D20). "exa+gemini" is a legacy name: means Exa workHistory rule; UI shows "via web". */
   via: "cala" | "exa+gemini";
-  /** Quote that proves the founder role (from profile summary or Cala source). */
+  /** Proof of the founder role, e.g. "Co-Founder, Alvin" (Exa workHistory) or "Cala: FOUNDED". */
   evidence?: string;
   sources: Source[];
 }
@@ -63,7 +63,8 @@ export interface PortfolioCompany {
   signals: Signal[];
   founders: Founder[];
   sources: Source[]; // why Cala links this company to the fund
-  enriched: boolean; // false until rounds/founders/news have been fetched (D17)
+  /** pending = not fetched yet; unavailable = data source gave up (429s) or time budget hit (D17). */
+  state: "pending" | "enriched" | "unavailable";
 }
 
 /** Neutral grouping by fact, never by verdict (D6). */
@@ -79,7 +80,7 @@ export interface CallListEntry {
   group: CallGroup;
   why: Signal[]; // the facts that put this entry on the list
   questions: string[]; // 3, grounded only in `why` (D4)
-  writing: FounderWriting[];
+  writing: FounderWriting[]; // always [] in v1 (out of scope); kept for later
 }
 
 export interface Report {
@@ -91,7 +92,7 @@ export interface Report {
   mock?: true; // set on hand-built fixtures
 }
 
-/** Server → client stream (D12): newline-delimited JSON, one event per line. */
+/** Server → client stream (D12): NDJSON, one event per line. Protocol rules: docs/spec.md "Stream protocol". */
 export type StreamEvent =
   | { type: "progress"; message: string }
   | { type: "portfolio"; fund: FundMatch; companies: PortfolioCompany[] } // instant, unenriched

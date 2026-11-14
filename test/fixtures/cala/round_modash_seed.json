@@ -1,0 +1,270 @@
+{
+  "id": "006c348e-1de9-56e6-af54-b692a888f199",
+  "name": "Seed",
+  "entity_type": "FundingRound",
+  "description": null,
+  "properties": {
+    "event_date": {
+      "value": "2019-01-01",
+      "sources": [
+        {
+          "name": "tech.eu",
+          "document": "https://tech.eu/2022/11/23/modash/",
+          "date": "2022-11-23",
+          "date_precision": "day",
+          "source_rank": "PRESS"
+        }
+      ]
+    },
+    "announcement_date": {
+      "value": "2022-11-23",
+      "sources": [
+        {
+          "name": "tech.eu",
+          "document": "https://tech.eu/2022/11/23/modash/",
+          "date": "2022-11-23",
+          "date_precision": "day",
+          "source_rank": "PRESS"
+        }
+      ]
+    },
+    "transaction_value": {
+      "value": 2000000.0,
+      "sources": [
+        {
+          "name": "tech.eu",
+          "document": "https://tech.eu/2022/11/23/modash/",
+          "date": "2022-11-23",
+          "date_precision": "day",
+          "source_rank": "PRESS"
+        },
+        {
+          "name": "en.ain.ua",
+          "document": "https://en.ain.ua/2022/11/24/modash-closes-2m-round",
+          "date": "2022-11-24",
+          "date_precision": "day",
+          "source_rank": "PRESS"
+        },
+        {
+          "name": "cobalt.legal",
+          "document": "https://cobalt.legal/?p=9164",
+          "date": "2022-11-29",
+          "date_precision": "day",
+          "source_rank": "PRESS"
+        }
+      ]
+    },
+    "transaction_value_units": {
+      "value": "USD",
+      "sources": [
+        {
+          "name": "tech.eu",
+          "document": "https://tech.eu/2022/11/23/modash/",
+          "date": "2022-11-23",
+          "date_precision": "day",
+          "source_rank": "PRESS"
+        },
+        {
+          "name": "en.ain.ua",
+          "document": "https://en.ain.ua/2022/11/24/modash-closes-2m-round",
+          "date": "2022-11-24",
+          "date_precision": "day",
+          "source_rank": "PRESS"
+        },
+        {
+          "name": "cobalt.legal",
+          "document": "https://cobalt.legal/?p=9164",
+          "date": "2022-11-29",
+          "date_precision": "day",
+          "source_rank": "PRESS"
+        }
+      ]
+    },
+    "round_label": {
+      "value": "SEED",
+      "sources": [
+        {
+          "name": "tech.eu",
+          "document": "https://tech.eu/2022/11/23/modash/",
+          "date": "2022-11-23",
+          "date_precision": "day",
+          "source_rank": "PRESS"
+        },
+        {
+          "name": "en.ain.ua",
+          "document": "https://en.ain.ua/2022/11/24/modash-closes-2m-round",
+          "date": "2022-11-24",
+          "date_precision": "day",
+          "source_rank": "PRESS"
+        }
+      ]
+    }
+  },
+  "relationships": {
+    "outgoing": {},
+    "incoming": {
+      "PARTICIPATES_IN_FUNDING_ROUND": [
+        {
+          "id": "264b7bec-6bf8-588a-827b-84c186802708",
+          "name": "Tomas Slimas",
+          "entity_type": "Person",
+          "properties": {
+            "role": "INVESTOR",
+            "sources": [
+              {
+                "name": "tech.eu",
+                "document": "https://tech.eu/2022/11/23/modash/",
+                "date": "2022-11-23",
+                "date_precision": "day",
+                "source_rank": "PRESS"
+              },
+              {
+                "name": "en.ain.ua",
+                "document": "https://en.ain.ua/2022/11/24/modash-closes-2m-round",
+                "date": "2022-11-24",
+                "date_precision": "day",
+                "source_rank": "PRESS"
+              }
+            ],
+            "id": "5b517999-e650-52b5-9228-c5c06018f5fe"
+          }
+        },
+        {
+          "id": "28d85aec-8ab8-439c-a74b-205b55f884e4",
+          "name": "Modash OÜ",
+          "entity_type": "Company",
+          "properties": {
+            "role": "ISSUER",
+            "sources": [
+              {
+                "name": "tech.eu",
+                "document": "https://tech.eu/2022/11/23/modash/",
+                "date": "2022-11-23",
+                "date_precision": "day",
+                "source_rank": "PRESS"
+              },
+              {
+                "name": "en.ain.ua",
+                "document": "https://en.ain.ua/2022/11/24/modash-closes-2m-round",
+                "date": "2022-11-24",
+                "date_precision": "day",
+                "source_rank": "PRESS"
+              }
+            ],
+            "id": "2305d79b-7e92-59a2-ba5b-70c85b58cbab"
+          }
+        },
+        {
+          "id": "3856cd2b-a912-4cdc-8e18-f4d3cecb60c9",
+          "name": "Change Ventures",
+          "entity_type": "Company",
+          "properties": {
+            "role": "INVESTOR",
+            "sources": [
+              {
+                "name": "tech.eu",
+                "document": "https://tech.eu/2022/11/23/modash/",
+                "date": "2022-11-23",
+                "date_precision": "day",
+                "source_rank": "PRESS"
+              },
+              {
+                "name": "en.ain.ua",
+                "document": "https://en.ain.ua/2022/11/24/modash-closes-2m-round",
+                "date": "2022-11-24",
+                "date_precision": "day",
+                "source_rank": "PRESS"
+              },
+              {
+                "name": "cobalt.legal",
+                "document": "https://cobalt.legal/?p=9164",
+                "date": "2022-11-29",
+                "date_precision": "day",
+                "source_rank": "PRESS"
+              }
+            ],
+            "is_lead": true,
+            "id": "ab103864-c98f-5e13-9156-22c0d3b83d40"
+          }
+        },
+        {
+          "id": "70fb3317-cd8c-4c52-aa86-66502789bce3",
+          "name": "Icebreaker.vc",
+          "entity_type": "Company",
+          "properties": {
+            "role": "INVESTOR",
+            "sources": [
+              {
+                "name": "tech.eu",
+                "document": "https://tech.eu/2022/11/23/modash/",
+                "date": "2022-11-23",
+                "date_precision": "day",
+                "source_rank": "PRESS"
+              },
+              {
+                "name": "en.ain.ua",
+                "document": "https://en.ain.ua/2022/11/24/modash-closes-2m-round",
+                "date": "2022-11-24",
+                "date_precision": "day",
+                "source_rank": "PRESS"
+              }
+            ],
+            "is_lead": true,
+            "id": "66b12b29-efcb-5431-a381-e2bb9607758d"
+          }
+        },
+        {
+          "id": "7a8ea476-c9eb-5bdb-8b38-c5c219eb5cf1",
+          "name": "Akim Arhipov",
+          "entity_type": "Person",
+          "properties": {
+            "role": "INVESTOR",
+            "sources": [
+              {
+                "name": "tech.eu",
+                "document": "https://tech.eu/2022/11/23/modash/",
+                "date": "2022-11-23",
+                "date_precision": "day",
+                "source_rank": "PRESS"
+              },
+              {
+                "name": "en.ain.ua",
+                "document": "https://en.ain.ua/2022/11/24/modash-closes-2m-round",
+                "date": "2022-11-24",
+                "date_precision": "day",
+                "source_rank": "PRESS"
+              }
+            ],
+            "id": "198aba35-6596-5497-b34f-6eaf820cc2d2"
+          }
+        },
+        {
+          "id": "b86a9c7a-cd6b-47c8-a139-1750657bb91a",
+          "name": "Kristjan Vilosius",
+          "entity_type": "Person",
+          "properties": {
+            "role": "INVESTOR",
+            "sources": [
+              {
+                "name": "tech.eu",
+                "document": "https://tech.eu/2022/11/23/modash/",
+                "date": "2022-11-23",
+                "date_precision": "day",
+                "source_rank": "PRESS"
+              },
+              {
+                "name": "en.ain.ua",
+                "document": "https://en.ain.ua/2022/11/24/modash-closes-2m-round",
+                "date": "2022-11-24",
+                "date_precision": "day",
+                "source_rank": "PRESS"
+              }
+            ],
+            "id": "02672140-ee04-5821-944e-15e222e70bf8"
+          }
+        }
+      ]
+    }
+  },
+  "numerical_observations": []
+}

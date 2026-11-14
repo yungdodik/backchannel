@@ -1,0 +1,89 @@
+{
+  "id": "020ce4f1-d0d0-4b59-9d96-e324a1497a6a",
+  "name": "FLOWHAVEN OY",
+  "entity_type": "Company",
+  "description": "Finnish company founded in 2020 and based in Helsinki.",
+  "properties": {
+    "description": {
+      "value": "Finnish company founded in 2020 and based in Helsinki.",
+      "sources": [
+        {
+          "name": "Cala AI",
+          "document": "",
+          "date": "2026-08-19"
+        }
+      ]
+    },
+    "operational_status": {
+      "value": "ACTIVE",
+      "sources": [
+        {
+          "name": "Companies House UK",
+          "document": "https://find-and-update.company-information.service.gov.uk/company/FC037274",
+          "date": "2026-11-01"
+        }
+      ]
+    },
+    "founding_date": {
+      "value": "2020-03-16",
+      "sources": [
+        {
+          "name": "Companies House UK",
+          "document": "https://find-and-update.company-information.service.gov.uk/company/FC037274",
+          "date": "2026-11-01"
+        }
+      ]
+    }
+  },
+  "relationships": {
+    "outgoing": {
+      "PARTICIPATES_IN_CORPORATE_EVENT": [
+        {
+          "id": "314efab5-4841-4434-8abb-6be32346cb43",
+          "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+          "entity_type": "PrivateCompanyFundingRound",
+          "properties": {
+            "role": "ISSUER",
+            "sources": [
+              {
+                "name": "Flowhaven raises $16M to evolve brand licensing management beyond emails and spreadsheets | TechCrunch",
+                "document": "https://techcrunch.com/2021/01/28/flowhaven-raises-16m-to-evolve-brand-licensing-management-beyond-emails-and-spreadsheets",
+                "date": "2021-01-28"
+              },
+              {
+                "name": "Linkedin investor Sapphire backed licensing platform Flowhaven in a $16 million funding round after seeing this pitch deck",
+                "document": "https://www.businessinsider.com/linkedin-flowhaven-sapphire-pitch-deck-technology-2021-2",
+                "date": "2021-02-02"
+              },
+              {
+                "name": "pitchbook.com",
+                "document": "https://pitchbook.com/profiles/company/265427-56",
+                "date": "2026-08-25"
+              }
+            ],
+            "event_date": "2021-01-28",
+            "id": "0186cf3d-7423-49dc-9d49-bd7c5a7d1b29"
+          }
+        },
+        {
+          "id": "8d9c5c0f-dfe4-47fb-b099-93f2c23308b1",
+          "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+          "entity_type": "PrivateCompanyFundingRound",
+          "properties": {
+            "role": "ISSUER",
+            "sources": [
+              {
+                "name": "Finnish VC Icebreaker launches second fund to continue backing 'pre-founders' and pre-seed startups | TechCrunch",
+                "document": "https://techcrunch.com?p=1978976",
+                "date": "2020-04-26"
+              }
+            ],
+            "id": "76aef298-b55c-4c29-b3f9-515de2fa90cc"
+          }
+        }
+      ]
+    },
+    "incoming": {}
+  },
+  "numerical_observations": []
+}

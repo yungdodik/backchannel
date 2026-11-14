@@ -1,0 +1,64 @@
+{
+  "entities": [
+    {
+      "id": "8daff491-270c-489b-a9ab-a3949f282c49",
+      "name": "Creandum Kommanditbolag",
+      "entity_type": "Company",
+      "description": "A Stockholm-based venture capital firm founded in 2002."
+    },
+    {
+      "id": "7d4ebd18-3539-4f19-a2e0-93bebb838554",
+      "name": "Creandum Fund",
+      "entity_type": "Organization",
+      "description": "An international venture capital fund headquartered in Stockholm, Sweden."
+    },
+    {
+      "id": "6ba00a20-2cb4-4559-8fe2-f39484a9e5f6",
+      "name": "Creandum",
+      "entity_type": "Organization",
+      "description": "venture capital firm based in Stockholm, Sweden, founded by Stefan Lindeberg and focusing on fintech startups"
+    },
+    {
+      "id": "d511355c-2c55-4b91-bf0f-bb444e2db854",
+      "name": "CREANDUM ADVISOR LLP",
+      "entity_type": "Company",
+      "description": "London‑based venture‑capital firm founded in 2021."
+    },
+    {
+      "id": "62a411ef-7d78-42fd-a9d0-2913a6e93381",
+      "name": "Creandum Advisor AB",
+      "entity_type": "Company",
+      "description": "Swedish private equity and venture capital firm based in Stockholm"
+    },
+    {
+      "id": "dced699e-9f7f-465f-8f27-2f2c251a33cc",
+      "name": "Creandum III, L.P.",
+      "entity_type": "Company",
+      "description": "a venture capital firm headquartered in St Peter Port, Guernsey, founded in 2011"
+    },
+    {
+      "id": "7b88a753-db0f-44bb-aaaf-13ec11451e48",
+      "name": "Creandum GovCo AB",
+      "entity_type": "Company",
+      "description": "Swedish venture capital firm founded in 2023 and headquartered in Stockholm."
+    },
+    {
+      "id": "053b55ec-942f-4887-9f77-516ef7899181",
+      "name": "Creandum V, L.P.",
+      "entity_type": "Company",
+      "description": "A venture capital firm incorporated in 2018 and headquartered in St Peter Port, Guernsey."
+    },
+    {
+      "id": "b5ae192f-6f7e-47cb-afc5-a04ee5cd714d",
+      "name": "Creandum II L.P.",
+      "entity_type": "Company",
+      "description": "Venture capital firm founded in 2007 and headquartered in St Peter Port, Guernsey."
+    },
+    {
+      "id": "84ae9b54-4130-4fa4-8eb7-4e21ddf625ad",
+      "name": "CREANDUM ADVISOR UK LIMITED",
+      "entity_type": "Company",
+      "description": "A British investment firm based in London, founded in 2021, that operates in banking, private equity and venture capital."
+    }
+  ]
+}

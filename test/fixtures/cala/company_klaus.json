@@ -1,0 +1,85 @@
+{
+  "id": "2fcbdac0-4027-4b78-8a5b-67a99447ca81",
+  "name": "Klaus",
+  "entity_type": "Company",
+  "description": "AI-powered customer service quality management platform (acquired by Zendesk)",
+  "properties": {
+    "description": {
+      "value": "AI-powered customer service quality management platform (acquired by Zendesk)",
+      "sources": [
+        {
+          "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+          "document": "https://www.icebreaker.vc",
+          "date": "2021-01-28"
+        },
+        {
+          "name": "angelspartners.com",
+          "document": "https://angelspartners.com/firm/IcebreakerVC",
+          "date": "2026-08-24"
+        }
+      ]
+    }
+  },
+  "relationships": {
+    "outgoing": {
+      "PARTICIPATES_IN_CORPORATE_EVENT": [
+        {
+          "id": "248b7bed-c4c3-42f0-8d0d-2c3e9adb3fa8",
+          "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+          "entity_type": "PrivateCompanyFundingRound",
+          "properties": {
+            "role": "ISSUER",
+            "sources": [
+              {
+                "name": "Klaus secures fresh capital to automatically categorize and score customer interactions | TechCrunch",
+                "document": "https://techcrunch.com/2022/09/29/klaus-secures-fresh-capital-to-automatically-categorize-and-score-customer-interactions",
+                "date": "2022-09-29"
+              },
+              {
+                "name": "AI-powered Estonian QA startup Klaus acquired by Zendesk | TechCrunch",
+                "document": "https://techcrunch.com/2024/02/13/ai-powered-estonian-qa-startup-klaus-acquired-by-zendesk",
+                "date": "2024-02-13"
+              },
+              {
+                "name": "tracxn.com",
+                "document": "https://tracxn.com/d/companies/klaus/__caJc5TKxE2PXIYxiSY9PqIYKFJ7LJbFh9L1xAAugkcc/funding-and-investors",
+                "date": "2026-08-25"
+              }
+            ],
+            "event_date": "2022-09-29",
+            "id": "57ea31b6-8fa3-4c0f-b31f-7a019909abcb"
+          }
+        },
+        {
+          "id": "d7433983-418f-481e-8375-c181cdfdba65",
+          "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+          "entity_type": "PrivateCompanyFundingRound",
+          "properties": {
+            "role": "ISSUER",
+            "sources": [
+              {
+                "name": "Klaus, the 'conversation review' tool for support teams, picks up $1.9M seed | TechCrunch",
+                "document": "https://techcrunch.com/2019/07/03/klaus",
+                "date": "2019-07-03"
+              },
+              {
+                "name": "AI-powered Estonian QA startup Klaus acquired by Zendesk | TechCrunch",
+                "document": "https://techcrunch.com/2024/02/13/ai-powered-estonian-qa-startup-klaus-acquired-by-zendesk",
+                "date": "2024-02-13"
+              },
+              {
+                "name": "tracxn.com",
+                "document": "https://tracxn.com/d/companies/klaus/__caJc5TKxE2PXIYxiSY9PqIYKFJ7LJbFh9L1xAAugkcc/funding-and-investors",
+                "date": "2026-08-25"
+              }
+            ],
+            "event_date": "2019-07-03",
+            "id": "5a2873bf-0b04-4f99-91f7-7ed1247c7d8a"
+          }
+        }
+      ]
+    },
+    "incoming": {}
+  },
+  "numerical_observations": []
+}

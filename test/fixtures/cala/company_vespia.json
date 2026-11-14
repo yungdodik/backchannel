@@ -1,0 +1,236 @@
+{
+  "id": "1281e10a-7a2e-4f4b-a6e1-548c32178126",
+  "name": "Vespia OÜ",
+  "entity_type": "Company",
+  "description": "Estonian fintech and software services company founded in 2020 and headquartered in Maardu.",
+  "properties": {
+    "description": {
+      "value": "Estonian fintech and software services company founded in 2020 and headquartered in Maardu.",
+      "sources": [
+        {
+          "name": "Cala AI",
+          "document": "",
+          "date": "2026-08-20"
+        }
+      ]
+    },
+    "founding_date": {
+      "value": "2020-07-28",
+      "sources": [
+        {
+          "name": "GLEIF",
+          "document": "https://search.gleif.org/#/record/648897NWI56MH1UI6677",
+          "date": "2026-07-13"
+        }
+      ]
+    }
+  },
+  "relationships": {
+    "outgoing": {
+      "PARTICIPATES_IN_CORPORATE_EVENT": [
+        {
+          "id": "8781d84b-4862-475c-bd86-2b9bfa637fdc",
+          "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+          "entity_type": "PrivateCompanyFundingRound",
+          "properties": {
+            "role": "ISSUER",
+            "sources": [
+              {
+                "name": "Estonian Icebreaker.vc exits from Vespia",
+                "document": "https://www.balticvc.com/2026/02/estonian-icebreakervc-exits-from-vespia.html",
+                "date": "2026-02-06"
+              },
+              {
+                "name": "EXIT: Icebreaker.vc portfolio company Vespia has been acquired by Veriff | EstVCA",
+                "document": "https://www.estvca.ee/news/exit-icebreaker-vc-portfolio-company-vespia-has-been-acquired-by-veriff",
+                "date": "2026-02-06"
+              }
+            ],
+            "id": "7523afef-2ae9-4de8-9c74-3066fe51eafa"
+          }
+        },
+        {
+          "id": "ccfec275-1d74-497d-94c4-bbd3a43320d5",
+          "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+          "entity_type": "PrivateCompanyFundingRound",
+          "properties": {
+            "role": "ISSUER",
+            "sources": [
+              {
+                "name": "www.veriff.com",
+                "document": "https://www.veriff.com/pr-news/kyb-business-verification",
+                "date": "2026-06-10"
+              },
+              {
+                "name": "pitchbook.com",
+                "document": "https://pitchbook.com/profiles/company/182847-25",
+                "date": "2026-06-10"
+              },
+              {
+                "name": "Vespia",
+                "document": "https://www.cbinsights.com/company/vespia/financials",
+                "date": "2022-09-22"
+              }
+            ],
+            "event_date": "2026-02-05",
+            "id": "6e243650-4b45-41f0-b7a6-6fae278d54bf"
+          }
+        },
+        {
+          "id": "fd356ed9-7e2d-4c17-a837-9f36ac3e37af",
+          "name": "FINANCING_RAISED_OR_FACILITY_ENTERED",
+          "entity_type": "PrivateCompanyFundingRound",
+          "properties": {
+            "role": "ISSUER",
+            "sources": [
+              {
+                "name": "Estonian Icebreaker.vc exits from Vespia",
+                "document": "https://www.balticvc.com/2026/02/estonian-icebreakervc-exits-from-vespia.html",
+                "date": "2026-02-06"
+              },
+              {
+                "name": "#estonia #startup #startups #tech #technology #technologies #technologynews #technews #deal #deals #venturecapital #vc | BalticVC",
+                "document": "https://www.linkedin.com/posts/balticvc_estonia-startup-startups-activity-7428032939713667072-hfCx",
+                "date": "2026-02-13"
+              }
+            ],
+            "id": "ed61d2fd-1c44-446a-8bdb-7abb5d166007"
+          }
+        }
+      ]
+    },
+    "incoming": {
+      "FOUNDED": [
+        {
+          "id": "4b22bfb4-8af8-4879-9b48-c31787b52642",
+          "name": "Julia Ront",
+          "entity_type": "Person",
+          "properties": {
+            "sources": [
+              {
+                "name": "www.veriff.com",
+                "document": "https://www.veriff.com/pr-news/kyb-business-verification",
+                "date": "2026-08-20"
+              },
+              {
+                "name": "www.crunchbase.com",
+                "document": "https://www.crunchbase.com/organization/vespia",
+                "date": "2026-08-20"
+              },
+              {
+                "name": "medium.com",
+                "document": "https://medium.com/icebreakervc/julia-ront-ceo-co-founder-of-vespia-breaking-biases-e70b6ed65726",
+                "date": "2026-08-20"
+              },
+              {
+                "name": "TEHING ⟩ Veriff omandab KYB ettevõtte Vespia",
+                "document": "https://majandus.postimees.ee/8410277/tehing-veriff-omandab-kyb-ettevotte-vespia",
+                "date": "2026-02-05"
+              },
+              {
+                "name": "ee.linkedin.com",
+                "document": "https://ee.linkedin.com/in/aml-compliance",
+                "date": "2026-08-20"
+              },
+              {
+                "name": "EXIT: Icebreaker.vc portfolio company Vespia has been acquired by Veriff | EstVCA",
+                "document": "https://www.estvca.ee/news/exit-icebreaker-vc-portfolio-company-vespia-has-been-acquired-by-veriff",
+                "date": "2026-02-06"
+              },
+              {
+                "name": "‘Digital identity passports for companies?’ Vespia’s flaming RegTech revolution - e-Estonia",
+                "document": "https://e-estonia.com/digital-identity-passports-for-companies-vespias-flaming-regtech-revolution",
+                "date": "2022-06-22"
+              }
+            ],
+            "id": "c61e3412-87e5-4c6d-899f-16e9a36e1dcf"
+          }
+        },
+        {
+          "id": "95402426-582b-5151-a541-b2f30d3f9516",
+          "name": "Anton Vedeshin",
+          "entity_type": "Person",
+          "properties": {
+            "sources": [
+              {
+                "name": "www.veriff.com",
+                "document": "https://www.veriff.com/pr-news/kyb-business-verification",
+                "date": "2026-08-20"
+              },
+              {
+                "name": "www.crunchbase.com",
+                "document": "https://www.crunchbase.com/organization/vespia",
+                "date": "2026-08-20"
+              },
+              {
+                "name": "TEHING ⟩ Veriff omandab KYB ettevõtte Vespia",
+                "document": "https://majandus.postimees.ee/8410277/tehing-veriff-omandab-kyb-ettevotte-vespia",
+                "date": "2026-02-05"
+              },
+              {
+                "name": "Vespia Unveils AI-Powered Business Verification Solution to Counter Money Laundering",
+                "document": "https://www.financemagnates.com/thought-leadership/vespia-unveils-ai-powered-business-verification-solution-to-counter-money-laundering",
+                "date": "2023-05-16"
+              },
+              {
+                "name": "EXIT: Icebreaker.vc portfolio company Vespia has been acquired by Veriff | EstVCA",
+                "document": "https://www.estvca.ee/news/exit-icebreaker-vc-portfolio-company-vespia-has-been-acquired-by-veriff",
+                "date": "2026-02-06"
+              }
+            ],
+            "id": "5bd58416-4f76-417c-a7ad-0040fce720ec"
+          }
+        }
+      ],
+      "WORKS_AT": [
+        {
+          "id": "4b22bfb4-8af8-4879-9b48-c31787b52642",
+          "name": "Julia Ront",
+          "entity_type": "Person",
+          "properties": {
+            "role": "CEO",
+            "sources": [
+              {
+                "name": "www.veriff.com",
+                "document": "https://www.veriff.com/pr-news/kyb-business-verification",
+                "date": "2026-08-20"
+              },
+              {
+                "name": "www.crunchbase.com",
+                "document": "https://www.crunchbase.com/organization/vespia",
+                "date": "2026-08-20"
+              },
+              {
+                "name": "medium.com",
+                "document": "https://medium.com/icebreakervc/julia-ront-ceo-co-founder-of-vespia-breaking-biases-e70b6ed65726",
+                "date": "2026-08-20"
+              },
+              {
+                "name": "TEHING ⟩ Veriff omandab KYB ettevõtte Vespia",
+                "document": "https://majandus.postimees.ee/8410277/tehing-veriff-omandab-kyb-ettevotte-vespia",
+                "date": "2026-02-05"
+              },
+              {
+                "name": "ee.linkedin.com",
+                "document": "https://ee.linkedin.com/in/aml-compliance",
+                "date": "2026-08-20"
+              },
+              {
+                "name": "EXIT: Icebreaker.vc portfolio company Vespia has been acquired by Veriff | EstVCA",
+                "document": "https://www.estvca.ee/news/exit-icebreaker-vc-portfolio-company-vespia-has-been-acquired-by-veriff",
+                "date": "2026-02-06"
+              },
+              {
+                "name": "‘Digital identity passports for companies?’ Vespia’s flaming RegTech revolution - e-Estonia",
+                "document": "https://e-estonia.com/digital-identity-passports-for-companies-vespias-flaming-regtech-revolution",
+                "date": "2022-06-22"
+              }
+            ],
+            "id": "e29b8d10-4a88-425d-b722-d138a5b6a9b5"
+          }
+        }
+      ]
+    }
+  },
+  "numerical_observations": []
+}

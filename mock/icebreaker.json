@@ -42,8 +42,8 @@
           "date": "2026-08-24"
         }
       ],
-      "enriched": false,
-      "description": "Finnish company founded in 2020 and based in Helsinki."
+      "description": "Finnish company founded in 2020 and based in Helsinki.",
+      "state": "pending"
     },
     {
       "calaId": "07a7a3de-5519-48f5-8538-6589a4c6a9e0",
@@ -63,8 +63,8 @@
           "date": "2017-01-01"
         }
       ],
-      "enriched": false,
-      "description": "Provides institutional digital asset lending services, enabling institutions to lend and borrow cryptocurrencies."
+      "description": "Provides institutional digital asset lending services, enabling institutions to lend and borrow cryptocurrencies.",
+      "state": "pending"
     },
     {
       "calaId": "0f3a64e2-48c8-4fd8-8f77-483096cae74c",
@@ -183,8 +183,8 @@
           "date": "2026-08-24"
         }
       ],
-      "enriched": false,
-      "description": "The platform for all your life events."
+      "description": "The platform for all your life events.",
+      "state": "pending"
     },
     {
       "calaId": "1281e10a-7a2e-4f4b-a6e1-548c32178126",
@@ -279,8 +279,8 @@
           "date": "2026-02-06"
         }
       ],
-      "enriched": false,
-      "description": "Estonian fintech and software services company founded in 2020 and headquartered in Maardu."
+      "description": "Estonian fintech and software services company founded in 2020 and headquartered in Maardu.",
+      "state": "pending"
     },
     {
       "calaId": "1370d7cd-70a5-5639-8ad6-4530517f12c9",
@@ -302,13 +302,14 @@
             "Elias Aalto",
             "Johannes Schildt",
             "ALLIANCE VENTURE OSOBA RIZIKOVÉHO KAPITÁLU A.S."
-          ]
+          ],
+          "fundIsLead": null
         }
       ],
       "signals": [
         {
           "kind": "last_round",
-          "text": "Last recorded round: PRE_SEED, 2022-05",
+          "text": "Last recorded round: 2022-05",
           "date": "2022-05-17",
           "sources": [
             {
@@ -327,8 +328,8 @@
           "date": "2022-05-17"
         }
       ],
-      "enriched": true,
-      "lastRoundDate": "2022-05-17"
+      "lastRoundDate": "2022-05-17",
+      "state": "enriched"
     },
     {
       "calaId": "17c5c020-6037-4743-ae24-49a59ec0cbe6",
@@ -353,8 +354,8 @@
           "date": "2026-06-02"
         }
       ],
-      "enriched": false,
-      "description": "Finnish aerospace and defense company based in Helsinki specializing in space technology."
+      "description": "Finnish aerospace and defense company based in Helsinki specializing in space technology.",
+      "state": "pending"
     },
     {
       "calaId": "18b35d73-31f2-4dda-8d4a-7e602e1e8a8d",
@@ -369,8 +370,8 @@
           "date": "2021-01-28"
         }
       ],
-      "enriched": false,
-      "description": "A plug-and-play SaaS platform that automates data lineage to help data teams improve data quality, reliability, governance, and reduce costs."
+      "description": "A plug-and-play SaaS platform that automates data lineage to help data teams improve data quality, reliability, governance, and reduce costs.",
+      "state": "pending"
     },
     {
       "calaId": "1d347b8a-f062-4aec-b2ce-cd64081ec640",
@@ -402,8 +403,8 @@
           "date": "2026-08-24"
         }
       ],
-      "enriched": false,
-      "description": "A company founded in 2020."
+      "description": "A company founded in 2020.",
+      "state": "pending"
     },
     {
       "calaId": "1ece17c7-9a2a-42cc-81f2-6d91ed566f76",
@@ -428,8 +429,8 @@
           "date": "2026-08-24"
         }
       ],
-      "enriched": false,
-      "description": "Digital end-to-end transfer pricing platform for multinational companies"
+      "description": "Digital end-to-end transfer pricing platform for multinational companies",
+      "state": "pending"
     },
     {
       "calaId": "258f92f7-7772-4cfa-8f20-5d5b16facd5d",
@@ -503,8 +504,8 @@
           "date": "2023-03-29"
         }
       ],
-      "enriched": false,
-      "description": "Osgenic provides high-quality resources for faster understanding of what matters in orthopaedics, traumatology and related disciplines."
+      "description": "Osgenic provides high-quality resources for faster understanding of what matters in orthopaedics, traumatology and related disciplines.",
+      "state": "pending"
     },
     {
       "calaId": "28d85aec-8ab8-439c-a74b-205b55f884e4",
@@ -526,12 +527,13 @@
             "Modash OÜ",
             "Change Ventures",
             "HenQ"
-          ]
+          ],
+          "fundIsLead": null
         },
         {
           "calaId": "006c348e-1de9-56e6-af54-b692a888f199",
           "label": "SEED",
-          "date": "2019-01-01",
+          "date": "2022-11-23",
           "amount": "2000000.0 USD",
           "fundIsLead": true,
           "sources": [
@@ -557,13 +559,30 @@
       "signals": [
         {
           "kind": "last_round",
-          "text": "Last recorded round: SERIES_A, 2024-10",
+          "text": "Last recorded round: 2024-10",
           "date": "2024-10-31",
           "sources": [
             {
               "url": "https://bebeez.eu/2024/10/31/estonias-modash-raises-12m-series-a-for-ai-driven-creator-discovery-and-payment-solutions/",
               "name": "bebeez.eu",
               "date": "2024-10-31"
+            }
+          ]
+        },
+        {
+          "kind": "fund_led",
+          "text": "Icebreaker.vc led the SEED round (2022-11)",
+          "date": "2022-11-23",
+          "sources": [
+            {
+              "url": "https://tech.eu/2022/11/23/modash/",
+              "name": "tech.eu",
+              "date": "2022-11-23"
+            },
+            {
+              "url": "https://en.ain.ua/2022/11/24/modash-closes-2m-round",
+              "name": "en.ain.ua",
+              "date": "2022-11-24"
             }
           ]
         },
@@ -580,23 +599,6 @@
               "url": "https://www.modash.io/",
               "name": "modash.io",
               "date": "2026-11-06"
-            }
-          ]
-        },
-        {
-          "kind": "fund_led",
-          "text": "Icebreaker.vc led the SEED round (2019-01)",
-          "date": "2019-01-01",
-          "sources": [
-            {
-              "url": "https://tech.eu/2022/11/23/modash/",
-              "name": "tech.eu",
-              "date": "2022-11-23"
-            },
-            {
-              "url": "https://en.ain.ua/2022/11/24/modash-closes-2m-round",
-              "name": "en.ain.ua",
-              "date": "2022-11-24"
             }
           ]
         }
@@ -669,15 +671,28 @@
           "date": "2024-10-31"
         }
       ],
-      "enriched": true,
       "description": "High performing marketing teams use Modash to find, analyze and monitor influencers at scale all over the world. Join them today.",
-      "lastRoundDate": "2024-10-31"
+      "lastRoundDate": "2024-10-31",
+      "state": "enriched"
     },
     {
       "calaId": "2fcbdac0-4027-4b78-8a5b-67a99447ca81",
       "name": "Klaus",
       "rounds": [],
-      "signals": [],
+      "signals": [
+        {
+          "kind": "news_event",
+          "text": "[mock] Reported acquisition (techcrunch.com, 2024-02)",
+          "date": "2024-02-13",
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2024/02/13/ai-powered-estonian-qa-startup-klaus-acquired-by-zendesk",
+              "name": "[mock, unverified URL] TechCrunch",
+              "date": "2024-02-13"
+            }
+          ]
+        }
+      ],
       "founders": [],
       "sources": [
         {
@@ -691,8 +706,8 @@
           "date": "2026-08-24"
         }
       ],
-      "enriched": false,
-      "description": "AI-powered customer service quality management platform (acquired by Zendesk)"
+      "description": "AI-powered customer service quality management platform (acquired by Zendesk)",
+      "state": "enriched"
     },
     {
       "calaId": "32d9d83a-1a7b-4fde-9a53-a2a65f1a4013",
@@ -712,8 +727,8 @@
           "date": "2026-08-24"
         }
       ],
-      "enriched": false,
-      "description": "Digital platform connecting elderly people with helpers for daily tasks"
+      "description": "Digital platform connecting elderly people with helpers for daily tasks",
+      "state": "pending"
     },
     {
       "calaId": "3318442e-624e-4c94-8b0f-5f93c39a34fa",
@@ -728,8 +743,8 @@
           "date": "2026-08-24"
         }
       ],
-      "enriched": false,
-      "description": "An automated dropshipping app for Shopify, WooCommerce, and Wix, connecting merchants with products from European and US brands and suppliers."
+      "description": "An automated dropshipping app for Shopify, WooCommerce, and Wix, connecting merchants with products from European and US brands and suppliers.",
+      "state": "pending"
     },
     {
       "calaId": "332ba5ea-5dae-4a95-a2fc-54909c980eb3",
@@ -754,8 +769,8 @@
           "date": "2022-12-04"
         }
       ],
-      "enriched": false,
-      "description": "Builds a secure interoperability layer for healthcare, enabling seamless data exchange across clinics and technology vendors to reduce friction in clinical workflows."
+      "description": "Builds a secure interoperability layer for healthcare, enabling seamless data exchange across clinics and technology vendors to reduce friction in clinical workflows.",
+      "state": "pending"
     },
     {
       "calaId": "359b98de-094c-4986-9923-5fee49b5530c",
@@ -770,7 +785,7 @@
           "date": "2026-08-24"
         }
       ],
-      "enriched": false
+      "state": "pending"
     },
     {
       "calaId": "3fc18fd1-d404-4b59-a629-383a987445c9",
@@ -795,7 +810,7 @@
           "date": "2026-08-24"
         }
       ],
-      "enriched": false
+      "state": "pending"
     },
     {
       "calaId": "43f3f0d1-3535-486b-b0cb-6c3aaf6e27ff",
@@ -815,7 +830,7 @@
           "date": "2026-08-24"
         }
       ],
-      "enriched": false
+      "state": "pending"
     },
     {
       "calaId": "45558335-1532-47ca-9fea-91ec28d33766",
@@ -835,7 +850,7 @@
           "date": "2026-02-06"
         }
       ],
-      "enriched": false
+      "state": "pending"
     },
     {
       "calaId": "4e91b640-41bb-45f7-b82c-711a94a2e0e5",
@@ -862,7 +877,8 @@
             "Varma Mutual Pension Insurance Company",
             "RETTIG GROUP OY AB",
             "Veikko Laine Oy"
-          ]
+          ],
+          "fundIsLead": null
         },
         {
           "calaId": "c22b96a7-60b5-5260-9a43-dfa5886f3b16",
@@ -882,7 +898,7 @@
       "signals": [
         {
           "kind": "last_round",
-          "text": "Last recorded round: SERIES_A, 2022-05",
+          "text": "Last recorded round: 2022-05",
           "date": "2022-05-19",
           "sources": [
             {
@@ -928,8 +944,8 @@
           "date": "2021-03-05"
         }
       ],
-      "enriched": true,
-      "lastRoundDate": "2022-05-19"
+      "lastRoundDate": "2022-05-19",
+      "state": "enriched"
     },
     {
       "calaId": "517d6c7d-fc0b-4b97-897a-4ef5c2f62f10",
@@ -954,7 +970,7 @@
           "date": "2026-08-25"
         }
       ],
-      "enriched": false
+      "state": "pending"
     },
     {
       "calaId": "55b24791-7df1-45a8-a4f8-e65f45c0ad0b",
@@ -974,7 +990,7 @@
           "date": "2026-04-08"
         }
       ],
-      "enriched": false
+      "state": "pending"
     },
     {
       "calaId": "5f625f67-a19d-43d0-9f95-3b4e67943d05",
@@ -999,7 +1015,7 @@
           "date": "2020-09-03"
         }
       ],
-      "enriched": false
+      "state": "pending"
     },
     {
       "calaId": "6ef526d5-ed22-4dd8-8c1a-ec68a9c40a93",
@@ -1024,7 +1040,7 @@
           "date": "2026-08-24"
         }
       ],
-      "enriched": false
+      "state": "pending"
     },
     {
       "calaId": "701ce45d-b557-4642-812b-eebd66f60d93",
@@ -1039,7 +1055,7 @@
           "date": "2026-08-24"
         }
       ],
-      "enriched": false
+      "state": "pending"
     },
     {
       "calaId": "72561338-dccc-454b-a12e-acad6f73837f",
@@ -1059,7 +1075,7 @@
           "date": "2017-01-26"
         }
       ],
-      "enriched": false
+      "state": "pending"
     },
     {
       "calaId": "734fbd38-7969-43d3-a47f-b953e4fe232b",
@@ -1079,7 +1095,7 @@
           "date": "2026-02-06"
         }
       ],
-      "enriched": false
+      "state": "pending"
     },
     {
       "calaId": "7f89f651-ba07-4218-a367-9f0f839dbf71",
@@ -1094,7 +1110,7 @@
           "date": "2026-08-24"
         }
       ],
-      "enriched": false
+      "state": "pending"
     },
     {
       "calaId": "8159469d-35ec-4956-ae63-98852911a998",
@@ -1119,7 +1135,7 @@
           "date": "2020-09-03"
         }
       ],
-      "enriched": false
+      "state": "pending"
     },
     {
       "calaId": "826eb696-eb63-4aac-ba42-cee82552ad20",
@@ -1134,7 +1150,7 @@
           "date": "2021-01-28"
         }
       ],
-      "enriched": false
+      "state": "pending"
     },
     {
       "calaId": "8502a550-46b3-4790-b869-c450eb925672",
@@ -1176,7 +1192,7 @@
       "signals": [
         {
           "kind": "last_round",
-          "text": "Last recorded round: PRE_SEED, 2025-10",
+          "text": "Last recorded round: 2025-10",
           "date": "2025-10-31",
           "sources": [
             {
@@ -1262,8 +1278,8 @@
           "date": "2026-11-13"
         }
       ],
-      "enriched": true,
-      "lastRoundDate": "2025-10-31"
+      "lastRoundDate": "2025-10-31",
+      "state": "enriched"
     },
     {
       "calaId": "85c41f1c-b4b6-4680-b029-d4c71dc9a9b9",
@@ -1288,7 +1304,7 @@
           "date": "2026-08-24"
         }
       ],
-      "enriched": false
+      "state": "pending"
     },
     {
       "calaId": "89888bda-2012-418d-b8b9-ae9368306ecf",
@@ -1313,7 +1329,7 @@
           "date": "2026-05-10"
         }
       ],
-      "enriched": false
+      "state": "pending"
     },
     {
       "calaId": "8e416e4e-1947-4dde-ba6e-a1a07228867c",
@@ -1328,7 +1344,7 @@
           "date": "2026-04-20"
         }
       ],
-      "enriched": false
+      "state": "pending"
     },
     {
       "calaId": "8e7dc3e9-e10a-4f41-9ade-4e2e1504680e",
@@ -1348,7 +1364,7 @@
           "date": "2026-08-24"
         }
       ],
-      "enriched": false
+      "state": "pending"
     },
     {
       "calaId": "91c46bd3-b0e2-4b6a-b4b0-4f0734627703",
@@ -1363,7 +1379,7 @@
           "date": "2021-01-28"
         }
       ],
-      "enriched": false
+      "state": "pending"
     },
     {
       "calaId": "93aea4b5-068c-4218-b61e-8eecfe2b1f5b",
@@ -1378,7 +1394,7 @@
           "date": "2026-08-24"
         }
       ],
-      "enriched": false
+      "state": "pending"
     },
     {
       "calaId": "9a138617-86b6-564f-b183-490e264459e1",
@@ -1404,13 +1420,14 @@
           "coInvestors": [
             "Bonnier Capital AB",
             "Sonae IM"
-          ]
+          ],
+          "fundIsLead": null
         }
       ],
       "signals": [
         {
           "kind": "last_round",
-          "text": "Last recorded round: SERIES_A, 2021-03",
+          "text": "Last recorded round: 2021-03",
           "date": "2021-03-23",
           "sources": [
             {
@@ -1439,8 +1456,8 @@
           "date": "2021-03-23"
         }
       ],
-      "enriched": true,
-      "lastRoundDate": "2021-03-23"
+      "lastRoundDate": "2021-03-23",
+      "state": "enriched"
     },
     {
       "calaId": "9b87212a-ceb8-4887-a6e6-c64b0cda9a43",
@@ -1465,7 +1482,7 @@
           "date": "2026-08-24"
         }
       ],
-      "enriched": false
+      "state": "pending"
     },
     {
       "calaId": "a5568f00-2a99-4fa1-9110-3c134112fcb1",
@@ -1480,7 +1497,7 @@
           "date": "2026-08-24"
         }
       ],
-      "enriched": false
+      "state": "pending"
     },
     {
       "calaId": "b64a3cd3-5541-4b49-94d7-d4bdabdc51af",
@@ -1500,7 +1517,7 @@
           "date": "2026-08-24"
         }
       ],
-      "enriched": false
+      "state": "pending"
     },
     {
       "calaId": "cadf8009-d7e4-41aa-83ff-540accfe7f8a",
@@ -1525,7 +1542,7 @@
           "date": "2026-08-24"
         }
       ],
-      "enriched": false
+      "state": "pending"
     },
     {
       "calaId": "cc75e3f7-3e62-4964-abcb-9bfe5f4b8bc1",
@@ -1550,7 +1567,7 @@
           "date": "2026-07-27"
         }
       ],
-      "enriched": false
+      "state": "pending"
     },
     {
       "calaId": "d17e0abf-0a57-4574-820b-822e5cac6308",
@@ -1582,7 +1599,7 @@
       "signals": [
         {
           "kind": "last_round",
-          "text": "Last recorded round: SEED, 2025-04",
+          "text": "Last recorded round: 2025-04",
           "date": "2025-04-03",
           "sources": [
             {
@@ -1628,8 +1645,8 @@
           "date": "2025-04-03"
         }
       ],
-      "enriched": true,
-      "lastRoundDate": "2025-04-03"
+      "lastRoundDate": "2025-04-03",
+      "state": "enriched"
     },
     {
       "calaId": "d24577b7-ce7c-54a0-90ac-274cab40c065",
@@ -1659,7 +1676,7 @@
       "signals": [
         {
           "kind": "last_round",
-          "text": "Last recorded round: PRE_SEED, 2026-11",
+          "text": "Last recorded round: 2026-11",
           "date": "2026-11-13",
           "sources": [
             {
@@ -1705,8 +1722,8 @@
           "date": "2026-11-13"
         }
       ],
-      "enriched": true,
-      "lastRoundDate": "2026-11-13"
+      "lastRoundDate": "2026-11-13",
+      "state": "enriched"
     },
     {
       "calaId": "d3f9304b-8ffd-46d6-bf90-a40993bc1cd2",
@@ -1726,7 +1743,7 @@
           "date": "2026-08-24"
         }
       ],
-      "enriched": false
+      "state": "pending"
     },
     {
       "calaId": "d582b19b-00db-4851-9644-59baacc5cb4b",
@@ -1753,7 +1770,8 @@
             "Hannu Turunen",
             "Leo Capital",
             "Great North Ventures"
-          ]
+          ],
+          "fundIsLead": null
         },
         {
           "calaId": "dc3c0996-cf0e-5730-87a9-770ec5e1945b",
@@ -1766,13 +1784,14 @@
               "date": "2023-12-30"
             }
           ],
-          "coInvestors": []
+          "coInvestors": [],
+          "fundIsLead": null
         }
       ],
       "signals": [
         {
           "kind": "last_round",
-          "text": "Last recorded round: SEED, 2025-09",
+          "text": "Last recorded round: 2025-09",
           "date": "2025-09-15",
           "sources": [
             {
@@ -1796,8 +1815,8 @@
           "date": "2023-12-30"
         }
       ],
-      "enriched": true,
-      "lastRoundDate": "2025-09-15"
+      "lastRoundDate": "2025-09-15",
+      "state": "enriched"
     },
     {
       "calaId": "d7106c50-2d55-4172-a242-8f997e4f89d5",
@@ -1812,7 +1831,7 @@
           "date": "2021-01-28"
         }
       ],
-      "enriched": false
+      "state": "pending"
     },
     {
       "calaId": "d71148bb-4c54-423c-883c-be4abaf9cc65",
@@ -1837,7 +1856,7 @@
           "date": "2026-11-13"
         }
       ],
-      "enriched": false
+      "state": "pending"
     },
     {
       "calaId": "d71306ad-ba56-4846-8a33-1cc1914f9d0f",
@@ -1852,7 +1871,7 @@
           "date": "2021-01-28"
         }
       ],
-      "enriched": false
+      "state": "pending"
     },
     {
       "calaId": "da87c715-6d32-52c7-b107-aeee58229f79",
@@ -1870,7 +1889,8 @@
               "date": "2026-11-09"
             }
           ],
-          "coInvestors": []
+          "coInvestors": [],
+          "fundIsLead": null
         },
         {
           "calaId": "e5f6bc72-6056-56d0-9bc9-0c9c196b5338",
@@ -1892,7 +1912,8 @@
           "coInvestors": [
             "Sapphire Sport (MGP), LLC",
             "Global Founders Capital"
-          ]
+          ],
+          "fundIsLead": null
         },
         {
           "calaId": "bc0e15a9-6587-562b-b780-61732e526c35",
@@ -1909,13 +1930,14 @@
           "coInvestors": [
             "Business Finland Oy",
             "Global Founders Capital"
-          ]
+          ],
+          "fundIsLead": null
         }
       ],
       "signals": [
         {
           "kind": "last_round",
-          "text": "Last recorded round: SEED, 2026-11",
+          "text": "Last recorded round: 2026-11",
           "date": "2026-11-09",
           "sources": [
             {
@@ -1934,8 +1956,8 @@
           "date": "2019-12-09"
         }
       ],
-      "enriched": true,
-      "lastRoundDate": "2026-11-09"
+      "lastRoundDate": "2026-11-09",
+      "state": "enriched"
     },
     {
       "calaId": "dd64c2b7-b551-4322-ac10-57fa4eead37e",
@@ -1968,13 +1990,14 @@
             "Spintop Ventures",
             "Join Capital GmbH",
             "ActivumSG"
-          ]
+          ],
+          "fundIsLead": null
         }
       ],
       "signals": [
         {
           "kind": "last_round",
-          "text": "Last recorded round: PRE_SEED, 2018-04",
+          "text": "Last recorded round: 2018-04",
           "date": "2018-04-01",
           "sources": [
             {
@@ -2023,8 +2046,8 @@
           "date": "2021-01-07"
         }
       ],
-      "enriched": true,
-      "lastRoundDate": "2018-04-01"
+      "lastRoundDate": "2018-04-01",
+      "state": "enriched"
     },
     {
       "calaId": "eb012d31-2b1c-4bca-9523-9bd8710f5891",
@@ -2049,7 +2072,7 @@
           "date": "2026-05-10"
         }
       ],
-      "enriched": false
+      "state": "pending"
     },
     {
       "calaId": "ef7781cd-5b49-415b-be03-09891bd4e84e",
@@ -2069,7 +2092,7 @@
           "date": "2017-01-01"
         }
       ],
-      "enriched": false
+      "state": "pending"
     },
     {
       "calaId": "f495c031-5680-416a-9c67-3be77b257269",
@@ -2084,7 +2107,7 @@
           "date": "2026-08-24"
         }
       ],
-      "enriched": false
+      "state": "pending"
     },
     {
       "calaId": "f8441c16-1ef2-4530-ab7c-f686dbd9a56b",
@@ -2104,7 +2127,7 @@
           "date": "2017-01-26"
         }
       ],
-      "enriched": false
+      "state": "pending"
     },
     {
       "calaId": "f96945c0-23f5-4e68-a54c-f8e1ef9b3681",
@@ -2119,7 +2142,7 @@
           "date": "2026-08-25"
         }
       ],
-      "enriched": false
+      "state": "pending"
     },
     {
       "calaId": "ff73ebe2-0270-4ce2-9e4a-f8ccf2fda9d1",
@@ -2139,7 +2162,7 @@
           "date": "2024-09-11"
         }
       ],
-      "enriched": false
+      "state": "pending"
     }
   ],
   "callList": [
@@ -2177,13 +2200,30 @@
       "why": [
         {
           "kind": "last_round",
-          "text": "Last recorded round: SERIES_A, 2024-10",
+          "text": "Last recorded round: 2024-10",
           "date": "2024-10-31",
           "sources": [
             {
               "url": "https://bebeez.eu/2024/10/31/estonias-modash-raises-12m-series-a-for-ai-driven-creator-discovery-and-payment-solutions/",
               "name": "bebeez.eu",
               "date": "2024-10-31"
+            }
+          ]
+        },
+        {
+          "kind": "fund_led",
+          "text": "Icebreaker.vc led the SEED round (2022-11)",
+          "date": "2022-11-23",
+          "sources": [
+            {
+              "url": "https://tech.eu/2022/11/23/modash/",
+              "name": "tech.eu",
+              "date": "2022-11-23"
+            },
+            {
+              "url": "https://en.ain.ua/2022/11/24/modash-closes-2m-round",
+              "name": "en.ain.ua",
+              "date": "2022-11-24"
             }
           ]
         },
@@ -2200,23 +2240,6 @@
               "url": "https://www.modash.io/",
               "name": "modash.io",
               "date": "2026-11-06"
-            }
-          ]
-        },
-        {
-          "kind": "fund_led",
-          "text": "Icebreaker.vc led the SEED round (2019-01)",
-          "date": "2019-01-01",
-          "sources": [
-            {
-              "url": "https://tech.eu/2022/11/23/modash/",
-              "name": "tech.eu",
-              "date": "2022-11-23"
-            },
-            {
-              "url": "https://en.ain.ua/2022/11/24/modash-closes-2m-round",
-              "name": "en.ain.ua",
-              "date": "2022-11-24"
             }
           ]
         }
@@ -2241,7 +2264,7 @@
       "why": [
         {
           "kind": "last_round",
-          "text": "Last recorded round: PRE_SEED, 2022-05",
+          "text": "Last recorded round: 2022-05",
           "date": "2022-05-17",
           "sources": [
             {
@@ -2272,7 +2295,7 @@
       "why": [
         {
           "kind": "last_round",
-          "text": "Last recorded round: SERIES_A, 2022-05",
+          "text": "Last recorded round: 2022-05",
           "date": "2022-05-19",
           "sources": [
             {
@@ -2320,7 +2343,7 @@
       "why": [
         {
           "kind": "last_round",
-          "text": "Last recorded round: PRE_SEED, 2025-10",
+          "text": "Last recorded round: 2025-10",
           "date": "2025-10-31",
           "sources": [
             {
@@ -2393,7 +2416,7 @@
       "why": [
         {
           "kind": "last_round",
-          "text": "Last recorded round: SERIES_A, 2021-03",
+          "text": "Last recorded round: 2021-03",
           "date": "2021-03-23",
           "sources": [
             {
@@ -2429,7 +2452,7 @@
       "why": [
         {
           "kind": "last_round",
-          "text": "Last recorded round: SEED, 2025-04",
+          "text": "Last recorded round: 2025-04",
           "date": "2025-04-03",
           "sources": [
             {
@@ -2482,7 +2505,7 @@
       "why": [
         {
           "kind": "last_round",
-          "text": "Last recorded round: PRE_SEED, 2026-11",
+          "text": "Last recorded round: 2026-11",
           "date": "2026-11-13",
           "sources": [
             {
@@ -2535,7 +2558,7 @@
       "why": [
         {
           "kind": "last_round",
-          "text": "Last recorded round: SEED, 2025-09",
+          "text": "Last recorded round: 2025-09",
           "date": "2025-09-15",
           "sources": [
             {
@@ -2571,7 +2594,7 @@
       "why": [
         {
           "kind": "last_round",
-          "text": "Last recorded round: SEED, 2026-11",
+          "text": "Last recorded round: 2026-11",
           "date": "2026-11-09",
           "sources": [
             {
@@ -2602,7 +2625,7 @@
       "why": [
         {
           "kind": "last_round",
-          "text": "Last recorded round: PRE_SEED, 2018-04",
+          "text": "Last recorded round: 2018-04",
           "date": "2018-04-01",
           "sources": [
             {
@@ -2626,6 +2649,43 @@
       "questions": [
         "[mock] How did the fund behave when you needed a bridge?",
         "[mock] Did they help with the next round?",
+        "[mock] Would you take their money again?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "2fcbdac0-4027-4b78-8a5b-67a99447ca81",
+      "companyName": "Klaus",
+      "founder": {
+        "name": "Kair Käsper",
+        "linkedinUrl": "https://ee.linkedin.com/in/kair",
+        "via": "exa+gemini",
+        "evidence": "[mock] Co-founder, Klaus",
+        "sources": [
+          {
+            "url": "https://ee.linkedin.com/in/kair",
+            "name": "LinkedIn"
+          }
+        ]
+      },
+      "group": "news_event",
+      "why": [
+        {
+          "kind": "news_event",
+          "text": "[mock] Reported acquisition (techcrunch.com, 2024-02)",
+          "date": "2024-02-13",
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2024/02/13/ai-powered-estonian-qa-startup-klaus-acquired-by-zendesk",
+              "name": "[mock, unverified URL] TechCrunch",
+              "date": "2024-02-13"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "[mock] How involved was the fund in the acquisition talks?",
+        "[mock] Did they push for or against the sale?",
         "[mock] Would you take their money again?"
       ],
       "writing": []

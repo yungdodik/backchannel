@@ -1,0 +1,1640 @@
+{
+  "id": "70fb3317-cd8c-4c52-aa86-66502789bce3",
+  "name": "Icebreaker.vc",
+  "entity_type": "Company",
+  "description": "Nordic early-stage VC firm backing teams at the earliest stages with €120M Fund III.",
+  "properties": {},
+  "relationships": {
+    "outgoing": {
+      "INVESTED_IN": [
+        {
+          "id": "020ce4f1-d0d0-4b59-9d96-e324a1497a6a",
+          "name": "FLOWHAVEN OY",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+                "document": "https://www.icebreaker.vc",
+                "date": "2021-01-28"
+              },
+              {
+                "name": "The Hub | Funding | Icebreaker.vc",
+                "document": "https://thehub.io/funding/icebreaker",
+                "date": "2017-01-26"
+              },
+              {
+                "name": "www.finsmes.com",
+                "document": "https://www.finsmes.com/tag/icebreaker-vc",
+                "date": "2026-08-24"
+              }
+            ],
+            "id": "07b07c11-8f3b-47d0-91e0-297f421d8e51"
+          }
+        },
+        {
+          "id": "07a7a3de-5519-48f5-8538-6589a4c6a9e0",
+          "name": "Tesseract",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+                "document": "https://www.icebreaker.vc",
+                "date": "2021-01-28"
+              },
+              {
+                "name": "Icebreaker.vc: The Early Stage Founder's Guide",
+                "document": "https://superscout.co/investor/icebreaker-vc",
+                "date": "2017-01-01"
+              }
+            ],
+            "id": "faa55790-d638-4bd6-b9ec-879ce27d8b2c"
+          }
+        },
+        {
+          "id": "0f3a64e2-48c8-4fd8-8f77-483096cae74c",
+          "name": "Joy",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "unicorn-nest.com",
+                "document": "https://unicorn-nest.com/funds/icebreaker-vc",
+                "date": "2026-08-24"
+              }
+            ],
+            "id": "b11b9961-49e9-4db0-8587-038ef735f112"
+          }
+        },
+        {
+          "id": "1281e10a-7a2e-4f4b-a6e1-548c32178126",
+          "name": "Vespia OÜ",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "EXIT: Icebreaker.vc portfolio company Vespia has been acquired by Veriff | EstVCA",
+                "document": "https://estvca.ee/news/exit-icebreaker-vc-portfolio-company-vespia-has-been-acquired-by-veriff",
+                "date": "2026-02-06"
+              },
+              {
+                "name": "Estonian Icebreaker.vc exits from Vespia",
+                "document": "https://www.balticvc.com/2026/02/estonian-icebreakervc-exits-from-vespia.html",
+                "date": "2026-02-06"
+              }
+            ],
+            "id": "af91f6ef-74c5-46ff-a5d5-53e38d91dfeb"
+          }
+        },
+        {
+          "id": "1370d7cd-70a5-5639-8ad6-4530517f12c9",
+          "name": "Hemby",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "en.ain.ua",
+                "document": "https://en.ain.ua/2022/05/17/helppy-secures-3m",
+                "date": "2022-05-17",
+                "date_precision": "day",
+                "source_rank": "PRESS"
+              }
+            ],
+            "id": "44877d6c-bc10-4e7e-a37a-2224ac5d4139"
+          }
+        },
+        {
+          "id": "17c5c020-6037-4743-ae24-49a59ec0cbe6",
+          "name": "ReOrbit",
+          "entity_type": "Organization",
+          "properties": {
+            "sources": [
+              {
+                "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+                "document": "https://www.icebreaker.vc",
+                "date": "2021-01-28"
+              },
+              {
+                "name": "Icebreaker.vc: The Early Stage Founder's Guide",
+                "document": "https://superscout.co/investor/icebreaker-vc",
+                "date": "2017-01-01"
+              },
+              {
+                "name": "Icebreaker.vc Company Overview, Contact Details & Competitors | LeadIQ",
+                "document": "https://leadiq.com/c/icebreakervc/5a1daee62300005c00a59559",
+                "date": "2026-06-02"
+              }
+            ],
+            "id": "d3faf9f7-f374-4345-b4b0-fa51a0f1a8d6"
+          }
+        },
+        {
+          "id": "18b35d73-31f2-4dda-8d4a-7e602e1e8a8d",
+          "name": "Alvin",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+                "document": "https://www.icebreaker.vc",
+                "date": "2021-01-28"
+              }
+            ],
+            "id": "99fcf52d-d054-4cf5-be45-4b1bc5b4afb7"
+          }
+        },
+        {
+          "id": "1d347b8a-f062-4aec-b2ce-cd64081ec640",
+          "name": "DASHBIRD INC.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "medium.com",
+                "document": "https://medium.com/icebreakervc/dashbird-raises-2-1-7c009c2cb992",
+                "date": "2026-08-24"
+              },
+              {
+                "name": "www.eu-startups.com",
+                "document": "https://www.eu-startups.com/tag/icebreaker-vc",
+                "date": "2026-08-24"
+              }
+            ],
+            "id": "c4e7e3ab-c729-41e8-a10b-e5a86287f2ac"
+          }
+        },
+        {
+          "id": "1ece17c7-9a2a-42cc-81f2-6d91ed566f76",
+          "name": "Aibidia",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+                "document": "https://www.icebreaker.vc",
+                "date": "2021-01-28"
+              },
+              {
+                "name": "Icebreaker.vc: The Early Stage Founder's Guide",
+                "document": "https://superscout.co/investor/icebreaker-vc",
+                "date": "2017-01-01"
+              },
+              {
+                "name": "www.finsmes.com",
+                "document": "https://www.finsmes.com/tag/icebreaker-vc",
+                "date": "2026-08-24"
+              }
+            ],
+            "id": "d794605c-a9bf-456f-a8f2-9a44842e915b"
+          }
+        },
+        {
+          "id": "258f92f7-7772-4cfa-8f20-5d5b16facd5d",
+          "name": "Osgenic Oy",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "www.success.ai",
+                "document": "https://www.success.ai/profile/Lasse-Lehtinen-755744597586",
+                "date": "2026-08-24"
+              },
+              {
+                "name": "Icebreaker.vc",
+                "document": "https://fundingtrip.com/f/icebreakervc",
+                "date": "2023-03-29"
+              }
+            ],
+            "id": "8f0aba86-5dd7-42a2-9bf5-150d90fbfd26"
+          }
+        },
+        {
+          "id": "28d85aec-8ab8-439c-a74b-205b55f884e4",
+          "name": "Modash OÜ",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "Press Release: Icebreaker.vc backs Modash. Total funding over $220,000",
+                "document": "https://www.modash.io/blog/press-release-icebreaker-vc-backs-modash-total-funding-over-220000",
+                "date": "2026-03-12"
+              },
+              {
+                "name": "seedtable.com",
+                "document": "https://seedtable.com/investors/icebreakervc",
+                "date": "2026-08-24"
+              },
+              {
+                "name": "bebeez.eu",
+                "document": "https://bebeez.eu/2024/10/31/estonias-modash-raises-12m-series-a-for-ai-driven-creator-discovery-and-payment-solutions/",
+                "date": "2024-10-31",
+                "date_precision": "day",
+                "source_rank": "PRESS"
+              }
+            ],
+            "id": "9ff25002-2153-49a5-ac47-c393feb3f625"
+          }
+        },
+        {
+          "id": "2fcbdac0-4027-4b78-8a5b-67a99447ca81",
+          "name": "Klaus",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+                "document": "https://www.icebreaker.vc",
+                "date": "2021-01-28"
+              },
+              {
+                "name": "angelspartners.com",
+                "document": "https://angelspartners.com/firm/IcebreakerVC",
+                "date": "2026-08-24"
+              }
+            ],
+            "id": "60e4d4d0-b56c-4317-86cb-32a9a5721c01"
+          }
+        },
+        {
+          "id": "32d9d83a-1a7b-4fde-9a53-a2a65f1a4013",
+          "name": "Helppy",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+                "document": "https://www.icebreaker.vc",
+                "date": "2021-01-28"
+              },
+              {
+                "name": "www.finsmes.com",
+                "document": "https://www.finsmes.com/tag/icebreaker-vc",
+                "date": "2026-08-24"
+              }
+            ],
+            "id": "48423f2a-f69f-46d5-a49b-fd892827762f"
+          }
+        },
+        {
+          "id": "3318442e-624e-4c94-8b0f-5f93c39a34fa",
+          "name": "Hertwill",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "www.thenetwork.com",
+                "document": "https://www.thenetwork.com/profile/aleksi-partanen-c955771d",
+                "date": "2026-08-24"
+              }
+            ],
+            "id": "c9f9f017-1843-4608-8dac-0e1c82acf6ff"
+          }
+        },
+        {
+          "id": "332ba5ea-5dae-4a95-a2fc-54909c980eb3",
+          "name": "Leyr",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "Icebreaker.vc | Portfolio, Investments & AUM | Caplight",
+                "document": "https://www.caplight.com/investor/icebreaker",
+                "date": "2026-06-02"
+              },
+              {
+                "name": "✅ Pre-seed Truly proud of what Helena Holma and I were able to achieve with Leyr. What a year it has been and OMG, there's so many things to come soon! Huge congratz to Antler and Icebreaker.vc on… | Anton Lytvynovskyi | 12 comments",
+                "document": "https://www.linkedin.com/posts/litwinowski_pre-seed-truly-proud-of-what-helena-holma-activity-7008360018324393984-4xGn",
+                "date": "2022-12-13"
+              },
+              {
+                "name": "Healthtech API platform Leyr raises €635,000 in pre-seed funding",
+                "document": "https://www.swedishtechnews.com/healthtech-api-platform-leyr-raises-pre-seed-funding",
+                "date": "2022-12-04"
+              }
+            ],
+            "id": "5bceed1f-4c18-4a06-a74a-f3ae51a4188f"
+          }
+        },
+        {
+          "id": "359b98de-094c-4986-9923-5fee49b5530c",
+          "name": "LUTSO",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "www.thenetwork.com",
+                "document": "https://www.thenetwork.com/profile/aleksi-partanen-c955771d",
+                "date": "2026-08-24"
+              }
+            ],
+            "id": "ce44a9c2-9d98-4af0-9ce2-2f3e7533249d"
+          }
+        },
+        {
+          "id": "3fc18fd1-d404-4b59-a629-383a987445c9",
+          "name": "FleetBrains",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "Icebreaker.vc invests €800,000 to FleetBrains | EstVCA",
+                "document": "https://www.estvca.ee/news/icebreaker-vc-invests-eur800-000-to-fleetbrains",
+                "date": "2025-03-21"
+              },
+              {
+                "name": "en.ain.ua",
+                "document": "https://en.ain.ua/2025/03/24/estonian-fleetbrains-secures-eur800k-from-icebreakervc",
+                "date": "2026-08-24"
+              },
+              {
+                "name": "www.thenetwork.com",
+                "document": "https://www.thenetwork.com/profile/aleksi-partanen-c955771d",
+                "date": "2026-08-24"
+              }
+            ],
+            "id": "7979d12d-11c1-4273-af34-2de0170df158"
+          }
+        },
+        {
+          "id": "43f3f0d1-3535-486b-b0cb-6c3aaf6e27ff",
+          "name": "Cerenion",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "The Hub | Funding | Icebreaker.vc",
+                "document": "https://thehub.io/funding/icebreaker",
+                "date": "2017-01-26"
+              },
+              {
+                "name": "unicorn-nest.com",
+                "document": "https://unicorn-nest.com/funds/icebreaker-vc",
+                "date": "2026-08-24"
+              }
+            ],
+            "id": "b95f9d31-9157-4916-9bb2-fe440254ea24"
+          }
+        },
+        {
+          "id": "45558335-1532-47ca-9fea-91ec28d33766",
+          "name": "Workfellow",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+                "document": "https://www.icebreaker.vc",
+                "date": "2021-01-28"
+              },
+              {
+                "name": "Estonian Icebreaker.vc exits from Vespia",
+                "document": "https://www.balticvc.com/2026/02/estonian-icebreakervc-exits-from-vespia.html",
+                "date": "2026-02-06"
+              }
+            ],
+            "id": "efa44c59-fc5a-41e7-809d-62916ffe86ad"
+          }
+        },
+        {
+          "id": "4e91b640-41bb-45f7-b82c-711a94a2e0e5",
+          "name": "eBrands Global Oy",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+                "document": "https://www.icebreaker.vc",
+                "date": "2021-01-28"
+              },
+              {
+                "name": "angelspartners.com",
+                "document": "https://angelspartners.com/firm/IcebreakerVC",
+                "date": "2026-08-24"
+              },
+              {
+                "name": "ecommercenews.eu",
+                "document": "https://ecommercenews.eu/?p=20730",
+                "date": "2021-03-05",
+                "date_precision": "day",
+                "source_rank": "PRESS"
+              }
+            ],
+            "id": "73a3c4aa-e655-4b6f-8125-632e2957f322"
+          }
+        },
+        {
+          "id": "517d6c7d-fc0b-4b97-897a-4ef5c2f62f10",
+          "name": "Alinor",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "www.cbinsights.com",
+                "document": "https://www.cbinsights.com/company/alinor/financials",
+                "date": "2026-08-25"
+              },
+              {
+                "name": "pitchbook.com",
+                "document": "https://pitchbook.com/profiles/company/503428-06",
+                "date": "2026-08-25"
+              },
+              {
+                "name": "www.crunchbase.com",
+                "document": "https://www.crunchbase.com/organization/alinor",
+                "date": "2026-08-25"
+              }
+            ],
+            "id": "b7a43d93-a220-4329-90ac-5d21a30e5dbc"
+          }
+        },
+        {
+          "id": "55b24791-7df1-45a8-a4f8-e65f45c0ad0b",
+          "name": "Whippy",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+                "document": "https://www.icebreaker.vc",
+                "date": "2021-01-28"
+              },
+              {
+                "name": "Icebreaker – Info, Investments & Portfolio",
+                "document": "https://vc-mapping.gilion.com/vc-firms/icebreaker",
+                "date": "2026-04-08"
+              }
+            ],
+            "id": "f4195df4-7c72-4d4b-9a9c-e1f174c54960"
+          }
+        },
+        {
+          "id": "5f625f67-a19d-43d0-9f95-3b4e67943d05",
+          "name": "Cachet",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+                "document": "https://www.icebreaker.vc",
+                "date": "2021-01-28"
+              },
+              {
+                "name": "Icebreaker.vc Company Overview, Contact Details & Competitors | LeadIQ",
+                "document": "https://leadiq.com/c/icebreakervc/5a1daee62300005c00a59559",
+                "date": "2026-06-02"
+              },
+              {
+                "name": "Icebreaker.vc Tag",
+                "document": "https://tech.eu/tag/icebreaker-vc",
+                "date": "2020-09-03"
+              }
+            ],
+            "id": "cab63697-23a2-4445-9069-093fdc4ffe55"
+          }
+        },
+        {
+          "id": "6ef526d5-ed22-4dd8-8c1a-ec68a9c40a93",
+          "name": "Apiable Oy",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "Apiable brings home $500,000 Icebreaker.vc-led funding to scale its no-code API-as-a-service",
+                "document": "https://tech.eu/2022/11/25/xdao",
+                "date": "2022-11-25"
+              },
+              {
+                "name": "www.finsmes.com",
+                "document": "https://www.finsmes.com/tag/icebreaker-vc",
+                "date": "2026-08-24"
+              },
+              {
+                "name": "en.ain.ua",
+                "document": "https://en.ain.ua/2025/03/24/estonian-fleetbrains-secures-eur800k-from-icebreakervc",
+                "date": "2026-08-24"
+              }
+            ],
+            "id": "333f17a0-e9de-48ff-bc4d-0077c56476c1"
+          }
+        },
+        {
+          "id": "701ce45d-b557-4642-812b-eebd66f60d93",
+          "name": "Theymes",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "www.thenetwork.com",
+                "document": "https://www.thenetwork.com/profile/aleksi-partanen-c955771d",
+                "date": "2026-08-24"
+              }
+            ],
+            "id": "ea1ff231-53a6-4d1f-9b50-7080c55a2c9b"
+          }
+        },
+        {
+          "id": "72561338-dccc-454b-a12e-acad6f73837f",
+          "name": "Logmore",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+                "document": "https://www.icebreaker.vc",
+                "date": "2021-01-28"
+              },
+              {
+                "name": "The Hub | Funding | Icebreaker.vc",
+                "document": "https://thehub.io/funding/icebreaker",
+                "date": "2017-01-26"
+              }
+            ],
+            "id": "cfa26b3a-c0d8-409f-9276-47254d84f418"
+          }
+        },
+        {
+          "id": "734fbd38-7969-43d3-a47f-b953e4fe232b",
+          "name": "Lumoa",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+                "document": "https://www.icebreaker.vc",
+                "date": "2021-01-28"
+              },
+              {
+                "name": "Estonian Icebreaker.vc exits from Vespia",
+                "document": "https://www.balticvc.com/2026/02/estonian-icebreakervc-exits-from-vespia.html",
+                "date": "2026-02-06"
+              }
+            ],
+            "id": "d25f2c7e-f4cb-4468-b741-dd4528c590d4"
+          }
+        },
+        {
+          "id": "7f89f651-ba07-4218-a367-9f0f839dbf71",
+          "name": "Fondion",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "tracxn.com",
+                "document": "https://tracxn.com/d/venture-capital/icebreaker/__6onsCCxoge0mlrsTAu7qNqkle4NFbLIHo2zNfANtVfw",
+                "date": "2026-08-24"
+              }
+            ],
+            "id": "6d6f0fc2-cc2b-47f5-a44d-dcae9bdfaec1"
+          }
+        },
+        {
+          "id": "8159469d-35ec-4956-ae63-98852911a998",
+          "name": "Kodit.io",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "The Hub | Funding | Icebreaker.vc",
+                "document": "https://thehub.io/funding/icebreaker",
+                "date": "2017-01-26"
+              },
+              {
+                "name": "www.finsmes.com",
+                "document": "https://www.finsmes.com/2018/08/kodit-io-closes-e1-7m-seed-funding-round.html",
+                "date": "2026-08-24"
+              },
+              {
+                "name": "Icebreaker.vc Tag",
+                "document": "https://tech.eu/tag/icebreaker-vc",
+                "date": "2020-09-03"
+              }
+            ],
+            "id": "1890c7f1-5b4f-4167-b0e1-9449effb4ea2"
+          }
+        },
+        {
+          "id": "826eb696-eb63-4aac-ba42-cee82552ad20",
+          "name": "Sense Of Space",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+                "document": "https://www.icebreaker.vc",
+                "date": "2021-01-28"
+              }
+            ],
+            "id": "d37f10f0-5f87-4912-87e8-ccca00908846"
+          }
+        },
+        {
+          "id": "8502a550-46b3-4790-b869-c450eb925672",
+          "name": "Cytely",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "News | EstVCA",
+                "document": "https://www.estvca.ee/news/tagged/icebreakervc",
+                "date": "2026-06-02"
+              },
+              {
+                "name": "Estonian Icebreaker.vc invests in Swedish medtech startup Cytely",
+                "document": "https://www.balticvc.com/2025/10/estonian-icebreakervc-invests-in.html",
+                "date": "2025-10-23"
+              },
+              {
+                "name": "tracxn.com",
+                "document": "https://tracxn.com/d/venture-capital/icebreaker/__6onsCCxoge0mlrsTAu7qNqkle4NFbLIHo2zNfANtVfw",
+                "date": "2026-08-24"
+              },
+              {
+                "name": "aiworld.eu",
+                "document": "https://aiworld.eu/story/cytely-secures-3m-seed-round-to-automate-microscopy-analysis-in-biological-research",
+                "date": "2025-10-31",
+                "date_precision": "day",
+                "source_rank": "PRESS"
+              },
+              {
+                "name": "nordic9.com",
+                "document": "https://nordic9.com/news/cytely-in-a-3m-round-led-by-ugly-duckling-ventures-joined-by-existing-investor-icebreakervc",
+                "date": "2025-10-11",
+                "date_precision": "day",
+                "source_rank": "AGGREGATOR"
+              },
+              {
+                "name": "cbinsights.com",
+                "document": "https://www.cbinsights.com/company/cytely/financials",
+                "date": "2026-11-13",
+                "date_precision": "day",
+                "source_rank": "AGGREGATOR"
+              }
+            ],
+            "id": "253f20c8-0711-47d0-a897-d0226a40dd26"
+          }
+        },
+        {
+          "id": "85c41f1c-b4b6-4680-b029-d4c71dc9a9b9",
+          "name": "Hoxhunt Oy",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+                "document": "https://www.icebreaker.vc",
+                "date": "2021-01-28"
+              },
+              {
+                "name": "Icebreaker.vc: The Early Stage Founder's Guide",
+                "document": "https://superscout.co/investor/icebreaker-vc",
+                "date": "2017-01-01"
+              },
+              {
+                "name": "www.finsmes.com",
+                "document": "https://www.finsmes.com/tag/icebreaker-vc",
+                "date": "2026-08-24"
+              }
+            ],
+            "id": "1195a931-7b7e-4823-bf15-b37b3c663032"
+          }
+        },
+        {
+          "id": "89888bda-2012-418d-b8b9-ae9368306ecf",
+          "name": "Fixably",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+                "document": "https://www.icebreaker.vc",
+                "date": "2021-01-28"
+              },
+              {
+                "name": "www.finsmes.com",
+                "document": "https://www.finsmes.com/tag/icebreaker-vc",
+                "date": "2026-08-24"
+              },
+              {
+                "name": "Icebreaker.vc — Investment Portfolio & Profile",
+                "document": "https://goldi.ai/intelligence/vc/icebreakervc",
+                "date": "2026-05-10"
+              }
+            ],
+            "id": "0e49779d-cd0b-4e5c-84ca-1eda9a54918e"
+          }
+        },
+        {
+          "id": "8e416e4e-1947-4dde-ba6e-a1a07228867c",
+          "name": "Tab",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "Exit: Icebreaker.vc portfolio company Tab has been acquired by Kivra | EstVCA",
+                "document": "https://estvca.ee/news/exit-icebreaker-vc-portfolio-company-tab-has-been-acquired-by-kivra",
+                "date": "2026-04-20"
+              }
+            ],
+            "id": "a551f8f0-6fe1-46d1-954f-83d798818bbf"
+          }
+        },
+        {
+          "id": "8e7dc3e9-e10a-4f41-9ade-4e2e1504680e",
+          "name": "Spaceit",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "Icebreaker.vc Company Overview, Contact Details & Competitors | LeadIQ",
+                "document": "https://leadiq.com/c/icebreakervc/5a1daee62300005c00a59559",
+                "date": "2026-06-02"
+              },
+              {
+                "name": "parsers.vc",
+                "document": "https://parsers.vc/fund/icebreaker.vc",
+                "date": "2026-08-24"
+              }
+            ],
+            "id": "3ae152f2-5dd3-4053-8946-28c2d8b5c23a"
+          }
+        },
+        {
+          "id": "91c46bd3-b0e2-4b6a-b4b0-4f0734627703",
+          "name": "Scrintal",
+          "entity_type": "Organization",
+          "properties": {
+            "sources": [
+              {
+                "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+                "document": "https://www.icebreaker.vc",
+                "date": "2021-01-28"
+              }
+            ],
+            "id": "44a492c4-3162-4286-87fe-1050849530cd"
+          }
+        },
+        {
+          "id": "93aea4b5-068c-4218-b61e-8eecfe2b1f5b",
+          "name": "Equel Social",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "www.thenetwork.com",
+                "document": "https://www.thenetwork.com/profile/aleksi-partanen-c955771d",
+                "date": "2026-08-24"
+              }
+            ],
+            "id": "d3c56b0f-4166-409c-bbac-1853bfc2492a"
+          }
+        },
+        {
+          "id": "9a138617-86b6-564f-b183-490e264459e1",
+          "name": "Sellforte Solutions Oy",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "news.cision.com",
+                "document": "https://news.cision.com/san-francisco-oy/r/sellforte-raises--4m-funding-to-bring-science-to-marketing,c3311905",
+                "date": "2021-03-23",
+                "date_precision": "day",
+                "source_rank": "PRIMARY"
+              },
+              {
+                "name": "sellforte.com",
+                "document": "https://sellforte.com/articles/sellforte-raises-4m-funding",
+                "date": "2021-03-23",
+                "date_precision": "day",
+                "source_rank": "PRIMARY"
+              }
+            ],
+            "id": "7581e97d-7abe-4d78-96ee-fb23e1ebca67"
+          }
+        },
+        {
+          "id": "9b87212a-ceb8-4887-a6e6-c64b0cda9a43",
+          "name": "Gridraven",
+          "entity_type": "Organization",
+          "properties": {
+            "sources": [
+              {
+                "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+                "document": "https://www.icebreaker.vc",
+                "date": "2021-01-28"
+              },
+              {
+                "name": "Icebreaker.vc participates in GridRaven's €4 Million funding round | EstVCA",
+                "document": "https://estvca.ee/news/icebreaker-vc-participates-in-gridraven-s-eur4-million-funding-round",
+                "date": "2025-02-11"
+              },
+              {
+                "name": "www.baltictimes.com",
+                "document": "https://www.baltictimes.com/gridraven_expands_to_the_united_states_and_secures__4_million_funding",
+                "date": "2026-08-24"
+              }
+            ],
+            "id": "e05bd6ba-77c6-4f25-8e5f-37d63199d49c"
+          }
+        },
+        {
+          "id": "a5568f00-2a99-4fa1-9110-3c134112fcb1",
+          "name": "Spindl",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "www.thenetwork.com",
+                "document": "https://www.thenetwork.com/profile/aleksi-partanen-c955771d",
+                "date": "2026-08-24"
+              }
+            ],
+            "id": "6f9bc792-b300-4872-9ef0-05231ab27f69"
+          }
+        },
+        {
+          "id": "b64a3cd3-5541-4b49-94d7-d4bdabdc51af",
+          "name": "RoadCloud OY",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+                "document": "https://www.icebreaker.vc",
+                "date": "2021-01-28"
+              },
+              {
+                "name": "angelspartners.com",
+                "document": "https://angelspartners.com/firm/IcebreakerVC",
+                "date": "2026-08-24"
+              }
+            ],
+            "id": "d23d6644-11de-444b-b81d-c88b412f9b3c"
+          }
+        },
+        {
+          "id": "cadf8009-d7e4-41aa-83ff-540accfe7f8a",
+          "name": "Crewpoint",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "Crewpoint Announces First Funding Round Led by Icebreaker.vc to Transform Maritime Crew Travel",
+                "document": "https://crewpoint.com/news/fundraising-round-icebreaker-vc",
+                "date": "2025-05-30"
+              },
+              {
+                "name": "News | EstVCA",
+                "document": "https://www.estvca.ee/news/tagged/icebreakervc",
+                "date": "2026-06-02"
+              },
+              {
+                "name": "tracxn.com",
+                "document": "https://tracxn.com/d/venture-capital/icebreaker/__6onsCCxoge0mlrsTAu7qNqkle4NFbLIHo2zNfANtVfw",
+                "date": "2026-08-24"
+              }
+            ],
+            "id": "477cf182-944b-4ba8-aceb-cd5684b0c0f7"
+          }
+        },
+        {
+          "id": "cc75e3f7-3e62-4964-abcb-9bfe5f4b8bc1",
+          "name": "Oplane AB",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "Great news from the Icebreaker.vc portfolio: Oplane raises $5.2M seed round and releases their product globally! But the journey from idea-stage to here was far from a linear path. I had my first… | Lasse Lehtinen",
+                "document": "https://www.linkedin.com/posts/lehtinenlasse_great-news-from-the-icebreakervc-portfolio-activity-7467520906920349697--wbG",
+                "date": "2026-06-02"
+              },
+              {
+                "name": "Icebreaker.vc | Portfolio, Investments & AUM | Caplight",
+                "document": "https://www.caplight.com/investor/icebreaker",
+                "date": "2026-06-02"
+              },
+              {
+                "name": "Icebreaker Portfolio Investments, Icebreaker Funds, Icebreaker Exits",
+                "document": "https://www.cbinsights.com/investor/icebreaker",
+                "date": "2026-07-27"
+              }
+            ],
+            "id": "91fc2d4d-9145-46a8-9361-adbc13b9e2b1"
+          }
+        },
+        {
+          "id": "d17e0abf-0a57-4574-820b-822e5cac6308",
+          "name": "Clock&Cloud",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "Icebreaker.vc participates in Clock&Cloud's €1.5M pre-seed round | EstVCA",
+                "document": "https://www.estvca.ee/news/icebreaker-vc-participates-in-clock-and-cloud-s-eur1-5m-pre-seed-round",
+                "date": "2025-03-28"
+              },
+              {
+                "name": "arctictoday.com",
+                "document": "https://www.arctictoday.com/%F0%9F%87%AB%F0%9F%87%AE-clockcloud-secures-e1-5-million-pre-seed-to-advance-ai-powered-geopolitical-intelligence-platform/",
+                "date": "2025-04-03",
+                "date_precision": "day",
+                "source_rank": "PRESS"
+              }
+            ],
+            "id": "19b0e815-78f1-4c85-b433-73f13ce0cd22"
+          }
+        },
+        {
+          "id": "d24577b7-ce7c-54a0-90ac-274cab40c065",
+          "name": "Matagi",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "ariregister.rik.ee",
+                "document": "https://ariregister.rik.ee/eng/company/17221751/tab/registry_card",
+                "date": "2026-11-13",
+                "date_precision": "day",
+                "source_rank": "FILING"
+              },
+              {
+                "name": "matagi.ai",
+                "document": "https://matagi.ai/",
+                "date": "2026-11-13",
+                "date_precision": "day",
+                "source_rank": "PRIMARY"
+              }
+            ],
+            "id": "c91a5d14-8dac-4db5-a47c-5eb398da5a0c"
+          }
+        },
+        {
+          "id": "d3f9304b-8ffd-46d6-bf90-a40993bc1cd2",
+          "name": "Sellforte",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+                "document": "https://www.icebreaker.vc",
+                "date": "2021-01-28"
+              },
+              {
+                "name": "www.finsmes.com",
+                "document": "https://www.finsmes.com/tag/icebreaker-vc",
+                "date": "2026-08-24"
+              }
+            ],
+            "id": "f674ccab-fd70-42c9-be33-2c9592b524dc"
+          }
+        },
+        {
+          "id": "d582b19b-00db-4851-9644-59baacc5cb4b",
+          "name": "NROC Security, Inc.",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "nordic9.com",
+                "document": "https://nordic9.com/news/nroc-security-was-pre-seeded-by-icebreaker-in-finland/",
+                "date": "2023-12-30",
+                "date_precision": "day",
+                "source_rank": "AGGREGATOR"
+              }
+            ],
+            "id": "c92f046d-61ec-4dbd-955c-caca162bb72f"
+          }
+        },
+        {
+          "id": "d7106c50-2d55-4172-a242-8f997e4f89d5",
+          "name": "Accurator",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+                "document": "https://www.icebreaker.vc",
+                "date": "2021-01-28"
+              }
+            ],
+            "id": "fe5369a0-45e5-4188-bd17-301139421dcc"
+          }
+        },
+        {
+          "id": "d71148bb-4c54-423c-883c-be4abaf9cc65",
+          "name": "SHOOK DIGITAL",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "nordic9.com",
+                "document": "https://nordic9.com/news/shook-in-a-22m-pre-seed-round-with-icebreaked-and-angel-investors-in-finland/",
+                "date": "2024-01-31",
+                "date_precision": "day",
+                "source_rank": "AGGREGATOR"
+              },
+              {
+                "name": "vcbacked.co",
+                "document": "https://www.vcbacked.co/company/shook",
+                "date": "2026-11-13",
+                "date_precision": "day",
+                "source_rank": "AGGREGATOR"
+              },
+              {
+                "name": "crunchbase.com",
+                "document": "https://www.crunchbase.com/organization/shook-dcaf",
+                "date": "2026-11-13",
+                "date_precision": "day",
+                "source_rank": "AGGREGATOR"
+              }
+            ],
+            "id": "4de8657b-c31d-4a06-9964-343c77fd0efa"
+          }
+        },
+        {
+          "id": "d71306ad-ba56-4846-8a33-1cc1914f9d0f",
+          "name": "Finnadvance",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+                "document": "https://www.icebreaker.vc",
+                "date": "2021-01-28"
+              }
+            ],
+            "id": "9febef40-c472-4f94-b9c4-df169fe03b59"
+          }
+        },
+        {
+          "id": "da87c715-6d32-52c7-b107-aeee58229f79",
+          "name": "Flowhaven Oy",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "licensinginternational.org",
+                "document": "https://licensinginternational.org/news/flowhaven-raises-5-2-million-in-seed-funding-led-by-global-founders-capital-to-expand-brand-licensing-business/",
+                "date": "2019-12-09",
+                "date_precision": "day",
+                "source_rank": "PRESS"
+              }
+            ],
+            "id": "3281b1fe-0c40-48d8-ab1b-7d1c903f109c"
+          }
+        },
+        {
+          "id": "dd64c2b7-b551-4322-ac10-57fa4eead37e",
+          "name": "IPRally",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+                "document": "https://www.icebreaker.vc",
+                "date": "2021-01-28"
+              },
+              {
+                "name": "Icebreaker – Info, Investments & Portfolio",
+                "document": "https://vc-mapping.gilion.com/vc-firms/icebreaker",
+                "date": "2026-04-08"
+              },
+              {
+                "name": "Icebreaker.vc — Investment Portfolio & Profile",
+                "document": "https://goldi.ai/intelligence/vc/icebreakervc",
+                "date": "2026-05-10"
+              },
+              {
+                "name": "startupintros.com",
+                "document": "https://startupintros.com/news/2018-04-01-iprally-seed",
+                "date": "2026-11-12",
+                "date_precision": "day",
+                "source_rank": "AGGREGATOR"
+              },
+              {
+                "name": "iprally.com",
+                "document": "https://www.iprally.com/news/press-release-iprally-raises-eu2-0-million-to-build-the-patent-search-engine-2-0",
+                "date": "2021-01-07",
+                "date_precision": "day",
+                "source_rank": "PRIMARY"
+              }
+            ],
+            "id": "8aa7be50-78c7-4555-bd8b-9e162b9ed985"
+          }
+        },
+        {
+          "id": "eb012d31-2b1c-4bca-9523-9bd8710f5891",
+          "name": "Valpas",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+                "document": "https://www.icebreaker.vc",
+                "date": "2021-01-28"
+              },
+              {
+                "name": "The Hub | Funding | Icebreaker.vc",
+                "document": "https://thehub.io/funding/icebreaker",
+                "date": "2017-01-26"
+              },
+              {
+                "name": "Icebreaker.vc — Investment Portfolio & Profile",
+                "document": "https://goldi.ai/intelligence/vc/icebreakervc",
+                "date": "2026-05-10"
+              }
+            ],
+            "id": "5a75d850-0afa-4c36-b61a-6a936312ff57"
+          }
+        },
+        {
+          "id": "ef7781cd-5b49-415b-be03-09891bd4e84e",
+          "name": "Zymego",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+                "document": "https://www.icebreaker.vc",
+                "date": "2021-01-28"
+              },
+              {
+                "name": "Icebreaker.vc: The Early Stage Founder's Guide",
+                "document": "https://superscout.co/investor/icebreaker-vc",
+                "date": "2017-01-01"
+              }
+            ],
+            "id": "c939f5ea-feb0-46a7-a95e-4988e3b19410"
+          }
+        },
+        {
+          "id": "f495c031-5680-416a-9c67-3be77b257269",
+          "name": "Coupleness",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "medium.com",
+                "document": "https://medium.com/icebreakervc/we-are-excited-to-welcome-coupleness-into-the-icebreaker-family-31ef1a7b20f7",
+                "date": "2026-08-24"
+              }
+            ],
+            "id": "3e80d90d-011e-47e4-b8ce-c8811793fe01"
+          }
+        },
+        {
+          "id": "f8441c16-1ef2-4530-ab7c-f686dbd9a56b",
+          "name": "MVISION AI OY",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+                "document": "https://www.icebreaker.vc",
+                "date": "2021-01-28"
+              },
+              {
+                "name": "The Hub | Funding | Icebreaker.vc",
+                "document": "https://thehub.io/funding/icebreaker",
+                "date": "2017-01-26"
+              }
+            ],
+            "id": "229117ec-fe35-4d05-9654-283d527077c4"
+          }
+        },
+        {
+          "id": "f96945c0-23f5-4e68-a54c-f8e1ef9b3681",
+          "name": "Wisby",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "pitchbook.com",
+                "document": "https://pitchbook.com/profiles/company/490181-86",
+                "date": "2026-08-25"
+              }
+            ],
+            "id": "cf1306b7-a854-49a9-b68e-b751db9fb1a1"
+          }
+        },
+        {
+          "id": "ff73ebe2-0270-4ce2-9e4a-f8ccf2fda9d1",
+          "name": "CasaPay",
+          "entity_type": "Company",
+          "properties": {
+            "sources": [
+              {
+                "name": "www.thenetwork.com",
+                "document": "https://www.thenetwork.com/profile/aleksi-partanen-c955771d",
+                "date": "2026-08-24"
+              },
+              {
+                "name": "After a successful pilot CasaPay is expanding - TARK Legal",
+                "document": "https://tark.legal/en/after-a-successful-pilot-casapay-is-expanding",
+                "date": "2024-09-11"
+              }
+            ],
+            "id": "37b52119-b397-4df9-80ea-6105a77b5863"
+          }
+        }
+      ],
+      "PARTICIPATES_IN_FUNDING_ROUND": [
+        {
+          "id": "006c348e-1de9-56e6-af54-b692a888f199",
+          "name": "Seed",
+          "entity_type": "FundingRound",
+          "properties": {
+            "role": "INVESTOR",
+            "sources": [
+              {
+                "name": "tech.eu",
+                "document": "https://tech.eu/2022/11/23/modash/",
+                "date": "2022-11-23",
+                "date_precision": "day",
+                "source_rank": "PRESS"
+              },
+              {
+                "name": "en.ain.ua",
+                "document": "https://en.ain.ua/2022/11/24/modash-closes-2m-round",
+                "date": "2022-11-24",
+                "date_precision": "day",
+                "source_rank": "PRESS"
+              }
+            ],
+            "is_lead": true,
+            "id": "66b12b29-efcb-5431-a381-e2bb9607758d"
+          }
+        },
+        {
+          "id": "190b86d5-0201-5297-bc0e-cf6d9b7204ff",
+          "name": "Seed",
+          "entity_type": "FundingRound",
+          "properties": {
+            "role": "INVESTOR",
+            "sources": [
+              {
+                "name": "arctictoday.com",
+                "document": "https://www.arctictoday.com/%F0%9F%87%AB%F0%9F%87%AE-clockcloud-secures-e1-5-million-pre-seed-to-advance-ai-powered-geopolitical-intelligence-platform/",
+                "date": "2025-04-03",
+                "date_precision": "day",
+                "source_rank": "PRESS"
+              },
+              {
+                "name": "clockcloud.ai",
+                "document": "https://www.clockcloud.ai/news/clock-cloud-secures-eu1-5-million-pre-seed-to-advance-ai-powered-geopolitical-intelligence-platform",
+                "date": "2026-11-10",
+                "date_precision": "day",
+                "source_rank": "PRIMARY"
+              }
+            ],
+            "is_lead": true,
+            "id": "12e18305-d8e1-51df-8e95-74b8a561ce80"
+          }
+        },
+        {
+          "id": "26a15d40-d163-5a21-a56a-874853ce0749",
+          "name": "Seed",
+          "entity_type": "FundingRound",
+          "properties": {
+            "role": "INVESTOR",
+            "sources": [
+              {
+                "name": "startupintros.com",
+                "document": "https://startupintros.com/news/2018-12-01-flowhaven-licensing-suite-seed",
+                "date": "2026-11-09",
+                "date_precision": "day",
+                "source_rank": "AGGREGATOR"
+              }
+            ],
+            "id": "08c1a96c-c3ad-54ac-bd51-9b8f2e8b32f9"
+          }
+        },
+        {
+          "id": "3c993de3-7fd6-5cc7-bc17-ff79d6501591",
+          "name": "Pre-Seed",
+          "entity_type": "FundingRound",
+          "properties": {
+            "role": "INVESTOR",
+            "sources": [
+              {
+                "name": "startupintros.com",
+                "document": "https://startupintros.com/news/2018-04-01-iprally-seed",
+                "date": "2026-11-12",
+                "date_precision": "day",
+                "source_rank": "AGGREGATOR"
+              },
+              {
+                "name": "iprally.com",
+                "document": "https://www.iprally.com/news/press-release-iprally-raises-eu2-0-million-to-build-the-patent-search-engine-2-0",
+                "date": "2021-01-07",
+                "date_precision": "day",
+                "source_rank": "PRIMARY"
+              },
+              {
+                "name": "iprally.com",
+                "document": "https://www.iprally.com/news/press-release-iprally-raises-eu10m-to-accelerate-patent-intelligence-ai",
+                "date": "2023-03-21",
+                "date_precision": "day",
+                "source_rank": "PRIMARY"
+              }
+            ],
+            "id": "ba45a79b-f46e-55b1-86a8-05e4a4fb9e13"
+          }
+        },
+        {
+          "id": "5a9e4775-2b62-5392-8393-b933143554ee",
+          "name": "Pre-Seed",
+          "entity_type": "FundingRound",
+          "properties": {
+            "role": "INVESTOR",
+            "sources": [
+              {
+                "name": "ariregister.rik.ee",
+                "document": "https://ariregister.rik.ee/eng/company/17221751/tab/registry_card",
+                "date": "2026-11-13",
+                "date_precision": "day",
+                "source_rank": "FILING"
+              },
+              {
+                "name": "matagi.ai",
+                "document": "https://matagi.ai/",
+                "date": "2026-11-13",
+                "date_precision": "day",
+                "source_rank": "PRIMARY"
+              }
+            ],
+            "is_lead": true,
+            "id": "2bbc7708-67e2-549c-aef7-1ccf9dc419a3"
+          }
+        },
+        {
+          "id": "61bcb289-9d8f-577a-937f-7854eea2a4a5",
+          "name": "Seed",
+          "entity_type": "FundingRound",
+          "properties": {
+            "role": "INVESTOR",
+            "sources": [
+              {
+                "name": "nrocsecurity.com",
+                "document": "https://www.nrocsecurity.com/press-releases/great-north-ventures-leads-2m-seed-round-for-nroc-security-to-secure-employee-use-of-genai",
+                "date": "2025-09-29",
+                "date_precision": "day",
+                "source_rank": "PRIMARY"
+              },
+              {
+                "name": "nordic9.com",
+                "document": "https://nordic9.com/news/nroc-security-a-2m-seed-round-led-by-us-based-great-north-ventures-joined-by-icebreakervc-leo-capital-and-angel-investors-in-finland/",
+                "date": "2025-09-19",
+                "date_precision": "day",
+                "source_rank": "AGGREGATOR"
+              }
+            ],
+            "id": "cd92e4f9-f255-5d19-925d-9ffb131885d6"
+          }
+        },
+        {
+          "id": "7f3b8147-72ff-5d30-9a54-bd84adf3adad",
+          "name": "Series A",
+          "entity_type": "FundingRound",
+          "properties": {
+            "role": "INVESTOR",
+            "sources": [
+              {
+                "name": "news.cision.com",
+                "document": "https://news.cision.com/san-francisco-oy/r/sellforte-raises--4m-funding-to-bring-science-to-marketing,c3311905",
+                "date": "2021-03-23",
+                "date_precision": "day",
+                "source_rank": "PRIMARY"
+              },
+              {
+                "name": "sellforte.com",
+                "document": "https://sellforte.com/articles/sellforte-raises-4m-funding",
+                "date": "2021-03-23",
+                "date_precision": "day",
+                "source_rank": "PRIMARY"
+              }
+            ],
+            "id": "d5e486bb-c514-590b-9afb-e2cb61da2a78"
+          }
+        },
+        {
+          "id": "a5d575ac-2ccb-5ac8-85fe-19e1aa08824e",
+          "name": "Pre-Seed",
+          "entity_type": "FundingRound",
+          "properties": {
+            "role": "INVESTOR",
+            "sources": [
+              {
+                "name": "en.ain.ua",
+                "document": "https://en.ain.ua/2022/05/17/helppy-secures-3m",
+                "date": "2022-05-17",
+                "date_precision": "day",
+                "source_rank": "PRESS"
+              }
+            ],
+            "id": "30b569f1-daf3-5ef6-ab6a-d8ea0fd2f3ea"
+          }
+        },
+        {
+          "id": "bc0e15a9-6587-562b-b780-61732e526c35",
+          "name": "Seed",
+          "entity_type": "FundingRound",
+          "properties": {
+            "role": "INVESTOR",
+            "sources": [
+              {
+                "name": "licensinginternational.org",
+                "document": "https://licensinginternational.org/news/flowhaven-raises-5-2-million-in-seed-funding-led-by-global-founders-capital-to-expand-brand-licensing-business/",
+                "date": "2019-12-09",
+                "date_precision": "day",
+                "source_rank": "PRESS"
+              }
+            ],
+            "id": "dd280fc8-835d-58b7-a42b-e10210588f34"
+          }
+        },
+        {
+          "id": "bedcfadc-131d-5a4f-a64a-9d73d29cc111",
+          "name": "Pre-Seed",
+          "entity_type": "FundingRound",
+          "properties": {
+            "role": "INVESTOR",
+            "sources": [
+              {
+                "name": "nordic9.com",
+                "document": "https://nordic9.com/news/shook-in-a-22m-pre-seed-round-with-icebreaked-and-angel-investors-in-finland/",
+                "date": "2024-01-31",
+                "date_precision": "day",
+                "source_rank": "AGGREGATOR"
+              },
+              {
+                "name": "vcbacked.co",
+                "document": "https://www.vcbacked.co/company/shook",
+                "date": "2026-11-13",
+                "date_precision": "day",
+                "source_rank": "AGGREGATOR"
+              },
+              {
+                "name": "crunchbase.com",
+                "document": "https://www.crunchbase.com/organization/shook-dcaf",
+                "date": "2026-11-13",
+                "date_precision": "day",
+                "source_rank": "AGGREGATOR"
+              }
+            ],
+            "is_lead": true,
+            "id": "13987fda-9305-59bc-8916-a75c5f650d21"
+          }
+        },
+        {
+          "id": "c22b96a7-60b5-5260-9a43-dfa5886f3b16",
+          "name": "Funding round",
+          "entity_type": "FundingRound",
+          "properties": {
+            "role": "INVESTOR",
+            "sources": [
+              {
+                "name": "ecommercenews.eu",
+                "document": "https://ecommercenews.eu/?p=20730",
+                "date": "2021-03-05",
+                "date_precision": "day",
+                "source_rank": "PRESS"
+              }
+            ],
+            "is_lead": true,
+            "id": "984e5947-3eb7-528a-a0f6-36ddd4fff636"
+          }
+        },
+        {
+          "id": "d93d4f0c-33b5-5f5f-b4f4-9c064e1ae180",
+          "name": "Pre-Seed",
+          "entity_type": "FundingRound",
+          "properties": {
+            "role": "INVESTOR",
+            "sources": [
+              {
+                "name": "aiworld.eu",
+                "document": "https://aiworld.eu/story/cytely-secures-3m-seed-round-to-automate-microscopy-analysis-in-biological-research",
+                "date": "2025-10-31",
+                "date_precision": "day",
+                "source_rank": "PRESS"
+              },
+              {
+                "name": "nordic9.com",
+                "document": "https://nordic9.com/news/cytely-in-a-3m-round-led-by-ugly-duckling-ventures-joined-by-existing-investor-icebreakervc",
+                "date": "2025-10-11",
+                "date_precision": "day",
+                "source_rank": "AGGREGATOR"
+              },
+              {
+                "name": "cbinsights.com",
+                "document": "https://www.cbinsights.com/company/cytely/financials",
+                "date": "2026-11-13",
+                "date_precision": "day",
+                "source_rank": "AGGREGATOR"
+              },
+              {
+                "name": "oresundstartups.com",
+                "document": "https://oresundstartups.com/cytely-secures-e3m-to-revolutionize-biomedical-research-with-ai-powered-microscopy/",
+                "date": "2025-10-23",
+                "date_precision": "day",
+                "source_rank": "PRESS"
+              }
+            ],
+            "is_lead": true,
+            "id": "07d2203b-5206-5d70-8667-a1eb55717a05"
+          }
+        },
+        {
+          "id": "dc3c0996-cf0e-5730-87a9-770ec5e1945b",
+          "name": "Pre-Seed",
+          "entity_type": "FundingRound",
+          "properties": {
+            "role": "INVESTOR",
+            "sources": [
+              {
+                "name": "nordic9.com",
+                "document": "https://nordic9.com/news/nroc-security-was-pre-seeded-by-icebreaker-in-finland/",
+                "date": "2023-12-30",
+                "date_precision": "day",
+                "source_rank": "AGGREGATOR"
+              }
+            ],
+            "id": "d0de51f7-3fe3-57d0-b90c-5b2ea90eebce"
+          }
+        },
+        {
+          "id": "dfbfc74c-0d6b-54fc-898f-e700cdf3ee23",
+          "name": "Series A",
+          "entity_type": "FundingRound",
+          "properties": {
+            "role": "INVESTOR",
+            "sources": [
+              {
+                "name": "tech.eu",
+                "document": "https://tech.eu/2022/05/19/sustainability-and-design-driven-nordic-marketplace-aggregator-rakes-in-50-million-funding/",
+                "date": "2022-05-19",
+                "date_precision": "day",
+                "source_rank": "PRESS"
+              },
+              {
+                "name": "castren.fi",
+                "document": "https://www.castren.fi/cases/ebrands-funding-round/",
+                "date": "2022-07-08",
+                "date_precision": "day",
+                "source_rank": "PRESS"
+              }
+            ],
+            "id": "28916159-5a48-5a60-a2c9-f947c9c5c92f"
+          }
+        },
+        {
+          "id": "e33774cf-688a-5cbf-828b-e5cd2773a20e",
+          "name": "Series A",
+          "entity_type": "FundingRound",
+          "properties": {
+            "role": "INVESTOR",
+            "sources": [
+              {
+                "name": "bebeez.eu",
+                "document": "https://bebeez.eu/2024/10/31/estonias-modash-raises-12m-series-a-for-ai-driven-creator-discovery-and-payment-solutions/",
+                "date": "2024-10-31",
+                "date_precision": "day",
+                "source_rank": "PRESS"
+              }
+            ],
+            "id": "50216ef3-be03-5abc-8b21-bff51dbccaa2"
+          }
+        },
+        {
+          "id": "e5f6bc72-6056-56d0-9bc9-0c9c196b5338",
+          "name": "Series A",
+          "entity_type": "FundingRound",
+          "properties": {
+            "role": "INVESTOR",
+            "sources": [
+              {
+                "name": "venturecapitaljournal.com",
+                "document": "https://www.venturecapitaljournal.com/flowhaven-grabs-16m/",
+                "date": "2021-01-28",
+                "date_precision": "day",
+                "source_rank": "PRESS"
+              },
+              {
+                "name": "martechseries.com",
+                "document": "https://martechseries.com/sales-marketing/crm/brand-licensing-software-leader-flowhaven-secures-16-million-led-sapphire-sport/",
+                "date": "2021-01-29",
+                "date_precision": "day",
+                "source_rank": "PRESS"
+              }
+            ],
+            "id": "08870d6b-fc05-510c-bae9-1109c70c5dbd"
+          }
+        }
+      ]
+    },
+    "incoming": {}
+  },
+  "numerical_observations": []
+}

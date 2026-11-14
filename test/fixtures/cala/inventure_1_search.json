@@ -1,0 +1,58 @@
+{
+  "entities": [
+    {
+      "id": "3794cb88-1519-4ed6-b8dd-cbd641d85c62",
+      "name": "INVENTURE",
+      "entity_type": "Company",
+      "description": "Belgian venture capital firm founded in 1980 and headquartered in Sint‑Katelijne‑Waver."
+    },
+    {
+      "id": "f5b15ae0-7851-45d0-89ee-97a85ef9a6cf",
+      "name": "Inventure Aktiebolag",
+      "entity_type": "Company",
+      "description": "Swedish company headquartered in Stockholm, founded in 1972."
+    },
+    {
+      "id": "edc54c04-12d2-4463-b0c6-050534df613e",
+      "name": "INVENTURE FOODS, INC.",
+      "entity_type": "Company",
+      "description": "A food and beverage company that operates through subsidiaries including La Cometa Properties, Tejas PB Distributing, and Willamette Valley Fruit Company."
+    },
+    {
+      "id": "b532fa93-5905-4165-81a8-be08ab078476",
+      "name": "INVENTURE HOLDINGS LIMITED",
+      "entity_type": "Company",
+      "description": "A consulting firm based at 150a Christchurch Avenue, Harrow since 2015."
+    },
+    {
+      "id": "fd3ba350-0e55-40b5-96e3-013994777fdc",
+      "name": "Inventure",
+      "entity_type": "Organization",
+      "description": "a Finnish investment firm headquartered in Helsinki"
+    },
+    {
+      "id": "9a497f9a-b8d0-4d62-86fe-12aae3e663e3",
+      "name": "INVENTURE ECR LTD",
+      "entity_type": "Company",
+      "description": "British retail company incorporated in 2021 and headquartered in High Wycombe, England."
+    },
+    {
+      "id": "51e60550-ce67-4c03-a3a7-a4c87826a717",
+      "name": "Inventure Group",
+      "entity_type": "Company",
+      "description": "A United States company registered with the SEC under Central Index Key 0001521460."
+    },
+    {
+      "id": "eb47bb9b-51a6-43b4-88bf-54baa2cbfb7d",
+      "name": "INVENTURE OLD STREET LTD",
+      "entity_type": "Company",
+      "description": "British retail company incorporated in 2019 and headquartered in High Wycombe, England."
+    },
+    {
+      "id": "c4e8e9ba-5c46-4147-8579-55e66ae574b7",
+      "name": "INVENTURE WARWICK ROAD LTD",
+      "entity_type": "Company",
+      "description": "British retail company founded in 2024 and headquartered in Coventry, England."
+    }
+  ]
+}
