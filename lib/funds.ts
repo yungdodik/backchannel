@@ -2,13 +2,15 @@ import type { FundMatch } from "@/lib/types";
 
 const VC = /venture|vc\b|capital|fund|invest/i;
 
-export function toFundMatches(raw: {
-  entities: { id: string; name: string; description?: string }[];
-}): FundMatch[] {
+/** `cached`: ids with a precomputed report rank first (replay is instant; live costs Cala credit and minutes). */
+export function toFundMatches(
+  raw: { entities: { id: string; name: string; description?: string }[] },
+  cached: ReadonlySet<string> = new Set(),
+): FundMatch[] {
   return raw.entities
     .map((e): FundMatch => ({ calaId: e.id, name: e.name, description: e.description }))
-    .map((m, i) => ({ m, i, vc: VC.test(m.description ?? "") }))
-    .sort((a, b) => Number(b.vc) - Number(a.vc) || a.i - b.i)
+    .map((m, i) => ({ m, i, vc: VC.test(m.description ?? ""), cached: cached.has(m.calaId) }))
+    .sort((a, b) => Number(b.cached) - Number(a.cached) || Number(b.vc) - Number(a.vc) || a.i - b.i)
     .slice(0, 5)
     .map((x) => x.m);
 }

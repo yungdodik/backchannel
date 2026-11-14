@@ -1,3 +1,4 @@
+import { cachedReports } from "@/lib/cached-reports";
 import { slug, toFundMatches } from "@/lib/funds";
 import { liveCala } from "@/lib/live";
 import creandum from "@/test/fixtures/cala/creandum_1_search.json";
@@ -10,13 +11,15 @@ const fixtures: Record<string, typeof icebreaker> = {
   inventure,
 };
 
+const CACHED = new Set(Object.keys(cachedReports));
+
 export async function GET(request: Request) {
   const params = new URL(request.url).searchParams;
   const q = (params.get("q") ?? "").trim().slice(0, 100);
   if (!q) return Response.json([]);
   if (params.get("mock") === "1") return Response.json(toFundMatches(fixtures[slug(q)] ?? icebreaker));
   try {
-    return Response.json(toFundMatches(await liveCala().searchEntities(q, 10)));
+    return Response.json(toFundMatches(await liveCala().searchEntities(q, 10), CACHED));
   } catch (e) {
     console.error("funds search", e);
     return Response.json({ error: "Fund search is unavailable right now" }, { status: 502 });
