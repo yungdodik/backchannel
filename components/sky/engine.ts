@@ -890,28 +890,36 @@ export class SkyEngine {
       const fx = ((ahead[0] - o[0]) / fl) * k, fy = ((ahead[1] - o[1]) / fl) * k;
       const side = -fy * (up[0] - o[0]) + fx * (up[1] - o[1]) > 0 ? 1 : -1;
       // the highest point of the team on screen (hat, lead antlers); gone before it reaches the search bar's band
-      const top = Math.min(o[1] + fx * side * 1.4, o[1] + fy * 6.3 + fx * side * 1.6, o[1] - fy * 1.1 + fx * side * 0.8);
+      const top = Math.min(o[1] + fx * side * 1.6, o[1] + fy * 6.3 + fx * side * 1.8, o[1] - fy * 1.1 + fx * side * 1);
       const alpha = fade * clamp(Math.min(u, 1 - u) / 0.05, 0, 1) * clamp((top - 72) / 40, 0, 1);
       if (alpha <= 0) return;
       cx.save();
       cx.globalAlpha = alpha;
       cx.transform(fx, fy, -fy * side, fx * side, o[0], o[1]);
       cx.lineCap = "round";
+      // everyone bobs: each reindeer on its own beat, the sleigh a little behind them, rising, sinking and rocking
+      const beat = (i: number) => (this.reduce ? 0 : Math.sin(t / 260 + i * 2));
+      const bob = this.reduce ? 0 : 0.11 * Math.sin(t / 330), rock = this.reduce ? 0 : 0.06 * Math.sin(t / 330 + 1.3);
       const team = (lift: number) => {
-        cx.lineWidth = 0.06;
         cx.save();
         cx.translate(0, lift);
-        this.sleigh();
         cx.lineWidth = 0.025; // the traces from the sleigh to the lead reindeer
         cx.beginPath();
-        cx.moveTo(0.9, 0.5);
-        cx.lineTo(5.3, 0.62);
+        cx.moveTo(0.9, 0.5 + bob);
+        cx.lineTo(5.3, 0.62 + 0.09 * beat(2));
         cx.stroke();
+        cx.save();
+        cx.translate(0, bob);
+        cx.rotate(rock);
+        cx.lineWidth = 0.06;
+        this.sleigh();
+        cx.restore();
         cx.lineWidth = 0.05;
         for (let i = 0; i < 3; i++) {
           cx.save();
-          cx.translate(2.1 + i * 1.6, 0.02 + (this.reduce ? 0 : 0.05 * Math.sin(t / 260 + i * 2)));
-          this.deer(0, 0, this.reduce ? 1 : 0.75 + 0.25 * Math.sin(t / 260 + i * 2));
+          cx.translate(2.1 + i * 1.6, 0.02 + 0.09 * beat(i));
+          cx.rotate(0.07 * beat(i + 0.8));
+          this.deer(0, 0, this.reduce ? 1 : 0.75 + 0.25 * beat(i));
           cx.restore();
         }
         cx.restore();
@@ -922,6 +930,7 @@ export class SkyEngine {
       cx.fillStyle = cx.strokeStyle = "#04060c";
       team(0);
       // a lantern at the front of the sleigh, warm like the windows below
+      cx.translate(0, bob);
       const g = cx.createRadialGradient(1, 0.62, 0, 1, 0.62, 0.5);
       g.addColorStop(0, "rgba(255,208,130,.9)");
       g.addColorStop(0.2, "rgba(255,190,110,.35)");
