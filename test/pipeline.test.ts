@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { createPipeline, type PipelineDeps } from "@/lib/pipeline";
 import { CalaGaveUp, type Cala, type CalaEntity } from "@/lib/cala";
-import type { Exa, ExaResult } from "@/lib/exa";
+import type { ExaResult } from "@/lib/exa";
 import type { StreamEvent } from "@/lib/types";
 import walk from "@/test/fixtures/cala/walk_icebreaker.json";
 import vespia from "@/test/fixtures/cala/company_vespia.json";
@@ -52,7 +52,7 @@ function fakeCala(overrides: Record<string, CalaEntity> = {}): Cala {
   };
 }
 
-const fakeExa: Exa = {
+const fakeExa: PipelineDeps["exa"] = {
   searchPeople: async (q) => {
     if (/^founder of alvin( |$)/.test(q)) return peopleAlvin;
     const key = Object.keys(probe).find((k) => k.startsWith("people_") && new RegExp(`^founder of ${k.slice(7).toLowerCase()}( |$)`).test(q));
@@ -174,7 +174,7 @@ describe("createPipeline on Icebreaker fixtures", () => {
   it("acquisition news counts only when the company is the one acquired", async () => {
     const news = (title: string): ExaResult[] => [{ url: "https://news.example/a", title, publishedDate: "2025-01-10T00:00:00Z" }];
     const runWith = async (title: string) => {
-      const exa: Exa = { ...fakeExa, searchNews: async (q) => (q.startsWith('"klaus"') ? news(title) : []) };
+      const exa: PipelineDeps["exa"] = { ...fakeExa, searchNews: async (q) => (q.startsWith('"klaus"') ? news(title) : []) };
       const report = doneReport(await collect(createPipeline(deps({ exa, cala: fakeCala({ [KLAUS]: empty() }) })).run(FUND)));
       return report.portfolio.find((c) => c.calaId === KLAUS)!.signals.map((s) => s.text);
     };
@@ -185,7 +185,7 @@ describe("createPipeline on Icebreaker fixtures", () => {
   });
 
   it("employee reviews and blocklisted namesake URLs are not news", async () => {
-    const exa: Exa = {
+    const exa: PipelineDeps["exa"] = {
       ...fakeExa,
       searchNews: async (q) =>
         q.startsWith('"klaus"')
@@ -200,7 +200,7 @@ describe("createPipeline on Icebreaker fixtures", () => {
   });
 
   it("news needs the company name in the title, not just the highlights", async () => {
-    const exa: Exa = {
+    const exa: PipelineDeps["exa"] = {
       ...fakeExa,
       searchNews: async (q) =>
         q.startsWith('"klaus"')

@@ -10,6 +10,7 @@
     "test": "vitest",
     "precompute": "tsx scripts/precompute.ts",
     "check:pipeline": "tsx scripts/check-pipeline.ts",
+    "enrich-rounds": "tsx scripts/enrich-rounds.ts",
     "apply-blocklist": "tsx scripts/apply-blocklist.ts"
   },
   "dependencies": {

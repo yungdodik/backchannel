@@ -16,7 +16,10 @@
           "label": "Funding round",
           "date": "2015-10-29",
           "fundIsLead": null,
-          "coInvestors": [],
+          "coInvestors": [
+            "Inventure",
+            "Initial Capital"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/umbra/__hZ14Jqd0NDS5wHQubAccZ45WcfbO9EVWsgdHV5CUOpg",
@@ -27,6 +30,23 @@
               "url": "https://tracxn.com/d/companies/umbra/__hZ14Jqd0NDS5wHQubAccZ45WcfbO9EVWsgdHV5CUOpg/funding-and-investors",
               "name": "tracxn.com",
               "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.gamedeveloper.com/business/3d-middleware-firm-umbra-nets-3-4-million-investment",
+              "name": "3D middleware firm Umbra nets $3.4 million investment",
+              "date": "2015-10-30"
+            }
+          ],
+          "fundNamed": true,
+          "amount": "$3.4 million",
+          "quotes": [
+            {
+              "text": "The money came from Inventure, Lifeline Ventures and Initial Capital and angel investors.",
+              "url": "https://www.gamedeveloper.com/business/3d-middleware-firm-umbra-nets-3-4-million-investment"
+            },
+            {
+              "text": "Helsinki-based 3D middleware firm Umbra has pulled in a $3.4 million venture capital investment, which it plans to use to expand its technology in new directions.",
+              "url": "https://www.gamedeveloper.com/business/3d-middleware-firm-umbra-nets-3-4-million-investment"
             }
           ]
         }
@@ -100,13 +120,34 @@
           "calaId": "9c950c46-b322-423a-b710-5ac4d5e8d99f",
           "label": "Funding round",
           "date": "2021-07-05",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "Mosaic Ventures",
+            "LocalGlobe",
+            "Richard Laxer"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/arex/__BN6-KVHOra9Y41-ZwcB48uKU_khzkcvyWB2YE8hkdzg/funding-and-investors",
               "name": "tracxn.com",
               "date": "2026-07-29"
+            },
+            {
+              "url": "https://tech.eu/2021/07/05/arex-markets-raises-e8-8-million-launches-in-uk-and-spain/",
+              "name": "AREX Markets raises €8.8 million, launches in UK and Spain - Tech.eu",
+              "date": "2021-07-05"
+            }
+          ],
+          "fundNamed": true,
+          "amount": "€8.8 million",
+          "quotes": [
+            {
+              "text": "The Series-A funding was led by Mosaic Ventures and LocalGlobe, who now join existing investors Lifeline Ventures and angel investor Richard Laxer, former CEO of GE Capital.",
+              "url": "https://tech.eu/2021/07/05/arex-markets-raises-e8-8-million-launches-in-uk-and-spain/"
+            },
+            {
+              "text": "With its novel approach to invoice factoring, Arex Markets has raised €8.8 million in a Series-A round.",
+              "url": "https://tech.eu/2021/07/05/arex-markets-raises-e8-8-million-launches-in-uk-and-spain/"
             }
           ]
         },
@@ -114,8 +155,11 @@
           "calaId": "565ece33-cd72-4f0a-8b8e-59e4caf1936a",
           "label": "Funding round",
           "date": "2016-11-04",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": true,
+          "coInvestors": [
+            "LocalGlobe",
+            "unnamed angel investors"
+          ],
           "sources": [
             {
               "url": "https://techcrunch.com/2016/11/04/arex",
@@ -126,6 +170,18 @@
               "url": "https://tracxn.com/d/companies/arex/__BN6-KVHOra9Y41-ZwcB48uKU_khzkcvyWB2YE8hkdzg/funding-and-investors",
               "name": "tracxn.com",
               "date": "2026-07-29"
+            }
+          ],
+          "fundNamed": true,
+          "amount": "€3 million",
+          "quotes": [
+            {
+              "text": "Leading the round is Finland’s Lifeline Ventures, alongside London-based LocalGlobe, and various unnamed angel investors.",
+              "url": "https://techcrunch.com/2016/11/04/arex"
+            },
+            {
+              "text": "Arex, a startup that is taking a marketplace approach to invoice financing for SMBs, thus helping creating another asset class for investors, has picked up €3 million in backing.",
+              "url": "https://techcrunch.com/2016/11/04/arex"
             }
           ]
         }
@@ -357,8 +413,13 @@
           "calaId": "dbae1189-4790-4159-8d9e-2d185cc7ccf4",
           "label": "Funding round",
           "date": "2024-10-08",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "Greencode Ventures",
+            "Vaens",
+            "APX",
+            "Wave Ventures"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/synergi/__2lIAjwwzg68x9B1G4y6Eib92qpRxd6L47WWLihTpFSU/funding-and-investors",
@@ -369,6 +430,27 @@
               "url": "https://tracxn.com/d/companies/synergi/__2lIAjwwzg68x9B1G4y6Eib92qpRxd6L47WWLihTpFSU",
               "name": "tracxn.com",
               "date": "2026-08-25"
+            },
+            {
+              "url": "https://tech.eu/2024/10/08/synergi-raises-2-million-seed-to-advance-the-development-the-future-of-virtual-power-plants-and-energy-flexibility/",
+              "name": "Synergi raises $2M Seed for the future of virtual power plants and energy flexibility - Tech.eu",
+              "date": "2024-10-08"
+            }
+          ],
+          "fundNamed": true,
+          "amount": "€2 million",
+          "quotes": [
+            {
+              "text": "Greencode Ventures led the round, while Vaens joined as a new follower.",
+              "url": "https://tech.eu/2024/10/08/synergi-raises-2-million-seed-to-advance-the-development-the-future-of-virtual-power-plants-and-energy-flexibility/"
+            },
+            {
+              "text": "Existing investors Lifeline Ventures, APX (the first-cheque investor of Porsche and Axel Springer), and Wave Ventures also participated in the round.",
+              "url": "https://tech.eu/2024/10/08/synergi-raises-2-million-seed-to-advance-the-development-the-future-of-virtual-power-plants-and-energy-flexibility/"
+            },
+            {
+              "text": "Finnish energytech company Synergi has raised €2 million Seed funding.",
+              "url": "https://tech.eu/2024/10/08/synergi-raises-2-million-seed-to-advance-the-development-the-future-of-virtual-power-plants-and-energy-flexibility/"
             }
           ]
         },
@@ -376,8 +458,14 @@
           "calaId": "d77edeac-e08b-417f-92db-fc3545e7e8d9",
           "label": "Funding round",
           "date": "2022-11-30",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": true,
+          "coInvestors": [
+            "APX",
+            "Wave Ventures",
+            "TK Ventures",
+            "Cape Capital",
+            "Kenneth Blomqvist"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/synergi/__2lIAjwwzg68x9B1G4y6Eib92qpRxd6L47WWLihTpFSU/funding-and-investors",
@@ -388,6 +476,37 @@
               "url": "https://tracxn.com/d/companies/synergi/__2lIAjwwzg68x9B1G4y6Eib92qpRxd6L47WWLihTpFSU",
               "name": "tracxn.com",
               "date": "2026-08-25"
+            },
+            {
+              "url": "https://arcticstartup.com/synergi-raises-e800k-pre-seed/",
+              "name": "Finnish startup Synergi raises €800K pre-seed to start decarbonizing the grid - ArcticStartup",
+              "date": "2022-12-01"
+            }
+          ],
+          "fundNamed": true,
+          "amount": "€800K",
+          "partner": {
+            "name": "Juha Lindfors",
+            "title": "partner at Lifeline Ventures",
+            "quote": "“We are very happy to team up with Antti, Harri, and Petrus. They are one of the most promising and most ambitious teams from the Finnish startup ecosystem – building an important company with a substantial addressable market”, says Juha Lindfors, partner at Lifeline Ventures.",
+            "source": {
+              "url": "https://arcticstartup.com/synergi-raises-e800k-pre-seed/",
+              "name": "Finnish startup Synergi raises €800K pre-seed to start decarbonizing the grid - ArcticStartup",
+              "date": "2022-12-01"
+            }
+          },
+          "quotes": [
+            {
+              "text": "Lifeline Ventures, the lead investor in this round, is most known for investing in companies such as Wolt, Smartly, and Supercell.",
+              "url": "https://arcticstartup.com/synergi-raises-e800k-pre-seed/"
+            },
+            {
+              "text": "Helsinki-based startup Synergi has collected €800K in a pre-seed round from Lifeline Ventures, APX, Wave Ventures, TK Ventures, Cape Capital, and Kenneth Blomqvist.",
+              "url": "https://arcticstartup.com/synergi-raises-e800k-pre-seed/"
+            },
+            {
+              "text": "“We are very happy to team up with Antti, Harri, and Petrus. They are one of the most promising and most ambitious teams from the Finnish startup ecosystem – building an important company with a substantial addressable market”, says Juha Lindfors, partner at Lifeline Ventures.",
+              "url": "https://arcticstartup.com/synergi-raises-e800k-pre-seed/"
             }
           ]
         }
@@ -610,8 +729,15 @@
           "calaId": "84ea4c2e-708a-4b02-8fea-12da88b021ba",
           "label": "Funding round",
           "date": "2025-06-18",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "Karma Ventures",
+            "DIG Ventures",
+            "Alven",
+            "Cal Henderson",
+            "Romain Huët",
+            "Alex Plugaru"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/venture-capital/karma-ventures/__YzAWql9X7IfLH7LX7OUZsvzGQYcq9fA0QSWoiwUeMqI",
@@ -622,6 +748,23 @@
               "url": "https://tracxn.com/d/companies/swarmia/__3EkVJl86yqUhSmHPIcHL6I3AXtQ7a0X0IqyLjUch0vc/funding-and-investors",
               "name": "tracxn.com",
               "date": "2026-06-10"
+            },
+            {
+              "url": "https://www.swarmia.com/blog/series-a-funding/",
+              "name": "We raised an $11M Series A to take software engineering intelligence mainstream | Swarmia",
+              "date": "2025-06-18"
+            }
+          ],
+          "fundNamed": true,
+          "amount": "$11M",
+          "quotes": [
+            {
+              "text": "We’re announcing $11M in Series A funding led by Karma Ventures and DIG Ventures, with participation from existing investors Alven and Lifeline Ventures.",
+              "url": "https://www.swarmia.com/blog/series-a-funding/"
+            },
+            {
+              "text": "We’re also thrilled to welcome angel investors who’ve shaped modern software development: Cal Henderson (former CTO of Slack), Romain Huët (Head of Developer Experience at OpenAI), and Alex Plugaru (Co-Founder & CTO of Gorgias).",
+              "url": "https://www.swarmia.com/blog/series-a-funding/"
             }
           ]
         },
@@ -629,13 +772,41 @@
           "calaId": "9883fca2-a6e8-4602-8307-608d30f5c985",
           "label": "Funding round",
           "date": "2021-05-12",
-          "fundIsLead": true,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "Alven Capital",
+            "Jigsaw VC",
+            "Irena Goldenberg",
+            "Alex Algard",
+            "Lars Fjeldsoe-Nielsen",
+            "Jonathan Benhamou",
+            "Romain Huet"
+          ],
           "sources": [
             {
               "url": "https://techcrunch.com/2021/05/12/swarmia-raises-8m-seed-to-help-software-development-teams-deal-with-data",
               "name": "Swarmia raises $8M Seed to help software development teams deal with data | TechCrunch",
               "date": "2021-05-12"
+            }
+          ],
+          "fundNamed": true,
+          "amount": "$8M",
+          "quotes": [
+            {
+              "text": "The Seed round was led by Alven Capital",
+              "url": "https://techcrunch.com/2021/05/12/swarmia-raises-8m-seed-to-help-software-development-teams-deal-with-data"
+            },
+            {
+              "text": "joined by Jigsaw VC, Irena Goldenberg, Alex Algard, Lars Fjeldsoe-Nielsen, Jonathan Benhamou and Romain Huet.",
+              "url": "https://techcrunch.com/2021/05/12/swarmia-raises-8m-seed-to-help-software-development-teams-deal-with-data"
+            },
+            {
+              "text": "Lifeline Ventures, the sole investor in a previously unannounced 1M€ pre-seed round, also participated.",
+              "url": "https://techcrunch.com/2021/05/12/swarmia-raises-8m-seed-to-help-software-development-teams-deal-with-data"
+            },
+            {
+              "text": "taking its raise to €6.7M ($8M).",
+              "url": "https://techcrunch.com/2021/05/12/swarmia-raises-8m-seed-to-help-software-development-teams-deal-with-data"
             }
           ]
         },
@@ -643,13 +814,41 @@
           "calaId": "eaabc1ba-4dbe-4632-bfb7-8785e160ba09",
           "label": "Funding round",
           "date": "2021-05-12",
-          "fundIsLead": true,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "Alven Capital",
+            "Jigsaw VC",
+            "Irena Goldenberg",
+            "Alex Algard",
+            "Lars Fjeldsoe-Nielsen",
+            "Jonathan Benhamou",
+            "Romain Huet"
+          ],
           "sources": [
             {
               "url": "https://techcrunch.com/2021/05/12/swarmia-raises-8m-seed-to-help-software-development-teams-deal-with-data",
               "name": "Swarmia raises $8M Seed to help software development teams deal with data | TechCrunch",
               "date": "2021-05-12"
+            }
+          ],
+          "fundNamed": true,
+          "amount": "$8M",
+          "quotes": [
+            {
+              "text": "The Seed round was led by Alven Capital",
+              "url": "https://techcrunch.com/2021/05/12/swarmia-raises-8m-seed-to-help-software-development-teams-deal-with-data"
+            },
+            {
+              "text": "joined by Jigsaw VC, Irena Goldenberg, Alex Algard, Lars Fjeldsoe-Nielsen, Jonathan Benhamou and Romain Huet.",
+              "url": "https://techcrunch.com/2021/05/12/swarmia-raises-8m-seed-to-help-software-development-teams-deal-with-data"
+            },
+            {
+              "text": "Lifeline Ventures, the sole investor in a previously unannounced 1M€ pre-seed round, also participated.",
+              "url": "https://techcrunch.com/2021/05/12/swarmia-raises-8m-seed-to-help-software-development-teams-deal-with-data"
+            },
+            {
+              "text": "taking its raise to €6.7M ($8M).",
+              "url": "https://techcrunch.com/2021/05/12/swarmia-raises-8m-seed-to-help-software-development-teams-deal-with-data"
             }
           ]
         }
@@ -877,8 +1076,10 @@
           "calaId": "fa39ee09-434c-4f15-87c7-d60ef0060ddb",
           "label": "Funding round",
           "date": "2024-06-03",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "European Investment Bank"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/swappie/__OZLXVrwyNaLewJayNH7sE6-Fl6TKs-McQNmY8bKnWyI/funding-and-investors",
@@ -889,6 +1090,23 @@
               "url": "https://www.crunchbase.com/organization/swappie/financial_details",
               "name": "www.crunchbase.com",
               "date": "2026-08-24"
+            },
+            {
+              "url": "https://www.eib.org/en/press/all/2024-192-eib-signs-eur17-million-loan-to-finnish-iphone-refurbisher-swappie",
+              "name": "Finland: EIB signs €17 million loan to iPhone refurbisher Swappie",
+              "date": "2024-05-30"
+            }
+          ],
+          "fundNamed": false,
+          "amount": "€17 million",
+          "quotes": [
+            {
+              "text": "The European Investment Bank (EIB) and Swappie, Europe’s largest iPhone refurbisher, have signed a loan agreement to back the high quality refurbishment of iPhones",
+              "url": "https://www.eib.org/en/press/all/2024-192-eib-signs-eur17-million-loan-to-finnish-iphone-refurbisher-swappie"
+            },
+            {
+              "text": "The EIB will provide a five-year, €17 million loan to the innovative Finnish startup to support its investment in research and development and robotics aimed at making iPhone repairs quick and reliable.",
+              "url": "https://www.eib.org/en/press/all/2024-192-eib-signs-eur17-million-loan-to-finnish-iphone-refurbisher-swappie"
             }
           ]
         },
@@ -896,8 +1114,13 @@
           "calaId": "da50e04c-305c-4151-8a67-345070dbbcda",
           "label": "Funding round",
           "date": "2022-02-15",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "Verdane",
+            "Inventure",
+            "Reaktor Ventures",
+            "TESI"
+          ],
           "sources": [
             {
               "url": "https://techcrunch.com/2022/02/15/iphone-refurbisher-swappie-raises-124m-series-c-led-by-verdane-to-scale-in-europe",
@@ -914,6 +1137,14 @@
               "name": "tracxn.com",
               "date": "2026-08-24"
             }
+          ],
+          "fundNamed": true,
+          "amount": "$124 million",
+          "quotes": [
+            {
+              "text": "It’s now raised a $124 million (€108 million) Series C funding round led by growth equity firm Verdane, alongside existing investors Lifeline Ventures, Inventure, Reaktor Ventures and TESI.",
+              "url": "https://techcrunch.com/2022/02/15/iphone-refurbisher-swappie-raises-124m-series-c-led-by-verdane-to-scale-in-europe"
+            }
           ]
         },
         {
@@ -921,7 +1152,11 @@
           "label": "Funding round",
           "date": "2020-06-16",
           "fundIsLead": null,
-          "coInvestors": [],
+          "coInvestors": [
+            "TESI",
+            "Reaktor Ventures",
+            "Inventure"
+          ],
           "sources": [
             {
               "url": "https://techcrunch.com/2020/06/16/swappie-bags-40-6m-to-sell-more-secondhand-iphones-across-europe",
@@ -938,6 +1173,22 @@
               "name": "tracxn.com",
               "date": "2026-08-24"
             }
+          ],
+          "fundNamed": true,
+          "amount": "$40.6M",
+          "quotes": [
+            {
+              "text": "Local VC and private equity firm TESI is a new investor in the Series B",
+              "url": "https://techcrunch.com/2020/06/16/swappie-bags-40-6m-to-sell-more-secondhand-iphones-across-europe"
+            },
+            {
+              "text": "along with Lifeline Ventures, Reaktor Ventures and Inventure, all of whom participated in Swappie’s 2019 Series A.",
+              "url": "https://techcrunch.com/2020/06/16/swappie-bags-40-6m-to-sell-more-secondhand-iphones-across-europe"
+            },
+            {
+              "text": "Finland-based Swappie has closed a €35.8 million ($40.6M) Series B to expand into new markets in Europe.",
+              "url": "https://techcrunch.com/2020/06/16/swappie-bags-40-6m-to-sell-more-secondhand-iphones-across-europe"
+            }
           ]
         },
         {
@@ -945,7 +1196,11 @@
           "label": "Funding round",
           "date": "2019-05-28",
           "fundIsLead": null,
-          "coInvestors": [],
+          "coInvestors": [
+            "TESI",
+            "Reaktor Ventures",
+            "Inventure"
+          ],
           "sources": [
             {
               "url": "https://news.crunchbase.com/startups/swappies-european-expansion-boosted-by-40-6m-series-b",
@@ -961,6 +1216,22 @@
               "url": "https://tracxn.com/d/companies/swappie/__OZLXVrwyNaLewJayNH7sE6-Fl6TKs-McQNmY8bKnWyI/funding-and-investors",
               "name": "tracxn.com",
               "date": "2026-08-24"
+            }
+          ],
+          "fundNamed": true,
+          "amount": "$40.6M",
+          "quotes": [
+            {
+              "text": "Local VC and private equity firm TESI is a new investor in the Series B",
+              "url": "https://techcrunch.com/2020/06/16/swappie-bags-40-6m-to-sell-more-secondhand-iphones-across-europe"
+            },
+            {
+              "text": "along with Lifeline Ventures, Reaktor Ventures and Inventure, all of whom participated in Swappie’s 2019 Series A.",
+              "url": "https://techcrunch.com/2020/06/16/swappie-bags-40-6m-to-sell-more-secondhand-iphones-across-europe"
+            },
+            {
+              "text": "Finland-based Swappie has closed a €35.8 million ($40.6M) Series B to expand into new markets in Europe.",
+              "url": "https://techcrunch.com/2020/06/16/swappie-bags-40-6m-to-sell-more-secondhand-iphones-across-europe"
             }
           ]
         }
@@ -1117,7 +1388,10 @@
           "label": "Funding round",
           "date": "2018-09-14",
           "fundIsLead": null,
-          "coInvestors": [],
+          "coInvestors": [
+            "Capman Growth Fund",
+            "Leena Niemistö"
+          ],
           "sources": [
             {
               "url": "https://digitalworkforce.com/rpa-news/digital-workforce-raises-e3-million-in-funding-for-cognitive-solutions-and-overseas-expansion-2",
@@ -1129,6 +1403,32 @@
               "name": "capman.com",
               "date": "2026-08-25"
             }
+          ],
+          "fundNamed": true,
+          "amount": "€3 million",
+          "partner": {
+            "name": "Timo Ahopelto",
+            "title": "Founding Partner",
+            "quote": "Timo Ahopelto, Founding Partner, Lifeline Ventures",
+            "source": {
+              "url": "https://digitalworkforce.com/rpa-news/digital-workforce-raises-e3-million-in-funding-for-cognitive-solutions-and-overseas-expansion-2",
+              "name": "DWF raises €3 Million in Funding for Cognitive Solutions",
+              "date": "2018-09-14"
+            }
+          },
+          "quotes": [
+            {
+              "text": "The investors in the round are Capman Growth Fund along with earlier seed investors Leena Niemistö and Lifeline Ventures.",
+              "url": "https://digitalworkforce.com/rpa-news/digital-workforce-raises-e3-million-in-funding-for-cognitive-solutions-and-overseas-expansion-2"
+            },
+            {
+              "text": "announced it has raised €3 million in funding round from existing investors.",
+              "url": "https://digitalworkforce.com/rpa-news/digital-workforce-raises-e3-million-in-funding-for-cognitive-solutions-and-overseas-expansion-2"
+            },
+            {
+              "text": "Timo Ahopelto, Founding Partner, Lifeline Ventures",
+              "url": "https://digitalworkforce.com/rpa-news/digital-workforce-raises-e3-million-in-funding-for-cognitive-solutions-and-overseas-expansion-2"
+            }
           ]
         },
         {
@@ -1136,7 +1436,10 @@
           "label": "Funding round",
           "date": "2017-01-25",
           "fundIsLead": null,
-          "coInvestors": [],
+          "coInvestors": [
+            "Norvestia Oyj",
+            "Leena Niemistö"
+          ],
           "sources": [
             {
               "url": "https://www.globenewswire.com/news-release/2017/01/25/910613/0/en/Norvestia-strengthens-its-Growth-Equity-portfolio-by-participating-in-Digital-Workforce-s-funding-round.html",
@@ -1148,6 +1451,18 @@
               "name": "RPA Company Digital Workforce Raises €2 Million to Expand",
               "date": "2017-01-25"
             }
+          ],
+          "fundNamed": true,
+          "amount": "EUR 2 million",
+          "quotes": [
+            {
+              "text": "Investors participating in the funding round are Norvestia Oyj (now part of the CapMan Group) and earlier seed investors Leena Niemistö and Lifeline Ventures.",
+              "url": "https://www.globenewswire.com/news-release/2017/01/25/910613/0/en/Norvestia-strengthens-its-Growth-Equity-portfolio-by-participating-in-Digital-Workforce-s-funding-round.html"
+            },
+            {
+              "text": "Norvestia participates in a EUR 2 million funding round of Digital Workforce, a robotic process automation (RPA) growth company.",
+              "url": "https://www.globenewswire.com/news-release/2017/01/25/910613/0/en/Norvestia-strengthens-its-Growth-Equity-portfolio-by-participating-in-Digital-Workforce-s-funding-round.html"
+            }
           ]
         },
         {
@@ -1155,7 +1470,10 @@
           "label": "Funding round",
           "date": "2017-01-25",
           "fundIsLead": null,
-          "coInvestors": [],
+          "coInvestors": [
+            "Norvestia Oyj",
+            "Leena Niemistö"
+          ],
           "sources": [
             {
               "url": "https://www.lifelineventures.com/companies",
@@ -1166,6 +1484,13 @@
               "url": "https://digitalworkforce.com/rpa-news/rpa-company-digital-workforce-raises-e2-million-to-boost-international-expansion",
               "name": "RPA Company Digital Workforce Raises €2 Million to Expand",
               "date": "2017-01-25"
+            }
+          ],
+          "fundNamed": true,
+          "quotes": [
+            {
+              "text": "The investors in the round are Norvestia Oyj along with earlier seed investors Leena Niemistö and Lifeline Ventures.",
+              "url": "https://digitalworkforce.com/rpa-news/rpa-company-digital-workforce-raises-e2-million-to-boost-international-expansion"
             }
           ]
         }
@@ -1517,8 +1842,12 @@
           "calaId": "43984d29-61be-44c6-a6b6-6c869b814397",
           "label": "Funding round",
           "date": "2023-11-29",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "GenZero",
+            "True Ventures",
+            "Tesi (Finnish Industry Investment Ltd)"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/carbo-culture/__UFEmFublDQWg25HrU4d4bX218Q2ISrYqhirYYnOB-N8/funding-and-investors",
@@ -1534,6 +1863,27 @@
               "url": "https://tracxn.com/d/companies/carbo-culture/__UFEmFublDQWg25HrU4d4bX218Q2ISrYqhirYYnOB-N8",
               "name": "tracxn.com",
               "date": "2026-08-24"
+            },
+            {
+              "url": "https://genzero.co/carbo-culture-us18m-series-a-co-led-by-genzero-and-true-ventures/",
+              "name": "Carbo Culture US$18M Series A Co-led by GenZero and True Ventures - GenZero",
+              "date": "2023-11-28"
+            }
+          ],
+          "fundNamed": false,
+          "amount": "US$18.3 million",
+          "quotes": [
+            {
+              "text": "The Series A funding round is co-led by Singapore-based decarbonisation-focused investment company GenZero and San Francisco-based venture capital firm True Ventures",
+              "url": "https://genzero.co/carbo-culture-us18m-series-a-co-led-by-genzero-and-true-ventures/"
+            },
+            {
+              "text": "participation from Tesi (Finnish Industry Investment Ltd) as well as notable climate tech investors and family offices.",
+              "url": "https://genzero.co/carbo-culture-us18m-series-a-co-led-by-genzero-and-true-ventures/"
+            },
+            {
+              "text": "The US$18.3 million round will help Carbo Culture unlock its next stage of commercialisation and deployment.",
+              "url": "https://genzero.co/carbo-culture-us18m-series-a-co-led-by-genzero-and-true-ventures/"
             }
           ]
         },
@@ -1541,8 +1891,18 @@
           "calaId": "06935f81-f00a-4294-ac7c-008432356987",
           "label": "Funding round",
           "date": "2021-04-14",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "True Ventures",
+            "Cherry Ventures",
+            "Übermorgen Ventures",
+            "Albert Wenger",
+            "Maija Itkonen",
+            "Alex Patist",
+            "David Helgason",
+            "Moaffak Ahmed",
+            "Paul and Dan Bragiel"
+          ],
           "sources": [
             {
               "url": "https://techcrunch.com/2021/04/14/large-scale-co2-removal-startup-carbo-culture-raises-6-2m-seed-led-by-true-ventures",
@@ -1553,6 +1913,54 @@
               "url": "https://techcrunch.com/2023/06/21/supercritical-a-carbon-removal-marketplace-aimed-at-tech-firms-raises-13m-series-a-led-by-lightspeed",
               "name": "Supercritical, a carbon removal marketplace aimed at tech firms, raises $13M Series A led by Lightspeed | TechCrunch",
               "date": "2023-06-21"
+            }
+          ],
+          "fundNamed": true,
+          "amount": "$6.2 million",
+          "quotes": [
+            {
+              "text": "financing round led by Silicon Valley VC True Ventures",
+              "url": "https://techcrunch.com/2021/04/14/large-scale-co2-removal-startup-carbo-culture-raises-6-2m-seed-led-by-true-ventures"
+            },
+            {
+              "text": "The round was co-led by European early-stage venture firm Cherry Ventures.",
+              "url": "https://techcrunch.com/2021/04/14/large-scale-co2-removal-startup-carbo-culture-raises-6-2m-seed-led-by-true-ventures"
+            },
+            {
+              "text": "Swiss climate investor Übermorgen Ventures also participated.",
+              "url": "https://techcrunch.com/2021/04/14/large-scale-co2-removal-startup-carbo-culture-raises-6-2m-seed-led-by-true-ventures"
+            },
+            {
+              "text": "Carbo Culture’s additional investors include Albert Wenger",
+              "url": "https://techcrunch.com/2021/04/14/large-scale-co2-removal-startup-carbo-culture-raises-6-2m-seed-led-by-true-ventures"
+            },
+            {
+              "text": "Gold&Green Foods Founder Maija Itkonen",
+              "url": "https://techcrunch.com/2021/04/14/large-scale-co2-removal-startup-carbo-culture-raises-6-2m-seed-led-by-true-ventures"
+            },
+            {
+              "text": "VP at Geltor Alex Patist",
+              "url": "https://techcrunch.com/2021/04/14/large-scale-co2-removal-startup-carbo-culture-raises-6-2m-seed-led-by-true-ventures"
+            },
+            {
+              "text": "alongside existing investors such as David Helgason",
+              "url": "https://techcrunch.com/2021/04/14/large-scale-co2-removal-startup-carbo-culture-raises-6-2m-seed-led-by-true-ventures"
+            },
+            {
+              "text": "Moaffak Ahmed",
+              "url": "https://techcrunch.com/2021/04/14/large-scale-co2-removal-startup-carbo-culture-raises-6-2m-seed-led-by-true-ventures"
+            },
+            {
+              "text": "Lifeline Ventures",
+              "url": "https://techcrunch.com/2021/04/14/large-scale-co2-removal-startup-carbo-culture-raises-6-2m-seed-led-by-true-ventures"
+            },
+            {
+              "text": "Paul and Dan Bragiel",
+              "url": "https://techcrunch.com/2021/04/14/large-scale-co2-removal-startup-carbo-culture-raises-6-2m-seed-led-by-true-ventures"
+            },
+            {
+              "text": "has raised $6.2 million in seed",
+              "url": "https://techcrunch.com/2021/04/14/large-scale-co2-removal-startup-carbo-culture-raises-6-2m-seed-led-by-true-ventures"
             }
           ]
         }
@@ -1631,8 +2039,16 @@
           "calaId": "5b385571-3e83-4b0c-8c44-e6475c7f4fbf",
           "label": "Funding round",
           "date": "2022-05-10",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "Eurazeo",
+            "BlackRock",
+            "IVP",
+            "Atomico",
+            "Earlybird",
+            "World Innovation Lab",
+            "Salesforce Ventures"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/aiven/__X_wU91LlJT_XQgArV0QPxA8eH631xAmZQot1PcBqm1U/funding-and-investors",
@@ -1643,6 +2059,23 @@
               "url": "https://pitchbook.com/profiles/company/182199-43",
               "name": "pitchbook.com",
               "date": "2026-08-24"
+            },
+            {
+              "url": "https://aiven.io/press/Aiven-raises-210M-to-invest-in-sustainable-open-source-cloud",
+              "name": "Aiven Raises $210M to Invest in Sustainable Open Source Cloud",
+              "date": "2022-05-11"
+            }
+          ],
+          "fundNamed": false,
+          "amount": "$210M",
+          "quotes": [
+            {
+              "text": "The round was led by Eurazeo, and joined by funds and accounts managed by BlackRock as well as existing investors IVP, Atomico, Earlybird, World Innovation Lab and Salesforce Ventures.",
+              "url": "https://aiven.io/press/Aiven-raises-210M-to-invest-in-sustainable-open-source-cloud"
+            },
+            {
+              "text": "Aiven raises $210M to invest in sustainable open source cloud",
+              "url": "https://aiven.io/press/Aiven-raises-210M-to-invest-in-sustainable-open-source-cloud"
             }
           ]
         },
@@ -1650,8 +2083,12 @@
           "calaId": "787f2615-6a39-4f0a-ad91-5a7c3cd64dfa",
           "label": "Funding round",
           "date": "2021-10-19",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "World Innovation Lab",
+            "IVP",
+            "Atomico"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/aiven/__X_wU91LlJT_XQgArV0QPxA8eH631xAmZQot1PcBqm1U/funding-and-investors",
@@ -1662,6 +2099,22 @@
               "url": "https://techcrunch.com/2021/10/18/aiven-snags-60m-investment-on-2b-valuation-up-from-800m-in-march",
               "name": "Aiven snags $60M investment on $2B valuation, up from $800M in March | TechCrunch",
               "date": "2021-10-18"
+            }
+          ],
+          "fundNamed": false,
+          "amount": "$60 million",
+          "quotes": [
+            {
+              "text": "World Innovation Lab and IVP co-led the round",
+              "url": "https://techcrunch.com/2021/10/18/aiven-snags-60m-investment-on-2b-valuation-up-from-800m-in-march"
+            },
+            {
+              "text": "participation from Atomico — all existing investors.",
+              "url": "https://techcrunch.com/2021/10/18/aiven-snags-60m-investment-on-2b-valuation-up-from-800m-in-march"
+            },
+            {
+              "text": "announced a $60 million investment",
+              "url": "https://techcrunch.com/2021/10/18/aiven-snags-60m-investment-on-2b-valuation-up-from-800m-in-march"
             }
           ]
         },
@@ -1669,8 +2122,12 @@
           "calaId": "46025f58-e066-4bad-b30a-50cb4215268f",
           "label": "Funding round",
           "date": "2021-03-23",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "World Innovation Lab",
+            "IVP",
+            "Atomico"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/aiven/__X_wU91LlJT_XQgArV0QPxA8eH631xAmZQot1PcBqm1U/funding-and-investors",
@@ -1682,14 +2139,34 @@
               "name": "Aiven snags $60M investment on $2B valuation, up from $800M in March | TechCrunch",
               "date": "2021-10-18"
             }
+          ],
+          "fundNamed": false,
+          "amount": "$60 million",
+          "quotes": [
+            {
+              "text": "World Innovation Lab and IVP co-led the round",
+              "url": "https://techcrunch.com/2021/10/18/aiven-snags-60m-investment-on-2b-valuation-up-from-800m-in-march"
+            },
+            {
+              "text": "participation from Atomico — all existing investors.",
+              "url": "https://techcrunch.com/2021/10/18/aiven-snags-60m-investment-on-2b-valuation-up-from-800m-in-march"
+            },
+            {
+              "text": "announced a $60 million investment",
+              "url": "https://techcrunch.com/2021/10/18/aiven-snags-60m-investment-on-2b-valuation-up-from-800m-in-march"
+            }
           ]
         },
         {
           "calaId": "b5ee395a-5acd-4d0f-b01c-33f6f176c2e7",
           "label": "Funding round",
           "date": "2020-02-05",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "IVP",
+            "Earlybird VC",
+            "family offices of Risto Siilasmaa"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/aiven/__X_wU91LlJT_XQgArV0QPxA8eH631xAmZQot1PcBqm1U/funding-and-investors",
@@ -1701,14 +2178,32 @@
               "name": "Aiven raises $40M to democratize access to open-source projects through managed cloud services | TechCrunch",
               "date": "2020-02-05"
             }
+          ],
+          "fundNamed": true,
+          "amount": "$40 million",
+          "quotes": [
+            {
+              "text": "a Series B being led by IVP",
+              "url": "https://techcrunch.com/2020/02/05/aiven-raises-40m-to-democratize-access-to-open-source-projects-through-managed-cloud-services"
+            },
+            {
+              "text": "Previous investors Earlybird VC, Lifeline Ventures and the family offices of Risto Siilasmaa (chairman of Nokia), and Olivier Pomel (founder of Datadog), also participated.",
+              "url": "https://techcrunch.com/2020/02/05/aiven-raises-40m-to-democratize-access-to-open-source-projects-through-managed-cloud-services"
+            },
+            {
+              "text": "has raised $40 million in funding",
+              "url": "https://techcrunch.com/2020/02/05/aiven-raises-40m-to-democratize-access-to-open-source-projects-through-managed-cloud-services"
+            }
           ]
         },
         {
           "calaId": "ca1bdb95-8182-4a3a-9d16-bb1a9139d096",
           "label": "Funding round",
           "date": "2019-05-03",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "Earlybird Venture Capital"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/aiven/__X_wU91LlJT_XQgArV0QPxA8eH631xAmZQot1PcBqm1U/funding-and-investors",
@@ -1719,6 +2214,19 @@
               "url": "https://www.crunchbase.com/funding_round/aiven-series-a--53d32402",
               "name": "www.crunchbase.com",
               "date": "2026-08-24"
+            },
+            {
+              "url": "https://venturebeat.com/ai/aiven-raises-10-million-to-manage-databases-across-cloud-platforms",
+              "name": "Aiven raises $10 million to manage databases across cloud platforms | VentureBeat",
+              "date": "2019-05-03"
+            }
+          ],
+          "fundNamed": false,
+          "amount": "$10 million",
+          "quotes": [
+            {
+              "text": "Aiven, a Helsinki- and Boston-based cloud technology startup developing a portfolio of database-as-a-service (DBaaS) products, today announced that it's raised $10 million in financing led by Earlybird Venture Capital.",
+              "url": "https://venturebeat.com/ai/aiven-raises-10-million-to-manage-databases-across-cloud-platforms"
             }
           ]
         },
@@ -1726,8 +2234,10 @@
           "calaId": "23b7a576-9167-4ea8-975b-acff8b3f705b",
           "label": "Funding round",
           "date": "2017-08-30",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": true,
+          "coInvestors": [
+            "yksityiset enkelisijoittajat"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/aiven/__X_wU91LlJT_XQgArV0QPxA8eH631xAmZQot1PcBqm1U/funding-and-investors",
@@ -1738,6 +2248,41 @@
               "url": "https://pitchbook.com/profiles/company/182199-43",
               "name": "pitchbook.com",
               "date": "2026-08-24"
+            },
+            {
+              "url": "https://www.epressi.com/tiedotteet/ohjelmistoteollisuus/aiven-toteutti-1m-rahoituskierroksen-kasvun-kiihdyttamiseksi.html",
+              "name": "Aiven toteutti $1M rahoituskierroksen kasvun kiihdyttämiseksi - ePressi",
+              "date": "2017-09-21"
+            }
+          ],
+          "fundNamed": true,
+          "amount": "$1M",
+          "partner": {
+            "name": "Kai Bäckman",
+            "title": "Partner",
+            "quote": "Kai Bäckman\n\nPartner, Lifeline Ventures",
+            "source": {
+              "url": "https://www.epressi.com/tiedotteet/ohjelmistoteollisuus/aiven-toteutti-1m-rahoituskierroksen-kasvun-kiihdyttamiseksi.html",
+              "name": "Aiven toteutti $1M rahoituskierroksen kasvun kiihdyttämiseksi - ePressi",
+              "date": "2017-09-21"
+            }
+          },
+          "quotes": [
+            {
+              "text": "Rahoituskierrosta johti Lifeline Ventures",
+              "url": "https://www.epressi.com/tiedotteet/ohjelmistoteollisuus/aiven-toteutti-1m-rahoituskierroksen-kasvun-kiihdyttamiseksi.html"
+            },
+            {
+              "text": "siihen osallistuivat myös yksityiset enkelisijoittajat",
+              "url": "https://www.epressi.com/tiedotteet/ohjelmistoteollisuus/aiven-toteutti-1m-rahoituskierroksen-kasvun-kiihdyttamiseksi.html"
+            },
+            {
+              "text": "Aiven toteutti $1M rahoituskierroksen kasvun kiihdyttämiseksi",
+              "url": "https://www.epressi.com/tiedotteet/ohjelmistoteollisuus/aiven-toteutti-1m-rahoituskierroksen-kasvun-kiihdyttamiseksi.html"
+            },
+            {
+              "text": "Kai Bäckman\n\nPartner, Lifeline Ventures",
+              "url": "https://www.epressi.com/tiedotteet/ohjelmistoteollisuus/aiven-toteutti-1m-rahoituskierroksen-kasvun-kiihdyttamiseksi.html"
             }
           ]
         }
@@ -2024,8 +2569,11 @@
           "calaId": "27aecaf7-c334-4078-a7e3-b61c09a3d6eb",
           "label": "Funding round",
           "date": "2014-11-18",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": true,
+          "coInvestors": [
+            "Reaktor Polte",
+            "Tekes"
+          ],
           "sources": [
             {
               "url": "https://techcrunch.com/2014/11/18/sharetribe",
@@ -2036,6 +2584,18 @@
               "url": "https://tracxn.com/d/companies/sharetribe/__ce7p-WEp1VFHXCZbq6K21mTxm5og2MCBHbNQmlOmjh4",
               "name": "tracxn.com",
               "date": "2026-08-25"
+            }
+          ],
+          "fundNamed": true,
+          "amount": "$1 million",
+          "quotes": [
+            {
+              "text": "Today the Helsinki-based company is announcing it’s closed $1 million in seed funding led by Finland’s Lifeline Ventures (perhaps best-know for being an early investor in Supercell).",
+              "url": "https://techcrunch.com/2014/11/18/sharetribe"
+            },
+            {
+              "text": "Previous backers Reaktor Polte, and the Finnish tax payer-funded Tekes also participated.",
+              "url": "https://techcrunch.com/2014/11/18/sharetribe"
             }
           ]
         }
@@ -2226,7 +2786,9 @@
           "label": "Funding round",
           "date": "2018-10-18",
           "fundIsLead": null,
-          "coInvestors": [],
+          "coInvestors": [
+            "AO Invest"
+          ],
           "sources": [
             {
               "url": "https://startupintros.com/orgs/synoste-oy",
@@ -2237,6 +2799,23 @@
               "url": "https://tracxn.com/d/companies/synoste/__yJ_aRpJquWcPDqW5-CYENJU9X-lJjJiHqyoOFZZMPSM",
               "name": "tracxn.com",
               "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.massdevice.com/synoste-raises-6m-for-skeletal-deformation-tech/",
+              "name": "Synoste raises $6m for skeletal deformation tech - MassDevice",
+              "date": "2018-10-18"
+            }
+          ],
+          "fundNamed": true,
+          "amount": "$5.8 million (EU €5.1 million)",
+          "quotes": [
+            {
+              "text": "Funding came from Lifeline Ventures and AO Invest, the Finnish company said",
+              "url": "https://www.massdevice.com/synoste-raises-6m-for-skeletal-deformation-tech/"
+            },
+            {
+              "text": "Medtech firm Synoste has raised $5.8 million (EU €5.1 million) to support its patented skeletal deformation correction tech.",
+              "url": "https://www.massdevice.com/synoste-raises-6m-for-skeletal-deformation-tech/"
             }
           ]
         },
@@ -2245,12 +2824,34 @@
           "label": "Funding round",
           "date": "2015-05-11",
           "fundIsLead": null,
-          "coInvestors": [],
+          "coInvestors": [
+            "High-Tech Gründerfonds",
+            "Finnvera",
+            "Mectalent Oy",
+            "Metsola Ventures",
+            "Petri Pöyhönen"
+          ],
           "sources": [
             {
               "url": "https://startupintros.com/orgs/synoste-oy",
               "name": "Synoste Oy",
               "date": "2026-07-13"
+            },
+            {
+              "url": "https://www.htgf.de/en/synoste-oy-raises-e-2-2-m-in-the-first-closing-of-a-round-financing-to-acquire-ce-approval-for-a-next-generation-implant-for-correcting-skeletal-deformities/",
+              "name": "Synoste Oy raises € 2.2 M in the first closing of A-round financing to acquire CE-approval for a next generation implant for correcting skeletal deformities",
+              "date": "2015-05-06"
+            }
+          ],
+          "fundNamed": true,
+          "quotes": [
+            {
+              "text": "The funding was raised from existing investors High-Tech Gründerfonds (HTGF), Finnvera, Lifeline Ventures, Mectalent Oy and existing business angels joined by new investors Metsola Ventures, and Mr Petri Pöyhönen.",
+              "url": "https://www.htgf.de/en/synoste-oy-raises-e-2-2-m-in-the-first-closing-of-a-round-financing-to-acquire-ce-approval-for-a-next-generation-implant-for-correcting-skeletal-deformities/"
+            },
+            {
+              "text": "joined by new investors Metsola Ventures, and Mr Petri Pöyhönen.",
+              "url": "https://www.htgf.de/en/synoste-oy-raises-e-2-2-m-in-the-first-closing-of-a-round-financing-to-acquire-ce-approval-for-a-next-generation-implant-for-correcting-skeletal-deformities/"
             }
           ]
         },
@@ -2258,8 +2859,13 @@
           "calaId": "9416fba5-b671-46f7-957d-71675cddbac3",
           "label": "Funding round",
           "date": "2013-11-14",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": true,
+          "coInvestors": [
+            "High-Tech Gründerfonds (HTGF)",
+            "Finnvera",
+            "existing Business Angels",
+            "Tekes – the Finnish Funding Agency for Technology and Innovation"
+          ],
           "sources": [
             {
               "url": "https://startupintros.com/orgs/synoste-oy",
@@ -2270,6 +2876,35 @@
               "url": "https://www.htgf.de/en/synoste-oy-raises-e-2-8-me-in-financing-to-develop-next-generation-implants-for-correcting-skeletal-deformities-2",
               "name": "Synoste Oy raises € 2.8 M in financing to Develop Next-Generation implants for correcting skeletal deformities",
               "date": "2013-11-14"
+            }
+          ],
+          "fundNamed": true,
+          "amount": "€ 0.8 M",
+          "partner": {
+            "name": "Timo Ahopelto",
+            "title": "partner",
+            "quote": "adds Lifeline Ventures partner Timo Ahopelto.",
+            "source": {
+              "url": "https://www.htgf.de/en/synoste-oy-raises-e-2-8-me-in-financing-to-develop-next-generation-implants-for-correcting-skeletal-deformities-2",
+              "name": "Synoste Oy raises € 2.8 M in financing to Develop Next-Generation implants for correcting skeletal deformities"
+            }
+          },
+          "quotes": [
+            {
+              "text": "High-Tech Gründerfonds (HTGF), Finnvera and Lifeline Ventures co-led the round",
+              "url": "https://www.htgf.de/en/synoste-oy-raises-e-2-8-me-in-financing-to-develop-next-generation-implants-for-correcting-skeletal-deformities-2"
+            },
+            {
+              "text": "were joined by the existing Business Angels and Tekes – the Finnish Funding Agency for Technology and Innovation!",
+              "url": "https://www.htgf.de/en/synoste-oy-raises-e-2-8-me-in-financing-to-develop-next-generation-implants-for-correcting-skeletal-deformities-2"
+            },
+            {
+              "text": "The company has now raised a seed-round of € 0.8 M to advance the development of its first product aimed at the limb lengthening market.",
+              "url": "https://www.htgf.de/en/synoste-oy-raises-e-2-8-me-in-financing-to-develop-next-generation-implants-for-correcting-skeletal-deformities-2"
+            },
+            {
+              "text": "adds Lifeline Ventures partner Timo Ahopelto.",
+              "url": "https://www.htgf.de/en/synoste-oy-raises-e-2-8-me-in-financing-to-develop-next-generation-implants-for-correcting-skeletal-deformities-2"
             }
           ]
         }
@@ -2398,12 +3033,27 @@
           "label": "Funding round",
           "date": "2015-07-01",
           "fundIsLead": null,
-          "coInvestors": [],
+          "coInvestors": [
+            "Horizon 2020 SME Instrument Phase 2"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/zenrobotics/__2KtOEeDd9hiKIM8JbAT9qDEKCZALENqLyzz1zt4vCx4/funding-and-investors",
               "name": "tracxn.com",
               "date": "2026-08-25"
+            },
+            {
+              "url": "https://invent.ee/press/zenrobotics-oy-receives-funding-from-horizon-2020-sme-instrument-for-developing-a-next-generation-ro",
+              "name": "ZenRobotics Oy receives funding from Horizon 2020 SME instrument for developing a next generation robotic waste sorting system — Invent Baltics",
+              "date": "2015-05-28"
+            }
+          ],
+          "fundNamed": false,
+          "amount": "€2 Million",
+          "quotes": [
+            {
+              "text": "ZenRobotics Oy, a Finnish company, received €2 Million funding from the Horizon 2020 SME Instrument Phase 2, for developing its next generation robotic waste sorting system.",
+              "url": "https://invent.ee/press/zenrobotics-oy-receives-funding-from-horizon-2020-sme-instrument-for-developing-a-next-generation-ro"
             }
           ]
         },
@@ -2425,13 +3075,32 @@
           "calaId": "fa59a1bc-6a8d-453e-aa57-f11e73f7f74c",
           "label": "Funding round",
           "date": "2012-09-18",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "Invus"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/zenrobotics/__2KtOEeDd9hiKIM8JbAT9qDEKCZALENqLyzz1zt4vCx4/funding-and-investors",
               "name": "tracxn.com",
               "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.prnewswire.com/news-releases/zenrobotics-to-raise-13-million-for-growth-global-presence-world-domination-170146106.html",
+              "name": "ZenRobotics to Raise €13 Million for Growth, Global Presence, World Domination",
+              "date": "2012-09-18"
+            }
+          ],
+          "fundNamed": true,
+          "amount": "€13 million",
+          "quotes": [
+            {
+              "text": "ZenRobotics Ltd. the world leader in robotic recycling today announced it is raising €13 million (approximately USD 17 million) from Invus, an international equity investor with evergreen capital.",
+              "url": "https://www.prnewswire.com/news-releases/zenrobotics-to-raise-13-million-for-growth-global-presence-world-domination-170146106.html"
+            },
+            {
+              "text": "Lifeline Ventures, a Finnish technology accelerator, participates with a minority stake.",
+              "url": "https://www.prnewswire.com/news-releases/zenrobotics-to-raise-13-million-for-growth-global-presence-world-domination-170146106.html"
             }
           ]
         }
@@ -2645,8 +3314,13 @@
           "calaId": "8286b93f-b3e8-4da2-8e27-ce8e8b910a4e",
           "label": "Funding round",
           "date": "2025-05-28",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "Ventech",
+            "Vendep Capital",
+            "Risto Siilasmaa",
+            "Joint Effects"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/inven/__dPF9s3Up9-ZLLoaMOej6ekGTiJY_oumtY3NWWO-1QMw",
@@ -2657,6 +3331,27 @@
               "url": "https://tracxn.com/d/companies/inven/__dPF9s3Up9-ZLLoaMOej6ekGTiJY_oumtY3NWWO-1QMw/funding-and-investors",
               "name": "tracxn.com",
               "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.inven.ai/articles/announcing-series-a-funding-deal-sourcing-private-market-research",
+              "name": "Inven Raises $12.75M to Build the AI Backbone of Private Market Deal Sourcing | Inven",
+              "date": "2025-05-28"
+            }
+          ],
+          "fundNamed": true,
+          "amount": "$12.75 million",
+          "quotes": [
+            {
+              "text": "The round was led by Ventech, a pan-European early-stage VC firm, and Vendep Capital, a leading B2B SaaS investor in the Nordics.",
+              "url": "https://www.inven.ai/articles/announcing-series-a-funding-deal-sourcing-private-market-research"
+            },
+            {
+              "text": "Angel investor Risto Siilasmaa, founder of F-Secure and former Chair of Nokia, also participated, alongside existing backers Lifeline Ventures and Joint Effects.",
+              "url": "https://www.inven.ai/articles/announcing-series-a-funding-deal-sourcing-private-market-research"
+            },
+            {
+              "text": "Inven, a technology company building an AI-native deal sourcing platform to uncover the full global private market, today announces a closing of a $12.75 million (€11.2 million) series A round.",
+              "url": "https://www.inven.ai/articles/announcing-series-a-funding-deal-sourcing-private-market-research"
             }
           ]
         },
@@ -2664,7 +3359,7 @@
           "calaId": "9b031d9c-f0ce-42c1-8e22-3ef2a10d82a1",
           "label": "Funding round",
           "date": "2023-03-31",
-          "fundIsLead": null,
+          "fundIsLead": true,
           "coInvestors": [],
           "sources": [
             {
@@ -2676,6 +3371,37 @@
               "url": "https://www.crunchbase.com/funding_round/inven-177a-seed--924867a7",
               "name": "www.crunchbase.com",
               "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.inven.ai/articles/inven-raises-1-5meu-in-seed-funding",
+              "name": "Inven raises 1.5M€ in seed funding | Inven",
+              "date": "2023-03-31"
+            }
+          ],
+          "fundNamed": true,
+          "amount": "€1.5M",
+          "partner": {
+            "name": "Petteri Koponen",
+            "title": "Founding Partner",
+            "quote": "says Petteri Koponen, ​ Founding Partner at Lifeline Ventures.",
+            "source": {
+              "url": "https://www.inven.ai/articles/inven-raises-1-5meu-in-seed-funding",
+              "name": "Inven raises 1.5M€ in seed funding | Inven",
+              "date": "2023-03-31"
+            }
+          },
+          "quotes": [
+            {
+              "text": "The funding was led by Lifeline Ventures, the VC behind Finnish success stories such as Wolt, Smartly, and Supercell.",
+              "url": "https://www.inven.ai/articles/inven-raises-1-5meu-in-seed-funding"
+            },
+            {
+              "text": "has recently secured €1.5M in seed funding",
+              "url": "https://www.inven.ai/articles/inven-raises-1-5meu-in-seed-funding"
+            },
+            {
+              "text": "says Petteri Koponen, ​ Founding Partner at Lifeline Ventures.",
+              "url": "https://www.inven.ai/articles/inven-raises-1-5meu-in-seed-funding"
             }
           ]
         }
@@ -2769,8 +3495,10 @@
           "calaId": "5803f192-4190-429f-8ad5-588d78403fcc",
           "label": "Funding round",
           "date": "2021-11-08",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "Atlantic Bridge"
+          ],
           "sources": [
             {
               "url": "https://news.crunchbase.com/briefing/briefing-11-8-21",
@@ -2787,6 +3515,18 @@
               "name": "tracxn.com",
               "date": "2026-08-25"
             }
+          ],
+          "fundNamed": false,
+          "amount": "$33 million",
+          "quotes": [
+            {
+              "text": "led by Atlantic Bridge",
+              "url": "https://news.crunchbase.com/briefing/briefing-11-8-21"
+            },
+            {
+              "text": "reportedly raised $33 million",
+              "url": "https://news.crunchbase.com/briefing/briefing-11-8-21"
+            }
           ]
         },
         {
@@ -2794,12 +3534,31 @@
           "label": "Funding round",
           "date": "2021-04-29",
           "fundIsLead": null,
-          "coInvestors": [],
+          "coInvestors": [
+            "Flashpoint"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/dispelix/__tYY4t5sJBMF9pXsTJYuvOApcIz2ku06fuy6Y_MTBBdE/funding-and-investors",
               "name": "tracxn.com",
               "date": "2026-08-25"
+            },
+            {
+              "url": "https://medium.com/flashpointvc/dispelix-secures-10-mln-in-capital-and-unveils-rgb-laser-beam-scanning-waveguide-tech-for-9d2c61e124a6",
+              "name": "Dispelix Secures €10 mln in Capital and Unveils RGB Laser Beam Scanning Waveguide Tech for Mainstream Augmented Reality Glasses | by Flashpoint Team | Flashpoint Venture Capital | Medium",
+              "date": "2021-04-29"
+            }
+          ],
+          "fundNamed": false,
+          "amount": "€10 million",
+          "quotes": [
+            {
+              "text": "Flashpoint, an international technology investment firm, has provided €5 million in venture debt financing.",
+              "url": "https://medium.com/flashpointvc/dispelix-secures-10-mln-in-capital-and-unveils-rgb-laser-beam-scanning-waveguide-tech-for-9d2c61e124a6"
+            },
+            {
+              "text": "announced that it has secured €10 million in new financing and investment.",
+              "url": "https://medium.com/flashpointvc/dispelix-secures-10-mln-in-capital-and-unveils-rgb-laser-beam-scanning-waveguide-tech-for-9d2c61e124a6"
             }
           ]
         },
@@ -2808,12 +3567,31 @@
           "label": "Funding round",
           "date": "2021-04-29",
           "fundIsLead": null,
-          "coInvestors": [],
+          "coInvestors": [
+            "Flashpoint"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/dispelix/__tYY4t5sJBMF9pXsTJYuvOApcIz2ku06fuy6Y_MTBBdE/funding-and-investors",
               "name": "tracxn.com",
               "date": "2026-08-25"
+            },
+            {
+              "url": "https://medium.com/flashpointvc/dispelix-secures-10-mln-in-capital-and-unveils-rgb-laser-beam-scanning-waveguide-tech-for-9d2c61e124a6",
+              "name": "Dispelix Secures €10 mln in Capital and Unveils RGB Laser Beam Scanning Waveguide Tech for Mainstream Augmented Reality Glasses | by Flashpoint Team | Flashpoint Venture Capital | Medium",
+              "date": "2021-04-29"
+            }
+          ],
+          "fundNamed": false,
+          "amount": "€10 million",
+          "quotes": [
+            {
+              "text": "Flashpoint, an international technology investment firm, has provided €5 million in venture debt financing.",
+              "url": "https://medium.com/flashpointvc/dispelix-secures-10-mln-in-capital-and-unveils-rgb-laser-beam-scanning-waveguide-tech-for-9d2c61e124a6"
+            },
+            {
+              "text": "announced that it has secured €10 million in new financing and investment.",
+              "url": "https://medium.com/flashpointvc/dispelix-secures-10-mln-in-capital-and-unveils-rgb-laser-beam-scanning-waveguide-tech-for-9d2c61e124a6"
             }
           ]
         },
@@ -2836,12 +3614,50 @@
           "label": "Funding round",
           "date": "2018-11-02",
           "fundIsLead": null,
-          "coInvestors": [],
+          "coInvestors": [
+            "3M Ventures",
+            "VTT Ventures",
+            "Finnish Industry Investment",
+            "undisclosed additional investor"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/dispelix/__tYY4t5sJBMF9pXsTJYuvOApcIz2ku06fuy6Y_MTBBdE/funding-and-investors",
               "name": "tracxn.com",
               "date": "2026-08-25"
+            },
+            {
+              "url": "https://globalventuring.com/blog/2018/11/06/dispelix-displays-3m-backed-series-a-round/",
+              "name": "Dispelix displays 3M-backed series A round",
+              "date": "2018-11-06"
+            }
+          ],
+          "fundNamed": true,
+          "amount": "€12m ($13.7m)",
+          "quotes": [
+            {
+              "text": "backed by 3M Ventures, the corporate venturing subsidiary of manufacturing conglomerate 3M",
+              "url": "https://globalventuring.com/blog/2018/11/06/dispelix-displays-3m-backed-series-a-round/"
+            },
+            {
+              "text": "VTT Ventures, the investment arm of VTT Technical Research Centre of Finland, also contributed to the round",
+              "url": "https://globalventuring.com/blog/2018/11/06/dispelix-displays-3m-backed-series-a-round/"
+            },
+            {
+              "text": "as did government-owned investment company Finnish Industry Investment",
+              "url": "https://globalventuring.com/blog/2018/11/06/dispelix-displays-3m-backed-series-a-round/"
+            },
+            {
+              "text": "venture capital firm Lifeline Ventures",
+              "url": "https://globalventuring.com/blog/2018/11/06/dispelix-displays-3m-backed-series-a-round/"
+            },
+            {
+              "text": "and an undisclosed additional investor",
+              "url": "https://globalventuring.com/blog/2018/11/06/dispelix-displays-3m-backed-series-a-round/"
+            },
+            {
+              "text": "Dispelix has raised €12m ($13.7m) in a series A round",
+              "url": "https://globalventuring.com/blog/2018/11/06/dispelix-displays-3m-backed-series-a-round/"
             }
           ]
         },
@@ -2850,12 +3666,27 @@
           "label": "Funding round",
           "date": "2016-04-19",
           "fundIsLead": null,
-          "coInvestors": [],
+          "coInvestors": [
+            "VTT Ventures"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/dispelix/__tYY4t5sJBMF9pXsTJYuvOApcIz2ku06fuy6Y_MTBBdE/funding-and-investors",
               "name": "tracxn.com",
               "date": "2026-08-25"
+            },
+            {
+              "url": "https://nordic9.com/news/dispelix-ltd-the-next-generation-augmented-reality-see-through-display-technology-spins-out-and-gets-news6538374651",
+              "name": "Dispelix Ltd, the next generation Augmented Reality see-through display technology spins out and gets EUR 1.7 million - Nordic9.com",
+              "date": "2016-04-19"
+            }
+          ],
+          "fundNamed": true,
+          "amount": "EUR 1.7 million",
+          "quotes": [
+            {
+              "text": "Dispelix Ltd, the maker of see-through lenses for Augmented Reality, announces today EUR 1.7 million ($1.93M) funding round from Lifeline Ventures and VTT Ventures.",
+              "url": "https://nordic9.com/news/dispelix-ltd-the-next-generation-augmented-reality-see-through-display-technology-spins-out-and-gets-news6538374651"
             }
           ]
         }
@@ -3020,8 +3851,11 @@
           "calaId": "d46bb2ca-93dc-4e73-961d-f572561bff92",
           "label": "Funding round",
           "date": "2013-10-15",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "SoftBank Corp.",
+            "GungHo Online Entertainment, Inc."
+          ],
           "sources": [
             {
               "url": "https://techcrunch.com/2013/10/15/softbank-and-gungho-invest-1-5b-in-clash-of-clans-maker-supercell-at-3b-valuation/",
@@ -3032,6 +3866,27 @@
               "url": "https://www.crunchbase.com/organization/supercell/funding_rounds/funding_rounds_list",
               "name": "www.crunchbase.com",
               "date": "2026-08-24"
+            },
+            {
+              "url": "https://group.softbank/en/news/press/20131015_0",
+              "name": "SoftBank and GungHo Announce Strategic Investment of USD 1.5 Billion in Supercell | SoftBank Group Corp.",
+              "date": "2013-10-15"
+            }
+          ],
+          "fundNamed": false,
+          "amount": "USD 1.53 billion",
+          "quotes": [
+            {
+              "text": "SoftBank Corp.",
+              "url": "https://group.softbank/en/news/press/20131015_0"
+            },
+            {
+              "text": "GungHo Online Entertainment, Inc.",
+              "url": "https://group.softbank/en/news/press/20131015_0"
+            },
+            {
+              "text": "USD 1.53 billion",
+              "url": "https://group.softbank/en/news/press/20131015_0"
             }
           ]
         },
@@ -3058,13 +3913,28 @@
           "calaId": "f0d0b7ba-bbf5-41e4-ac8f-51f92fa19698",
           "label": "Funding round",
           "date": "2011-05-01",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "Accel Partners"
+          ],
           "sources": [
             {
               "url": "https://www.crunchbase.com/organization/supercell/funding_rounds/funding_rounds_list",
               "name": "www.crunchbase.com",
               "date": "2026-08-24"
+            },
+            {
+              "url": "https://www.reuters.com/article/business/start-up-supercell-gets-12-mln-from-accel-others-idUSLDE74N2BG/",
+              "name": "Start-up Supercell gets $12 mln from Accel, others",
+              "date": "2011-05-25"
+            }
+          ],
+          "fundNamed": false,
+          "amount": "$12 million",
+          "quotes": [
+            {
+              "text": "raised $12 million from venture capital firm Accel Partners and others.",
+              "url": "https://www.reuters.com/article/business/start-up-supercell-gets-12-mln-from-accel-others-idUSLDE74N2BG/"
             }
           ]
         }
@@ -3145,6 +4015,19 @@
               "url": "https://pitchbook.com/profiles/company/88178-86",
               "name": "pitchbook.com",
               "date": "2026-08-24"
+            },
+            {
+              "url": "https://news.cision.com/fi/ground-communications/r/onemind-dogs-kerasi-yli-puoli-miljoonaa-usa-n-koirankoulutusbisneksen-uudistamiseen,c2798064",
+              "name": "OneMind Dogs keräsi yli puoli miljoonaa USA:n koirankoulutusbisneksen uudistamiseen - Ground Communications",
+              "date": "2019-04-26"
+            }
+          ],
+          "fundNamed": false,
+          "amount": "yli 500 000 euroa",
+          "quotes": [
+            {
+              "text": "Online-palveluun perustuva koirankoulutusyritys OneMind Dogs päätti joukkorahoituskierroksensa Invesdorissa ja keräsi yli 500 000 euroa uuden pentukoulutusohjelmansa lanseeraukseen Yhdysvalloissa.",
+              "url": "https://news.cision.com/fi/ground-communications/r/onemind-dogs-kerasi-yli-puoli-miljoonaa-usa-n-koirankoulutusbisneksen-uudistamiseen,c2798064"
             }
           ]
         },
@@ -3153,7 +4036,9 @@
           "label": "Funding round",
           "date": "2015-01-13",
           "fundIsLead": null,
-          "coInvestors": [],
+          "coInvestors": [
+            "Gorilla Ventures"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/oneminddogs/__slyrsYLqpgHqjdKVaVJ8I1VulOkUvFBy9tnyPUTd-Fs/funding-and-investors",
@@ -3169,6 +4054,27 @@
               "url": "https://pitchbook.com/profiles/company/88178-86",
               "name": "pitchbook.com",
               "date": "2026-08-24"
+            },
+            {
+              "url": "https://nordic9.com/news/onemind-dogs-got-money-for-further-growth-from-lifeline-ventures-news3895200172/",
+              "name": "OneMind Dogs got money for further growth from Lifeline Ventures - Nordic9.com",
+              "date": "2015-01-13"
+            }
+          ],
+          "fundNamed": true,
+          "amount": "460k",
+          "quotes": [
+            {
+              "text": "Gorilla Ventures",
+              "url": "https://nordic9.com/news/onemind-dogs-got-money-for-further-growth-from-lifeline-ventures-news3895200172/"
+            },
+            {
+              "text": "Lifeline Ventures",
+              "url": "https://nordic9.com/news/onemind-dogs-got-money-for-further-growth-from-lifeline-ventures-news3895200172/"
+            },
+            {
+              "text": "Round value (USD): 460k",
+              "url": "https://nordic9.com/news/onemind-dogs-got-money-for-further-growth-from-lifeline-ventures-news3895200172/"
             }
           ]
         }
@@ -3430,8 +4336,13 @@
           "calaId": "54ab1652-e273-4364-a3a3-06d1658bc55b",
           "label": "Funding round",
           "date": "2025-10-14",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "Fidelity Management & Research Company",
+            "ICONIQ",
+            "Whale Rock",
+            "Atreides"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/oura/__O4ZdUJgzwqammTRVNeu0BgQ6od302-vz1qnvUlqqgoc/funding-and-investors",
@@ -3447,6 +4358,14 @@
               "url": "https://techcrunch.com/2025/09/22/oura-ring-maker-raising-875m-series-e-bringing-valuation-to-11b-report-says",
               "name": "Oura ring maker raising $875M Series E, bringing valuation to $11B, report says | TechCrunch",
               "date": "2025-09-22"
+            }
+          ],
+          "fundNamed": false,
+          "amount": "$900 million",
+          "quotes": [
+            {
+              "text": "Finnish health tech company Oura has raised $900 million in fresh funding led by Fidelity Management & Research Company, with participation from new investor ICONIQ and contributions from Whale Rock and Atreides.",
+              "url": "https://techcrunch.com/2025/10/14/smart-ring-maker-oura-raises-900m-from-fidelity"
             }
           ]
         },
@@ -3510,13 +4429,50 @@
           "calaId": "3cc63f9e-5215-47de-ae40-188e62612b1f",
           "label": "Funding round",
           "date": "2021-05-04",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "Chernin Group",
+            "Elysian Park",
+            "Temasek",
+            "JAZZ Venture Partners",
+            "Eisai",
+            "Forerunner Ventures",
+            "Square",
+            "MSD Capital",
+            "Marc Benioff",
+            "Metaplanet Holdings",
+            "Next Ventures"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/oura/__O4ZdUJgzwqammTRVNeu0BgQ6od302-vz1qnvUlqqgoc/funding-and-investors",
               "name": "tracxn.com",
               "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.mobihealthnews.com/news/health-tracking-ring-maker-oura-health-lands-100m",
+              "name": "Health-tracking ring maker Oura Health lands $100M | MobiHealthNews",
+              "date": "2021-05-05"
+            }
+          ],
+          "fundNamed": true,
+          "amount": "$100 million",
+          "quotes": [
+            {
+              "text": "The round was led by the Chernin Group and Elysian Park",
+              "url": "https://www.mobihealthnews.com/news/health-tracking-ring-maker-oura-health-lands-100m"
+            },
+            {
+              "text": "included new investors Temasek, JAZZ Venture Partners and Eisai.",
+              "url": "https://www.mobihealthnews.com/news/health-tracking-ring-maker-oura-health-lands-100m"
+            },
+            {
+              "text": "Returning backers Forerunner Ventures, Square, MSD Capital, Marc Benioff, Lifeline Ventures, Metaplanet Holdings and Next Ventures also participated in the round.",
+              "url": "https://www.mobihealthnews.com/news/health-tracking-ring-maker-oura-health-lands-100m"
+            },
+            {
+              "text": "Oura Health, the health tech company behind Oura Ring, has completed a Series C funding round totaling $100 million.",
+              "url": "https://www.mobihealthnews.com/news/health-tracking-ring-maker-oura-health-lands-100m"
             }
           ]
         },
@@ -3525,7 +4481,11 @@
           "label": "Funding round",
           "date": "2020-03-17",
           "fundIsLead": null,
-          "coInvestors": [],
+          "coInvestors": [
+            "Forerunner Ventures",
+            "Gradient Ventures",
+            "Square"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/oura/__O4ZdUJgzwqammTRVNeu0BgQ6od302-vz1qnvUlqqgoc/funding-and-investors",
@@ -3537,14 +4497,36 @@
               "name": "Oura raises $28 million for its health and sleep tracking ring | TechCrunch",
               "date": "2020-03-17"
             }
+          ],
+          "fundNamed": false,
+          "amount": "$28 million",
+          "quotes": [
+            {
+              "text": "The Series B funding comes from Forerunner Ventures, which has a strong track record when it comes to direct-to-consumer product company investments, as well as from Gradient Ventures and Square.",
+              "url": "https://techcrunch.com/2020/03/17/oura-raises-28-million-for-its-health-and-sleep-tracking-ring"
+            },
+            {
+              "text": "Oura raises $28 million for its health and sleep tracking ring",
+              "url": "https://techcrunch.com/2020/03/17/oura-raises-28-million-for-its-health-and-sleep-tracking-ring"
+            }
           ]
         },
         {
           "calaId": "e4e79f16-9929-4cd0-9310-8ec03bcad4bd",
           "label": "Funding round",
           "date": "2018-12-03",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "MSD Capital",
+            "Steve Chen",
+            "Kevin Lin",
+            "Dave Morin",
+            "Ryan Rzepecki",
+            "Shaquille O’Neil",
+            "Lance Armstrong",
+            "Will Smith",
+            "The Dreamer’s Fund"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/oura/__O4ZdUJgzwqammTRVNeu0BgQ6od302-vz1qnvUlqqgoc/funding-and-investors",
@@ -3556,19 +4538,79 @@
               "name": "Sleep-tracking ring Oura surpasses $20 million in funding | TechCrunch",
               "date": "2018-12-03"
             }
+          ],
+          "fundNamed": false,
+          "amount": "$20 million",
+          "quotes": [
+            {
+              "text": "funding round led by MSD Capital",
+              "url": "https://techcrunch.com/2018/12/03/sleep-tracking-ring-oura-raises-20-million-from-michael-dell-lance-armstrong-and-others"
+            },
+            {
+              "text": "YouTube co-founder Steve Chen",
+              "url": "https://techcrunch.com/2018/12/03/sleep-tracking-ring-oura-raises-20-million-from-michael-dell-lance-armstrong-and-others"
+            },
+            {
+              "text": "Twitch co-founder Kevin Lin",
+              "url": "https://techcrunch.com/2018/12/03/sleep-tracking-ring-oura-raises-20-million-from-michael-dell-lance-armstrong-and-others"
+            },
+            {
+              "text": "Sunrise founder Dave Morin",
+              "url": "https://techcrunch.com/2018/12/03/sleep-tracking-ring-oura-raises-20-million-from-michael-dell-lance-armstrong-and-others"
+            },
+            {
+              "text": "JUMP founder Ryan Rzepecki",
+              "url": "https://techcrunch.com/2018/12/03/sleep-tracking-ring-oura-raises-20-million-from-michael-dell-lance-armstrong-and-others"
+            },
+            {
+              "text": "Shaquille O’Neil",
+              "url": "https://techcrunch.com/2018/12/03/sleep-tracking-ring-oura-raises-20-million-from-michael-dell-lance-armstrong-and-others"
+            },
+            {
+              "text": "Lance Armstrong",
+              "url": "https://techcrunch.com/2018/12/03/sleep-tracking-ring-oura-raises-20-million-from-michael-dell-lance-armstrong-and-others"
+            },
+            {
+              "text": "Will Smith",
+              "url": "https://techcrunch.com/2018/12/03/sleep-tracking-ring-oura-raises-20-million-from-michael-dell-lance-armstrong-and-others"
+            },
+            {
+              "text": "The Dreamer’s Fund",
+              "url": "https://techcrunch.com/2018/12/03/sleep-tracking-ring-oura-raises-20-million-from-michael-dell-lance-armstrong-and-others"
+            },
+            {
+              "text": "surpassed $20 million* in a funding round",
+              "url": "https://techcrunch.com/2018/12/03/sleep-tracking-ring-oura-raises-20-million-from-michael-dell-lance-armstrong-and-others"
+            }
           ]
         },
         {
           "calaId": "bc074af0-85ae-4b96-b98e-a4333495a00c",
           "label": "Funding round",
           "date": "2018-07-12",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "Bold Capital Partners",
+            "Tesi"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/oura/__O4ZdUJgzwqammTRVNeu0BgQ6od302-vz1qnvUlqqgoc/funding-and-investors",
               "name": "tracxn.com",
               "date": "2026-08-25"
+            },
+            {
+              "url": "https://tech.eu/2018/07/12/finland-based-sleep-tech-startup-oura-health-raises-e5-million-appoints-new-ceo/",
+              "name": "Finland-based sleep tech startup Oura Health raises €5 million, appoints new CEO - Tech.eu",
+              "date": "2018-07-12"
+            }
+          ],
+          "fundNamed": false,
+          "amount": "€5 million",
+          "quotes": [
+            {
+              "text": "Finnish healthtech startup Oura Health has secured a €5 million funding round led by US-based Bold Capital Partners and Finland’s Tesi.",
+              "url": "https://tech.eu/2018/07/12/finland-based-sleep-tech-startup-oura-health-raises-e5-million-appoints-new-ceo/"
             }
           ]
         },
@@ -3577,7 +4619,10 @@
           "label": "Funding round",
           "date": "2016-11-29",
           "fundIsLead": null,
-          "coInvestors": [],
+          "coInvestors": [
+            "Joi Ito",
+            "Jaan Tallinn"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/oura/__O4ZdUJgzwqammTRVNeu0BgQ6od302-vz1qnvUlqqgoc/funding-and-investors",
@@ -3588,6 +4633,22 @@
               "url": "https://techcrunch.com/2016/11/29/oura-ring-raises-e5-million-to-take-its-smart-jewelry-mainstream",
               "name": "Oura Ring raises €5 million to take its smart jewelry mainstream | TechCrunch",
               "date": "2016-11-29"
+            }
+          ],
+          "fundNamed": false,
+          "amount": "€5 million",
+          "quotes": [
+            {
+              "text": "Oura Ring’s Series A backers included MIT Media Lab Director Joi Ito",
+              "url": "https://techcrunch.com/2016/11/29/oura-ring-raises-e5-million-to-take-its-smart-jewelry-mainstream"
+            },
+            {
+              "text": "Jaan Tallinn who was Skype’s founding engineer and a cofounder of Kazaa and the Future of Life Institute",
+              "url": "https://techcrunch.com/2016/11/29/oura-ring-raises-e5-million-to-take-its-smart-jewelry-mainstream"
+            },
+            {
+              "text": "Oura Ring raises €5 million to take its smart jewelry mainstream",
+              "url": "https://techcrunch.com/2016/11/29/oura-ring-raises-e5-million-to-take-its-smart-jewelry-mainstream"
             }
           ]
         },
@@ -3651,8 +4712,10 @@
           "calaId": "89736e95-0680-4bb6-88d9-64d176061d94",
           "label": "Funding round",
           "date": "2024-06-20",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "Failup Ventures"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/confidentialmind/__etu7HH1vLzwOfEHAIIsq3meqlAMmMmAWXErzucDZXDE",
@@ -3673,6 +4736,23 @@
               "url": "https://www.crunchbase.com/organization/confidentialmind/news_and_analysis",
               "name": "www.crunchbase.com",
               "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.avance.com/cases/failup-ventures-leads-the-pre-seed-investment-to-confidentialmind",
+              "name": "Failup Ventures leads the pre-seed investment to ConfidentialMind – Avance Attorneys",
+              "date": "2024-06-20"
+            }
+          ],
+          "fundNamed": false,
+          "amount": "EUR 1.5 million",
+          "quotes": [
+            {
+              "text": "Failup Ventures leads the pre-seed investment to ConfidentialMind",
+              "url": "https://www.avance.com/cases/failup-ventures-leads-the-pre-seed-investment-to-confidentialmind"
+            },
+            {
+              "text": "Avance advises Failup Ventures in leading the EUR 1.5 million pre-seed investment to ConfidentialMind",
+              "url": "https://www.avance.com/cases/failup-ventures-leads-the-pre-seed-investment-to-confidentialmind"
             }
           ]
         }

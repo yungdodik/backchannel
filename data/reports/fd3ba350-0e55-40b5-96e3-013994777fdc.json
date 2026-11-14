@@ -16,7 +16,12 @@
           "label": "Funding round",
           "date": "2026-02-12",
           "fundIsLead": null,
-          "coInvestors": [],
+          "coInvestors": [
+            "Balderton Capital",
+            "Felix Capital",
+            "Passion Capital",
+            "Stena Sessan"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/lassie/__Wh9KKMSooOLoyHDonkeuoZYg21nHJhUKVokKq5wl-HU",
@@ -32,6 +37,23 @@
               "url": "https://pitchbook.com/profiles/company/464207-59",
               "name": "pitchbook.com",
               "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.balderton.com/news/pet-love-boom-fuels-lassies-75m-series-c/",
+              "name": "Pet love boom fuels Lassie’s $75m Series C - Balderton Capital",
+              "date": "2026-02-12"
+            }
+          ],
+          "fundNamed": true,
+          "amount": "$75 million",
+          "quotes": [
+            {
+              "text": "included participation from Balderton Capital, Felix Capital, Inventure, Passion Capital, and Stena Sessan",
+              "url": "https://www.balderton.com/news/pet-love-boom-fuels-lassies-75m-series-c/"
+            },
+            {
+              "text": "Lassie, the prevention-first pet insurer, has raised $75 million in Series C funding",
+              "url": "https://www.balderton.com/news/pet-love-boom-fuels-lassies-75m-series-c/"
             }
           ]
         },
@@ -39,8 +61,13 @@
           "calaId": "ee8a439e-3e78-46ee-9377-c8f2563f1eca",
           "label": "Funding round",
           "date": "2023-11-28",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "Balderton Capital",
+            "Felix Capital",
+            "Passion Capital",
+            "Philian"
+          ],
           "sources": [
             {
               "url": "https://techcrunch.com/2023/11/28/as-pet-owners-turn-to-mobile-insurance-apps-lassie-raises-25m-series-b-led-by-balderton",
@@ -52,14 +79,32 @@
               "name": "tracxn.com",
               "date": "2026-08-25"
             }
+          ],
+          "fundNamed": true,
+          "amount": "€23 million",
+          "quotes": [
+            {
+              "text": "Lassie has now raised €23 million in Series B funding led by Balderton Capital.",
+              "url": "https://techcrunch.com/2023/11/28/as-pet-owners-turn-to-mobile-insurance-apps-lassie-raises-25m-series-b-led-by-balderton"
+            },
+            {
+              "text": "Previous investors including Felix Capital, Inventure, Passion Capital and Philian (H&M chair Karl-Johan Persson) also participated in the round.",
+              "url": "https://techcrunch.com/2023/11/28/as-pet-owners-turn-to-mobile-insurance-apps-lassie-raises-25m-series-b-led-by-balderton"
+            }
           ]
         },
         {
           "calaId": "d0213a87-4c2a-45fc-afdc-436f32c60469",
           "label": "Funding round",
           "date": "2022-05-20",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "Felix Capital",
+            "Passion Capital",
+            "Josefin Landgård",
+            "Fredrik and Caroline Hjelm",
+            "Karl-Johan Persson"
+          ],
           "sources": [
             {
               "url": "https://techcrunch.com/2022/05/20/covid-was-the-best-thing-for-kitty-as-insurance-apps-for-pets-boom",
@@ -71,19 +116,55 @@
               "name": "tracxn.com",
               "date": "2026-08-25"
             }
+          ],
+          "fundNamed": true,
+          "amount": "€11 million",
+          "quotes": [
+            {
+              "text": "This is why pet app and insurance provider Lassie has today closed an €11 million Series A round led by Felix Capital.",
+              "url": "https://techcrunch.com/2022/05/20/covid-was-the-best-thing-for-kitty-as-insurance-apps-for-pets-boom"
+            },
+            {
+              "text": "Also participating were existing investors Inventure and Passion Capital, as well as prominent angels such as Josefin Landgård (co-founder KRY & Mantle), Fredrik and Caroline Hjelm (VOI siblings) and Karl-Johan Persson (chair of H&M).",
+              "url": "https://techcrunch.com/2022/05/20/covid-was-the-best-thing-for-kitty-as-insurance-apps-for-pets-boom"
+            }
           ]
         },
         {
           "calaId": "3233d7d1-fea8-4cd0-95df-069ed38e6de2",
           "label": "Funding round",
           "date": "2021-10-06",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": true,
+          "coInvestors": [
+            "Passion Capital",
+            "Fredrik Hjälm",
+            "Josefin Landgård",
+            "Philian Invest AB",
+            "Stefan Lindeberg",
+            "Caroline Hjelm"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/lassie/__Wh9KKMSooOLoyHDonkeuoZYg21nHJhUKVokKq5wl-HU/funding-and-investors",
               "name": "tracxn.com",
               "date": "2026-08-25"
+            },
+            {
+              "url": "https://nordic9.com/news/lassie-raised-a-2-million-seed-round-led-by-inventure-with-participation-from-passion-capital/",
+              "name": "Lassie raised a €2 million seed round led by Inventure with participation from Passion Capital. - Nordic9.com",
+              "date": "2021-10-06"
+            }
+          ],
+          "fundNamed": true,
+          "amount": "€2 million",
+          "quotes": [
+            {
+              "text": "Lassie raised a €2 million seed round led by Inventure with participation from Passion Capital.",
+              "url": "https://nordic9.com/news/lassie-raised-a-2-million-seed-round-led-by-inventure-with-participation-from-passion-capital/"
+            },
+            {
+              "text": "Round investors: Fredrik Hjälm Inventure Josefin Landgård Passion Capital Philian Invest AB Stefan Lindeberg Caroline Hjelm",
+              "url": "https://nordic9.com/news/lassie-raised-a-2-million-seed-round-led-by-inventure-with-participation-from-passion-capital/"
             }
           ]
         }
@@ -146,7 +227,10 @@
           "label": "Funding round",
           "date": "2013-05-14",
           "fundIsLead": null,
-          "coInvestors": [],
+          "coInvestors": [
+            "Nexit Ventures",
+            "Finnish Industry Investment"
+          ],
           "sources": [
             {
               "url": "https://techcrunch.com/2013/05/14/rightware-series-b",
@@ -158,19 +242,50 @@
               "name": "tracxn.com",
               "date": "2026-08-25"
             }
+          ],
+          "fundNamed": true,
+          "amount": "$5.2 million",
+          "quotes": [
+            {
+              "text": "Investors in the round include Inventure and Nexit Ventures, along with new investor Finnish Industry Investment.",
+              "url": "https://techcrunch.com/2013/05/14/rightware-series-b"
+            },
+            {
+              "text": "has announced it has closed a $5.2 million Series B round.",
+              "url": "https://techcrunch.com/2013/05/14/rightware-series-b"
+            }
           ]
         },
         {
           "calaId": "e6f579a2-68d3-4147-a788-782d90dca6db",
           "label": "Funding round",
           "date": "2010-01-07",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": true,
+          "coInvestors": [
+            "Nexit Ventures Oy"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/rightware/__ac_Agdd1VsMkytaJjBrvG_jXShNyzQOiZJM-aBhWzic/funding-and-investors",
               "name": "tracxn.com",
               "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.finsmes.com/2010/01/rightware-closes-e3m-funding-and-acquires-futuremarks-mobile-and-embedded-business-unit.html",
+              "name": "Rightware Closes €3M Funding and Acquires Futuremark’s Mobile and Embedded Business Unit - FinSMEs",
+              "date": "2010-01-07"
+            }
+          ],
+          "fundNamed": true,
+          "amount": "€3m",
+          "quotes": [
+            {
+              "text": "The round was co-led by Nexit Ventures Oy, an investment firm focused on wireless technologies and services with offices in Helsinki, Stockholm and Silicon Valley, and Inventure Oy, a Helsinki, Finland-based early stage investor with a Nordic focus.",
+              "url": "https://www.finsmes.com/2010/01/rightware-closes-e3m-funding-and-acquires-futuremarks-mobile-and-embedded-business-unit.html"
+            },
+            {
+              "text": "Rightware Oy, a Espoo, Finland-based developer of advanced user interface technologies and solutions for mobile phone and embedded applications, has announced it has raised €3m in a venture capital financing round.",
+              "url": "https://www.finsmes.com/2010/01/rightware-closes-e3m-funding-and-acquires-futuremarks-mobile-and-embedded-business-unit.html"
             }
           ]
         }
@@ -215,7 +330,14 @@
           "label": "Funding round",
           "date": "2025-09-08",
           "fundIsLead": null,
-          "coInvestors": [],
+          "coInvestors": [
+            "Springvest",
+            "Varma",
+            "Elo",
+            "Icebreaker.vc",
+            "Expansion VC",
+            "10x Founders"
+          ],
           "sources": [
             {
               "url": "https://techcrunch.com/2025/09/08/reorbit-lands-record-funding-to-take-on-musks-starlink-from-europe",
@@ -227,6 +349,22 @@
               "name": "tracxn.com",
               "date": "2026-08-24"
             }
+          ],
+          "fundNamed": true,
+          "amount": "€45 million",
+          "quotes": [
+            {
+              "text": "ReOrbit was actually aiming to raise €50 million in its Series A round organized by Springvest, a Finnish firm that organizes crowdsourced public offerings to qualified investors for private companies.",
+              "url": "https://techcrunch.com/2025/09/08/reorbit-lands-record-funding-to-take-on-musks-starlink-from-europe"
+            },
+            {
+              "text": "The remaining €37 million ($43.5 million) also had a strong Nordic flavor, coming from institutional investors including previous backers Varma, Elo, Icebreaker.vc, Expansion VC, 10x Founders, and Inventure.",
+              "url": "https://techcrunch.com/2025/09/08/reorbit-lands-record-funding-to-take-on-musks-starlink-from-europe"
+            },
+            {
+              "text": "ReOrbit, a Finnish startup focused on helping nations control their own sovereign satellites, has raised a record €45 million (about US $53 million) Series A round of funding for a European space tech company.",
+              "url": "https://techcrunch.com/2025/09/08/reorbit-lands-record-funding-to-take-on-musks-starlink-from-europe"
+            }
           ]
         },
         {
@@ -234,12 +372,26 @@
           "label": "Funding round",
           "date": "2023-12-21",
           "fundIsLead": null,
-          "coInvestors": [],
+          "coInvestors": [
+            "Business Finland"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/reorbit/__jHH-J3eAQMBCCadIhwtvwYXFm3lkmdlH_FvBx81hPew/funding-and-investors",
               "name": "tracxn.com",
               "date": "2026-08-24"
+            },
+            {
+              "url": "https://www.reorbit.space/news/reorbit-receives-young-innovative-company-funding-from-business-finland-to-help-expand-and-scale-internationally",
+              "name": "ReOrbit Receives Young Innovative Company Funding from Business Finland to Help Expand and Scale Internationally | ReOrbit",
+              "date": "2023-12-18"
+            }
+          ],
+          "fundNamed": false,
+          "quotes": [
+            {
+              "text": "ReOrbit, a Helsinki-based leading provider of software-first satellites, has been granted a highly esteemed funding from Business Finland.",
+              "url": "https://www.reorbit.space/news/reorbit-receives-young-innovative-company-funding-from-business-finland-to-help-expand-and-scale-internationally"
             }
           ]
         },
@@ -247,13 +399,53 @@
           "calaId": "27416fa7-9bdc-4e20-84f8-0f7b3221f906",
           "label": "Funding round",
           "date": "2023-08-31",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": true,
+          "coInvestors": [
+            "10xFounders",
+            "Icebreaker.vc",
+            "Expansion",
+            "YesVC"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/reorbit/__jHH-J3eAQMBCCadIhwtvwYXFm3lkmdlH_FvBx81hPew/funding-and-investors",
               "name": "tracxn.com",
               "date": "2026-08-24"
+            },
+            {
+              "url": "https://www.reorbit.space/news/reorbit-completes-oversubscribed-usd7-4m-seed-funding-round-enabling-real-time-dataflow-in-space",
+              "name": "ReOrbit Completes Oversubscribed $7.4M Seed Funding Round: Enabling Real-Time Dataflow in Space | ReOrbit",
+              "date": "2023-08-30"
+            }
+          ],
+          "fundNamed": true,
+          "amount": "US$7.4M",
+          "partner": {
+            "name": "Tuomas Kosonen",
+            "title": "Partner",
+            "quote": "Tuomas Kosonen\n\nPartner at Inventure VC",
+            "source": {
+              "url": "https://www.reorbit.space/news/reorbit-completes-oversubscribed-usd7-4m-seed-funding-round-enabling-real-time-dataflow-in-space",
+              "name": "ReOrbit Completes Oversubscribed $7.4M Seed Funding Round: Enabling Real-Time Dataflow in Space | ReOrbit",
+              "date": "2023-08-30"
+            }
+          },
+          "quotes": [
+            {
+              "text": "led by Inventure VC, along with participation from 10xFounders, existing investor Icebreaker.vc, Expansion, and YesVC.",
+              "url": "https://www.reorbit.space/news/reorbit-completes-oversubscribed-usd7-4m-seed-funding-round-enabling-real-time-dataflow-in-space"
+            },
+            {
+              "text": "existing investor Icebreaker.vc",
+              "url": "https://www.reorbit.space/news/reorbit-completes-oversubscribed-usd7-4m-seed-funding-round-enabling-real-time-dataflow-in-space"
+            },
+            {
+              "text": "completed an oversubscribed Seed funding round for US$7.4M",
+              "url": "https://www.reorbit.space/news/reorbit-completes-oversubscribed-usd7-4m-seed-funding-round-enabling-real-time-dataflow-in-space"
+            },
+            {
+              "text": "Tuomas Kosonen\n\nPartner at Inventure VC",
+              "url": "https://www.reorbit.space/news/reorbit-completes-oversubscribed-usd7-4m-seed-funding-round-enabling-real-time-dataflow-in-space"
             }
           ]
         }
@@ -332,6 +524,19 @@
               "url": "https://pitchbook.com/profiles/company/506965-60",
               "name": "pitchbook.com",
               "date": "2026-08-24"
+            },
+            {
+              "url": "https://sifted.eu/articles/healthtech-medoma-seed-round",
+              "name": "Healthtech startup Medoma raises €6m for ”virtual acute wards” | Sifted",
+              "date": "2022-09-06"
+            }
+          ],
+          "fundNamed": false,
+          "amount": "€6m",
+          "quotes": [
+            {
+              "text": "announcing a €6m seed round",
+              "url": "https://sifted.eu/articles/healthtech-medoma-seed-round"
             }
           ]
         }
@@ -415,8 +620,12 @@
           "calaId": "66043bc8-5edf-46a0-beac-518de0dbd54d",
           "label": "Funding round",
           "date": "2016-10-27",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "Creandum",
+            "Butterfly Ventures",
+            "Tamares Group"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/knl/__coS857ngQmwKhLznVQ40En308Kan8XRzvg27OTBeJ3M",
@@ -427,6 +636,31 @@
               "url": "https://www.crunchbase.com/person/john-lindfors",
               "name": "www.crunchbase.com",
               "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.kaleva.fi/oululainen-kyynel-sai-valtavan-rahoituspotin/1693506",
+              "name": "Oululainen Kyynel sai valtavan rahoituspotin | Kaleva",
+              "date": "2016-10-27"
+            }
+          ],
+          "fundNamed": true,
+          "amount": "10 miljoonaa dollaria",
+          "quotes": [
+            {
+              "text": "Pääinvestoija on Creandum.",
+              "url": "https://www.kaleva.fi/oululainen-kyynel-sai-valtavan-rahoituspotin/1693506"
+            },
+            {
+              "text": "Lisäksi mukana panostavat Inventure ja siis Butterfly Ventures sekä kolme bisnesenkeliä.",
+              "url": "https://www.kaleva.fi/oululainen-kyynel-sai-valtavan-rahoituspotin/1693506"
+            },
+            {
+              "text": "Heidän joukossaan taas on liikemies Poju Zabludowiczin johtama Tamares Group.",
+              "url": "https://www.kaleva.fi/oululainen-kyynel-sai-valtavan-rahoituspotin/1693506"
+            },
+            {
+              "text": "Oululainen startup Kyynel Oy on saanut 10 miljoonaa dollaria pääomarahoitusta.",
+              "url": "https://www.kaleva.fi/oululainen-kyynel-sai-valtavan-rahoituspotin/1693506"
             }
           ]
         },
@@ -435,12 +669,27 @@
           "label": "Funding round",
           "date": "2014-08-15",
           "fundIsLead": null,
-          "coInvestors": [],
+          "coInvestors": [
+            "Butterfly Venture",
+            "paikalliset bisnesenkelit"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/knl/__coS857ngQmwKhLznVQ40En308Kan8XRzvg27OTBeJ3M",
               "name": "tracxn.com",
               "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.kaleva.fi/oululainen-kyynel-saa-kaksi-miljoonaa-riskirahaa/1645018",
+              "name": "Oululainen Kyynel saa kaksi miljoonaa riskirahaa | Kaleva",
+              "date": "2014-08-15"
+            }
+          ],
+          "fundNamed": true,
+          "quotes": [
+            {
+              "text": "Summan sijoittavat yhteisesti Butterfly Venture, Inventure sekä paikalliset bisnesenkelit.",
+              "url": "https://www.kaleva.fi/oululainen-kyynel-saa-kaksi-miljoonaa-riskirahaa/1645018"
             }
           ]
         }
@@ -484,8 +733,14 @@
           "calaId": "65ac1713-1412-4dc8-8a32-9e160cc857aa",
           "label": "Funding round",
           "date": "2022-04-11",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "Molten Ventures",
+            "Partech",
+            "Norrsken",
+            "Lyra",
+            "Day One Capital"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/materialexchange/__AWOkF0XIj5Y5m_Ec17X8ScmhslfI8YI0JRobJInQhV0",
@@ -506,6 +761,23 @@
               "url": "https://pitchbook.com/profiles/company/327120-40",
               "name": "pitchbook.com",
               "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.vogue.com/article/sustainable-sourcing-startup-material-exchange-raises-euro25-million",
+              "name": "Sustainable sourcing startup Material Exchange raises €25 ...",
+              "date": "2022-04-12"
+            }
+          ],
+          "fundNamed": true,
+          "amount": "€25 million",
+          "quotes": [
+            {
+              "text": "The round was led by UK investor Molten Ventures, alongside previous investors Partech, Inventure, Norrsken, Lyra and Day One Capital.",
+              "url": "https://www.vogue.com/article/sustainable-sourcing-startup-material-exchange-raises-euro25-million"
+            },
+            {
+              "text": "Material Exchange — the Swedish software as a service (SaaS) company helping H&M and Ugg source more sustainable materials — has raised €25 million in Series A funding to grow its operations as a sustainable material provider for fashion brands.",
+              "url": "https://www.vogue.com/article/sustainable-sourcing-startup-material-exchange-raises-euro25-million"
             }
           ]
         },
@@ -670,8 +942,11 @@
           "calaId": "42f9e21f-9425-406d-8987-ff8046cb7dc1",
           "label": "Funding round",
           "date": "2021-07-08",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "Nordstjernan Growth",
+            "Schibsted"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/insurello/__lXMYkJUKgbjFJ0kbSDY0ctsk3XcY1JbEYJ3X7yxsAQ8",
@@ -692,6 +967,27 @@
               "url": "https://www.crunchbase.com/organization/insurello/company_overview/overview_timeline",
               "name": "www.crunchbase.com",
               "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.eu-startups.com/2021/07/swedish-insurtech-startups-insurello-raises-e15-million-for-its-european-expansion/",
+              "name": "Swedish insurtech startup Insurello raises €15 million for its European expansion | EU-Startups",
+              "date": "2021-07-09"
+            }
+          ],
+          "fundNamed": true,
+          "amount": "€15 million",
+          "quotes": [
+            {
+              "text": "The investment round was led by Nordstjernan Growth, with participation from existing investors Schibsted and Inventure.",
+              "url": "https://www.eu-startups.com/2021/07/swedish-insurtech-startups-insurello-raises-e15-million-for-its-european-expansion/"
+            },
+            {
+              "text": "with participation from existing investors Schibsted and Inventure.",
+              "url": "https://www.eu-startups.com/2021/07/swedish-insurtech-startups-insurello-raises-e15-million-for-its-european-expansion/"
+            },
+            {
+              "text": "the young company also just raised €15 million in fresh funding.",
+              "url": "https://www.eu-startups.com/2021/07/swedish-insurtech-startups-insurello-raises-e15-million-for-its-european-expansion/"
             }
           ]
         },
@@ -699,8 +995,10 @@
           "calaId": "729d66d4-8232-44af-835f-e5061502a550",
           "label": "Funding round",
           "date": "2017-06-05",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "DHS Venture Partners"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/insurello/__lXMYkJUKgbjFJ0kbSDY0ctsk3XcY1JbEYJ3X7yxsAQ8",
@@ -711,6 +1009,23 @@
               "url": "https://tracxn.com/d/companies/insurello/__lXMYkJUKgbjFJ0kbSDY0ctsk3XcY1JbEYJ3X7yxsAQ8/funding-and-investors",
               "name": "tracxn.com",
               "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.mynewsdesk.com/se/insurello/pressreleases/de-hjaelper-dig-att-faa-foersaekringsersaettning-naer-du-skadat-dig-nu-drar-insurello-in-24-miljoner-i-sin-foersta-investeringsrunda-2000240",
+              "name": "De hjälper dig att få försäkringsersättning när du skadat dig – nu drar Insurello in 2,4 miljoner i sin första investeringsrunda | Insurello AB",
+              "date": "2017-06-05"
+            }
+          ],
+          "fundNamed": false,
+          "amount": "2,4 miljoner kronor",
+          "quotes": [
+            {
+              "text": "Nu backas de av DHS Venture Partners",
+              "url": "https://www.mynewsdesk.com/se/insurello/pressreleases/de-hjaelper-dig-att-faa-foersaekringsersaettning-naer-du-skadat-dig-nu-drar-insurello-in-24-miljoner-i-sin-foersta-investeringsrunda-2000240"
+            },
+            {
+              "text": "Nu tar de in en investering på 2,4 miljoner kronor av Handelsnätverket DHS Venture Partners samt en rad namnkunniga affärsänglar.",
+              "url": "https://www.mynewsdesk.com/se/insurello/pressreleases/de-hjaelper-dig-att-faa-foersaekringsersaettning-naer-du-skadat-dig-nu-drar-insurello-in-24-miljoner-i-sin-foersta-investeringsrunda-2000240"
             }
           ]
         }
@@ -807,7 +1122,9 @@
           "label": "Funding round",
           "date": "2014-08-15",
           "fundIsLead": null,
-          "coInvestors": [],
+          "coInvestors": [
+            "Butterfly Ventures"
+          ],
           "sources": [
             {
               "url": "https://nordic9.com/news/sarokal-closes-seed-investment-in-a-round-including-butterfly-ventures-and-inventure-news3420164108",
@@ -823,6 +1140,17 @@
               "url": "https://www.crunchbase.com/organization/sarokal-test-systems-oy",
               "name": "www.crunchbase.com",
               "date": "2026-08-25"
+            }
+          ],
+          "fundNamed": true,
+          "quotes": [
+            {
+              "text": "Butterfly Ventures",
+              "url": "https://nordic9.com/news/sarokal-closes-seed-investment-in-a-round-including-butterfly-ventures-and-inventure-news3420164108"
+            },
+            {
+              "text": "Inventure",
+              "url": "https://nordic9.com/news/sarokal-closes-seed-investment-in-a-round-including-butterfly-ventures-and-inventure-news3420164108"
             }
           ]
         }
@@ -884,8 +1212,11 @@
           "calaId": "7ccd97d9-8f03-422f-bc61-06615baaab95",
           "label": "Funding round",
           "date": "2026-08-25",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "HitecVision",
+            "Taaleri"
+          ],
           "sources": [
             {
               "url": "https://www.crunchbase.com/funding_round/hamina-wireless-seed--27ab661b",
@@ -896,6 +1227,27 @@
               "url": "https://pitchbook.com/profiles/company/501254-92",
               "name": "pitchbook.com",
               "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.avance.com/cases/hitecvision-invests-in-fintoil-hamina-oy",
+              "name": "HitecVision invests in Fintoil Hamina Oy – Avance Attorneys",
+              "date": "2026-07-07"
+            }
+          ],
+          "fundNamed": false,
+          "amount": "EUR 105 million",
+          "quotes": [
+            {
+              "text": "Avance advises HitecVision, a leading Norwegian private equity investor in the energy sector, in its investment of EUR 75 million in Fintoil Hamina Oy.",
+              "url": "https://www.avance.com/cases/hitecvision-invests-in-fintoil-hamina-oy"
+            },
+            {
+              "text": "Alongside HitecVision’s investment, Taaleri has agreed to an additional investment of EUR 30 million, bringing the total investment round to EUR 105 million.",
+              "url": "https://www.avance.com/cases/hitecvision-invests-in-fintoil-hamina-oy"
+            },
+            {
+              "text": "bringing the total investment round to EUR 105 million.",
+              "url": "https://www.avance.com/cases/hitecvision-invests-in-fintoil-hamina-oy"
             }
           ]
         }
@@ -944,8 +1296,12 @@
           "calaId": "00cfe9e5-29c7-4581-8c19-21d709a20795",
           "label": "Funding round",
           "date": "2021-09-02",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "Endeit Capital",
+            "HenQ",
+            "Creades"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/stravito/__Ij7OUugepRn6AfSa5e_Yv0TIahciuFEYsL73DxIXB_o",
@@ -971,6 +1327,27 @@
               "url": "https://www.crunchbase.com/organization/stravito",
               "name": "www.crunchbase.com",
               "date": "2026-08-25"
+            },
+            {
+              "url": "https://techcrunch.com/2021/09/02/stravito-raises-14-6m-to-create-a-netflix-for-enterprise-market-research/",
+              "name": "Stravito raises $14.6M to create a 'Netflix for enterprise market research' | TechCrunch",
+              "date": "2021-09-02"
+            }
+          ],
+          "fundNamed": true,
+          "amount": "$14.6M",
+          "quotes": [
+            {
+              "text": "Series A funding round led by Endeit Capital",
+              "url": "https://techcrunch.com/2021/09/02/stravito-raises-14-6m-to-create-a-netflix-for-enterprise-market-research/"
+            },
+            {
+              "text": "with additional investment from existing investors HenQ, Inventure and Creades",
+              "url": "https://techcrunch.com/2021/09/02/stravito-raises-14-6m-to-create-a-netflix-for-enterprise-market-research/"
+            },
+            {
+              "text": "Stravito raises $14.6M",
+              "url": "https://techcrunch.com/2021/09/02/stravito-raises-14-6m-to-create-a-netflix-for-enterprise-market-research/"
             }
           ]
         },
@@ -978,8 +1355,11 @@
           "calaId": "a074255e-cfde-46d7-b644-0a607deb4020",
           "label": "Funding round",
           "date": "2019-04-04",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "henQ",
+            "Creades"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/stravito/__Ij7OUugepRn6AfSa5e_Yv0TIahciuFEYsL73DxIXB_o",
@@ -990,6 +1370,23 @@
               "url": "https://tracxn.com/d/companies/stravito/__Ij7OUugepRn6AfSa5e_Yv0TIahciuFEYsL73DxIXB_o/funding-and-investors",
               "name": "tracxn.com",
               "date": "2026-08-25"
+            },
+            {
+              "url": "https://tech.eu/2019/04/04/swedish-knowledge-tech-startup-stravito-raises-e5-6-million/",
+              "name": "Swedish knowledge tech startup Stravito raises €5.6 million - Tech.eu",
+              "date": "2019-04-04"
+            }
+          ],
+          "fundNamed": true,
+          "amount": "€5.6 million",
+          "quotes": [
+            {
+              "text": "The round was carried out by Amsterdam-based VC firm henQ, together with existing investors Inventure (Finland) and Creades (Sweden).",
+              "url": "https://tech.eu/2019/04/04/swedish-knowledge-tech-startup-stravito-raises-e5-6-million/"
+            },
+            {
+              "text": "Swedish knowledge tech startup Stravito raises €5.6 million",
+              "url": "https://tech.eu/2019/04/04/swedish-knowledge-tech-startup-stravito-raises-e5-6-million/"
             }
           ]
         },
@@ -998,7 +1395,9 @@
           "label": "Funding round",
           "date": "2018-04-17",
           "fundIsLead": null,
-          "coInvestors": [],
+          "coInvestors": [
+            "Creades"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/stravito/__Ij7OUugepRn6AfSa5e_Yv0TIahciuFEYsL73DxIXB_o",
@@ -1009,6 +1408,18 @@
               "url": "https://tracxn.com/d/companies/stravito/__Ij7OUugepRn6AfSa5e_Yv0TIahciuFEYsL73DxIXB_o/funding-and-investors",
               "name": "tracxn.com",
               "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.linkedin.com/posts/thorolof_its-official-our-new-venture-stravito-has-activity-6392010652289953792-HJBT",
+              "name": "It’s official! Our new venture Stravito has received funding from Inventure and Creades. Now let’s bring speed to knowledge to teams and organisations everywhere. Here’s why we’re so excited: | Thor Olof P.",
+              "date": "2018-04-17"
+            }
+          ],
+          "fundNamed": true,
+          "quotes": [
+            {
+              "text": "Our new venture Stravito has received funding from Inventure and Creades.",
+              "url": "https://www.linkedin.com/posts/thorolof_its-official-our-new-venture-stravito-has-activity-6392010652289953792-HJBT"
             }
           ]
         }
@@ -1112,13 +1523,46 @@
           "calaId": "d1606bdd-a6e3-41ad-a0e2-9921346f0dee",
           "label": "Funding round",
           "date": "2019-11-18",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": true,
+          "coInvestors": [
+            "Doberman",
+            "Privilege Ventures",
+            "Josefin Landgard",
+            "Hampus Jakobsson"
+          ],
           "sources": [
             {
               "url": "https://techcrunch.com/2019/11/18/fertility-startup-mojo-wants-to-take-the-trial-and-error-out-of-ivf",
               "name": "Fertility startup Mojo wants to take the trial and error out of IVF | TechCrunch",
               "date": "2019-11-18"
+            }
+          ],
+          "fundNamed": true,
+          "amount": "€1.7 million (~$1.8M)",
+          "quotes": [
+            {
+              "text": "led by Nordic seed fund Inventure",
+              "url": "https://techcrunch.com/2019/11/18/fertility-startup-mojo-wants-to-take-the-trial-and-error-out-of-ivf"
+            },
+            {
+              "text": "Doberman",
+              "url": "https://techcrunch.com/2019/11/18/fertility-startup-mojo-wants-to-take-the-trial-and-error-out-of-ivf"
+            },
+            {
+              "text": "Privilege Ventures",
+              "url": "https://techcrunch.com/2019/11/18/fertility-startup-mojo-wants-to-take-the-trial-and-error-out-of-ivf"
+            },
+            {
+              "text": "Josefin Landgard",
+              "url": "https://techcrunch.com/2019/11/18/fertility-startup-mojo-wants-to-take-the-trial-and-error-out-of-ivf"
+            },
+            {
+              "text": "Hampus Jakobsson",
+              "url": "https://techcrunch.com/2019/11/18/fertility-startup-mojo-wants-to-take-the-trial-and-error-out-of-ivf"
+            },
+            {
+              "text": "€1.7 million (~$1.8M)",
+              "url": "https://techcrunch.com/2019/11/18/fertility-startup-mojo-wants-to-take-the-trial-and-error-out-of-ivf"
             }
           ]
         }
@@ -1218,7 +1662,9 @@
           "label": "Funding round",
           "date": "2024-06-03",
           "fundIsLead": null,
-          "coInvestors": [],
+          "coInvestors": [
+            "European Investment Bank"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/swappie/__OZLXVrwyNaLewJayNH7sE6-Fl6TKs-McQNmY8bKnWyI/funding-and-investors",
@@ -1229,6 +1675,23 @@
               "url": "https://www.crunchbase.com/organization/swappie/financial_details",
               "name": "www.crunchbase.com",
               "date": "2026-08-24"
+            },
+            {
+              "url": "https://www.eib.org/en/press/all/2024-192-eib-signs-eur17-million-loan-to-finnish-iphone-refurbisher-swappie",
+              "name": "Finland: EIB signs €17 million loan to iPhone refurbisher Swappie",
+              "date": "2024-05-30"
+            }
+          ],
+          "fundNamed": false,
+          "amount": "€17 million",
+          "quotes": [
+            {
+              "text": "The European Investment Bank (EIB) and Swappie, Europe’s largest iPhone refurbisher, have signed a loan agreement to back the high quality refurbishment of iPhones, extending the lifespan of the devices and enabling consumers to reduce their carbon footprint in support of a circular economy.",
+              "url": "https://www.eib.org/en/press/all/2024-192-eib-signs-eur17-million-loan-to-finnish-iphone-refurbisher-swappie"
+            },
+            {
+              "text": "The EIB will provide a five-year, €17 million loan to the innovative Finnish startup to support its investment in research and development and robotics aimed at making iPhone repairs quick and reliable.",
+              "url": "https://www.eib.org/en/press/all/2024-192-eib-signs-eur17-million-loan-to-finnish-iphone-refurbisher-swappie"
             }
           ]
         },
@@ -1236,8 +1699,13 @@
           "calaId": "da50e04c-305c-4151-8a67-345070dbbcda",
           "label": "Funding round",
           "date": "2022-02-15",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "Verdane",
+            "Lifeline Ventures",
+            "Reaktor Ventures",
+            "TESI"
+          ],
           "sources": [
             {
               "url": "https://techcrunch.com/2022/02/15/iphone-refurbisher-swappie-raises-124m-series-c-led-by-verdane-to-scale-in-europe",
@@ -1254,6 +1722,18 @@
               "name": "tracxn.com",
               "date": "2026-08-24"
             }
+          ],
+          "fundNamed": true,
+          "amount": "$124 million",
+          "quotes": [
+            {
+              "text": "It’s now raised a $124 million (€108 million) Series C funding round led by growth equity firm Verdane, alongside existing investors Lifeline Ventures, Inventure, Reaktor Ventures and TESI.",
+              "url": "https://techcrunch.com/2022/02/15/iphone-refurbisher-swappie-raises-124m-series-c-led-by-verdane-to-scale-in-europe"
+            },
+            {
+              "text": "alongside existing investors Lifeline Ventures, Inventure, Reaktor Ventures and TESI.",
+              "url": "https://techcrunch.com/2022/02/15/iphone-refurbisher-swappie-raises-124m-series-c-led-by-verdane-to-scale-in-europe"
+            }
           ]
         },
         {
@@ -1261,7 +1741,11 @@
           "label": "Funding round",
           "date": "2020-06-16",
           "fundIsLead": null,
-          "coInvestors": [],
+          "coInvestors": [
+            "TESI",
+            "Lifeline Ventures",
+            "Reaktor Ventures"
+          ],
           "sources": [
             {
               "url": "https://techcrunch.com/2020/06/16/swappie-bags-40-6m-to-sell-more-secondhand-iphones-across-europe",
@@ -1278,6 +1762,22 @@
               "name": "tracxn.com",
               "date": "2026-08-24"
             }
+          ],
+          "fundNamed": true,
+          "amount": "€35.8 million ($40.6M)",
+          "quotes": [
+            {
+              "text": "Local VC and private equity firm TESI is a new investor in the Series B",
+              "url": "https://techcrunch.com/2020/06/16/swappie-bags-40-6m-to-sell-more-secondhand-iphones-across-europe"
+            },
+            {
+              "text": "along with Lifeline Ventures, Reaktor Ventures and Inventure",
+              "url": "https://techcrunch.com/2020/06/16/swappie-bags-40-6m-to-sell-more-secondhand-iphones-across-europe"
+            },
+            {
+              "text": "Swappie has closed a €35.8 million ($40.6M) Series B",
+              "url": "https://techcrunch.com/2020/06/16/swappie-bags-40-6m-to-sell-more-secondhand-iphones-across-europe"
+            }
           ]
         },
         {
@@ -1285,7 +1785,11 @@
           "label": "Funding round",
           "date": "2019-05-28",
           "fundIsLead": null,
-          "coInvestors": [],
+          "coInvestors": [
+            "TESI",
+            "Lifeline Ventures",
+            "Reaktor Ventures"
+          ],
           "sources": [
             {
               "url": "https://news.crunchbase.com/startups/swappies-european-expansion-boosted-by-40-6m-series-b",
@@ -1301,6 +1805,22 @@
               "url": "https://tracxn.com/d/companies/swappie/__OZLXVrwyNaLewJayNH7sE6-Fl6TKs-McQNmY8bKnWyI/funding-and-investors",
               "name": "tracxn.com",
               "date": "2026-08-24"
+            }
+          ],
+          "fundNamed": true,
+          "amount": "€35.8 million ($40.6M)",
+          "quotes": [
+            {
+              "text": "Local VC and private equity firm TESI is a new investor in the Series B",
+              "url": "https://techcrunch.com/2020/06/16/swappie-bags-40-6m-to-sell-more-secondhand-iphones-across-europe"
+            },
+            {
+              "text": "along with Lifeline Ventures, Reaktor Ventures and Inventure",
+              "url": "https://techcrunch.com/2020/06/16/swappie-bags-40-6m-to-sell-more-secondhand-iphones-across-europe"
+            },
+            {
+              "text": "Swappie has closed a €35.8 million ($40.6M) Series B",
+              "url": "https://techcrunch.com/2020/06/16/swappie-bags-40-6m-to-sell-more-secondhand-iphones-across-europe"
             }
           ]
         }
@@ -1536,6 +2056,19 @@
               "url": "https://tracxn.com/d/companies/anyday/__sp63OkD5GafRH22ntq9yffNnrKjR1EOd_J3jhOcN2vA/funding-and-investors",
               "name": "tracxn.com",
               "date": "2026-06-10"
+            },
+            {
+              "url": "https://www.cbinsights.com/company/anyday/financials",
+              "name": "Anyday Stock Price, Funding, Valuation, Revenue & Financial Statements",
+              "date": "2024-03-18"
+            }
+          ],
+          "fundNamed": false,
+          "amount": "$43.79M",
+          "quotes": [
+            {
+              "text": "$43.79M",
+              "url": "https://www.cbinsights.com/company/anyday/financials"
             }
           ]
         },
@@ -1562,7 +2095,7 @@
           "calaId": "5ede3a85-d574-46f3-a999-bc3fc9c3594c",
           "label": "Funding round",
           "date": "2022-03-17",
-          "fundIsLead": null,
+          "fundIsLead": true,
           "coInvestors": [],
           "sources": [
             {
@@ -1574,6 +2107,19 @@
               "url": "https://tracxn.com/d/companies/anyday/__sp63OkD5GafRH22ntq9yffNnrKjR1EOd_J3jhOcN2vA/funding-and-investors",
               "name": "tracxn.com",
               "date": "2026-06-10"
+            },
+            {
+              "url": "https://tech.eu/2022/03/29/anyday-raises-4-million-in-seed-round-offering-an-active-stance-on-ethical-payments/",
+              "name": "Anyday raises €4 million in seed round offering 'An active stance on ethical payments' - Tech.eu",
+              "date": "2022-03-29"
+            }
+          ],
+          "fundNamed": true,
+          "amount": "€4 million",
+          "quotes": [
+            {
+              "text": "Anyday has raised €4 million in a seed funding round provided by Helsinki’s Inventure.",
+              "url": "https://tech.eu/2022/03/29/anyday-raises-4-million-in-seed-round-offering-an-active-stance-on-ethical-payments/"
             }
           ]
         }
@@ -1723,8 +2269,12 @@
           "calaId": "84bad08f-c3c5-42a8-8f93-e314f126bd28",
           "label": "Funding round",
           "date": "2016-11-07",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "Ventech",
+            "Sunstone Capital",
+            "Silicon Valley Bank"
+          ],
           "sources": [
             {
               "url": "https://www.crunchbase.com/funding_round/freespee-series-b--a5fd9046",
@@ -1736,14 +2286,32 @@
               "name": "Freespee secures €9.25M Series B to help companies manage conversations with customers | TechCrunch",
               "date": "2016-11-07"
             }
+          ],
+          "fundNamed": true,
+          "amount": "€9.25 million",
+          "quotes": [
+            {
+              "text": "French venture capital firm Ventech led the round, alongside existing investors Sunstone Capital and Inventure.",
+              "url": "https://techcrunch.com/2016/11/07/a-freespee-for-all"
+            },
+            {
+              "text": "Silicon Valley Bank also participated, signalling that this is a mixture equity and debt financing.",
+              "url": "https://techcrunch.com/2016/11/07/a-freespee-for-all"
+            },
+            {
+              "text": "Freespee, which these days calls itself a “real-time conversation cloud technology company,” has raised €9.25 million in Series B funding.",
+              "url": "https://techcrunch.com/2016/11/07/a-freespee-for-all"
+            }
           ]
         },
         {
           "calaId": "7be4cf2c-09c4-4bf6-9bdb-68d964843311",
           "label": "Funding round",
           "date": "2012-10-09",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "Sunstone Capital"
+          ],
           "sources": [
             {
               "url": "https://www.crunchbase.com/funding_round/freespee-series-a--34b8ef2e",
@@ -1755,13 +2323,21 @@
               "name": "Freespee Raises Further €3.3 Million For Its Mobile Click-To-Call Advertising And Analytics Service | TechCrunch",
               "date": "2012-10-09"
             }
+          ],
+          "fundNamed": false,
+          "amount": "€3.3 million",
+          "quotes": [
+            {
+              "text": "raised a new round of funding: €3.3 million (approx. $4.3m) led by pan-European early-stage investor Sunstone Capital.",
+              "url": "https://techcrunch.com/2012/10/09/freespee-raises-a-further-e3-3-million-for-its-mobile-click-to-call-advertising-and-analytics-service"
+            }
           ]
         },
         {
           "calaId": "0dce0e07-2ea6-4c45-8b4d-3cb1a80d4a79",
           "label": "Funding round",
           "date": "2011-02-08",
-          "fundIsLead": null,
+          "fundIsLead": true,
           "coInvestors": [],
           "sources": [
             {
@@ -1774,13 +2350,25 @@
               "name": "Freespee raises €1.1m for its call tracking and pay-per-call solution | TechCrunch",
               "date": "2011-02-08"
             }
+          ],
+          "fundNamed": true,
+          "amount": "1.1 million euros",
+          "quotes": [
+            {
+              "text": "The new investment comes from Finland’s Inventure and will be used to fuel growth across Europe.",
+              "url": "https://techcrunch.com/2011/02/08/freespee-raises-e1-1m-for-its-call-tracking-and-pay-per-call-solution"
+            },
+            {
+              "text": "closed a second round of funding of 1.1 million euros.",
+              "url": "https://techcrunch.com/2011/02/08/freespee-raises-e1-1m-for-its-call-tracking-and-pay-per-call-solution"
+            }
           ]
         },
         {
           "calaId": "a2304575-916d-41b6-96c9-086412b0ce61",
           "label": "Funding round",
           "date": "2009-10-15",
-          "fundIsLead": null,
+          "fundIsLead": true,
           "coInvestors": [],
           "sources": [
             {
@@ -1792,6 +2380,18 @@
               "url": "https://techcrunch.com/2011/02/08/freespee-raises-e1-1m-for-its-call-tracking-and-pay-per-call-solution",
               "name": "Freespee raises €1.1m for its call tracking and pay-per-call solution | TechCrunch",
               "date": "2011-02-08"
+            }
+          ],
+          "fundNamed": true,
+          "amount": "1.1 million euros",
+          "quotes": [
+            {
+              "text": "The new investment comes from Finland’s Inventure and will be used to fuel growth across Europe.",
+              "url": "https://techcrunch.com/2011/02/08/freespee-raises-e1-1m-for-its-call-tracking-and-pay-per-call-solution"
+            },
+            {
+              "text": "closed a second round of funding of 1.1 million euros.",
+              "url": "https://techcrunch.com/2011/02/08/freespee-raises-e1-1m-for-its-call-tracking-and-pay-per-call-solution"
             }
           ]
         }
@@ -1840,8 +2440,10 @@
           "calaId": "b4f74b15-bea8-4ce2-956e-852e787b7d65",
           "label": "Funding round",
           "date": "2024-08-05",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": true,
+          "coInvestors": [
+            "UVC partners"
+          ],
           "sources": [
             {
               "url": "https://www.crunchbase.com/organization/biomatter-designs/company_overview/overview_timeline",
@@ -1862,6 +2464,19 @@
               "url": "https://tracxn.com/d/explore/healthtech-startups-in-lithuania/__ln06QUP_tDqJlr3fH4I965QBISpSqIiOSi8EJp1_rgI",
               "name": "tracxn.com",
               "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.inventure.vc/articles/backing-biomatter-to-revolutionize-enzyme-design-from-the-ground-up",
+              "name": "Backing Biomatter to revolutionize enzyme design | Inventure",
+              "date": "2024-08-05"
+            }
+          ],
+          "fundNamed": true,
+          "amount": "€6.5 million",
+          "quotes": [
+            {
+              "text": "In a €6.5 million Seed round led by Inventure with our friends at UVC partners, we are thrilled to announce our investment in Biomatter, a company that can truly change everything.",
+              "url": "https://www.inventure.vc/articles/backing-biomatter-to-revolutionize-enzyme-design-from-the-ground-up"
             }
           ]
         }
@@ -1981,7 +2596,10 @@
           "label": "Funding round",
           "date": "2024-02-06",
           "fundIsLead": null,
-          "coInvestors": [],
+          "coInvestors": [
+            "V-Sharp Venture Studio",
+            "BADideas.fund"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/leyaai/__7F01Q06-q2YXPTKT34Xt1YKiOpGXAkOf09hbav5EKrY/funding-and-investors",
@@ -1997,6 +2615,23 @@
               "url": "https://tracxn.com/d/artificial-intelligence/ai-startups-in-passion-economy/__aKUJq0oIFqZnC6Dx6O5XCkpte5FYJExJJ162IbfSAW8/companies",
               "name": "tracxn.com",
               "date": "2026-08-25"
+            },
+            {
+              "url": "https://en.ain.ua/2024/02/06/leya-ai-raises-1m-pre-seed-funding/",
+              "name": "Lithuanian edtech Leya AI raises €1M in a pre-seed funding - AIN",
+              "date": "2024-02-06"
+            }
+          ],
+          "fundNamed": true,
+          "amount": "€1 million",
+          "quotes": [
+            {
+              "text": "The investors included V-Sharp Venture Studio, Inventure, BADideas.fund, and several angel investors.",
+              "url": "https://en.ain.ua/2024/02/06/leya-ai-raises-1m-pre-seed-funding/"
+            },
+            {
+              "text": "Vilnius-based edtech startup Leya AI has raised €1 million in a pre-seed funding round to revolutionize language learning through an affordable real-time speaking AI Tutor.",
+              "url": "https://en.ain.ua/2024/02/06/leya-ai-raises-1m-pre-seed-funding/"
             }
           ]
         }
@@ -2081,7 +2716,12 @@
           "label": "Funding round",
           "date": "2015-11-10",
           "fundIsLead": null,
-          "coInvestors": [],
+          "coInvestors": [
+            "Shanda Group",
+            "Tianqiao Chen’sprivate investment group",
+            "NSA Ventures",
+            "Reaktor Ventures"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/solfar-studios/__FS7us7Eq4bqxJ0bGevCY10N0TzaI0K4Jpzsm-5DywnM",
@@ -2097,6 +2737,23 @@
               "url": "https://pitchbook.com/profiles/company/129190-78",
               "name": "pitchbook.com",
               "date": "2026-08-25"
+            },
+            {
+              "url": "https://siliconangle.com/2015/11/11/icelandic-vr-startup-solfar-studios-raises-2-1-million-seed-funding/",
+              "name": "Icelandic startup Sólfar Studios raises $2.1 million to bring Everest to VR - SiliconANGLE",
+              "date": "2015-11-11"
+            }
+          ],
+          "fundNamed": true,
+          "amount": "$2.1 million",
+          "quotes": [
+            {
+              "text": "The seed round includes Shanda Group, Tianqiao Chen’sprivate investment group, Iceland´s NSA Ventures, and Finnish VCs Inventure and Reaktor Ventures along with individual investors from the company´s previous angel round.",
+              "url": "https://siliconangle.com/2015/11/11/icelandic-vr-startup-solfar-studios-raises-2-1-million-seed-funding/"
+            },
+            {
+              "text": "Icelandic virtual reality (VR) developer startup Sólfar Studios ehf. raised $2.1 million in seed funding from both Nordic and Asian venture capital investors.",
+              "url": "https://siliconangle.com/2015/11/11/icelandic-vr-startup-solfar-studios-raises-2-1-million-seed-funding/"
             }
           ]
         },
@@ -2228,8 +2885,12 @@
           "calaId": "eef161ca-3c4f-4bc7-b7f9-fae6366de97a",
           "label": "Funding round",
           "date": "2017-07-11",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "Creathor Venture",
+            "MedTech Innovation Partners",
+            "Pontos Group"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/blueprint-genetics/__TH1WtFyhc_0P8VYO8sp--RgV0Auw_JuMk514EmqOaZo/funding-and-investors",
@@ -2245,6 +2906,27 @@
               "url": "https://pitchbook.com/profiles/company/82591-84",
               "name": "pitchbook.com",
               "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.genomeweb.com/business-news/finnish-dx-firm-blueprint-genetics-raises-14m",
+              "name": "Finnish Dx Firm Blueprint Genetics Raises €14M | GenomeWeb",
+              "date": "2017-07-13"
+            }
+          ],
+          "fundNamed": true,
+          "amount": "€14 million",
+          "quotes": [
+            {
+              "text": "The financing round was led by new investors Creathor Venture and MedTech Innovation Partners.",
+              "url": "https://www.genomeweb.com/business-news/finnish-dx-firm-blueprint-genetics-raises-14m"
+            },
+            {
+              "text": "Existing investors Inventure and Pontos Group also participated.",
+              "url": "https://www.genomeweb.com/business-news/finnish-dx-firm-blueprint-genetics-raises-14m"
+            },
+            {
+              "text": "Blueprint Genetics this week announced it raised €14 million ($16 million) in a new financing round",
+              "url": "https://www.genomeweb.com/business-news/finnish-dx-firm-blueprint-genetics-raises-14m"
             }
           ]
         },
@@ -2253,7 +2935,11 @@
           "label": "Funding round",
           "date": "2014-08-29",
           "fundIsLead": null,
-          "coInvestors": [],
+          "coInvestors": [
+            "Avohoidon Tutkimussäätiö",
+            "Finnish business angels",
+            "Tekes, the Finnish Funding Agency for Innovation"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/blueprint-genetics/__TH1WtFyhc_0P8VYO8sp--RgV0Auw_JuMk514EmqOaZo/funding-and-investors",
@@ -2269,6 +2955,41 @@
               "url": "https://pitchbook.com/profiles/company/82591-84",
               "name": "pitchbook.com",
               "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.blueprintgenetics.com/news/blueprint-genetics-announces-3-9-million-in-funding-leading-to-us-expansion/",
+              "name": "Blueprint Genetics Announces $3.9 Million in Funding, Leading to US Expansion - Blueprint Genetics",
+              "date": "2014-08-29"
+            }
+          ],
+          "fundNamed": true,
+          "amount": "$3.9 million",
+          "partner": {
+            "name": "Tuomas Kosonen",
+            "title": "Partner",
+            "quote": "Tuomas Kosonen, Partner at Inventure comments: “Blueprint Genetics is one of the disruptive companies, combining software with human genome data.",
+            "source": {
+              "url": "https://www.blueprintgenetics.com/news/blueprint-genetics-announces-3-9-million-in-funding-leading-to-us-expansion/",
+              "name": "Blueprint Genetics Announces $3.9 Million in Funding, Leading to US Expansion - Blueprint Genetics",
+              "date": "2014-08-29"
+            }
+          },
+          "quotes": [
+            {
+              "text": "Blueprint Genetics is glad to announce that Inventure and Avohoidon Tutkimussäätiö, a Finnish foundation, have joined the existing investors of the company.",
+              "url": "https://www.blueprintgenetics.com/news/blueprint-genetics-announces-3-9-million-in-funding-leading-to-us-expansion/"
+            },
+            {
+              "text": "Previously, the company has been financed by Finnish business angels and Tekes, the Finnish Funding Agency for Innovation.",
+              "url": "https://www.blueprintgenetics.com/news/blueprint-genetics-announces-3-9-million-in-funding-leading-to-us-expansion/"
+            },
+            {
+              "text": "The funding for Blueprint Genetics now totals $3.9 million, allowing the company to accelerate international expansion.",
+              "url": "https://www.blueprintgenetics.com/news/blueprint-genetics-announces-3-9-million-in-funding-leading-to-us-expansion/"
+            },
+            {
+              "text": "Tuomas Kosonen, Partner at Inventure comments: “Blueprint Genetics is one of the disruptive companies, combining software with human genome data.",
+              "url": "https://www.blueprintgenetics.com/news/blueprint-genetics-announces-3-9-million-in-funding-leading-to-us-expansion/"
             }
           ]
         }
@@ -2342,8 +3063,18 @@
           "calaId": "650602a2-1180-40e8-a011-ba61ed65479d",
           "label": "Funding round",
           "date": "2021-09-02",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "Astanor Ventures",
+            "Northzone",
+            "Gullspång Re:food",
+            "Eurazeo",
+            "Norrsken VC",
+            "Edastra",
+            "Trellis Road",
+            "David Frenkiel",
+            "Alexander Ljung"
+          ],
           "sources": [
             {
               "url": "https://techcrunch.com/2021/09/02/stockeld-dreamery-loves-cheese-so-much-that-it-raised-20m-to-make-it-out-of-legumes",
@@ -2360,14 +3091,36 @@
               "name": "tracxn.com",
               "date": "2026-08-24"
             }
+          ],
+          "fundNamed": false,
+          "amount": "$20 million",
+          "quotes": [
+            {
+              "text": "The Stockholm-based company announced Thursday its Series A round of $20 million co-led by Astanor Ventures and Northzone.",
+              "url": "https://techcrunch.com/2021/09/02/stockeld-dreamery-loves-cheese-so-much-that-it-raised-20m-to-make-it-out-of-legumes"
+            },
+            {
+              "text": "Joining them in the round — which founder Sorosh Tavakoli told TechCrunch he thought was “the largest-ever Series A round for a European plant-based alternatives startup,” was Gullspång Re:food, Eurazeo, Norrsken VC, Edastra, Trellis Road and angel investors David Frenkiel and Alexander Ljung.",
+              "url": "https://techcrunch.com/2021/09/02/stockeld-dreamery-loves-cheese-so-much-that-it-raised-20m-to-make-it-out-of-legumes"
+            }
           ]
         },
         {
           "calaId": "3cff4fa7-1694-4258-b84a-a7c4b45294e4",
           "label": "Funding round",
           "date": "2020-01-23",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "Astanor Ventures",
+            "Northzone",
+            "Gullspång Re:food",
+            "Eurazeo",
+            "Norrsken VC",
+            "Edastra",
+            "Trellis Road",
+            "David Frenkiel",
+            "Alexander Ljung"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/stockeld-dreamery/__ah-tautQKoSON9i3u5-EA3IUEQ88-NzzT7d32o6mk6w",
@@ -2383,6 +3136,18 @@
               "url": "https://techcrunch.com/2021/09/02/stockeld-dreamery-loves-cheese-so-much-that-it-raised-20m-to-make-it-out-of-legumes",
               "name": "Stockeld Dreamery loves cheese so much that it raised $20M to make it out of legumes | TechCrunch",
               "date": "2021-09-02"
+            }
+          ],
+          "fundNamed": false,
+          "amount": "$20 million",
+          "quotes": [
+            {
+              "text": "The Stockholm-based company announced Thursday its Series A round of $20 million co-led by Astanor Ventures and Northzone.",
+              "url": "https://techcrunch.com/2021/09/02/stockeld-dreamery-loves-cheese-so-much-that-it-raised-20m-to-make-it-out-of-legumes"
+            },
+            {
+              "text": "Joining them in the round — which founder Sorosh Tavakoli told TechCrunch he thought was “the largest-ever Series A round for a European plant-based alternatives startup,” was Gullspång Re:food, Eurazeo, Norrsken VC, Edastra, Trellis Road and angel investors David Frenkiel and Alexander Ljung.",
+              "url": "https://techcrunch.com/2021/09/02/stockeld-dreamery-loves-cheese-so-much-that-it-raised-20m-to-make-it-out-of-legumes"
             }
           ]
         }

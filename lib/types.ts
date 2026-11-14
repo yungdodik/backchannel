@@ -22,6 +22,10 @@ export interface Round {
   fundIsLead: boolean | null; // null = Cala doesn't say
   coInvestors: string[];
   sources: Source[];
+  // Filled from the round's announcement (D28); every value is backed by a verbatim quote in `quotes`.
+  fundNamed?: boolean; // the fund is named as an investor in this round
+  partner?: { name: string; title?: string; quote: string; source: Source }; // a quoted partner of the fund
+  quotes?: { text: string; url: string }[];
 }
 
 /** Neutral fact about a portfolio company (D6, D21). */

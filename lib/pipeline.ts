@@ -8,8 +8,8 @@ import type { CallListEntry, Founder, FundMatch, PortfolioCompany, Report, Signa
 
 export interface PipelineDeps {
   cala: Cala;
-  exa: Exa;
-  gemini: Gemini;
+  exa: Pick<Exa, "searchPeople" | "searchNews">;
+  gemini: Pick<Gemini, "questions">;
   now: () => Date;
   budgetMs: number;
   /** Live runs enrich at most this many companies by priority (spec step 10). */
