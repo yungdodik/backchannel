@@ -11,7 +11,7 @@ const env = (k: string) => {
 };
 
 let cala: ReturnType<typeof createCalaClient> | undefined;
-export const liveCala = () => (cala ??= createCalaClient({ fetch, apiKey: env("CALA_API_KEY") }));
+export const liveCala = () => (cala ??= createCalaClient({ fetch, apiKey: env("CALA_API_KEY"), minGapMs: Number(process.env.CALA_MIN_GAP_MS ?? 1000) }));
 
 export function liveDeps(over: Partial<PipelineDeps> = {}): PipelineDeps {
   return {
