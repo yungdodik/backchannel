@@ -78,6 +78,7 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
   const [filters, setFilters] = useState<Record<CallGroup, boolean>>({ news_event: true, no_recent_round: true, recent_round: true });
   const [toast, setToast] = useState<{ id: number; text: string } | null>(null);
   const [visited, setVisited] = useState(false); // a first flight has happened: the opening explanation is no longer needed
+  const [statsFund, setStatsFund] = useState<string | null>(null); // phones: the fund whose stats the visitor has unfolded
   const [touchedFund, setTouchedFund] = useState<string | null>(null); // the fund whose call list the visitor has opened or closed by hand
   const [clock, setClock] = useState<{ t: string; d: string } | null>(null);
   const [mountedAt, setMountedAt] = useState<number | null>(null);
@@ -471,7 +472,11 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
       )}
 
       {phase === "system" && target && (
-        <section className="px-ui px-glass px-info px-compact" aria-label={report.fund?.name ?? target.name} aria-live="polite">
+        <section className="px-ui px-glass px-info px-compact" data-stats={statsFund === targetId || undefined} aria-label={report.fund?.name ?? target.name} aria-live="polite">
+          {/* phones only: the stats are folded away to leave room for the map, and this unfolds them */}
+          <button className="px-btn px-statsbtn" aria-expanded={statsFund === targetId} onClick={() => setStatsFund((f) => (f === targetId ? null : targetId))}>
+            {statsFund === targetId ? "Hide stats" : "Stats"}
+          </button>
           <div className="px-type">{target.companies != null ? "Venture fund" : "Investor · checked live"}</div>
           <h1>{report.fund?.name ?? target.name}</h1>
           {report.fund?.description && <p className="px-desc">{report.fund.description}</p>}
