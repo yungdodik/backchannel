@@ -5,6 +5,10 @@ export interface ReportState {
   companies: PortfolioCompany[];
   entries: CallListEntry[];
   progress?: string;
+  /** How many companies this run will check; fewer than `companies.length` when a live run is capped. */
+  planned?: number;
+  /** Companies checked so far (no longer pending). Once `done` arrives it stays at what the run reached. */
+  checked: number;
   error?: string;
   /** Set once `done` arrives. */
   complete?: boolean;
@@ -14,7 +18,9 @@ export interface ReportState {
 
 /** Folds the events received so far into what the page shows. */
 export function deriveReport(events: StreamEvent[]): ReportState {
-  const s: ReportState = { companies: [], entries: [] };
+  const s: ReportState = { companies: [], entries: [], checked: 0 };
+  const count = (cs: PortfolioCompany[]) => cs.filter((c) => c.state !== "pending").length;
+  let listed = false;
   for (const ev of events) {
     switch (ev.type) {
       case "progress":
@@ -23,6 +29,8 @@ export function deriveReport(events: StreamEvent[]): ReportState {
       case "portfolio":
         s.fund = ev.fund;
         s.companies = ev.companies;
+        s.planned = ev.planned;
+        listed = true;
         break;
       case "company":
         s.companies = s.companies.map((c) => (c.calaId === ev.company.calaId ? ev.company : c));
@@ -31,6 +39,8 @@ export function deriveReport(events: StreamEvent[]): ReportState {
         s.entries = [...s.entries, ev.entry];
         break;
       case "done": // authoritative: replaces everything streamed so far
+        // the final report marks companies the run never reached as unavailable, so count before it replaces them
+        s.checked = listed ? count(s.companies) : count(ev.report.portfolio);
         s.fund = ev.report.fund;
         s.companies = ev.report.portfolio;
         s.entries = ev.report.callList;
@@ -43,5 +53,6 @@ export function deriveReport(events: StreamEvent[]): ReportState {
         break;
     }
   }
+  if (s.complete === undefined) s.checked = count(s.companies);
   return s;
 }
