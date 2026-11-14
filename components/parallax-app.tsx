@@ -1,6 +1,9 @@
 "use client";
 
-import Link from "next/link";
+import { ReportView } from "@/components/report-view";
+import { ContactLink, CopyBrief } from "@/components/call-actions";
+import { contactRole, entryKey, reasonToCall, shortlist } from "@/lib/call-brief";
+import { groupFor } from "@/lib/signals";
 import { Fragment, useCallback, useEffect, useMemo, useRef, useState, type CSSProperties, type FormEvent, type KeyboardEvent, type ReactNode } from "react";
 import { fundsUrl, reportUrl } from "@/components/api-urls";
 import { Landing } from "@/components/landing";
@@ -18,7 +21,6 @@ const GROUPS: { g: CallGroup; label: string; color: string }[] = [
   { g: "no_recent_round", label: "No recorded round in 24+ months", color: "var(--quiet)" },
   { g: "recent_round", label: "Raised again recently", color: "var(--recent)" },
 ];
-const SEVERITY: Record<CallGroup, number> = { news_event: 0, no_recent_round: 1, recent_round: 2 };
 const groupColor = (g: Group) => GROUPS.find((x) => x.g === g)?.color ?? "var(--none)";
 /** While the landing page is up the sky looks high and close, at stars only; entering tilts back down and zooms out. */
 const LIFT = { pitch: 40, zoom: 0.6 };
@@ -55,6 +57,10 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
   const input = useRef<HTMLInputElement>(null);
   const listRef = useRef<HTMLDivElement>(null);
 
+  const [view, setView] = useState<"map" | "list">("map");
+  const [showAll, setShowAll] = useState(false);
+  const [retry, setRetry] = useState(0);
+  const searchRun = useRef(0);
   const [extra, setExtra] = useState<SkyFund[]>([]);
   const allFunds = useMemo(() => [...funds, ...extra.filter((e) => !funds.some((f) => f.id === e.id))], [funds, extra]);
   const [landing, setLanding] = useState(true);
@@ -79,12 +85,11 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
   const [toast, setToast] = useState<{ id: number; text: string } | null>(null);
   const [visited, setVisited] = useState(false); // a first flight has happened: the opening explanation is no longer needed
   const [statsFund, setStatsFund] = useState<string | null>(null); // phones: the fund whose stats the visitor has unfolded
-  const [touchedFund, setTouchedFund] = useState<string | null>(null); // the fund whose call list the visitor has opened or closed by hand
   const [clock, setClock] = useState<{ t: string; d: string } | null>(null);
   const [mountedAt, setMountedAt] = useState<number | null>(null);
 
   // the report streams from the moment the flight starts, so data is ready on arrival
-  const { events } = useReportStream(targetId && phase !== "sky" ? reportUrl(targetId) : null);
+  const { events } = useReportStream(targetId && phase !== "sky" ? reportUrl(targetId) : null, retry);
   const report = useMemo(() => deriveReport(events), [events]);
   const target = allFunds.find((f) => f.id === targetId);
 
@@ -140,18 +145,13 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
   /* ---------- the portfolio as planets ---------- */
   const skyCompanies = useMemo<SkyCompany[]>(() => {
     const now = new Date(report.report?.generatedAt ?? mountedAt ?? 0);
-    const worst = new Map<string, CallGroup>();
-    for (const e of report.entries) {
-      const w = worst.get(e.companyId);
-      if (!w || SEVERITY[e.group] < SEVERITY[w]) worst.set(e.companyId, e.group);
-    }
     return report.companies.map((c) => ({
       id: c.calaId,
       name: c.name,
       last: c.lastRoundDate?.slice(0, 7),
       months: monthsSince(c.lastRoundDate, now),
       founders: c.founders.length,
-      group: c.state === "pending" ? "pending" : (worst.get(c.calaId) ?? "none"),
+      group: c.state === "pending" ? "pending" : (groupFor(c.signals, c.lastRoundDate, now) ?? "none"),
     }));
   }, [report, mountedAt]);
   useEffect(() => {
@@ -203,6 +203,9 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
   function flyTo(f: SkyFund) {
     if (phase === "flying") return;
     if (!allFunds.some((x) => x.id === f.id)) setExtra((xs) => [...xs, f]);
+    setShowAll(false);
+    setView(matchMedia("(max-width: 860px)").matches ? "list" : "map");
+    setFilters({ news_event: true, no_recent_round: true, recent_round: true });
     setQ(f.name);
     setSuggest(false);
     input.current?.blur();
@@ -235,11 +238,11 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
       setQ(text);
       lookup(text);
     };
-    if (matchMedia("(prefers-reduced-motion: reduce)").matches) return then();
+    if (norm(text) || matchMedia("(prefers-reduced-motion: reduce)").matches) return then();
     let t0 = 0, prev = 0;
     const step = (t: number) => {
       t0 ||= t;
-      const p = Math.min(1, (t - t0) / 1600), eased = 1 - (1 - p) ** 3;
+      const p = Math.min(1, (t - t0) / 450), eased = 1 - (1 - p) ** 3;
       engine.current?.turn(0, -LIFT.pitch * (eased - prev));
       engine.current?.zoom(LIFT.zoom ** (prev - eased));
       prev = eased;
@@ -255,10 +258,10 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
     document.getElementById("sky")?.focus({ preventScroll: true });
   }, [landing, settling]);
   function selectCompany(id: string) {
+    setShowAll(true);
     setSelCo(id);
     engine.current?.selectCompany(id);
-    setTouchedFund(targetId);
-    setOpen((o) => new Set([...o, ...(autoKey ? [autoKey] : []), ...report.entries.filter((e) => e.companyId === id).map((e) => `${e.companyId}:${e.founder.name}`)]));
+    setOpen((o) => new Set([...o, ...report.entries.filter((e) => e.companyId === id).map((e) => `${e.companyId}:${e.founder.name}`)]));
     requestAnimationFrame(() => listRef.current?.querySelector(`[data-cid="${CSS.escape(id)}"]`)?.scrollIntoView({ block: "nearest" }));
   }
   useEffect(() => {
@@ -272,29 +275,32 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
   });
 
   const matches = allFunds.filter((f) => !norm(q) || norm(f.name).includes(norm(q)));
+  const options: SkyFund[] = [...matches, ...(search.kind === "results" ? search.matches.filter((m) => m.companies !== 0 && !matches.some((f) => f.id === m.calaId)).map((m) => ({ id: m.calaId, name: m.name })) : [])];
   function onSubmit(e: FormEvent) {
     e.preventDefault();
-    const pick = matches[Math.max(0, sIdx)];
+    const pick = options[Math.max(0, sIdx)];
     if (pick && (sIdx >= 0 || norm(q))) return flyTo(pick);
     return lookup(q);
   }
   async function lookup(text: string) {
     setSuggest(true);
     if (norm(text).length < 2) return;
+    const run = ++searchRun.current;
     setSearch({ kind: "loading" });
     try {
       const res = await fetch(fundsUrl(text.trim()));
       if (!res.ok) throw new Error(String(res.status));
-      setSearch({ kind: "results", matches: (await res.json()) as FundMatch[] });
+      const results = (await res.json()) as FundMatch[];
+      if (run === searchRun.current) setSearch({ kind: "results", matches: results });
     } catch {
-      setSearch({ kind: "error" });
+      if (run === searchRun.current) setSearch({ kind: "error" });
     }
   }
   function onKeyDown(e: KeyboardEvent<HTMLInputElement>) {
     if (e.key === "ArrowDown" || e.key === "ArrowUp") {
       e.preventDefault();
       setSuggest(true);
-      const n = matches.length || 1;
+      const n = options.length || 1;
       setSIdx((i) => (i + (e.key === "ArrowDown" ? 1 : -1) + n) % n);
     }
     if (e.key === "Escape") input.current?.blur();
@@ -321,27 +327,27 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
   // progress line: done, stopped by an error, a bar once the company list is known, a spinner before that
   const done = report.complete !== undefined;
   const progState = done ? "done" : report.error ? "stopped" : companiesN ? "bar" : "wait";
-  const pct = done ? 100 : planned ? Math.round((100 * checked) / planned) : 0;
+  const researched = report.companies.filter((c) => c.state === "enriched").length;
+  const pct = companiesN ? Math.round((100 * researched) / companiesN) : 0;
   // the latest pipeline message, unless the company list arrived after it ("Reading the fund's portfolio…" is then stale)
   const note = events.findLastIndex((e) => e.type === "progress") > events.findLastIndex((e) => e.type === "portfolio") ? report.progress : undefined;
   const newsN = skyCompanies.filter((c) => c.group === "news_event").length;
   const selectedFund = allFunds.find((f) => f.id === selectedId);
-  const visible = report.entries.filter((e) => filters[e.group]);
+  const filtered = report.entries.filter((e) => filters[e.group]);
+  const picks = shortlist(filtered);
+  const visible = showAll ? filtered : picks;
   const sel = skyCompanies.find((c) => c.id === selCo);
   // D29: shown in a founder's open entry, or at the top of the list for a selected company with no entry there
   // Indicators (issue #22): a count picks out the planets and call-list entries behind it. Tagged with the fund, so a new flight starts clear.
   const companyOfRound = new Map(report.companies.flatMap((c) => c.rounds.map((r) => [r.calaId, c.calaId] as const)));
   const hlIds = hl && hl.fund === targetId ? hl.ids : null;
-  // the first founder's card opens by itself on arrival, so the reasons and the questions are on screen without a click
-  const first = report.entries.find((e) => filters[e.group]);
-  const autoKey = first && touchedFund !== targetId ? `${first.companyId}:${first.founder.name}` : null;
   const demoFund = allFunds.find((f) => /icebreaker/i.test(f.name)) ?? allFunds[0];
   const mapKey = (
     <ul>
       <li><i style={{ background: "var(--news)" }} />News found</li>
-      <li><i style={{ background: "var(--quiet)" }} />No round in 2+ years</li>
+      <li><i style={{ background: "var(--quiet)" }} />No recorded round in 2+ years</li>
       <li><i style={{ background: "var(--recent)" }} />Raised recently</li>
-      <li><i style={{ background: "var(--none)" }} />No founder found</li>
+      <li><i style={{ background: "var(--none)" }} />No dated signal</li>
     </ul>
   );
   const count = (key: string, ids: string[], label: string, text: ReactNode) => (
@@ -351,6 +357,8 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
       aria-label={`${label}: show on the map and in the call list`}
       disabled={!ids.length}
       onClick={() => {
+        setShowAll(true);
+        setFilters({ news_event: true, no_recent_round: true, recent_round: true });
         const on = !(hlIds && hl?.key === key);
         const set = new Set(ids.map((id) => companyOfRound.get(id) ?? id));
         setHl(on ? { fund: targetId, key, ids: set } : null);
@@ -381,7 +389,7 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
   return (
     <>
     {landing && <Landing funds={funds} onEnter={enter} onSkip={skipLanding} />}
-    <div className="px-app" id="sky" tabIndex={-1} inert={landing || settling}>
+    <div className="px-app" data-view={phase === "system" ? view : "map"} id="sky" tabIndex={-1} inert={landing || settling}>
       <canvas ref={canvas} className="px-sky" aria-label="Sky map of venture funds. Drag to rotate; use the search to fly to a fund." />
       <div ref={tip} className="px-tip" aria-hidden />
 
@@ -401,6 +409,7 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
             ref={input}
             value={q}
             onChange={(e) => {
+              searchRun.current++;
               setQ(e.target.value);
               setSIdx(-1);
               setSearch({ kind: "idle" });
@@ -442,7 +451,7 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
                     // no investments on record: a report would be empty, so the row says so and does not fly
                     const empty = m.companies === 0;
                     return (
-                      <button key={m.calaId} type="button" role="option" aria-selected={false} aria-disabled={empty} className="px-option" onMouseDown={(e) => e.preventDefault()} onClick={() => empty || flyTo({ id: m.calaId, name: m.name })}>
+                      <button key={m.calaId} id={`fund-opt-${options.findIndex((f) => f.id === m.calaId)}`} tabIndex={-1} type="button" role="option" aria-selected={sIdx === options.findIndex((f) => f.id === m.calaId)} aria-disabled={empty} className="px-option" onMouseDown={(e) => e.preventDefault()} onClick={() => empty || flyTo({ id: m.calaId, name: m.name })}>
                         <i /><span>{m.name}{m.description && <em>{m.description}</em>}</span><small>{m.companies == null ? "not counted" : empty ? "nothing to show" : `${m.companies}${m.companies >= 200 ? "+" : ""} companies`}</small>
                       </button>
                     );
@@ -462,11 +471,11 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
           <h1>{selectedFund.name}</h1>
           <dl>
             {selectedFund.companies != null && (<><dt>Portfolio companies</dt><dd>{selectedFund.companies}</dd></>)}
-            {selectedFund.calls != null && (<><dt>Founders to call</dt><dd>{selectedFund.calls}</dd></>)}
+            {selectedFund.calls != null && (<><dt>Contacts to call</dt><dd>{selectedFund.calls}</dd></>)}
           </dl>
           <div className="px-acts">
             <button className="px-btn px-primary" onClick={() => flyTo(selectedFund)}>Fly to {selectedFund.name}</button>
-            <Link className="px-btn" href={`/report/${selectedFund.id}`}>Full report</Link>
+
           </div>
         </section>
       )}
@@ -479,11 +488,12 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
           </button>
           <div className="px-type">{target.companies != null ? "Venture fund" : "Investor · checked live"}</div>
           <h1>{report.fund?.name ?? target.name}</h1>
+          <p className="px-note">{report.report ? `${report.report.prepared ? "Prepared report" : "Research snapshot"} · updated ${report.report.generatedAt.slice(0, 10)}` : "Live research · up to 25 companies"}</p>
           {report.fund?.description && <p className="px-desc">{report.fund.description}</p>}
           {/* headline counts, then one block per fact about follow-on funding: number, share bar, what it is measured against */}
           <dl className="px-tiles px-three">
             <div><dt>Companies</dt><dd>{companiesN || "…"}</dd></div>
-            <div><dt>Founders to call</dt><dd>{report.entries.length}</dd></div>
+            <div><dt>Contacts to call</dt><dd>{report.entries.length}</dd></div>
             <div style={{ "--c": "var(--news)" } as CSSProperties}><dt>With news</dt><dd>{newsN}</dd></div>
           </dl>
           {fp && (
@@ -491,14 +501,14 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
               <h2 className="px-sec">Follow-on funding</h2>
               <dl className="px-tiles">
                 {([
-                  ["quiet", "No round in 2+ years", "", fp.noRoundIn24Months, "var(--quiet)"],
+                  ["quiet", "No recorded round in 2+ years", "", fp.noRoundIn24Months, "var(--quiet)"],
                   ["later", "Fund backed again", "at least this many", fp.namedInLaterRound, "var(--recent)"],
                   ["led", "Rounds led", "where the lead is known", fp.ledRounds, "var(--star)"],
                 ] as const).map(([key, label, basis, c, color]) => (
                   <div key={key} style={{ "--c": color } as CSSProperties}>
                     <dt>{label}{basis && <small>{basis}</small>}</dt>
                     <dd>
-                      {count(key, c.ids, label, <>{c.n} <small>of {c.of}</small></>)}
+                      {c.of ? count(key, c.ids, label, <>{c.n} <small>of {c.of}</small></>) : <small>Insufficient data</small>}
                       <i className="px-meter" aria-hidden><i style={{ width: `${c.of ? (100 * c.n) / c.of : 0}%` }} /></i>
                     </dd>
                   </div>
@@ -533,11 +543,12 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
             </details>
           )}
           <p className="px-note">A missing round is not evidence of failure.</p>
-          {report.error && <div className="px-alert" role="alert">{report.error}</div>}
+          {report.report && !report.companies.some((c) => c.rounds.some((r) => r.fundNamed !== undefined)) && <p className="px-note">Follow-on participation not researched.</p>}
+          {report.error && <div className="px-alert" role="alert">{report.error}<button className="px-btn" onClick={() => setRetry((n) => n + 1)}>Retry research</button><button className="px-btn" onClick={() => demoFund && flyTo(demoFund)}>Open prepared example</button></div>}
           <div className="px-prog" data-state={progState}>
             {(done || companiesN > 0) && (
               <>
-                <span className="px-bar" role="progressbar" aria-label="Companies checked" aria-valuemin={0} aria-valuemax={100} aria-valuenow={pct}>
+                <span className="px-bar" role="progressbar" aria-label="Portfolio researched" aria-valuemin={0} aria-valuemax={100} aria-valuenow={pct}>
                   <i style={{ width: `${pct}%` }} />
                 </span>
                 <b aria-hidden>{pct}%</b>
@@ -548,15 +559,15 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
               {progState === "wait" && <i className="px-spin" aria-hidden />}
               {progState === "done" && <i className="px-ok" aria-hidden />}
               {progState === "done"
-                ? `Done · ${checked} of ${companiesN} companies checked${report.complete ? "" : " · partial report"}`
+                ? `Research finished · ${researched} of ${companiesN} companies researched${report.complete ? "" : " · partial coverage"}`
                 : progState === "wait"
                   ? (report.progress ?? "Connecting…")
-                  : `${progState === "stopped" ? "Stopped · " : ""}${checked} of ${planned} companies checked${note && progState === "bar" ? ` · ${note}` : ""}`}
+                  : `${progState === "stopped" ? "Stopped · " : ""}${researched} of ${companiesN} researched · ${checked}/${planned} checks attempted${note && progState === "bar" ? ` · ${note}` : ""}`}
             </p>
           </div>
           <div className="px-acts">
             <button className="px-btn" onClick={() => engine.current?.flyOut()}>Return to sky</button>
-            <Link className="px-btn" href={`/report/${target.id}`}>Full report</Link>
+            <CopyBrief fund={report.fund?.name ?? target.name} entries={picks} />
           </div>
         </section>
       )}
@@ -570,32 +581,43 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
 
       {phase === "system" && (
         <div className="px-ui px-glass px-key px-key-float" role="note" aria-label="How to read the map">
-          <p>Each planet is a portfolio company. Further from the star = longer since its last round.</p>
+          <p>Each planet is a portfolio company. Further from the star = longer since its last recorded round.</p>
           {mapKey}
         </div>
       )}
 
       {phase === "system" && (
-        <aside className="px-ui px-glass px-drawer" aria-label="Founders to call">
+        <nav className="px-ui px-glass px-view-switch" aria-label="Report view">
+          <button className="px-btn" aria-pressed={view === "map"} onClick={() => setView("map")}>Map</button>
+          <button className="px-btn" aria-pressed={view === "list"} onClick={() => setView("list")}>List</button>
+        </nav>
+      )}
+      {phase === "system" && view === "list" && <section className="px-ui px-reading" aria-label="Report list"><ReportView events={events} onRetry={() => setRetry((n) => n + 1)} /></section>}
+      {phase === "system" && (
+        <aside className="px-ui px-glass px-drawer" aria-label="Contacts to call">
           <div className="px-dh">
-            <h2>Founders to call</h2>
+            <h2>{showAll ? "All contacts" : (picks.length === 1 ? "Start with this contact" : picks.length ? `Start with these ${picks.length}` : "Finding contacts")}</h2>
             <p>
               {sel
-                ? `${sel.name}: ${sel.founders ? `${sel.founders} founder${sel.founders > 1 ? "s" : ""}` : "no founder confirmed"} · last round ${sel.last ?? "not on record"}`
-                : "Drag to rotate the system. Click a planet, or pick a founder."}
+                ? `${sel.name}: ${sel.founders ? `${sel.founders} contact${sel.founders > 1 ? "s" : ""}` : "no contact confirmed"} · last round ${sel.last ?? "not on record"}`
+                : "Selected from sourced roles and recorded events. Open a contact to see why, or explore the full list."}
             </p>
+            <div className="px-acts"><CopyBrief fund={report.fund?.name ?? target?.name ?? "Fund"} entries={picks} /></div>
             <div className="px-key px-key-inline" role="note" aria-label="How to read the map">
               {mapKey}
-              <p>Further from the star = longer since the last round.</p>
+              <p>Further from the star = longer since the last recorded round.</p>
             </div>
           </div>
           <div className="px-list" ref={listRef} tabIndex={0}>
+            {report.entries.length > 0 && <button className="px-btn" onClick={() => setShowAll((v) => !v)}>{showAll ? "Show recommended contacts" : `All contacts (${filtered.length})`}</button>}
+            {report.entries.length > 0 && !filtered.length && <p className="px-empty">No contacts match these filters. <button className="px-btn" onClick={() => setFilters({ news_event: true, no_recent_round: true, recent_round: true })}>Reset filters</button></p>}
+            {!report.entries.length && report.complete === undefined && !report.error && <p className="px-empty" role="status">Finding sourced contacts… You can explore the portfolio as it arrives.</p>}
             {report.complete !== undefined && report.entries.length === 0 && (
-              <p className="px-empty">No founders to call yet. None of the checked portfolio companies had a dated round or news with a founder we could confirm.</p>
+              <p className="px-empty">No founders to call yet. None of the checked portfolio companies had a dated round or news with a contact whose role we could source.</p>
             )}
             {!visible.some((e) => e.companyId === selCo) && overviewOf(selCo)}
             {visible.map((e) => {
-              const key = `${e.companyId}:${e.founder.name}`, isOpen = open.has(key) || key === autoKey;
+              const key = entryKey(e), isOpen = open.has(key);
               const c = skyCompanies.find((x) => x.id === e.companyId);
               return (
                 <div key={key} className="px-who" data-cid={e.companyId} data-hl={selCo === e.companyId || !!hlIds?.has(e.companyId)}>
@@ -603,10 +625,8 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
                     className="px-row"
                     aria-expanded={isOpen}
                     onClick={() => {
-                      setTouchedFund(targetId);
                       setOpen((o) => {
                         const n = new Set(o);
-                        if (autoKey) n.add(autoKey); // the card that opened by itself is now the visitor's to keep or close
                         if (isOpen) n.delete(key);
                         else n.add(key);
                         return n;
@@ -618,7 +638,7 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
                     }}
                   >
                     <i style={{ background: groupColor(e.group) }} />
-                    <span><b>{e.founder.name}</b><span>{e.companyName}</span></span>
+                    <span><b>{e.founder.name}</b><span>{e.companyName} · {contactRole(e.founder)}</span><span className="px-reason">{reasonToCall(e)}</span></span>
                     <small>{c?.last ?? "no date"}</small>
                   </button>
                   {isOpen && overviewOf(e.companyId)}
@@ -653,7 +673,7 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
                       <ol>{e.questions.map((x, i) => <li key={i}>{x}</li>)}</ol>
                       <div className="px-acts">
                         <button className="px-btn px-primary" onClick={(ev) => copy(e, ev.currentTarget)}>Copy questions</button>
-                        {e.founder.linkedinUrl && <a className="px-btn" href={e.founder.linkedinUrl} target="_blank" rel="noopener noreferrer">LinkedIn</a>}
+                        <CopyBrief fund={report.fund?.name ?? "Fund"} entries={[e]} /><ContactLink entry={e} />
                       </div>
                     </div>
                   )}

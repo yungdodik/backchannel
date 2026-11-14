@@ -22,7 +22,7 @@ function parseLine(line: string): StreamEvent | null {
 }
 
 /** Reads an NDJSON `StreamEvent` stream (docs/spec.md "Stream protocol"). */
-export function useReportStream(url: string | null): ReportStream {
+export function useReportStream(url: string | null, retry = 0): ReportStream {
   // State is tagged with the url and the fetch (`run`) it belongs to, so a new url or a new fetch starts empty without a reset in the effect.
   const [state, setState] = useState<ReportStream & { url: string | null; run?: object }>({ url: null, events: [], status: "idle" });
 
@@ -33,7 +33,7 @@ export function useReportStream(url: string | null): ReportStream {
 
     let terminal = false;
     const push = (ev: StreamEvent) => {
-      if (terminal) return; // protocol: done/error is the last line
+      if (terminal || ctrl.signal.aborted) return; // protocol: done/error is the last line
       if (ev.type === "done" || ev.type === "error") terminal = true;
       setState((s) => {
         const events = s.run === run ? s.events : [];
@@ -43,7 +43,7 @@ export function useReportStream(url: string | null): ReportStream {
     };
 
     (async () => {
-      const res = await fetch(url, { signal: ctrl.signal });
+      const res = await fetch(retry ? `${url}&retry=1` : url, { signal: ctrl.signal });
       if (!res.ok || !res.body) throw new Error(`Report request failed (HTTP ${res.status})`);
       const reader = res.body.getReader();
       const dec = new TextDecoder();
@@ -68,7 +68,7 @@ export function useReportStream(url: string | null): ReportStream {
     });
 
     return () => ctrl.abort();
-  }, [url]);
+  }, [url, retry]);
 
   if (state.url !== url) return { events: [], status: url ? "streaming" : "idle" };
   return { events: state.events, status: state.status };

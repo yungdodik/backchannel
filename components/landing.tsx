@@ -100,8 +100,8 @@ const PANELS: { tag: string; title: string; text: string; quote?: string; art: R
   },
   {
     tag: "All along",
-    title: "It was on record",
-    text: "Other companies in the same portfolio had gone quiet too. Their last rounds, their news, their founders' names: all public. Nobody called them.",
+    title: "Other founders to ask",
+    text: "Public records can help you find founders outside the fund’s chosen references. Ask about their experience; a funding date cannot tell the whole story.",
     art: (
       <>
         <Dots at={[[16, 96], [228, 16], [120, 12]]} />
@@ -118,7 +118,7 @@ const PANELS: { tag: string; title: string; text: string; quote?: string; art: R
 ];
 
 const STEPS = [
-  { title: "Name the fund", text: "Type any VC fund. Parallax reads every portfolio company on record in Cala's knowledge graph, not only the logos on its website." },
+  { title: "Name the fund", text: "Type any VC fund. Parallax maps the recorded portfolio in Cala and researches contacts, with the coverage shown on each report." },
   { title: "See the whole system", text: "Every portfolio company becomes a planet around the fund's star. The further out it orbits, the longer since its last recorded round." },
   { title: "Call the founders", text: "Where a founder is confirmed: who they are, the dated facts with their sources, and three questions to ask on the call." },
 ];
@@ -219,7 +219,7 @@ export function Landing({ funds, onEnter, onSkip }: { funds: SkyFund[]; onEnter:
       el.style.transformOrigin = `${x}px ${y}px`;
       // the "Fly" text fades first (CSS, .lp-go), then the camera goes through the window
       const zoom = { transform: ["scale(1)", `scale(${(far / (port.clientWidth / 2)) * 1.08})`] };
-      await el.animate(zoom, { duration: 1100, delay: 260, easing: "cubic-bezier(0.7, 0, 0.84, 0)", fill: "forwards" }).finished;
+      await el.animate(zoom, { duration: 450, delay: 80, easing: "cubic-bezier(0.7, 0, 0.84, 0)", fill: "forwards" }).finished;
     }
     onEnter(q.trim());
   }
@@ -258,7 +258,7 @@ export function Landing({ funds, onEnter, onSkip }: { funds: SkyFund[]; onEnter:
             <p className="lp-eyebrow"><b>Parallax</b> · reference checks for VC funds</p>
             <h1>Every fund shows you its brightest stars. <em>See the whole sky.</em></h1>
             <p className="lp-lede">
-              Before you take a fund&apos;s money, hear from the founders who already did. Name a fund: Parallax maps every portfolio company on record and
+              Before you take a fund&apos;s money, hear from the founders who already did. Name a fund: Parallax maps the recorded portfolio and
               tells you which founders to call, why, and what to ask.
             </p>
             <div className="lp-row">
@@ -293,8 +293,8 @@ export function Landing({ funds, onEnter, onSkip }: { funds: SkyFund[]; onEnter:
         <section aria-labelledby="lp-story-h" {...on(1)}>
           <div className="lp-in">
             <p className="lp-eyebrow">The problem</p>
-            <h2 id="lp-story-h">Most startups are not lost at launch.</h2>
-            <p className="lp-lede">Some are lost later, when the investor who promised to be there goes quiet. One founder&apos;s story:</p>
+            <h2 id="lp-story-h">A term sheet is only the beginning.</h2>
+            <p className="lp-lede">The fund chooses the references you meet. Other founders may have different experiences. An illustrative scenario:</p>
             {panels(0)}
           </div>
         </section>
@@ -303,7 +303,7 @@ export function Landing({ funds, onEnter, onSkip }: { funds: SkyFund[]; onEnter:
           <div className="lp-in">
             <p className="lp-eyebrow">The problem · continued</p>
             {panels(3)}
-            <p className="lp-punch">A call to those founders before you signed could have changed your decision. <em>Parallax finds them for you.</em></p>
+            <p className="lp-punch">Hear more than one experience before you sign. <em>Parallax finds them for you.</em></p>
           </div>
         </section>
 

@@ -34,6 +34,7 @@ export interface Projection {
 }
 
 export interface CallOpts {
+  signal?: AbortSignal;
   onRetry?: (attempt: number, waitMs: number) => void;
 }
 
@@ -47,7 +48,12 @@ export class CalaGaveUp extends Error {}
 
 const BASE = "https://api.cala.ai/v1";
 const BACKOFF_MS = [1000, 2000, 4000, 8000, 16000];
-const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
+const sleep = (ms: number, signal?: AbortSignal) => new Promise<void>((resolve, reject) => {
+  if (signal?.aborted) { reject(signal.reason); return; }
+  const abort = () => { clearTimeout(timer); reject(signal?.reason); };
+  const timer = setTimeout(() => { signal?.removeEventListener("abort", abort); resolve(); }, ms);
+  signal?.addEventListener("abort", abort, { once: true });
+});
 
 export function createCalaClient({
   fetch,
@@ -64,16 +70,17 @@ export function createCalaClient({
 
   async function attempt(url: string, init: RequestInit, opts?: CallOpts) {
     for (let i = 0; ; i++) {
+      opts?.signal?.throwIfAborted();
       const wait = lastStart + minGapMs - Date.now();
-      if (wait > 0) await sleep(wait);
+      if (wait > 0) await sleep(wait, opts?.signal);
       lastStart = Date.now();
-      const res = await fetch(url, init);
+      const res = await fetch(url, { ...init, signal: AbortSignal.any([AbortSignal.timeout(20_000), ...(opts?.signal ? [opts.signal] : [])]) });
       if (res.ok) return res.json();
       if (res.status !== 429) throw new Error(`Cala ${res.status}: ${(await res.text()).slice(0, 200)}`);
       hits429++;
       if (i >= BACKOFF_MS.length) throw new CalaGaveUp(`Cala rate limit: gave up on ${url}`);
       opts?.onRetry?.(i + 1, BACKOFF_MS[i]);
-      await sleep(BACKOFF_MS[i]);
+      await sleep(BACKOFF_MS[i], opts?.signal);
     }
   }
 

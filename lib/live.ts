@@ -14,12 +14,14 @@ let cala: ReturnType<typeof createCalaClient> | undefined;
 export const liveCala = () => (cala ??= createCalaClient({ fetch, apiKey: env("CALA_API_KEY"), minGapMs: Number(process.env.CALA_MIN_GAP_MS ?? 1000) }));
 
 export function liveDeps(over: Partial<PipelineDeps> = {}): PipelineDeps {
+  const signal = AbortSignal.any([...(over.signal ? [over.signal] : []), ...(Number.isFinite(over.budgetMs) ? [AbortSignal.timeout(over.budgetMs!)] : [])]);
   return {
     cala: liveCala(),
-    exa: createExa(env("EXA_API_KEY")),
-    gemini: createGemini(env("GEMINI_API_KEY")),
+    exa: createExa(env("EXA_API_KEY"), signal),
+    gemini: createGemini(env("GEMINI_API_KEY"), signal),
     now: () => new Date(),
     budgetMs: Infinity,
     ...over,
+    signal,
   };
 }

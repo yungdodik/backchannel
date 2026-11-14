@@ -13,14 +13,15 @@ export interface Gemini {
 const MODEL = "gemini-3.5-flash";
 const limited = limiter(5);
 
-export function createGemini(apiKey: string): Gemini {
+export function createGemini(apiKey: string, signal?: AbortSignal): Gemini {
   const ai = new GoogleGenAI({ apiKey });
   const json = (prompt: string, timeoutMs: number, responseSchema?: object) =>
     limited(async () => {
+      signal?.throwIfAborted();
       const res = await ai.models.generateContent({
         model: MODEL,
         contents: prompt,
-        config: { abortSignal: AbortSignal.timeout(timeoutMs), responseMimeType: "application/json", responseSchema },
+        config: { abortSignal: AbortSignal.any([AbortSignal.timeout(timeoutMs), ...(signal ? [signal] : [])]), responseMimeType: "application/json", responseSchema },
       });
       return JSON.parse(res.text ?? "null") as unknown;
     });

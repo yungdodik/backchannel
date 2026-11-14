@@ -423,3 +423,26 @@
   .px-key-float { display: none; }
   .px-key-inline { display: block; }
 }
+/* The reading view shares the live report with the map; no navigation or second fetch. */
+.px-view-switch { top: 76px; left: 50%; transform: translateX(-50%); padding: 4px; border-radius: 999px; display: flex; gap: 4px; z-index: 12; }
+.px-view-switch .px-btn[aria-pressed="true"] { background: var(--star); color: var(--void); }
+.px-reading { top: 126px; bottom: 24px; left: 50%; transform: translateX(-50%); width: min(850px, calc(100% - 32px)); overflow: auto; padding: 28px; border: 1px solid var(--line); border-radius: 18px; background: oklch(0.16 0.02 268 / .98); color: var(--text); --background: oklch(0.16 0.02 268); --foreground: oklch(0.94 0.01 260); --card: oklch(0.21 0.02 268); --card-foreground: var(--foreground); --muted-foreground: oklch(0.76 0.02 260); --border: oklch(0.38 0.02 268); --secondary: oklch(0.28 0.02 268); --secondary-foreground: var(--foreground); --accent: var(--secondary); --accent-foreground: var(--foreground); }
+.px-app[data-view="list"] :is(.px-info, .px-drawer, .px-key-float, .px-tools, .px-botleft, .px-botright) { display: none; }
+.px-row .px-reason { margin-top: 5px; font-size: 12.5px; line-height: 1.45; color: var(--text); }
+.px-btn:disabled { opacity: .5; cursor: default; }
+.px-reading summary { cursor: pointer; font-weight: 500; padding-block: 8px; }
+.px-reading a { text-underline-offset: 3px; }
+@media (max-width: 860px) {
+  .px-view-switch { top: 72px; }
+  .px-reading { top: 124px; bottom: 10px; padding: 18px; }
+  .px-app[data-view="map"] .px-view-switch { top: auto; bottom: 16px; left: auto; right: 12px; transform: none; }
+  .px-app[data-view="map"] .px-tools { left: 12px; transform: none; }
+}
+@media print {
+  .px-app { position: static !important; overflow: visible !important; height: auto !important; }
+  .px-app > :not(.px-reading) { display: none !important; }
+  .px-reading { position: static !important; width: 100%; transform: none; overflow: visible; background: white; color: black; }
+  .px-reading button { display: none; }
+}
+
+.px-standalone { --star: oklch(0.94 0.035 85); --void: oklch(0.11 0.02 268); --line: oklch(0.5 0.02 268); }

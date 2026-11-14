@@ -5,7 +5,7 @@
     "description": "a Finnish investment firm headquartered in Helsinki"
   },
   "generatedAt": "2026-11-14T04:24:27.456Z",
-  "complete": true,
+  "complete": false,
   "portfolio": [
     {
       "calaId": "0d0425ad-207d-4c48-8b02-88a46ca34c6f",
@@ -1832,7 +1832,7 @@
     },
     {
       "calaId": "54972ffb-9a56-4a24-945e-5036cfffc449",
-      "name": "AI & Robotics-Powered IVF Platform",
+      "name": "Mojo",
       "rounds": [
         {
           "calaId": "d1606bdd-a6e3-41ad-a0e2-9921346f0dee",
@@ -1968,7 +1968,7 @@
       "description": "Automated sperm selection platform combining AI, microrobotics, and high-magnification imaging to reduce manual IVF processes and improve fertility outcomes.",
       "lastRoundDate": "2019-11-18",
       "overview": {
-        "text": "AI & Robotics-Powered IVF Platform is an automated sperm selection platform that combines AI, microrobotics, and high-magnification imaging to reduce manual IVF processes and improve fertility outcomes. In November 2019, the company raised €1.7 million (~$1.8M) in a funding round from Doberman, Privilege Ventures, Josefin Landgard, and Hampus Jakobsson.",
+        "text": "Mojo is an automated sperm selection platform that combines AI, microrobotics, and high-magnification imaging to reduce manual IVF processes and improve fertility outcomes. In November 2019, the company raised €1.7 million (~$1.8M) in a funding round from Doberman, Privilege Ventures, Josefin Landgard, and Hampus Jakobsson.",
         "sources": [
           {
             "url": "https://techcrunch.com/2019/11/18/fertility-startup-mojo-wants-to-take-the-trial-and-error-out-of-ivf",
@@ -3835,15 +3835,15 @@
         }
       ],
       "questions": [
-        "How did Inventure support Sarokal Solutions Oy as an investor leading up to and following the 2018-02 round?",
-        "What kind of strategic guidance and board involvement did Inventure provide to Sarokal Solutions Oy after the 2018-02 funding round?",
-        "How did Inventure collaborate with the Sarokal Solutions Oy founders during major company decisions around the 2018-02 timeframe?"
+        "The last round in our sources is 2018-02. What financing decisions followed, and how was Inventure involved?",
+        "Can you give a concrete example of what Inventure did when you needed support, and what you wished it had done differently?",
+        "Would you choose Inventure again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
     {
       "companyId": "54972ffb-9a56-4a24-945e-5036cfffc449",
-      "companyName": "AI & Robotics-Powered IVF Platform",
+      "companyName": "Mojo",
       "founder": {
         "name": "Daniel Seidman",
         "via": "cala",
@@ -3887,15 +3887,15 @@
         }
       ],
       "questions": [
-        "How has Inventure supported the AI & Robotics-Powered IVF Platform team following the 2019-11 round?",
-        "What was Inventure's involvement in strategic guidance and follow-on financing efforts for the AI & Robotics-Powered IVF Platform after the 2019-11 round?",
-        "How would you describe Inventure's ongoing board participation and investor relationship with the AI & Robotics-Powered IVF Platform?"
+        "The last round in our sources is 2019-11. What financing decisions followed, and how was Inventure involved?",
+        "Can you give a concrete example of what Inventure did when you needed support, and what you wished it had done differently?",
+        "Would you choose Inventure again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
     {
       "companyId": "54972ffb-9a56-4a24-945e-5036cfffc449",
-      "companyName": "AI & Robotics-Powered IVF Platform",
+      "companyName": "Mojo",
       "founder": {
         "name": "Daniella Gilboa",
         "via": "cala",
@@ -3944,9 +3944,9 @@
         }
       ],
       "questions": [
-        "How has Inventure supported the AI & Robotics-Powered IVF Platform team following the 2019-11 round?",
-        "What was Inventure's involvement in strategic guidance and follow-on financing efforts for the AI & Robotics-Powered IVF Platform after the 2019-11 round?",
-        "How would you describe Inventure's ongoing board participation and investor relationship with the AI & Robotics-Powered IVF Platform?"
+        "The last round in our sources is 2019-11. What financing decisions followed, and how was Inventure involved?",
+        "Can you give a concrete example of what Inventure did when you needed support, and what you wished it had done differently?",
+        "Would you choose Inventure again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -3996,9 +3996,9 @@
         }
       ],
       "questions": [
-        "How did Inventure support Swappie leading up to and during your 2024-06 funding round?",
-        "How would you describe Inventure's day-to-day involvement and communication style as an investor in Swappie?",
-        "What kind of strategic guidance or board-level support did Inventure provide around the time of the 2024-06 round?"
+        "The last round in our sources is 2024-06. What financing decisions followed, and how was Inventure involved?",
+        "Can you give a concrete example of what Inventure did when you needed support, and what you wished it had done differently?",
+        "Would you choose Inventure again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -4053,9 +4053,9 @@
         }
       ],
       "questions": [
-        "How did Inventure support Swappie leading up to and during your 2024-06 funding round?",
-        "How would you describe Inventure's day-to-day involvement and communication style as an investor in Swappie?",
-        "What kind of strategic guidance or board-level support did Inventure provide around the time of the 2024-06 round?"
+        "The last round in our sources is 2024-06. What financing decisions followed, and how was Inventure involved?",
+        "Can you give a concrete example of what Inventure did when you needed support, and what you wished it had done differently?",
+        "Would you choose Inventure again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -4151,9 +4151,9 @@
         }
       ],
       "questions": [
-        "How did Inventure support Anyday during the 2024-03 funding round?",
-        "In what ways has Inventure provided value to Anyday while the company maintains an active status?",
-        "How would you describe Inventure's level of engagement and responsiveness with Anyday since the 2024-03 round?"
+        "The last round in our sources is 2024-03. What financing decisions followed, and how was Inventure involved?",
+        "Can you give a concrete example of what Inventure did when you needed support, and what you wished it had done differently?",
+        "Would you choose Inventure again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -4244,9 +4244,9 @@
         }
       ],
       "questions": [
-        "How did Inventure support Anyday during the 2024-03 funding round?",
-        "In what ways has Inventure provided value to Anyday while the company maintains an active status?",
-        "How would you describe Inventure's level of engagement and responsiveness with Anyday since the 2024-03 round?"
+        "The last round in our sources is 2024-03. What financing decisions followed, and how was Inventure involved?",
+        "Can you give a concrete example of what Inventure did when you needed support, and what you wished it had done differently?",
+        "Would you choose Inventure again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -4312,9 +4312,9 @@
         }
       ],
       "questions": [
-        "How did Inventure support Stockeld Dreamery AB following the 2021-09 round?",
-        "How did Inventure engage with the company leadership as Stockeld Dreamery AB transitioned to an inactive status?",
-        "What kind of ongoing guidance did Inventure provide to Stockeld Dreamery AB after their 2021-09 investment?"
+        "The last round in our sources is 2021-09. What financing decisions followed, and how was Inventure involved?",
+        "Can you give a concrete example of what Inventure did when you needed support, and what you wished it had done differently?",
+        "Would you choose Inventure again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -4354,9 +4354,9 @@
         }
       ],
       "questions": [
-        "How did Inventure support ReOrbit during the preparation and execution of your round in 2025-09?",
-        "How has Inventure typically provided strategic value and ongoing support to ReOrbit as a portfolio company?",
-        "How did the Inventure team manage board dynamics and decision-making leading up to ReOrbit's 2025-09 round?"
+        "The last round in our sources is 2025-09. What financing decisions followed, and how was Inventure involved?",
+        "Can you give a concrete example of what Inventure did when you needed support, and what you wished it had done differently?",
+        "Would you choose Inventure again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -4401,9 +4401,9 @@
         }
       ],
       "questions": [
-        "How did Inventure support Lassie during the process leading up to your 2026-02 funding round?",
-        "How would you describe Inventure's level of involvement and support as an investor following the 2026-02 round?",
-        "How did Inventure work alongside your team and other investors during discussions around the 2026-02 round?"
+        "The last round in our sources is 2026-02. What financing decisions followed, and how was Inventure involved?",
+        "Can you give a concrete example of what Inventure did when you needed support, and what you wished it had done differently?",
+        "Would you choose Inventure again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -4448,9 +4448,9 @@
         }
       ],
       "questions": [
-        "How did Inventure support Medoma leading up to and immediately following the 2022-09 funding round?",
-        "What has been your day-to-day working experience with Inventure regarding board-level decision-making for Medoma?",
-        "In what ways has Inventure assisted Medoma with strategic challenges or follow-on planning since the 2022-09 round?"
+        "The last round in our sources is 2022-09. What financing decisions followed, and how was Inventure involved?",
+        "Can you give a concrete example of what Inventure did when you needed support, and what you wished it had done differently?",
+        "Would you choose Inventure again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -4495,9 +4495,9 @@
         }
       ],
       "questions": [
-        "How did Inventure support Medoma leading up to and immediately following the 2022-09 funding round?",
-        "What has been your day-to-day working experience with Inventure regarding board-level decision-making for Medoma?",
-        "In what ways has Inventure assisted Medoma with strategic challenges or follow-on planning since the 2022-09 round?"
+        "The last round in our sources is 2022-09. What financing decisions followed, and how was Inventure involved?",
+        "Can you give a concrete example of what Inventure did when you needed support, and what you wished it had done differently?",
+        "Would you choose Inventure again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -4547,9 +4547,9 @@
         }
       ],
       "questions": [
-        "How did Inventure support Material Exchange during your last recorded funding round in 2022-04?",
-        "How has Inventure worked with the Material Exchange leadership team in the period following the 2022-04 round?",
-        "What has been your experience with Inventure's strategic guidance and involvement as an investor in Material Exchange?"
+        "The last round in our sources is 2022-04. What financing decisions followed, and how was Inventure involved?",
+        "Can you give a concrete example of what Inventure did when you needed support, and what you wished it had done differently?",
+        "Would you choose Inventure again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -4599,9 +4599,9 @@
         }
       ],
       "questions": [
-        "How did Inventure support Material Exchange during your last recorded funding round in 2022-04?",
-        "How has Inventure worked with the Material Exchange leadership team in the period following the 2022-04 round?",
-        "What has been your experience with Inventure's strategic guidance and involvement as an investor in Material Exchange?"
+        "The last round in our sources is 2022-04. What financing decisions followed, and how was Inventure involved?",
+        "Can you give a concrete example of what Inventure did when you needed support, and what you wished it had done differently?",
+        "Would you choose Inventure again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -4651,9 +4651,9 @@
         }
       ],
       "questions": [
-        "How has Inventure supported Insurello's leadership team following the 2021-07 round?",
-        "In what ways did Inventure participate in strategic planning leading up to the 2021-07 round?",
-        "How would you describe Inventure's overall communication style and working relationship with Insurello as an investor?"
+        "The last round in our sources is 2021-07. What financing decisions followed, and how was Inventure involved?",
+        "Can you give a concrete example of what Inventure did when you needed support, and what you wished it had done differently?",
+        "Would you choose Inventure again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -4708,9 +4708,9 @@
         }
       ],
       "questions": [
-        "How has Inventure supported Stravito AB as an investor since your 2021-09 funding round?",
-        "What was Inventure's level of involvement and responsiveness with Stravito AB following the 2021-09 round?",
-        "How would you describe Inventure's approach to working with the Stravito AB management team after the 2021-09 round?"
+        "The last round in our sources is 2021-09. What financing decisions followed, and how was Inventure involved?",
+        "Can you give a concrete example of what Inventure did when you needed support, and what you wished it had done differently?",
+        "Would you choose Inventure again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -4765,9 +4765,9 @@
         }
       ],
       "questions": [
-        "How has Inventure supported Stravito AB as an investor since your 2021-09 funding round?",
-        "What was Inventure's level of involvement and responsiveness with Stravito AB following the 2021-09 round?",
-        "How would you describe Inventure's approach to working with the Stravito AB management team after the 2021-09 round?"
+        "The last round in our sources is 2021-09. What financing decisions followed, and how was Inventure involved?",
+        "Can you give a concrete example of what Inventure did when you needed support, and what you wished it had done differently?",
+        "Would you choose Inventure again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -4817,9 +4817,9 @@
         }
       ],
       "questions": [
-        "How did Inventure support Biomatter leading up to and during your 2024-08 investment round?",
-        "In what ways has Inventure engaged with the Biomatter team following the 2024-08 round?",
-        "How would you describe Inventure's overall communication style and level of involvement as an investor in Biomatter?"
+        "The last round in our sources is 2024-08. What financing decisions followed, and how was Inventure involved?",
+        "Can you give a concrete example of what Inventure did when you needed support, and what you wished it had done differently?",
+        "Would you choose Inventure again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -4869,9 +4869,9 @@
         }
       ],
       "questions": [
-        "How did Inventure support Biomatter leading up to and during your 2024-08 investment round?",
-        "In what ways has Inventure engaged with the Biomatter team following the 2024-08 round?",
-        "How would you describe Inventure's overall communication style and level of involvement as an investor in Biomatter?"
+        "The last round in our sources is 2024-08. What financing decisions followed, and how was Inventure involved?",
+        "Can you give a concrete example of what Inventure did when you needed support, and what you wished it had done differently?",
+        "Would you choose Inventure again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -4916,9 +4916,9 @@
         }
       ],
       "questions": [
-        "How did Inventure support Leya AI during and after the 2024-02 round?",
-        "What kind of post-investment guidance or assistance has Inventure provided to Leya AI since the 2024-02 round?",
-        "How would you describe Inventure's communication style and level of involvement as a portfolio investor in Leya AI?"
+        "The last round in our sources is 2024-02. What financing decisions followed, and how was Inventure involved?",
+        "Can you give a concrete example of what Inventure did when you needed support, and what you wished it had done differently?",
+        "Would you choose Inventure again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -4963,9 +4963,9 @@
         }
       ],
       "questions": [
-        "How did Inventure support Leya AI during and after the 2024-02 round?",
-        "What kind of post-investment guidance or assistance has Inventure provided to Leya AI since the 2024-02 round?",
-        "How would you describe Inventure's communication style and level of involvement as a portfolio investor in Leya AI?"
+        "The last round in our sources is 2024-02. What financing decisions followed, and how was Inventure involved?",
+        "Can you give a concrete example of what Inventure did when you needed support, and what you wished it had done differently?",
+        "Would you choose Inventure again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -5000,9 +5000,9 @@
         }
       ],
       "questions": [
-        "How did Inventure support Blueprint Genetics Oy during the lead-up to and completion of the 2026-08 round?",
-        "What was Inventure's approach as an investor in Blueprint Genetics Oy around the time of the 2026-08 financing round?",
-        "How would you describe your day-to-day working relationship with Inventure following the 2026-08 round for Blueprint Genetics Oy?"
+        "The last round in our sources is 2026-08. What financing decisions followed, and how was Inventure involved?",
+        "Can you give a concrete example of what Inventure did when you needed support, and what you wished it had done differently?",
+        "Would you choose Inventure again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -5037,9 +5037,9 @@
         }
       ],
       "questions": [
-        "How did Inventure support Blueprint Genetics Oy during the lead-up to and completion of the 2026-08 round?",
-        "What was Inventure's approach as an investor in Blueprint Genetics Oy around the time of the 2026-08 financing round?",
-        "How would you describe your day-to-day working relationship with Inventure following the 2026-08 round for Blueprint Genetics Oy?"
+        "The last round in our sources is 2026-08. What financing decisions followed, and how was Inventure involved?",
+        "Can you give a concrete example of what Inventure did when you needed support, and what you wished it had done differently?",
+        "Would you choose Inventure again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -5084,9 +5084,9 @@
         }
       ],
       "questions": [
-        "How did Inventure support the Sólfar Studios team leading up to and following the 2015-11 funding round?",
-        "What was Inventure's approach to communication and governance with Sólfar Studios after the 2015-11 round?",
-        "How did Inventure assist Sólfar Studios with strategic guidance and follow-on support after their last recorded round in 2015-11?"
+        "The last round in our sources is 2015-11. What financing decisions followed, and how was Inventure involved?",
+        "Can you give a concrete example of what Inventure did when you needed support, and what you wished it had done differently?",
+        "Would you choose Inventure again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -5131,9 +5131,9 @@
         }
       ],
       "questions": [
-        "How did Inventure support the Sólfar Studios team leading up to and following the 2015-11 funding round?",
-        "What was Inventure's approach to communication and governance with Sólfar Studios after the 2015-11 round?",
-        "How did Inventure assist Sólfar Studios with strategic guidance and follow-on support after their last recorded round in 2015-11?"
+        "The last round in our sources is 2015-11. What financing decisions followed, and how was Inventure involved?",
+        "Can you give a concrete example of what Inventure did when you needed support, and what you wished it had done differently?",
+        "Would you choose Inventure again? What should a founder clarify before signing?"
       ],
       "writing": []
     }

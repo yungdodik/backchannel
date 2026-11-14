@@ -182,14 +182,14 @@ export class SkyEngine {
     delete this.tip.dataset.on;
     this.vel = { yaw: 0, pitch: 0 };
     const dy = ((((s.az - this.view.yaw) % 360) + 540) % 360) - 180; // shortest way round
-    this.flight = { t0: performance.now(), dur: this.reduce ? 1 : 2700, from: { ...this.view }, to: { yaw: this.view.yaw + dy, pitch: s.alt, fov: 2.2 }, p: 0, streak: 0, dir: 1 };
+    this.flight = { t0: performance.now(), dur: this.reduce ? 1 : 1000, from: { ...this.view }, to: { yaw: this.view.yaw + dy, pitch: s.alt, fov: 2.2 }, p: 0, streak: 0, dir: 1 };
   }
 
   flyOut() {
     if (this.flight || this.mode !== "system" || !this.target) return;
     this.clearSystem();
     this.mode = "flying";
-    this.flight = { t0: performance.now(), dur: this.reduce ? 1 : 1900, from: { ...this.view }, to: { yaw: this.target.az, pitch: this.home.pitch, fov: this.home.fov }, p: 0, streak: 0, dir: -1 };
+    this.flight = { t0: performance.now(), dur: this.reduce ? 1 : 700, from: { ...this.view }, to: { yaw: this.target.az, pitch: this.home.pitch, fov: this.home.fov }, p: 0, streak: 0, dir: -1 };
   }
 
   /** Sync the portfolio. New companies are revealed one by one; known ones update in place. */
@@ -1377,7 +1377,7 @@ export class SkyEngine {
       const meta = [best.companies != null && `${best.companies} portfolio companies`, best.calls != null && `${best.calls} founders to call`].filter(Boolean).join(" · ");
       tip.innerHTML = `${esc(best.name)}<small>${meta || "Click to select, or fly to it"}</small>`;
     } else {
-      const c = best.c, LBL: Record<Group, string> = { news_event: "News found", no_recent_round: "No round 24m+", recent_round: "Raised recently", none: "No founder confirmed", pending: "Being checked" };
+      const c = best.c, LBL: Record<Group, string> = { news_event: "News found", no_recent_round: "No recorded round 24m+", recent_round: "Raised recently", none: "No dated signal", pending: "Being checked" };
       tip.innerHTML = `${esc(c.name)}<small>${c.last ? "last round " + c.last : "no recorded round"} · ${c.founders} founder${c.founders === 1 ? "" : "s"} · ${LBL[c.group]}</small>`;
     }
     tip.style.left = Math.min(x + 16, this.W - 300) + "px";

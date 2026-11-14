@@ -19,7 +19,7 @@ export interface ReportState {
 /** Folds the events received so far into what the page shows. */
 export function deriveReport(events: StreamEvent[]): ReportState {
   const s: ReportState = { companies: [], entries: [], checked: 0 };
-  const count = (cs: PortfolioCompany[]) => cs.filter((c) => c.state !== "pending").length;
+  const count = (cs: PortfolioCompany[]) => cs.filter((c) => c.state === "enriched" || c.state === "unavailable").length;
   let listed = false;
   for (const ev of events) {
     switch (ev.type) {

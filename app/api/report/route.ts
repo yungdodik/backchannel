@@ -1,3 +1,4 @@
+import { createReportRuns } from "@/lib/report-runs";
 import mock from "@/mock/icebreaker.json";
 import { cachedReports } from "@/lib/cached-reports";
 import { liveDeps } from "@/lib/live";
@@ -8,6 +9,7 @@ import type { StreamEvent } from "@/lib/types";
 // Vercel with fluid compute: Hobby max 300 s, Pro 800 s (vercel.com/docs/functions/configuring-functions/duration, 2026-11-14).
 // 300 works on both plans.
 export const maxDuration = 300;
+const sharedRun = createReportRuns();
 const BUDGET_MS = (maxDuration - 20) * 1000;
 const LIVE_MAX_COMPANIES = 25;
 const UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
@@ -29,10 +31,11 @@ export async function GET(request: Request) {
     if (cached && params.get("fresh") !== "1") {
       const report = (await cached()).default;
       assertReport(report);
-      return ndjsonResponse(paced(reportToEvents(report)));
+      return ndjsonResponse(paced(reportToEvents({ ...report, prepared: true })));
     }
-    const pipeline = createPipeline(liveDeps({ budgetMs: BUDGET_MS, maxCompanies: LIVE_MAX_COMPANIES }));
-    return ndjsonResponse(pipeline.run(fund));
+    const reader = new AbortController();
+    const readerSignal = AbortSignal.any([request.signal, reader.signal]);
+    return ndjsonResponse(sharedRun(fund, (signal) => createPipeline(liveDeps({ budgetMs: BUDGET_MS, maxCompanies: LIVE_MAX_COMPANIES, signal })).run(fund), params.get("retry") === "1", readerSignal), () => reader.abort());
   } catch (e) {
     return ndjsonResponse(fail(e instanceof Error ? e.message : String(e)));
   }

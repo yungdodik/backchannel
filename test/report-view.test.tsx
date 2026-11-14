@@ -32,20 +32,14 @@ describe("ReportView", () => {
     expect(screen.getByText(/Portfolio \(58 companies\)/)).toBeInTheDocument();
   });
 
-  it("places entries in their group sections, in the spec's order", () => {
+  it("puts a small diverse starting set first and keeps every other contact available", () => {
     render(<ReportView events={all} />);
-    const sections = screen.getAllByRole("region", { name: /News found|No recorded round|Raised again/ });
-    expect(sections.map((s) => s.getAttribute("aria-label"))).toEqual([
-      "News found (acquisition, shutdown, layoffs)",
-      "No recorded round in 24+ months",
-      "Raised again recently",
-    ]);
-    const [news, stale, recent] = sections;
-    expect(within(news).getByText("Kair Käsper")).toBeInTheDocument();
-    expect(within(stale).getByText("Avery Schrader")).toBeInTheDocument();
-    expect(within(stale).getByText("[mock] Founder of IPRally")).toBeInTheDocument();
-    expect(within(recent).getByText("[mock] Founder of Cytely")).toBeInTheDocument();
-    expect(within(recent).queryByText("Avery Schrader")).not.toBeInTheDocument();
+    const recommended = screen.getByRole("region", { name: "Recommended contacts" });
+    expect(within(recommended).getAllByRole("article")).toHaveLength(2); // the other mock founders have no identity sources
+    expect(within(recommended).getByText("Kair Käsper")).toBeInTheDocument();
+    fireEvent.click(screen.getByText(/All other contacts/));
+    expect(screen.getAllByRole("article")).toHaveLength(report.callList.length);
+    for (const e of report.callList) expect(screen.getByRole("article", { name: e.founder.name })).toBeInTheDocument();
   });
 
   it("renders each signal with a source chip (domain + YYYY-MM) linking to its URL in a new tab", () => {
@@ -145,7 +139,7 @@ describe("ReportView", () => {
   it("hides empty group sections", () => {
     const onlyKlaus = all.filter((e) => e.type !== "entry" || e.entry.companyName === "Klaus").slice(0, -1);
     render(<ReportView events={onlyKlaus} />);
-    expect(screen.getByRole("region", { name: /News found/ })).toBeInTheDocument();
+    expect(within(screen.getByRole("region", { name: "Recommended contacts" })).getByText("Kair Käsper")).toBeInTheDocument();
     expect(screen.queryByRole("region", { name: /Raised again/ })).not.toBeInTheDocument();
   });
 

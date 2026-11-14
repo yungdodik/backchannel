@@ -1,7 +1,10 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { ChevronDown, ExternalLink } from "lucide-react";
+import { ContactLink, CopyBrief } from "@/components/call-actions";
+import { contactRole, entryKey, reasonToCall, shortlist } from "@/lib/call-brief";
+import { profile } from "@/lib/fund-profile";
+import { ChevronDown } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -66,7 +69,7 @@ function CopyQuestionsButton({ questions }: { questions: string[] }) {
   );
 }
 
-function EntryCard({ entry }: { entry: CallListEntry }) {
+function EntryCard({ entry, company, fund }: { entry: CallListEntry; company?: PortfolioCompany; fund: string }) {
   const { founder } = entry;
   const headingId = `entry-${entry.companyId}-${founder.name}`.replace(/\W+/g, "-");
   return (
@@ -74,16 +77,7 @@ function EntryCard({ entry }: { entry: CallListEntry }) {
       <CardHeader>
         <CardTitle className="flex flex-wrap items-center gap-2 text-base">
           <h3 id={headingId}>{founder.name}</h3>
-          {founder.linkedinUrl && (
-            <a
-              href={founder.linkedinUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-1 text-sm font-normal text-blue-700 hover:underline dark:text-blue-400"
-            >
-              LinkedIn <ExternalLink className="size-3" aria-hidden />
-            </a>
-          )}
+          <Badge variant="outline">{contactRole(founder)}</Badge>
           <Badge variant="secondary">{founder.via === "cala" ? "via Cala" : "via web"}</Badge>
         </CardTitle>
         <CardDescription>
@@ -92,6 +86,9 @@ function EntryCard({ entry }: { entry: CallListEntry }) {
         </CardDescription>
       </CardHeader>
       <CardContent className="space-y-4">
+        <p className="font-medium">{reasonToCall(entry)}</p>
+        {company?.overview && <div><p>{company.overview.text}</p><details><summary>AI overview · sources</summary>{company.overview.sources.map((source) => <SourceChip key={source.url} source={source} />)}</details></div>}
+        <div className="flex flex-wrap gap-1">{founder.sources.map((source) => <SourceChip key={source.url} source={source} />)}</div>
         <ul className="list-disc space-y-1.5 pl-5">
           {entry.why.map((sig, i) => (
             <li key={i}>
@@ -109,7 +106,7 @@ function EntryCard({ entry }: { entry: CallListEntry }) {
             <li key={i}>{q}</li>
           ))}
         </ol>
-        <CopyQuestionsButton questions={entry.questions} />
+        <div className="flex flex-wrap gap-2"><CopyBrief fund={fund} entries={[entry]} /><ContactLink entry={entry} /><CopyQuestionsButton questions={entry.questions} /></div>
       </CardContent>
     </Card>
   );
@@ -117,7 +114,7 @@ function EntryCard({ entry }: { entry: CallListEntry }) {
 
 function fundLed(c: PortfolioCompany): string {
   if (c.rounds.some((r) => r.fundIsLead === true)) return "✓";
-  if (c.rounds.some((r) => r.fundIsLead === false)) return "no";
+  if (c.rounds.length && c.rounds.every((r) => r.fundIsLead === false)) return "not in recorded rounds";
   return "—";
 }
 
@@ -150,7 +147,7 @@ function PortfolioTable({ companies }: { companies: PortfolioCompany[] }) {
                   <TableCell>
                     {c.state === "pending" ? (
                       <Skeleton data-testid="state-pending" className="h-4 w-16" />
-                    ) : c.state === "unavailable" ? (
+                    ) : c.state === "not_researched" ? "not researched" : c.state === "unavailable" ? (
                       <span className="text-muted-foreground">not available</span>
                     ) : (
                       "checked"
@@ -178,8 +175,11 @@ function ReportSkeleton() {
 }
 
 /** Pure render of a report from the stream events received so far (spec Part B, seam 1). */
-export function ReportView({ events }: { events: StreamEvent[] }) {
+export function ReportView({ events, onRetry }: { events: StreamEvent[]; onRetry?: () => void }) {
   const s = deriveReport(events);
+  const picks = shortlist(s.entries);
+  const pickKeys = new Set(picks.map(entryKey));
+  const fp = s.report ? profile(s.report) : null;
 
   const banner = s.error && (
     <div
@@ -187,6 +187,7 @@ export function ReportView({ events }: { events: StreamEvent[] }) {
       className="rounded-lg border border-destructive/40 bg-destructive/10 px-4 py-3 text-sm text-destructive"
     >
       {s.error}
+      {onRetry && <button className="px-btn" onClick={onRetry}>Retry research</button>}
     </div>
   );
 
@@ -199,10 +200,11 @@ export function ReportView({ events }: { events: StreamEvent[] }) {
     );
   }
 
-  const checked = s.companies.filter((c) => c.state !== "pending").length;
+  const checked = s.checked;
+  const researched = s.companies.filter((c) => c.state === "enriched").length;
 
   return (
-    <div className="space-y-8">
+    <div className="space-y-5">
       <header className="space-y-2">
         <h1 className="text-2xl font-semibold tracking-tight">{s.fund.name}</h1>
         {s.fund.description && <p className="text-muted-foreground">{s.fund.description}</p>}
@@ -215,26 +217,45 @@ export function ReportView({ events }: { events: StreamEvent[] }) {
         </p>
       </header>
       {banner}
+      <div className="space-y-1"><p className="text-sm text-muted-foreground">{researched} of {s.companies.length} companies researched · {s.companies.filter((c) => c.state === "unavailable").length} unavailable · {s.companies.filter((c) => c.state === "not_researched").length} not researched</p>
+      <p className="text-sm text-muted-foreground">{s.report ? `${s.report.prepared ? "Prepared report" : "Research snapshot"} · updated ${s.report.generatedAt.slice(0, 10)}` : "Live research · up to 25 companies"}</p></div>
+      {picks.length > 0 && <section aria-label="Recommended contacts" className="space-y-3">
+        <h2 className="text-xl font-semibold">{picks.length === 1 ? "Start with this contact" : `Start with these ${picks.length}`}</h2>
+        <p className="text-sm text-muted-foreground">One person per company, a mix of recorded experiences. Direct profiles and sourced founder roles are preferred. This is a starting set, not a rating.</p>
+        <CopyBrief fund={s.fund.name} entries={picks} />
+        {picks.map((entry) => <EntryCard key={entryKey(entry)} entry={entry} company={s.companies.find((c) => c.calaId === entry.companyId)} fund={s.fund!.name} />)}
+      </section>}
+      {fp && <details className="rounded-xl border p-4 space-y-3"><summary>Fund context &amp; source records</summary>
+        <p>No recorded round in 24+ months: {fp.noRoundIn24Months.n} of {fp.noRoundIn24Months.of} companies with dated rounds.</p>
+        <p>{fp.namedInLaterRound.of ? `Fund named in a later round: at least ${fp.namedInLaterRound.n} of ${fp.namedInLaterRound.of} eligible companies.` : "Follow-on participation: insufficient researched evidence."}</p>
+        <p>{fp.ledRounds.of ? `Rounds led: ${fp.ledRounds.n} of ${fp.ledRounds.of} rounds with a known lead.` : "Rounds led: insufficient researched evidence."}</p>
+        {fp.medianMonthsBetweenRounds != null && <p>Median time between recorded rounds: {Math.round(fp.medianMonthsBetweenRounds)} months.</p>}
+        {fp.topCoInvestors.length > 0 && <p>Co-investors: {fp.topCoInvestors.map((c) => `${c.name} (${c.roundIds.length} rounds)`).join(", ")}</p>}
+        {fp.partners.length > 0 && <p>Partners quoted: {fp.partners.map((p) => `${p.name}${p.title ? `, ${p.title}` : ""}`).join("; ")}</p>}
+        <details><summary>Check the round sources behind these counts</summary>{s.companies.map((c) => <div key={c.calaId}><h3>{c.name}</h3>{c.rounds.map((r) => <p key={r.calaId}>{r.date?.slice(0, 7) ?? "Undated"} · {r.fundNamed ? "Fund named" : "Participation unconfirmed"} · {r.fundIsLead === true ? "Fund led" : ""} {r.sources.map((source) => <SourceChip key={source.url} source={source} />)}</p>)}</div>)}</details>
+      </details>}
       {s.complete !== undefined && s.entries.length === 0 && (
         <p className="text-muted-foreground">
           No founders to call yet. None of the checked portfolio companies had a dated round or news with a
           founder we could confirm. The portfolio table below shows what was checked.
         </p>
       )}
+      <details className="space-y-4"><summary>All other contacts ({s.entries.length - picks.length})</summary>
       {GROUPS.map(({ group, title }) => {
-        const entries = s.entries.filter((e) => e.group === group);
+        const entries = s.entries.filter((e) => e.group === group && !pickKeys.has(entryKey(e)));
         if (!entries.length) return null;
         return (
           <section key={group} aria-label={title} className="space-y-3">
             <h2 className="text-lg font-semibold">{title}</h2>
             <div className="grid gap-4">
               {entries.map((e) => (
-                <EntryCard key={`${e.companyId}:${e.founder.name}`} entry={e} />
+                <EntryCard key={entryKey(e)} entry={e} company={s.companies.find((c) => c.calaId === e.companyId)} fund={s.fund!.name} />
               ))}
             </div>
           </section>
         );
       })}
+      </details>
       <PortfolioTable companies={s.companies} />
       <footer className="text-sm text-muted-foreground">
         Facts from public sources via Cala and Exa. A missing round is not evidence that a company failed.

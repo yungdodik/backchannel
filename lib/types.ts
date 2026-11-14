@@ -72,7 +72,7 @@ export interface PortfolioCompany {
   /** Short neutral summary written by Gemini only from facts already in this object (D29); absent when not generated. */
   overview?: { text: string; sources: Source[] };
   /** pending = not fetched yet; unavailable = data source gave up (429s) or time budget hit (D17). */
-  state: "pending" | "enriched" | "unavailable";
+  state: "pending" | "enriched" | "unavailable" | "not_researched";
 }
 
 /** Neutral grouping by fact, never by verdict (D6). */
@@ -97,6 +97,7 @@ export interface Report {
   complete: boolean;
   portfolio: PortfolioCompany[];
   callList: CallListEntry[];
+  prepared?: boolean; // bundled snapshot, not a live lookup
   mock?: true; // set on hand-built fixtures
 }
 

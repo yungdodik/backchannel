@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { createPipeline, type PipelineDeps } from "@/lib/pipeline";
+import { checkQuestions, createPipeline, type PipelineDeps } from "@/lib/pipeline";
 import { CalaGaveUp, type Cala, type CalaEntity } from "@/lib/cala";
 import type { ExaResult } from "@/lib/exa";
 import type { StreamEvent } from "@/lib/types";
@@ -272,7 +272,7 @@ describe("createPipeline on Icebreaker fixtures", () => {
     expect(doneReport(events).complete).toBe(false);
   });
 
-  it("budget stop: remaining companies unavailable, complete false", async () => {
+  it("budget stop: remaining companies not researched, complete false", async () => {
     let t = Date.parse("2026-11-14T12:00:00Z");
     const now = () => new Date((t += 1000));
     const events = await collect(createPipeline(deps({ now, budgetMs: 10_000 })).run(FUND));
@@ -280,7 +280,7 @@ describe("createPipeline on Icebreaker fixtures", () => {
     const report = doneReport(events);
     expect(report.complete).toBe(false);
     expect(events.some((e) => e.type === "progress" && e.message === "Stopped early; showing what was found")).toBe(true);
-    expect(report.portfolio.some((c) => c.state === "unavailable")).toBe(true);
+    expect(report.portfolio.some((c) => c.state === "not_researched")).toBe(true);
     expect(report.portfolio.some((c) => c.state === "enriched")).toBe(true);
   });
 
@@ -290,4 +290,33 @@ describe("createPipeline on Icebreaker fixtures", () => {
     expect(events.at(-1)).toEqual({ type: "error", message: "boom" });
     expect(events.slice(0, -1).every((e) => e.type === "progress")).toBe(true);
   });
+  it("a deadline terminates a provider that never resolves", async () => {
+    const events = await collect(createPipeline(deps({ budgetMs: 10, cala: {
+      ...fakeCala(), getEntity: () => new Promise(() => {}),
+    } })).run(FUND));
+    expect(events.at(-1)?.type).toBe("error");
+  });
+
+  it("cancelling after the portfolio stops enrichment and returns partial coverage", async () => {
+    const ctrl = new AbortController();
+    const events: StreamEvent[] = [];
+    for await (const event of createPipeline(deps({ signal: ctrl.signal })).run(FUND)) {
+      events.push(event);
+      if (event.type === "portfolio") ctrl.abort();
+    }
+    const report = doneReport(events);
+    expect(report.complete).toBe(false);
+    expect(report.portfolio.some((c) => c.state === "not_researched")).toBe(true);
+    expect(report.portfolio.every((c) => c.state !== "pending")).toBe(true);
+  });
+
+  it("rejects questions that presume board participation", () => {
+    const presumed = "In what ways did Fund actively engage on your board?";
+    const conditional = "Did Fund have a board seat, and if so how did it contribute?";
+    const questions = checkQuestions([presumed, conditional], [], "Fund");
+    expect(questions).not.toContain(presumed);
+    expect(questions).toContain(conditional);
+    expect(questions).toHaveLength(3);
+  });
+
 });

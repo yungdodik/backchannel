@@ -14,7 +14,7 @@ export function assertReport(x: unknown): asserts x is Report {
   if (!r?.fund?.calaId || !r.fund.name) throw new Error("report.fund needs calaId and name");
   if (!Array.isArray(r.portfolio)) throw new Error("report.portfolio must be an array");
   for (const c of r.portfolio) {
-    if (!["pending", "enriched", "unavailable"].includes(c?.state))
+    if (!["pending", "enriched", "unavailable", "not_researched"].includes(c?.state))
       throw new Error(`company ${c?.name}: bad state ${c?.state}`);
     for (const round of c.rounds ?? []) {
       if (!("fundIsLead" in round) || (round.fundIsLead !== null && typeof round.fundIsLead !== "boolean"))
@@ -27,29 +27,32 @@ export function assertReport(x: unknown): asserts x is Report {
   }
 }
 
-export async function* paced(events: StreamEvent[], gapMs = 150) {
+export async function* paced(events: StreamEvent[], gapMs = 0) {
   for (const [i, e] of events.entries()) {
-    if (i) await new Promise((r) => setTimeout(r, gapMs));
+    if (i && gapMs > 0) await new Promise((r) => setTimeout(r, gapMs));
     yield e;
   }
 }
 
-export function ndjsonResponse(it: AsyncIterable<StreamEvent>): Response {
+export function ndjsonResponse(it: AsyncIterable<StreamEvent>, onCancel?: () => void): Response {
   const enc = new TextEncoder();
   const line = (e: StreamEvent) => enc.encode(JSON.stringify(e) + "\n");
   const iter = it[Symbol.asyncIterator]();
+  let cancelled = false;
   const body = new ReadableStream<Uint8Array>({
     async pull(ctrl) {
       try {
         const { value, done } = await iter.next();
+        if (cancelled) return;
         if (done) ctrl.close();
         else ctrl.enqueue(line(value));
       } catch (err) {
+        if (cancelled) return;
         ctrl.enqueue(line({ type: "error", message: err instanceof Error ? err.message : String(err) }));
         ctrl.close();
       }
     },
-    cancel: () => void iter.return?.(),
+    cancel: () => { cancelled = true; onCancel?.(); void iter.return?.(); },
   });
   return new Response(body, {
     headers: { "Content-Type": "application/x-ndjson", "Cache-Control": "no-store" },

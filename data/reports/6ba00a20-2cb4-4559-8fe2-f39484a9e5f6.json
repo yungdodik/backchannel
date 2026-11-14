@@ -5,7 +5,7 @@
     "description": "venture capital firm based in Stockholm, Sweden, founded by Stefan Lindeberg and focusing on fintech startups"
   },
   "generatedAt": "2026-11-14T04:22:14.520Z",
-  "complete": true,
+  "complete": false,
   "portfolio": [
     {
       "calaId": "00755240-7c50-4378-b4c0-a1f2ea218778",
@@ -4051,432 +4051,6 @@
             "url": "https://techcrunch.com/2024/09/20/grok-image-generator-black-forest-labs-raising-100m-at-1b-valuation",
             "name": "Exclusive: Black Forest Labs, the company that powers Grok's image generation, is raising another $100M on a $1B valuation, say sources",
             "date": "2024-09-20"
-          }
-        ]
-      }
-    },
-    {
-      "calaId": "439fe7e2-930f-4a07-bc23-7df212cfc3a7",
-      "name": "Portfolio Companies",
-      "rounds": [
-        {
-          "calaId": "d613c04c-b894-46d4-8b44-1a9b91dd0e99",
-          "label": "Funding round",
-          "date": "2025-10-01",
-          "fundIsLead": null,
-          "coInvestors": [],
-          "sources": [
-            {
-              "url": "https://www.prnewswire.com/news-releases/einride-has-raised-100-million-to-accelerate-autonomous-freight-and-expand-global-operations-302573045.html",
-              "name": "Einride has Raised $100 Million to Accelerate Autonomous Freight and Expand Global Operations",
-              "date": "2025-10-01"
-            }
-          ]
-        },
-        {
-          "calaId": "9b0f67e4-4fb0-4df6-905f-d3f6af20e239",
-          "label": "Funding round",
-          "date": "2024-05-03",
-          "fundIsLead": null,
-          "coInvestors": [],
-          "sources": [
-            {
-              "url": "https://forgeglobal.com/bolt_ipo",
-              "name": "Bolt IPO Timeline and Financing Details - Forge",
-              "date": "2022-06-10"
-            }
-          ]
-        },
-        {
-          "calaId": "03ace51d-0904-4fe1-ad1b-4db4f63c341c",
-          "label": "Funding round",
-          "date": "2022-12-07",
-          "fundIsLead": null,
-          "coInvestors": [],
-          "sources": [
-            {
-              "url": "https://www.einride.tech/press/einride-financing-2022",
-              "name": "Einride Secures $500 Million in Financin",
-              "date": "2026-08-17"
-            },
-            {
-              "url": "https://seedtable.com/companies/einride/funding-rounds/series-c-2022-12",
-              "name": "seedtable.com",
-              "date": "2026-08-25"
-            }
-          ]
-        },
-        {
-          "calaId": "0e98ad04-4722-4841-9e92-d61f9254a6b9",
-          "label": "Funding round",
-          "date": "2022-12-07",
-          "fundIsLead": null,
-          "coInvestors": [],
-          "sources": [
-            {
-              "url": "https://www.einride.tech/press/einride-financing-2022",
-              "name": "Einride Secures $500 Million in Financin",
-              "date": "2026-08-17"
-            }
-          ]
-        },
-        {
-          "calaId": "2a852446-d694-4805-9d3b-2e95caaf8bb8",
-          "label": "Funding round",
-          "date": "2022-01-26",
-          "fundIsLead": null,
-          "coInvestors": [],
-          "sources": [
-            {
-              "url": "https://www.veriff.com/blog/veriff-funding-announcement",
-              "name": "www.veriff.com",
-              "date": "2026-08-25"
-            },
-            {
-              "url": "https://emerging-europe.com/new-funding-round-makes-veriff-estonias-latest-unicorn",
-              "name": "New funding round makes Veriff Estonia's latest unicorn",
-              "date": "2022-01-26"
-            }
-          ]
-        },
-        {
-          "calaId": "088dff6c-8b72-4b6f-ad7d-b2feefd3212d",
-          "label": "Funding round",
-          "date": "2022-01-11",
-          "fundIsLead": null,
-          "coInvestors": [],
-          "sources": [
-            {
-              "url": "https://www.cnbc.com/2022/01/11/european-uber-rival-bolt-valued-at-8point4-billion-in-new-funding-round.html",
-              "name": "European Uber rival Bolt valued at $8.4 billion in new funding round",
-              "date": "2022-01-11"
-            }
-          ]
-        },
-        {
-          "calaId": "3990765c-db0e-411c-8a22-aaf8252d9db3",
-          "label": "Funding round",
-          "date": "2021-08-01",
-          "fundIsLead": null,
-          "coInvestors": [],
-          "sources": [
-            {
-              "url": "https://forgeglobal.com/bolt_ipo",
-              "name": "Bolt IPO Timeline and Financing Details - Forge",
-              "date": "2022-06-10"
-            },
-            {
-              "url": "https://app.dealroom.co/companies/bolt1",
-              "name": "Bolt company information, funding & investors",
-              "date": "2013-08-01"
-            }
-          ]
-        },
-        {
-          "calaId": "a322bac5-6a91-48b8-985a-a1b6a68ef9b5",
-          "label": "Funding round",
-          "date": "2021-05-06",
-          "fundIsLead": null,
-          "coInvestors": [],
-          "sources": [
-            {
-              "url": "https://www.therobotreport.com/einride-raises-110m-develop-autonomous-trucks",
-              "name": "www.therobotreport.com",
-              "date": "2026-08-25"
-            },
-            {
-              "url": "https://tracxn.com/d/companies/einride",
-              "name": "tracxn.com",
-              "date": "2026-08-25"
-            }
-          ]
-        },
-        {
-          "calaId": "00789b11-d31b-4736-a803-cf79ece0fc49",
-          "label": "Funding round",
-          "date": "2021-03-01",
-          "fundIsLead": null,
-          "coInvestors": [],
-          "sources": [
-            {
-              "url": "https://en.wikipedia.org/wiki/Bolt_(company)",
-              "name": "en.wikipedia.org",
-              "date": "2026-08-25"
-            }
-          ]
-        },
-        {
-          "calaId": "12b088e2-deba-4800-ac94-e566e435c438",
-          "label": "Funding round",
-          "date": "2020-12-01",
-          "fundIsLead": null,
-          "coInvestors": [],
-          "sources": [
-            {
-              "url": "https://investinestonia.com/estonias-unicorn-bolt-raises-e150m",
-              "name": "Estonia’s unicorn Bolt raises €150M - Invest in Estonia",
-              "date": "2020-12-16"
-            },
-            {
-              "url": "https://app.dealroom.co/companies/bolt1",
-              "name": "Bolt company information, funding & investors",
-              "date": "2013-08-01"
-            }
-          ]
-        },
-        {
-          "calaId": "00903408-a501-4fc7-a55d-b7c0ebdd1272",
-          "label": "Funding round",
-          "date": "2020-10-01",
-          "fundIsLead": null,
-          "coInvestors": [],
-          "sources": [
-            {
-              "url": "https://app.dealroom.co/companies/einride",
-              "name": "Einride company information, funding & investors",
-              "date": "2016-09-01"
-            }
-          ]
-        },
-        {
-          "calaId": "358bf314-ab91-4a33-91f4-d0d816e241fb",
-          "label": "Funding round",
-          "date": "2020-07-01",
-          "fundIsLead": null,
-          "coInvestors": [],
-          "sources": [
-            {
-              "url": "https://www.siliconrepublic.com/start-ups/veriff-estonia-identity-verification",
-              "name": "Estonian identity verification start-up Veriff raises $15.5m",
-              "date": "2020-07-03"
-            }
-          ]
-        },
-        {
-          "calaId": "464ab7e6-80bb-4100-b2e9-dd814dd068f7",
-          "label": "Funding round",
-          "date": "2020-05-01",
-          "fundIsLead": null,
-          "coInvestors": [],
-          "sources": [
-            {
-              "url": "https://app.dealroom.co/companies/bolt1",
-              "name": "Bolt company information, funding & investors",
-              "date": "2013-08-01"
-            }
-          ]
-        },
-        {
-          "calaId": "75e52049-789b-4767-a654-7954a387e8e6",
-          "label": "Funding round",
-          "date": "2019-10-10",
-          "fundIsLead": null,
-          "coInvestors": [],
-          "sources": [
-            {
-              "url": "https://www.einride.tech/press/einride-raises-25-million-series-a-to-accelerate-commercialization-of-its-autonomous-electric-transport-system",
-              "name": "Einride raises $25 million series A",
-              "date": "2026-08-17"
-            }
-          ]
-        },
-        {
-          "calaId": "48bf2b6a-e77c-4c0a-b181-f7b76e4370bb",
-          "label": "Funding round",
-          "date": "2019-07-01",
-          "fundIsLead": null,
-          "coInvestors": [],
-          "sources": [
-            {
-              "url": "https://app.dealroom.co/companies/bolt1",
-              "name": "Bolt company information, funding & investors",
-              "date": "2013-08-01"
-            }
-          ]
-        },
-        {
-          "calaId": "2e1f9728-38b0-4e72-ae9e-9e72978861c4",
-          "label": "Funding round",
-          "date": "2018-05-01",
-          "fundIsLead": null,
-          "coInvestors": [],
-          "sources": [
-            {
-              "url": "https://app.dealroom.co/companies/bolt1",
-              "name": "Bolt company information, funding & investors",
-              "date": "2013-08-01"
-            },
-            {
-              "url": "https://en.wikipedia.org/wiki/Bolt_(company)",
-              "name": "en.wikipedia.org",
-              "date": "2026-08-25"
-            }
-          ]
-        },
-        {
-          "calaId": "c224c990-a8f8-481f-892b-65a3be4374c9",
-          "label": "Funding round",
-          "date": "2015-10-01",
-          "fundIsLead": null,
-          "coInvestors": [],
-          "sources": [
-            {
-              "url": "https://app.dealroom.co/companies/veriff",
-              "name": "Veriff company information, funding & investors",
-              "date": "2015-10-01"
-            }
-          ]
-        },
-        {
-          "calaId": "cb7cb031-a7e9-404d-a2c5-2ee0b07604a9",
-          "label": "Funding round",
-          "date": "2015-10-01",
-          "fundIsLead": null,
-          "coInvestors": [],
-          "sources": [
-            {
-              "url": "https://app.dealroom.co/companies/veriff",
-              "name": "Veriff company information, funding & investors",
-              "date": "2015-10-01"
-            }
-          ]
-        },
-        {
-          "calaId": "b2b5dc93-56bb-42ea-9d36-927b4eac2b48",
-          "label": "Funding round",
-          "date": "2014-12-01",
-          "fundIsLead": null,
-          "coInvestors": [],
-          "sources": [
-            {
-              "url": "https://app.dealroom.co/companies/bolt1",
-              "name": "Bolt company information, funding & investors",
-              "date": "2013-08-01"
-            }
-          ]
-        },
-        {
-          "calaId": "056e1b47-3530-4d71-b509-f751cde87697",
-          "label": "Funding round",
-          "date": "2013-08-01",
-          "fundIsLead": null,
-          "coInvestors": [],
-          "sources": [
-            {
-              "url": "https://app.dealroom.co/companies/bolt1",
-              "name": "Bolt company information, funding & investors",
-              "date": "2013-08-01"
-            }
-          ]
-        }
-      ],
-      "signals": [
-        {
-          "kind": "last_round",
-          "text": "Last recorded round: 2025-10",
-          "date": "2025-10-01",
-          "sources": [
-            {
-              "url": "https://www.prnewswire.com/news-releases/einride-has-raised-100-million-to-accelerate-autonomous-freight-and-expand-global-operations-302573045.html",
-              "name": "Einride has Raised $100 Million to Accelerate Autonomous Freight and Expand Global Operations",
-              "date": "2025-10-01"
-            }
-          ]
-        }
-      ],
-      "founders": [],
-      "sources": [
-        {
-          "url": "https://app.dealroom.co/companies/bolt1",
-          "name": "Bolt company information, funding & investors",
-          "date": "2013-08-01"
-        }
-      ],
-      "state": "enriched",
-      "description": "A Japanese-backed venture capital firm investing in deeptech, industrial technology, digital transformation, and sustainability-focused startups across Northern Europe and the Baltics.",
-      "lastRoundDate": "2025-10-01",
-      "overview": {
-        "text": "Portfolio Companies is a Japanese-backed venture capital firm that invests in deeptech, industrial technology, digital transformation, and sustainability-focused startups across Northern Europe and the Baltics. The firm participated in funding rounds from August 2013 to October 2025, with its latest recorded round in October 2025.",
-        "sources": [
-          {
-            "url": "https://app.dealroom.co/companies/bolt1",
-            "name": "Bolt company information, funding & investors",
-            "date": "2013-08-01"
-          },
-          {
-            "url": "https://www.prnewswire.com/news-releases/einride-has-raised-100-million-to-accelerate-autonomous-freight-and-expand-global-operations-302573045.html",
-            "name": "Einride has Raised $100 Million to Accelerate Autonomous Freight and Expand Global Operations",
-            "date": "2025-10-01"
-          },
-          {
-            "url": "https://forgeglobal.com/bolt_ipo",
-            "name": "Bolt IPO Timeline and Financing Details - Forge",
-            "date": "2022-06-10"
-          },
-          {
-            "url": "https://www.einride.tech/press/einride-financing-2022",
-            "name": "Einride Secures $500 Million in Financin",
-            "date": "2026-08-17"
-          },
-          {
-            "url": "https://seedtable.com/companies/einride/funding-rounds/series-c-2022-12",
-            "name": "seedtable.com",
-            "date": "2026-08-25"
-          },
-          {
-            "url": "https://www.veriff.com/blog/veriff-funding-announcement",
-            "name": "www.veriff.com",
-            "date": "2026-08-25"
-          },
-          {
-            "url": "https://emerging-europe.com/new-funding-round-makes-veriff-estonias-latest-unicorn",
-            "name": "New funding round makes Veriff Estonia's latest unicorn",
-            "date": "2022-01-26"
-          },
-          {
-            "url": "https://www.cnbc.com/2022/01/11/european-uber-rival-bolt-valued-at-8point4-billion-in-new-funding-round.html",
-            "name": "European Uber rival Bolt valued at $8.4 billion in new funding round",
-            "date": "2022-01-11"
-          },
-          {
-            "url": "https://www.therobotreport.com/einride-raises-110m-develop-autonomous-trucks",
-            "name": "www.therobotreport.com",
-            "date": "2026-08-25"
-          },
-          {
-            "url": "https://tracxn.com/d/companies/einride",
-            "name": "tracxn.com",
-            "date": "2026-08-25"
-          },
-          {
-            "url": "https://en.wikipedia.org/wiki/Bolt_(company)",
-            "name": "en.wikipedia.org",
-            "date": "2026-08-25"
-          },
-          {
-            "url": "https://investinestonia.com/estonias-unicorn-bolt-raises-e150m",
-            "name": "Estonia’s unicorn Bolt raises €150M - Invest in Estonia",
-            "date": "2020-12-16"
-          },
-          {
-            "url": "https://app.dealroom.co/companies/einride",
-            "name": "Einride company information, funding & investors",
-            "date": "2016-09-01"
-          },
-          {
-            "url": "https://www.siliconrepublic.com/start-ups/veriff-estonia-identity-verification",
-            "name": "Estonian identity verification start-up Veriff raises $15.5m",
-            "date": "2020-07-03"
-          },
-          {
-            "url": "https://www.einride.tech/press/einride-raises-25-million-series-a-to-accelerate-commercialization-of-its-autonomous-electric-transport-system",
-            "name": "Einride raises $25 million series A",
-            "date": "2026-08-17"
-          },
-          {
-            "url": "https://app.dealroom.co/companies/veriff",
-            "name": "Veriff company information, funding & investors",
-            "date": "2015-10-01"
           }
         ]
       }
@@ -11788,9 +11362,9 @@
         }
       ],
       "questions": [
-        "How did Creandum support Tictail's leadership team in the period following your 2015-07 funding round?",
-        "In what ways did Creandum actively engage on your board and assist with strategic decisions after investing in Tictail?",
-        "How did Creandum approach investor dynamics and follow-on discussions after the 2015-07 round?"
+        "The last round in our sources is 2015-07. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -11871,9 +11445,9 @@
         }
       ],
       "questions": [
-        "How did Creandum support Trade around the time of your last recorded funding round in 2017-03?",
-        "How did Creandum behave and communicate as an investor when Trade transitioned to an inactive status?",
-        "In what ways did Creandum work with your management team after the 2017-03 funding round?"
+        "The last round in our sources is 2017-03. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -11939,9 +11513,9 @@
         }
       ],
       "questions": [
-        "How did Creandum support Trade around the time of your last recorded funding round in 2017-03?",
-        "How did Creandum behave and communicate as an investor when Trade transitioned to an inactive status?",
-        "In what ways did Creandum work with your management team after the 2017-03 funding round?"
+        "The last round in our sources is 2017-03. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -11976,9 +11550,9 @@
         }
       ],
       "questions": [
-        "How has Creandum supported KRY's strategic initiatives and management team following the 2024-09 round?",
-        "How would you describe Creandum's level of involvement and communication style during board interactions with KRY?",
-        "How did Creandum approach terms and follow-on support during KRY's 2024-09 financing round?"
+        "The last round in our sources is 2024-09. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -12013,9 +11587,9 @@
         }
       ],
       "questions": [
-        "How has Creandum supported KRY's strategic initiatives and management team following the 2024-09 round?",
-        "How would you describe Creandum's level of involvement and communication style during board interactions with KRY?",
-        "How did Creandum approach terms and follow-on support during KRY's 2024-09 financing round?"
+        "The last round in our sources is 2024-09. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -12060,9 +11634,9 @@
         }
       ],
       "questions": [
-        "How has Creandum supported Tide's leadership team following the round in 2025-09?",
-        "In what ways did Creandum contribute to strategic decision-making at Tide leading up to or following the 2025-09 round?",
-        "How would you describe Creandum's overall communication style and board engagement with Tide since the 2025-09 funding round?"
+        "The last round in our sources is 2025-09. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -12107,9 +11681,9 @@
         }
       ],
       "questions": [
-        "How has Creandum supported Tide's leadership team following the round in 2025-09?",
-        "In what ways did Creandum contribute to strategic decision-making at Tide leading up to or following the 2025-09 round?",
-        "How would you describe Creandum's overall communication style and board engagement with Tide since the 2025-09 funding round?"
+        "The last round in our sources is 2025-09. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -12159,9 +11733,9 @@
         }
       ],
       "questions": [
-        "How did Creandum actively support Kahoot! as a portfolio company around the time of the 2020-10 financing round?",
-        "What was Creandum's approach to board governance and working alongside the Kahoot! leadership team during their investment?",
-        "How did Creandum assist Kahoot! with strategic planning and follow-on capital considerations leading up to the 2020-10 round?"
+        "The last round in our sources is 2020-10. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -12216,9 +11790,9 @@
         }
       ],
       "questions": [
-        "How did Creandum actively support Kahoot! as a portfolio company around the time of the 2020-10 financing round?",
-        "What was Creandum's approach to board governance and working alongside the Kahoot! leadership team during their investment?",
-        "How did Creandum assist Kahoot! with strategic planning and follow-on capital considerations leading up to the 2020-10 round?"
+        "The last round in our sources is 2020-10. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -12270,9 +11844,9 @@
         }
       ],
       "questions": [
-        "How did Creandum support Klaus following the 2022-09 funding round?",
-        "What role did Creandum play during the acquisition process reported by techcrunch.com in 2024-02?",
-        "How did Creandum interact with the leadership team between the 2022-09 round and the 2024-02 acquisition report?"
+        "The public record says “Reported acquisition (techcrunch.com, 2024-02)”. What happened from your perspective, and what role, if any, did Creandum play?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -12327,9 +11901,9 @@
         }
       ],
       "questions": [
-        "How active and supportive was Creandum during your 2021-10 financing round?",
-        "In what ways has Creandum provided strategic value to Billie GmbH as an investor?",
-        "How does Creandum typically engage with the Billie GmbH leadership team when navigating key strategic decisions?"
+        "The last round in our sources is 2021-10. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -12384,9 +11958,9 @@
         }
       ],
       "questions": [
-        "How active and supportive was Creandum during your 2021-10 financing round?",
-        "In what ways has Creandum provided strategic value to Billie GmbH as an investor?",
-        "How does Creandum typically engage with the Billie GmbH leadership team when navigating key strategic decisions?"
+        "The last round in our sources is 2021-10. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -12442,9 +12016,9 @@
         }
       ],
       "questions": [
-        "How did Creandum support Voi leading up to and during the 2024-03 funding round?",
-        "Since the 2024-03 round, how helpful and engaged has Creandum been in its ongoing working relationship with Voi?",
-        "Given Voi's active status, how would you describe Creandum's responsiveness and overall behavior as an investor between major financing events?"
+        "The last round in our sources is 2024-03. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -12510,9 +12084,9 @@
         }
       ],
       "questions": [
-        "How did Creandum support Voi leading up to and during the 2024-03 funding round?",
-        "Since the 2024-03 round, how helpful and engaged has Creandum been in its ongoing working relationship with Voi?",
-        "Given Voi's active status, how would you describe Creandum's responsiveness and overall behavior as an investor between major financing events?"
+        "The last round in our sources is 2024-03. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -12593,9 +12167,9 @@
         }
       ],
       "questions": [
-        "How did Creandum support Prewave GmbH leading up to the 2026-06 round?",
-        "How does Creandum engage with Prewave GmbH while the company maintains an ACTIVE status in their portfolio?",
-        "How would you describe Creandum's involvement as an investor following the 2026-06 round?"
+        "The last round in our sources is 2026-06. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -12676,9 +12250,9 @@
         }
       ],
       "questions": [
-        "How did Creandum support Prewave GmbH leading up to the 2026-06 round?",
-        "How does Creandum engage with Prewave GmbH while the company maintains an ACTIVE status in their portfolio?",
-        "How would you describe Creandum's involvement as an investor following the 2026-06 round?"
+        "The last round in our sources is 2026-06. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -12738,9 +12312,9 @@
         }
       ],
       "questions": [
-        "How did Creandum support Leapsome GmbH during and immediately after your 2022-03 funding round?",
-        "How has Creandum engaged as an investor with Leapsome GmbH since the 2022-03 round?",
-        "What type of strategic guidance or operational support has Creandum provided to Leapsome GmbH following the 2022-03 investment?"
+        "The last round in our sources is 2022-03. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -12790,9 +12364,9 @@
         }
       ],
       "questions": [
-        "How did Creandum support Leapsome GmbH during and immediately after your 2022-03 funding round?",
-        "How has Creandum engaged as an investor with Leapsome GmbH since the 2022-03 round?",
-        "What type of strategic guidance or operational support has Creandum provided to Leapsome GmbH following the 2022-03 investment?"
+        "The last round in our sources is 2022-03. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -12848,9 +12422,9 @@
         }
       ],
       "questions": [
-        "How has Creandum supported Appcharge as an active portfolio company following your 2026-08 round?",
-        "What has Creandum's level of day-to-day involvement been while Appcharge maintains an active status?",
-        "How did Creandum behave as an investor leading up to and during the 2026-08 round for Appcharge?"
+        "The last round in our sources is 2026-08. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -12911,9 +12485,9 @@
         }
       ],
       "questions": [
-        "How has Creandum supported Appcharge as an active portfolio company following your 2026-08 round?",
-        "What has Creandum's level of day-to-day involvement been while Appcharge maintains an active status?",
-        "How did Creandum behave as an investor leading up to and during the 2026-08 round for Appcharge?"
+        "The last round in our sources is 2026-08. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -12978,9 +12552,9 @@
         }
       ],
       "questions": [
-        "How did Creandum support H Company leading up to and during the 2024-05 round?",
-        "How has Creandum's level of engagement as an investor in H Company been since the 2024-05 round?",
-        "How did Creandum handle key decision-making processes with the H Company leadership team during the 2024-05 financing?"
+        "The last round in our sources is 2024-05. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -13045,9 +12619,9 @@
         }
       ],
       "questions": [
-        "How did Creandum support H Company leading up to and during the 2024-05 round?",
-        "How has Creandum's level of engagement as an investor in H Company been since the 2024-05 round?",
-        "How did Creandum handle key decision-making processes with the H Company leadership team during the 2024-05 financing?"
+        "The last round in our sources is 2024-05. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -13107,9 +12681,9 @@
         }
       ],
       "questions": [
-        "How did Creandum support the Rekki team as an investor following the 2020-07 funding round?",
-        "In what ways did Creandum participate in board discussions and strategic planning for Rekki after the 2020-07 round?",
-        "How would you describe Creandum's communication style and level of involvement with Rekki since the 2020-07 investment?"
+        "The last round in our sources is 2020-07. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -13169,9 +12743,9 @@
         }
       ],
       "questions": [
-        "How did Creandum support the Rekki team as an investor following the 2020-07 funding round?",
-        "In what ways did Creandum participate in board discussions and strategic planning for Rekki after the 2020-07 round?",
-        "How would you describe Creandum's communication style and level of involvement with Rekki since the 2020-07 investment?"
+        "The last round in our sources is 2020-07. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -13252,9 +12826,9 @@
         }
       ],
       "questions": [
-        "How did Creandum engage with the Boardy team leading up to and during the 2025-01 round?",
-        "What kind of support has Creandum provided to Boardy while the company maintains an active status?",
-        "How has Creandum behaved as an investor in Boardy following the 2025-01 round?"
+        "The last round in our sources is 2025-01. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -13320,9 +12894,9 @@
         }
       ],
       "questions": [
-        "How did Creandum engage with the Boardy team leading up to and during the 2025-01 round?",
-        "What kind of support has Creandum provided to Boardy while the company maintains an active status?",
-        "How has Creandum behaved as an investor in Boardy following the 2025-01 round?"
+        "The last round in our sources is 2025-01. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -13397,9 +12971,9 @@
         }
       ],
       "questions": [
-        "How has Creandum supported the Lovable team since your 2026-08 round?",
-        "How did Creandum behave as an investor during the process leading up to the 2026-08 round for Lovable?",
-        "In what ways has Creandum worked with Lovable as an investor outside of formal board meetings?"
+        "The last round in our sources is 2026-08. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -13464,9 +13038,9 @@
         }
       ],
       "questions": [
-        "How has Creandum supported the Lovable team since your 2026-08 round?",
-        "How did Creandum behave as an investor during the process leading up to the 2026-08 round for Lovable?",
-        "In what ways has Creandum worked with Lovable as an investor outside of formal board meetings?"
+        "The last round in our sources is 2026-08. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -13552,9 +13126,9 @@
         }
       ],
       "questions": [
-        "How did Creandum support SARL ALBERT RILLET during your last recorded financing round in 2025-08?",
-        "As an active portfolio company, how would you describe Creandum's ongoing involvement and working style with your team?",
-        "How responsive and constructive has Creandum been as an investor since participating in your 2025-08 round?"
+        "The last round in our sources is 2025-08. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -13620,9 +13194,9 @@
         }
       ],
       "questions": [
-        "How did Creandum support SARL ALBERT RILLET during your last recorded financing round in 2025-08?",
-        "As an active portfolio company, how would you describe Creandum's ongoing involvement and working style with your team?",
-        "How responsive and constructive has Creandum been as an investor since participating in your 2025-08 round?"
+        "The last round in our sources is 2025-08. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -13672,9 +13246,9 @@
         }
       ],
       "questions": [
-        "How has Creandum supported Rillet since the last recorded round in 2026-08?",
-        "How would you describe Creandum's level of involvement and communication as an investor in Rillet?",
-        "How does Creandum typically handle board interactions and strategic decision-making with the Rillet team?"
+        "The last round in our sources is 2026-08. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -13719,9 +13293,9 @@
         }
       ],
       "questions": [
-        "How did Creandum add value to Black Forest Labs leading up to the 2025-11 funding round?",
-        "How would you describe Creandum's communication and involvement with Black Forest Labs since the 2025-11 round?",
-        "What was your experience working with Creandum during the term sheet negotiation and deal execution for the 2025-11 round at Black Forest Labs?"
+        "The last round in our sources is 2025-11. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -13766,9 +13340,9 @@
         }
       ],
       "questions": [
-        "How did Creandum add value to Black Forest Labs leading up to the 2025-11 funding round?",
-        "How would you describe Creandum's communication and involvement with Black Forest Labs since the 2025-11 round?",
-        "What was your experience working with Creandum during the term sheet negotiation and deal execution for the 2025-11 round at Black Forest Labs?"
+        "The last round in our sources is 2025-11. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -13834,9 +13408,9 @@
         }
       ],
       "questions": [
-        "How did Creandum support PAVE Space leading up to and following the 2026-03 financing round?",
-        "In what ways has Creandum engaged with PAVE Space while the company maintains its active status?",
-        "How has Creandum behaved as an investor in terms of guidance and responsiveness since your 2026-03 round?"
+        "The last round in our sources is 2026-03. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -13912,9 +13486,9 @@
         }
       ],
       "questions": [
-        "How did Creandum support PAVE Space leading up to and following the 2026-03 financing round?",
-        "In what ways has Creandum engaged with PAVE Space while the company maintains its active status?",
-        "How has Creandum behaved as an investor in terms of guidance and responsiveness since your 2026-03 round?"
+        "The last round in our sources is 2026-03. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -13964,9 +13538,9 @@
         }
       ],
       "questions": [
-        "How did Creandum actively support Factorial's management team following the round recorded in 2026-05?",
-        "What was Creandum's approach to board involvement and strategic decision-making at Factorial leading up to the 2026-05 round?",
-        "How would you describe Creandum's behavior as an investor when Factorial navigated key milestones leading to the 2026-05 round?"
+        "The last round in our sources is 2026-05. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -14006,9 +13580,9 @@
         }
       ],
       "questions": [
-        "How did Creandum actively support Factorial's management team following the round recorded in 2026-05?",
-        "What was Creandum's approach to board involvement and strategic decision-making at Factorial leading up to the 2026-05 round?",
-        "How would you describe Creandum's behavior as an investor when Factorial navigated key milestones leading to the 2026-05 round?"
+        "The last round in our sources is 2026-05. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -14079,9 +13653,9 @@
         }
       ],
       "questions": [
-        "How has Creandum supported Trade Republic's leadership team as an active portfolio company?",
-        "How did Creandum behave as an investor during and following the recorded round in 2022-06?",
-        "How would you describe Creandum's ongoing communication and board-level involvement while Trade Republic maintains an active status?"
+        "The last round in our sources is 2022-06. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -14147,9 +13721,9 @@
         }
       ],
       "questions": [
-        "How has Creandum supported Trade Republic's leadership team as an active portfolio company?",
-        "How did Creandum behave as an investor during and following the recorded round in 2022-06?",
-        "How would you describe Creandum's ongoing communication and board-level involvement while Trade Republic maintains an active status?"
+        "The last round in our sources is 2022-06. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -14225,9 +13799,9 @@
         }
       ],
       "questions": [
-        "As an active company, how has Creandum supported ABACUM PLANNING S.L. (SOCIEDAD UNIPERSONAL) in its ongoing operations and strategic direction?",
-        "How did Creandum behave as an investor during and after your last recorded funding round in 2025-05?",
-        "Given your active status, how would you describe Creandum's level of involvement and responsiveness on a day-to-day basis?"
+        "The last round in our sources is 2025-05. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -14303,9 +13877,9 @@
         }
       ],
       "questions": [
-        "As an active company, how has Creandum supported ABACUM PLANNING S.L. (SOCIEDAD UNIPERSONAL) in its ongoing operations and strategic direction?",
-        "How did Creandum behave as an investor during and after your last recorded funding round in 2025-05?",
-        "Given your active status, how would you describe Creandum's level of involvement and responsiveness on a day-to-day basis?"
+        "The last round in our sources is 2025-05. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -14366,9 +13940,9 @@
         }
       ],
       "questions": [
-        "How did Creandum support Trade and its team following the funding round in 2017-03?",
-        "How did Creandum engage and work with management when Trade transitioned to an INACTIVE status?",
-        "What was Creandum's general approach and level of involvement as an investor throughout Trade's time in their portfolio?"
+        "The last round in our sources is 2017-03. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -14424,9 +13998,9 @@
         }
       ],
       "questions": [
-        "How has Creandum supported EMBAT TECHNOLOGIES SL as an active portfolio company following your 2026-05 round?",
-        "What has your experience been regarding Creandum's level of involvement and responsiveness as an investor in EMBAT TECHNOLOGIES SL?",
-        "How does Creandum typically assist EMBAT TECHNOLOGIES SL with strategic decisions and operational challenges?"
+        "The last round in our sources is 2026-05. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -14482,9 +14056,9 @@
         }
       ],
       "questions": [
-        "How has Creandum supported EMBAT TECHNOLOGIES SL as an active portfolio company following your 2026-05 round?",
-        "What has your experience been regarding Creandum's level of involvement and responsiveness as an investor in EMBAT TECHNOLOGIES SL?",
-        "How does Creandum typically assist EMBAT TECHNOLOGIES SL with strategic decisions and operational challenges?"
+        "The last round in our sources is 2026-05. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -14545,9 +14119,9 @@
         }
       ],
       "questions": [
-        "How has Creandum supported ATLA AI LTD as an active portfolio company following your 2026-07 funding round?",
-        "What was your experience working with Creandum during the process leading up to the 2026-07 round?",
-        "How would you describe Creandum's day-to-day engagement and responsiveness while ATLA AI LTD maintains an active status?"
+        "The last round in our sources is 2026-07. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -14613,9 +14187,9 @@
         }
       ],
       "questions": [
-        "How has Creandum supported ATLA AI LTD as an active portfolio company following your 2026-07 funding round?",
-        "What was your experience working with Creandum during the process leading up to the 2026-07 round?",
-        "How would you describe Creandum's day-to-day engagement and responsiveness while ATLA AI LTD maintains an active status?"
+        "The last round in our sources is 2026-07. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -14696,9 +14270,9 @@
         }
       ],
       "questions": [
-        "How did Creandum support CAPI MONEY INC. leading up to and following your round in 2025-02?",
-        "Given that CAPI MONEY INC. maintains an active status, how would you describe Creandum's ongoing involvement and value-add as an investor?",
-        "In what ways has Creandum assisted CAPI MONEY INC. with strategic decision-making since your 2025-02 round?"
+        "The last round in our sources is 2025-02. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -14784,9 +14358,9 @@
         }
       ],
       "questions": [
-        "How did Creandum support CAPI MONEY INC. leading up to and following your round in 2025-02?",
-        "Given that CAPI MONEY INC. maintains an active status, how would you describe Creandum's ongoing involvement and value-add as an investor?",
-        "In what ways has Creandum assisted CAPI MONEY INC. with strategic decision-making since your 2025-02 round?"
+        "The last round in our sources is 2025-02. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -14836,9 +14410,9 @@
         }
       ],
       "questions": [
-        "How did Creandum support OLIX during the 2026-08 funding round?",
-        "How has Creandum behaved as an investor to OLIX following the 2026-08 round?",
-        "What was Creandum's communication and support style with OLIX surrounding the 2026-08 investment?"
+        "The last round in our sources is 2026-08. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -14884,9 +14458,9 @@
         }
       ],
       "questions": [
-        "What was Creandum's communication and involvement like leading up to the last recorded round in 2026-08?",
-        "How did Creandum behave when the company hit its hardest stretch?",
-        "What did Creandum's partners actually do for you after the investment?"
+        "The last round in our sources is 2026-08. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -14938,9 +14512,9 @@
         }
       ],
       "questions": [
-        "How did Creandum work with Cint AB as an investor following the last recorded round in 2012-10?",
-        "What support or guidance did Creandum offer when Cint AB faced the reported layoffs in 2024-12?",
-        "How has Creandum generally managed its board participation and investor relationship with Cint AB over time?"
+        "The public record says “Reported layoffs (linkedin.com, 2024-12)”. What happened from your perspective, and what role, if any, did Creandum play?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -14992,9 +14566,9 @@
         }
       ],
       "questions": [
-        "How did Creandum work with Cint AB as an investor following the last recorded round in 2012-10?",
-        "What support or guidance did Creandum offer when Cint AB faced the reported layoffs in 2024-12?",
-        "How has Creandum generally managed its board participation and investor relationship with Cint AB over time?"
+        "The public record says “Reported layoffs (linkedin.com, 2024-12)”. What happened from your perspective, and what role, if any, did Creandum play?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -15046,9 +14620,9 @@
         }
       ],
       "questions": [
-        "How did Creandum support Small Giant Games Oy during the process surrounding the acquisition reported on techcrunch.com in 2018-12?",
-        "What role did Creandum play as an investor leading up to your last recorded round in 2020-05?",
-        "How did Creandum's involvement as an investor manifest between the 2018-12 reported acquisition and the 2020-05 round?"
+        "The public record says “Reported acquisition (techcrunch.com, 2018-12)”. What happened from your perspective, and what role, if any, did Creandum play?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -15100,9 +14674,9 @@
         }
       ],
       "questions": [
-        "How did Creandum support Small Giant Games Oy during the process surrounding the acquisition reported on techcrunch.com in 2018-12?",
-        "What role did Creandum play as an investor leading up to your last recorded round in 2020-05?",
-        "How did Creandum's involvement as an investor manifest between the 2018-12 reported acquisition and the 2020-05 round?"
+        "The public record says “Reported acquisition (techcrunch.com, 2018-12)”. What happened from your perspective, and what role, if any, did Creandum play?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -15142,9 +14716,9 @@
         }
       ],
       "questions": [
-        "How has Creandum supported the leadership team at Resolution Games AB following the 2021-07 funding round?",
-        "In what ways has Creandum added value or strategic guidance to Resolution Games AB as an investor?",
-        "How does Creandum handle key decision-making processes and board interactions with Resolution Games AB?"
+        "The last round in our sources is 2021-07. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -15184,9 +14758,9 @@
         }
       ],
       "questions": [
-        "How has Creandum supported the leadership team at Resolution Games AB following the 2021-07 funding round?",
-        "In what ways has Creandum added value or strategic guidance to Resolution Games AB as an investor?",
-        "How does Creandum handle key decision-making processes and board interactions with Resolution Games AB?"
+        "The last round in our sources is 2021-07. What financing decisions followed, and how was Creandum involved?",
+        "Can you give a concrete example of what Creandum did when you needed support, and what you wished it had done differently?",
+        "Would you choose Creandum again? What should a founder clarify before signing?"
       ],
       "writing": []
     }

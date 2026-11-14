@@ -28,18 +28,19 @@ export interface Exa {
 const limited = limiter(5);
 const TEXT = { text: { maxCharacters: 8000 } }; // round announcements fit; keeps Gemini prompts small
 
-export function createExa(apiKey: string): Exa {
+export function createExa(apiKey: string, signal?: AbortSignal): Exa {
   const exa = new ExaClient(apiKey);
+  const transport = { signal, timeout: 25_000 };
   return {
     // category "people" returns `entities` (workHistory) by default; no contents option needed.
     searchPeople: (query) =>
-      limited(async () => (await exa.search(query, { type: "auto", category: "people", numResults: 5 })).results as ExaResult[]),
+      limited(async () => (await exa.search(query, { type: "auto", category: "people", numResults: 5 }, transport)).results as ExaResult[]),
     searchNews: (query, opts) =>
       limited(async () =>
-        (await exa.search(query, { type: "auto", numResults: 5, contents: { highlights: true }, ...opts })).results as ExaResult[],
+        (await exa.search(query, { type: "auto", numResults: 5, contents: { highlights: true }, ...opts }, transport)).results as ExaResult[],
       ),
-    pages: (urls) => limited(async () => (await exa.getContents(urls, TEXT)).results as ExaResult[]),
+    pages: (urls) => limited(async () => (await exa.getContents(urls, TEXT, transport)).results as ExaResult[]),
     searchRound: (query, opts) =>
-      limited(async () => (await exa.search(query, { type: "auto", numResults: 2, contents: TEXT, ...opts })).results as ExaResult[]),
+      limited(async () => (await exa.search(query, { type: "auto", numResults: 2, contents: TEXT, ...opts }, transport)).results as ExaResult[]),
   };
 }

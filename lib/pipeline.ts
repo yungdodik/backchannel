@@ -1,7 +1,10 @@
 // Fixed pipeline (D4, spec "Pipeline"): Cala walk → per-company Cala → signals → news → founders → questions.
+import { abortable } from "@/lib/abort";
 import { CalaGaveUp, type Cala, type CalaEntity, type CalaLink } from "@/lib/cala";
 import type { Exa, ExaResult } from "@/lib/exa";
 import type { Gemini } from "@/lib/gemini";
+import { groundedQuestions } from "@/lib/call-brief";
+import { companyDisplayName, EXCLUDED_COMPANIES } from "@/lib/data-quality";
 import { NEWS_BLOCKLIST } from "@/lib/news-blocklist";
 import { companyOverview } from "@/lib/overview";
 import { analyseCompany, domain, normalise, toSources, wasAcquired } from "@/lib/signals";
@@ -15,6 +18,7 @@ export interface PipelineDeps {
   budgetMs: number;
   /** Live runs enrich at most this many companies by priority (spec step 10). */
   maxCompanies?: number;
+  signal?: AbortSignal;
 }
 
 export const BANNED = /\b(fail(ed|ure)?|dead|died)\b/i;
@@ -42,7 +46,7 @@ function channel<T>() {
   let failure: unknown;
   const poke = () => (wake?.(), (wake = null));
   return {
-    push: (x: T) => (buf.push(x), poke()),
+    push: (x: T) => { if (!closed) { buf.push(x); poke(); } },
     close: (err?: unknown) => ((closed = true), (failure = err), poke()),
     async *[Symbol.asyncIterator]() {
       for (;;) {
@@ -69,17 +73,18 @@ export function checkQuestions(qs: unknown, why: Signal[], fund: string): string
   const facts = new Set(why.map((s) => `${s.text} ${s.date ?? ""}`).join(" ").match(/\d+/g)); // whole numbers: "20" is not in "2021"
   const ok = (Array.isArray(qs) ? qs : [])
     .filter((q): q is string => typeof q === "string" && q.trim().length > 0)
-    .filter((q) => !BANNED.test(q) && (q.match(/\d+/g) ?? []).every((n) => facts.has(n)));
-  for (const t of questionTemplates(fund)) if (ok.length < 3 && !ok.includes(t)) ok.push(t);
+    .filter((q) => !(/board/i.test(q) && !/^did\b|\b(whether|if)\b/i.test(q)) && !BANNED.test(q) && (q.match(/\d+/g) ?? []).every((n) => facts.has(n)));
+  for (const t of groundedQuestions(fund, why)) if (ok.length < 3 && !ok.includes(t)) ok.push(t);
   return ok.slice(0, 3);
 }
 
 export function questionPrompt(company: string, fund: string, why: Signal[]) {
   return [
     `You help a startup founder prepare a reference call about the venture fund ${fund}.`,
-    `They will call a founder of ${company}, a ${fund} portfolio company. Known facts:`,
+    `They will call a founder or executive of ${company}, a ${fund} portfolio company. Known facts:`,
     ...why.map((s) => `- ${s.text}`),
     `Write exactly 3 specific, neutral questions about how ${fund} behaved as an investor, grounded only in these facts.`,
+    `Use this sequence: what happened from their perspective; a concrete example of investor support; whether they would choose the fund again. Never presume a board seat, follow-on commitment, or investor involvement. Ask whether before asking how.`,
     `No dates or numbers that are not in the facts. Never use the words failed, failure, dead or died.`,
     `Return a JSON array of 3 strings.`,
   ].join("\n");
@@ -150,7 +155,13 @@ function calaFounders(entity: CalaEntity): Founder[] {
 const firstDate = (l: CalaLink) => toSources(l.properties.sources).map((s) => s.date).filter(Boolean).sort()[0];
 
 export function createPipeline(deps: PipelineDeps) {
-  const { cala, exa, gemini, now, budgetMs, maxCompanies } = deps;
+  const { now, budgetMs, maxCompanies } = deps;
+  const signals = [deps.signal, Number.isFinite(budgetMs) ? AbortSignal.timeout(Math.max(1, budgetMs)) : undefined].filter((s): s is AbortSignal => !!s);
+  const signal = AbortSignal.any(signals);
+  const call = <T,>(work: () => Promise<T>) => abortable(work, signal);
+  const cala: Cala = { searchEntities: (...args) => call(() => deps.cala.searchEntities(...args)), getEntity: (id, projection, opts) => call(() => deps.cala.getEntity(id, projection, { ...opts, signal })) };
+  const exa = { searchPeople: (...args: Parameters<PipelineDeps["exa"]["searchPeople"]>) => call(() => deps.exa.searchPeople(...args)), searchNews: (...args: Parameters<PipelineDeps["exa"]["searchNews"]>) => call(() => deps.exa.searchNews(...args)) };
+  const gemini = { questions: (prompt: string) => call(() => deps.gemini.questions(prompt)), overview: (prompt: string) => call(() => deps.gemini.overview(prompt)) };
 
   async function* run(fundId: string): AsyncIterable<StreamEvent> {
     const out = channel<StreamEvent>();
@@ -175,11 +186,11 @@ export function createPipeline(deps: PipelineDeps) {
         name: walk.name ?? fundId,
         description: walk.description ?? (walk.properties?.description?.value as string | undefined),
       };
-      const invested = walk.relationships?.outgoing?.INVESTED_IN ?? [];
+      const invested = (walk.relationships?.outgoing?.INVESTED_IN ?? []).filter((l) => !EXCLUDED_COMPANIES.has(l.id));
       const fundRounds = walk.relationships?.outgoing?.PARTICIPATES_IN_FUNDING_ROUND ?? [];
       const companies: PortfolioCompany[] = invested.map((l) => ({
         calaId: l.id,
-        name: l.name,
+        name: companyDisplayName(l.name),
         rounds: [],
         signals: [],
         founders: [],
@@ -198,7 +209,7 @@ export function createPipeline(deps: PipelineDeps) {
       const callList: CallListEntry[] = [];
       const listed = new Set<string>();
       const tails: Promise<void>[] = [];
-      let complete = order.length === invested.length;
+      let complete = order.length === invested.length && invested.length < 200;
 
       const finish = async (co: PortfolioCompany, entity: CalaEntity) => {
         let a = analyseCompany({ entity, fundRounds, fundName: fund.name }, now());
@@ -215,6 +226,7 @@ export function createPipeline(deps: PipelineDeps) {
           const news = newsSignals(results, co.name, fund.name).filter((s) => !have.has(s.text.split(" (")[0]));
           if (news.length) a = analyseCompany({ entity, fundRounds, fundName: fund.name, news }, now());
         }
+        signal.throwIfAborted();
         Object.assign(co, { rounds: a.rounds, lastRoundDate: a.lastRoundDate, signals: a.signals });
 
         if (a.group) {
@@ -226,12 +238,13 @@ export function createPipeline(deps: PipelineDeps) {
           }
           co.founders = founders.slice(0, 2);
         }
+        signal.throwIfAborted();
         co.state = "enriched";
         out.push({ type: "company", company: structuredClone(co) });
 
         // D29: runs beside the questions; the company is sent again once the overview exists. A Gemini failure leaves it out.
         const overview = companyOverview(co, gemini).then((o) => {
-          if (!o) return;
+          if (!o || signal.aborted) return;
           co.overview = o;
           out.push({ type: "company", company: structuredClone(co) });
         });
@@ -241,6 +254,7 @@ export function createPipeline(deps: PipelineDeps) {
             console.warn(`Gemini failed for ${co.name}, using template questions: ${e instanceof Error ? e.message.slice(0, 200) : e}`);
             return [];
           });
+          signal.throwIfAborted();
           const questions = checkQuestions(raw, a.signals, fund.name);
           for (const founder of co.founders) {
             // Cala sometimes has two entities for one company (FLOWHAVEN OY / Flowhaven Oy, IQM / IQM Quantum Computers Oyj): one entry per person.
@@ -267,7 +281,7 @@ export function createPipeline(deps: PipelineDeps) {
       const queue = [...order];
       const retried = new Set<number>();
       for (let i = queue.shift(); i !== undefined; i = queue.shift()) {
-        if (now().getTime() - start > budgetMs) {
+        if (signal.aborted || now().getTime() - start > budgetMs) {
           complete = false;
           progress("Stopped early; showing what was found");
           break;
@@ -283,6 +297,7 @@ export function createPipeline(deps: PipelineDeps) {
             progress(`Data source busy; will retry ${co.name} later`);
             continue;
           }
+          complete = false;
           co.state = "unavailable";
           out.push({ type: "company", company: structuredClone(co) });
           progress(e instanceof CalaGaveUp ? `Data source busy; skipped ${co.name}` : `Could not load ${co.name}`);
@@ -291,13 +306,15 @@ export function createPipeline(deps: PipelineDeps) {
         co.description = entity.description ?? (entity.properties?.description?.value as string | undefined);
         tails.push(
           finish(co, entity).catch(() => {
+            complete = false;
             co.state = "unavailable";
+            out.push({ type: "company", company: structuredClone(co) });
             progress(`Could not finish ${co.name}`);
           }),
         );
       }
       await Promise.all(tails);
-      for (const co of companies) if (co.state === "pending") co.state = "unavailable";
+      for (const co of companies) if (co.state === "pending") co.state = "not_researched";
 
       const report: Report = { fund, generatedAt: now().toISOString(), complete, portfolio: companies, callList };
       out.push({ type: "done", report });
@@ -310,7 +327,7 @@ export function createPipeline(deps: PipelineDeps) {
         out.close();
       },
     );
-    yield* out;
+    try { yield* out; } finally { out.close(); }
   }
 
   return { run };

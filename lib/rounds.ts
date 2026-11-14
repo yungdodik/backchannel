@@ -1,5 +1,6 @@
 // Round enrichment (D28, issue #22): lead, amount, co-investors and the fund's partner, read from the round's
 // announcement. Gemini only extracts; every fact needs a verbatim quote that code finds in the page, or it's dropped.
+import { EXCLUDED_COMPANIES } from "@/lib/data-quality";
 import type { Exa, ExaResult } from "@/lib/exa";
 import type { Gemini } from "@/lib/gemini";
 import { domain, normalise } from "@/lib/signals";
@@ -14,7 +15,6 @@ export interface RoundDeps {
 const DATABASE = /^(tracxn|pitchbook|crunchbase|app\.dealroom|dealroom|cbinsights|linkedin|startupintros|ycombinator)\./;
 const WINDOW_DAYS = 60;
 // Cala entities linked as portfolio companies that aren't one company; their rounds mix several startups.
-const NOT_A_COMPANY = new Set(["439fe7e2-930f-4a07-bc23-7df212cfc3a7"]); // "Portfolio Companies" (Creandum): a VC firm; rounds of Einride, Veriff, Bolt, SoftIron
 
 type Named = { name?: unknown; quote?: unknown };
 interface Extraction {
@@ -95,7 +95,7 @@ export async function enrichRounds(report: Report, deps: RoundDeps) {
   }
 
   await Promise.all(
-    out.portfolio.filter((c) => !NOT_A_COMPANY.has(c.calaId)).flatMap((c) =>
+    out.portfolio.filter((c) => !EXCLUDED_COMPANIES.has(c.calaId)).flatMap((c) =>
       c.rounds.map(async (r, i) => {
         stats.rounds++;
         if (!r.date || r.quotes) return; // undated: no window to search; quotes: already enriched
