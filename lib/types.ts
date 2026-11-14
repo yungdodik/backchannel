@@ -12,6 +12,8 @@ export interface FundMatch {
   calaId: string;
   name: string;
   description?: string;
+  /** Portfolio links Cala holds for it, from the fund search; capped at 200. Absent when not counted. */
+  companies?: number;
 }
 
 export interface Round {
