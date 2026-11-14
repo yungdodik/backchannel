@@ -91,6 +91,7 @@ export class SkyEngine {
   private band: { B: Vec; C: Vec } = { B: [1, 0, 0], C: [0, 1, 0] };
   private layers: Layer[] = [];
   private snow: { lines: Vec[][]; fills: string[]; depth: number }[] = [];
+  private levels = new Map<number, Vec[]>(); // closed lines of constant altitude, by altitude
   private trig = { yaw: NaN, pitch: NaN, cy: 1, sy: 0, cp: 1, sp: 0 };
   private glints: { v: Vec; t: number }[] = [];
   private pts = new Map<number, { x: number; y: number }>(); // active pointers, for pinch zoom
@@ -270,7 +271,7 @@ export class SkyEngine {
         return `rgb(${c0.map((v, j) => Math.round(lerp(v, c1[j], f) * dim))})`;
       };
       this.snow.push({
-        lines: [...OFFS, 80].map((off) => Array.from({ length: 181 }, (_, i) => dir(i * 2, Math.max(-80, crest(i * 2) - off)))),
+        lines: OFFS.map((off) => Array.from({ length: 180 }, (_, i) => dir(i * 2, crest(i * 2) - off))),
         fills: OFFS.map((o, k) => col((o + (OFFS[k + 1] ?? o)) / 2)),
         depth,
       });
@@ -298,16 +299,27 @@ export class SkyEngine {
 
   /* ---------------- projections ---------------- */
 
-  private project(v: Vec, fov = this.view.fov): Pt | null {
-    const T = this.trig; // the view's sines and cosines, recomputed only when it turns
+  /** The view's sines and cosines, recomputed only when it turns. */
+  private aim() {
+    const T = this.trig;
     if (T.yaw !== this.view.yaw || T.pitch !== this.view.pitch) {
       const y0 = (T.yaw = this.view.yaw) * D2R, p0 = (T.pitch = this.view.pitch) * D2R;
       T.cy = Math.cos(y0); T.sy = Math.sin(y0); T.cp = Math.cos(p0); T.sp = Math.sin(p0);
     }
+    return T;
+  }
+
+  /** Pixels per unit of the stereographic plane. */
+  private scale(fov = this.view.fov) {
+    return (Math.max(Math.min(this.W, this.H), this.H * 0.72) * 0.5) / Math.tan((fov * D2R) / 4);
+  }
+
+  private project(v: Vec, fov = this.view.fov): Pt | null {
+    const T = this.aim();
     const x1 = v[0] * T.cy - v[2] * T.sy, z1 = v[0] * T.sy + v[2] * T.cy, y1 = v[1];
     const y2 = y1 * T.cp - z1 * T.sp, z2 = y1 * T.sp + z1 * T.cp;
     if (z2 < -0.55) return null;
-    const k = (Math.max(Math.min(this.W, this.H), this.H * 0.72) * 0.5) / Math.tan((fov * D2R) / 4);
+    const k = this.scale(fov);
     return [this.W / 2 + (k * x1) / (1 + z2), this.H / 2 - (k * y2) / (1 + z2), z2];
   }
 
@@ -468,42 +480,82 @@ export class SkyEngine {
     this.view.pitch = pitch;
   }
 
-  private drawLayer(L: Layer) {
-    const cx = this.cx, n = L.top.length, W = this.W;
-    cx.fillStyle = L.fill;
-    cx.beginPath();
-    // one polygon per visible run (tops left to right, then bases back): far cheaper to fill than a quad per sample
-    let tops: Pt[] = [], bases: Pt[] = [];
-    const flush = () => {
-      if (tops.length > 1) {
-        cx.moveTo(tops[0][0], tops[0][1]);
-        for (let k = 1; k < tops.length; k++) cx.lineTo(tops[k][0], tops[k][1]);
-        for (let k = bases.length - 1; k >= 0; k--) cx.lineTo(bases[k][0], bases[k][1]);
-        cx.closePath();
+  /**
+   * Trace a closed line of directions (one all the way round the horizon) as a subpath, and say whether the zenith
+   * is inside it. Unlike project(), no point is ever dropped: one far behind the view is carried round a circle well
+   * outside the screen instead, so the outline stays closed at every pitch.
+   */
+  private loop(line: Vec[]) {
+    const cx = this.cx, { W, H } = this, T = this.aim(), k = this.scale(), far = 6 * k, M = 60, n = line.length;
+    const zy = H / 2 - (k * T.cp) / (1 + T.sp); // the zenith is at (W / 2, zy)
+    let inside = false, count = 0, px = 0, py = 0, run = 0, held = false, hx = 0, hy = 0, wasFar = false, ang = 0;
+    const add = (x: number, y: number) => {
+      // does this segment cross the level line running right from the zenith? (counted on the full outline)
+      if (count++ && py > zy !== y > zy && px + ((zy - py) / (y - py)) * (x - px) > W / 2) inside = !inside;
+      px = x;
+      py = y;
+      // consecutive points off the same side of the screen collapse into one segment: most of the line is off-screen
+      const c = (x < -M ? 1 : x > W + M ? 2 : 0) | (y < -M ? 4 : y > H + M ? 8 : 0);
+      if (run & c) {
+        run &= c;
+        hx = x;
+        hy = y;
+        held = true;
+        return;
       }
-      tops = [];
-      bases = [];
+      if (held) cx.lineTo(hx, hy);
+      held = false;
+      if (count > 1) cx.lineTo(x, y);
+      else cx.moveTo(x, y);
+      run = c;
     };
     for (let i = 0; i <= n; i++) {
-      const a = this.project(L.top[i % n]), b = this.project(L.base[i % n]);
-      if (!a || !b || a[0] < -80 || a[0] > W + 80) {
-        flush();
-        continue;
+      const v = line[i % n];
+      const x1 = v[0] * T.cy - v[2] * T.sy, z1 = v[0] * T.sy + v[2] * T.cy;
+      const y2 = v[1] * T.cp - z1 * T.sp, d = 1 + v[1] * T.sp + z1 * T.cp;
+      const isFar = Math.hypot(x1, y2) > 6 * d;
+      if (!isFar) add(W / 2 + (k * x1) / d, H / 2 - (k * y2) / d);
+      else {
+        const a = Math.atan2(-y2, x1);
+        if (wasFar) {
+          // between two far points, go round the circle the short way rather than straight across the screen
+          const turn = ((((a - ang) % 6.2832) + 9.4248) % 6.2832) - 3.1416, steps = Math.ceil(Math.abs(turn) / 0.4);
+          for (let q = 1; q < steps; q++) add(W / 2 + far * Math.cos(ang + (turn * q) / steps), H / 2 + far * Math.sin(ang + (turn * q) / steps));
+        }
+        add(W / 2 + far * Math.cos(a), H / 2 + far * Math.sin(a));
+        ang = a;
       }
-      tops.push(a);
-      bases.push(b);
+      wasFar = isFar;
     }
-    flush();
-    cx.fill();
+    if (held) cx.lineTo(hx, hy);
+    cx.closePath();
+    return inside;
   }
 
-  /** Fill the ring of sky/ground between two altitudes, all the way round. */
-  private ring(a0: number, a1: number, fill: string) {
+  /**
+   * Fill the ground under one closed line (down to the nadir), or the band between two. Even-odd, so the lines need
+   * no matching ends. The zenith is never ground: if the outlines put it inside, the fill is the other side of them.
+   */
+  private under(fill: string, ...lines: Vec[][]) {
     const cx = this.cx;
     cx.fillStyle = fill;
     cx.beginPath();
-    for (let az = 0; az < 360; az += 6) this.quad(this.project(dir(az, a0)), this.project(dir(az + 6, a0)), this.project(dir(az + 6, a1)), this.project(dir(az, a1)));
-    cx.fill();
+    let flip = false;
+    for (const l of lines) if (this.loop(l)) flip = !flip;
+    if (flip) cx.rect(-2, -2, this.W + 4, this.H + 4);
+    cx.fill("evenodd");
+  }
+
+  private level(alt: number) {
+    let l = this.levels.get(alt);
+    if (!l) this.levels.set(alt, (l = Array.from({ length: 180 }, (_, i) => dir(i * 2, alt))));
+    return l;
+  }
+
+  /** Fill the ring of sky/ground between two altitudes, all the way round; from -90 it is everything below a1. */
+  private ring(a0: number, a1: number, fill: string) {
+    if (a0 <= -90) this.under(fill, this.level(a1));
+    else this.under(fill, this.level(a0), this.level(a1));
   }
 
   /** A soft band of mist at the horizon, drawn between forest layers so far ones fade. */
@@ -570,43 +622,18 @@ export class SkyEngine {
     const cx = this.cx, P = (az: number, alt: number) => this.project(dir(az, alt));
     cx.save();
     cx.globalAlpha = fade;
-    for (let alt = 0; alt < 18; alt += 3) {
-      cx.fillStyle = `rgba(70,96,170,${0.11 * (1 - alt / 18)})`;
-      cx.beginPath();
-      let any = false;
-      for (let az = 0; az < 360; az += 6) any = this.quad(P(az, alt), P(az + 6, alt), P(az + 6, alt + 3), P(az, alt + 3)) || any;
-      if (any) cx.fill();
-    }
+    for (let alt = 0; alt < 18; alt += 3) this.ring(alt, alt + 3, `rgba(70,96,170,${0.11 * (1 - alt / 18)})`);
     this.ring(-90, 0, "#141a30"); // under everything, so no sky shows through the ground
-    this.shifted(this.layers[0].depth, () => this.drawLayer(this.layers[0]));
+    this.shifted(this.layers[0].depth, () => this.under(this.layers[0].fill, this.layers[0].top, this.layers[0].base));
     this.haze(0.16);
-    this.shifted(this.layers[1].depth, () => this.drawLayer(this.layers[1]));
+    this.shifted(this.layers[1].depth, () => this.under(this.layers[1].fill, this.layers[1].top, this.layers[1].base));
     this.haze(0.12);
-    this.shifted(this.layers[2].depth, () => this.drawLayer(this.layers[2]));
+    this.shifted(this.layers[2].depth, () => this.under(this.layers[2].fill, this.layers[2].top, this.layers[2].base));
     // snow ridges in front of the forest, far to near; the houses stand on the first
     this.snow.forEach((r, i) => {
       this.shifted(r.depth, () => {
-        const pr = r.lines.map((l) => l.map((v) => this.project(v))), foot = pr[pr.length - 1];
-        // each shade fills from its line down to the ridge's foot, painting over the one above: no seams
-        r.fills.forEach((fill, k) => {
-          cx.fillStyle = fill;
-          cx.beginPath();
-          let from = -1;
-          for (let j = 0; j <= 181; j++) {
-            const a = pr[k][j], ok = j < 181 && a && foot[j] && a[0] > -200 && a[0] < this.W + 200;
-            if (ok && from < 0) from = j;
-            if (!ok && from >= 0) {
-              if (j - from > 1) {
-                cx.moveTo(pr[k][from]![0], pr[k][from]![1]);
-                for (let q = from + 1; q < j; q++) cx.lineTo(pr[k][q]![0], pr[k][q]![1]);
-                for (let q = j - 1; q >= from; q--) cx.lineTo(foot[q]![0], foot[q]![1]);
-                cx.closePath();
-              }
-              from = -1;
-            }
-          }
-          cx.fill();
-        });
+        // each shade fills from its line down to the nadir, painting over the one above: no seams
+        r.lines.forEach((l, k) => this.under(r.fills[k], l));
         if (!i) this.drawHouses(t);
       });
     });
