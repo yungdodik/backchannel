@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "test": "vitest",
-    "precompute": "tsx scripts/precompute.ts"
+    "precompute": "tsx scripts/precompute.ts",
+    "check:pipeline": "tsx scripts/check-pipeline.ts"
   },
   "dependencies": {
     "@base-ui/react": "^1.9.0",
