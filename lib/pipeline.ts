@@ -83,6 +83,15 @@ function questionPrompt(company: string, fund: string, why: Signal[]) {
   ].join("\n");
 }
 
+/** "Zendesk acquires Klaus" / "Klaus acquired by Zendesk", not "Klaus acquires Promoty". Both args normalised (no regex specials). */
+function wasAcquired(t: string, n: string) {
+  return [
+    `\\bacqui(re|res|red|ring|sition)( of)? ${n}\\b`,
+    `\\b${n} (\\S+ ){0,10}acquired by\\b`,
+    `\\b${n} (is|was|has been|had been|gets|got) acquired\\b`,
+  ].some((re) => new RegExp(re).test(t));
+}
+
 export function newsSignals(results: ExaResult[], company: string, fundName: string): Signal[] {
   const n = normalise(company);
   const fundSlug = normalise(fundName).replace(/ /g, "");
@@ -93,6 +102,7 @@ export function newsSignals(results: ExaResult[], company: string, fundName: str
     const text = `${r.title ?? ""} ${(r.highlights ?? []).join(" ")}`;
     if (!` ${normalise(text)} `.includes(` ${n} `) || !NEWS_WORD.test(text)) continue;
     const kind = NEWS_KIND.find(([re]) => re.test(text))![1];
+    if (kind === "acquisition" && !wasAcquired(normalise(text), n)) continue;
     byKind.set(kind, [...(byKind.get(kind) ?? []), { url: r.url, name: r.title, date: r.publishedDate?.slice(0, 10) }]);
   }
   // Namesakes slip through the keyword rule ("Klaus Brewing Co. to shut down"): keep only the best-supported kind(s).
@@ -135,7 +145,7 @@ function calaFounders(entity: CalaEntity): Founder[] {
   for (const rel of ["FOUNDED", "IS_CEO_OF"]) {
     for (const l of entity.relationships?.incoming?.[rel] ?? []) {
       const sources = toSources(l.properties.sources);
-      if (l.entity_type !== "Person" || !sources.length) continue;
+      if (l.entity_type !== "Person" || !sources.length || out.some((f) => normalise(f.name) === normalise(l.name))) continue;
       out.push({ name: l.name, via: "cala", evidence: `Cala: ${rel}`, sources });
     }
   }
@@ -191,6 +201,7 @@ export function createPipeline(deps: PipelineDeps) {
         .slice(0, maxCompanies ?? Infinity);
 
       const callList: CallListEntry[] = [];
+      const listed = new Set<string>();
       const tails: Promise<void>[] = [];
       let complete = order.length === invested.length;
 
@@ -227,6 +238,10 @@ export function createPipeline(deps: PipelineDeps) {
           const raw = await gemini.questions(questionPrompt(co.name, fund.name, a.signals)).catch(() => []);
           const questions = checkQuestions(raw, a.signals, fund.name);
           for (const founder of co.founders) {
+            // Cala sometimes has two entities for one company (FLOWHAVEN OY / Flowhaven Oy): one entry per person.
+            const key = `${normalise(co.name)}|${normalise(founder.name)}`;
+            if (listed.has(key)) continue;
+            listed.add(key);
             const entry: CallListEntry = {
               companyId: co.calaId,
               companyName: co.name,

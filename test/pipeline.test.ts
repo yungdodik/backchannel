@@ -164,6 +164,40 @@ describe("createPipeline on Icebreaker fixtures", () => {
     expect(report.callList.some((e) => e.companyId === KLAUS && e.group === "news_event")).toBe(true);
   });
 
+  it("acquisition news counts only when the company is the one acquired", async () => {
+    const news = (title: string): ExaResult[] => [{ url: "https://news.example/a", title, publishedDate: "2025-01-10T00:00:00Z" }];
+    const runWith = async (title: string) => {
+      const exa: Exa = { ...fakeExa, searchNews: async (q) => (q.startsWith('"klaus"') ? news(title) : []) };
+      const report = doneReport(await collect(createPipeline(deps({ exa, cala: fakeCala({ [KLAUS]: empty() }) })).run(FUND)));
+      return report.portfolio.find((c) => c.calaId === KLAUS)!.signals.map((s) => s.text);
+    };
+    expect(await runWith("Klaus acquires Promoty to grow in the Nordics")).toEqual([]);
+    expect(await runWith("Zendesk to acquire Klaus")).toEqual(["Reported acquisition (news.example, 2025-01)"]);
+    expect(await runWith("Klaus has been acquired by Zendesk")).toEqual(["Reported acquisition (news.example, 2025-01)"]);
+    expect(await runWith("Completed: the acquisition of Klaus")).toEqual(["Reported acquisition (news.example, 2025-01)"]);
+  });
+
+  it("one entry per founder: Cala duplicates and same-name company entities collapse", async () => {
+    const person = { id: "p1", name: "Richard Nordström", entity_type: "Person", properties: { sources: [{ document: "https://hemby.com/team" }] } };
+    const round = {
+      id: "r1",
+      name: "FINANCING_RAISED_OR_FACILITY_ENTERED",
+      entity_type: "PrivateCompanyFundingRound",
+      properties: { event_date: "2021-03-01", sources: [{ document: "https://x.com/r", date: "2021-03-01" }] },
+    };
+    const twin: CalaEntity = {
+      properties: {},
+      relationships: { outgoing: { PARTICIPATES_IN_CORPORATE_EVENT: [round] }, incoming: { FOUNDED: [person], IS_CEO_OF: [person] } },
+    };
+    // FLOWHAVEN OY (020ce4f1) and Flowhaven Oy (da87c715) are two Cala entities for one company.
+    const report = doneReport(
+      await collect(createPipeline(deps({ cala: fakeCala({ "020ce4f1": twin, "da87c715": twin }) })).run(FUND)),
+    );
+    const flow = report.callList.filter((e) => /flowhaven/i.test(e.companyName));
+    expect(flow.map((e) => e.founder.name)).toEqual(["Richard Nordström"]);
+    expect(report.portfolio.find((c) => c.calaId.startsWith("020ce4f1"))!.founders).toHaveLength(1);
+  });
+
   it("budget stop: remaining companies unavailable, complete false", async () => {
     let t = Date.parse("2026-11-14T12:00:00Z");
     const now = () => new Date((t += 1000));
