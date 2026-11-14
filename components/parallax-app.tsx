@@ -259,6 +259,12 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
   const fp = report.report ? profile(report.report) : null;
   const companiesN = report.companies.length;
   const checked = report.companies.filter((c) => c.state !== "pending").length;
+  // progress line: done, stopped by an error, a bar once the company list is known, a spinner before that
+  const done = report.complete !== undefined;
+  const progState = done ? "done" : report.error ? "stopped" : companiesN ? "bar" : "wait";
+  const pct = done ? 100 : companiesN ? Math.round((100 * checked) / companiesN) : 0;
+  // the latest pipeline message, unless the company list arrived after it ("Reading the fund's portfolio…" is then stale)
+  const note = events.findLastIndex((e) => e.type === "progress") > events.findLastIndex((e) => e.type === "portfolio") ? report.progress : undefined;
   const newsN = skyCompanies.filter((c) => c.group === "news_event").length;
   const selectedFund = allFunds.find((f) => f.id === selectedId);
   const visible = report.entries.filter((e) => filters[e.group]);
@@ -386,13 +392,25 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
           </dl>
           <p className="px-note">A missing round is not evidence of failure.</p>
           {report.error && <div className="px-alert" role="alert">{report.error}</div>}
-          <div className="px-prog" data-done={report.complete !== undefined}>
-            <i />
-            <span>
-              {report.complete !== undefined
+          <div className="px-prog" data-state={progState}>
+            {(done || companiesN > 0) && (
+              <>
+                <span className="px-bar" role="progressbar" aria-label="Companies checked" aria-valuemin={0} aria-valuemax={100} aria-valuenow={pct}>
+                  <i style={{ width: `${pct}%` }} />
+                </span>
+                <b aria-hidden>{pct}%</b>
+              </>
+            )}
+            {/* the words carry the progress for screen readers: the panel is a polite live region */}
+            <p>
+              {progState === "wait" && <i className="px-spin" aria-hidden />}
+              {progState === "done" && <i className="px-ok" aria-hidden />}
+              {progState === "done"
                 ? `Done · ${companiesN} of ${companiesN} companies checked${report.complete ? "" : " · partial report"}`
-                : report.progress ?? (companiesN ? `${checked} of ${companiesN} companies checked` : "Connecting…")}
-            </span>
+                : progState === "wait"
+                  ? (report.progress ?? "Connecting…")
+                  : `${progState === "stopped" ? "Stopped · " : ""}${checked} of ${companiesN} companies checked${note && progState === "bar" ? ` · ${note}` : ""}`}
+            </p>
           </div>
           <div className="px-acts">
             <button className="px-btn" onClick={() => engine.current?.flyOut()}>Return to sky</button>
