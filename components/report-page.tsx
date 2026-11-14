@@ -8,11 +8,11 @@ import { useReportStream } from "@/components/use-report-stream";
 export function ReportPage({ calaId }: { calaId: string }) {
   const { events } = useReportStream(reportUrl(calaId));
   return (
-    <div className="flex flex-col gap-6">
+    <main className="mx-auto flex w-full max-w-3xl flex-col gap-6 px-4 py-8 sm:py-12">
       <Link href="/" className="text-sm text-muted-foreground hover:text-foreground">
-        ← New search
+        ← Back to the sky
       </Link>
       <ReportView events={events} />
-    </div>
+    </main>
   );
 }

@@ -1,16 +1,24 @@
-import { FundSearch } from "@/components/fund-search";
+import { cacheLife } from "next/cache";
+import { ParallaxApp } from "@/components/parallax-app";
+import { PRESET_FUNDS } from "@/components/presets";
+import type { SkyFund } from "@/components/sky/engine";
+import { cachedReports } from "@/lib/cached-reports";
+import type { Report } from "@/lib/types";
 
-export default function Home() {
-  return (
-    <div className="flex flex-col gap-8">
-      <header className="flex flex-col gap-2">
-        <h1 className="text-3xl font-semibold tracking-tight">Backchannel</h1>
-        <p className="text-muted-foreground">
-          Find the founders a fund didn&apos;t put on its reference list: portfolio founders to
-          call, with sourced facts and questions to ask.
-        </p>
-      </header>
-      <FundSearch />
-    </div>
+/** The prepared funds become the brightest stars; their size comes from the cached report. */
+async function skyFunds(): Promise<SkyFund[]> {
+  "use cache";
+  cacheLife("max");
+  return Promise.all(
+    PRESET_FUNDS.map(async ({ name, calaId }) => {
+      const load = cachedReports[calaId];
+      if (!load) return { id: calaId, name };
+      const report = (await load()).default as Report;
+      return { id: calaId, name, companies: report.portfolio.length, calls: report.callList.length };
+    }),
   );
+}
+
+export default async function Home() {
+  return <ParallaxApp funds={await skyFunds()} />;
 }
