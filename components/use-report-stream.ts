@@ -23,21 +23,22 @@ function parseLine(line: string): StreamEvent | null {
 
 /** Reads an NDJSON `StreamEvent` stream (docs/spec.md "Stream protocol"). */
 export function useReportStream(url: string | null): ReportStream {
-  // State is tagged with the url it belongs to, so a new url starts empty without a reset in the effect.
-  const [state, setState] = useState<ReportStream & { url: string | null }>({ url: null, events: [], status: "idle" });
+  // State is tagged with the url and the fetch (`run`) it belongs to, so a new url or a new fetch starts empty without a reset in the effect.
+  const [state, setState] = useState<ReportStream & { url: string | null; run?: object }>({ url: null, events: [], status: "idle" });
 
   useEffect(() => {
     if (!url) return;
     const ctrl = new AbortController();
+    const run = ctrl; // one identity per fetch: flying back to the same fund refetches the same url
 
     let terminal = false;
     const push = (ev: StreamEvent) => {
       if (terminal) return; // protocol: done/error is the last line
       if (ev.type === "done" || ev.type === "error") terminal = true;
       setState((s) => {
-        const events = s.url === url ? s.events : [];
+        const events = s.run === run ? s.events : [];
         const status = ev.type === "done" ? "done" : ev.type === "error" ? "error" : "streaming";
-        return { url, events: [...events, ev], status };
+        return { url, run, events: [...events, ev], status };
       });
     };
 
