@@ -1,10 +1,11 @@
 // Re-applies lib/news-blocklist.ts to the committed reports without any Cala call:
-// drops blocklisted news sources, regroups, drops entries that lose their group, re-asks Gemini where the facts changed.
+// drops blocklisted news sources, regroups, drops entries that lose their group, re-asks Gemini where the facts changed
+// or where an entry only has template questions (Gemini was down when the report was made).
 // Run: npm run apply-blocklist
 import { readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { createGemini } from "@/lib/gemini";
 import { NEWS_BLOCKLIST } from "@/lib/news-blocklist";
-import { checkQuestions, questionPrompt } from "@/lib/pipeline";
+import { checkQuestions, questionPrompt, questionTemplates } from "@/lib/pipeline";
 import { assertReport } from "@/lib/replay";
 import { groupFor } from "@/lib/signals";
 import type { Signal } from "@/lib/types";
@@ -31,6 +32,8 @@ async function main() {
       c.signals = signals;
       changed.add(c.calaId);
     }
+    const templates = questionTemplates(r.fund.name);
+    for (const e of r.callList) if (e.questions.every((q: string) => templates.includes(q))) changed.add(e.companyId);
     if (!changed.size) continue;
     const byId = new Map(r.portfolio.map((c) => [c.calaId, c]));
     const asked = new Map<string, string[]>();

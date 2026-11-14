@@ -63,6 +63,19 @@ describe("analyseCompany", () => {
     expect(r.group).toBeNull();
   });
 
+  it("a source title with 'emerges' is not a merger", () => {
+    const r = run(
+      company([
+        link("r", {
+          event_date: "2025-05-06",
+          sources: [{ name: "Distance emerges from stealth with $2.7M in funding", document: "https://auganix.org/d", date: "2025-05-06" }],
+        }),
+      ]),
+    );
+    expect(r.rounds.map((x) => x.calaId)).toEqual(["r"]);
+    expect(r.signals.map((s) => s.kind)).toEqual(["last_round"]);
+  });
+
   it("Klaus: dated rounds with an acquisition source stay rounds and also yield the news", () => {
     const r = run(klaus);
     expect(r.rounds.map((x) => x.date)).toEqual(["2022-09-29", "2019-07-03"]);

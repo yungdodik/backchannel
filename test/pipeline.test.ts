@@ -151,6 +151,14 @@ describe("createPipeline on Icebreaker fixtures", () => {
     }
   });
 
+  it("Gemini questions survive the post-check unless a number is not in the facts as a whole number", async () => {
+    const qs = ["What changed after the 2021 round?", "How did the fund help the 20 hires?", "How did the fund support you?"];
+    const report = doneReport(await collect(createPipeline(deps({ gemini: { questions: async () => qs } })).run(FUND)));
+    const flow = report.callList.find((e) => e.why.some((w) => w.date?.startsWith("2021")))!;
+    expect(flow.questions.slice(0, 2)).toEqual([qs[0], qs[2]]);
+    expect(flow.questions).not.toContain(qs[1]);
+  });
+
   it("news step: a company with no dated round gets Exa news and a group", async () => {
     const report = doneReport(await collect(createPipeline(deps({ cala: fakeCala({ [KLAUS]: empty() }) })).run(FUND)));
     const k = report.portfolio.find((c) => c.calaId === KLAUS)!;
