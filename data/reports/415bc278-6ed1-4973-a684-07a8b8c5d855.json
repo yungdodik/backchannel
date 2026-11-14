@@ -15,13 +15,32 @@
           "calaId": "5df23ae0-2b5c-423b-8527-c35bf4d4dde8",
           "label": "Funding round",
           "date": "2026-03-30",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "BlackRock"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/iqm/__YJnoEa58_JzzNNc0QB1_1E2AaA2-T8oKBfVJHepF-y4",
               "name": "IQM - 2026 Company Profile & Team - Tracxn",
               "date": "2021-08-17"
+            },
+            {
+              "url": "https://iqm.tech/press-releases/iqm-secures-e50m-financing-to-accelerate-global-growth/",
+              "name": "IQM secures €50M financing to accelerate global growth - IQM Quantum Computers",
+              "date": "2026-03-30"
+            }
+          ],
+          "fundNamed": false,
+          "amount": "€50 million",
+          "quotes": [
+            {
+              "text": "funds and accounts managed by BlackRock",
+              "url": "https://iqm.tech/press-releases/iqm-secures-e50m-financing-to-accelerate-global-growth/"
+            },
+            {
+              "text": "secured a €50 million financing package from funds and accounts managed by BlackRock",
+              "url": "https://iqm.tech/press-releases/iqm-secures-e50m-financing-to-accelerate-global-growth/"
             }
           ]
         },
@@ -29,8 +48,16 @@
           "calaId": "d49ad81e-b640-4205-8fc0-12eee2a01510",
           "label": "Funding round",
           "date": "2025-09-03",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "Ten Eleven Ventures",
+            "Tesi",
+            "Schwarz Group",
+            "Winbond Electronics Corporation",
+            "EIC",
+            "Bayern Kapital",
+            "World Fund"
+          ],
           "sources": [
             {
               "url": "https://techcrunch.com/2025/09/03/brand-new-unicorn-iqm-sets-its-sights-beyond-europe-for-its-quantum-computers",
@@ -46,6 +73,22 @@
               "url": "https://tracxn.com/d/companies/iqm/__YJnoEa58_JzzNNc0QB1_1E2AaA2-T8oKBfVJHepF-y4",
               "name": "IQM - 2026 Company Profile & Team - Tracxn",
               "date": "2021-08-17"
+            }
+          ],
+          "fundNamed": false,
+          "amount": "$300 million",
+          "quotes": [
+            {
+              "text": "Series B funding round that was led by Ten Eleven Ventures",
+              "url": "https://techcrunch.com/2025/09/03/brand-new-unicorn-iqm-sets-its-sights-beyond-europe-for-its-quantum-computers"
+            },
+            {
+              "text": "The Series B also saw investment from Finnish investment firm Tesi, as well as Schwarz Group, Winbond Electronics Corporation, EIC, Bayern Kapital, and World Fund.",
+              "url": "https://techcrunch.com/2025/09/03/brand-new-unicorn-iqm-sets-its-sights-beyond-europe-for-its-quantum-computers"
+            },
+            {
+              "text": "The company just raised more than $300 million in a Series B funding round",
+              "url": "https://techcrunch.com/2025/09/03/brand-new-unicorn-iqm-sets-its-sights-beyond-europe-for-its-quantum-computers"
             }
           ]
         },
@@ -81,13 +124,55 @@
           "calaId": "db8adda8-fc6a-4ee2-885c-f5ea2c9c6265",
           "label": "Funding round",
           "date": "2022-07-31",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "World Fund",
+            "Bayern Kapital",
+            "EIC Fund",
+            "OurCrowd",
+            "QCI SPV",
+            "Tofino",
+            "Varma",
+            "Matadero QED",
+            "MIG Fonds",
+            "OpenOcean",
+            "Salvia GmbH",
+            "Santo Venture Capital GmbH",
+            "Tencent",
+            "Tesi",
+            "Vsquared",
+            "European Investment Bank (EIB)"
+          ],
           "sources": [
             {
               "url": "https://tracxn.com/d/companies/iqm/__YJnoEa58_JzzNNc0QB1_1E2AaA2-T8oKBfVJHepF-y4",
               "name": "IQM - 2026 Company Profile & Team - Tracxn",
               "date": "2021-08-17"
+            },
+            {
+              "url": "https://iqm.tech/press-releases/european-quantum-computing-leader-iqm-raises-e128m-led-by-world-fund-to-help-combat-the-climate-crisis/",
+              "name": "European quantum computing leader IQM raises €128m led by World Fund to help combat the climate crisis - IQM Quantum Computers",
+              "date": "2022-07-22"
+            }
+          ],
+          "fundNamed": true,
+          "amount": "€128 million",
+          "quotes": [
+            {
+              "text": "raised €128 million ($128m) in Series A2 funding led by World Fund",
+              "url": "https://iqm.tech/press-releases/european-quantum-computing-leader-iqm-raises-e128m-led-by-world-fund-to-help-combat-the-climate-crisis/"
+            },
+            {
+              "text": "The round included participation from Bayern Kapital, EIC Fund, OurCrowd, QCI SPV, Tofino and Varma, as well as existing investors Maki.vc, Matadero QED, MIG Fonds, OpenOcean, Salvia GmbH, Santo Venture Capital GmbH, Tencent, Tesi, and Vsquared.",
+              "url": "https://iqm.tech/press-releases/european-quantum-computing-leader-iqm-raises-e128m-led-by-world-fund-to-help-combat-the-climate-crisis/"
+            },
+            {
+              "text": "includes part of a €35m ($35m) venture loan from the European Investment Bank (EIB) announced earlier this year",
+              "url": "https://iqm.tech/press-releases/european-quantum-computing-leader-iqm-raises-e128m-led-by-world-fund-to-help-combat-the-climate-crisis/"
+            },
+            {
+              "text": "IQM Quantum Computers (IQM), the European leader in building superconducting quantum computers, is announcing today it has raised €128 million ($128m) in Series A2 funding led by World Fund to expand its international business and accelerate product development to tackle the world’s most pressing problems.",
+              "url": "https://iqm.tech/press-releases/european-quantum-computing-leader-iqm-raises-e128m-led-by-world-fund-to-help-combat-the-climate-crisis/"
             }
           ]
         },
@@ -96,12 +181,27 @@
           "label": "Funding round",
           "date": "2020-06-11",
           "fundIsLead": null,
-          "coInvestors": [],
+          "coInvestors": [
+            "EIC Accelerator program",
+            "Business Finland"
+          ],
           "sources": [
             {
               "url": "https://techcrunch.com/2020/06/11/european-quantum-computing-startup-takes-its-funding-to-e32m-with-fresh-raise",
               "name": "European quantum computing startup takes its funding to €32M with fresh raise | TechCrunch",
               "date": "2020-06-11"
+            }
+          ],
+          "fundNamed": false,
+          "amount": "€15M",
+          "quotes": [
+            {
+              "text": "IQM Finland Oy (IQM), a European startup which makes hardware for quantum computers, has raised a €15M equity investment round from the EIC Accelerator program for the development of quantum computers.",
+              "url": "https://techcrunch.com/2020/06/11/european-quantum-computing-startup-takes-its-funding-to-e32m-with-fresh-raise"
+            },
+            {
+              "text": "This is in addition to a raise of €3.3M from the Business Finland government agency.",
+              "url": "https://techcrunch.com/2020/06/11/european-quantum-computing-startup-takes-its-funding-to-e32m-with-fresh-raise"
             }
           ]
         },
@@ -110,12 +210,27 @@
           "label": "Funding round",
           "date": "2020-06-11",
           "fundIsLead": null,
-          "coInvestors": [],
+          "coInvestors": [
+            "EIC Accelerator program",
+            "Business Finland"
+          ],
           "sources": [
             {
               "url": "https://techcrunch.com/2020/06/11/european-quantum-computing-startup-takes-its-funding-to-e32m-with-fresh-raise",
               "name": "European quantum computing startup takes its funding to €32M with fresh raise | TechCrunch",
               "date": "2020-06-11"
+            }
+          ],
+          "fundNamed": false,
+          "amount": "€15M",
+          "quotes": [
+            {
+              "text": "IQM Finland Oy (IQM), a European startup which makes hardware for quantum computers, has raised a €15M equity investment round from the EIC Accelerator program for the development of quantum computers.",
+              "url": "https://techcrunch.com/2020/06/11/european-quantum-computing-startup-takes-its-funding-to-e32m-with-fresh-raise"
+            },
+            {
+              "text": "This is in addition to a raise of €3.3M from the Business Finland government agency.",
+              "url": "https://techcrunch.com/2020/06/11/european-quantum-computing-startup-takes-its-funding-to-e32m-with-fresh-raise"
             }
           ]
         }
@@ -421,8 +536,14 @@
           "calaId": "cd81b0ed-d07a-488a-9942-b496d908593b",
           "label": "Funding round",
           "date": "2018-09-25",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "Eniac Ventures",
+            "Boost VC",
+            "Creative Ventures",
+            "KEC Ventures",
+            "Gyan Kapur"
+          ],
           "sources": [
             {
               "url": "https://techcrunch.com/2018/09/25/bleximo-raises-1-5m-for-its-quantum-computing-accelerators",
@@ -443,6 +564,34 @@
               "url": "https://medium.com/eniacvc/eniac-backs-bleximo-bringing-quantum-to-real-world-applications-8a2eb78cff3c",
               "name": "medium.com",
               "date": "2026-08-25"
+            }
+          ],
+          "fundNamed": false,
+          "amount": "$1.5M",
+          "quotes": [
+            {
+              "text": "led by Eniac Ventures",
+              "url": "https://techcrunch.com/2018/09/25/bleximo-raises-1-5m-for-its-quantum-computing-accelerators"
+            },
+            {
+              "text": "Boost VC",
+              "url": "https://techcrunch.com/2018/09/25/bleximo-raises-1-5m-for-its-quantum-computing-accelerators"
+            },
+            {
+              "text": "Creative Ventures",
+              "url": "https://techcrunch.com/2018/09/25/bleximo-raises-1-5m-for-its-quantum-computing-accelerators"
+            },
+            {
+              "text": "KEC Ventures",
+              "url": "https://techcrunch.com/2018/09/25/bleximo-raises-1-5m-for-its-quantum-computing-accelerators"
+            },
+            {
+              "text": "Gyan Kapur",
+              "url": "https://techcrunch.com/2018/09/25/bleximo-raises-1-5m-for-its-quantum-computing-accelerators"
+            },
+            {
+              "text": "Bleximo raises $1.5M for its quantum computing accelerators",
+              "url": "https://techcrunch.com/2018/09/25/bleximo-raises-1-5m-for-its-quantum-computing-accelerators"
             }
           ]
         },
@@ -509,8 +658,11 @@
           "calaId": "4ab98dae-b767-4c72-a1b5-4c1894ee6630",
           "label": "Funding round",
           "date": "2024-09-24",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "GV",
+            "FOV Ventures"
+          ],
           "sources": [
             {
               "url": "https://distance.tech/news/distance-technologies-closes-oversubscribed-eur10m-seed-round-led-by-gv-google-ventures",
@@ -527,14 +679,34 @@
               "name": "Distance Technologies Closes Oversubscribed €10M Seed Round",
               "date": "2024-09-27"
             }
+          ],
+          "fundNamed": true,
+          "amount": "€10M",
+          "quotes": [
+            {
+              "text": "GV led this seed round, with additional investments from FOV Ventures and Maki.vc.",
+              "url": "https://distance.tech/news/distance-technologies-closes-oversubscribed-eur10m-seed-round-led-by-gv-google-ventures"
+            },
+            {
+              "text": "with additional investments from FOV Ventures and Maki.vc.",
+              "url": "https://distance.tech/news/distance-technologies-closes-oversubscribed-eur10m-seed-round-led-by-gv-google-ventures"
+            },
+            {
+              "text": "Distance Technologies Ltd — a pioneering developer of glasses-free mixed reality designed for the automotive, aerospace and defense markets and empowering users with contextual AI – today announced it has closed a Seed round of funding of €10M.",
+              "url": "https://distance.tech/news/distance-technologies-closes-oversubscribed-eur10m-seed-round-led-by-gv-google-ventures"
+            }
           ]
         },
         {
           "calaId": "bc0bfea2-53da-4424-a7cf-738b7b25ab8f",
           "label": "Funding round",
           "date": "2024-06-13",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": true,
+          "coInvestors": [
+            "FOV Ventures",
+            "Business Finland",
+            "Foobar.vc"
+          ],
           "sources": [
             {
               "url": "https://distance.tech/news/launch_release",
@@ -550,6 +722,28 @@
               "url": "https://www.auganix.org/xr-news-distance-emerges-from-stealth-with-2-7m-in-funding-to-announce-its-glasses-free-xr-technology",
               "name": "Distance emerges from stealth with $2.7M in funding",
               "date": "2024-06-13"
+            }
+          ],
+          "fundNamed": true,
+          "amount": "$2.7M",
+          "partner": {
+            "name": "Ilkka Kivimäki",
+            "title": "Founding Partner",
+            "quote": "“This team is absolutely brilliant and their timing couldn’t be better as the automotive and mobility space is experiencing a true renaissance. Distance’s execution speed is already extraordinary and we have 100% confidence in their ability to revolutionize the XR industry with their groundbreaking technology. It's unlike anything we've seen before, and we're excited to support their journey to new heights,” said Ilkka Kivimäki, Founding Partner at Maki.vc",
+            "source": {
+              "url": "https://distance.tech/news/launch_release",
+              "name": "DISTANCE LAUNCH RELEASE | Distance",
+              "date": "2024-06-13"
+            }
+          },
+          "quotes": [
+            {
+              "text": "Distance has raised a total of $2.7M in an oversubscribed pre-seed round led by FOV Ventures and Maki.vc, with further investments from Business Finland and David Helgason’s Foobar.vc.",
+              "url": "https://distance.tech/news/launch_release"
+            },
+            {
+              "text": "“This team is absolutely brilliant and their timing couldn’t be better as the automotive and mobility space is experiencing a true renaissance. Distance’s execution speed is already extraordinary and we have 100% confidence in their ability to revolutionize the XR industry with their groundbreaking technology. It's unlike anything we've seen before, and we're excited to support their journey to new heights,” said Ilkka Kivimäki, Founding Partner at Maki.vc",
+              "url": "https://distance.tech/news/launch_release"
             }
           ]
         }
@@ -921,13 +1115,37 @@
           "calaId": "fc6da176-e81b-44cf-b0e7-cde321fb7f51",
           "label": "Funding round",
           "date": "2024-04-01",
-          "fundIsLead": null,
-          "coInvestors": [],
+          "fundIsLead": false,
+          "coInvestors": [
+            "NordicNinja",
+            "Tesi",
+            "EIT Food",
+            "Agronomics",
+            "Holdix",
+            "Turret",
+            "Business Finland"
+          ],
           "sources": [
             {
               "url": "https://techcrunch.com/2024/04/01/animal-free-egg-protein-onego-bio-40m",
               "name": "Animal-free egg protein startup Onego Bio is one step closer to cracking the traditional egg market | TechCrunch",
               "date": "2024-04-01"
+            }
+          ],
+          "fundNamed": true,
+          "amount": "$40 million",
+          "quotes": [
+            {
+              "text": "Japanese-Nordic venture capital firm NordicNinja led the investment with participation from equity investors Tesi and EIT Food, existing investors Agronomics, Maki.vc, Holdix and Turret and a group of strategic partners.",
+              "url": "https://techcrunch.com/2024/04/01/animal-free-egg-protein-onego-bio-40m"
+            },
+            {
+              "text": "The round also includes a $10 million non-dilutive funding from Business Finland, a public organization under the Finnish government that supports innovation to accelerate systemic change to help solve major global challenges.",
+              "url": "https://techcrunch.com/2024/04/01/animal-free-egg-protein-onego-bio-40m"
+            },
+            {
+              "text": "In preparation for this, Onego Bio recently secured $40 million in Series A funding to get Bioalbumen to market and increase manufacturing capabilities.",
+              "url": "https://techcrunch.com/2024/04/01/animal-free-egg-protein-onego-bio-40m"
             }
           ]
         }

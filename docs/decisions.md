@@ -32,6 +32,7 @@
 | D11b | (amends D11) No Upstash in v1: cached = committed reports via static imports; live = no cache | spec review: scope, Vercel fs |
 | D20b | (amends D20) Founder check = rule on Exa workHistory (title /founder|ceo/ at exact normalised company; exclude anyone who worked at the fund), no Gemini. News classification = keyword rule. Gemini only writes questions | Exa returns workHistory; cuts ~60 LLM calls |
 | D27 | Spec: docs/spec.md, reviewed once by fresh agent (15 findings applied): stream protocol, ownership, time budget, acquisition-as-news, fund_led via shared source URL | |
+| D28 | (amends D4, D20b) Gemini may also *extract* round facts (lead, amount, investors, fund partner) from a fetched announcement. Each fact needs a verbatim quote that code finds in the page, or it's dropped; Gemini never classifies or judges. Runs offline on committed reports (`npm run enrich-rounds`). Fund profile = counts with ids, no peer ranking (D6) | Cala gives lead for ~0 rounds, no amounts or co-investors; issue #22 |
 
 ## Open
 - (resolved: GO, see D16)

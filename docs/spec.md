@@ -76,6 +76,7 @@ The founder types a fund name and picks the right fund from the matches. Within 
    - `npm run precompute -- <calaId>…` runs the pipeline locally with no time budget. It writes `data/reports/{calaId}.json` and regenerates `lib/cached-reports.ts`, a static import map `{ [calaId]: () => import("@/data/reports/<id>.json") }`.
    - There is no runtime `fs` (Vercel doesn't bundle it) and no Upstash in v1.
    - `npm run apply-blocklist` re-filters committed reports offline (no Cala): drops news from `lib/news-blocklist.ts`, regroups, and re-asks Gemini for changed companies and for entries left with only template questions. A Gemini failure is logged; `check:pipeline` fails if every entry is on templates.
+   - `npm run enrich-rounds [-- <calaId>…]` fills rounds in committed reports offline (no Cala), see step 11. Rounds that already have `quotes` are skipped.
 10. **Limits:**
     - **Cala:** one shared queue, concurrency 1, configurable minimum gap (start 1 s). On a 429, retry with backoff 1, 2, 4, 8, 16 s, then give up on that item; a company given up on gets one more try at the end of the run (the quota looks per-minute: give-ups came every ~64 s). While retrying, emit `progress: "waiting for data source…"`.
     - **Exa and Gemini:** concurrency 5 each.
@@ -109,6 +110,13 @@ The founder types a fund name and picks the right fund from the matches. Within 
 
 ## Part A: data pipeline
 
+11. **Round enrichment (D28, issue #22; offline, after precompute):** for each dated round:
+   - Fetch the text of up to 2 round sources that aren't company databases (Tracxn, PitchBook, Crunchbase, Dealroom, CB Insights, LinkedIn, startupintros, YC) with Exa. If none has text, search `"{normalise(name)}" raises` within ±60 days of the round date and keep only results whose **title** names the company.
+   - Gemini reads each page and says whether it announces this round. If it does, it extracts the leads, the amount, the other investors and a quoted partner of the fund, each with a verbatim quote.
+   - Code keeps a fact only if its quote is in the page text (case and whitespace normalised) and the name or value is in its quote. A partner's quote must also name the fund.
+   - Fills `fundIsLead` (when a lead is known), `fundNamed`, `amount`, `coInvestors` (without the fund), `partner`, `quotes`; the page joins `sources`. Fund aliases: `normalise(fund)` and its first word (≥ 4 letters).
+   - **Profile:** `profile(report)` in `lib/fund-profile.ts` computes counts with the ids behind them: rounds led (of rounds whose lead is known), companies where the fund is named in a later round (a lower bound: announcements omit followers), top co-investors from rounds the fund is named in, companies with no round in 24 months, and the median number of months between rounds. No peer ranking (D6).
+
 ### Seams (agreed; test only here)
 1. **`createPipeline(deps)`**, where deps are `{cala, exa, gemini, now, budgetMs}` adapters, exposing `run(fundId): AsyncIterable<StreamEvent>`. Test with fake adapters:
    - Fake Cala returns the fixtures in `test/fixtures/cala/` by id, and `{properties:{}, relationships:{outgoing:{},incoming:{}}}` for ids without a fixture.
@@ -124,6 +132,7 @@ The founder types a fund name and picks the right fund from the matches. Within 
    - The Vespia acquisition.
    - The fund_led join by shared source URL.
 4. **`reportToEvents`**: order and count of events for `mock/icebreaker.json`. Also a runtime validation that the mock matches the contract (every company has a `state` and every round has `fundIsLead`).
+5. **`enrichRounds(report, {exa, gemini})`** and **`profile(report)`**: fake Exa pages/search and Gemini extraction; assert that quotes are verified, the search title rule, and that counts carry their ids.
 
 ### Milestones and delegation
 `[sonnet]` = delegate to a subagent with `model: sonnet` and a precise brief, then **validate it yourself** (read the diff, run the tests). `[main]` = do it yourself.
@@ -139,6 +148,7 @@ The founder types a fund name and picks the right fund from the matches. Within 
 | A6 | Precompute script + `lib/cached-reports.ts` + cached replay | [sonnet] | `npm run precompute -- 70fb3317-cd8c-4c52-aa86-66502789bce3` writes a file; `/api/report?fund=…` replays it |
 | A7 | `npm run check:pipeline` (see acceptance) | [sonnet] | runs and prints a report |
 | A8 | Precompute the 5 demo funds (D25); resolve Inventure (Finnish) by hand; commit `data/reports/` | [main] | 5 files, each read through by hand |
+| A9 | Round enrichment + fund profile (step 11, seam 5) for the 5 demo funds | [main] | seam-5 tests pass; rounds read by hand |
 
 ### Acceptance: `check:pipeline` (live Icebreaker.vc `70fb3317-cd8c-4c52-aa86-66502789bce3`, run locally with no budget)
 - **Hard gates (fail the run):**
