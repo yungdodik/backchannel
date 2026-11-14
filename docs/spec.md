@@ -59,9 +59,11 @@ The founder types a fund name and picks the right fund from the matches. Within 
      - Exact match only: "Alvin" ≠ "Alvin Technologies" ≠ "AlvinAI" (fixture `exa/exa_probe.json` → `people_Alvin`).
      - A name in parentheses also counts: "Zendesk QA (Klaus)" matches Klaus (acquired companies keep the old name there).
      - `evidence = "{title}, {company}"`, `linkedinUrl` = the result URL, source = that URL. `via: "exa+gemini"` (legacy name; the UI shows "via web").
+   - Dedupe people by normalised name (Cala lists one person under both FOUNDED and IS_CEO_OF), and one call-list entry per (normalised company name, founder): Cala can hold two entities for one company (FLOWHAVEN OY / Flowhaven Oy).
    - Max 2 founders per company. A grouped company with 0 founders is **not** on the call list; it stays in the table.
 6. **News** (runs before step 5, since news can give an undated company its group) runs only for grouped companies whose group is `no_recent_round`, plus companies with no dated round. One Exa search: `"{normalise(name)}" shut down OR acquired OR layoffs OR bankruptcy`, `startPublishedDate` = now − 3 years, 5 results with highlights. Exclude the fund's own domain and its `medium.com/<fund>` blog (D22).
    - Keep a result only if title + highlight contains `normalise(name)` and matches `/shut ?down|acqui[rs]|layoff|bankrupt/i` ("acquisition" too).
+   - An acquisition counts only when the company is the one acquired: "acquire(s/d)/acquisition (of) {name}", "{name} … acquired by", "{name} was/has been acquired" (not "Modash acquires Promoty").
    - The kind comes from the matched word. Group results by kind and keep only the kind(s) with the most results, all of them as sources: namesakes slip through ("Klaus Brewing Co. to shut down" vs 4 sources on the Klaus acquisition).
    - The kind comes from the matched word. It becomes "Reported {acquisition|shutdown|layoffs|bankruptcy} ({domain}, {YYYY-MM})". Recompute the group.
    - No LLM in this step.
