@@ -4,7 +4,7 @@
     "name": "Maki.vc",
     "description": "Helsinki-based venture capital firm managing €260M across three funds, backing ambitious Nordic technology companies from day one."
   },
-  "generatedAt": "2026-11-14T04:08:18.327Z",
+  "generatedAt": "2026-11-14T13:16:39.149Z",
   "complete": true,
   "portfolio": [
     {
@@ -545,6 +545,11 @@
               "url": "https://en.ain.ua/2024/06/14/distance-technologies-pre-seed-investment",
               "name": "en.ain.ua",
               "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.auganix.org/xr-news-distance-emerges-from-stealth-with-2-7m-in-funding-to-announce-its-glasses-free-xr-technology",
+              "name": "Distance emerges from stealth with $2.7M in funding",
+              "date": "2024-06-13"
             }
           ]
         }
@@ -640,18 +645,6 @@
               "url": "https://www.linkedin.com/company/sointu/",
               "name": "linkedin.com",
               "date": "2026-11-02"
-            }
-          ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported bankruptcy (highmotor.com, 2026-08)",
-          "date": "2026-08-03",
-          "sources": [
-            {
-              "url": "https://www.highmotor.com/en/sono-motors-declares-bankruptcy-for-the-second-time.html",
-              "name": "Sono Motors declares bankruptcy for the second time – Highmotor",
-              "date": "2026-08-03"
             }
           ]
         }
@@ -1023,9 +1016,9 @@
         }
       ],
       "questions": [
-        "How did Maki.vc support the IQM team leading up to the 2026-03 round?",
-        "In what ways did Maki.vc participate or assist during the 2026-03 financing round?",
-        "How would you describe Maki.vc's ongoing involvement and communication style as an investor prior to the 2026-03 round?"
+        "How did Maki.vc support the IQM team leading up to the 2026-03 financing round?",
+        "What was Maki.vc's communication style and overall approach as an investor in IQM?",
+        "How did Maki.vc collaborate with IQM's founders around decision-making up through the 2026-03 round?"
       ],
       "writing": []
     },
@@ -1090,125 +1083,9 @@
         }
       ],
       "questions": [
-        "How did Maki.vc support the IQM team leading up to the 2026-03 round?",
-        "In what ways did Maki.vc participate or assist during the 2026-03 financing round?",
-        "How would you describe Maki.vc's ongoing involvement and communication style as an investor prior to the 2026-03 round?"
-      ],
-      "writing": []
-    },
-    {
-      "companyId": "afba0cba-5006-5d2f-b50a-9dca60fa309a",
-      "companyName": "Sono",
-      "founder": {
-        "name": "Simo Potinkara",
-        "via": "cala",
-        "evidence": "Cala: FOUNDED",
-        "sources": [
-          {
-            "url": "https://callsono.com/about/",
-            "name": "callsono.com",
-            "date": "2026-11-03"
-          }
-        ]
-      },
-      "group": "news_event",
-      "why": [
-        {
-          "kind": "status",
-          "text": "Cala status: ACTIVE",
-          "sources": [
-            {
-              "url": "https://callsono.com/",
-              "name": "callsono.com",
-              "date": "2026-11-02"
-            },
-            {
-              "url": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=3515243-4",
-              "name": "avoindata.prh.fi",
-              "date": "2025-03-17"
-            },
-            {
-              "url": "https://www.linkedin.com/company/sointu/",
-              "name": "linkedin.com",
-              "date": "2026-11-02"
-            }
-          ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported bankruptcy (highmotor.com, 2026-08)",
-          "date": "2026-08-03",
-          "sources": [
-            {
-              "url": "https://www.highmotor.com/en/sono-motors-declares-bankruptcy-for-the-second-time.html",
-              "name": "Sono Motors declares bankruptcy for the second time – Highmotor",
-              "date": "2026-08-03"
-            }
-          ]
-        }
-      ],
-      "questions": [
-        "How did Maki.vc communicate and assist your team when the bankruptcy was reported on highmotor.com in 2026-08?",
-        "What role did Maki.vc play as an investor while Cala maintained an ACTIVE status around the 2026-08 bankruptcy report?",
-        "How would you describe Maki.vc's guidance and involvement following the bankruptcy report published by highmotor.com in 2026-08?"
-      ],
-      "writing": []
-    },
-    {
-      "companyId": "afba0cba-5006-5d2f-b50a-9dca60fa309a",
-      "companyName": "Sono",
-      "founder": {
-        "name": "Olli Lehikoinen",
-        "via": "cala",
-        "evidence": "Cala: FOUNDED",
-        "sources": [
-          {
-            "url": "https://callsono.com/about/",
-            "name": "callsono.com",
-            "date": "2026-11-03"
-          }
-        ]
-      },
-      "group": "news_event",
-      "why": [
-        {
-          "kind": "status",
-          "text": "Cala status: ACTIVE",
-          "sources": [
-            {
-              "url": "https://callsono.com/",
-              "name": "callsono.com",
-              "date": "2026-11-02"
-            },
-            {
-              "url": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=3515243-4",
-              "name": "avoindata.prh.fi",
-              "date": "2025-03-17"
-            },
-            {
-              "url": "https://www.linkedin.com/company/sointu/",
-              "name": "linkedin.com",
-              "date": "2026-11-02"
-            }
-          ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported bankruptcy (highmotor.com, 2026-08)",
-          "date": "2026-08-03",
-          "sources": [
-            {
-              "url": "https://www.highmotor.com/en/sono-motors-declares-bankruptcy-for-the-second-time.html",
-              "name": "Sono Motors declares bankruptcy for the second time – Highmotor",
-              "date": "2026-08-03"
-            }
-          ]
-        }
-      ],
-      "questions": [
-        "How did Maki.vc communicate and assist your team when the bankruptcy was reported on highmotor.com in 2026-08?",
-        "What role did Maki.vc play as an investor while Cala maintained an ACTIVE status around the 2026-08 bankruptcy report?",
-        "How would you describe Maki.vc's guidance and involvement following the bankruptcy report published by highmotor.com in 2026-08?"
+        "How did Maki.vc support the IQM team leading up to the 2026-03 financing round?",
+        "What was Maki.vc's communication style and overall approach as an investor in IQM?",
+        "How did Maki.vc collaborate with IQM's founders around decision-making up through the 2026-03 round?"
       ],
       "writing": []
     }

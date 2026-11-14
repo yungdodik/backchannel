@@ -14,4 +14,13 @@ export const NEWS_BLOCKLIST = new Set([
   "https://www.linkedin.com/posts/ronen-givon-535b2514_rekki-shut-down-for-a-day-last-week-i-stopped-activity-7421972449145229312-RSua", // "shut down for a day", not a shutdown
   "https://www.khou.com/video/news/local/two-alvin-isd-elementary-schools-shut-down-wednesday-due-to-storm-damage/285-e3f641d9-9b5a-426e-af62-a876e231195a", // Alvin ISD schools again
   "https://scienceguru.blog/did-pg-acquire-billie-acquisition-status", // Billie the razor brand (and the deal was blocked), not Billie (B2B payments)
+  "https://readmex.ai/story/ai-76-a167c77c", // AI agents in general, not the company "AI Agents"
+  "https://www.cnbc.com/2024/06/03/microsoft-confirms-mixed-reality-layoffs-will-keep-selling-hololens-2.html", // Microsoft mixed reality, not Mixed Reality (Distance)
+  "https://www.akibia.com/microsoft-layoffs-effectively-kill-hololens-mixed-reality-projects/", // Microsoft mixed reality
+  "https://www.highmotor.com/en/sono-motors-declares-bankruptcy-for-the-second-time.html", // Sono Motors (EVs), not Sono (voice AI)
+  "https://delistedgames.com/hi-rez-studios-announces-february-17th-shutdown-for-realm-royale-and-divine-knockout/", // Realm Royale game
+  "https://techouse-group.com/news/techouse-acquires-ambio-water", // Ambio Water, not Ambio (recycled plastics)
+  "https://www.conyers.com/publications/view/cordenpharma-acquisition-of-ambio-pharmaceuticals/", // Ambio Pharmaceuticals
+  "https://www.oedigital.com/news/543842-techouse-acquires-ambio", // Ambio Water
+  "https://whyy.org/articles/tmunity-therapeutics-purchase-layoffs-philadelphia/", // "bought by Big Pharma", not Bought (fashion)
 ]);
