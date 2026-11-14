@@ -223,7 +223,7 @@ The founder types a fund name and picks the right fund from the matches. Within 
 - The pitch deck.
 
 ## Coordination (GitHub, if set up)
-- **Worktrees:** session A works in `../backchannel-a` on branch `a/pipeline`, session B in `../backchannel-b` on `b/ui`.
+- **Checkouts:** each session has its own checkout (they may be on different machines, see `docs/sessions.md`); A starts from branch `a/pipeline`, B from `b/ui`. GitHub is the only channel between them.
 - **PRs:**
   - One PR to `main` per milestone, title `A3: …`.
   - Merge your own PR when CI is green.
