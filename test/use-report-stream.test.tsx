@@ -52,6 +52,26 @@ describe("useReportStream", () => {
     expect(result.current.events.at(-1)).toMatchObject({ type: "error" });
   });
 
+  it("starts empty when the same url is fetched again (fly out, fly back to the same fund)", async () => {
+    const entry: StreamEvent = {
+      type: "entry",
+      entry: { companyId: "c1", companyName: "Acme", founder: { name: "Ann", via: "cala", sources: [] }, group: "recent_round", why: [], questions: [], writing: [] },
+    };
+    const lines = [portfolio, entry, done].map((e) => JSON.stringify(e) + "\n");
+    vi.stubGlobal("fetch", vi.fn(() => fakeFetch(lines)()));
+    const url = "/api/report?fund=f1";
+
+    const { result, rerender } = renderHook(({ u }: { u: string | null }) => useReportStream(u), { initialProps: { u: url as string | null } });
+    await waitFor(() => expect(result.current.status).toBe("done"));
+    rerender({ u: null });
+    rerender({ u: url });
+
+    await waitFor(() => expect(fetch).toHaveBeenCalledTimes(2));
+    await waitFor(() => expect(result.current.events).toEqual([portfolio, entry, done]));
+    // never the first run's events followed by the second run's: that listed every founder twice
+    expect(result.current.events.filter((e) => e.type === "entry")).toHaveLength(1);
+  });
+
   it("appends an error event when the request itself fails", async () => {
     vi.stubGlobal("fetch", vi.fn(async () => new Response("boom", { status: 500 })));
 
