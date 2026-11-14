@@ -4,7 +4,7 @@
     "name": "Icebreaker.vc",
     "description": "Nordic early-stage VC firm backing teams at the earliest stages with €120M Fund III."
   },
-  "generatedAt": "2026-11-14T02:36:11.670Z",
+  "generatedAt": "2026-11-14T04:16:08.867Z",
   "complete": true,
   "portfolio": [
     {
@@ -83,18 +83,6 @@
               "date": "2026-11-01"
             }
           ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported acquisition (startupfundraising.com, 2026-08)",
-          "date": "2026-08-12",
-          "sources": [
-            {
-              "url": "https://startupfundraising.com/library/articles/flowhaven-pitch-deck-teardown",
-              "name": "Flowhaven Pitch Deck Breakdown: All 14 Slides",
-              "date": "2026-08-12"
-            }
-          ]
         }
       ],
       "founders": [
@@ -112,13 +100,13 @@
         },
         {
           "name": "Timo Olkkola",
-          "linkedinUrl": "https://fi.linkedin.com/in/timo-olkkola",
+          "linkedinUrl": "https://linkedin.com/in/timo-olkkola",
           "via": "exa+gemini",
           "evidence": "Founder & Chief Commercial Officer (CCO), Flowhaven",
           "sources": [
             {
-              "url": "https://fi.linkedin.com/in/timo-olkkola",
-              "name": "fi.linkedin.com"
+              "url": "https://linkedin.com/in/timo-olkkola",
+              "name": "linkedin.com"
             }
           ]
         }
@@ -189,14 +177,26 @@
       ],
       "founders": [
         {
+          "name": "Yichen Wu",
+          "linkedinUrl": "https://linkedin.com/in/yichenwu0228",
+          "via": "exa+gemini",
+          "evidence": "CEO & Co-Founder, Tesseract",
+          "sources": [
+            {
+              "url": "https://linkedin.com/in/yichenwu0228",
+              "name": "linkedin.com"
+            }
+          ]
+        },
+        {
           "name": "Henri Littunen",
-          "linkedinUrl": "https://linkedin.com/in/henri-littunen",
+          "linkedinUrl": "https://fi.linkedin.com/in/henri-littunen",
           "via": "exa+gemini",
           "evidence": "CEO & Board Member, Tesseract Investment | Group COO, Tesseract, Tesseract",
           "sources": [
             {
-              "url": "https://linkedin.com/in/henri-littunen",
-              "name": "linkedin.com"
+              "url": "https://fi.linkedin.com/in/henri-littunen",
+              "name": "fi.linkedin.com"
             }
           ]
         }
@@ -257,23 +257,6 @@
               "url": "https://github.com/yc-oss/api",
               "name": "Y Combinator",
               "date": "2026-06-30"
-            }
-          ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported acquisition (kedglobal.com, 2026-10)",
-          "date": "2026-10-01",
-          "sources": [
-            {
-              "url": "https://www.kedglobal.com/us/mergers-acquisitions/newsView/ked202609300004",
-              "name": "One Lake Partners buys control of K-pop RESCENE bread maker at $80 mn valuation - KED Global",
-              "date": "2026-10-01"
-            },
-            {
-              "url": "https://en.wikipedia.org/wiki/Joy_Global",
-              "name": "Joy Global",
-              "date": "2026-06-15"
             }
           ]
         }
@@ -542,51 +525,9 @@
               "date": "2026-11-12"
             }
           ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported acquisition (startupyhteiso.com, 2026-04)",
-          "date": "2026-04-24",
-          "sources": [
-            {
-              "url": "https://startupyhteiso.com/blog/blog-post-cracking-the-german-market-richard-nordstrom-hemby/",
-              "name": "Blog post: Cracking the German Market - Richard Nordström (Hemby) – Finnish Startup Community",
-              "date": "2026-04-24"
-            }
-          ]
         }
       ],
-      "founders": [
-        {
-          "name": "Richard Nordström",
-          "via": "cala",
-          "evidence": "Cala: FOUNDED",
-          "sources": [
-            {
-              "url": "https://www.hemby.fi/tarina",
-              "name": "hemby.fi",
-              "date": "2026-11-12"
-            },
-            {
-              "url": "https://www.hemby.fi/medialle",
-              "name": "hemby.fi",
-              "date": "2026-11-12"
-            }
-          ]
-        },
-        {
-          "name": "Richard Nordström",
-          "via": "cala",
-          "evidence": "Cala: IS_CEO_OF",
-          "sources": [
-            {
-              "url": "https://www.eu-startups.com/2022/05/helsinki-based-helppy-is-revolutionising-home-care-and-has-picked-up-e3-million-to-expand-across-europe/",
-              "name": "eu-startups.com",
-              "date": "2026-11-12"
-            }
-          ]
-        }
-      ],
+      "founders": [],
       "sources": [
         {
           "url": "https://en.ain.ua/2022/05/17/helppy-secures-3m",
@@ -732,23 +673,6 @@
               "url": "https://pitchbook.com/profiles/company/462271-78",
               "name": "pitchbook.com",
               "date": "2026-08-25"
-            }
-          ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported shutdown (s.mysanantonio.com, 2026-04)",
-          "date": "2026-04-17",
-          "sources": [
-            {
-              "url": "https://s.mysanantonio.com/food/article/alvin-ords-san-marcos-workplace-concerns-22210860.php",
-              "name": "Alvin Ord’s in San Marcos remains closed after staff exodus",
-              "date": "2026-04-17"
-            },
-            {
-              "url": "https://abc13.com/post/2-alvin-isd-elementary-schools-shut-down-early-summer-following-storm-damage/19139599/",
-              "name": "2 Alvin ISD elementary schools shut down early for the ...",
-              "date": "2026-05-20"
             }
           ]
         }
@@ -1287,38 +1211,6 @@
               "date": "2026-11-06"
             }
           ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported acquisition (modash.io, 2025-01)",
-          "date": "2025-01-21",
-          "sources": [
-            {
-              "url": "https://www.modash.io/blog/promoty",
-              "name": "Modash Acquires Promoty",
-              "date": "2025-01-21"
-            },
-            {
-              "url": "https://willitsurvive.net/c/modash/",
-              "name": "Modash: will it survive the AI era? Assessed 23 July 2026 · WillItSurvive",
-              "date": "2026-07-23"
-            },
-            {
-              "url": "https://www.balticvc.com/2025/01/estonian-startup-modash-acquires-crm.html",
-              "name": "Estonian startup Modash acquires CRM platform Promoty",
-              "date": "2025-01-21"
-            },
-            {
-              "url": "https://www.netinfluencer.com/modash-acquires-promoty/",
-              "name": "Modash Acquires Promoty In Global Expansion Push",
-              "date": "2025-01-21"
-            },
-            {
-              "url": "https://www.finsmes.com/2025/01/modash-acquires-promoty.html",
-              "name": "Modash Acquires Promoty",
-              "date": "2025-01-21"
-            }
-          ]
         }
       ],
       "founders": [
@@ -1350,24 +1242,24 @@
           ]
         },
         {
-          "name": "Avery Schrader",
+          "name": "Hendry Sadrak",
           "via": "cala",
           "evidence": "Cala: FOUNDED",
           "sources": [
             {
-              "url": "https://tech.eu/2022/11/23/modash/",
-              "name": "tech.eu",
-              "date": "2022-11-23"
+              "url": "https://investinestonia.com/tallinn-based-modash-raises-e11m-praises-estonian-ecosystem",
+              "name": "Tallinn-based Modash raises €11M, praises Estonian ecosystem - Invest in Estonia",
+              "date": "2024-10-31"
             },
             {
-              "url": "https://en.ain.ua/2022/11/24/modash-closes-2m-round",
-              "name": "en.ain.ua",
-              "date": "2022-11-24"
+              "url": "https://startupintros.com/orgs/modash-io",
+              "name": "Modash.io: Funding, Team & Investors",
+              "date": "2026-07-13"
             },
             {
-              "url": "https://www.modash.io/nl/blog/promoty",
-              "name": "modash.io",
-              "date": "2025-01-21"
+              "url": "https://app.welcometothejungle.com/companies/Modash",
+              "name": "The better way to find a job in tech",
+              "date": "2022-01-01"
             }
           ]
         }
@@ -1470,13 +1362,13 @@
       "founders": [
         {
           "name": "Kair Käsper",
-          "linkedinUrl": "https://ee.linkedin.com/in/kair",
+          "linkedinUrl": "https://linkedin.com/in/kair",
           "via": "exa+gemini",
           "evidence": "Co-Founder & CRO, Zendesk QA (Klaus)",
           "sources": [
             {
-              "url": "https://ee.linkedin.com/in/kair",
-              "name": "ee.linkedin.com"
+              "url": "https://linkedin.com/in/kair",
+              "name": "linkedin.com"
             }
           ]
         }
@@ -1500,9 +1392,124 @@
     {
       "calaId": "32d9d83a-1a7b-4fde-9a53-a2a65f1a4013",
       "name": "Helppy",
-      "rounds": [],
-      "signals": [],
-      "founders": [],
+      "rounds": [
+        {
+          "calaId": "4b514f37-b618-4c4e-a546-8baab007cc3e",
+          "label": "Funding round",
+          "date": "2022-05-17",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://techfundingnews.com/helppy-secures-e3m-to-scale-up-its-neighbourhood-elderly-care-model",
+              "name": "techfundingnews.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://en.ain.ua/2022/05/17/helppy-secures-3m",
+              "name": "en.ain.ua",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2022-05-17/startup-helppy-bets-elderly-care-can-bring-100-million-revenue",
+              "name": "www.bloomberg.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://arcticstartup.com/helppy-raises-e3m-seed",
+              "name": "arcticstartup.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.eu-startups.com/2022/05/helsinki-based-helppy-is-revolutionising-home-care-and-has-picked-up-e3-million-to-expand-across-europe",
+              "name": "www.eu-startups.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://nordic9.com/news/helppy-in-a-3-million-in-a-round-led-by-alliance-venture",
+              "name": "nordic9.com",
+              "date": "2026-08-25"
+            }
+          ]
+        },
+        {
+          "calaId": "729222b3-10f1-4fbd-8fab-62e8f236b49c",
+          "label": "Funding round",
+          "date": "2021-10-01",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://en.ain.ua/2022/05/17/helppy-secures-3m",
+              "name": "en.ain.ua",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.private-equitynews.com/news/helsinki-based-helppy-is-revolutionising-home-care-and-has-picked-up-e3-million-to-expand-across-europe",
+              "name": "Helsinki-based Helppy is revolutionising home care and has picked up €3 million to expand across Europe - private-equitynews.com",
+              "date": "2022-05-24"
+            },
+            {
+              "url": "https://nordic9.com/news/helppy-in-a-3-million-in-a-round-led-by-alliance-venture",
+              "name": "nordic9.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2022-05",
+          "date": "2022-05-17",
+          "sources": [
+            {
+              "url": "https://techfundingnews.com/helppy-secures-e3m-to-scale-up-its-neighbourhood-elderly-care-model",
+              "name": "techfundingnews.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://en.ain.ua/2022/05/17/helppy-secures-3m",
+              "name": "en.ain.ua",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2022-05-17/startup-helppy-bets-elderly-care-can-bring-100-million-revenue",
+              "name": "www.bloomberg.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://arcticstartup.com/helppy-raises-e3m-seed",
+              "name": "arcticstartup.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.eu-startups.com/2022/05/helsinki-based-helppy-is-revolutionising-home-care-and-has-picked-up-e3-million-to-expand-across-europe",
+              "name": "www.eu-startups.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://nordic9.com/news/helppy-in-a-3-million-in-a-round-led-by-alliance-venture",
+              "name": "nordic9.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "founders": [
+        {
+          "name": "Eitan Livne",
+          "linkedinUrl": "https://linkedin.com/in/eitan-livne",
+          "via": "exa+gemini",
+          "evidence": "Co-Founder, Helppy",
+          "sources": [
+            {
+              "url": "https://linkedin.com/in/eitan-livne",
+              "name": "linkedin.com"
+            }
+          ]
+        }
+      ],
       "sources": [
         {
           "url": "https://www.icebreaker.vc",
@@ -1515,7 +1522,9 @@
           "date": "2026-08-24"
         }
       ],
-      "state": "unavailable"
+      "state": "enriched",
+      "description": "Digital platform connecting elderly people with helpers for daily tasks",
+      "lastRoundDate": "2022-05-17"
     },
     {
       "calaId": "3318442e-624e-4c94-8b0f-5f93c39a34fa",
@@ -1584,21 +1593,22 @@
               "date": "2026-08-24"
             }
           ]
-        },
+        }
+      ],
+      "founders": [
         {
-          "kind": "news_event",
-          "text": "Reported acquisition (tracxn.com, 2024-03)",
-          "date": "2024-03-12",
+          "name": "Helena Holma",
+          "linkedinUrl": "https://linkedin.com/in/helenaholma",
+          "via": "exa+gemini",
+          "evidence": "CEO & Co-founder, Leyr",
           "sources": [
             {
-              "url": "https://tracxn.com/d/companies/leyr/__j2VFtoTOueSG2E2NRnjVsVOGVh_qPPu2XrWcspQECnY",
-              "name": "Leyr - 2026 Company Profile, Team, Funding & Competitors - Tracxn",
-              "date": "2024-03-12"
+              "url": "https://linkedin.com/in/helenaholma",
+              "name": "linkedin.com"
             }
           ]
         }
       ],
-      "founders": [],
       "sources": [
         {
           "url": "https://www.caplight.com/investor/icebreaker",
@@ -1635,51 +1645,9 @@
               "date": "2026-10-01"
             }
           ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported acquisition (tracxn.com, 2026-05)",
-          "date": "2026-05-21",
-          "sources": [
-            {
-              "url": "https://tracxn.com/d/companies/lutso/__FVBPwWsORVMckNLXwnfHiAS02lv7CdIbf9XAo9YtNp0",
-              "name": "Lutso - 2026 Company Profile, Funding & Competitors - Tracxn",
-              "date": "2026-05-21"
-            },
-            {
-              "url": "https://linkedin.com/in/andrestuul",
-              "name": "Andres Tuul",
-              "date": "2026-11-04"
-            }
-          ]
         }
       ],
-      "founders": [
-        {
-          "name": "Andres Tuul",
-          "linkedinUrl": "https://linkedin.com/in/andrestuul",
-          "via": "exa+gemini",
-          "evidence": "CEO & Co-Founder, Lutso",
-          "sources": [
-            {
-              "url": "https://linkedin.com/in/andrestuul",
-              "name": "linkedin.com"
-            }
-          ]
-        },
-        {
-          "name": "Sten-Erik Mägus",
-          "linkedinUrl": "https://linkedin.com/in/sten-erik-magus",
-          "via": "exa+gemini",
-          "evidence": "Co-Founder, Lutso",
-          "sources": [
-            {
-              "url": "https://linkedin.com/in/sten-erik-magus",
-              "name": "linkedin.com"
-            }
-          ]
-        }
-      ],
+      "founders": [],
       "sources": [
         {
           "url": "https://www.thenetwork.com/profile/aleksi-partanen-c955771d",
@@ -1941,6 +1909,18 @@
         },
         {
           "kind": "news_event",
+          "text": "Reported shutdown (tech.eu, 2024-02)",
+          "date": "2024-02-07",
+          "sources": [
+            {
+              "url": "https://tech.eu/2024/02/07/finnish-hrtech-startup-workfellow-announces-shutdown-amid-challenges/",
+              "name": "Finnish HRtech startup Workfellow announces shutdown amid challenges - Tech.eu",
+              "date": "2024-02-07"
+            }
+          ]
+        },
+        {
+          "kind": "news_event",
           "text": "Reported acquisition (decisions.com, 2024-04)",
           "date": "2024-04-09",
           "sources": [
@@ -1948,11 +1928,6 @@
               "url": "https://decisions.com/blog/processmaker-acquires-workfellow",
               "name": "ProcessMaker Acquires Workfellow",
               "date": "2024-04-09"
-            },
-            {
-              "url": "https://www.deep-analysis.net/we-love-ugly-data-the-deep-analysis-podcast-series-3-episode-4/",
-              "name": "We Love Ugly Data! - The Deep Analysis Podcast: Series 3, Episode 4 | Deep Analysis",
-              "date": "2024-04-08"
             }
           ]
         }
@@ -1960,13 +1935,25 @@
       "founders": [
         {
           "name": "Kustaa Kivelä",
-          "linkedinUrl": "https://fi.linkedin.com/in/kustaakivela",
+          "linkedinUrl": "https://linkedin.com/in/kustaakivela",
           "via": "exa+gemini",
           "evidence": "Co-Founder & CEO, Workfellow",
           "sources": [
             {
-              "url": "https://fi.linkedin.com/in/kustaakivela",
-              "name": "fi.linkedin.com"
+              "url": "https://linkedin.com/in/kustaakivela",
+              "name": "linkedin.com"
+            }
+          ]
+        },
+        {
+          "name": "Henri W.",
+          "linkedinUrl": "https://linkedin.com/in/hwiik",
+          "via": "exa+gemini",
+          "evidence": "CPO and Co-founder, Workfellow",
+          "sources": [
+            {
+              "url": "https://linkedin.com/in/hwiik",
+              "name": "linkedin.com"
             }
           ]
         }
@@ -2207,28 +2194,6 @@
               "date": "2026-08-25"
             }
           ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported acquisition (tracxn.com, 2024-01)",
-          "date": "2024-01-18",
-          "sources": [
-            {
-              "url": "https://tracxn.com/d/companies/alinor/__4ylP5GIDfRX8O800VCld1Y0V8fGXdLNVRUx94fXfJBk",
-              "name": "Alinor - 2026 Company Profile & Competitors - Tracxn",
-              "date": "2024-01-18"
-            },
-            {
-              "url": "https://www.propertyweek.com/news/alinor-and-oval-snap-up-manchesters-first-street-offices",
-              "name": "Alinor and Oval snap up Manchester's First Street offices | Property Week",
-              "date": "2026-04-02"
-            },
-            {
-              "url": "https://www.placenorthwest.co.uk/plans-in-for-rooftop-terrace-at-evolving-first-street-office/",
-              "name": "Plans in for rooftop terrace at evolving First Street office - Place North West",
-              "date": "2026-07-22"
-            }
-          ]
         }
       ],
       "founders": [
@@ -2307,51 +2272,9 @@
               "date": "2026-08-25"
             }
           ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported acquisition (dibgroup.com.au, 2024-10)",
-          "date": "2024-10-26",
-          "sources": [
-            {
-              "url": "https://dibgroup.com.au/dib-group-comapnies/",
-              "name": "Dib Group Comapnies - Dib Group",
-              "date": "2024-10-26"
-            },
-            {
-              "url": "https://www.realcommercial.com.au/news/soft-serve-summers-the-enduring-legacy-of-mr-whippy",
-              "name": "Soft serve summers: The enduring legacy of Mr. Whippy",
-              "date": "2024-06-12"
-            }
-          ]
         }
       ],
-      "founders": [
-        {
-          "name": "Jack Kennedy",
-          "linkedinUrl": "https://linkedin.com/in/jackbkennedy",
-          "via": "exa+gemini",
-          "evidence": "Co-Founder & CTO, Whippy",
-          "sources": [
-            {
-              "url": "https://linkedin.com/in/jackbkennedy",
-              "name": "linkedin.com"
-            }
-          ]
-        },
-        {
-          "name": "David Daneshgar",
-          "linkedinUrl": "https://linkedin.com/in/david-daneshgar-a47474b",
-          "via": "exa+gemini",
-          "evidence": "Co-Founder & CEO, Whippy",
-          "sources": [
-            {
-              "url": "https://linkedin.com/in/david-daneshgar-a47474b",
-              "name": "linkedin.com"
-            }
-          ]
-        }
-      ],
+      "founders": [],
       "sources": [
         {
           "url": "https://www.icebreaker.vc",
@@ -2397,23 +2320,6 @@
               "url": "https://tracxn.com/d/companies/cachet/__xBv-nwdcGrgdIdOax9uV6OPjTbxETBa947B65OHvOSA",
               "name": "tracxn.com",
               "date": "2026-06-10"
-            }
-          ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported bankruptcy (legalclarity.org, 2025-12)",
-          "date": "2025-12-14",
-          "sources": [
-            {
-              "url": "https://legalclarity.org/in-re-cachet-financial-services-key-rulings-and-impact/",
-              "name": "In re Cachet Financial Services: Key Rulings and Impact - LegalClarity",
-              "date": "2025-12-14"
-            },
-            {
-              "url": "https://exa.ai/library/legal/opinion/w6kzq990fdt",
-              "name": "In re Debtor Cachet Financial Services (trial court document), District Court, C.D. California, 2024",
-              "date": "2024-05-22"
             }
           ]
         }
@@ -2576,23 +2482,6 @@
               "date": "2021-02-01"
             }
           ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported acquisition (fi.linkedin.com, 2025-08)",
-          "date": "2025-08-26",
-          "sources": [
-            {
-              "url": "https://fi.linkedin.com/company/apiable-io",
-              "name": "apiable.io - Työntekijät, työpaikat, varasto ja kulttuuri | LinkedIn",
-              "date": "2025-08-26"
-            },
-            {
-              "url": "https://apisyouwonthate.com/podcast/allan-knabe-apiable-api-portal/",
-              "name": "Every business is an API business, with Allan Knabe from Apiable",
-              "date": "2024-02-14"
-            }
-          ]
         }
       ],
       "founders": [],
@@ -2699,13 +2588,13 @@
           ]
         },
         {
-          "name": "Antti Tapio",
-          "linkedinUrl": "https://linkedin.com/in/tapio-antti",
+          "name": "Janne Juhala",
+          "linkedinUrl": "https://linkedin.com/in/jannejuhala",
           "via": "exa+gemini",
-          "evidence": "Chief Innovation Officer, Co-Founder, Logmore",
+          "evidence": "CTO, Co-founder, Logmore",
           "sources": [
             {
-              "url": "https://linkedin.com/in/tapio-antti",
+              "url": "https://linkedin.com/in/jannejuhala",
               "name": "linkedin.com"
             }
           ]
@@ -2788,11 +2677,6 @@
               "url": "https://www.netigate.net/press/netigate-acquires-lumoa-to-better-harness-the-power-of-feedback/",
               "name": "Netigate acquires Lumoa to better harness the power of feedback – Netigate",
               "date": "2024-03-26"
-            },
-            {
-              "url": "https://chattermill.com/blog/lumoa-alternatives",
-              "name": "Best Lumoa Alternatives For Feedback Analytics (2026)",
-              "date": "2026-08-25"
             }
           ]
         }
@@ -2830,9 +2714,72 @@
     {
       "calaId": "7f89f651-ba07-4218-a367-9f0f839dbf71",
       "name": "Fondion",
-      "rounds": [],
-      "signals": [],
-      "founders": [],
+      "rounds": [
+        {
+          "calaId": "9c9ac760-4b86-4fce-abf0-00191dcfd0b7",
+          "label": "Funding round",
+          "date": "2025-06-01",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/fondion/__icKG0ID9GGRj4uXEJ6BZjuzc7771LCsfuuEFJYSEtHA/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/fondion/__icKG0ID9GGRj4uXEJ6BZjuzc7771LCsfuuEFJYSEtHA",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2025-06",
+          "date": "2025-06-01",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/fondion/__icKG0ID9GGRj4uXEJ6BZjuzc7771LCsfuuEFJYSEtHA/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/fondion/__icKG0ID9GGRj4uXEJ6BZjuzc7771LCsfuuEFJYSEtHA",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "founders": [
+        {
+          "name": "Riko Nyberg",
+          "linkedinUrl": "https://linkedin.com/in/riko-nyberg",
+          "via": "exa+gemini",
+          "evidence": "Co-Founder & CTO, Fondion",
+          "sources": [
+            {
+              "url": "https://linkedin.com/in/riko-nyberg",
+              "name": "linkedin.com"
+            }
+          ]
+        },
+        {
+          "name": "Jukka-Pekka Tahkola",
+          "linkedinUrl": "https://linkedin.com/in/jukka-pekka-tahkola-486794106",
+          "via": "exa+gemini",
+          "evidence": "CEO / Partner, Fondion",
+          "sources": [
+            {
+              "url": "https://linkedin.com/in/jukka-pekka-tahkola-486794106",
+              "name": "linkedin.com"
+            }
+          ]
+        }
+      ],
       "sources": [
         {
           "url": "https://tracxn.com/d/venture-capital/icebreaker/__6onsCCxoge0mlrsTAu7qNqkle4NFbLIHo2zNfANtVfw",
@@ -2840,13 +2787,62 @@
           "date": "2026-08-24"
         }
       ],
-      "state": "unavailable"
+      "state": "enriched",
+      "description": "Finnish startup for document and proposal automation",
+      "lastRoundDate": "2025-06-01"
     },
     {
       "calaId": "8159469d-35ec-4956-ae63-98852911a998",
       "name": "Kodit.io",
-      "rounds": [],
-      "signals": [],
+      "rounds": [
+        {
+          "calaId": "058cb5d6-2f1d-429b-9397-157883659552",
+          "label": "Funding round",
+          "date": "2019-06-03",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2019/06/03/proptech-startup-kodit-io-raises-13m-to-automate-house-buying-and-selling",
+              "name": "PropTech startup Kodit.io raises $13M to automate house buying and selling | TechCrunch",
+              "date": "2019-06-03"
+            }
+          ]
+        },
+        {
+          "calaId": "7efdee87-c3df-41c5-ad4a-75ee1b8e27ef",
+          "label": "Funding round",
+          "date": "2019-06-03",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://pitchbook.com/newsletter/koditio-scores-17m",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://techcrunch.com/2019/06/03/proptech-startup-kodit-io-raises-13m-to-automate-house-buying-and-selling",
+              "name": "PropTech startup Kodit.io raises $13M to automate house buying and selling | TechCrunch",
+              "date": "2019-06-03"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2019-06",
+          "date": "2019-06-03",
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2019/06/03/proptech-startup-kodit-io-raises-13m-to-automate-house-buying-and-selling",
+              "name": "PropTech startup Kodit.io raises $13M to automate house buying and selling | TechCrunch",
+              "date": "2019-06-03"
+            }
+          ]
+        }
+      ],
       "founders": [],
       "sources": [
         {
@@ -2865,7 +2861,9 @@
           "date": "2020-09-03"
         }
       ],
-      "state": "unavailable"
+      "state": "enriched",
+      "description": "PropTech startup and iBuyer providing instant offers for apartment owners",
+      "lastRoundDate": "2019-06-03"
     },
     {
       "calaId": "826eb696-eb63-4aac-ba42-cee82552ad20",
@@ -2906,18 +2904,6 @@
               "url": "https://www.crunchbase.com/organization/sense-of-space",
               "name": "www.crunchbase.com",
               "date": "2026-08-25"
-            }
-          ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported shutdown (outerspeak.substack.com, 2025-05)",
-          "date": "2025-05-22",
-          "sources": [
-            {
-              "url": "https://outerspeak.substack.com/p/lost-not-really-how-digital-maps",
-              "name": "Lost? Not Really: How digital maps keep us found and found us, too.",
-              "date": "2025-05-22"
             }
           ]
         }
@@ -3186,23 +3172,6 @@
               "date": "2026-06-10"
             }
           ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported acquisition (uk.linkedin.com, 2025-04)",
-          "date": "2025-04-11",
-          "sources": [
-            {
-              "url": "https://uk.linkedin.com/company/hoxhunt",
-              "name": "Hoxhunt",
-              "date": "2025-04-11"
-            },
-            {
-              "url": "https://www.linkedin.com/posts/lehtinenlasse_icebreaker-investor-day-2026-activity-7501560740240068608-I28h",
-              "name": "Finland's growth problem is mostly an owner problem. Politicians deserve some of the blame too, but that is another story. Finland will only see growth when there are enough owners with a … | Lasse Lehtinen",
-              "date": "2026-09-04"
-            }
-          ]
         }
       ],
       "founders": [
@@ -3290,9 +3259,86 @@
     {
       "calaId": "89888bda-2012-418d-b8b9-ae9368306ecf",
       "name": "Fixably",
-      "rounds": [],
-      "signals": [],
-      "founders": [],
+      "rounds": [
+        {
+          "calaId": "7c5b0d2f-0b96-428e-ba37-ee860e50abac",
+          "label": "Funding round",
+          "date": "2023-06-07",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/fixably/__lz3RA1ai2rSMPUTO-ZCflKoDZLzbES7I9ASCBs3kofU/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/439302-43",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            }
+          ]
+        },
+        {
+          "calaId": "96d05651-2690-4480-beb7-772c08eb2d8e",
+          "label": "Funding round",
+          "date": "2020-09-18",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/fixably/__lz3RA1ai2rSMPUTO-ZCflKoDZLzbES7I9ASCBs3kofU/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2023-06",
+          "date": "2023-06-07",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/fixably/__lz3RA1ai2rSMPUTO-ZCflKoDZLzbES7I9ASCBs3kofU/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/439302-43",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "founders": [
+        {
+          "name": "Joel Mansnerus",
+          "linkedinUrl": "https://linkedin.com/in/jmansner",
+          "via": "exa+gemini",
+          "evidence": "CEO & Co-Founder, Fixably",
+          "sources": [
+            {
+              "url": "https://linkedin.com/in/jmansner",
+              "name": "linkedin.com"
+            }
+          ]
+        },
+        {
+          "name": "Janne Lumijärvi",
+          "linkedinUrl": "https://linkedin.com/in/jannelumijarvi",
+          "via": "exa+gemini",
+          "evidence": "Co-founder & Technical Product Lead, Fixably",
+          "sources": [
+            {
+              "url": "https://linkedin.com/in/jannelumijarvi",
+              "name": "linkedin.com"
+            }
+          ]
+        }
+      ],
       "sources": [
         {
           "url": "https://www.icebreaker.vc",
@@ -3310,7 +3356,9 @@
           "date": "2026-05-10"
         }
       ],
-      "state": "unavailable"
+      "state": "enriched",
+      "description": "Software platform to help repair service providers extend the lifetime of devices",
+      "lastRoundDate": "2023-06-07"
     },
     {
       "calaId": "8e416e4e-1947-4dde-ba6e-a1a07228867c",
@@ -3374,7 +3422,20 @@
           ]
         }
       ],
-      "founders": [],
+      "founders": [
+        {
+          "name": "Calle Mellbin",
+          "linkedinUrl": "https://linkedin.com/in/callemellbin",
+          "via": "exa+gemini",
+          "evidence": "Founder & CEO (Acquired by Kivra), Tab",
+          "sources": [
+            {
+              "url": "https://linkedin.com/in/callemellbin",
+              "name": "linkedin.com"
+            }
+          ]
+        }
+      ],
       "sources": [
         {
           "url": "https://estvca.ee/news/exit-icebreaker-vc-portfolio-company-tab-has-been-acquired-by-kivra",
@@ -3450,13 +3511,13 @@
       "founders": [
         {
           "name": "Silver Lodi",
-          "linkedinUrl": "https://ee.linkedin.com/in/silverlodi",
+          "linkedinUrl": "https://linkedin.com/in/silverlodi",
           "via": "exa+gemini",
           "evidence": "CEO, Co-Founder, Spaceit",
           "sources": [
             {
-              "url": "https://ee.linkedin.com/in/silverlodi",
-              "name": "ee.linkedin.com"
+              "url": "https://linkedin.com/in/silverlodi",
+              "name": "linkedin.com"
             }
           ]
         }
@@ -3739,16 +3800,6 @@
               "date": "2025-01-31"
             },
             {
-              "url": "https://www.linkedin.com/company/spindlxyz",
-              "name": "Spindl",
-              "date": "2024-05-21"
-            },
-            {
-              "url": "https://www.theblock.co/news/markets/2025-01-31-coinbase-acquires-web3-adtech-platform-spindl-338276",
-              "name": "Coinbase acquires web3 adtech platform Spindl",
-              "date": "2025-01-31"
-            },
-            {
               "url": "https://crypto.news/coinbase-acquires-spindl-for-better-onchain-advertising/",
               "name": "Coinbase acquires Spindl for better onchain advertising",
               "date": "2025-01-31"
@@ -3765,6 +3816,18 @@
           "sources": [
             {
               "url": "https://linkedin.com/in/claus-pener",
+              "name": "linkedin.com"
+            }
+          ]
+        },
+        {
+          "name": "Taavi Kliss",
+          "linkedinUrl": "https://linkedin.com/in/taavikliss",
+          "via": "exa+gemini",
+          "evidence": "CTO | Co-Founder, Spindl",
+          "sources": [
+            {
+              "url": "https://linkedin.com/in/taavikliss",
               "name": "linkedin.com"
             }
           ]
@@ -3852,26 +3915,6 @@
               "url": "https://www.linkedin.com/posts/ari-tuononen-4a88418a_home-roadcloud-activity-7201831088938192896-gBWa",
               "name": "As announced yesterday, The Goodyear Tire & Rubber Company has acquired RoadCloud Oy. I’d like to thank all our supporters, especially our employees, board members, investors, and customers. RoadCloud’s business will continue … | Ari Tuononen",
               "date": "2024-05-30"
-            },
-            {
-              "url": "https://arcticstartup.com/roadcloud-acquired-by-the-goodyear-tire-rubber-company/",
-              "name": "Finnish startup joins forces with Goodyear in strategic acquisition to enhance tire intelligence - ArcticStartup",
-              "date": "2024-05-30"
-            },
-            {
-              "url": "https://www.linkedin.com/feed/update/urn:li:activity:7201579085498650624",
-              "name": "Connected tires read the road and report back to the vehicle, delivering enhanced safety and performance through actionable insights on tire condition, weather, road conditions and more.",
-              "date": "2024-05-29"
-            },
-            {
-              "url": "https://www.linkedin.com/posts/lehtinenlasse_home-roadcloud-activity-7201630459561185281-uvpX",
-              "name": "The Goodyear Tire & Rubber Company acquires our portfolio company RoadCloud Oy. Once again, congrats Ari and Arto! This is already the third exit in the Icebreaker portfolio within a couple of … | Lasse Lehtinen",
-              "date": "2024-05-29"
-            },
-            {
-              "url": "https://linkedin.com/in/markus-ovaska-021b42138",
-              "name": "Markus Ovaska",
-              "date": "2026-08-06"
             }
           ]
         }
@@ -3909,9 +3952,112 @@
     {
       "calaId": "cadf8009-d7e4-41aa-83ff-540accfe7f8a",
       "name": "Crewpoint",
-      "rounds": [],
-      "signals": [],
-      "founders": [],
+      "rounds": [
+        {
+          "calaId": "58e8924a-951a-4b2a-a4b3-596f127cbb6d",
+          "label": "Funding round",
+          "date": "2025-05-27",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/crewpoint/__Z1hgjCGkD0aB01NJl7qMeuhz0OEaPe6GpWXzG_NPspM",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/venture-capital/icebreaker/__6onsCCxoge0mlrsTAu7qNqkle4NFbLIHo2zNfANtVfw",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://crewpoint.com/news/fundraising-round-icebreaker-vc",
+              "name": "Crewpoint Announces First Funding Round Led by Icebreaker.vc to Transform Maritime Crew Travel",
+              "date": "2025-05-30"
+            },
+            {
+              "url": "https://www.linkedin.com/posts/crewpoint_crewpoint-announces-first-funding-round-led-activity-7331241981513195521-7e7u",
+              "name": "Crewpoint Announces First Funding Round Led by Icebreaker.vc to Transform Maritime Crew Travel with AI-Driven Service-as-a-Software Solution Tallinn, Estonia – May 2025 Crewpoint, a next-generation… | Crewpoint",
+              "date": "2025-05-22"
+            },
+            {
+              "url": "https://en.ain.ua/2025/05/27/crewpoint-closes-funding-round",
+              "name": "en.ain.ua",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.crunchbase.com/organization/crewpoint",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2025-05",
+          "date": "2025-05-27",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/crewpoint/__Z1hgjCGkD0aB01NJl7qMeuhz0OEaPe6GpWXzG_NPspM",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/venture-capital/icebreaker/__6onsCCxoge0mlrsTAu7qNqkle4NFbLIHo2zNfANtVfw",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://crewpoint.com/news/fundraising-round-icebreaker-vc",
+              "name": "Crewpoint Announces First Funding Round Led by Icebreaker.vc to Transform Maritime Crew Travel",
+              "date": "2025-05-30"
+            },
+            {
+              "url": "https://www.linkedin.com/posts/crewpoint_crewpoint-announces-first-funding-round-led-activity-7331241981513195521-7e7u",
+              "name": "Crewpoint Announces First Funding Round Led by Icebreaker.vc to Transform Maritime Crew Travel with AI-Driven Service-as-a-Software Solution Tallinn, Estonia – May 2025 Crewpoint, a next-generation… | Crewpoint",
+              "date": "2025-05-22"
+            },
+            {
+              "url": "https://en.ain.ua/2025/05/27/crewpoint-closes-funding-round",
+              "name": "en.ain.ua",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.crunchbase.com/organization/crewpoint",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "founders": [
+        {
+          "name": "Marko Saul",
+          "linkedinUrl": "https://linkedin.com/in/markosaul",
+          "via": "exa+gemini",
+          "evidence": "Co-Founder & CEO, Crewpoint",
+          "sources": [
+            {
+              "url": "https://linkedin.com/in/markosaul",
+              "name": "linkedin.com"
+            }
+          ]
+        },
+        {
+          "name": "Toomas Koost",
+          "linkedinUrl": "https://linkedin.com/in/toomaskoost",
+          "via": "exa+gemini",
+          "evidence": "Chief Product Officer & Co-Founder, Crewpoint",
+          "sources": [
+            {
+              "url": "https://linkedin.com/in/toomaskoost",
+              "name": "linkedin.com"
+            }
+          ]
+        }
+      ],
       "sources": [
         {
           "url": "https://crewpoint.com/news/fundraising-round-icebreaker-vc",
@@ -3929,7 +4075,9 @@
           "date": "2026-08-24"
         }
       ],
-      "state": "unavailable"
+      "state": "enriched",
+      "description": "AI-driven service-as-a-software solution for maritime crew management",
+      "lastRoundDate": "2025-05-27"
     },
     {
       "calaId": "cc75e3f7-3e62-4964-abcb-9bfe5f4b8bc1",
@@ -4231,18 +4379,6 @@
               "date": "2026-11-13"
             }
           ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported acquisition (linkedin.com, 2025-01)",
-          "date": "2025-01-21",
-          "sources": [
-            {
-              "url": "https://www.linkedin.com/posts/akoha_one-long-journey-coming-to-an-end-what-activity-7287440423713673216-6MEW",
-              "name": "One long journey coming to an end. | Aleks Koha",
-              "date": "2025-01-21"
-            }
-          ]
         }
       ],
       "founders": [],
@@ -4370,18 +4506,6 @@
               "date": "2026-10-01"
             }
           ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported acquisition (linkedin.com, 2024-08)",
-          "date": "2024-08-22",
-          "sources": [
-            {
-              "url": "https://www.linkedin.com/company/sellforte",
-              "name": "Sellforte",
-              "date": "2024-08-22"
-            }
-          ]
         }
       ],
       "founders": [
@@ -4470,7 +4594,19 @@
       "calaId": "d582b19b-00db-4851-9644-59baacc5cb4b",
       "name": "NROC Security, Inc.",
       "rounds": [],
-      "signals": [],
+      "signals": [
+        {
+          "kind": "status",
+          "text": "Cala status: ACTIVE",
+          "sources": [
+            {
+              "url": "https://nrocsecurity.com/",
+              "name": "nrocsecurity.com",
+              "date": "2026-11-02"
+            }
+          ]
+        }
+      ],
       "founders": [],
       "sources": [
         {
@@ -4479,26 +4615,14 @@
           "date": "2023-12-30"
         }
       ],
-      "state": "unavailable"
+      "state": "enriched",
+      "description": "Employees are already using GenAI. Secure enterprise AI with real-time guardrails, data protection, and full visibility—while safely increasing productivity."
     },
     {
       "calaId": "d7106c50-2d55-4172-a242-8f997e4f89d5",
       "name": "Accurator",
       "rounds": [],
-      "signals": [
-        {
-          "kind": "news_event",
-          "text": "Reported acquisition (news.cision.com, 2024-10)",
-          "date": "2024-10-01",
-          "sources": [
-            {
-              "url": "https://news.cision.com/aceve/r/hvd-group--nordic-leader-in-saas-for-construction-and-tradesmen--acquires-accurator-to-deliver-compr,c4043145",
-              "name": "HVD Group, Nordic Leader in SaaS for Construction and Tradesmen, Acquires Accurator to Deliver Comprehensive Procurement Solutions - Aceve",
-              "date": "2024-10-01"
-            }
-          ]
-        }
-      ],
+      "signals": [],
       "founders": [],
       "sources": [
         {
@@ -4561,9 +4685,60 @@
     {
       "calaId": "d71306ad-ba56-4846-8a33-1cc1914f9d0f",
       "name": "Finnadvance",
-      "rounds": [],
-      "signals": [],
-      "founders": [],
+      "rounds": [
+        {
+          "calaId": "a95cb09d-e33a-440d-93a2-7ed21bc49b8e",
+          "label": "Funding round",
+          "date": "2022-04-08",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/finnadvance/__HpUEywkFPopCfZGYpSCZqDJUPvJRTcAdaaApiZpSqJU/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.crunchbase.com/funding_round/finnadvance-seed--4ddbb183",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2022-04",
+          "date": "2022-04-08",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/finnadvance/__HpUEywkFPopCfZGYpSCZqDJUPvJRTcAdaaApiZpSqJU/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.crunchbase.com/funding_round/finnadvance-seed--4ddbb183",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "founders": [
+        {
+          "name": "Prateek Singh",
+          "linkedinUrl": "https://linkedin.com/in/pratsku",
+          "via": "exa+gemini",
+          "evidence": "CEO, founder, Finnadvance",
+          "sources": [
+            {
+              "url": "https://linkedin.com/in/pratsku",
+              "name": "linkedin.com"
+            }
+          ]
+        }
+      ],
       "sources": [
         {
           "url": "https://www.icebreaker.vc",
@@ -4571,7 +4746,9 @@
           "date": "2021-01-28"
         }
       ],
-      "state": "unavailable"
+      "state": "enriched",
+      "description": "Develops microfluidic organ-on-chip platforms using microtechnology and 3D biology solutions for biomedical research and drug testing.",
+      "lastRoundDate": "2022-04-08"
     },
     {
       "calaId": "da87c715-6d32-52c7-b107-aeee58229f79",
@@ -4588,46 +4765,9 @@
               "date": "2026-11-02"
             }
           ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported acquisition (startupfundraising.com, 2026-08)",
-          "date": "2026-08-12",
-          "sources": [
-            {
-              "url": "https://startupfundraising.com/library/articles/flowhaven-pitch-deck-teardown",
-              "name": "Flowhaven Pitch Deck Breakdown: All 14 Slides",
-              "date": "2026-08-12"
-            }
-          ]
         }
       ],
-      "founders": [
-        {
-          "name": "Timo Olkkola",
-          "via": "cala",
-          "evidence": "Cala: FOUNDED",
-          "sources": [
-            {
-              "url": "https://flowhaven.com/about/",
-              "name": "flowhaven.com",
-              "date": "2026-11-03"
-            }
-          ]
-        },
-        {
-          "name": "Kalle Törmä",
-          "via": "cala",
-          "evidence": "Cala: FOUNDED",
-          "sources": [
-            {
-              "url": "https://flowhaven.com/about/",
-              "name": "flowhaven.com",
-              "date": "2026-11-03"
-            }
-          ]
-        }
-      ],
+      "founders": [],
       "sources": [
         {
           "url": "https://licensinginternational.org/news/flowhaven-raises-5-2-million-in-seed-funding-led-by-global-founders-capital-to-expand-brand-licensing-business/",
@@ -4812,18 +4952,6 @@
               "url": "https://www.crunchbase.com/organization/valpas",
               "name": "www.crunchbase.com",
               "date": "2026-06-10"
-            }
-          ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported acquisition (tracxn.com, 2024-10)",
-          "date": "2024-10-17",
-          "sources": [
-            {
-              "url": "https://tracxn.com/d/companies/valpas/__59vMDHmFNGwiVNJ61vbir3JU1S8EP32mHk-JOJZqF64",
-              "name": "Valpas - 2026 Company Profile & Funding - Tracxn",
-              "date": "2024-10-17"
             }
           ]
         }
@@ -5170,18 +5298,6 @@
       ],
       "founders": [
         {
-          "name": "Jarkko Niemelä",
-          "linkedinUrl": "https://linkedin.com/in/jarkkoniemela",
-          "via": "exa+gemini",
-          "evidence": "Co-Founder, MVision AI",
-          "sources": [
-            {
-              "url": "https://linkedin.com/in/jarkkoniemela",
-              "name": "linkedin.com"
-            }
-          ]
-        },
-        {
           "name": "Mahmudul Hasan",
           "linkedinUrl": "https://linkedin.com/in/mhasan2",
           "via": "exa+gemini",
@@ -5189,6 +5305,18 @@
           "sources": [
             {
               "url": "https://linkedin.com/in/mhasan2",
+              "name": "linkedin.com"
+            }
+          ]
+        },
+        {
+          "name": "Jarkko Niemelä",
+          "linkedinUrl": "https://linkedin.com/in/jarkkoniemela",
+          "via": "exa+gemini",
+          "evidence": "Co-Founder, MVision AI",
+          "sources": [
+            {
+              "url": "https://linkedin.com/in/jarkkoniemela",
               "name": "linkedin.com"
             }
           ]
@@ -5320,48 +5448,6 @@
     }
   ],
   "callList": [
-    {
-      "companyId": "07a7a3de-5519-48f5-8538-6589a4c6a9e0",
-      "companyName": "Tesseract",
-      "founder": {
-        "name": "Henri Littunen",
-        "linkedinUrl": "https://linkedin.com/in/henri-littunen",
-        "via": "exa+gemini",
-        "evidence": "CEO & Board Member, Tesseract Investment | Group COO, Tesseract, Tesseract",
-        "sources": [
-          {
-            "url": "https://linkedin.com/in/henri-littunen",
-            "name": "linkedin.com"
-          }
-        ]
-      },
-      "group": "recent_round",
-      "why": [
-        {
-          "kind": "last_round",
-          "text": "Last recorded round: 2026-08",
-          "date": "2026-08-25",
-          "sources": [
-            {
-              "url": "https://tracxn.com/d/companies/tesseract/__NszA0k6Tl8b39VC6HtqBCauWhjvk3xoS300jb8qKDKs/funding-and-investors",
-              "name": "tracxn.com",
-              "date": "2026-08-25"
-            },
-            {
-              "url": "https://pitchbook.com/profiles/company/233640-28",
-              "name": "pitchbook.com",
-              "date": "2026-08-25"
-            }
-          ]
-        }
-      ],
-      "questions": [
-        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
-        "What did Icebreaker.vc's partners actually do for you after the investment?",
-        "Would you take money from Icebreaker.vc again, and why?"
-      ],
-      "writing": []
-    },
     {
       "companyId": "17c5c020-6037-4743-ae24-49a59ec0cbe6",
       "companyName": "ReOrbit",
@@ -5519,6 +5605,90 @@
       "writing": []
     },
     {
+      "companyId": "07a7a3de-5519-48f5-8538-6589a4c6a9e0",
+      "companyName": "Tesseract",
+      "founder": {
+        "name": "Yichen Wu",
+        "linkedinUrl": "https://linkedin.com/in/yichenwu0228",
+        "via": "exa+gemini",
+        "evidence": "CEO & Co-Founder, Tesseract",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/yichenwu0228",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-08",
+          "date": "2026-08-25",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/tesseract/__NszA0k6Tl8b39VC6HtqBCauWhjvk3xoS300jb8qKDKs/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/233640-28",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
+        "What did Icebreaker.vc's partners actually do for you after the investment?",
+        "Would you take money from Icebreaker.vc again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "07a7a3de-5519-48f5-8538-6589a4c6a9e0",
+      "companyName": "Tesseract",
+      "founder": {
+        "name": "Henri Littunen",
+        "linkedinUrl": "https://fi.linkedin.com/in/henri-littunen",
+        "via": "exa+gemini",
+        "evidence": "CEO & Board Member, Tesseract Investment | Group COO, Tesseract, Tesseract",
+        "sources": [
+          {
+            "url": "https://fi.linkedin.com/in/henri-littunen",
+            "name": "fi.linkedin.com"
+          }
+        ]
+      },
+      "group": "recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-08",
+          "date": "2026-08-25",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/tesseract/__NszA0k6Tl8b39VC6HtqBCauWhjvk3xoS300jb8qKDKs/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/233640-28",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
+        "What did Icebreaker.vc's partners actually do for you after the investment?",
+        "Would you take money from Icebreaker.vc again, and why?"
+      ],
+      "writing": []
+    },
+    {
       "companyId": "85c41f1c-b4b6-4680-b029-d4c71dc9a9b9",
       "companyName": "Hoxhunt Oy",
       "founder": {
@@ -5553,7 +5723,7 @@
           }
         ]
       },
-      "group": "news_event",
+      "group": "no_recent_round",
       "why": [
         {
           "kind": "last_round",
@@ -5569,23 +5739,6 @@
               "url": "https://pitchbook.com/profiles/company/170548-21",
               "name": "pitchbook.com",
               "date": "2026-06-10"
-            }
-          ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported acquisition (uk.linkedin.com, 2025-04)",
-          "date": "2025-04-11",
-          "sources": [
-            {
-              "url": "https://uk.linkedin.com/company/hoxhunt",
-              "name": "Hoxhunt",
-              "date": "2025-04-11"
-            },
-            {
-              "url": "https://www.linkedin.com/posts/lehtinenlasse_icebreaker-investor-day-2026-activity-7501560740240068608-I28h",
-              "name": "Finland's growth problem is mostly an owner problem. Politicians deserve some of the blame too, but that is another story. Finland will only see growth when there are enough owners with a … | Lasse Lehtinen",
-              "date": "2026-09-04"
             }
           ]
         }
@@ -5627,7 +5780,7 @@
           }
         ]
       },
-      "group": "news_event",
+      "group": "no_recent_round",
       "why": [
         {
           "kind": "last_round",
@@ -5645,21 +5798,98 @@
               "date": "2026-06-10"
             }
           ]
-        },
+        }
+      ],
+      "questions": [
+        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
+        "What did Icebreaker.vc's partners actually do for you after the investment?",
+        "Would you take money from Icebreaker.vc again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "ef7781cd-5b49-415b-be03-09891bd4e84e",
+      "companyName": "Zymego",
+      "founder": {
+        "name": "Ingmar Veinberg",
+        "linkedinUrl": "https://linkedin.com/in/ingmar-veinberg-4b77172",
+        "via": "exa+gemini",
+        "evidence": "Founder-Chief Medical Officer, Zymego",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/ingmar-veinberg-4b77172",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "recent_round",
+      "why": [
         {
-          "kind": "news_event",
-          "text": "Reported acquisition (uk.linkedin.com, 2025-04)",
-          "date": "2025-04-11",
+          "kind": "last_round",
+          "text": "Last recorded round: 2025-06",
+          "date": "2025-06-26",
           "sources": [
             {
-              "url": "https://uk.linkedin.com/company/hoxhunt",
-              "name": "Hoxhunt",
-              "date": "2025-04-11"
+              "url": "https://industrifonden.com/news/zymego-raises-sek-30-million-in-funding-round-led-by-industrifonden",
+              "name": "Zymego raises SEK 30 million in funding round led by Industrifonden",
+              "date": "2025-06-26"
             },
             {
-              "url": "https://www.linkedin.com/posts/lehtinenlasse_icebreaker-investor-day-2026-activity-7501560740240068608-I28h",
-              "name": "Finland's growth problem is mostly an owner problem. Politicians deserve some of the blame too, but that is another story. Finland will only see growth when there are enough owners with a … | Lasse Lehtinen",
-              "date": "2026-09-04"
+              "url": "https://tracxn.com/d/companies/zymego/__3qtMmL6xbwMh3r8jBk6D12b-ok_u8m_PTyUkcAubtZI",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/zymego/__3qtMmL6xbwMh3r8jBk6D12b-ok_u8m_PTyUkcAubtZI/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
+        "What did Icebreaker.vc's partners actually do for you after the investment?",
+        "Would you take money from Icebreaker.vc again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "ef7781cd-5b49-415b-be03-09891bd4e84e",
+      "companyName": "Zymego",
+      "founder": {
+        "name": "Nathalie Rohlén",
+        "linkedinUrl": "https://linkedin.com/in/nathalie-rohl%C3%A9n-bb2590145",
+        "via": "exa+gemini",
+        "evidence": "Founder & Board member, Zymego",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/nathalie-rohl%C3%A9n-bb2590145",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2025-06",
+          "date": "2025-06-26",
+          "sources": [
+            {
+              "url": "https://industrifonden.com/news/zymego-raises-sek-30-million-in-funding-round-led-by-industrifonden",
+              "name": "Zymego raises SEK 30 million in funding round led by Industrifonden",
+              "date": "2025-06-26"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/zymego/__3qtMmL6xbwMh3r8jBk6D12b-ok_u8m_PTyUkcAubtZI",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/zymego/__3qtMmL6xbwMh3r8jBk6D12b-ok_u8m_PTyUkcAubtZI/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
             }
           ]
         }
@@ -5686,7 +5916,7 @@
           }
         ]
       },
-      "group": "news_event",
+      "group": "no_recent_round",
       "why": [
         {
           "kind": "last_round",
@@ -5718,18 +5948,6 @@
               "url": "https://find-and-update.company-information.service.gov.uk/company/FC037274",
               "name": "Companies House UK",
               "date": "2026-11-01"
-            }
-          ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported acquisition (startupfundraising.com, 2026-08)",
-          "date": "2026-08-12",
-          "sources": [
-            {
-              "url": "https://startupfundraising.com/library/articles/flowhaven-pitch-deck-teardown",
-              "name": "Flowhaven Pitch Deck Breakdown: All 14 Slides",
-              "date": "2026-08-12"
             }
           ]
         }
@@ -5746,17 +5964,17 @@
       "companyName": "FLOWHAVEN OY",
       "founder": {
         "name": "Timo Olkkola",
-        "linkedinUrl": "https://fi.linkedin.com/in/timo-olkkola",
+        "linkedinUrl": "https://linkedin.com/in/timo-olkkola",
         "via": "exa+gemini",
         "evidence": "Founder & Chief Commercial Officer (CCO), Flowhaven",
         "sources": [
           {
-            "url": "https://fi.linkedin.com/in/timo-olkkola",
-            "name": "fi.linkedin.com"
+            "url": "https://linkedin.com/in/timo-olkkola",
+            "name": "linkedin.com"
           }
         ]
       },
-      "group": "news_event",
+      "group": "no_recent_round",
       "why": [
         {
           "kind": "last_round",
@@ -5790,16 +6008,78 @@
               "date": "2026-11-01"
             }
           ]
-        },
+        }
+      ],
+      "questions": [
+        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
+        "What did Icebreaker.vc's partners actually do for you after the investment?",
+        "Would you take money from Icebreaker.vc again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "72561338-dccc-454b-a12e-acad6f73837f",
+      "companyName": "Logmore",
+      "founder": {
+        "name": "Niko Polvinen🌡️",
+        "linkedinUrl": "https://linkedin.com/in/niko-polvinen",
+        "via": "exa+gemini",
+        "evidence": "CEO & Co-Founder, Logmore",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/niko-polvinen",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "recent_round",
+      "why": [
         {
-          "kind": "news_event",
-          "text": "Reported acquisition (startupfundraising.com, 2026-08)",
-          "date": "2026-08-12",
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-08",
+          "date": "2026-08-25",
           "sources": [
             {
-              "url": "https://startupfundraising.com/library/articles/flowhaven-pitch-deck-teardown",
-              "name": "Flowhaven Pitch Deck Breakdown: All 14 Slides",
-              "date": "2026-08-12"
+              "url": "https://www.crunchbase.com/funding_round/logmore-seed--16577116",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
+        "What did Icebreaker.vc's partners actually do for you after the investment?",
+        "Would you take money from Icebreaker.vc again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "72561338-dccc-454b-a12e-acad6f73837f",
+      "companyName": "Logmore",
+      "founder": {
+        "name": "Janne Juhala",
+        "linkedinUrl": "https://linkedin.com/in/jannejuhala",
+        "via": "exa+gemini",
+        "evidence": "CTO, Co-founder, Logmore",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/jannejuhala",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-08",
+          "date": "2026-08-25",
+          "sources": [
+            {
+              "url": "https://www.crunchbase.com/funding_round/logmore-seed--16577116",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
             }
           ]
         }
@@ -5896,290 +6176,57 @@
       "writing": []
     },
     {
-      "companyId": "72561338-dccc-454b-a12e-acad6f73837f",
-      "companyName": "Logmore",
+      "companyId": "f8441c16-1ef2-4530-ab7c-f686dbd9a56b",
+      "companyName": "MVISION AI OY",
       "founder": {
-        "name": "Niko Polvinen🌡️",
-        "linkedinUrl": "https://linkedin.com/in/niko-polvinen",
+        "name": "Mahmudul Hasan",
+        "linkedinUrl": "https://linkedin.com/in/mhasan2",
         "via": "exa+gemini",
-        "evidence": "CEO & Co-Founder, Logmore",
+        "evidence": "Founder - Executive Director & Board member, MVision AI",
         "sources": [
           {
-            "url": "https://linkedin.com/in/niko-polvinen",
+            "url": "https://linkedin.com/in/mhasan2",
             "name": "linkedin.com"
           }
         ]
       },
-      "group": "recent_round",
+      "group": "no_recent_round",
       "why": [
         {
           "kind": "last_round",
-          "text": "Last recorded round: 2026-08",
-          "date": "2026-08-25",
+          "text": "Last recorded round: 2023-03",
+          "date": "2023-03-23",
           "sources": [
             {
-              "url": "https://www.crunchbase.com/funding_round/logmore-seed--16577116",
-              "name": "www.crunchbase.com",
-              "date": "2026-08-25"
-            }
-          ]
-        }
-      ],
-      "questions": [
-        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
-        "What did Icebreaker.vc's partners actually do for you after the investment?",
-        "Would you take money from Icebreaker.vc again, and why?"
-      ],
-      "writing": []
-    },
-    {
-      "companyId": "72561338-dccc-454b-a12e-acad6f73837f",
-      "companyName": "Logmore",
-      "founder": {
-        "name": "Antti Tapio",
-        "linkedinUrl": "https://linkedin.com/in/tapio-antti",
-        "via": "exa+gemini",
-        "evidence": "Chief Innovation Officer, Co-Founder, Logmore",
-        "sources": [
-          {
-            "url": "https://linkedin.com/in/tapio-antti",
-            "name": "linkedin.com"
-          }
-        ]
-      },
-      "group": "recent_round",
-      "why": [
-        {
-          "kind": "last_round",
-          "text": "Last recorded round: 2026-08",
-          "date": "2026-08-25",
-          "sources": [
-            {
-              "url": "https://www.crunchbase.com/funding_round/logmore-seed--16577116",
-              "name": "www.crunchbase.com",
-              "date": "2026-08-25"
-            }
-          ]
-        }
-      ],
-      "questions": [
-        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
-        "What did Icebreaker.vc's partners actually do for you after the investment?",
-        "Would you take money from Icebreaker.vc again, and why?"
-      ],
-      "writing": []
-    },
-    {
-      "companyId": "ef7781cd-5b49-415b-be03-09891bd4e84e",
-      "companyName": "Zymego",
-      "founder": {
-        "name": "Ingmar Veinberg",
-        "linkedinUrl": "https://linkedin.com/in/ingmar-veinberg-4b77172",
-        "via": "exa+gemini",
-        "evidence": "Founder-Chief Medical Officer, Zymego",
-        "sources": [
-          {
-            "url": "https://linkedin.com/in/ingmar-veinberg-4b77172",
-            "name": "linkedin.com"
-          }
-        ]
-      },
-      "group": "recent_round",
-      "why": [
-        {
-          "kind": "last_round",
-          "text": "Last recorded round: 2025-06",
-          "date": "2025-06-26",
-          "sources": [
-            {
-              "url": "https://industrifonden.com/news/zymego-raises-sek-30-million-in-funding-round-led-by-industrifonden",
-              "name": "Zymego raises SEK 30 million in funding round led by Industrifonden",
-              "date": "2025-06-26"
-            },
-            {
-              "url": "https://tracxn.com/d/companies/zymego/__3qtMmL6xbwMh3r8jBk6D12b-ok_u8m_PTyUkcAubtZI",
+              "url": "https://tracxn.com/d/companies/mvision/__UX-lrHUbejxsB04hhDsOhvonEIbjXdc0AgTt_1kDLg4",
               "name": "tracxn.com",
               "date": "2026-08-25"
             },
             {
-              "url": "https://tracxn.com/d/companies/zymego/__3qtMmL6xbwMh3r8jBk6D12b-ok_u8m_PTyUkcAubtZI/funding-and-investors",
-              "name": "tracxn.com",
-              "date": "2026-08-25"
-            }
-          ]
-        }
-      ],
-      "questions": [
-        "How did Icebreaker.vc support Zymego's leadership team in the lead-up to the 2025-06 round?",
-        "What was Icebreaker.vc's communication style and level of involvement in Zymego's ongoing governance?",
-        "How actively did Icebreaker.vc assist Zymego during the process of securing the 2025-06 round?"
-      ],
-      "writing": []
-    },
-    {
-      "companyId": "ef7781cd-5b49-415b-be03-09891bd4e84e",
-      "companyName": "Zymego",
-      "founder": {
-        "name": "Nathalie Rohlén",
-        "linkedinUrl": "https://linkedin.com/in/nathalie-rohl%C3%A9n-bb2590145",
-        "via": "exa+gemini",
-        "evidence": "Founder & Board member, Zymego",
-        "sources": [
-          {
-            "url": "https://linkedin.com/in/nathalie-rohl%C3%A9n-bb2590145",
-            "name": "linkedin.com"
-          }
-        ]
-      },
-      "group": "recent_round",
-      "why": [
-        {
-          "kind": "last_round",
-          "text": "Last recorded round: 2025-06",
-          "date": "2025-06-26",
-          "sources": [
-            {
-              "url": "https://industrifonden.com/news/zymego-raises-sek-30-million-in-funding-round-led-by-industrifonden",
-              "name": "Zymego raises SEK 30 million in funding round led by Industrifonden",
-              "date": "2025-06-26"
-            },
-            {
-              "url": "https://tracxn.com/d/companies/zymego/__3qtMmL6xbwMh3r8jBk6D12b-ok_u8m_PTyUkcAubtZI",
+              "url": "https://tracxn.com/d/companies/mvision/__UX-lrHUbejxsB04hhDsOhvonEIbjXdc0AgTt_1kDLg4/funding-and-investors",
               "name": "tracxn.com",
               "date": "2026-08-25"
             },
             {
-              "url": "https://tracxn.com/d/companies/zymego/__3qtMmL6xbwMh3r8jBk6D12b-ok_u8m_PTyUkcAubtZI/funding-and-investors",
+              "url": "https://tracxn.com/d/explore/ai-in-healthcare-startups-in-nordics/__lCHYGnnfZDXDSVomvz3_NV0-kklFvvujFLSxzcUuRU0/companies",
               "name": "tracxn.com",
               "date": "2026-08-25"
-            }
-          ]
-        }
-      ],
-      "questions": [
-        "How did Icebreaker.vc support Zymego's leadership team in the lead-up to the 2025-06 round?",
-        "What was Icebreaker.vc's communication style and level of involvement in Zymego's ongoing governance?",
-        "How actively did Icebreaker.vc assist Zymego during the process of securing the 2025-06 round?"
-      ],
-      "writing": []
-    },
-    {
-      "companyId": "eb012d31-2b1c-4bca-9523-9bd8710f5891",
-      "companyName": "Valpas",
-      "founder": {
-        "name": "Aleksi Jokela",
-        "via": "cala",
-        "evidence": "Cala: FOUNDED",
-        "sources": [
-          {
-            "url": "https://fi.linkedin.com/in/aleksi-jokela",
-            "name": "fi.linkedin.com",
-            "date": "2026-08-20"
-          },
-          {
-            "url": "https://techfundingnews.com/finnish-startup-valpas-raises-e4m-for-chemical-free-bedbug-safety-tech",
-            "name": "techfundingnews.com",
-            "date": "2026-08-20"
-          },
-          {
-            "url": "https://siliconcanals.com/helsinki-based-valpas-raises-4m",
-            "name": "Helsinki-based Valpas raises €4M to help hotels safe from bed bugs: Here’s how - Silicon Canals",
-            "date": "2024-06-26"
-          },
-          {
-            "url": "https://thenextweb.com/news/helsinki-startup-valpas-smart-bed-legs-bed-bugs",
-            "name": "Helsinki startup raises €4M for smart bed legs to outsmart bed bugs",
-            "date": "2024-06-26"
-          },
-          {
-            "url": "https://valpashotels.com/blog/valpas-announces-japanese-market-entry-strategy-to-tackle-share-of-eur15bn-bed-bug-problem-backed-by-canon-marketing-japan-inc-investment",
-            "name": "Press release: Valpas announces Japanese market entry strategy to tackle share of €15bn bed bug problem, backed by Canon Marketing Japan Inc. investment",
-            "date": "2025-01-07"
-          }
-        ]
-      },
-      "group": "news_event",
-      "why": [
-        {
-          "kind": "last_round",
-          "text": "Last recorded round: 2022-04",
-          "date": "2022-04-18",
-          "sources": [
-            {
-              "url": "https://tracxn.com/d/venture-capital/reaktorventures/__pV0wE3RphXvncsG7r4YzgC67qEvQp1ZHH2obLi3U35o",
-              "name": "tracxn.com",
-              "date": "2026-06-10"
             },
             {
-              "url": "https://www.crunchbase.com/organization/valpas",
-              "name": "www.crunchbase.com",
-              "date": "2026-06-10"
+              "url": "https://pitchbook.com/profiles/company/227809-54",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
             }
           ]
         },
         {
-          "kind": "news_event",
-          "text": "Reported acquisition (tracxn.com, 2024-10)",
-          "date": "2024-10-17",
+          "kind": "status",
+          "text": "Cala status: ACTIVE",
           "sources": [
             {
-              "url": "https://tracxn.com/d/companies/valpas/__59vMDHmFNGwiVNJ61vbir3JU1S8EP32mHk-JOJZqF64",
-              "name": "Valpas - 2026 Company Profile & Funding - Tracxn",
-              "date": "2024-10-17"
-            }
-          ]
-        }
-      ],
-      "questions": [
-        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
-        "What did Icebreaker.vc's partners actually do for you after the investment?",
-        "Would you take money from Icebreaker.vc again, and why?"
-      ],
-      "writing": []
-    },
-    {
-      "companyId": "eb012d31-2b1c-4bca-9523-9bd8710f5891",
-      "companyName": "Valpas",
-      "founder": {
-        "name": "Aku Viskari",
-        "via": "cala",
-        "evidence": "Cala: FOUNDED",
-        "sources": [
-          {
-            "url": "https://maki.vc/case/valpas",
-            "name": "Valpas - Maki.vc",
-            "date": "2026-03-11"
-          }
-        ]
-      },
-      "group": "news_event",
-      "why": [
-        {
-          "kind": "last_round",
-          "text": "Last recorded round: 2022-04",
-          "date": "2022-04-18",
-          "sources": [
-            {
-              "url": "https://tracxn.com/d/venture-capital/reaktorventures/__pV0wE3RphXvncsG7r4YzgC67qEvQp1ZHH2obLi3U35o",
-              "name": "tracxn.com",
-              "date": "2026-06-10"
-            },
-            {
-              "url": "https://www.crunchbase.com/organization/valpas",
-              "name": "www.crunchbase.com",
-              "date": "2026-06-10"
-            }
-          ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported acquisition (tracxn.com, 2024-10)",
-          "date": "2024-10-17",
-          "sources": [
-            {
-              "url": "https://tracxn.com/d/companies/valpas/__59vMDHmFNGwiVNJ61vbir3JU1S8EP32mHk-JOJZqF64",
-              "name": "Valpas - 2026 Company Profile & Funding - Tracxn",
-              "date": "2024-10-17"
+              "url": "https://find-and-update.company-information.service.gov.uk/company/FC040864",
+              "name": "Companies House UK",
+              "date": "2026-10-01"
             }
           ]
         }
@@ -6255,165 +6302,6 @@
       "writing": []
     },
     {
-      "companyId": "f8441c16-1ef2-4530-ab7c-f686dbd9a56b",
-      "companyName": "MVISION AI OY",
-      "founder": {
-        "name": "Mahmudul Hasan",
-        "linkedinUrl": "https://linkedin.com/in/mhasan2",
-        "via": "exa+gemini",
-        "evidence": "Founder - Executive Director & Board member, MVision AI",
-        "sources": [
-          {
-            "url": "https://linkedin.com/in/mhasan2",
-            "name": "linkedin.com"
-          }
-        ]
-      },
-      "group": "no_recent_round",
-      "why": [
-        {
-          "kind": "last_round",
-          "text": "Last recorded round: 2023-03",
-          "date": "2023-03-23",
-          "sources": [
-            {
-              "url": "https://tracxn.com/d/companies/mvision/__UX-lrHUbejxsB04hhDsOhvonEIbjXdc0AgTt_1kDLg4",
-              "name": "tracxn.com",
-              "date": "2026-08-25"
-            },
-            {
-              "url": "https://tracxn.com/d/companies/mvision/__UX-lrHUbejxsB04hhDsOhvonEIbjXdc0AgTt_1kDLg4/funding-and-investors",
-              "name": "tracxn.com",
-              "date": "2026-08-25"
-            },
-            {
-              "url": "https://tracxn.com/d/explore/ai-in-healthcare-startups-in-nordics/__lCHYGnnfZDXDSVomvz3_NV0-kklFvvujFLSxzcUuRU0/companies",
-              "name": "tracxn.com",
-              "date": "2026-08-25"
-            },
-            {
-              "url": "https://pitchbook.com/profiles/company/227809-54",
-              "name": "pitchbook.com",
-              "date": "2026-08-25"
-            }
-          ]
-        },
-        {
-          "kind": "status",
-          "text": "Cala status: ACTIVE",
-          "sources": [
-            {
-              "url": "https://find-and-update.company-information.service.gov.uk/company/FC040864",
-              "name": "Companies House UK",
-              "date": "2026-10-01"
-            }
-          ]
-        }
-      ],
-      "questions": [
-        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
-        "What did Icebreaker.vc's partners actually do for you after the investment?",
-        "Would you take money from Icebreaker.vc again, and why?"
-      ],
-      "writing": []
-    },
-    {
-      "companyId": "da87c715-6d32-52c7-b107-aeee58229f79",
-      "companyName": "Flowhaven Oy",
-      "founder": {
-        "name": "Timo Olkkola",
-        "via": "cala",
-        "evidence": "Cala: FOUNDED",
-        "sources": [
-          {
-            "url": "https://flowhaven.com/about/",
-            "name": "flowhaven.com",
-            "date": "2026-11-03"
-          }
-        ]
-      },
-      "group": "news_event",
-      "why": [
-        {
-          "kind": "status",
-          "text": "Cala status: ACTIVE",
-          "sources": [
-            {
-              "url": "https://flowhaven.com/",
-              "name": "flowhaven.com",
-              "date": "2026-11-02"
-            }
-          ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported acquisition (startupfundraising.com, 2026-08)",
-          "date": "2026-08-12",
-          "sources": [
-            {
-              "url": "https://startupfundraising.com/library/articles/flowhaven-pitch-deck-teardown",
-              "name": "Flowhaven Pitch Deck Breakdown: All 14 Slides",
-              "date": "2026-08-12"
-            }
-          ]
-        }
-      ],
-      "questions": [
-        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
-        "What did Icebreaker.vc's partners actually do for you after the investment?",
-        "Would you take money from Icebreaker.vc again, and why?"
-      ],
-      "writing": []
-    },
-    {
-      "companyId": "da87c715-6d32-52c7-b107-aeee58229f79",
-      "companyName": "Flowhaven Oy",
-      "founder": {
-        "name": "Kalle Törmä",
-        "via": "cala",
-        "evidence": "Cala: FOUNDED",
-        "sources": [
-          {
-            "url": "https://flowhaven.com/about/",
-            "name": "flowhaven.com",
-            "date": "2026-11-03"
-          }
-        ]
-      },
-      "group": "news_event",
-      "why": [
-        {
-          "kind": "status",
-          "text": "Cala status: ACTIVE",
-          "sources": [
-            {
-              "url": "https://flowhaven.com/",
-              "name": "flowhaven.com",
-              "date": "2026-11-02"
-            }
-          ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported acquisition (startupfundraising.com, 2026-08)",
-          "date": "2026-08-12",
-          "sources": [
-            {
-              "url": "https://startupfundraising.com/library/articles/flowhaven-pitch-deck-teardown",
-              "name": "Flowhaven Pitch Deck Breakdown: All 14 Slides",
-              "date": "2026-08-12"
-            }
-          ]
-        }
-      ],
-      "questions": [
-        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
-        "What did Icebreaker.vc's partners actually do for you after the investment?",
-        "Would you take money from Icebreaker.vc again, and why?"
-      ],
-      "writing": []
-    },
-    {
       "companyId": "5f625f67-a19d-43d0-9f95-3b4e67943d05",
       "companyName": "Cachet",
       "founder": {
@@ -6438,7 +6326,7 @@
           }
         ]
       },
-      "group": "news_event",
+      "group": "no_recent_round",
       "why": [
         {
           "kind": "last_round",
@@ -6449,23 +6337,6 @@
               "url": "https://tracxn.com/d/companies/cachet/__xBv-nwdcGrgdIdOax9uV6OPjTbxETBa947B65OHvOSA",
               "name": "tracxn.com",
               "date": "2026-06-10"
-            }
-          ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported bankruptcy (legalclarity.org, 2025-12)",
-          "date": "2025-12-14",
-          "sources": [
-            {
-              "url": "https://legalclarity.org/in-re-cachet-financial-services-key-rulings-and-impact/",
-              "name": "In re Cachet Financial Services: Key Rulings and Impact - LegalClarity",
-              "date": "2025-12-14"
-            },
-            {
-              "url": "https://exa.ai/library/legal/opinion/w6kzq990fdt",
-              "name": "In re Debtor Cachet Financial Services (trial court document), District Court, C.D. California, 2024",
-              "date": "2024-05-22"
             }
           ]
         }
@@ -6512,7 +6383,7 @@
           }
         ]
       },
-      "group": "news_event",
+      "group": "no_recent_round",
       "why": [
         {
           "kind": "last_round",
@@ -6523,23 +6394,6 @@
               "url": "https://tracxn.com/d/companies/cachet/__xBv-nwdcGrgdIdOax9uV6OPjTbxETBa947B65OHvOSA",
               "name": "tracxn.com",
               "date": "2026-06-10"
-            }
-          ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported bankruptcy (legalclarity.org, 2025-12)",
-          "date": "2025-12-14",
-          "sources": [
-            {
-              "url": "https://legalclarity.org/in-re-cachet-financial-services-key-rulings-and-impact/",
-              "name": "In re Cachet Financial Services: Key Rulings and Impact - LegalClarity",
-              "date": "2025-12-14"
-            },
-            {
-              "url": "https://exa.ai/library/legal/opinion/w6kzq990fdt",
-              "name": "In re Debtor Cachet Financial Services (trial court document), District Court, C.D. California, 2024",
-              "date": "2024-05-22"
             }
           ]
         }
@@ -6668,125 +6522,17 @@
       "writing": []
     },
     {
-      "companyId": "18b35d73-31f2-4dda-8d4a-7e602e1e8a8d",
-      "companyName": "Alvin",
-      "founder": {
-        "name": "Martin Abelson Sahlen",
-        "linkedinUrl": "https://linkedin.com/in/martinsahlen",
-        "via": "exa+gemini",
-        "evidence": "Co-Founder, Alvin",
-        "sources": [
-          {
-            "url": "https://linkedin.com/in/martinsahlen",
-            "name": "linkedin.com"
-          }
-        ]
-      },
-      "group": "news_event",
-      "why": [
-        {
-          "kind": "last_round",
-          "text": "Last recorded round: 2022-10",
-          "date": "2022-10-12",
-          "sources": [
-            {
-              "url": "https://pitchbook.com/profiles/company/462271-78",
-              "name": "pitchbook.com",
-              "date": "2026-08-25"
-            }
-          ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported shutdown (s.mysanantonio.com, 2026-04)",
-          "date": "2026-04-17",
-          "sources": [
-            {
-              "url": "https://s.mysanantonio.com/food/article/alvin-ords-san-marcos-workplace-concerns-22210860.php",
-              "name": "Alvin Ord’s in San Marcos remains closed after staff exodus",
-              "date": "2026-04-17"
-            },
-            {
-              "url": "https://abc13.com/post/2-alvin-isd-elementary-schools-shut-down-early-summer-following-storm-damage/19139599/",
-              "name": "2 Alvin ISD elementary schools shut down early for the ...",
-              "date": "2026-05-20"
-            }
-          ]
-        }
-      ],
-      "questions": [
-        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
-        "What did Icebreaker.vc's partners actually do for you after the investment?",
-        "Would you take money from Icebreaker.vc again, and why?"
-      ],
-      "writing": []
-    },
-    {
-      "companyId": "18b35d73-31f2-4dda-8d4a-7e602e1e8a8d",
-      "companyName": "Alvin",
-      "founder": {
-        "name": "Dan Mashiter",
-        "linkedinUrl": "https://linkedin.com/in/danmashiter",
-        "via": "exa+gemini",
-        "evidence": "Co-Founder, Alvin",
-        "sources": [
-          {
-            "url": "https://linkedin.com/in/danmashiter",
-            "name": "linkedin.com"
-          }
-        ]
-      },
-      "group": "news_event",
-      "why": [
-        {
-          "kind": "last_round",
-          "text": "Last recorded round: 2022-10",
-          "date": "2022-10-12",
-          "sources": [
-            {
-              "url": "https://pitchbook.com/profiles/company/462271-78",
-              "name": "pitchbook.com",
-              "date": "2026-08-25"
-            }
-          ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported shutdown (s.mysanantonio.com, 2026-04)",
-          "date": "2026-04-17",
-          "sources": [
-            {
-              "url": "https://s.mysanantonio.com/food/article/alvin-ords-san-marcos-workplace-concerns-22210860.php",
-              "name": "Alvin Ord’s in San Marcos remains closed after staff exodus",
-              "date": "2026-04-17"
-            },
-            {
-              "url": "https://abc13.com/post/2-alvin-isd-elementary-schools-shut-down-early-summer-following-storm-damage/19139599/",
-              "name": "2 Alvin ISD elementary schools shut down early for the ...",
-              "date": "2026-05-20"
-            }
-          ]
-        }
-      ],
-      "questions": [
-        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
-        "What did Icebreaker.vc's partners actually do for you after the investment?",
-        "Would you take money from Icebreaker.vc again, and why?"
-      ],
-      "writing": []
-    },
-    {
       "companyId": "2fcbdac0-4027-4b78-8a5b-67a99447ca81",
       "companyName": "Klaus",
       "founder": {
         "name": "Kair Käsper",
-        "linkedinUrl": "https://ee.linkedin.com/in/kair",
+        "linkedinUrl": "https://linkedin.com/in/kair",
         "via": "exa+gemini",
         "evidence": "Co-Founder & CRO, Zendesk QA (Klaus)",
         "sources": [
           {
-            "url": "https://ee.linkedin.com/in/kair",
-            "name": "ee.linkedin.com"
+            "url": "https://linkedin.com/in/kair",
+            "name": "linkedin.com"
           }
         ]
       },
@@ -6830,63 +6576,130 @@
       "writing": []
     },
     {
-      "companyId": "45558335-1532-47ca-9fea-91ec28d33766",
-      "companyName": "Workfellow",
+      "companyId": "18b35d73-31f2-4dda-8d4a-7e602e1e8a8d",
+      "companyName": "Alvin",
       "founder": {
-        "name": "Kustaa Kivelä",
-        "linkedinUrl": "https://fi.linkedin.com/in/kustaakivela",
+        "name": "Martin Abelson Sahlen",
+        "linkedinUrl": "https://linkedin.com/in/martinsahlen",
         "via": "exa+gemini",
-        "evidence": "Co-Founder & CEO, Workfellow",
+        "evidence": "Co-Founder, Alvin",
         "sources": [
           {
-            "url": "https://fi.linkedin.com/in/kustaakivela",
-            "name": "fi.linkedin.com"
+            "url": "https://linkedin.com/in/martinsahlen",
+            "name": "linkedin.com"
           }
         ]
       },
-      "group": "news_event",
+      "group": "no_recent_round",
       "why": [
         {
           "kind": "last_round",
-          "text": "Last recorded round: 2021-12",
-          "date": "2021-12-20",
+          "text": "Last recorded round: 2022-10",
+          "date": "2022-10-12",
           "sources": [
             {
-              "url": "https://tracxn.com/d/companies/workfellow/__bek7809eqKGYfYMso2ZmgEDWmO2-3PYMBD2ji6pHPX8",
-              "name": "tracxn.com",
-              "date": "2026-08-25"
-            },
-            {
-              "url": "https://www.crunchbase.com/organization/workfellow-ai",
-              "name": "www.crunchbase.com",
-              "date": "2026-08-25"
-            },
-            {
-              "url": "https://pitchbook.com/profiles/company/472106-89",
+              "url": "https://pitchbook.com/profiles/company/462271-78",
               "name": "pitchbook.com",
-              "date": "2026-08-25"
-            },
-            {
-              "url": "https://www.crunchbase.com/person/kulpreet-singh",
-              "name": "www.crunchbase.com",
               "date": "2026-08-25"
             }
           ]
-        },
+        }
+      ],
+      "questions": [
+        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
+        "What did Icebreaker.vc's partners actually do for you after the investment?",
+        "Would you take money from Icebreaker.vc again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "18b35d73-31f2-4dda-8d4a-7e602e1e8a8d",
+      "companyName": "Alvin",
+      "founder": {
+        "name": "Dan Mashiter",
+        "linkedinUrl": "https://linkedin.com/in/danmashiter",
+        "via": "exa+gemini",
+        "evidence": "Co-Founder, Alvin",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/danmashiter",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "no_recent_round",
+      "why": [
         {
-          "kind": "news_event",
-          "text": "Reported acquisition (decisions.com, 2024-04)",
-          "date": "2024-04-09",
+          "kind": "last_round",
+          "text": "Last recorded round: 2022-10",
+          "date": "2022-10-12",
           "sources": [
             {
-              "url": "https://decisions.com/blog/processmaker-acquires-workfellow",
-              "name": "ProcessMaker Acquires Workfellow",
-              "date": "2024-04-09"
+              "url": "https://pitchbook.com/profiles/company/462271-78",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
+        "What did Icebreaker.vc's partners actually do for you after the investment?",
+        "Would you take money from Icebreaker.vc again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "32d9d83a-1a7b-4fde-9a53-a2a65f1a4013",
+      "companyName": "Helppy",
+      "founder": {
+        "name": "Eitan Livne",
+        "linkedinUrl": "https://linkedin.com/in/eitan-livne",
+        "via": "exa+gemini",
+        "evidence": "Co-Founder, Helppy",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/eitan-livne",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "no_recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2022-05",
+          "date": "2022-05-17",
+          "sources": [
+            {
+              "url": "https://techfundingnews.com/helppy-secures-e3m-to-scale-up-its-neighbourhood-elderly-care-model",
+              "name": "techfundingnews.com",
+              "date": "2026-08-25"
             },
             {
-              "url": "https://www.deep-analysis.net/we-love-ugly-data-the-deep-analysis-podcast-series-3-episode-4/",
-              "name": "We Love Ugly Data! - The Deep Analysis Podcast: Series 3, Episode 4 | Deep Analysis",
-              "date": "2024-04-08"
+              "url": "https://en.ain.ua/2022/05/17/helppy-secures-3m",
+              "name": "en.ain.ua",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2022-05-17/startup-helppy-bets-elderly-care-can-bring-100-million-revenue",
+              "name": "www.bloomberg.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://arcticstartup.com/helppy-raises-e3m-seed",
+              "name": "arcticstartup.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.eu-startups.com/2022/05/helsinki-based-helppy-is-revolutionising-home-care-and-has-picked-up-e3-million-to-expand-across-europe",
+              "name": "www.eu-startups.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://nordic9.com/news/helppy-in-a-3-million-in-a-round-led-by-alliance-venture",
+              "name": "nordic9.com",
+              "date": "2026-08-25"
             }
           ]
         }
@@ -7040,16 +6853,16 @@
       "writing": []
     },
     {
-      "companyId": "55b24791-7df1-45a8-a4f8-e65f45c0ad0b",
-      "companyName": "Whippy",
+      "companyId": "45558335-1532-47ca-9fea-91ec28d33766",
+      "companyName": "Workfellow",
       "founder": {
-        "name": "Jack Kennedy",
-        "linkedinUrl": "https://linkedin.com/in/jackbkennedy",
+        "name": "Kustaa Kivelä",
+        "linkedinUrl": "https://linkedin.com/in/kustaakivela",
         "via": "exa+gemini",
-        "evidence": "Co-Founder & CTO, Whippy",
+        "evidence": "Co-Founder & CEO, Workfellow",
         "sources": [
           {
-            "url": "https://linkedin.com/in/jackbkennedy",
+            "url": "https://linkedin.com/in/kustaakivela",
             "name": "linkedin.com"
           }
         ]
@@ -7058,158 +6871,128 @@
       "why": [
         {
           "kind": "last_round",
-          "text": "Last recorded round: 2023-01",
-          "date": "2023-01-17",
+          "text": "Last recorded round: 2021-12",
+          "date": "2021-12-20",
           "sources": [
             {
-              "url": "https://tracxn.com/d/companies/whippy/__juSY59Kb58jzOTHyz0JxQ6mDTVfVxHVHY3WFHgeACWc/funding-and-investors",
+              "url": "https://tracxn.com/d/companies/workfellow/__bek7809eqKGYfYMso2ZmgEDWmO2-3PYMBD2ji6pHPX8",
               "name": "tracxn.com",
               "date": "2026-08-25"
             },
             {
-              "url": "https://tracxn.com/d/companies/whippy/__juSY59Kb58jzOTHyz0JxQ6mDTVfVxHVHY3WFHgeACWc",
-              "name": "tracxn.com",
-              "date": "2026-08-25"
-            }
-          ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported acquisition (dibgroup.com.au, 2024-10)",
-          "date": "2024-10-26",
-          "sources": [
-            {
-              "url": "https://dibgroup.com.au/dib-group-comapnies/",
-              "name": "Dib Group Comapnies - Dib Group",
-              "date": "2024-10-26"
-            },
-            {
-              "url": "https://www.realcommercial.com.au/news/soft-serve-summers-the-enduring-legacy-of-mr-whippy",
-              "name": "Soft serve summers: The enduring legacy of Mr. Whippy",
-              "date": "2024-06-12"
-            }
-          ]
-        }
-      ],
-      "questions": [
-        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
-        "What did Icebreaker.vc's partners actually do for you after the investment?",
-        "Would you take money from Icebreaker.vc again, and why?"
-      ],
-      "writing": []
-    },
-    {
-      "companyId": "55b24791-7df1-45a8-a4f8-e65f45c0ad0b",
-      "companyName": "Whippy",
-      "founder": {
-        "name": "David Daneshgar",
-        "linkedinUrl": "https://linkedin.com/in/david-daneshgar-a47474b",
-        "via": "exa+gemini",
-        "evidence": "Co-Founder & CEO, Whippy",
-        "sources": [
-          {
-            "url": "https://linkedin.com/in/david-daneshgar-a47474b",
-            "name": "linkedin.com"
-          }
-        ]
-      },
-      "group": "news_event",
-      "why": [
-        {
-          "kind": "last_round",
-          "text": "Last recorded round: 2023-01",
-          "date": "2023-01-17",
-          "sources": [
-            {
-              "url": "https://tracxn.com/d/companies/whippy/__juSY59Kb58jzOTHyz0JxQ6mDTVfVxHVHY3WFHgeACWc/funding-and-investors",
-              "name": "tracxn.com",
+              "url": "https://www.crunchbase.com/organization/workfellow-ai",
+              "name": "www.crunchbase.com",
               "date": "2026-08-25"
             },
             {
-              "url": "https://tracxn.com/d/companies/whippy/__juSY59Kb58jzOTHyz0JxQ6mDTVfVxHVHY3WFHgeACWc",
-              "name": "tracxn.com",
-              "date": "2026-08-25"
-            }
-          ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported acquisition (dibgroup.com.au, 2024-10)",
-          "date": "2024-10-26",
-          "sources": [
-            {
-              "url": "https://dibgroup.com.au/dib-group-comapnies/",
-              "name": "Dib Group Comapnies - Dib Group",
-              "date": "2024-10-26"
-            },
-            {
-              "url": "https://www.realcommercial.com.au/news/soft-serve-summers-the-enduring-legacy-of-mr-whippy",
-              "name": "Soft serve summers: The enduring legacy of Mr. Whippy",
-              "date": "2024-06-12"
-            }
-          ]
-        }
-      ],
-      "questions": [
-        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
-        "What did Icebreaker.vc's partners actually do for you after the investment?",
-        "Would you take money from Icebreaker.vc again, and why?"
-      ],
-      "writing": []
-    },
-    {
-      "companyId": "734fbd38-7969-43d3-a47f-b953e4fe232b",
-      "companyName": "Lumoa",
-      "founder": {
-        "name": "Carlos del Corral",
-        "linkedinUrl": "https://linkedin.com/in/carlosdelcorral",
-        "via": "exa+gemini",
-        "evidence": "Co Founder, currently CEO, Lumoa",
-        "sources": [
-          {
-            "url": "https://linkedin.com/in/carlosdelcorral",
-            "name": "linkedin.com"
-          }
-        ]
-      },
-      "group": "news_event",
-      "why": [
-        {
-          "kind": "last_round",
-          "text": "Last recorded round: 2018-06",
-          "date": "2018-06-05",
-          "sources": [
-            {
-              "url": "https://tracxn.com/d/companies/lumoa/__EUCCGhioyswrN91VgmB7uRpKuaau3wams-18H-GgFek",
-              "name": "tracxn.com",
-              "date": "2026-08-25"
-            },
-            {
-              "url": "https://tracxn.com/d/companies/lumoa/__EUCCGhioyswrN91VgmB7uRpKuaau3wams-18H-GgFek/funding-and-investors",
-              "name": "tracxn.com",
-              "date": "2026-08-25"
-            },
-            {
-              "url": "https://pitchbook.com/profiles/company/228025-99",
+              "url": "https://pitchbook.com/profiles/company/472106-89",
               "name": "pitchbook.com",
               "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.crunchbase.com/person/kulpreet-singh",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
             }
           ]
         },
         {
           "kind": "news_event",
-          "text": "Reported acquisition (netigate.net, 2024-03)",
-          "date": "2024-03-26",
+          "text": "Reported shutdown (tech.eu, 2024-02)",
+          "date": "2024-02-07",
           "sources": [
             {
-              "url": "https://www.netigate.net/press/netigate-acquires-lumoa-to-better-harness-the-power-of-feedback/",
-              "name": "Netigate acquires Lumoa to better harness the power of feedback – Netigate",
-              "date": "2024-03-26"
+              "url": "https://tech.eu/2024/02/07/finnish-hrtech-startup-workfellow-announces-shutdown-amid-challenges/",
+              "name": "Finnish HRtech startup Workfellow announces shutdown amid challenges - Tech.eu",
+              "date": "2024-02-07"
+            }
+          ]
+        },
+        {
+          "kind": "news_event",
+          "text": "Reported acquisition (decisions.com, 2024-04)",
+          "date": "2024-04-09",
+          "sources": [
+            {
+              "url": "https://decisions.com/blog/processmaker-acquires-workfellow",
+              "name": "ProcessMaker Acquires Workfellow",
+              "date": "2024-04-09"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
+        "What did Icebreaker.vc's partners actually do for you after the investment?",
+        "Would you take money from Icebreaker.vc again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "45558335-1532-47ca-9fea-91ec28d33766",
+      "companyName": "Workfellow",
+      "founder": {
+        "name": "Henri W.",
+        "linkedinUrl": "https://linkedin.com/in/hwiik",
+        "via": "exa+gemini",
+        "evidence": "CPO and Co-founder, Workfellow",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/hwiik",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "news_event",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2021-12",
+          "date": "2021-12-20",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/workfellow/__bek7809eqKGYfYMso2ZmgEDWmO2-3PYMBD2ji6pHPX8",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
             },
             {
-              "url": "https://chattermill.com/blog/lumoa-alternatives",
-              "name": "Best Lumoa Alternatives For Feedback Analytics (2026)",
+              "url": "https://www.crunchbase.com/organization/workfellow-ai",
+              "name": "www.crunchbase.com",
               "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/472106-89",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.crunchbase.com/person/kulpreet-singh",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            }
+          ]
+        },
+        {
+          "kind": "news_event",
+          "text": "Reported shutdown (tech.eu, 2024-02)",
+          "date": "2024-02-07",
+          "sources": [
+            {
+              "url": "https://tech.eu/2024/02/07/finnish-hrtech-startup-workfellow-announces-shutdown-amid-challenges/",
+              "name": "Finnish HRtech startup Workfellow announces shutdown amid challenges - Tech.eu",
+              "date": "2024-02-07"
+            }
+          ]
+        },
+        {
+          "kind": "news_event",
+          "text": "Reported acquisition (decisions.com, 2024-04)",
+          "date": "2024-04-09",
+          "sources": [
+            {
+              "url": "https://decisions.com/blog/processmaker-acquires-workfellow",
+              "name": "ProcessMaker Acquires Workfellow",
+              "date": "2024-04-09"
             }
           ]
         }
@@ -7236,7 +7019,7 @@
           }
         ]
       },
-      "group": "news_event",
+      "group": "no_recent_round",
       "why": [
         {
           "kind": "last_round",
@@ -7252,18 +7035,6 @@
               "url": "https://www.crunchbase.com/organization/sense-of-space",
               "name": "www.crunchbase.com",
               "date": "2026-08-25"
-            }
-          ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported shutdown (outerspeak.substack.com, 2025-05)",
-          "date": "2025-05-22",
-          "sources": [
-            {
-              "url": "https://outerspeak.substack.com/p/lost-not-really-how-digital-maps",
-              "name": "Lost? Not Really: How digital maps keep us found and found us, too.",
-              "date": "2025-05-22"
             }
           ]
         }
@@ -7370,6 +7141,246 @@
       "writing": []
     },
     {
+      "companyId": "89888bda-2012-418d-b8b9-ae9368306ecf",
+      "companyName": "Fixably",
+      "founder": {
+        "name": "Joel Mansnerus",
+        "linkedinUrl": "https://linkedin.com/in/jmansner",
+        "via": "exa+gemini",
+        "evidence": "CEO & Co-Founder, Fixably",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/jmansner",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "no_recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2023-06",
+          "date": "2023-06-07",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/fixably/__lz3RA1ai2rSMPUTO-ZCflKoDZLzbES7I9ASCBs3kofU/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/439302-43",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
+        "What did Icebreaker.vc's partners actually do for you after the investment?",
+        "Would you take money from Icebreaker.vc again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "89888bda-2012-418d-b8b9-ae9368306ecf",
+      "companyName": "Fixably",
+      "founder": {
+        "name": "Janne Lumijärvi",
+        "linkedinUrl": "https://linkedin.com/in/jannelumijarvi",
+        "via": "exa+gemini",
+        "evidence": "Co-founder & Technical Product Lead, Fixably",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/jannelumijarvi",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "no_recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2023-06",
+          "date": "2023-06-07",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/fixably/__lz3RA1ai2rSMPUTO-ZCflKoDZLzbES7I9ASCBs3kofU/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/439302-43",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
+        "What did Icebreaker.vc's partners actually do for you after the investment?",
+        "Would you take money from Icebreaker.vc again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "d3f9304b-8ffd-46d6-bf90-a40993bc1cd2",
+      "companyName": "Sellforte",
+      "founder": {
+        "name": "Mikko Ervasti",
+        "via": "cala",
+        "evidence": "Cala: FOUNDED",
+        "sources": [
+          {
+            "url": "https://sellforte.com/about",
+            "name": "About Sellforte | Enterprise MMM for Ecommerce, DTC & Retail",
+            "date": "2026-01-01"
+          },
+          {
+            "url": "https://www.crunchbase.com/organization/sellforte",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-20"
+          },
+          {
+            "url": "https://www.caplight.com/company/sellforte",
+            "name": "Sellforte | Valuation, Funding Rounds & Stock Price | Caplight",
+            "date": "2017-05-01"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/sellforte/__8U2TNfk3XesWaKqnM0Q4qc1YEgbL-eeP_AWqbHQ_ZNg",
+            "name": "tracxn.com",
+            "date": "2026-08-20"
+          },
+          {
+            "url": "https://medium.com/icebreakervc/sellforte-raises-4-million-to-bring-science-to-marketing-62d177a6677b",
+            "name": "medium.com",
+            "date": "2026-08-20"
+          }
+        ]
+      },
+      "group": "no_recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2021-02",
+          "date": "2021-02-12",
+          "sources": [
+            {
+              "url": "https://pitchbook.com/profiles/company/222718-69",
+              "name": "pitchbook.com",
+              "date": "2026-06-10"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/sellforte/__8U2TNfk3XesWaKqnM0Q4qc1YEgbL-eeP_AWqbHQ_ZNg",
+              "name": "tracxn.com",
+              "date": "2026-06-10"
+            },
+            {
+              "url": "https://tracxn.com/d/venture-capital/icebreaker/__6onsCCxoge0mlrsTAu7qNqkle4NFbLIHo2zNfANtVfw",
+              "name": "tracxn.com",
+              "date": "2026-06-10"
+            }
+          ]
+        },
+        {
+          "kind": "status",
+          "text": "Cala status: ACTIVE",
+          "sources": [
+            {
+              "url": "https://find-and-update.company-information.service.gov.uk/company/12307261",
+              "name": "Companies House UK",
+              "date": "2026-10-01"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
+        "What did Icebreaker.vc's partners actually do for you after the investment?",
+        "Would you take money from Icebreaker.vc again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "d3f9304b-8ffd-46d6-bf90-a40993bc1cd2",
+      "companyName": "Sellforte",
+      "founder": {
+        "name": "Teppo Luukkonen",
+        "via": "cala",
+        "evidence": "Cala: FOUNDED",
+        "sources": [
+          {
+            "url": "https://sellforte.com/about",
+            "name": "About Sellforte | Enterprise MMM for Ecommerce, DTC & Retail",
+            "date": "2026-01-01"
+          },
+          {
+            "url": "https://www.crunchbase.com/organization/sellforte",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-20"
+          },
+          {
+            "url": "https://www.caplight.com/company/sellforte",
+            "name": "Sellforte | Valuation, Funding Rounds & Stock Price | Caplight",
+            "date": "2017-05-01"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/sellforte/__8U2TNfk3XesWaKqnM0Q4qc1YEgbL-eeP_AWqbHQ_ZNg",
+            "name": "tracxn.com",
+            "date": "2026-08-20"
+          },
+          {
+            "url": "https://medium.com/icebreakervc/sellforte-raises-4-million-to-bring-science-to-marketing-62d177a6677b",
+            "name": "medium.com",
+            "date": "2026-08-20"
+          }
+        ]
+      },
+      "group": "no_recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2021-02",
+          "date": "2021-02-12",
+          "sources": [
+            {
+              "url": "https://pitchbook.com/profiles/company/222718-69",
+              "name": "pitchbook.com",
+              "date": "2026-06-10"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/sellforte/__8U2TNfk3XesWaKqnM0Q4qc1YEgbL-eeP_AWqbHQ_ZNg",
+              "name": "tracxn.com",
+              "date": "2026-06-10"
+            },
+            {
+              "url": "https://tracxn.com/d/venture-capital/icebreaker/__6onsCCxoge0mlrsTAu7qNqkle4NFbLIHo2zNfANtVfw",
+              "name": "tracxn.com",
+              "date": "2026-06-10"
+            }
+          ]
+        },
+        {
+          "kind": "status",
+          "text": "Cala status: ACTIVE",
+          "sources": [
+            {
+              "url": "https://find-and-update.company-information.service.gov.uk/company/12307261",
+              "name": "Companies House UK",
+              "date": "2026-10-01"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
+        "What did Icebreaker.vc's partners actually do for you after the investment?",
+        "Would you take money from Icebreaker.vc again, and why?"
+      ],
+      "writing": []
+    },
+    {
       "companyId": "b64a3cd3-5541-4b49-94d7-d4bdabdc51af",
       "companyName": "RoadCloud OY",
       "founder": {
@@ -7422,26 +7433,6 @@
               "url": "https://www.linkedin.com/posts/ari-tuononen-4a88418a_home-roadcloud-activity-7201831088938192896-gBWa",
               "name": "As announced yesterday, The Goodyear Tire & Rubber Company has acquired RoadCloud Oy. I’d like to thank all our supporters, especially our employees, board members, investors, and customers. RoadCloud’s business will continue … | Ari Tuononen",
               "date": "2024-05-30"
-            },
-            {
-              "url": "https://arcticstartup.com/roadcloud-acquired-by-the-goodyear-tire-rubber-company/",
-              "name": "Finnish startup joins forces with Goodyear in strategic acquisition to enhance tire intelligence - ArcticStartup",
-              "date": "2024-05-30"
-            },
-            {
-              "url": "https://www.linkedin.com/feed/update/urn:li:activity:7201579085498650624",
-              "name": "Connected tires read the road and report back to the vehicle, delivering enhanced safety and performance through actionable insights on tire condition, weather, road conditions and more.",
-              "date": "2024-05-29"
-            },
-            {
-              "url": "https://www.linkedin.com/posts/lehtinenlasse_home-roadcloud-activity-7201630459561185281-uvpX",
-              "name": "The Goodyear Tire & Rubber Company acquires our portfolio company RoadCloud Oy. Once again, congrats Ari and Arto! This is already the third exit in the Icebreaker portfolio within a couple of … | Lasse Lehtinen",
-              "date": "2024-05-29"
-            },
-            {
-              "url": "https://linkedin.com/in/markus-ovaska-021b42138",
-              "name": "Markus Ovaska",
-              "date": "2026-08-06"
             }
           ]
         }
@@ -7454,295 +7445,36 @@
       "writing": []
     },
     {
-      "companyId": "d3f9304b-8ffd-46d6-bf90-a40993bc1cd2",
-      "companyName": "Sellforte",
+      "companyId": "d71306ad-ba56-4846-8a33-1cc1914f9d0f",
+      "companyName": "Finnadvance",
       "founder": {
-        "name": "Mikko Ervasti",
-        "via": "cala",
-        "evidence": "Cala: FOUNDED",
+        "name": "Prateek Singh",
+        "linkedinUrl": "https://linkedin.com/in/pratsku",
+        "via": "exa+gemini",
+        "evidence": "CEO, founder, Finnadvance",
         "sources": [
           {
-            "url": "https://sellforte.com/about",
-            "name": "About Sellforte | Enterprise MMM for Ecommerce, DTC & Retail",
-            "date": "2026-01-01"
-          },
-          {
-            "url": "https://www.crunchbase.com/organization/sellforte",
-            "name": "www.crunchbase.com",
-            "date": "2026-08-20"
-          },
-          {
-            "url": "https://www.caplight.com/company/sellforte",
-            "name": "Sellforte | Valuation, Funding Rounds & Stock Price | Caplight",
-            "date": "2017-05-01"
-          },
-          {
-            "url": "https://tracxn.com/d/companies/sellforte/__8U2TNfk3XesWaKqnM0Q4qc1YEgbL-eeP_AWqbHQ_ZNg",
-            "name": "tracxn.com",
-            "date": "2026-08-20"
-          },
-          {
-            "url": "https://medium.com/icebreakervc/sellforte-raises-4-million-to-bring-science-to-marketing-62d177a6677b",
-            "name": "medium.com",
-            "date": "2026-08-20"
+            "url": "https://linkedin.com/in/pratsku",
+            "name": "linkedin.com"
           }
         ]
       },
-      "group": "news_event",
+      "group": "no_recent_round",
       "why": [
         {
           "kind": "last_round",
-          "text": "Last recorded round: 2021-02",
-          "date": "2021-02-12",
+          "text": "Last recorded round: 2022-04",
+          "date": "2022-04-08",
           "sources": [
             {
-              "url": "https://pitchbook.com/profiles/company/222718-69",
-              "name": "pitchbook.com",
-              "date": "2026-06-10"
-            },
-            {
-              "url": "https://tracxn.com/d/companies/sellforte/__8U2TNfk3XesWaKqnM0Q4qc1YEgbL-eeP_AWqbHQ_ZNg",
+              "url": "https://tracxn.com/d/companies/finnadvance/__HpUEywkFPopCfZGYpSCZqDJUPvJRTcAdaaApiZpSqJU/funding-and-investors",
               "name": "tracxn.com",
-              "date": "2026-06-10"
+              "date": "2026-08-25"
             },
             {
-              "url": "https://tracxn.com/d/venture-capital/icebreaker/__6onsCCxoge0mlrsTAu7qNqkle4NFbLIHo2zNfANtVfw",
-              "name": "tracxn.com",
-              "date": "2026-06-10"
-            }
-          ]
-        },
-        {
-          "kind": "status",
-          "text": "Cala status: ACTIVE",
-          "sources": [
-            {
-              "url": "https://find-and-update.company-information.service.gov.uk/company/12307261",
-              "name": "Companies House UK",
-              "date": "2026-10-01"
-            }
-          ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported acquisition (linkedin.com, 2024-08)",
-          "date": "2024-08-22",
-          "sources": [
-            {
-              "url": "https://www.linkedin.com/company/sellforte",
-              "name": "Sellforte",
-              "date": "2024-08-22"
-            }
-          ]
-        }
-      ],
-      "questions": [
-        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
-        "What did Icebreaker.vc's partners actually do for you after the investment?",
-        "Would you take money from Icebreaker.vc again, and why?"
-      ],
-      "writing": []
-    },
-    {
-      "companyId": "d3f9304b-8ffd-46d6-bf90-a40993bc1cd2",
-      "companyName": "Sellforte",
-      "founder": {
-        "name": "Teppo Luukkonen",
-        "via": "cala",
-        "evidence": "Cala: FOUNDED",
-        "sources": [
-          {
-            "url": "https://sellforte.com/about",
-            "name": "About Sellforte | Enterprise MMM for Ecommerce, DTC & Retail",
-            "date": "2026-01-01"
-          },
-          {
-            "url": "https://www.crunchbase.com/organization/sellforte",
-            "name": "www.crunchbase.com",
-            "date": "2026-08-20"
-          },
-          {
-            "url": "https://www.caplight.com/company/sellforte",
-            "name": "Sellforte | Valuation, Funding Rounds & Stock Price | Caplight",
-            "date": "2017-05-01"
-          },
-          {
-            "url": "https://tracxn.com/d/companies/sellforte/__8U2TNfk3XesWaKqnM0Q4qc1YEgbL-eeP_AWqbHQ_ZNg",
-            "name": "tracxn.com",
-            "date": "2026-08-20"
-          },
-          {
-            "url": "https://medium.com/icebreakervc/sellforte-raises-4-million-to-bring-science-to-marketing-62d177a6677b",
-            "name": "medium.com",
-            "date": "2026-08-20"
-          }
-        ]
-      },
-      "group": "news_event",
-      "why": [
-        {
-          "kind": "last_round",
-          "text": "Last recorded round: 2021-02",
-          "date": "2021-02-12",
-          "sources": [
-            {
-              "url": "https://pitchbook.com/profiles/company/222718-69",
-              "name": "pitchbook.com",
-              "date": "2026-06-10"
-            },
-            {
-              "url": "https://tracxn.com/d/companies/sellforte/__8U2TNfk3XesWaKqnM0Q4qc1YEgbL-eeP_AWqbHQ_ZNg",
-              "name": "tracxn.com",
-              "date": "2026-06-10"
-            },
-            {
-              "url": "https://tracxn.com/d/venture-capital/icebreaker/__6onsCCxoge0mlrsTAu7qNqkle4NFbLIHo2zNfANtVfw",
-              "name": "tracxn.com",
-              "date": "2026-06-10"
-            }
-          ]
-        },
-        {
-          "kind": "status",
-          "text": "Cala status: ACTIVE",
-          "sources": [
-            {
-              "url": "https://find-and-update.company-information.service.gov.uk/company/12307261",
-              "name": "Companies House UK",
-              "date": "2026-10-01"
-            }
-          ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported acquisition (linkedin.com, 2024-08)",
-          "date": "2024-08-22",
-          "sources": [
-            {
-              "url": "https://www.linkedin.com/company/sellforte",
-              "name": "Sellforte",
-              "date": "2024-08-22"
-            }
-          ]
-        }
-      ],
-      "questions": [
-        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
-        "What did Icebreaker.vc's partners actually do for you after the investment?",
-        "Would you take money from Icebreaker.vc again, and why?"
-      ],
-      "writing": []
-    },
-    {
-      "companyId": "1370d7cd-70a5-5639-8ad6-4530517f12c9",
-      "companyName": "Hemby",
-      "founder": {
-        "name": "Richard Nordström",
-        "via": "cala",
-        "evidence": "Cala: FOUNDED",
-        "sources": [
-          {
-            "url": "https://www.hemby.fi/tarina",
-            "name": "hemby.fi",
-            "date": "2026-11-12"
-          },
-          {
-            "url": "https://www.hemby.fi/medialle",
-            "name": "hemby.fi",
-            "date": "2026-11-12"
-          }
-        ]
-      },
-      "group": "news_event",
-      "why": [
-        {
-          "kind": "status",
-          "text": "Cala status: ACTIVE",
-          "sources": [
-            {
-              "url": "https://hemby.com/",
-              "name": "hemby.com",
-              "date": "2026-11-02"
-            },
-            {
-              "url": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=2910554-3",
-              "name": "avoindata.prh.fi",
-              "date": "2026-11-12"
-            },
-            {
-              "url": "https://www.hemby.fi/tietoa-meista",
-              "name": "hemby.fi",
-              "date": "2026-11-12"
-            }
-          ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported acquisition (startupyhteiso.com, 2026-04)",
-          "date": "2026-04-24",
-          "sources": [
-            {
-              "url": "https://startupyhteiso.com/blog/blog-post-cracking-the-german-market-richard-nordstrom-hemby/",
-              "name": "Blog post: Cracking the German Market - Richard Nordström (Hemby) – Finnish Startup Community",
-              "date": "2026-04-24"
-            }
-          ]
-        }
-      ],
-      "questions": [
-        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
-        "What did Icebreaker.vc's partners actually do for you after the investment?",
-        "Would you take money from Icebreaker.vc again, and why?"
-      ],
-      "writing": []
-    },
-    {
-      "companyId": "1370d7cd-70a5-5639-8ad6-4530517f12c9",
-      "companyName": "Hemby",
-      "founder": {
-        "name": "Richard Nordström",
-        "via": "cala",
-        "evidence": "Cala: IS_CEO_OF",
-        "sources": [
-          {
-            "url": "https://www.eu-startups.com/2022/05/helsinki-based-helppy-is-revolutionising-home-care-and-has-picked-up-e3-million-to-expand-across-europe/",
-            "name": "eu-startups.com",
-            "date": "2026-11-12"
-          }
-        ]
-      },
-      "group": "news_event",
-      "why": [
-        {
-          "kind": "status",
-          "text": "Cala status: ACTIVE",
-          "sources": [
-            {
-              "url": "https://hemby.com/",
-              "name": "hemby.com",
-              "date": "2026-11-02"
-            },
-            {
-              "url": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=2910554-3",
-              "name": "avoindata.prh.fi",
-              "date": "2026-11-12"
-            },
-            {
-              "url": "https://www.hemby.fi/tietoa-meista",
-              "name": "hemby.fi",
-              "date": "2026-11-12"
-            }
-          ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported acquisition (startupyhteiso.com, 2026-04)",
-          "date": "2026-04-24",
-          "sources": [
-            {
-              "url": "https://startupyhteiso.com/blog/blog-post-cracking-the-german-market-richard-nordstrom-hemby/",
-              "name": "Blog post: Cracking the German Market - Richard Nordström (Hemby) – Finnish Startup Community",
-              "date": "2026-04-24"
+              "url": "https://www.crunchbase.com/funding_round/finnadvance-seed--4ddbb183",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
             }
           ]
         }
@@ -7881,219 +7613,41 @@
       "writing": []
     },
     {
-      "companyId": "28d85aec-8ab8-439c-a74b-205b55f884e4",
-      "companyName": "Modash OÜ",
+      "companyId": "332ba5ea-5dae-4a95-a2fc-54909c980eb3",
+      "companyName": "Leyr",
       "founder": {
-        "name": "Avery Schrader",
-        "via": "cala",
-        "evidence": "Cala: FOUNDED",
+        "name": "Helena Holma",
+        "linkedinUrl": "https://linkedin.com/in/helenaholma",
+        "via": "exa+gemini",
+        "evidence": "CEO & Co-founder, Leyr",
         "sources": [
           {
-            "url": "https://investinestonia.com/tallinn-based-modash-raises-e11m-praises-estonian-ecosystem",
-            "name": "Tallinn-based Modash raises €11M, praises Estonian ecosystem - Invest in Estonia",
-            "date": "2024-10-31"
-          },
-          {
-            "url": "https://startupintros.com/orgs/modash-io",
-            "name": "Modash.io: Funding, Team & Investors",
-            "date": "2026-07-13"
-          },
-          {
-            "url": "https://app.welcometothejungle.com/companies/Modash",
-            "name": "The better way to find a job in tech",
-            "date": "2022-01-01"
-          },
-          {
-            "url": "https://www.modash.io/blog/modash-raises-2m",
-            "name": "Modash Raises $2M To Power 1,000,000 Creator Partnerships Per Year",
-            "date": "2026-03-12"
+            "url": "https://linkedin.com/in/helenaholma",
+            "name": "linkedin.com"
           }
         ]
       },
-      "group": "news_event",
+      "group": "no_recent_round",
       "why": [
         {
           "kind": "last_round",
-          "text": "Last recorded round: 2024-10",
-          "date": "2024-10-31",
+          "text": "Last recorded round: 2022-11",
+          "date": "2022-11-01",
           "sources": [
             {
-              "url": "https://tracxn.com/d/companies/modash/__Ox4dGyAFq8IfQ8vCWivUjD0mUDGoZD4X1WA_zj-1C18",
+              "url": "https://tracxn.com/d/companies/leyr/__j2VFtoTOueSG2E2NRnjVsVOGVh_qPPu2XrWcspQECnY",
               "name": "tracxn.com",
-              "date": "2026-06-10"
+              "date": "2026-08-24"
             },
             {
-              "url": "https://tracxn.com/d/companies/modash/__Ox4dGyAFq8IfQ8vCWivUjD0mUDGoZD4X1WA_zj-1C18/funding-and-investors",
-              "name": "Modash - 2026 Funding Rounds & List of Investors - Tracxn",
-              "date": "2021-08-17"
-            },
-            {
-              "url": "https://techcrunch.com/2024/10/30/modash-is-flipping-the-influencer-marketing-script-by-connecting-brands-with-the-long-tail-of-creators",
-              "name": "Modash is flipping the influencer marketing script by connecting brands with the long tail of creators | TechCrunch",
-              "date": "2024-10-30"
-            },
-            {
-              "url": "https://pitchbook.com/profiles/company/265339-90",
-              "name": "pitchbook.com",
-              "date": "2026-06-10"
-            }
-          ]
-        },
-        {
-          "kind": "status",
-          "text": "Cala status: ACTIVE",
-          "sources": [
-            {
-              "url": "https://ariregister.rik.ee/est/company/14434162",
-              "name": "ariregister.rik.ee",
-              "date": "2026-11-02"
-            },
-            {
-              "url": "https://www.modash.io/",
-              "name": "modash.io",
-              "date": "2026-11-06"
-            }
-          ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported acquisition (modash.io, 2025-01)",
-          "date": "2025-01-21",
-          "sources": [
-            {
-              "url": "https://www.modash.io/blog/promoty",
-              "name": "Modash Acquires Promoty",
-              "date": "2025-01-21"
-            },
-            {
-              "url": "https://willitsurvive.net/c/modash/",
-              "name": "Modash: will it survive the AI era? Assessed 23 July 2026 · WillItSurvive",
-              "date": "2026-07-23"
-            },
-            {
-              "url": "https://www.balticvc.com/2025/01/estonian-startup-modash-acquires-crm.html",
-              "name": "Estonian startup Modash acquires CRM platform Promoty",
-              "date": "2025-01-21"
-            },
-            {
-              "url": "https://www.netinfluencer.com/modash-acquires-promoty/",
-              "name": "Modash Acquires Promoty In Global Expansion Push",
-              "date": "2025-01-21"
-            },
-            {
-              "url": "https://www.finsmes.com/2025/01/modash-acquires-promoty.html",
-              "name": "Modash Acquires Promoty",
-              "date": "2025-01-21"
-            }
-          ]
-        }
-      ],
-      "questions": [
-        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
-        "What did Icebreaker.vc's partners actually do for you after the investment?",
-        "Would you take money from Icebreaker.vc again, and why?"
-      ],
-      "writing": []
-    },
-    {
-      "companyId": "28d85aec-8ab8-439c-a74b-205b55f884e4",
-      "companyName": "Modash OÜ",
-      "founder": {
-        "name": "Avery Schrader",
-        "via": "cala",
-        "evidence": "Cala: FOUNDED",
-        "sources": [
-          {
-            "url": "https://tech.eu/2022/11/23/modash/",
-            "name": "tech.eu",
-            "date": "2022-11-23"
-          },
-          {
-            "url": "https://en.ain.ua/2022/11/24/modash-closes-2m-round",
-            "name": "en.ain.ua",
-            "date": "2022-11-24"
-          },
-          {
-            "url": "https://www.modash.io/nl/blog/promoty",
-            "name": "modash.io",
-            "date": "2025-01-21"
-          }
-        ]
-      },
-      "group": "news_event",
-      "why": [
-        {
-          "kind": "last_round",
-          "text": "Last recorded round: 2024-10",
-          "date": "2024-10-31",
-          "sources": [
-            {
-              "url": "https://tracxn.com/d/companies/modash/__Ox4dGyAFq8IfQ8vCWivUjD0mUDGoZD4X1WA_zj-1C18",
+              "url": "https://tracxn.com/d/companies/leyr/__j2VFtoTOueSG2E2NRnjVsVOGVh_qPPu2XrWcspQECnY/funding-and-investors",
               "name": "tracxn.com",
-              "date": "2026-06-10"
+              "date": "2026-08-24"
             },
             {
-              "url": "https://tracxn.com/d/companies/modash/__Ox4dGyAFq8IfQ8vCWivUjD0mUDGoZD4X1WA_zj-1C18/funding-and-investors",
-              "name": "Modash - 2026 Funding Rounds & List of Investors - Tracxn",
-              "date": "2021-08-17"
-            },
-            {
-              "url": "https://techcrunch.com/2024/10/30/modash-is-flipping-the-influencer-marketing-script-by-connecting-brands-with-the-long-tail-of-creators",
-              "name": "Modash is flipping the influencer marketing script by connecting brands with the long tail of creators | TechCrunch",
-              "date": "2024-10-30"
-            },
-            {
-              "url": "https://pitchbook.com/profiles/company/265339-90",
+              "url": "https://pitchbook.com/profiles/company/504074-53",
               "name": "pitchbook.com",
-              "date": "2026-06-10"
-            }
-          ]
-        },
-        {
-          "kind": "status",
-          "text": "Cala status: ACTIVE",
-          "sources": [
-            {
-              "url": "https://ariregister.rik.ee/est/company/14434162",
-              "name": "ariregister.rik.ee",
-              "date": "2026-11-02"
-            },
-            {
-              "url": "https://www.modash.io/",
-              "name": "modash.io",
-              "date": "2026-11-06"
-            }
-          ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported acquisition (modash.io, 2025-01)",
-          "date": "2025-01-21",
-          "sources": [
-            {
-              "url": "https://www.modash.io/blog/promoty",
-              "name": "Modash Acquires Promoty",
-              "date": "2025-01-21"
-            },
-            {
-              "url": "https://willitsurvive.net/c/modash/",
-              "name": "Modash: will it survive the AI era? Assessed 23 July 2026 · WillItSurvive",
-              "date": "2026-07-23"
-            },
-            {
-              "url": "https://www.balticvc.com/2025/01/estonian-startup-modash-acquires-crm.html",
-              "name": "Estonian startup Modash acquires CRM platform Promoty",
-              "date": "2025-01-21"
-            },
-            {
-              "url": "https://www.netinfluencer.com/modash-acquires-promoty/",
-              "name": "Modash Acquires Promoty In Global Expansion Push",
-              "date": "2025-01-21"
-            },
-            {
-              "url": "https://www.finsmes.com/2025/01/modash-acquires-promoty.html",
-              "name": "Modash Acquires Promoty",
-              "date": "2025-01-21"
+              "date": "2026-08-24"
             }
           ]
         }
@@ -8131,6 +7685,167 @@
               "url": "https://pitchbook.com/profiles/company/541658-08",
               "name": "pitchbook.com",
               "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
+        "What did Icebreaker.vc's partners actually do for you after the investment?",
+        "Would you take money from Icebreaker.vc again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "28d85aec-8ab8-439c-a74b-205b55f884e4",
+      "companyName": "Modash OÜ",
+      "founder": {
+        "name": "Avery Schrader",
+        "via": "cala",
+        "evidence": "Cala: FOUNDED",
+        "sources": [
+          {
+            "url": "https://investinestonia.com/tallinn-based-modash-raises-e11m-praises-estonian-ecosystem",
+            "name": "Tallinn-based Modash raises €11M, praises Estonian ecosystem - Invest in Estonia",
+            "date": "2024-10-31"
+          },
+          {
+            "url": "https://startupintros.com/orgs/modash-io",
+            "name": "Modash.io: Funding, Team & Investors",
+            "date": "2026-07-13"
+          },
+          {
+            "url": "https://app.welcometothejungle.com/companies/Modash",
+            "name": "The better way to find a job in tech",
+            "date": "2022-01-01"
+          },
+          {
+            "url": "https://www.modash.io/blog/modash-raises-2m",
+            "name": "Modash Raises $2M To Power 1,000,000 Creator Partnerships Per Year",
+            "date": "2026-03-12"
+          }
+        ]
+      },
+      "group": "no_recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2024-10",
+          "date": "2024-10-31",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/modash/__Ox4dGyAFq8IfQ8vCWivUjD0mUDGoZD4X1WA_zj-1C18",
+              "name": "tracxn.com",
+              "date": "2026-06-10"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/modash/__Ox4dGyAFq8IfQ8vCWivUjD0mUDGoZD4X1WA_zj-1C18/funding-and-investors",
+              "name": "Modash - 2026 Funding Rounds & List of Investors - Tracxn",
+              "date": "2021-08-17"
+            },
+            {
+              "url": "https://techcrunch.com/2024/10/30/modash-is-flipping-the-influencer-marketing-script-by-connecting-brands-with-the-long-tail-of-creators",
+              "name": "Modash is flipping the influencer marketing script by connecting brands with the long tail of creators | TechCrunch",
+              "date": "2024-10-30"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/265339-90",
+              "name": "pitchbook.com",
+              "date": "2026-06-10"
+            }
+          ]
+        },
+        {
+          "kind": "status",
+          "text": "Cala status: ACTIVE",
+          "sources": [
+            {
+              "url": "https://ariregister.rik.ee/est/company/14434162",
+              "name": "ariregister.rik.ee",
+              "date": "2026-11-02"
+            },
+            {
+              "url": "https://www.modash.io/",
+              "name": "modash.io",
+              "date": "2026-11-06"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
+        "What did Icebreaker.vc's partners actually do for you after the investment?",
+        "Would you take money from Icebreaker.vc again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "28d85aec-8ab8-439c-a74b-205b55f884e4",
+      "companyName": "Modash OÜ",
+      "founder": {
+        "name": "Hendry Sadrak",
+        "via": "cala",
+        "evidence": "Cala: FOUNDED",
+        "sources": [
+          {
+            "url": "https://investinestonia.com/tallinn-based-modash-raises-e11m-praises-estonian-ecosystem",
+            "name": "Tallinn-based Modash raises €11M, praises Estonian ecosystem - Invest in Estonia",
+            "date": "2024-10-31"
+          },
+          {
+            "url": "https://startupintros.com/orgs/modash-io",
+            "name": "Modash.io: Funding, Team & Investors",
+            "date": "2026-07-13"
+          },
+          {
+            "url": "https://app.welcometothejungle.com/companies/Modash",
+            "name": "The better way to find a job in tech",
+            "date": "2022-01-01"
+          }
+        ]
+      },
+      "group": "no_recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2024-10",
+          "date": "2024-10-31",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/modash/__Ox4dGyAFq8IfQ8vCWivUjD0mUDGoZD4X1WA_zj-1C18",
+              "name": "tracxn.com",
+              "date": "2026-06-10"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/modash/__Ox4dGyAFq8IfQ8vCWivUjD0mUDGoZD4X1WA_zj-1C18/funding-and-investors",
+              "name": "Modash - 2026 Funding Rounds & List of Investors - Tracxn",
+              "date": "2021-08-17"
+            },
+            {
+              "url": "https://techcrunch.com/2024/10/30/modash-is-flipping-the-influencer-marketing-script-by-connecting-brands-with-the-long-tail-of-creators",
+              "name": "Modash is flipping the influencer marketing script by connecting brands with the long tail of creators | TechCrunch",
+              "date": "2024-10-30"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/265339-90",
+              "name": "pitchbook.com",
+              "date": "2026-06-10"
+            }
+          ]
+        },
+        {
+          "kind": "status",
+          "text": "Cala status: ACTIVE",
+          "sources": [
+            {
+              "url": "https://ariregister.rik.ee/est/company/14434162",
+              "name": "ariregister.rik.ee",
+              "date": "2026-11-02"
+            },
+            {
+              "url": "https://www.modash.io/",
+              "name": "modash.io",
+              "date": "2026-11-06"
             }
           ]
         }
@@ -8482,6 +8197,752 @@
       "writing": []
     },
     {
+      "companyId": "cadf8009-d7e4-41aa-83ff-540accfe7f8a",
+      "companyName": "Crewpoint",
+      "founder": {
+        "name": "Marko Saul",
+        "linkedinUrl": "https://linkedin.com/in/markosaul",
+        "via": "exa+gemini",
+        "evidence": "Co-Founder & CEO, Crewpoint",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/markosaul",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2025-05",
+          "date": "2025-05-27",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/crewpoint/__Z1hgjCGkD0aB01NJl7qMeuhz0OEaPe6GpWXzG_NPspM",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/venture-capital/icebreaker/__6onsCCxoge0mlrsTAu7qNqkle4NFbLIHo2zNfANtVfw",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://crewpoint.com/news/fundraising-round-icebreaker-vc",
+              "name": "Crewpoint Announces First Funding Round Led by Icebreaker.vc to Transform Maritime Crew Travel",
+              "date": "2025-05-30"
+            },
+            {
+              "url": "https://www.linkedin.com/posts/crewpoint_crewpoint-announces-first-funding-round-led-activity-7331241981513195521-7e7u",
+              "name": "Crewpoint Announces First Funding Round Led by Icebreaker.vc to Transform Maritime Crew Travel with AI-Driven Service-as-a-Software Solution Tallinn, Estonia – May 2025 Crewpoint, a next-generation… | Crewpoint",
+              "date": "2025-05-22"
+            },
+            {
+              "url": "https://en.ain.ua/2025/05/27/crewpoint-closes-funding-round",
+              "name": "en.ain.ua",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.crunchbase.com/organization/crewpoint",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
+        "What did Icebreaker.vc's partners actually do for you after the investment?",
+        "Would you take money from Icebreaker.vc again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "cadf8009-d7e4-41aa-83ff-540accfe7f8a",
+      "companyName": "Crewpoint",
+      "founder": {
+        "name": "Toomas Koost",
+        "linkedinUrl": "https://linkedin.com/in/toomaskoost",
+        "via": "exa+gemini",
+        "evidence": "Chief Product Officer & Co-Founder, Crewpoint",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/toomaskoost",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2025-05",
+          "date": "2025-05-27",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/crewpoint/__Z1hgjCGkD0aB01NJl7qMeuhz0OEaPe6GpWXzG_NPspM",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/venture-capital/icebreaker/__6onsCCxoge0mlrsTAu7qNqkle4NFbLIHo2zNfANtVfw",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://crewpoint.com/news/fundraising-round-icebreaker-vc",
+              "name": "Crewpoint Announces First Funding Round Led by Icebreaker.vc to Transform Maritime Crew Travel",
+              "date": "2025-05-30"
+            },
+            {
+              "url": "https://www.linkedin.com/posts/crewpoint_crewpoint-announces-first-funding-round-led-activity-7331241981513195521-7e7u",
+              "name": "Crewpoint Announces First Funding Round Led by Icebreaker.vc to Transform Maritime Crew Travel with AI-Driven Service-as-a-Software Solution Tallinn, Estonia – May 2025 Crewpoint, a next-generation… | Crewpoint",
+              "date": "2025-05-22"
+            },
+            {
+              "url": "https://en.ain.ua/2025/05/27/crewpoint-closes-funding-round",
+              "name": "en.ain.ua",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.crunchbase.com/organization/crewpoint",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
+        "What did Icebreaker.vc's partners actually do for you after the investment?",
+        "Would you take money from Icebreaker.vc again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "8e416e4e-1947-4dde-ba6e-a1a07228867c",
+      "companyName": "Tab",
+      "founder": {
+        "name": "Calle Mellbin",
+        "linkedinUrl": "https://linkedin.com/in/callemellbin",
+        "via": "exa+gemini",
+        "evidence": "Founder & CEO (Acquired by Kivra), Tab",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/callemellbin",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2025-12",
+          "date": "2025-12-01",
+          "sources": [
+            {
+              "url": "https://wellstreet.se/story/wellstreet-invests-in-tab-technology-to-build-the-missing-infrastructure-layer-for-digital-receipts",
+              "name": "Wellstreet invests in Tab Technology to build the missing infrastructure layer for digital receipts",
+              "date": "2026-03-17"
+            },
+            {
+              "url": "https://www.linkedin.com/company/tabtechnology",
+              "name": "Tab | LinkedIn",
+              "date": "2026-03-03"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
+        "What did Icebreaker.vc's partners actually do for you after the investment?",
+        "Would you take money from Icebreaker.vc again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "8e7dc3e9-e10a-4f41-9ade-4e2e1504680e",
+      "companyName": "Spaceit",
+      "founder": {
+        "name": "Silver Lodi",
+        "linkedinUrl": "https://linkedin.com/in/silverlodi",
+        "via": "exa+gemini",
+        "evidence": "CEO, Co-Founder, Spaceit",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/silverlodi",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "no_recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2021-08",
+          "date": "2021-08-10",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/spaceit/__GgL1ICuY05q7FkU0A8cS9l2kdMxz9x0xyntbsvc9YMs",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
+        "What did Icebreaker.vc's partners actually do for you after the investment?",
+        "Would you take money from Icebreaker.vc again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "cc75e3f7-3e62-4964-abcb-9bfe5f4b8bc1",
+      "companyName": "Oplane AB",
+      "founder": {
+        "name": "Oskar Hane",
+        "via": "cala",
+        "evidence": "Cala: IS_CEO_OF",
+        "sources": [
+          {
+            "url": "https://www.linkedin.com/posts/oskarhane_thanks-for-co-organizing-with-us-great-evening-activity-7470192482463510529-OLPN",
+            "name": "Thanks for co-organizing with us, great evening with a lot of learnings and new connections. | Oskar Hane",
+            "date": "2026-06-09"
+          },
+          {
+            "url": "https://www.oplane.io",
+            "name": "Oplane - The always-on security expert for AI-first engineering teams",
+            "date": "2025-03-14"
+          }
+        ]
+      },
+      "group": "recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-06",
+          "date": "2026-06-03",
+          "sources": [
+            {
+              "url": "https://arcticstartup.com/oplane-raises-e4-5m-seed",
+              "name": "arcticstartup.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tech.eu/2026/06/02/oplane-raises-eur45m-to-bring-security-to-ai-development-teams",
+              "name": "Oplane raises €4.5M to bring security to AI development teams",
+              "date": "2026-06-02"
+            },
+            {
+              "url": "https://bebeez.eu/2026/06/02/swedish-oplane-raises-e4-5m-seed-to-automate-threat-modeling-for-ai-coding-teams",
+              "name": "Swedish Oplane raises €4.5M seed to automate threat modeling for AI coding teams",
+              "date": "2026-06-02"
+            },
+            {
+              "url": "https://dealroom.co/news/130839-oplane-raises-4-5m-seed-to-automate-threat-modeling-for-ai-coding-teams",
+              "name": "Oplane raises €4.5M seed to automate threat modeling for AI coding teams | Dealroom News",
+              "date": "2026-06-02"
+            },
+            {
+              "url": "https://startupmafia.eu/oplane-raises-5-2m-seed-to-build-automated-security-architecture-for-ai-native-systems",
+              "name": "Oplane raises $5.2M seed to build automated security architecture for AI-native systems",
+              "date": "2026-06-10"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
+        "What did Icebreaker.vc's partners actually do for you after the investment?",
+        "Would you take money from Icebreaker.vc again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "cc75e3f7-3e62-4964-abcb-9bfe5f4b8bc1",
+      "companyName": "Oplane AB",
+      "founder": {
+        "name": "Emil Kvarnhammar",
+        "linkedinUrl": "https://linkedin.com/in/emilkvarnhammar",
+        "via": "exa+gemini",
+        "evidence": "Threat Modeler and Co-founder, Oplane",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/emilkvarnhammar",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-06",
+          "date": "2026-06-03",
+          "sources": [
+            {
+              "url": "https://arcticstartup.com/oplane-raises-e4-5m-seed",
+              "name": "arcticstartup.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tech.eu/2026/06/02/oplane-raises-eur45m-to-bring-security-to-ai-development-teams",
+              "name": "Oplane raises €4.5M to bring security to AI development teams",
+              "date": "2026-06-02"
+            },
+            {
+              "url": "https://bebeez.eu/2026/06/02/swedish-oplane-raises-e4-5m-seed-to-automate-threat-modeling-for-ai-coding-teams",
+              "name": "Swedish Oplane raises €4.5M seed to automate threat modeling for AI coding teams",
+              "date": "2026-06-02"
+            },
+            {
+              "url": "https://dealroom.co/news/130839-oplane-raises-4-5m-seed-to-automate-threat-modeling-for-ai-coding-teams",
+              "name": "Oplane raises €4.5M seed to automate threat modeling for AI coding teams | Dealroom News",
+              "date": "2026-06-02"
+            },
+            {
+              "url": "https://startupmafia.eu/oplane-raises-5-2m-seed-to-build-automated-security-architecture-for-ai-native-systems",
+              "name": "Oplane raises $5.2M seed to build automated security architecture for AI-native systems",
+              "date": "2026-06-10"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
+        "What did Icebreaker.vc's partners actually do for you after the investment?",
+        "Would you take money from Icebreaker.vc again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "0f3a64e2-48c8-4fd8-8f77-483096cae74c",
+      "companyName": "Joy",
+      "founder": {
+        "name": "Kaiwalya Kher",
+        "via": "cala",
+        "evidence": "Cala: FOUNDED",
+        "sources": [
+          {
+            "url": "https://www.ycombinator.com/companies/joy",
+            "name": "Joy: The platform for all your life events. | Y Combinator",
+            "date": "2022-11-30"
+          },
+          {
+            "url": "https://wellfound.com/company/withjoy/people",
+            "name": "wellfound.com",
+            "date": "2026-07-29"
+          },
+          {
+            "url": "https://startupintros.com/orgs/joy",
+            "name": "Joy: Funding, Team & Investors",
+            "date": "2026-07-13"
+          },
+          {
+            "url": "https://withjoy.com/our-story",
+            "name": "Wedding App | Wedding AboutUs | Joy",
+            "date": "2026-01-01"
+          }
+        ]
+      },
+      "group": "no_recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2016-11",
+          "date": "2016-11-08",
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2016/11/08/digital-wedding-planner-joy-says-i-do-to-4-5-million-in-seed-funding",
+              "name": "Digital wedding planner Joy says 'I do' to $4.5 million in seed funding | TechCrunch",
+              "date": "2016-11-08"
+            }
+          ]
+        },
+        {
+          "kind": "status",
+          "text": "Cala status: ACTIVE",
+          "sources": [
+            {
+              "url": "https://github.com/yc-oss/api",
+              "name": "Y Combinator",
+              "date": "2026-06-30"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
+        "What did Icebreaker.vc's partners actually do for you after the investment?",
+        "Would you take money from Icebreaker.vc again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "0f3a64e2-48c8-4fd8-8f77-483096cae74c",
+      "companyName": "Joy",
+      "founder": {
+        "name": "Vishal Joshi",
+        "via": "cala",
+        "evidence": "Cala: FOUNDED",
+        "sources": [
+          {
+            "url": "https://withjoy.com/our-story",
+            "name": "Wedding App | Wedding AboutUs | Joy",
+            "date": "2026-01-01"
+          },
+          {
+            "url": "https://www.ycombinator.com/companies/joy",
+            "name": "Joy: The platform for all your life events. | Y Combinator",
+            "date": "2022-11-30"
+          },
+          {
+            "url": "https://www.crunchbase.com/organization/joytheapp",
+            "name": "www.crunchbase.com",
+            "date": "2026-07-29"
+          },
+          {
+            "url": "https://councils.forbes.com/profile/Vishal-Joshi-Co-Founder-CEO-Joy/123f13d3-ce77-4f41-8080-e24abc38c56a",
+            "name": "Vishal Joshi | Co-Founder & CEO - Joy | Forbes Business Council",
+            "date": "2026-06-15"
+          },
+          {
+            "url": "https://www.prnewswire.com/news-releases/joy-raises-60m-in-series-b-to-extend-their-modern-wedding-planning-platform-for-all-life-events-301689652.html",
+            "name": "Joy Raises $60M in Series B to Extend their Modern Wedding Planning Platform for All Life Events",
+            "date": "2022-11-30"
+          },
+          {
+            "url": "https://startupintros.com/orgs/joy",
+            "name": "Joy: Funding, Team & Investors",
+            "date": "2026-07-13"
+          }
+        ]
+      },
+      "group": "no_recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2016-11",
+          "date": "2016-11-08",
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2016/11/08/digital-wedding-planner-joy-says-i-do-to-4-5-million-in-seed-funding",
+              "name": "Digital wedding planner Joy says 'I do' to $4.5 million in seed funding | TechCrunch",
+              "date": "2016-11-08"
+            }
+          ]
+        },
+        {
+          "kind": "status",
+          "text": "Cala status: ACTIVE",
+          "sources": [
+            {
+              "url": "https://github.com/yc-oss/api",
+              "name": "Y Combinator",
+              "date": "2026-06-30"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
+        "What did Icebreaker.vc's partners actually do for you after the investment?",
+        "Would you take money from Icebreaker.vc again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "1d347b8a-f062-4aec-b2ce-cd64081ec640",
+      "companyName": "DASHBIRD INC.",
+      "founder": {
+        "name": "Taavi Rehemägi",
+        "linkedinUrl": "https://linkedin.com/in/taavi-rehemagi",
+        "via": "exa+gemini",
+        "evidence": "CEO & Co-Founder, Dashbird",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/taavi-rehemagi",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "no_recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2020-04",
+          "date": "2020-04-15",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/dashbird/__zgZEC4W2qoWXFBHN_ZPq6JubAE6l4q0KQzM3UYjOIck",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/229054-87",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            }
+          ]
+        },
+        {
+          "kind": "status",
+          "text": "Cala status: ACTIVE",
+          "sources": [
+            {
+              "url": "https://find-and-update.company-information.service.gov.uk/company/FC037801",
+              "name": "Companies House UK",
+              "date": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
+        "What did Icebreaker.vc's partners actually do for you after the investment?",
+        "Would you take money from Icebreaker.vc again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "7f89f651-ba07-4218-a367-9f0f839dbf71",
+      "companyName": "Fondion",
+      "founder": {
+        "name": "Riko Nyberg",
+        "linkedinUrl": "https://linkedin.com/in/riko-nyberg",
+        "via": "exa+gemini",
+        "evidence": "Co-Founder & CTO, Fondion",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/riko-nyberg",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2025-06",
+          "date": "2025-06-01",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/fondion/__icKG0ID9GGRj4uXEJ6BZjuzc7771LCsfuuEFJYSEtHA/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/fondion/__icKG0ID9GGRj4uXEJ6BZjuzc7771LCsfuuEFJYSEtHA",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
+        "What did Icebreaker.vc's partners actually do for you after the investment?",
+        "Would you take money from Icebreaker.vc again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "7f89f651-ba07-4218-a367-9f0f839dbf71",
+      "companyName": "Fondion",
+      "founder": {
+        "name": "Jukka-Pekka Tahkola",
+        "linkedinUrl": "https://linkedin.com/in/jukka-pekka-tahkola-486794106",
+        "via": "exa+gemini",
+        "evidence": "CEO / Partner, Fondion",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/jukka-pekka-tahkola-486794106",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2025-06",
+          "date": "2025-06-01",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/fondion/__icKG0ID9GGRj4uXEJ6BZjuzc7771LCsfuuEFJYSEtHA/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/fondion/__icKG0ID9GGRj4uXEJ6BZjuzc7771LCsfuuEFJYSEtHA",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
+        "What did Icebreaker.vc's partners actually do for you after the investment?",
+        "Would you take money from Icebreaker.vc again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "517d6c7d-fc0b-4b97-897a-4ef5c2f62f10",
+      "companyName": "Alinor",
+      "founder": {
+        "name": "Dennis von Kraemer",
+        "linkedinUrl": "https://linkedin.com/in/dennisvonkraemer",
+        "via": "exa+gemini",
+        "evidence": "Co-Founder, Alinor",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/dennisvonkraemer",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "no_recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2023-10",
+          "date": "2023-10-23",
+          "sources": [
+            {
+              "url": "https://www.cbinsights.com/company/alinor/financials",
+              "name": "www.cbinsights.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/503428-06",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.crunchbase.com/organization/alinor",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
+        "What did Icebreaker.vc's partners actually do for you after the investment?",
+        "Would you take money from Icebreaker.vc again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "eb012d31-2b1c-4bca-9523-9bd8710f5891",
+      "companyName": "Valpas",
+      "founder": {
+        "name": "Aleksi Jokela",
+        "via": "cala",
+        "evidence": "Cala: FOUNDED",
+        "sources": [
+          {
+            "url": "https://fi.linkedin.com/in/aleksi-jokela",
+            "name": "fi.linkedin.com",
+            "date": "2026-08-20"
+          },
+          {
+            "url": "https://techfundingnews.com/finnish-startup-valpas-raises-e4m-for-chemical-free-bedbug-safety-tech",
+            "name": "techfundingnews.com",
+            "date": "2026-08-20"
+          },
+          {
+            "url": "https://siliconcanals.com/helsinki-based-valpas-raises-4m",
+            "name": "Helsinki-based Valpas raises €4M to help hotels safe from bed bugs: Here’s how - Silicon Canals",
+            "date": "2024-06-26"
+          },
+          {
+            "url": "https://thenextweb.com/news/helsinki-startup-valpas-smart-bed-legs-bed-bugs",
+            "name": "Helsinki startup raises €4M for smart bed legs to outsmart bed bugs",
+            "date": "2024-06-26"
+          },
+          {
+            "url": "https://valpashotels.com/blog/valpas-announces-japanese-market-entry-strategy-to-tackle-share-of-eur15bn-bed-bug-problem-backed-by-canon-marketing-japan-inc-investment",
+            "name": "Press release: Valpas announces Japanese market entry strategy to tackle share of €15bn bed bug problem, backed by Canon Marketing Japan Inc. investment",
+            "date": "2025-01-07"
+          }
+        ]
+      },
+      "group": "no_recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2022-04",
+          "date": "2022-04-18",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/venture-capital/reaktorventures/__pV0wE3RphXvncsG7r4YzgC67qEvQp1ZHH2obLi3U35o",
+              "name": "tracxn.com",
+              "date": "2026-06-10"
+            },
+            {
+              "url": "https://www.crunchbase.com/organization/valpas",
+              "name": "www.crunchbase.com",
+              "date": "2026-06-10"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
+        "What did Icebreaker.vc's partners actually do for you after the investment?",
+        "Would you take money from Icebreaker.vc again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "eb012d31-2b1c-4bca-9523-9bd8710f5891",
+      "companyName": "Valpas",
+      "founder": {
+        "name": "Aku Viskari",
+        "via": "cala",
+        "evidence": "Cala: FOUNDED",
+        "sources": [
+          {
+            "url": "https://maki.vc/case/valpas",
+            "name": "Valpas - Maki.vc",
+            "date": "2026-03-11"
+          }
+        ]
+      },
+      "group": "no_recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2022-04",
+          "date": "2022-04-18",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/venture-capital/reaktorventures/__pV0wE3RphXvncsG7r4YzgC67qEvQp1ZHH2obLi3U35o",
+              "name": "tracxn.com",
+              "date": "2026-06-10"
+            },
+            {
+              "url": "https://www.crunchbase.com/organization/valpas",
+              "name": "www.crunchbase.com",
+              "date": "2026-06-10"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
+        "What did Icebreaker.vc's partners actually do for you after the investment?",
+        "Would you take money from Icebreaker.vc again, and why?"
+      ],
+      "writing": []
+    },
+    {
       "companyId": "1281e10a-7a2e-4f4b-a6e1-548c32178126",
       "companyName": "Vespia OÜ",
       "founder": {
@@ -8660,188 +9121,17 @@
       "writing": []
     },
     {
-      "companyId": "cc75e3f7-3e62-4964-abcb-9bfe5f4b8bc1",
-      "companyName": "Oplane AB",
+      "companyId": "734fbd38-7969-43d3-a47f-b953e4fe232b",
+      "companyName": "Lumoa",
       "founder": {
-        "name": "Oskar Hane",
-        "via": "cala",
-        "evidence": "Cala: IS_CEO_OF",
-        "sources": [
-          {
-            "url": "https://www.linkedin.com/posts/oskarhane_thanks-for-co-organizing-with-us-great-evening-activity-7470192482463510529-OLPN",
-            "name": "Thanks for co-organizing with us, great evening with a lot of learnings and new connections. | Oskar Hane",
-            "date": "2026-06-09"
-          },
-          {
-            "url": "https://www.oplane.io",
-            "name": "Oplane - The always-on security expert for AI-first engineering teams",
-            "date": "2025-03-14"
-          }
-        ]
-      },
-      "group": "recent_round",
-      "why": [
-        {
-          "kind": "last_round",
-          "text": "Last recorded round: 2026-06",
-          "date": "2026-06-03",
-          "sources": [
-            {
-              "url": "https://arcticstartup.com/oplane-raises-e4-5m-seed",
-              "name": "arcticstartup.com",
-              "date": "2026-08-25"
-            },
-            {
-              "url": "https://tech.eu/2026/06/02/oplane-raises-eur45m-to-bring-security-to-ai-development-teams",
-              "name": "Oplane raises €4.5M to bring security to AI development teams",
-              "date": "2026-06-02"
-            },
-            {
-              "url": "https://bebeez.eu/2026/06/02/swedish-oplane-raises-e4-5m-seed-to-automate-threat-modeling-for-ai-coding-teams",
-              "name": "Swedish Oplane raises €4.5M seed to automate threat modeling for AI coding teams",
-              "date": "2026-06-02"
-            },
-            {
-              "url": "https://dealroom.co/news/130839-oplane-raises-4-5m-seed-to-automate-threat-modeling-for-ai-coding-teams",
-              "name": "Oplane raises €4.5M seed to automate threat modeling for AI coding teams | Dealroom News",
-              "date": "2026-06-02"
-            },
-            {
-              "url": "https://startupmafia.eu/oplane-raises-5-2m-seed-to-build-automated-security-architecture-for-ai-native-systems",
-              "name": "Oplane raises $5.2M seed to build automated security architecture for AI-native systems",
-              "date": "2026-06-10"
-            }
-          ]
-        }
-      ],
-      "questions": [
-        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
-        "What did Icebreaker.vc's partners actually do for you after the investment?",
-        "Would you take money from Icebreaker.vc again, and why?"
-      ],
-      "writing": []
-    },
-    {
-      "companyId": "cc75e3f7-3e62-4964-abcb-9bfe5f4b8bc1",
-      "companyName": "Oplane AB",
-      "founder": {
-        "name": "Emil Kvarnhammar",
-        "linkedinUrl": "https://linkedin.com/in/emilkvarnhammar",
+        "name": "Carlos del Corral",
+        "linkedinUrl": "https://linkedin.com/in/carlosdelcorral",
         "via": "exa+gemini",
-        "evidence": "Threat Modeler and Co-founder, Oplane",
+        "evidence": "Co Founder, currently CEO, Lumoa",
         "sources": [
           {
-            "url": "https://linkedin.com/in/emilkvarnhammar",
+            "url": "https://linkedin.com/in/carlosdelcorral",
             "name": "linkedin.com"
-          }
-        ]
-      },
-      "group": "recent_round",
-      "why": [
-        {
-          "kind": "last_round",
-          "text": "Last recorded round: 2026-06",
-          "date": "2026-06-03",
-          "sources": [
-            {
-              "url": "https://arcticstartup.com/oplane-raises-e4-5m-seed",
-              "name": "arcticstartup.com",
-              "date": "2026-08-25"
-            },
-            {
-              "url": "https://tech.eu/2026/06/02/oplane-raises-eur45m-to-bring-security-to-ai-development-teams",
-              "name": "Oplane raises €4.5M to bring security to AI development teams",
-              "date": "2026-06-02"
-            },
-            {
-              "url": "https://bebeez.eu/2026/06/02/swedish-oplane-raises-e4-5m-seed-to-automate-threat-modeling-for-ai-coding-teams",
-              "name": "Swedish Oplane raises €4.5M seed to automate threat modeling for AI coding teams",
-              "date": "2026-06-02"
-            },
-            {
-              "url": "https://dealroom.co/news/130839-oplane-raises-4-5m-seed-to-automate-threat-modeling-for-ai-coding-teams",
-              "name": "Oplane raises €4.5M seed to automate threat modeling for AI coding teams | Dealroom News",
-              "date": "2026-06-02"
-            },
-            {
-              "url": "https://startupmafia.eu/oplane-raises-5-2m-seed-to-build-automated-security-architecture-for-ai-native-systems",
-              "name": "Oplane raises $5.2M seed to build automated security architecture for AI-native systems",
-              "date": "2026-06-10"
-            }
-          ]
-        }
-      ],
-      "questions": [
-        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
-        "What did Icebreaker.vc's partners actually do for you after the investment?",
-        "Would you take money from Icebreaker.vc again, and why?"
-      ],
-      "writing": []
-    },
-    {
-      "companyId": "8e7dc3e9-e10a-4f41-9ade-4e2e1504680e",
-      "companyName": "Spaceit",
-      "founder": {
-        "name": "Silver Lodi",
-        "linkedinUrl": "https://ee.linkedin.com/in/silverlodi",
-        "via": "exa+gemini",
-        "evidence": "CEO, Co-Founder, Spaceit",
-        "sources": [
-          {
-            "url": "https://ee.linkedin.com/in/silverlodi",
-            "name": "ee.linkedin.com"
-          }
-        ]
-      },
-      "group": "no_recent_round",
-      "why": [
-        {
-          "kind": "last_round",
-          "text": "Last recorded round: 2021-08",
-          "date": "2021-08-10",
-          "sources": [
-            {
-              "url": "https://tracxn.com/d/companies/spaceit/__GgL1ICuY05q7FkU0A8cS9l2kdMxz9x0xyntbsvc9YMs",
-              "name": "tracxn.com",
-              "date": "2026-08-25"
-            }
-          ]
-        }
-      ],
-      "questions": [
-        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
-        "What did Icebreaker.vc's partners actually do for you after the investment?",
-        "Would you take money from Icebreaker.vc again, and why?"
-      ],
-      "writing": []
-    },
-    {
-      "companyId": "0f3a64e2-48c8-4fd8-8f77-483096cae74c",
-      "companyName": "Joy",
-      "founder": {
-        "name": "Kaiwalya Kher",
-        "via": "cala",
-        "evidence": "Cala: FOUNDED",
-        "sources": [
-          {
-            "url": "https://www.ycombinator.com/companies/joy",
-            "name": "Joy: The platform for all your life events. | Y Combinator",
-            "date": "2022-11-30"
-          },
-          {
-            "url": "https://wellfound.com/company/withjoy/people",
-            "name": "wellfound.com",
-            "date": "2026-07-29"
-          },
-          {
-            "url": "https://startupintros.com/orgs/joy",
-            "name": "Joy: Funding, Team & Investors",
-            "date": "2026-07-13"
-          },
-          {
-            "url": "https://withjoy.com/our-story",
-            "name": "Wedding App | Wedding AboutUs | Joy",
-            "date": "2026-01-01"
           }
         ]
       },
@@ -8849,290 +9139,35 @@
       "why": [
         {
           "kind": "last_round",
-          "text": "Last recorded round: 2016-11",
-          "date": "2016-11-08",
+          "text": "Last recorded round: 2018-06",
+          "date": "2018-06-05",
           "sources": [
             {
-              "url": "https://techcrunch.com/2016/11/08/digital-wedding-planner-joy-says-i-do-to-4-5-million-in-seed-funding",
-              "name": "Digital wedding planner Joy says 'I do' to $4.5 million in seed funding | TechCrunch",
-              "date": "2016-11-08"
-            }
-          ]
-        },
-        {
-          "kind": "status",
-          "text": "Cala status: ACTIVE",
-          "sources": [
-            {
-              "url": "https://github.com/yc-oss/api",
-              "name": "Y Combinator",
-              "date": "2026-06-30"
-            }
-          ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported acquisition (kedglobal.com, 2026-10)",
-          "date": "2026-10-01",
-          "sources": [
-            {
-              "url": "https://www.kedglobal.com/us/mergers-acquisitions/newsView/ked202609300004",
-              "name": "One Lake Partners buys control of K-pop RESCENE bread maker at $80 mn valuation - KED Global",
-              "date": "2026-10-01"
-            },
-            {
-              "url": "https://en.wikipedia.org/wiki/Joy_Global",
-              "name": "Joy Global",
-              "date": "2026-06-15"
-            }
-          ]
-        }
-      ],
-      "questions": [
-        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
-        "What did Icebreaker.vc's partners actually do for you after the investment?",
-        "Would you take money from Icebreaker.vc again, and why?"
-      ],
-      "writing": []
-    },
-    {
-      "companyId": "0f3a64e2-48c8-4fd8-8f77-483096cae74c",
-      "companyName": "Joy",
-      "founder": {
-        "name": "Vishal Joshi",
-        "via": "cala",
-        "evidence": "Cala: FOUNDED",
-        "sources": [
-          {
-            "url": "https://withjoy.com/our-story",
-            "name": "Wedding App | Wedding AboutUs | Joy",
-            "date": "2026-01-01"
-          },
-          {
-            "url": "https://www.ycombinator.com/companies/joy",
-            "name": "Joy: The platform for all your life events. | Y Combinator",
-            "date": "2022-11-30"
-          },
-          {
-            "url": "https://www.crunchbase.com/organization/joytheapp",
-            "name": "www.crunchbase.com",
-            "date": "2026-07-29"
-          },
-          {
-            "url": "https://councils.forbes.com/profile/Vishal-Joshi-Co-Founder-CEO-Joy/123f13d3-ce77-4f41-8080-e24abc38c56a",
-            "name": "Vishal Joshi | Co-Founder & CEO - Joy | Forbes Business Council",
-            "date": "2026-06-15"
-          },
-          {
-            "url": "https://www.prnewswire.com/news-releases/joy-raises-60m-in-series-b-to-extend-their-modern-wedding-planning-platform-for-all-life-events-301689652.html",
-            "name": "Joy Raises $60M in Series B to Extend their Modern Wedding Planning Platform for All Life Events",
-            "date": "2022-11-30"
-          },
-          {
-            "url": "https://startupintros.com/orgs/joy",
-            "name": "Joy: Funding, Team & Investors",
-            "date": "2026-07-13"
-          }
-        ]
-      },
-      "group": "news_event",
-      "why": [
-        {
-          "kind": "last_round",
-          "text": "Last recorded round: 2016-11",
-          "date": "2016-11-08",
-          "sources": [
-            {
-              "url": "https://techcrunch.com/2016/11/08/digital-wedding-planner-joy-says-i-do-to-4-5-million-in-seed-funding",
-              "name": "Digital wedding planner Joy says 'I do' to $4.5 million in seed funding | TechCrunch",
-              "date": "2016-11-08"
-            }
-          ]
-        },
-        {
-          "kind": "status",
-          "text": "Cala status: ACTIVE",
-          "sources": [
-            {
-              "url": "https://github.com/yc-oss/api",
-              "name": "Y Combinator",
-              "date": "2026-06-30"
-            }
-          ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported acquisition (kedglobal.com, 2026-10)",
-          "date": "2026-10-01",
-          "sources": [
-            {
-              "url": "https://www.kedglobal.com/us/mergers-acquisitions/newsView/ked202609300004",
-              "name": "One Lake Partners buys control of K-pop RESCENE bread maker at $80 mn valuation - KED Global",
-              "date": "2026-10-01"
-            },
-            {
-              "url": "https://en.wikipedia.org/wiki/Joy_Global",
-              "name": "Joy Global",
-              "date": "2026-06-15"
-            }
-          ]
-        }
-      ],
-      "questions": [
-        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
-        "What did Icebreaker.vc's partners actually do for you after the investment?",
-        "Would you take money from Icebreaker.vc again, and why?"
-      ],
-      "writing": []
-    },
-    {
-      "companyId": "1d347b8a-f062-4aec-b2ce-cd64081ec640",
-      "companyName": "DASHBIRD INC.",
-      "founder": {
-        "name": "Taavi Rehemägi",
-        "linkedinUrl": "https://linkedin.com/in/taavi-rehemagi",
-        "via": "exa+gemini",
-        "evidence": "CEO & Co-Founder, Dashbird",
-        "sources": [
-          {
-            "url": "https://linkedin.com/in/taavi-rehemagi",
-            "name": "linkedin.com"
-          }
-        ]
-      },
-      "group": "no_recent_round",
-      "why": [
-        {
-          "kind": "last_round",
-          "text": "Last recorded round: 2020-04",
-          "date": "2020-04-15",
-          "sources": [
-            {
-              "url": "https://tracxn.com/d/companies/dashbird/__zgZEC4W2qoWXFBHN_ZPq6JubAE6l4q0KQzM3UYjOIck",
+              "url": "https://tracxn.com/d/companies/lumoa/__EUCCGhioyswrN91VgmB7uRpKuaau3wams-18H-GgFek",
               "name": "tracxn.com",
               "date": "2026-08-25"
             },
             {
-              "url": "https://pitchbook.com/profiles/company/229054-87",
+              "url": "https://tracxn.com/d/companies/lumoa/__EUCCGhioyswrN91VgmB7uRpKuaau3wams-18H-GgFek/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/228025-99",
               "name": "pitchbook.com",
               "date": "2026-08-25"
             }
           ]
         },
         {
-          "kind": "status",
-          "text": "Cala status: ACTIVE",
-          "sources": [
-            {
-              "url": "https://find-and-update.company-information.service.gov.uk/company/FC037801",
-              "name": "Companies House UK",
-              "date": "2026-11-01"
-            }
-          ]
-        }
-      ],
-      "questions": [
-        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
-        "What did Icebreaker.vc's partners actually do for you after the investment?",
-        "Would you take money from Icebreaker.vc again, and why?"
-      ],
-      "writing": []
-    },
-    {
-      "companyId": "359b98de-094c-4986-9923-5fee49b5530c",
-      "companyName": "LUTSO",
-      "founder": {
-        "name": "Andres Tuul",
-        "linkedinUrl": "https://linkedin.com/in/andrestuul",
-        "via": "exa+gemini",
-        "evidence": "CEO & Co-Founder, Lutso",
-        "sources": [
-          {
-            "url": "https://linkedin.com/in/andrestuul",
-            "name": "linkedin.com"
-          }
-        ]
-      },
-      "group": "news_event",
-      "why": [
-        {
-          "kind": "status",
-          "text": "Cala status: ACTIVE",
-          "sources": [
-            {
-              "url": "https://find-and-update.company-information.service.gov.uk/company/CE036397",
-              "name": "Companies House UK",
-              "date": "2026-10-01"
-            }
-          ]
-        },
-        {
           "kind": "news_event",
-          "text": "Reported acquisition (tracxn.com, 2026-05)",
-          "date": "2026-05-21",
+          "text": "Reported acquisition (netigate.net, 2024-03)",
+          "date": "2024-03-26",
           "sources": [
             {
-              "url": "https://tracxn.com/d/companies/lutso/__FVBPwWsORVMckNLXwnfHiAS02lv7CdIbf9XAo9YtNp0",
-              "name": "Lutso - 2026 Company Profile, Funding & Competitors - Tracxn",
-              "date": "2026-05-21"
-            },
-            {
-              "url": "https://linkedin.com/in/andrestuul",
-              "name": "Andres Tuul",
-              "date": "2026-11-04"
-            }
-          ]
-        }
-      ],
-      "questions": [
-        "How did Icebreaker.vc behave when the company hit its hardest stretch?",
-        "What did Icebreaker.vc's partners actually do for you after the investment?",
-        "Would you take money from Icebreaker.vc again, and why?"
-      ],
-      "writing": []
-    },
-    {
-      "companyId": "359b98de-094c-4986-9923-5fee49b5530c",
-      "companyName": "LUTSO",
-      "founder": {
-        "name": "Sten-Erik Mägus",
-        "linkedinUrl": "https://linkedin.com/in/sten-erik-magus",
-        "via": "exa+gemini",
-        "evidence": "Co-Founder, Lutso",
-        "sources": [
-          {
-            "url": "https://linkedin.com/in/sten-erik-magus",
-            "name": "linkedin.com"
-          }
-        ]
-      },
-      "group": "news_event",
-      "why": [
-        {
-          "kind": "status",
-          "text": "Cala status: ACTIVE",
-          "sources": [
-            {
-              "url": "https://find-and-update.company-information.service.gov.uk/company/CE036397",
-              "name": "Companies House UK",
-              "date": "2026-10-01"
-            }
-          ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported acquisition (tracxn.com, 2026-05)",
-          "date": "2026-05-21",
-          "sources": [
-            {
-              "url": "https://tracxn.com/d/companies/lutso/__FVBPwWsORVMckNLXwnfHiAS02lv7CdIbf9XAo9YtNp0",
-              "name": "Lutso - 2026 Company Profile, Funding & Competitors - Tracxn",
-              "date": "2026-05-21"
-            },
-            {
-              "url": "https://linkedin.com/in/andrestuul",
-              "name": "Andres Tuul",
-              "date": "2026-11-04"
+              "url": "https://www.netigate.net/press/netigate-acquires-lumoa-to-better-harness-the-power-of-feedback/",
+              "name": "Netigate acquires Lumoa to better harness the power of feedback – Netigate",
+              "date": "2024-03-26"
             }
           ]
         }
@@ -9194,16 +9229,6 @@
               "date": "2025-01-31"
             },
             {
-              "url": "https://www.linkedin.com/company/spindlxyz",
-              "name": "Spindl",
-              "date": "2024-05-21"
-            },
-            {
-              "url": "https://www.theblock.co/news/markets/2025-01-31-coinbase-acquires-web3-adtech-platform-spindl-338276",
-              "name": "Coinbase acquires web3 adtech platform Spindl",
-              "date": "2025-01-31"
-            },
-            {
               "url": "https://crypto.news/coinbase-acquires-spindl-for-better-onchain-advertising/",
               "name": "Coinbase acquires Spindl for better onchain advertising",
               "date": "2025-01-31"
@@ -9219,16 +9244,16 @@
       "writing": []
     },
     {
-      "companyId": "517d6c7d-fc0b-4b97-897a-4ef5c2f62f10",
-      "companyName": "Alinor",
+      "companyId": "a5568f00-2a99-4fa1-9110-3c134112fcb1",
+      "companyName": "Spindl",
       "founder": {
-        "name": "Dennis von Kraemer",
-        "linkedinUrl": "https://linkedin.com/in/dennisvonkraemer",
+        "name": "Taavi Kliss",
+        "linkedinUrl": "https://linkedin.com/in/taavikliss",
         "via": "exa+gemini",
-        "evidence": "Co-Founder, Alinor",
+        "evidence": "CTO | Co-Founder, Spindl",
         "sources": [
           {
-            "url": "https://linkedin.com/in/dennisvonkraemer",
+            "url": "https://linkedin.com/in/taavikliss",
             "name": "linkedin.com"
           }
         ]
@@ -9237,45 +9262,40 @@
       "why": [
         {
           "kind": "last_round",
-          "text": "Last recorded round: 2023-10",
-          "date": "2023-10-23",
+          "text": "Last recorded round: 2021-09",
+          "date": "2021-09-01",
           "sources": [
             {
-              "url": "https://www.cbinsights.com/company/alinor/financials",
-              "name": "www.cbinsights.com",
+              "url": "https://tracxn.com/d/companies/spindl/__hfs4EbUh5syAifb4VuYcYCkO06Nu33UN_Q2mFBXi5xY",
+              "name": "tracxn.com",
               "date": "2026-08-25"
             },
             {
-              "url": "https://pitchbook.com/profiles/company/503428-06",
-              "name": "pitchbook.com",
+              "url": "https://www.gritt.io/company/spindlapp",
+              "name": "www.gritt.io",
               "date": "2026-08-25"
             },
             {
-              "url": "https://www.crunchbase.com/organization/alinor",
-              "name": "www.crunchbase.com",
+              "url": "https://ecosystem.startupestonia.ee/companies/spindl",
+              "name": "Spindl company information, funding & investors",
               "date": "2026-08-25"
             }
           ]
         },
         {
           "kind": "news_event",
-          "text": "Reported acquisition (tracxn.com, 2024-01)",
-          "date": "2024-01-18",
+          "text": "Reported acquisition (coinbase.com, 2025-01)",
+          "date": "2025-01-31",
           "sources": [
             {
-              "url": "https://tracxn.com/d/companies/alinor/__4ylP5GIDfRX8O800VCld1Y0V8fGXdLNVRUx94fXfJBk",
-              "name": "Alinor - 2026 Company Profile & Competitors - Tracxn",
-              "date": "2024-01-18"
+              "url": "https://www.coinbase.com/en-gb/blog/Coinbase-acquires-Spindl-to-accelerate-the-future-of-onchain-ads",
+              "name": "Coinbase acquires Spindl to accelerate the future of onchain ads",
+              "date": "2025-01-31"
             },
             {
-              "url": "https://www.propertyweek.com/news/alinor-and-oval-snap-up-manchesters-first-street-offices",
-              "name": "Alinor and Oval snap up Manchester's First Street offices | Property Week",
-              "date": "2026-04-02"
-            },
-            {
-              "url": "https://www.placenorthwest.co.uk/plans-in-for-rooftop-terrace-at-evolving-first-street-office/",
-              "name": "Plans in for rooftop terrace at evolving First Street office - Place North West",
-              "date": "2026-07-22"
+              "url": "https://crypto.news/coinbase-acquires-spindl-for-better-onchain-advertising/",
+              "name": "Coinbase acquires Spindl for better onchain advertising",
+              "date": "2025-01-31"
             }
           ]
         }

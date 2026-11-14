@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { createPipeline, type PipelineDeps } from "@/lib/pipeline";
-import type { Cala, CalaEntity } from "@/lib/cala";
+import { CalaGaveUp, type Cala, type CalaEntity } from "@/lib/cala";
 import type { Exa, ExaResult } from "@/lib/exa";
 import type { StreamEvent } from "@/lib/types";
 import walk from "@/test/fixtures/cala/walk_icebreaker.json";
@@ -158,7 +158,6 @@ describe("createPipeline on Icebreaker fixtures", () => {
     expect(k.signals[0].sources.map((s) => s.url)).toEqual([
       "https://techcrunch.com/2024/02/13/ai-powered-estonian-qa-startup-klaus-acquired-by-zendesk/",
       "https://www.prnewswire.com/news-releases/zendesk-signs-definitive-agreement-to-acquire-klaus-302028693.html",
-      "https://www.actoncapital.com/news/exit-klaus-zendesk-acquires-ai-powered-quality-assurance-platform",
       "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/zendesk-completes-acquisition-of-klaus/",
     ]);
     expect(report.callList.some((e) => e.companyId === KLAUS && e.group === "news_event")).toBe(true);
@@ -177,6 +176,33 @@ describe("createPipeline on Icebreaker fixtures", () => {
     expect(await runWith("Completed: the acquisition of Klaus")).toEqual(["Reported acquisition (news.example, 2025-01)"]);
   });
 
+  it("employee reviews and blocklisted namesake URLs are not news", async () => {
+    const exa: Exa = {
+      ...fakeExa,
+      searchNews: async (q) =>
+        q.startsWith('"klaus"')
+          ? [
+              { url: "https://www.glassdoor.com/Reviews/Klaus-RVW1.htm", title: "Klaus - nice people but a lot of layoffs", publishedDate: "2025-01-10T00:00:00Z" },
+              { url: "https://abc13.com/post/2-alvin-isd-elementary-schools-shut-down-early-summer-following-storm-damage/19139599/", title: "Klaus shut down", publishedDate: "2025-01-10T00:00:00Z" },
+            ]
+          : [],
+    };
+    const report = doneReport(await collect(createPipeline(deps({ exa, cala: fakeCala({ [KLAUS]: empty() }) })).run(FUND)));
+    expect(report.portfolio.find((c) => c.calaId === KLAUS)!.signals).toEqual([]);
+  });
+
+  it("news needs the company name in the title, not just the highlights", async () => {
+    const exa: Exa = {
+      ...fakeExa,
+      searchNews: async (q) =>
+        q.startsWith('"klaus"')
+          ? [{ url: "https://news.example/b", title: "Brewery to shut down this weekend", highlights: ["Klaus Brewing Co. is closing"], publishedDate: "2025-01-10T00:00:00Z" }]
+          : [],
+    };
+    const report = doneReport(await collect(createPipeline(deps({ exa, cala: fakeCala({ [KLAUS]: empty() }) })).run(FUND)));
+    expect(report.portfolio.find((c) => c.calaId === KLAUS)!.signals).toEqual([]);
+  });
+
   it("one entry per founder: Cala duplicates and same-name company entities collapse", async () => {
     const person = { id: "p1", name: "Richard Nordström", entity_type: "Person", properties: { sources: [{ document: "https://hemby.com/team" }] } };
     const round = {
@@ -191,11 +217,27 @@ describe("createPipeline on Icebreaker fixtures", () => {
     };
     // FLOWHAVEN OY (020ce4f1) and Flowhaven Oy (da87c715) are two Cala entities for one company.
     const report = doneReport(
-      await collect(createPipeline(deps({ cala: fakeCala({ "020ce4f1": twin, "da87c715": twin }) })).run(FUND)),
+      await collect(createPipeline(deps({ cala: fakeCala({ "020ce4f1": twin, "da87c715": twin, "32d9d83a": twin }) })).run(FUND)),
     );
-    const flow = report.callList.filter((e) => /flowhaven/i.test(e.companyName));
-    expect(flow.map((e) => e.founder.name)).toEqual(["Richard Nordström"]);
+    // Helppy (32d9d83a) stands in for IQM / "IQM Quantum Computers Oyj": different names, same people.
+    expect(report.callList.filter((e) => e.founder.name === "Richard Nordström")).toHaveLength(1);
     expect(report.portfolio.find((c) => c.calaId.startsWith("020ce4f1"))!.founders).toHaveLength(1);
+  });
+
+  it("a company Cala gave up on is retried once at the end", async () => {
+    const base = fakeCala();
+    let vespiaCalls = 0;
+    const cala: Cala = {
+      ...base,
+      getEntity: async (id, p, o) => {
+        if (id === vespia.id && vespiaCalls++ === 0) throw new CalaGaveUp("429");
+        return base.getEntity(id, p, o);
+      },
+    };
+    const report = doneReport(await collect(createPipeline(deps({ cala })).run(FUND)));
+    expect(vespiaCalls).toBe(2);
+    expect(report.portfolio.find((c) => c.calaId === vespia.id)!.state).toBe("enriched");
+    expect(report.callList.filter((e) => e.companyName === "Vespia OÜ")).toHaveLength(2);
   });
 
   it("budget stop: remaining companies unavailable, complete false", async () => {
