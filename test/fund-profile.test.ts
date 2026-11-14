@@ -46,6 +46,20 @@ describe("profile", () => {
     ]);
   });
 
+  it("partners: the fund's partners quoted in announcements, one row per person, most rounds first", () => {
+    const src = { url: "https://x.com/p" };
+    const quoted = (name: string, title?: string) => ({ partner: { name, title, quote: `says ${name} of Creandum`, source: src } });
+    const pr = profile(report([
+      company("a", [round("a2", "2021-03-01", quoted("Ann Lee")), round("a1", "2018-01-01", quoted("Bo Ek", "Partner"))]),
+      company("b", [round("b1", "2022-01-01", quoted("Bo  Ek")), round("b0", "2020-01-01")]),
+    ]));
+    expect(pr.partners).toEqual([
+      { name: "Bo Ek", title: "Partner", roundIds: ["a1", "b1"] },
+      { name: "Ann Lee", title: undefined, roundIds: ["a2"] },
+    ]);
+    expect(p.partners).toEqual([]);
+  });
+
   it("noRoundIn24Months: companies whose last round is older than 24 months, of companies with a dated round", () => {
     expect(p.noRoundIn24Months).toEqual({ n: 2, of: 4, ids: ["a", "d"] });
   });

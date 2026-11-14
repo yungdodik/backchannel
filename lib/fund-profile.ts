@@ -13,6 +13,7 @@ export interface FundProfile {
   namedInLaterRound: Count; // companies where the fund is named in a round after an earlier one it was named in
   ledRounds: Count; // rounds with fundIsLead === true, of rounds whose lead is known
   topCoInvestors: { name: string; roundIds: string[] }[]; // from rounds the fund is named in, most rounds first
+  partners: { name: string; title?: string; roundIds: string[] }[]; // the fund's partners quoted in round announcements, most rounds first
   noRoundIn24Months: Count; // companies, of companies with a dated round
   medianMonthsBetweenRounds?: number;
 }
@@ -43,6 +44,14 @@ export function profile(report: Report): FundProfile {
       co.get(k)!.roundIds.push(r.calaId);
     }
 
+  const partners = new Map<string, FundProfile["partners"][number]>();
+  for (const r of rounds) {
+    if (!r.partner) continue;
+    const k = normalise(r.partner.name);
+    if (!partners.has(k)) partners.set(k, { name: r.partner.name, title: r.partner.title, roundIds: [] });
+    partners.get(k)!.roundIds.push(r.calaId);
+  }
+
   const dated = report.portfolio.filter((c) => c.lastRoundDate);
   gaps.sort((a, b) => a - b);
   const mid = gaps.length / 2;
@@ -50,6 +59,7 @@ export function profile(report: Report): FundProfile {
     namedInLaterRound: count(later, laterOf),
     ledRounds: count(rounds.filter((r) => r.fundIsLead === true).map((r) => r.calaId), rounds.filter((r) => r.fundIsLead !== null).length),
     topCoInvestors: [...co.values()].sort((a, b) => b.roundIds.length - a.roundIds.length).slice(0, 10),
+    partners: [...partners.values()].sort((a, b) => b.roundIds.length - a.roundIds.length),
     noRoundIn24Months: count(dated.filter((c) => groupFor([], c.lastRoundDate, now) === "no_recent_round").map((c) => c.calaId), dated.length),
     medianMonthsBetweenRounds: gaps.length ? (gaps.length % 2 ? gaps[Math.floor(mid)] : (gaps[mid - 1] + gaps[mid]) / 2) : undefined,
   };
