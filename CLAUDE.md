@@ -6,7 +6,7 @@ Founder types a fund → picks the right Cala entity → gets a sourced **call l
 reference-check the fund with, especially from companies with no recent round or bad news.
 
 Context, terms and all decisions (read before changing behaviour):
-`../ideas/backchannel/CONTEXT.md`, `../ideas/backchannel/decisions.md`, API facts: `../ideas/backchannel/research-apis.md`.
+`docs/CONTEXT.md`, `docs/decisions.md`, API facts: `docs/research-apis.md`.
 
 ## Run
 - `npm run dev` → http://localhost:3000 · `npx tsc --noEmit` · `npm run lint`

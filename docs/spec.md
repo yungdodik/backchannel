@@ -1,7 +1,7 @@
 # Backchannel: build spec (Part A: data, Part B: UI)
 
 Start each session with `/mattpocock-skills:implement docs/spec.md Part A` (or `Part B`). If GitHub coordination is set up, follow "Coordination" at the end.
-Background: `../ideas/backchannel/CONTEXT.md` (terms) and `../ideas/backchannel/decisions.md` (D1–D26, probe results).
+Background: `docs/CONTEXT.md` (terms) and `docs/decisions.md` (D1–D26, probe results).
 The contract is `lib/types.ts`. Change it only by agreement between the sessions, and prefix the commit message with `contract:`.
 Fixed point for `/code-review`: the commit that added this spec (see `git log -- docs/spec.md`).
 
