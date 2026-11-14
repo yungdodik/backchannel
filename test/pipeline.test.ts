@@ -262,6 +262,16 @@ describe("createPipeline on Icebreaker fixtures", () => {
     expect(report.callList.filter((e) => e.companyName === "Vespia OÜ")).toHaveLength(2);
   });
 
+  it("a capped run says how many companies it will check, and reports itself partial", async () => {
+    const events = await collect(createPipeline(deps({ maxCompanies: 5 })).run(FUND));
+    assertProtocol(events);
+    const portfolio = events.find((e) => e.type === "portfolio")!;
+    expect(portfolio.type === "portfolio" && [portfolio.companies.length, portfolio.planned]).toEqual([58, 5]);
+    const sent = new Set(events.flatMap((e) => (e.type === "company" ? [e.company.calaId] : [])));
+    expect(sent.size).toBe(5);
+    expect(doneReport(events).complete).toBe(false);
+  });
+
   it("budget stop: remaining companies unavailable, complete false", async () => {
     let t = Date.parse("2026-11-14T12:00:00Z");
     const now = () => new Date((t += 1000));

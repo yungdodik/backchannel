@@ -12,6 +12,8 @@ export interface FundMatch {
   calaId: string;
   name: string;
   description?: string;
+  /** Portfolio links Cala holds for it, from the fund search; capped at 200. Absent when not counted. */
+  companies?: number;
 }
 
 export interface Round {
@@ -101,7 +103,8 @@ export interface Report {
 /** Server → client stream (D12): NDJSON, one event per line. Protocol rules: docs/spec.md "Stream protocol". */
 export type StreamEvent =
   | { type: "progress"; message: string }
-  | { type: "portfolio"; fund: FundMatch; companies: PortfolioCompany[] } // instant, unenriched
+  // instant, unenriched; `planned` = how many of the companies this run will check (absent: all of them)
+  | { type: "portfolio"; fund: FundMatch; companies: PortfolioCompany[]; planned?: number }
   | { type: "company"; company: PortfolioCompany } // one company enriched
   | { type: "entry"; entry: CallListEntry }
   | { type: "done"; report: Report }

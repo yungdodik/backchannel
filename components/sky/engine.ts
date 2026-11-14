@@ -97,6 +97,7 @@ export class SkyEngine {
   private pts = new Map<number, { x: number; y: number }>(); // active pointers, for pinch zoom
   private par = { x: 0, y: 0, tx: 0, ty: 0 }; // pointer parallax, -1..1
   private houses: House[] = [];
+  private herd: { az: number; down: number; size: number; speed: number; way: number; t: number }[] = [];
   private funds: FundStar[] = [];
   private target: FundStar | null = null;
   private selFund: string | null = null;
@@ -285,6 +286,20 @@ export class SkyEngine {
     ridge((az) => -7 + 1.6 * Math.sin(az * D2R * 3 + 4) + 1 * Math.sin(az * D2R * 8 + 1.2), 1.6, 0.95, slope);
     ridge((az) => -14 + 2.6 * Math.sin(az * D2R * 2 + 2.5) + 1.4 * Math.sin(az * D2R * 6 + 5), 2.3, 0.88, slope);
     ridge((az) => -25 + 4 * Math.sin(az * D2R * 3 + 0.4) + 2 * Math.sin(az * D2R * 7 + 3), 3.2, 0.8, slope);
+    // Reindeer on the first snow ridge, in small groups: [azimuth, how many, which way they walk]. Far ones first.
+    const dr = rnd(41);
+    this.herd = [[-24, 3, 1], [-1, 2, -1], [44, 2, 1], [150, 2, -1], [255, 3, 1]]
+      .flatMap(([az, n, way]) =>
+        Array.from({ length: n }, (_, i) => ({
+          az: az + i * 2.6 + dr() * 1.2,
+          down: 0.8 + dr() * 0.8, // degrees below the ridge's crest: further down is nearer the viewer
+          size: n > 2 && i === n - 1 ? 0.9 : 1.2 + dr() * 0.35, // the last of a larger group is a calf
+          speed: 0.1 + dr() * 0.06, // degrees of azimuth a second
+          way,
+          t: dr() * 50,
+        })),
+      )
+      .sort((a, b) => a.down - b.down);
     // glints on the snow
     const gr = rnd(31);
     this.glints = Array.from({ length: 600 }, () => ({ v: dir(gr() * 360, -4.5 - 26 * gr() ** 2), t: gr() * 6 }));
@@ -393,9 +408,11 @@ export class SkyEngine {
       this.view = saved;
     } else this.drawSphere(t, this.flight && !this.reduce ? this.flight.streak : 0);
     if (this.grid && this.mode === "sky") this.drawGrid();
+    const ground = this.mode === "sky" ? 1 : this.flight ? clamp(1 - this.flight.p * 2.2, 0, 1) : 0; // fades out on the way to a fund
+    this.drawSanta(t, ground); // before the funds, so a fund star is never hidden behind him
     if (this.mode !== "system") this.shifted(0.3, () => this.drawFunds(t, this.labels && this.mode === "sky"));
     this.drawSystem(t);
-    this.drawGround(t, this.mode === "sky" ? 1 : this.flight ? clamp(1 - this.flight.p * 2.2, 0, 1) : 0);
+    this.drawGround(t, ground);
     if (this.flash && !this.reduce) {
       const k = (t - this.flash) / 650;
       if (k < 1 && k >= 0) {
@@ -636,7 +653,10 @@ export class SkyEngine {
       this.shifted(r.depth, () => {
         // each shade fills from its line down to the nadir, painting over the one above: no seams
         r.lines.forEach((l, k) => this.under(r.fills[k], l));
-        if (!i) this.drawHouses(t);
+        if (!i) {
+          this.drawHouses(t);
+          this.drawHerd(t);
+        }
       });
     });
     for (const g of this.glints) {
@@ -749,6 +769,176 @@ export class SkyEngine {
         }
       }
     }
+  }
+
+  /**
+   * A reindeer in profile in the current transform: facing +x, hooves on y = 0, about 1.5 long, 1.5 tall at the antlers.
+   * stride swings the legs (-1..1), graze lowers the head to the snow (0..1), gallop stretches the legs out (0..1).
+   */
+  private deer(stride: number, graze: number, gallop: number) {
+    const cx = this.cx, hx = lerp(0.72, 0.84, graze), hy = lerp(0.98, 0.2, graze); // where the head is
+    cx.beginPath();
+    cx.moveTo(-0.62, 0.62); // rump, along the back to the withers
+    cx.quadraticCurveTo(-0.2, 0.8, 0.3, 0.72);
+    cx.lineTo(hx - 0.12, hy + 0.1); // neck, forehead, muzzle, jaw
+    cx.lineTo(hx + 0.05, hy + 0.08);
+    cx.lineTo(hx + 0.22, hy - 0.04);
+    cx.lineTo(hx + 0.2, hy - 0.1);
+    cx.lineTo(hx, hy - 0.1);
+    cx.lineTo(0.42, 0.42); // throat, chest, belly, tail
+    cx.quadraticCurveTo(0, 0.3, -0.5, 0.4);
+    cx.lineTo(-0.66, 0.5);
+    cx.lineTo(-0.7, 0.6);
+    cx.closePath();
+    cx.fill();
+    cx.beginPath();
+    for (const [x, side] of [[0.33, 1], [0.24, -1], [-0.45, -1], [-0.54, 1]]) {
+      const reach = lerp(0.13 * side * stride, (x > 0 ? 0.42 : -0.42) + 0.06 * side, gallop), y = 0.16 * gallop;
+      cx.moveTo(x - 0.06, 0.46);
+      cx.lineTo(x + 0.06, 0.46);
+      cx.lineTo(x + reach + 0.03, y);
+      cx.lineTo(x + reach - 0.03, y);
+      cx.closePath();
+    }
+    cx.fill();
+    const ax = hx - 0.06, ay = hy + 0.08; // antlers: a beam swept back, with two tines
+    cx.beginPath();
+    cx.moveTo(ax, ay);
+    cx.quadraticCurveTo(ax - 0.22, ay + 0.25, ax - 0.1, ay + 0.5);
+    cx.moveTo(ax - 0.13, ay + 0.2);
+    cx.lineTo(ax + 0.08, ay + 0.34);
+    cx.moveTo(ax - 0.16, ay + 0.34);
+    cx.lineTo(ax - 0.34, ay + 0.46);
+    cx.stroke();
+  }
+
+  /** The herd on the first snow ridge: each animal stands on the terrain, walks slowly and stops to graze. */
+  private drawHerd(t: number) {
+    const cx = this.cx, s = this.reduce ? 0 : t / 1000; // reduced motion: everyone holds still
+    cx.fillStyle = cx.strokeStyle = "#04060c"; // the houses' silhouette colour
+    cx.lineWidth = 0.05;
+    cx.lineCap = "round";
+    for (const d of this.herd) {
+      // 34 s of walking, then 16 s grazing on the spot
+      const tau = s + d.t, lap = tau % 50, walked = Math.floor(tau / 50) * 34 + Math.min(lap, 34);
+      const graze = clamp(Math.min(lap - 34, 50 - lap) / 1.5, 0, 1);
+      const az = d.az + d.way * d.speed * walked, alt = terrain(az) - 1.7 - d.down;
+      const o = this.project(dir(az, alt)), up = this.project(dir(az, alt + 1));
+      if (!o || !up || o[0] < -80 || o[0] > this.W + 80 || o[1] < -80 || o[1] > this.H + 80) continue;
+      const ux = (up[0] - o[0]) * d.size, uy = (up[1] - o[1]) * d.size; // one unit up, in pixels
+      cx.save();
+      cx.transform(-uy * d.way, ux * d.way, ux, uy, o[0], o[1]);
+      this.deer(Math.sin(tau * 5) * (1 - graze), graze, 0);
+      cx.restore();
+    }
+  }
+
+  /** Santa's sleigh in the current transform: runners on y = -0.12, flying towards +x. */
+  private sleigh() {
+    const cx = this.cx;
+    cx.beginPath(); // the body: a high curled back, a low side, a curled front
+    cx.moveTo(-1.05, 0.05);
+    cx.lineTo(-1.12, 0.78);
+    cx.quadraticCurveTo(-0.95, 0.4, -0.5, 0.36);
+    cx.lineTo(0.45, 0.36);
+    cx.quadraticCurveTo(0.8, 0.4, 0.95, 0.72);
+    cx.quadraticCurveTo(1.02, 0.2, 0.6, 0.05);
+    cx.closePath();
+    cx.fill();
+    cx.beginPath(); // the sack, Santa, his hat
+    cx.arc(-0.68, 0.62, 0.3, 0, 6.283);
+    cx.fill();
+    cx.beginPath();
+    cx.arc(-0.08, 0.6, 0.27, 0, 6.283);
+    cx.fill();
+    cx.beginPath();
+    cx.arc(0, 0.98, 0.13, 0, 6.283);
+    cx.fill();
+    cx.beginPath();
+    cx.moveTo(-0.14, 1.03);
+    cx.lineTo(0.12, 1.07);
+    cx.lineTo(-0.32, 1.32);
+    cx.closePath();
+    cx.fill();
+    cx.beginPath(); // runners and their struts
+    cx.moveTo(-1.1, -0.12);
+    cx.lineTo(0.7, -0.12);
+    cx.quadraticCurveTo(1.12, -0.1, 1.12, 0.24);
+    cx.moveTo(-0.7, -0.12);
+    cx.lineTo(-0.7, 0.06);
+    cx.moveTo(0.3, -0.12);
+    cx.lineTo(0.3, 0.06);
+    cx.stroke();
+  }
+
+  /**
+   * Santa crosses the sky behind the fund stars and the forest: one slow arc of 60 s every 140 s, the other way each time.
+   * Under reduced motion he hangs still at the top of the arc. He fades out before the top of the screen, where the search bar is.
+   */
+  private drawSanta(t: number, fade: number) {
+    if (fade <= 0) return;
+    const s = t / 1000 - 5, n = Math.floor(s / 140), u = this.reduce ? 0.5 : (s - n * 140) / 60;
+    if (u < 0 || u > 1) return;
+    const way = this.reduce || n % 2 === 0 ? 1 : -1, peak = 31 + 4 * (((n % 3) + 3) % 3);
+    const at = (q: number): [number, number] => [way * (-72 + 144 * q), 5 + (peak - 5) * Math.sin(Math.PI * q)];
+    this.shifted(0.2, () => {
+      const cx = this.cx, [az, alt] = at(u), [az1, alt1] = at(u + 0.004);
+      const o = this.project(dir(az, alt)), ahead = this.project(dir(az1, alt1)), up = this.project(dir(az, alt + 1));
+      if (!o || !ahead || !up || o[0] < -300 || o[0] > this.W + 300 || o[1] > this.H + 300) return;
+      // local frame: x along the flight path, y to the side of it that is up; one unit = 1.2 degrees
+      const k = Math.hypot(up[0] - o[0], up[1] - o[1]) * 1.2, fl = Math.hypot(ahead[0] - o[0], ahead[1] - o[1]) || 1;
+      const fx = ((ahead[0] - o[0]) / fl) * k, fy = ((ahead[1] - o[1]) / fl) * k;
+      const side = -fy * (up[0] - o[0]) + fx * (up[1] - o[1]) > 0 ? 1 : -1;
+      // the highest point of the team on screen (hat, lead antlers); gone before it reaches the search bar's band
+      const top = Math.min(o[1] + fx * side * 1.6, o[1] + fy * 6.3 + fx * side * 1.8, o[1] - fy * 1.1 + fx * side * 1);
+      const alpha = fade * clamp(Math.min(u, 1 - u) / 0.05, 0, 1) * clamp((top - 72) / 40, 0, 1);
+      if (alpha <= 0) return;
+      cx.save();
+      cx.globalAlpha = alpha;
+      cx.transform(fx, fy, -fy * side, fx * side, o[0], o[1]);
+      cx.lineCap = "round";
+      // everyone bobs: each reindeer on its own beat, the sleigh a little behind them, rising, sinking and rocking
+      const beat = (i: number) => (this.reduce ? 0 : Math.sin(t / 260 + i * 2));
+      const bob = this.reduce ? 0 : 0.11 * Math.sin(t / 330), rock = this.reduce ? 0 : 0.06 * Math.sin(t / 330 + 1.3);
+      const team = (lift: number) => {
+        cx.save();
+        cx.translate(0, lift);
+        cx.lineWidth = 0.025; // the traces from the sleigh to the lead reindeer
+        cx.beginPath();
+        cx.moveTo(0.9, 0.5 + bob);
+        cx.lineTo(5.3, 0.62 + 0.09 * beat(2));
+        cx.stroke();
+        cx.save();
+        cx.translate(0, bob);
+        cx.rotate(rock);
+        cx.lineWidth = 0.06;
+        this.sleigh();
+        cx.restore();
+        cx.lineWidth = 0.05;
+        for (let i = 0; i < 3; i++) {
+          cx.save();
+          cx.translate(2.1 + i * 1.6, 0.02 + 0.09 * beat(i));
+          cx.rotate(0.07 * beat(i + 0.8));
+          this.deer(0, 0, this.reduce ? 1 : 0.75 + 0.25 * beat(i));
+          cx.restore();
+        }
+        cx.restore();
+      };
+      // starlight on the upper edges, then the silhouette just below it: the sky is too dark for a plain black shape to read
+      cx.fillStyle = cx.strokeStyle = "rgba(176,194,236,.55)";
+      team(0.05);
+      cx.fillStyle = cx.strokeStyle = "#04060c";
+      team(0);
+      // a lantern at the front of the sleigh, warm like the windows below
+      cx.translate(0, bob);
+      const g = cx.createRadialGradient(1, 0.62, 0, 1, 0.62, 0.5);
+      g.addColorStop(0, "rgba(255,208,130,.9)");
+      g.addColorStop(0.2, "rgba(255,190,110,.35)");
+      g.addColorStop(1, "rgba(255,190,110,0)");
+      cx.fillStyle = g;
+      cx.fillRect(0.5, 0.12, 1, 1);
+      cx.restore();
+    });
   }
 
   private drawGrid() {
