@@ -90,16 +90,17 @@ async function main() {
     [...signals.map((s) => s.text), ...entries.flatMap((e) => e.questions)].filter((t) => BANNED.test(t)),
   );
   gate("protocol order", orderErr);
-  const templated = entries.filter((e) => e.questions.every((q) => questionTemplates(fundName).includes(q)));
-  gate("Gemini wrote questions (not all entries on templates)", entries.length && templated.length === entries.length ? ["all entries use template questions"] : []);
+  const callList = done?.callList ?? entries;
+  const templated = callList.filter((e) => e.questions.every((q) => questionTemplates(fundName).includes(q)));
+  gate("Gemini wrote questions (not all entries on templates)", callList.length && templated.length === callList.length ? ["all entries use template questions"] : []);
 
   const groups: Record<string, number> = {};
-  (done?.callList ?? entries).forEach((e) => (groups[e.group] = (groups[e.group] ?? 0) + 1));
+  callList.forEach((e) => (groups[e.group] = (groups[e.group] ?? 0) + 1));
   const first = events.find((x) => x.e.type === "entry");
   console.log("\n-- metrics --");
   console.log(`entries: ${done?.callList.length ?? entries.length} (target >= 8)  by group: ${JSON.stringify(groups)}`);
   console.log(`time to first entry: ${first ? secs(first.t) + "s" : "n/a"}  total: ${total}s`);
-  console.log(`template-only entries: ${templated.length}/${entries.length}`);
+  console.log(`template-only entries: ${templated.length}/${callList.length}`);
   console.log(`cala 429s: ${liveCala().hits429}`);
   const final = done?.portfolio ?? [...companies.values()];
   console.log(`unavailable companies: ${final.filter((c) => c.state === "unavailable").length}/${final.length}`);

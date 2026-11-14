@@ -4,7 +4,7 @@
     "name": "Lifeline Ventures",
     "description": "Finnish venture capital firm headquartered in Helsinki."
   },
-  "generatedAt": "2026-11-14T04:07:08.795Z",
+  "generatedAt": "2026-11-14T13:22:40.427Z",
   "complete": true,
   "portfolio": [
     {
@@ -853,42 +853,7 @@
           ]
         }
       ],
-      "founders": [
-        {
-          "name": "Antonia Eneh",
-          "via": "cala",
-          "evidence": "Cala: FOUNDED",
-          "sources": [
-            {
-              "url": "https://techfundingnews.com/slack-co-founder-backs-elvas-e1-3m-round-for-seamless-global-hires/",
-              "name": "techfundingnews.com",
-              "date": "2026-03-10"
-            },
-            {
-              "url": "https://www.startbase.com/news/13-millionen-euro-pre-seed-fuer-europaeisches-startup-elva",
-              "name": "startbase.com",
-              "date": "2026-03-10"
-            }
-          ]
-        },
-        {
-          "name": "Mengyang Chen",
-          "via": "cala",
-          "evidence": "Cala: FOUNDED",
-          "sources": [
-            {
-              "url": "https://techfundingnews.com/slack-co-founder-backs-elvas-e1-3m-round-for-seamless-global-hires/",
-              "name": "techfundingnews.com",
-              "date": "2026-03-10"
-            },
-            {
-              "url": "https://www.startbase.com/news/13-millionen-euro-pre-seed-fuer-europaeisches-startup-elva",
-              "name": "startbase.com",
-              "date": "2026-03-10"
-            }
-          ]
-        }
-      ],
+      "founders": [],
       "sources": [
         {
           "url": "https://techfundingnews.com/slack-co-founder-backs-elvas-e1-3m-round-for-seamless-global-hires/",
@@ -1899,23 +1864,6 @@
               "date": "2026-11-13"
             }
           ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported acquisition (techouse-group.com, 2026-10)",
-          "date": "2026-10-22",
-          "sources": [
-            {
-              "url": "https://techouse-group.com/news/techouse-acquires-ambio-water",
-              "name": "Techouse acquires Ambio Water",
-              "date": "2026-10-22"
-            },
-            {
-              "url": "https://www.conyers.com/publications/view/cordenpharma-acquisition-of-ambio-pharmaceuticals/",
-              "name": "CordenPharma Acquisition of Ambio Pharmaceuticals - Conyers",
-              "date": "2026-08-06"
-            }
-          ]
         }
       ],
       "founders": [
@@ -2175,7 +2123,37 @@
           ]
         }
       ],
-      "founders": [],
+      "founders": [
+        {
+          "name": "Erik Kymäläinen",
+          "via": "cala",
+          "evidence": "Cala: FOUNDED",
+          "sources": [
+            {
+              "url": "https://techfundingnews.com/a-vinted-rival-finnish-bought-raises-1-5m-to-redefine-recommerce-market-backed-by-wolt-and-bolt-executives/",
+              "name": "techfundingnews.com",
+              "date": "2025-03-26"
+            },
+            {
+              "url": "https://bought.app/en/news/launch-press-release",
+              "name": "bought.app",
+              "date": "2025-04-08"
+            }
+          ]
+        },
+        {
+          "name": "Anna Müller",
+          "via": "cala",
+          "evidence": "Cala: FOUNDED",
+          "sources": [
+            {
+              "url": "https://techfundingnews.com/a-vinted-rival-finnish-bought-raises-1-5m-to-redefine-recommerce-market-backed-by-wolt-and-bolt-executives/",
+              "name": "techfundingnews.com",
+              "date": "2025-03-26"
+            }
+          ]
+        }
+      ],
       "sources": [
         {
           "url": "https://bought.app/en/news/launch-press-release",
@@ -3304,18 +3282,6 @@
       ],
       "founders": [
         {
-          "name": "Loredana Moimas",
-          "linkedinUrl": "https://linkedin.com/in/loredanamoimas",
-          "via": "exa+gemini",
-          "evidence": "Co-Founder, Ovido",
-          "sources": [
-            {
-              "url": "https://linkedin.com/in/loredanamoimas",
-              "name": "linkedin.com"
-            }
-          ]
-        },
-        {
           "name": "Tuomas Rinkineva",
           "linkedinUrl": "https://linkedin.com/in/tuomasrinkineva",
           "via": "exa+gemini",
@@ -3323,6 +3289,18 @@
           "sources": [
             {
               "url": "https://linkedin.com/in/tuomasrinkineva",
+              "name": "linkedin.com"
+            }
+          ]
+        },
+        {
+          "name": "Loredana Moimas",
+          "linkedinUrl": "https://linkedin.com/in/loredanamoimas",
+          "via": "exa+gemini",
+          "evidence": "Co-Founder, Ovido",
+          "sources": [
+            {
+              "url": "https://linkedin.com/in/loredanamoimas",
               "name": "linkedin.com"
             }
           ]
@@ -3942,9 +3920,9 @@
         }
       ],
       "questions": [
-        "How did Lifeline Ventures support Synoste Oy during the period between your last recorded round in 2018-10 and the acquisition reported on linkedin.com in 2024-11?",
-        "What role did Lifeline Ventures play during the acquisition process reported on linkedin.com in 2024-11?",
-        "How engaged was Lifeline Ventures as an investor following the 2018-10 round leading up to the 2024-11 acquisition?"
+        "How did Lifeline Ventures support Synoste Oy in the period between the 2018-10 financing round and the acquisition reported in 2024-11?",
+        "What role did Lifeline Ventures play in the process leading up to the reported acquisition in 2024-11?",
+        "How engaged was Lifeline Ventures as an investor during the years following the last recorded round in 2018-10?"
       ],
       "writing": []
     },
@@ -3996,93 +3974,9 @@
         }
       ],
       "questions": [
-        "How did Lifeline Ventures support Synoste Oy during the period between your last recorded round in 2018-10 and the acquisition reported on linkedin.com in 2024-11?",
-        "What role did Lifeline Ventures play during the acquisition process reported on linkedin.com in 2024-11?",
-        "How engaged was Lifeline Ventures as an investor following the 2018-10 round leading up to the 2024-11 acquisition?"
-      ],
-      "writing": []
-    },
-    {
-      "companyId": "83782b55-1141-4389-b444-944012f4ff73",
-      "companyName": "Sharetribe Oy",
-      "founder": {
-        "name": "Juho Makkonen",
-        "linkedinUrl": "https://linkedin.com/in/juhomakkonen",
-        "via": "exa+gemini",
-        "evidence": "Co-Founder & CEO, Sharetribe",
-        "sources": [
-          {
-            "url": "https://linkedin.com/in/juhomakkonen",
-            "name": "linkedin.com"
-          }
-        ]
-      },
-      "group": "no_recent_round",
-      "why": [
-        {
-          "kind": "last_round",
-          "text": "Last recorded round: 2014-11",
-          "date": "2014-11-18",
-          "sources": [
-            {
-              "url": "https://techcrunch.com/2014/11/18/sharetribe",
-              "name": "Sharetribe Lets You Create Your Own Peer-To-Peer Marketplace | TechCrunch",
-              "date": "2014-11-18"
-            },
-            {
-              "url": "https://tracxn.com/d/companies/sharetribe/__ce7p-WEp1VFHXCZbq6K21mTxm5og2MCBHbNQmlOmjh4",
-              "name": "tracxn.com",
-              "date": "2026-08-25"
-            }
-          ]
-        }
-      ],
-      "questions": [
-        "How did Lifeline Ventures support Sharetribe Oy as an investor following the round in 2014-11?",
-        "What was Lifeline Ventures' approach to guiding Sharetribe Oy after their 2014-11 investment round?",
-        "In what ways did Lifeline Ventures work with the Sharetribe Oy founding team in the period after the 2014-11 round?"
-      ],
-      "writing": []
-    },
-    {
-      "companyId": "83782b55-1141-4389-b444-944012f4ff73",
-      "companyName": "Sharetribe Oy",
-      "founder": {
-        "name": "Antti Virolainen",
-        "linkedinUrl": "https://linkedin.com/in/anttivirolainen",
-        "via": "exa+gemini",
-        "evidence": "Co-Founder & CFO, Sharetribe",
-        "sources": [
-          {
-            "url": "https://linkedin.com/in/anttivirolainen",
-            "name": "linkedin.com"
-          }
-        ]
-      },
-      "group": "no_recent_round",
-      "why": [
-        {
-          "kind": "last_round",
-          "text": "Last recorded round: 2014-11",
-          "date": "2014-11-18",
-          "sources": [
-            {
-              "url": "https://techcrunch.com/2014/11/18/sharetribe",
-              "name": "Sharetribe Lets You Create Your Own Peer-To-Peer Marketplace | TechCrunch",
-              "date": "2014-11-18"
-            },
-            {
-              "url": "https://tracxn.com/d/companies/sharetribe/__ce7p-WEp1VFHXCZbq6K21mTxm5og2MCBHbNQmlOmjh4",
-              "name": "tracxn.com",
-              "date": "2026-08-25"
-            }
-          ]
-        }
-      ],
-      "questions": [
-        "How did Lifeline Ventures support Sharetribe Oy as an investor following the round in 2014-11?",
-        "What was Lifeline Ventures' approach to guiding Sharetribe Oy after their 2014-11 investment round?",
-        "In what ways did Lifeline Ventures work with the Sharetribe Oy founding team in the period after the 2014-11 round?"
+        "How did Lifeline Ventures support Synoste Oy in the period between the 2018-10 financing round and the acquisition reported in 2024-11?",
+        "What role did Lifeline Ventures play in the process leading up to the reported acquisition in 2024-11?",
+        "How engaged was Lifeline Ventures as an investor during the years following the last recorded round in 2018-10?"
       ],
       "writing": []
     },
@@ -4138,9 +4032,9 @@
         }
       ],
       "questions": [
-        "How did Lifeline Ventures support AREX during the 2021-07 financing round?",
-        "In what ways has Lifeline Ventures engaged with AREX while the company has maintained its active status?",
-        "How would you describe Lifeline Ventures' investor involvement and communication with AREX since the 2021-07 round?"
+        "How did Lifeline Ventures support AREX during and immediately following your 2021-07 funding round?",
+        "As an active portfolio company, how would you describe your ongoing working relationship with Lifeline Ventures?",
+        "What role has Lifeline Ventures played in strategic guidance for AREX since the 2021-07 round while you remain active?"
       ],
       "writing": []
     },
@@ -4201,9 +4095,93 @@
         }
       ],
       "questions": [
-        "How did Lifeline Ventures support AREX during the 2021-07 financing round?",
-        "In what ways has Lifeline Ventures engaged with AREX while the company has maintained its active status?",
-        "How would you describe Lifeline Ventures' investor involvement and communication with AREX since the 2021-07 round?"
+        "How did Lifeline Ventures support AREX during and immediately following your 2021-07 funding round?",
+        "As an active portfolio company, how would you describe your ongoing working relationship with Lifeline Ventures?",
+        "What role has Lifeline Ventures played in strategic guidance for AREX since the 2021-07 round while you remain active?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "83782b55-1141-4389-b444-944012f4ff73",
+      "companyName": "Sharetribe Oy",
+      "founder": {
+        "name": "Juho Makkonen",
+        "linkedinUrl": "https://linkedin.com/in/juhomakkonen",
+        "via": "exa+gemini",
+        "evidence": "Co-Founder & CEO, Sharetribe",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/juhomakkonen",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "no_recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2014-11",
+          "date": "2014-11-18",
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2014/11/18/sharetribe",
+              "name": "Sharetribe Lets You Create Your Own Peer-To-Peer Marketplace | TechCrunch",
+              "date": "2014-11-18"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/sharetribe/__ce7p-WEp1VFHXCZbq6K21mTxm5og2MCBHbNQmlOmjh4",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Lifeline Ventures support the leadership at Sharetribe Oy following the 2014-11 investment round?",
+        "How would you describe Lifeline Ventures' ongoing communication and involvement with Sharetribe Oy since the 2014-11 round?",
+        "How did Lifeline Ventures assist Sharetribe Oy with key strategic decisions in the period after the 2014-11 round?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "83782b55-1141-4389-b444-944012f4ff73",
+      "companyName": "Sharetribe Oy",
+      "founder": {
+        "name": "Antti Virolainen",
+        "linkedinUrl": "https://linkedin.com/in/anttivirolainen",
+        "via": "exa+gemini",
+        "evidence": "Co-Founder & CFO, Sharetribe",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/anttivirolainen",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "no_recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2014-11",
+          "date": "2014-11-18",
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2014/11/18/sharetribe",
+              "name": "Sharetribe Lets You Create Your Own Peer-To-Peer Marketplace | TechCrunch",
+              "date": "2014-11-18"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/sharetribe/__ce7p-WEp1VFHXCZbq6K21mTxm5og2MCBHbNQmlOmjh4",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Lifeline Ventures support the leadership at Sharetribe Oy following the 2014-11 investment round?",
+        "How would you describe Lifeline Ventures' ongoing communication and involvement with Sharetribe Oy since the 2014-11 round?",
+        "How did Lifeline Ventures assist Sharetribe Oy with key strategic decisions in the period after the 2014-11 round?"
       ],
       "writing": []
     },
@@ -4264,9 +4242,9 @@
         }
       ],
       "questions": [
-        "How has Lifeline Ventures supported Aiven as an active portfolio company following the 2022-05 round?",
-        "What was your experience working with Lifeline Ventures during the 2022-05 funding round?",
-        "How would you describe Lifeline Ventures' ongoing engagement with Aiven while your company remains active?"
+        "How has Lifeline Ventures supported Aiven as an investor since your last recorded round in 2022-05?",
+        "In what ways does Lifeline Ventures continue to interact with your team while your status remains active?",
+        "How did Lifeline Ventures guide your leadership team during and following the 2022-05 round?"
       ],
       "writing": []
     },
@@ -4327,9 +4305,9 @@
         }
       ],
       "questions": [
-        "How has Lifeline Ventures supported Aiven as an active portfolio company following the 2022-05 round?",
-        "What was your experience working with Lifeline Ventures during the 2022-05 funding round?",
-        "How would you describe Lifeline Ventures' ongoing engagement with Aiven while your company remains active?"
+        "How has Lifeline Ventures supported Aiven as an investor since your last recorded round in 2022-05?",
+        "In what ways does Lifeline Ventures continue to interact with your team while your status remains active?",
+        "How did Lifeline Ventures guide your leadership team during and following the 2022-05 round?"
       ],
       "writing": []
     },
@@ -4379,9 +4357,9 @@
         }
       ],
       "questions": [
-        "How did Lifeline Ventures work with Swappie leading up to the 2024-06 round?",
-        "What kind of support did Lifeline Ventures provide to Swappie during the 2024-06 round?",
-        "How has Lifeline Ventures behaved as an investor in Swappie following the 2024-06 round?"
+        "How did Lifeline Ventures support Swappie leading up to and following the round in 2024-06?",
+        "How would you describe Lifeline Ventures' level of involvement and communication as an investor in Swappie?",
+        "How does Lifeline Ventures handle strategic board discussions and decision-making with the Swappie leadership team?"
       ],
       "writing": []
     },
@@ -4436,9 +4414,9 @@
         }
       ],
       "questions": [
-        "How did Lifeline Ventures work with Swappie leading up to the 2024-06 round?",
-        "What kind of support did Lifeline Ventures provide to Swappie during the 2024-06 round?",
-        "How has Lifeline Ventures behaved as an investor in Swappie following the 2024-06 round?"
+        "How did Lifeline Ventures support Swappie leading up to and following the round in 2024-06?",
+        "How would you describe Lifeline Ventures' level of involvement and communication as an investor in Swappie?",
+        "How does Lifeline Ventures handle strategic board discussions and decision-making with the Swappie leadership team?"
       ],
       "writing": []
     },
@@ -4483,9 +4461,9 @@
         }
       ],
       "questions": [
-        "How has Lifeline Ventures supported Carbo Culture as an investor throughout your working relationship with them?",
-        "How did Lifeline Ventures assist your team during the preparation and execution of your 2023-11 funding round?",
-        "How would you describe Lifeline Ventures' ongoing involvement and strategic guidance in the period following the 2023-11 round?"
+        "How did Lifeline Ventures support Carbo Culture leading up to and during your 2023-11 financing round?",
+        "In what ways has Lifeline Ventures actively assisted Carbo Culture's leadership team between funding milestones?",
+        "How has Lifeline Ventures typically reacted when Carbo Culture faced strategic shifts or unexpected operational challenges?"
       ],
       "writing": []
     },
@@ -4530,9 +4508,9 @@
         }
       ],
       "questions": [
-        "How has Lifeline Ventures supported Carbo Culture as an investor throughout your working relationship with them?",
-        "How did Lifeline Ventures assist your team during the preparation and execution of your 2023-11 funding round?",
-        "How would you describe Lifeline Ventures' ongoing involvement and strategic guidance in the period following the 2023-11 round?"
+        "How did Lifeline Ventures support Carbo Culture leading up to and during your 2023-11 financing round?",
+        "In what ways has Lifeline Ventures actively assisted Carbo Culture's leadership team between funding milestones?",
+        "How has Lifeline Ventures typically reacted when Carbo Culture faced strategic shifts or unexpected operational challenges?"
       ],
       "writing": []
     },
@@ -4588,9 +4566,9 @@
         }
       ],
       "questions": [
-        "How did Lifeline Ventures support Synergi during your last recorded funding round in 2024-10?",
-        "In what ways has Lifeline Ventures continued to interact with Synergi as an active portfolio company since the 2024-10 round?",
-        "How would you describe Lifeline Ventures' overall behavior and involvement as an investor in Synergi following your 2024-10 round?"
+        "How has Lifeline Ventures supported Synergi as an active portfolio company?",
+        "How did Lifeline Ventures engage with Synergi during your 2024-10 funding round?",
+        "What has Lifeline Ventures' involvement as an investor been like with Synergi since the 2024-10 round?"
       ],
       "writing": []
     },
@@ -4646,9 +4624,9 @@
         }
       ],
       "questions": [
-        "How did Lifeline Ventures support Synergi during your last recorded funding round in 2024-10?",
-        "In what ways has Lifeline Ventures continued to interact with Synergi as an active portfolio company since the 2024-10 round?",
-        "How would you describe Lifeline Ventures' overall behavior and involvement as an investor in Synergi following your 2024-10 round?"
+        "How has Lifeline Ventures supported Synergi as an active portfolio company?",
+        "How did Lifeline Ventures engage with Synergi during your 2024-10 funding round?",
+        "What has Lifeline Ventures' involvement as an investor been like with Synergi since the 2024-10 round?"
       ],
       "writing": []
     },
@@ -4749,8 +4727,8 @@
       ],
       "questions": [
         "How did Lifeline Ventures support Swarmia after leading the round in 2021-05?",
-        "What role did Lifeline Ventures play as an investor between the 2021-05 round and the last recorded round in 2025-06?",
-        "How has Lifeline Ventures engaged with Swarmia while the company maintains its active status?"
+        "In what ways did Lifeline Ventures work with your team between the 2021-05 round they led and the last recorded round in 2025-06?",
+        "How would you describe Lifeline Ventures' level of involvement and guidance as an investor leading up to the 2025-06 round?"
       ],
       "writing": []
     },
@@ -4790,9 +4768,9 @@
         }
       ],
       "questions": [
-        "How has Lifeline Ventures supported Supercell Oy as an investor leading up to and following the 2024-11 round?",
-        "How would you describe Lifeline Ventures' communication style and responsiveness in their working relationship with Supercell Oy?",
-        "In what ways did Lifeline Ventures participate in strategic decisions or offer guidance to the leadership team at Supercell Oy?"
+        "How has Lifeline Ventures provided support to Supercell Oy as a portfolio investor?",
+        "What was Lifeline Ventures' involvement like during Supercell Oy's 2024-11 round?",
+        "How does Lifeline Ventures interact with founders when providing strategic guidance to Supercell Oy?"
       ],
       "writing": []
     },
@@ -4832,9 +4810,9 @@
         }
       ],
       "questions": [
-        "How has Lifeline Ventures supported Supercell Oy as an investor leading up to and following the 2024-11 round?",
-        "How would you describe Lifeline Ventures' communication style and responsiveness in their working relationship with Supercell Oy?",
-        "In what ways did Lifeline Ventures participate in strategic decisions or offer guidance to the leadership team at Supercell Oy?"
+        "How has Lifeline Ventures provided support to Supercell Oy as a portfolio investor?",
+        "What was Lifeline Ventures' involvement like during Supercell Oy's 2024-11 round?",
+        "How does Lifeline Ventures interact with founders when providing strategic guidance to Supercell Oy?"
       ],
       "writing": []
     },
@@ -4874,9 +4852,9 @@
         }
       ],
       "questions": [
-        "How did Lifeline Ventures support OneMind Dogs leading up to and during the May 2019 financing round?",
-        "How has Lifeline Ventures continued to work with OneMind Dogs as an investor following the May 2019 round?",
-        "How would you describe Lifeline Ventures' overall communication and decision-making style in their relationship with OneMind Dogs?"
+        "How did Lifeline Ventures support OneMind Dogs following your 2019-05 funding round?",
+        "What was Lifeline Ventures' level of involvement and responsiveness as an investor after the 2019-05 round?",
+        "How did Lifeline Ventures assist the OneMind Dogs team with strategic decisions following the 2019-05 round?"
       ],
       "writing": []
     },
@@ -4916,9 +4894,9 @@
         }
       ],
       "questions": [
-        "How did Lifeline Ventures support Umbra's leadership team following the financing round in 2015-10?",
-        "In what ways did Lifeline Ventures engage in board discussions and strategic decision-making with Umbra after the 2015-10 round?",
-        "How did Lifeline Ventures handle follow-on funding conversations and ongoing involvement with Umbra following the 2015-10 funding?"
+        "How did Lifeline Ventures support Umbra during and after the 2015-10 funding round?",
+        "In what ways did Lifeline Ventures remain involved or offer guidance to Umbra following the 2015-10 round?",
+        "How did Lifeline Ventures assist Umbra with strategic planning or follow-on financing efforts after the 2015-10 round?"
       ],
       "writing": []
     },
@@ -4958,9 +4936,9 @@
         }
       ],
       "questions": [
-        "How did Lifeline Ventures support Umbra's leadership team following the financing round in 2015-10?",
-        "In what ways did Lifeline Ventures engage in board discussions and strategic decision-making with Umbra after the 2015-10 round?",
-        "How did Lifeline Ventures handle follow-on funding conversations and ongoing involvement with Umbra following the 2015-10 funding?"
+        "How did Lifeline Ventures support Umbra during and after the 2015-10 funding round?",
+        "In what ways did Lifeline Ventures remain involved or offer guidance to Umbra following the 2015-10 round?",
+        "How did Lifeline Ventures assist Umbra with strategic planning or follow-on financing efforts after the 2015-10 round?"
       ],
       "writing": []
     },
@@ -5000,9 +4978,9 @@
         }
       ],
       "questions": [
-        "How did Lifeline Ventures support the team at ZenRobotics Ltd following the investment round in 2016-12?",
-        "How would you describe Lifeline Ventures' level of involvement and guidance as an investor in ZenRobotics Ltd after the 2016-12 round?",
-        "In what ways did Lifeline Ventures assist ZenRobotics Ltd with strategic decisions or operations following the 2016-12 round?"
+        "How did Lifeline Ventures support ZenRobotics Ltd during the investment round in 2016-12?",
+        "What was Lifeline Ventures' approach to working with the leadership at ZenRobotics Ltd following the 2016-12 round?",
+        "How has Lifeline Ventures managed its relationship and involvement with ZenRobotics Ltd since the last recorded round in 2016-12?"
       ],
       "writing": []
     },
@@ -5042,9 +5020,9 @@
         }
       ],
       "questions": [
-        "How did Lifeline Ventures support Inven during the preparation and execution of your 2025-05 funding round?",
-        "How would you describe Lifeline Ventures' level of involvement and communication with Inven since the 2025-05 round?",
-        "In what ways has Lifeline Ventures provided strategic guidance or operational assistance as a portfolio investor in Inven?"
+        "How did Lifeline Ventures support Inven during the 2025-05 funding round?",
+        "How has Lifeline Ventures interacted with Inven as a portfolio company surrounding the 2025-05 round?",
+        "How would you describe Lifeline Ventures' overall behavior and communication style as an investor in Inven?"
       ],
       "writing": []
     },
@@ -5084,9 +5062,9 @@
         }
       ],
       "questions": [
-        "How did Lifeline Ventures support Inven during the preparation and execution of your 2025-05 funding round?",
-        "How would you describe Lifeline Ventures' level of involvement and communication with Inven since the 2025-05 round?",
-        "In what ways has Lifeline Ventures provided strategic guidance or operational assistance as a portfolio investor in Inven?"
+        "How did Lifeline Ventures support Inven during the 2025-05 funding round?",
+        "How has Lifeline Ventures interacted with Inven as a portfolio company surrounding the 2025-05 round?",
+        "How would you describe Lifeline Ventures' overall behavior and communication style as an investor in Inven?"
       ],
       "writing": []
     },
@@ -5143,56 +5121,9 @@
         }
       ],
       "questions": [
-        "How did Lifeline Ventures support Dispelix between the 2021-11 funding round and the reported acquisition in 2025-12?",
-        "What role did Lifeline Ventures play as an investor during the 2025-12 acquisition reported on roschier.com?",
-        "How did Lifeline Ventures handle board-level involvement and guidance for Dispelix following the 2021-11 round up until the 2025-12 acquisition?"
-      ],
-      "writing": []
-    },
-    {
-      "companyId": "c2b3d31f-7d59-433b-88d3-68db25744746",
-      "companyName": "Ovido",
-      "founder": {
-        "name": "Loredana Moimas",
-        "linkedinUrl": "https://linkedin.com/in/loredanamoimas",
-        "via": "exa+gemini",
-        "evidence": "Co-Founder, Ovido",
-        "sources": [
-          {
-            "url": "https://linkedin.com/in/loredanamoimas",
-            "name": "linkedin.com"
-          }
-        ]
-      },
-      "group": "no_recent_round",
-      "why": [
-        {
-          "kind": "last_round",
-          "text": "Last recorded round: 2024-06",
-          "date": "2024-06-20",
-          "sources": [
-            {
-              "url": "https://pitchbook.com/profiles/company/865669-78",
-              "name": "pitchbook.com",
-              "date": "2026-08-25"
-            },
-            {
-              "url": "https://pitchbook.com/profiles/fund/27831-97F",
-              "name": "pitchbook.com",
-              "date": "2026-08-25"
-            },
-            {
-              "url": "https://www.crunchbase.com/funding_round/ovido-85e7-seed--5926b4b2",
-              "name": "www.crunchbase.com",
-              "date": "2026-08-25"
-            }
-          ]
-        }
-      ],
-      "questions": [
-        "How did Lifeline Ventures work with Ovido during your recorded funding round in June 2024?",
-        "How has Lifeline Ventures behaved as an investor in Ovido since the June 2024 round?",
-        "What support did Lifeline Ventures provide to the Ovido team leading up to the June 2024 round?"
+        "How did Lifeline Ventures support Dispelix between your 2021-11 funding round and the reported acquisition in 2025-12?",
+        "What role did Lifeline Ventures play as an investor during the acquisition process reported on roschier.com in 2025-12?",
+        "How would you describe Lifeline Ventures' guidance and board involvement from your 2021-11 round leading up to the 2025-12 acquisition?"
       ],
       "writing": []
     },
@@ -5237,125 +5168,56 @@
         }
       ],
       "questions": [
-        "How did Lifeline Ventures work with Ovido during your recorded funding round in June 2024?",
-        "How has Lifeline Ventures behaved as an investor in Ovido since the June 2024 round?",
-        "What support did Lifeline Ventures provide to the Ovido team leading up to the June 2024 round?"
+        "How did Lifeline Ventures work with the Ovido founding team leading up to your 2024-06 round?",
+        "How has Lifeline Ventures supported Ovido as an investor since the 2024-06 round?",
+        "What is Lifeline Ventures' general communication style and level of involvement with Ovido?"
       ],
       "writing": []
     },
     {
-      "companyId": "75c397bb-0819-5178-b96b-630417e6bb9e",
-      "companyName": "Ambio",
+      "companyId": "c2b3d31f-7d59-433b-88d3-68db25744746",
+      "companyName": "Ovido",
       "founder": {
-        "name": "Tommi Bergström",
-        "via": "cala",
-        "evidence": "Cala: FOUNDED",
+        "name": "Loredana Moimas",
+        "linkedinUrl": "https://linkedin.com/in/loredanamoimas",
+        "via": "exa+gemini",
+        "evidence": "Co-Founder, Ovido",
         "sources": [
           {
-            "url": "https://www.ambiomaterials.com/en/about-us",
-            "name": "ambiomaterials.com",
-            "date": "2026-11-03"
+            "url": "https://linkedin.com/in/loredanamoimas",
+            "name": "linkedin.com"
           }
         ]
       },
-      "group": "news_event",
+      "group": "no_recent_round",
       "why": [
         {
-          "kind": "status",
-          "text": "Cala status: ACTIVE",
+          "kind": "last_round",
+          "text": "Last recorded round: 2024-06",
+          "date": "2024-06-20",
           "sources": [
             {
-              "url": "https://ambiomaterials.com/",
-              "name": "ambiomaterials.com",
-              "date": "2026-11-02"
+              "url": "https://pitchbook.com/profiles/company/865669-78",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
             },
             {
-              "url": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=3338492-8",
-              "name": "avoindata.prh.fi",
-              "date": "2026-11-13"
-            }
-          ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported acquisition (techouse-group.com, 2026-10)",
-          "date": "2026-10-22",
-          "sources": [
-            {
-              "url": "https://techouse-group.com/news/techouse-acquires-ambio-water",
-              "name": "Techouse acquires Ambio Water",
-              "date": "2026-10-22"
+              "url": "https://pitchbook.com/profiles/fund/27831-97F",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
             },
             {
-              "url": "https://www.conyers.com/publications/view/cordenpharma-acquisition-of-ambio-pharmaceuticals/",
-              "name": "CordenPharma Acquisition of Ambio Pharmaceuticals - Conyers",
-              "date": "2026-08-06"
+              "url": "https://www.crunchbase.com/funding_round/ovido-85e7-seed--5926b4b2",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
             }
           ]
         }
       ],
       "questions": [
-        "How did Lifeline Ventures support Ambio during the reported acquisition mentioned on techouse-group.com in 2026-10?",
-        "How does Lifeline Ventures engage with and support portfolio companies whose status remains ACTIVE, such as Cala?",
-        "What role did Lifeline Ventures play as an investor during the process surrounding the 2026-10 reported acquisition?"
-      ],
-      "writing": []
-    },
-    {
-      "companyId": "75c397bb-0819-5178-b96b-630417e6bb9e",
-      "companyName": "Ambio",
-      "founder": {
-        "name": "Elmo Pakkanen",
-        "via": "cala",
-        "evidence": "Cala: FOUNDED",
-        "sources": [
-          {
-            "url": "https://www.ambiomaterials.com/en/about-us",
-            "name": "ambiomaterials.com",
-            "date": "2026-11-03"
-          }
-        ]
-      },
-      "group": "news_event",
-      "why": [
-        {
-          "kind": "status",
-          "text": "Cala status: ACTIVE",
-          "sources": [
-            {
-              "url": "https://ambiomaterials.com/",
-              "name": "ambiomaterials.com",
-              "date": "2026-11-02"
-            },
-            {
-              "url": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=3338492-8",
-              "name": "avoindata.prh.fi",
-              "date": "2026-11-13"
-            }
-          ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported acquisition (techouse-group.com, 2026-10)",
-          "date": "2026-10-22",
-          "sources": [
-            {
-              "url": "https://techouse-group.com/news/techouse-acquires-ambio-water",
-              "name": "Techouse acquires Ambio Water",
-              "date": "2026-10-22"
-            },
-            {
-              "url": "https://www.conyers.com/publications/view/cordenpharma-acquisition-of-ambio-pharmaceuticals/",
-              "name": "CordenPharma Acquisition of Ambio Pharmaceuticals - Conyers",
-              "date": "2026-08-06"
-            }
-          ]
-        }
-      ],
-      "questions": [
-        "How did Lifeline Ventures support Ambio during the reported acquisition mentioned on techouse-group.com in 2026-10?",
-        "How does Lifeline Ventures engage with and support portfolio companies whose status remains ACTIVE, such as Cala?",
-        "What role did Lifeline Ventures play as an investor during the process surrounding the 2026-10 reported acquisition?"
+        "How did Lifeline Ventures work with the Ovido founding team leading up to your 2024-06 round?",
+        "How has Lifeline Ventures supported Ovido as an investor since the 2024-06 round?",
+        "What is Lifeline Ventures' general communication style and level of involvement with Ovido?"
       ],
       "writing": []
     },
@@ -5400,9 +5262,9 @@
         }
       ],
       "questions": [
-        "How did Lifeline Ventures work with Digital Workforce Services Oyj leading up to the 2021-12 round?",
-        "How would you describe Lifeline Ventures' level of involvement and support with Digital Workforce Services Oyj following the 2021-12 round?",
-        "In what ways did Lifeline Ventures provide strategic guidance or assistance to Digital Workforce Services Oyj around the time of the 2021-12 financing?"
+        "How did Lifeline Ventures support Digital Workforce Services Oyj leading up to the 2021-12 round?",
+        "How would you describe Lifeline Ventures' communication and working style as an investor with Digital Workforce Services Oyj?",
+        "In what ways did Lifeline Ventures provide strategic guidance or value to Digital Workforce Services Oyj around the 2021-12 funding round?"
       ],
       "writing": []
     },
@@ -5447,9 +5309,9 @@
         }
       ],
       "questions": [
-        "How did Lifeline Ventures work with Digital Workforce Services Oyj leading up to the 2021-12 round?",
-        "How would you describe Lifeline Ventures' level of involvement and support with Digital Workforce Services Oyj following the 2021-12 round?",
-        "In what ways did Lifeline Ventures provide strategic guidance or assistance to Digital Workforce Services Oyj around the time of the 2021-12 financing?"
+        "How did Lifeline Ventures support Digital Workforce Services Oyj leading up to the 2021-12 round?",
+        "How would you describe Lifeline Ventures' communication and working style as an investor with Digital Workforce Services Oyj?",
+        "In what ways did Lifeline Ventures provide strategic guidance or value to Digital Workforce Services Oyj around the 2021-12 funding round?"
       ],
       "writing": []
     },
@@ -5525,9 +5387,9 @@
         }
       ],
       "questions": [
-        "How did Lifeline Ventures support ConfidentialMind leading up to and during the 2024-06 round?",
-        "How has Lifeline Ventures interacted with ConfidentialMind since the 2024-06 round as an active portfolio company?",
-        "How would you describe Lifeline Ventures' ongoing level of involvement with ConfidentialMind given your active status?"
+        "How did Lifeline Ventures support ConfidentialMind leading up to and during the 2024-06 funding round?",
+        "How has Lifeline Ventures engaged with ConfidentialMind in your ongoing work together as an active portfolio company?",
+        "In what ways has Lifeline Ventures provided strategic advice or operational assistance to ConfidentialMind following the 2024-06 round?"
       ],
       "writing": []
     },
@@ -5603,9 +5465,9 @@
         }
       ],
       "questions": [
-        "How did Lifeline Ventures support ConfidentialMind leading up to and during the 2024-06 round?",
-        "How has Lifeline Ventures interacted with ConfidentialMind since the 2024-06 round as an active portfolio company?",
-        "How would you describe Lifeline Ventures' ongoing level of involvement with ConfidentialMind given your active status?"
+        "How did Lifeline Ventures support ConfidentialMind leading up to and during the 2024-06 funding round?",
+        "How has Lifeline Ventures engaged with ConfidentialMind in your ongoing work together as an active portfolio company?",
+        "In what ways has Lifeline Ventures provided strategic advice or operational assistance to ConfidentialMind following the 2024-06 round?"
       ],
       "writing": []
     },
@@ -5666,9 +5528,9 @@
         }
       ],
       "questions": [
-        "How did Lifeline Ventures support Nextinox leading up to and following your 2026-08 financing round?",
-        "How would you describe Lifeline Ventures' ongoing communication and involvement with Nextinox as an active portfolio company?",
-        "In what ways has Lifeline Ventures provided guidance or resources to Nextinox since the 2026-08 round?"
+        "How did Lifeline Ventures support Nextinox during your 2026-08 funding round?",
+        "How has Lifeline Ventures worked with Nextinox while the company maintains an active status?",
+        "What has been Lifeline Ventures' level of involvement with Nextinox since the last recorded round in 2026-08?"
       ],
       "writing": []
     }
