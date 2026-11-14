@@ -548,7 +548,7 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
         </section>
       )}
 
-      {phase === "sky" && !visited && !selectedFund && !suggest && demoFund && (
+      {phase === "sky" && !landing && !settling && !visited && !selectedFund && !suggest && demoFund && (
         <section className="px-ui px-glass px-pitch" aria-label="What Parallax is">
           <p><b>Reference checks for VC funds.</b> Each bright star is a fund: pick one to see its portfolio and the founders worth calling before you sign.</p>
           <button className="px-btn px-primary" onClick={() => flyTo(demoFund)}>Try {demoFund.name}</button>
