@@ -58,29 +58,11 @@ export function FundSearch() {
       </form>
 
       <div className="flex flex-wrap gap-2" aria-label="Example funds">
-        {PRESET_FUNDS.map((p) =>
-          p.calaId ? (
-            <Link
-              key={p.name}
-              href={`/report/${p.calaId}`}
-              className={buttonVariants({ variant: "outline" })}
-            >
-              {p.name}
-            </Link>
-          ) : (
-            <Button
-              key={p.name}
-              type="button"
-              variant="outline"
-              onClick={() => {
-                setQ(p.name);
-                void search(p.name);
-              }}
-            >
-              {p.name}
-            </Button>
-          ),
-        )}
+        {PRESET_FUNDS.map((p) => (
+          <Link key={p.calaId} href={`/report/${p.calaId}`} className={buttonVariants({ variant: "outline" })}>
+            {p.name}
+          </Link>
+        ))}
       </div>
 
       <div aria-live="polite">
