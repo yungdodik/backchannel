@@ -165,9 +165,6 @@
 .px-ui { position: absolute; z-index: 5; }
 .px-glass { background: var(--glass); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border: 1px solid oklch(0.5 0.02 268 / 0.25); }
 
-.px-menu { top: 16px; left: 16px; width: 46px; height: 46px; border-radius: 50%; display: grid; place-items: center; }
-.px-menu svg { width: 22px; height: 22px; }
-
 .px-searchbar { top: 16px; left: 50%; transform: translateX(-50%); width: min(520px, calc(100% - 140px)); border-radius: 24px; }
 .px-searchbar form { display: flex; align-items: center; gap: 10px; padding: 0 7px 0 18px; height: 48px; }
 .px-searchbar form > svg { width: 20px; height: 20px; flex: none; color: var(--muted); }
@@ -183,8 +180,9 @@
 .px-hint { padding: 8px 10px 2px; font-size: 12.5px; color: var(--muted); }
 .px-warn { padding: 8px 10px; font-size: 13px; color: var(--quiet); }
 
-.px-brand { top: 16px; right: 16px; height: 46px; padding: 0 18px; border-radius: 999px; display: flex; align-items: center; gap: 9px; font: 600 16px var(--sans); letter-spacing: 0.01em; }
+.px-brand { top: 16px; left: 16px; height: 46px; padding: 0 18px; border-radius: 999px; display: flex; align-items: center; gap: 9px; font: 600 16px var(--sans); letter-spacing: 0.01em; transition: border-color 0.15s; }
 .px-brand svg { width: 20px; height: 20px; color: var(--star); }
+.px-brand:hover { border-color: var(--star); }
 .px-botleft { bottom: 16px; left: 16px; height: 46px; padding: 0 18px; border-radius: 999px; display: flex; align-items: center; gap: 8px; font-size: 14px; }
 .px-botleft small { font: 400 12px var(--mono); color: var(--muted); }
 .px-botright { bottom: 16px; right: 16px; min-width: 120px; padding: 7px 18px; border-radius: 999px; text-align: center; line-height: 1.25; }
@@ -257,7 +255,9 @@
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 
 @media (max-width: 860px) {
-  .px-brand, .px-botleft, .px-botright { display: none; }
+  .px-botleft, .px-botright { display: none; }
+  .px-brand { width: 46px; padding: 0; justify-content: center; }
+  .px-brand span { display: none; }
   .px-searchbar { left: 72px; right: 16px; transform: none; width: auto; }
   .px-tools { bottom: 10px; }
   .px-info { top: 72px; left: 10px; right: 10px; width: auto; max-height: 40%; }
