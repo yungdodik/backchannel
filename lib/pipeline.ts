@@ -91,7 +91,7 @@ export function newsSignals(results: ExaResult[], company: string, fundName: str
     const host = domain(r.url);
     if (host.replace(/[^a-z0-9]/g, "").includes(fundSlug) || r.url.includes(`medium.com/${fundSlug}`)) continue;
     const text = `${r.title ?? ""} ${(r.highlights ?? []).join(" ")}`;
-    if (!normalise(text).includes(n) || !NEWS_WORD.test(text)) continue;
+    if (!` ${normalise(text)} `.includes(` ${n} `) || !NEWS_WORD.test(text)) continue;
     const kind = NEWS_KIND.find(([re]) => re.test(text))![1];
     byKind.set(kind, [...(byKind.get(kind) ?? []), { url: r.url, name: r.title, date: r.publishedDate?.slice(0, 10) }]);
   }
