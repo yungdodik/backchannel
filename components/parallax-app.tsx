@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Fragment, useEffect, useMemo, useRef, useState, type FormEvent, type KeyboardEvent, type ReactNode } from "react";
+import { Fragment, useEffect, useMemo, useRef, useState, type CSSProperties, type FormEvent, type KeyboardEvent, type ReactNode } from "react";
 import { fundsUrl, reportUrl } from "@/components/api-urls";
 import { deriveReport } from "@/components/report-state";
 import { SkyEngine, type Group, type SkyCompany, type SkyFund } from "@/components/sky/engine";
@@ -370,7 +370,7 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
                   <div className="px-hint">Matches from Cala</div>
                   {search.matches.map((m) => (
                     <button key={m.calaId} type="button" role="option" aria-selected={false} className="px-option" onMouseDown={(e) => e.preventDefault()} onClick={() => flyTo({ id: m.calaId, name: m.name })}>
-                      <i /><span>{m.name}</span><small>new star</small>
+                      <i /><span>{m.name}{m.description && <em>{m.description}</em>}</span><small>new star</small>
                     </button>
                   ))}
                 </>
@@ -402,22 +402,41 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
           <div className="px-type">Venture fund · Cala entity</div>
           <h1>{report.fund?.name ?? target.name}</h1>
           {report.fund?.description && <p className="px-desc">{report.fund.description}</p>}
-          <dl>
-            <dt>Portfolio companies</dt><dd>{companiesN || "…"}</dd>
-            <dt>Founders to call</dt><dd>{report.entries.length}</dd>
-            <dt>News found</dt><dd>{newsN} <small>companies</small></dd>
-            {fp && (
-              <>
-                <dt>No recorded round in 24+ months</dt><dd>{count("quiet", fp.noRoundIn24Months.ids, "No recorded round in 24+ months", <>{fp.noRoundIn24Months.n} <small>/ {fp.noRoundIn24Months.of}</small></>)}</dd>
-                <dt>Named in a later round<small>lower bound</small></dt><dd>{count("later", fp.namedInLaterRound.ids, "Named in a later round", <>{fp.namedInLaterRound.n} <small>/ {fp.namedInLaterRound.of}</small></>)}</dd>
-                <dt>Rounds the fund led<small>where the lead is known</small></dt><dd>{count("led", fp.ledRounds.ids, "Rounds the fund led", <>{fp.ledRounds.n} <small>/ {fp.ledRounds.of}</small></>)}</dd>
-                {fp.medianMonthsBetweenRounds != null && (<><dt>Median time between rounds</dt><dd>{Math.round(fp.medianMonthsBetweenRounds)} <small>months</small></dd></>)}
-              </>
-            )}
+          {/* headline counts, then one block per fact about follow-on funding: number, share bar, what it is measured against */}
+          <dl className="px-tiles px-three">
+            <div><dt>Companies</dt><dd>{companiesN || "…"}</dd></div>
+            <div><dt>Founders to call</dt><dd>{report.entries.length}</dd></div>
+            <div style={{ "--c": "var(--news)" } as CSSProperties}><dt>With news</dt><dd>{newsN}</dd></div>
           </dl>
+          {fp && (
+            <>
+              <h2 className="px-sec">Follow-on funding</h2>
+              <dl className="px-tiles">
+                {([
+                  ["quiet", "No round in 2+ years", "", fp.noRoundIn24Months, "var(--quiet)"],
+                  ["later", "Fund backed again", "at least this many", fp.namedInLaterRound, "var(--recent)"],
+                  ["led", "Rounds led", "where the lead is known", fp.ledRounds, "var(--star)"],
+                ] as const).map(([key, label, basis, c, color]) => (
+                  <div key={key} style={{ "--c": color } as CSSProperties}>
+                    <dt>{label}{basis && <small>{basis}</small>}</dt>
+                    <dd>
+                      {count(key, c.ids, label, <>{c.n} <small>of {c.of}</small></>)}
+                      <i className="px-meter" aria-hidden><i style={{ width: `${c.of ? (100 * c.n) / c.of : 0}%` }} /></i>
+                    </dd>
+                  </div>
+                ))}
+                {fp.medianMonthsBetweenRounds != null && (
+                  <div>
+                    <dt>Between rounds<small>median</small></dt>
+                    <dd>{Math.round(fp.medianMonthsBetweenRounds)} <small>months</small></dd>
+                  </div>
+                )}
+              </dl>
+            </>
+          )}
           {fp && fp.topCoInvestors.length > 0 && (
             <details className="px-more">
-              <summary>Top co-investors<small>in rounds that name the fund</small></summary>
+              <summary>Top co-investors</summary>
               <dl>
                 {fp.topCoInvestors.slice(0, 5).map((c) => (
                   <Fragment key={c.name}><dt>{c.name}</dt><dd>{count(`co:${c.name}`, c.roundIds, `Rounds with ${c.name}`, <>{c.roundIds.length} <small>{c.roundIds.length > 1 ? "rounds" : "round"}</small></>)}</dd></Fragment>
@@ -427,7 +446,7 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
           )}
           {fp && fp.partners.length > 0 && (
             <details className="px-more">
-              <summary>Fund partners<small>quoted in round announcements</small></summary>
+              <summary>Fund partners<small>quoted in news</small></summary>
               <dl>
                 {fp.partners.slice(0, 5).map((p) => (
                   <Fragment key={p.name}><dt>{p.name}{p.title && <small>{p.title}</small>}</dt><dd>{count(`partner:${p.name}`, p.roundIds, `Rounds where ${p.name} is quoted`, <>{p.roundIds.length} <small>{p.roundIds.length > 1 ? "rounds" : "round"}</small></>)}</dd></Fragment>
