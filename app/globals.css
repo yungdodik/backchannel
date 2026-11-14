@@ -277,7 +277,18 @@
 .px-tip[data-on] { opacity: 1; }
 .px-tip small { display: block; font: 400 11.5px var(--mono); color: var(--muted); }
 .px-toast { top: 76px; left: 50%; transform: translateX(-50%); padding: 8px 16px; border-radius: 999px; font: 400 13px var(--mono); color: var(--muted); white-space: nowrap; animation: px-fade 2.8s var(--quart) both; pointer-events: none; }
-.px-toast.px-stay { animation: none; }
+.px-pitch { top: 76px; left: 50%; transform: translateX(-50%); width: min(660px, calc(100% - 32px)); padding: 10px 12px 10px 18px; border-radius: 18px; display: flex; align-items: center; gap: 14px; font-size: 13.5px; line-height: 1.4; color: var(--muted); animation: px-drop 0.35s var(--quart) both; }
+.px-pitch p { flex: 1; }
+.px-pitch b { color: var(--text); font-weight: 600; }
+.px-pitch .px-btn { flex: none; }
+.px-key { font-size: 12px; line-height: 1.4; color: var(--muted); }
+.px-key ul { list-style: none; display: flex; flex-wrap: wrap; gap: 4px 14px; }
+.px-key li { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; color: var(--text); }
+.px-key li i { width: 9px; height: 9px; border-radius: 50%; flex: none; }
+.px-key-float { bottom: 84px; left: 50%; transform: translateX(-50%); width: max-content; max-width: calc(100% - 840px); padding: 9px 16px 10px; border-radius: 14px; text-align: center; }
+.px-key-float ul { justify-content: center; margin-top: 5px; }
+.px-key-inline { display: none; margin-top: 8px; }
+.px-key-inline p { margin-top: 4px; font-size: 11.5px; }
 @keyframes px-fade { 0% { opacity: 0; } 10%, 80% { opacity: 1; } 100% { opacity: 0; } }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 
@@ -392,8 +403,16 @@
   .px-drawer { top: auto; left: 10px; right: 10px; bottom: 72px; width: auto; height: 33%; }
   .px-compact dl, .px-compact .px-sec, .px-compact .px-more, .px-compact .px-desc, .px-compact .px-note { display: none; }
   .px-toast { white-space: normal; width: calc(100% - 32px); text-align: center; border-radius: 16px; }
+  .px-pitch { top: 72px; flex-direction: column; align-items: stretch; gap: 10px; padding: 12px 14px; text-align: center; }
+  .px-pitch .px-btn { justify-content: center; }
 }
 @media (prefers-reduced-motion: reduce) {
   :is(.px-app, .lp) *, :is(.px-app, .lp) *::before, :is(.px-app, .lp) *::after { animation: none !important; transition: none !important; }
 }
 
+
+/* between the two side panels there is no room for the floating map key: it moves into the call list's header */
+@media (max-width: 1240px) {
+  .px-key-float { display: none; }
+  .px-key-inline { display: block; }
+}
