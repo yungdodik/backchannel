@@ -39,7 +39,6 @@ const Icon = {
   reset: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" aria-hidden><path d="M4 12a8 8 0 1 0 3-6.2M4 4v4h4" /></svg>,
   orbits: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden><ellipse cx="12" cy="12" rx="10" ry="5" /><circle cx="12" cy="12" r="2.2" fill="currentColor" /><circle cx="20" cy="10" r="1.4" fill="currentColor" /></svg>,
   full: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" aria-hidden><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5" /></svg>,
-  menu: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden><path d="M4 7h16M4 12h16M4 17h16" /></svg>,
   logo: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" aria-hidden><circle cx="12" cy="12" r="2.4" fill="currentColor" /><ellipse cx="12" cy="12" rx="10" ry="4.2" transform="rotate(-20 12 12)" /></svg>,
 };
 
@@ -289,8 +288,13 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
       <canvas ref={canvas} className="px-sky" aria-label="Sky map of venture funds. Drag to rotate; use the search to fly to a fund." />
       <div ref={tip} className="px-tip" aria-hidden />
 
-      <button className="px-ui px-glass px-menu" aria-label="About Parallax" onClick={() => say("Parallax: reference checks on a VC fund, from the founders who already took its money.")}>
-        {Icon.menu}
+      {/* the logo is the way home: back to the sky from a fund, or back to the opening view when already there */}
+      <button
+        className="px-ui px-glass px-brand"
+        aria-label={phase === "sky" ? "Parallax: reset the sky view" : "Parallax: return to the sky"}
+        onClick={() => (phase === "sky" ? engine.current?.resetView() : engine.current?.flyOut())}
+      >
+        {Icon.logo}<span>Parallax</span>
       </button>
 
       <div className="px-ui px-glass px-searchbar">
@@ -346,8 +350,6 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
           </div>
         )}
       </div>
-
-      <div className="px-ui px-glass px-brand">{Icon.logo}Parallax</div>
 
       {phase === "sky" && selectedFund && (
         <section className="px-ui px-glass px-info" aria-label={selectedFund.name}>
