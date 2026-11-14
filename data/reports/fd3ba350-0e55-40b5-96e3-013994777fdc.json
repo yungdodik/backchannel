@@ -1,0 +1,3806 @@
+{
+  "fund": {
+    "calaId": "fd3ba350-0e55-40b5-96e3-013994777fdc",
+    "name": "Inventure",
+    "description": "a Finnish investment firm headquartered in Helsinki"
+  },
+  "generatedAt": "2026-11-14T04:24:27.456Z",
+  "complete": true,
+  "portfolio": [
+    {
+      "calaId": "0d0425ad-207d-4c48-8b02-88a46ca34c6f",
+      "name": "Lassie",
+      "rounds": [
+        {
+          "calaId": "8fd415d7-ffae-479e-a192-5a9b4fe44ab8",
+          "label": "Funding round",
+          "date": "2026-02-12",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/lassie/__Wh9KKMSooOLoyHDonkeuoZYg21nHJhUKVokKq5wl-HU",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/lassie/__Wh9KKMSooOLoyHDonkeuoZYg21nHJhUKVokKq5wl-HU/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/464207-59",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            }
+          ]
+        },
+        {
+          "calaId": "ee8a439e-3e78-46ee-9377-c8f2563f1eca",
+          "label": "Funding round",
+          "date": "2023-11-28",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2023/11/28/as-pet-owners-turn-to-mobile-insurance-apps-lassie-raises-25m-series-b-led-by-balderton",
+              "name": "As pet owners turn to mobile insurance apps, Lassie raises $25M Series B led by Balderton | TechCrunch",
+              "date": "2023-11-28"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/lassie/__Wh9KKMSooOLoyHDonkeuoZYg21nHJhUKVokKq5wl-HU/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        },
+        {
+          "calaId": "d0213a87-4c2a-45fc-afdc-436f32c60469",
+          "label": "Funding round",
+          "date": "2022-05-20",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2022/05/20/covid-was-the-best-thing-for-kitty-as-insurance-apps-for-pets-boom",
+              "name": "Pet app and insurance provider Lassie closed €11M Series A",
+              "date": "2022-05-20"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/lassie/__Wh9KKMSooOLoyHDonkeuoZYg21nHJhUKVokKq5wl-HU/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        },
+        {
+          "calaId": "3233d7d1-fea8-4cd0-95df-069ed38e6de2",
+          "label": "Funding round",
+          "date": "2021-10-06",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/lassie/__Wh9KKMSooOLoyHDonkeuoZYg21nHJhUKVokKq5wl-HU/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-02",
+          "date": "2026-02-12",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/lassie/__Wh9KKMSooOLoyHDonkeuoZYg21nHJhUKVokKq5wl-HU",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/lassie/__Wh9KKMSooOLoyHDonkeuoZYg21nHJhUKVokKq5wl-HU/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/464207-59",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "founders": [
+        {
+          "name": "Hedda Båverud Olsson",
+          "linkedinUrl": "https://linkedin.com/in/hedda-baverud-olsson",
+          "via": "exa+gemini",
+          "evidence": "CEO and Co-founder, Lassie",
+          "sources": [
+            {
+              "url": "https://linkedin.com/in/hedda-baverud-olsson",
+              "name": "linkedin.com"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://tracxn.com/d/companies/lassie/__Wh9KKMSooOLoyHDonkeuoZYg21nHJhUKVokKq5wl-HU/funding-and-investors",
+          "name": "tracxn.com",
+          "date": "2026-08-25"
+        }
+      ],
+      "state": "enriched",
+      "description": "A Spanish digital pet insurer operating in the financial, fintech, and health insurance sectors.",
+      "lastRoundDate": "2026-02-12"
+    },
+    {
+      "calaId": "14d6b8ac-ff64-47f4-8d96-0ba667f9c2e7",
+      "name": "RightWare",
+      "rounds": [
+        {
+          "calaId": "f3a940c9-cece-47e8-94a9-6e882b62f6d9",
+          "label": "Funding round",
+          "date": "2013-05-14",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2013/05/14/rightware-series-b",
+              "name": "Finnish Startup Rightware Closes $5.2M Series B To Drive Global Growth Of Its Embedded UI Creation Tool Business | TechCrunch",
+              "date": "2013-05-14"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/rightware/__ac_Agdd1VsMkytaJjBrvG_jXShNyzQOiZJM-aBhWzic/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        },
+        {
+          "calaId": "e6f579a2-68d3-4147-a788-782d90dca6db",
+          "label": "Funding round",
+          "date": "2010-01-07",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/rightware/__ac_Agdd1VsMkytaJjBrvG_jXShNyzQOiZJM-aBhWzic/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2013-05",
+          "date": "2013-05-14",
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2013/05/14/rightware-series-b",
+              "name": "Finnish Startup Rightware Closes $5.2M Series B To Drive Global Growth Of Its Embedded UI Creation Tool Business | TechCrunch",
+              "date": "2013-05-14"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/rightware/__ac_Agdd1VsMkytaJjBrvG_jXShNyzQOiZJM-aBhWzic/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "founders": [],
+      "sources": [
+        {
+          "url": "https://tracxn.com/d/companies/rightware/__ac_Agdd1VsMkytaJjBrvG_jXShNyzQOiZJM-aBhWzic/funding-and-investors",
+          "name": "tracxn.com",
+          "date": "2026-08-25"
+        }
+      ],
+      "state": "enriched",
+      "description": "Provides automotive HMI graphics software (Kanzi) enabling rapid creation and deployment of user interfaces for car clusters, IVIs, and HUDs.",
+      "lastRoundDate": "2013-05-14"
+    },
+    {
+      "calaId": "17c5c020-6037-4743-ae24-49a59ec0cbe6",
+      "name": "ReOrbit",
+      "rounds": [
+        {
+          "calaId": "94ede3c7-e4f1-4ffc-800f-f6ad741643f2",
+          "label": "Funding round",
+          "date": "2025-09-08",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2025/09/08/reorbit-lands-record-funding-to-take-on-musks-starlink-from-europe",
+              "name": "ReOrbit lands record funding to take on Musk's Starlink from Europe | TechCrunch",
+              "date": "2025-09-08"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/reorbit/__jHH-J3eAQMBCCadIhwtvwYXFm3lkmdlH_FvBx81hPew/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            }
+          ]
+        },
+        {
+          "calaId": "d0d7b073-e6a9-4dc6-8c2b-0798bc6a80ff",
+          "label": "Funding round",
+          "date": "2023-12-21",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/reorbit/__jHH-J3eAQMBCCadIhwtvwYXFm3lkmdlH_FvBx81hPew/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            }
+          ]
+        },
+        {
+          "calaId": "27416fa7-9bdc-4e20-84f8-0f7b3221f906",
+          "label": "Funding round",
+          "date": "2023-08-31",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/reorbit/__jHH-J3eAQMBCCadIhwtvwYXFm3lkmdlH_FvBx81hPew/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2025-09",
+          "date": "2025-09-08",
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2025/09/08/reorbit-lands-record-funding-to-take-on-musks-starlink-from-europe",
+              "name": "ReOrbit lands record funding to take on Musk's Starlink from Europe | TechCrunch",
+              "date": "2025-09-08"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/reorbit/__jHH-J3eAQMBCCadIhwtvwYXFm3lkmdlH_FvBx81hPew/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            }
+          ]
+        }
+      ],
+      "founders": [
+        {
+          "name": "Sethu Saveda Suvanam",
+          "linkedinUrl": "https://linkedin.com/in/sethu-saveda-suvanam-426a9421",
+          "via": "exa+gemini",
+          "evidence": "Founder and CEO, ReOrbit",
+          "sources": [
+            {
+              "url": "https://linkedin.com/in/sethu-saveda-suvanam-426a9421",
+              "name": "linkedin.com"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2025/09/08/reorbit-lands-record-funding-to-take-on-musks-starlink-from-europe",
+          "name": "ReOrbit lands record funding to take on Musk's Starlink from Europe | TechCrunch",
+          "date": "2025-09-08"
+        },
+        {
+          "url": "https://tracxn.com/d/companies/reorbit/__jHH-J3eAQMBCCadIhwtvwYXFm3lkmdlH_FvBx81hPew/funding-and-investors",
+          "name": "tracxn.com",
+          "date": "2026-08-24"
+        }
+      ],
+      "state": "enriched",
+      "description": "Finnish aerospace and defense company based in Helsinki specializing in space technology.",
+      "lastRoundDate": "2025-09-08"
+    },
+    {
+      "calaId": "323b8e51-ec68-4241-9358-a5812066dff6",
+      "name": "Medoma",
+      "rounds": [
+        {
+          "calaId": "fd4654de-b096-4216-ab74-2d98b4c5e5a2",
+          "label": "Funding round",
+          "date": "2022-09-07",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/medoma/__TPK1kbDI6fp_OJttmHyxM0fGHO3uf3y-DLXGV_yJhEE",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/medoma/__TPK1kbDI6fp_OJttmHyxM0fGHO3uf3y-DLXGV_yJhEE/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/506965-60",
+              "name": "pitchbook.com",
+              "date": "2026-08-24"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2022-09",
+          "date": "2022-09-07",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/medoma/__TPK1kbDI6fp_OJttmHyxM0fGHO3uf3y-DLXGV_yJhEE",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/medoma/__TPK1kbDI6fp_OJttmHyxM0fGHO3uf3y-DLXGV_yJhEE/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/506965-60",
+              "name": "pitchbook.com",
+              "date": "2026-08-24"
+            }
+          ]
+        }
+      ],
+      "founders": [
+        {
+          "name": "Henrik Bjärtun",
+          "linkedinUrl": "https://linkedin.com/in/henrikbjartun",
+          "via": "exa+gemini",
+          "evidence": "Chief Medical Officer & Co-founder, Medoma",
+          "sources": [
+            {
+              "url": "https://linkedin.com/in/henrikbjartun",
+              "name": "linkedin.com"
+            }
+          ]
+        },
+        {
+          "name": "Johan Nordenström",
+          "linkedinUrl": "https://linkedin.com/in/johan-nordenstr%C3%B6m-45947a6",
+          "via": "exa+gemini",
+          "evidence": "Chief Executive Officer and Co-founder, Medoma",
+          "sources": [
+            {
+              "url": "https://linkedin.com/in/johan-nordenstr%C3%B6m-45947a6",
+              "name": "linkedin.com"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://tracxn.com/d/companies/medoma/__TPK1kbDI6fp_OJttmHyxM0fGHO3uf3y-DLXGV_yJhEE",
+          "name": "tracxn.com",
+          "date": "2026-08-24"
+        },
+        {
+          "url": "https://tracxn.com/d/companies/medoma/__TPK1kbDI6fp_OJttmHyxM0fGHO3uf3y-DLXGV_yJhEE/funding-and-investors",
+          "name": "tracxn.com",
+          "date": "2026-08-24"
+        },
+        {
+          "url": "https://pitchbook.com/profiles/company/506965-60",
+          "name": "pitchbook.com",
+          "date": "2026-08-24"
+        }
+      ],
+      "state": "enriched",
+      "description": "Swedish virtual care company offering patients acute hospital care in their home instead of in the hospital.",
+      "lastRoundDate": "2022-09-07"
+    },
+    {
+      "calaId": "39651925-4781-427a-9456-99a959189943",
+      "name": "Kyynel",
+      "rounds": [
+        {
+          "calaId": "66043bc8-5edf-46a0-beac-518de0dbd54d",
+          "label": "Funding round",
+          "date": "2016-10-27",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/knl/__coS857ngQmwKhLznVQ40En308Kan8XRzvg27OTBeJ3M",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.crunchbase.com/person/john-lindfors",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            }
+          ]
+        },
+        {
+          "calaId": "8ddfa1ce-e0b7-472a-8816-beb8f691e445",
+          "label": "Funding round",
+          "date": "2014-08-15",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/knl/__coS857ngQmwKhLznVQ40En308Kan8XRzvg27OTBeJ3M",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2016-10",
+          "date": "2016-10-27",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/knl/__coS857ngQmwKhLznVQ40En308Kan8XRzvg27OTBeJ3M",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.crunchbase.com/person/john-lindfors",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "founders": [],
+      "sources": [
+        {
+          "url": "https://tracxn.com/d/companies/knl/__coS857ngQmwKhLznVQ40En308Kan8XRzvg27OTBeJ3M",
+          "name": "tracxn.com",
+          "date": "2026-08-25"
+        }
+      ],
+      "state": "enriched",
+      "description": "Provides satellite and maritime communications network solutions, offering connectivity services for remote and challenging environments.",
+      "lastRoundDate": "2016-10-27"
+    },
+    {
+      "calaId": "3981c362-c703-4d93-bd64-c63ded49cc4d",
+      "name": "Material Exchange",
+      "rounds": [
+        {
+          "calaId": "65ac1713-1412-4dc8-8a32-9e160cc857aa",
+          "label": "Funding round",
+          "date": "2022-04-11",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/materialexchange/__AWOkF0XIj5Y5m_Ec17X8ScmhslfI8YI0JRobJInQhV0",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/material-exchange/__AWOkF0XIj5Y5m_Ec17X8ScmhslfI8YI0JRobJInQhV0/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.crunchbase.com/organization/material-exchange/financial_details",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/327120-40",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            }
+          ]
+        },
+        {
+          "calaId": "2c3d6674-a727-471b-b236-29c0106c2442",
+          "label": "Funding round",
+          "date": "2020-11-26",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/materialexchange/__AWOkF0XIj5Y5m_Ec17X8ScmhslfI8YI0JRobJInQhV0",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/material-exchange/__AWOkF0XIj5Y5m_Ec17X8ScmhslfI8YI0JRobJInQhV0/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        },
+        {
+          "calaId": "183bb988-cdb8-4535-ac71-40a6231fba48",
+          "label": "Funding round",
+          "date": "2019-11-19",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/materialexchange/__AWOkF0XIj5Y5m_Ec17X8ScmhslfI8YI0JRobJInQhV0",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/material-exchange/__AWOkF0XIj5Y5m_Ec17X8ScmhslfI8YI0JRobJInQhV0/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2022-04",
+          "date": "2022-04-11",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/materialexchange/__AWOkF0XIj5Y5m_Ec17X8ScmhslfI8YI0JRobJInQhV0",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/material-exchange/__AWOkF0XIj5Y5m_Ec17X8ScmhslfI8YI0JRobJInQhV0/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.crunchbase.com/organization/material-exchange/financial_details",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/327120-40",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "founders": [
+        {
+          "name": "Andy Polk",
+          "linkedinUrl": "https://linkedin.com/in/andy-polk",
+          "via": "exa+gemini",
+          "evidence": "Co-Founder, Material Exchange",
+          "sources": [
+            {
+              "url": "https://linkedin.com/in/andy-polk",
+              "name": "linkedin.com"
+            }
+          ]
+        },
+        {
+          "name": "Russell Glenister",
+          "linkedinUrl": "https://linkedin.com/in/russell-glenister-7179b814",
+          "via": "exa+gemini",
+          "evidence": "Co-Founder, Material Exchange",
+          "sources": [
+            {
+              "url": "https://linkedin.com/in/russell-glenister-7179b814",
+              "name": "linkedin.com"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://tracxn.com/d/companies/materialexchange/__AWOkF0XIj5Y5m_Ec17X8ScmhslfI8YI0JRobJInQhV0",
+          "name": "tracxn.com",
+          "date": "2026-08-25"
+        },
+        {
+          "url": "https://tracxn.com/d/companies/material-exchange/__AWOkF0XIj5Y5m_Ec17X8ScmhslfI8YI0JRobJInQhV0/funding-and-investors",
+          "name": "tracxn.com",
+          "date": "2026-08-25"
+        }
+      ],
+      "state": "enriched",
+      "description": "A digital platform simplifying material sourcing for the fashion industry, enabling brands and suppliers to collaborate on collections.",
+      "lastRoundDate": "2022-04-11"
+    },
+    {
+      "calaId": "3cbd981d-f00c-59d5-8df3-a48fa0b721c5",
+      "name": "NinaData.io",
+      "rounds": [],
+      "signals": [
+        {
+          "kind": "status",
+          "text": "Cala status: ACTIVE",
+          "sources": [
+            {
+              "url": "https://ninadata.io/",
+              "name": "ninadata.io",
+              "date": "2026-11-02"
+            },
+            {
+              "url": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=2092760-4",
+              "name": "avoindata.prh.fi",
+              "date": "2026-11-13"
+            }
+          ]
+        }
+      ],
+      "founders": [],
+      "sources": [
+        {
+          "url": "https://news.cision.com/san-francisco-oy/r/thirdpresence-raises--2-4m-to-transform-in-app-programmatic-video-advertising-with-ai,c2456776",
+          "name": "news.cision.com",
+          "date": "2018-02-21"
+        },
+        {
+          "url": "https://tech.eu/2018/02/21/thirdpresence-funding/",
+          "name": "tech.eu",
+          "date": "2018-02-21"
+        },
+        {
+          "url": "https://www.unquote.com/nordics/official-record/3008731/inventure-tesi-raise-usd24m-for-thirdpresence",
+          "name": "unquote.com",
+          "date": "2018-02-21"
+        }
+      ],
+      "state": "enriched",
+      "description": "NinaData runs a contextual data and buying-intent platform that helps publishers monetize their content and advertisers reach consumers at the moment of a purchase decision."
+    },
+    {
+      "calaId": "421cacef-3390-49eb-a100-8dabe395f7d4",
+      "name": "Insurello",
+      "rounds": [
+        {
+          "calaId": "42f9e21f-9425-406d-8987-ff8046cb7dc1",
+          "label": "Funding round",
+          "date": "2021-07-08",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/insurello/__lXMYkJUKgbjFJ0kbSDY0ctsk3XcY1JbEYJ3X7yxsAQ8",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/insurello/__lXMYkJUKgbjFJ0kbSDY0ctsk3XcY1JbEYJ3X7yxsAQ8/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/181895-41",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.crunchbase.com/organization/insurello/company_overview/overview_timeline",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            }
+          ]
+        },
+        {
+          "calaId": "729d66d4-8232-44af-835f-e5061502a550",
+          "label": "Funding round",
+          "date": "2017-06-05",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/insurello/__lXMYkJUKgbjFJ0kbSDY0ctsk3XcY1JbEYJ3X7yxsAQ8",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/insurello/__lXMYkJUKgbjFJ0kbSDY0ctsk3XcY1JbEYJ3X7yxsAQ8/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2021-07",
+          "date": "2021-07-08",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/insurello/__lXMYkJUKgbjFJ0kbSDY0ctsk3XcY1JbEYJ3X7yxsAQ8",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/insurello/__lXMYkJUKgbjFJ0kbSDY0ctsk3XcY1JbEYJ3X7yxsAQ8/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/181895-41",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.crunchbase.com/organization/insurello/company_overview/overview_timeline",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "founders": [
+        {
+          "name": "Marcus Janback",
+          "linkedinUrl": "https://linkedin.com/in/marcusjanback",
+          "via": "exa+gemini",
+          "evidence": "CEO and Founder, Insurello",
+          "sources": [
+            {
+              "url": "https://linkedin.com/in/marcusjanback",
+              "name": "linkedin.com"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://tracxn.com/d/companies/insurello/__lXMYkJUKgbjFJ0kbSDY0ctsk3XcY1JbEYJ3X7yxsAQ8",
+          "name": "tracxn.com",
+          "date": "2026-08-25"
+        },
+        {
+          "url": "https://tracxn.com/d/companies/insurello/__lXMYkJUKgbjFJ0kbSDY0ctsk3XcY1JbEYJ3X7yxsAQ8/funding-and-investors",
+          "name": "tracxn.com",
+          "date": "2026-08-25"
+        },
+        {
+          "url": "https://pitchbook.com/profiles/company/181895-41",
+          "name": "pitchbook.com",
+          "date": "2026-08-25"
+        },
+        {
+          "url": "https://www.crunchbase.com/organization/insurello/company_overview/overview_timeline",
+          "name": "www.crunchbase.com",
+          "date": "2026-08-25"
+        }
+      ],
+      "state": "enriched",
+      "description": "Automating Insurance Claim Recoveries for Maximum Payouts",
+      "lastRoundDate": "2021-07-08"
+    },
+    {
+      "calaId": "4b7e8bc6-3844-45bf-8297-1702be319174",
+      "name": "Sarokal Solutions Oy",
+      "rounds": [
+        {
+          "calaId": "252f3bea-5f32-4962-a4d1-5ae3be664c28",
+          "label": "Funding round",
+          "date": "2018-02-07",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://www.cbinsights.com/company/sarokal-test-systems",
+              "name": "Sarokal Test Systems - Products, Competitors, Financials, Employees, Headquarters Locations",
+              "date": "2018-02-16"
+            }
+          ]
+        },
+        {
+          "calaId": "d7e93aa7-bc35-4fc5-8c76-c081206ce94a",
+          "label": "Funding round",
+          "date": "2014-08-15",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://nordic9.com/news/sarokal-closes-seed-investment-in-a-round-including-butterfly-ventures-and-inventure-news3420164108",
+              "name": "nordic9.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.cbinsights.com/company/sarokal-test-systems",
+              "name": "Sarokal Test Systems - Products, Competitors, Financials, Employees, Headquarters Locations",
+              "date": "2018-02-16"
+            },
+            {
+              "url": "https://www.crunchbase.com/organization/sarokal-test-systems-oy",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2018-02",
+          "date": "2018-02-07",
+          "sources": [
+            {
+              "url": "https://www.cbinsights.com/company/sarokal-test-systems",
+              "name": "Sarokal Test Systems - Products, Competitors, Financials, Employees, Headquarters Locations",
+              "date": "2018-02-16"
+            }
+          ]
+        }
+      ],
+      "founders": [
+        {
+          "name": "Harri Valasma",
+          "linkedinUrl": "https://linkedin.com/in/harri-valasma-bb253a",
+          "via": "exa+gemini",
+          "evidence": "Founder & CEO, Sarokal Solutions",
+          "sources": [
+            {
+              "url": "https://linkedin.com/in/harri-valasma-bb253a",
+              "name": "linkedin.com"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://nordic9.com/news/sarokal-closes-seed-investment-in-a-round-including-butterfly-ventures-and-inventure-news3420164108",
+          "name": "nordic9.com",
+          "date": "2026-08-25"
+        },
+        {
+          "url": "https://www.cbinsights.com/company/sarokal-test-systems",
+          "name": "Sarokal Test Systems - Products, Competitors, Financials, Employees, Headquarters Locations",
+          "date": "2018-02-16"
+        },
+        {
+          "url": "https://www.crunchbase.com/organization/sarokal-test-systems-oy",
+          "name": "www.crunchbase.com",
+          "date": "2026-08-25"
+        }
+      ],
+      "state": "enriched",
+      "description": "Finnish company headquartered in Oulu, founded in 2007.",
+      "lastRoundDate": "2018-02-07"
+    },
+    {
+      "calaId": "4f2f147e-7128-4153-bc94-75ac26ae7da6",
+      "name": "Hamina",
+      "rounds": [
+        {
+          "calaId": "7ccd97d9-8f03-422f-bc61-06615baaab95",
+          "label": "Funding round",
+          "date": "2026-08-25",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://www.crunchbase.com/funding_round/hamina-wireless-seed--27ab661b",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/501254-92",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-08",
+          "date": "2026-08-25",
+          "sources": [
+            {
+              "url": "https://www.crunchbase.com/funding_round/hamina-wireless-seed--27ab661b",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/501254-92",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "founders": [],
+      "sources": [
+        {
+          "url": "https://www.crunchbase.com/funding_round/hamina-wireless-seed--27ab661b",
+          "name": "www.crunchbase.com",
+          "date": "2026-08-25"
+        },
+        {
+          "url": "https://pitchbook.com/profiles/company/501254-92",
+          "name": "pitchbook.com",
+          "date": "2026-08-25"
+        }
+      ],
+      "state": "enriched",
+      "description": "Engineering Wireless Networks to Perfection.",
+      "lastRoundDate": "2026-08-25"
+    },
+    {
+      "calaId": "50a2f560-801e-4059-8d0d-1840327b99a5",
+      "name": "Stravito AB",
+      "rounds": [
+        {
+          "calaId": "00cfe9e5-29c7-4581-8c19-21d709a20795",
+          "label": "Funding round",
+          "date": "2021-09-02",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/stravito/__Ij7OUugepRn6AfSa5e_Yv0TIahciuFEYsL73DxIXB_o",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/stravito/__Ij7OUugepRn6AfSa5e_Yv0TIahciuFEYsL73DxIXB_o/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/newsletter/stockholms-stravito-picks-up-124m-series-a",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/228903-76",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.crunchbase.com/organization/stravito",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            }
+          ]
+        },
+        {
+          "calaId": "a074255e-cfde-46d7-b644-0a607deb4020",
+          "label": "Funding round",
+          "date": "2019-04-04",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/stravito/__Ij7OUugepRn6AfSa5e_Yv0TIahciuFEYsL73DxIXB_o",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/stravito/__Ij7OUugepRn6AfSa5e_Yv0TIahciuFEYsL73DxIXB_o/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        },
+        {
+          "calaId": "9a386c7f-24ee-45e6-b7f5-4bb37a4b1b26",
+          "label": "Funding round",
+          "date": "2018-04-17",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/stravito/__Ij7OUugepRn6AfSa5e_Yv0TIahciuFEYsL73DxIXB_o",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/stravito/__Ij7OUugepRn6AfSa5e_Yv0TIahciuFEYsL73DxIXB_o/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2021-09",
+          "date": "2021-09-02",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/stravito/__Ij7OUugepRn6AfSa5e_Yv0TIahciuFEYsL73DxIXB_o",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/stravito/__Ij7OUugepRn6AfSa5e_Yv0TIahciuFEYsL73DxIXB_o/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/newsletter/stockholms-stravito-picks-up-124m-series-a",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/228903-76",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.crunchbase.com/organization/stravito",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "founders": [
+        {
+          "name": "Thor Olof P.",
+          "linkedinUrl": "https://linkedin.com/in/thorolof",
+          "via": "exa+gemini",
+          "evidence": "Founder / CEO, Stravito",
+          "sources": [
+            {
+              "url": "https://linkedin.com/in/thorolof",
+              "name": "linkedin.com"
+            }
+          ]
+        },
+        {
+          "name": "Anders Örbom",
+          "linkedinUrl": "https://linkedin.com/in/anders-orbom",
+          "via": "exa+gemini",
+          "evidence": "Founder, Board Member (former Chairman of the Board), Stravito",
+          "sources": [
+            {
+              "url": "https://linkedin.com/in/anders-orbom",
+              "name": "linkedin.com"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://tracxn.com/d/companies/stravito/__Ij7OUugepRn6AfSa5e_Yv0TIahciuFEYsL73DxIXB_o",
+          "name": "tracxn.com",
+          "date": "2026-08-25"
+        },
+        {
+          "url": "https://tracxn.com/d/companies/stravito/__Ij7OUugepRn6AfSa5e_Yv0TIahciuFEYsL73DxIXB_o/funding-and-investors",
+          "name": "tracxn.com",
+          "date": "2026-08-25"
+        },
+        {
+          "url": "https://pitchbook.com/newsletter/stockholms-stravito-picks-up-124m-series-a",
+          "name": "pitchbook.com",
+          "date": "2026-08-25"
+        },
+        {
+          "url": "https://pitchbook.com/profiles/company/228903-76",
+          "name": "pitchbook.com",
+          "date": "2026-08-25"
+        },
+        {
+          "url": "https://www.crunchbase.com/organization/stravito",
+          "name": "www.crunchbase.com",
+          "date": "2026-08-25"
+        }
+      ],
+      "state": "enriched",
+      "description": "Swedish company founded in 2017 and headquartered in Stockholm.",
+      "lastRoundDate": "2021-09-02"
+    },
+    {
+      "calaId": "54972ffb-9a56-4a24-945e-5036cfffc449",
+      "name": "AI & Robotics-Powered IVF Platform",
+      "rounds": [
+        {
+          "calaId": "d1606bdd-a6e3-41ad-a0e2-9921346f0dee",
+          "label": "Funding round",
+          "date": "2019-11-18",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2019/11/18/fertility-startup-mojo-wants-to-take-the-trial-and-error-out-of-ivf",
+              "name": "Fertility startup Mojo wants to take the trial and error out of IVF | TechCrunch",
+              "date": "2019-11-18"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2019-11",
+          "date": "2019-11-18",
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2019/11/18/fertility-startup-mojo-wants-to-take-the-trial-and-error-out-of-ivf",
+              "name": "Fertility startup Mojo wants to take the trial and error out of IVF | TechCrunch",
+              "date": "2019-11-18"
+            }
+          ]
+        }
+      ],
+      "founders": [
+        {
+          "name": "Daniel Seidman",
+          "via": "cala",
+          "evidence": "Cala: FOUNDED",
+          "sources": [
+            {
+              "url": "https://aivf.co/about",
+              "name": "About AIVF - Pioneers in AI-Driven Embryo Grading | AIVF",
+              "date": "2026-02-01"
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/AIVF",
+              "name": "en.wikipedia.org",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://finder.startupnationcentral.org/company_page/aivf1",
+              "name": "finder.startupnationcentral.org",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://aivf.co",
+              "name": "AIVF - Revolutionizing IVF with AI Technology | AIVF",
+              "date": "2026-02-01"
+            }
+          ]
+        },
+        {
+          "name": "Daniella Gilboa",
+          "via": "cala",
+          "evidence": "Cala: FOUNDED",
+          "sources": [
+            {
+              "url": "https://aivf.co/about",
+              "name": "About AIVF - Pioneers in AI-Driven Embryo Grading | AIVF",
+              "date": "2026-02-01"
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/AIVF",
+              "name": "en.wikipedia.org",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://finder.startupnationcentral.org/company_page/aivf1",
+              "name": "finder.startupnationcentral.org",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://femtechinsider.com/aivf-series-a",
+              "name": "femtechinsider.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://de.linkedin.com/company/aivf",
+              "name": "AIVF | LinkedIn",
+              "date": "2025-09-29"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2019/11/18/fertility-startup-mojo-wants-to-take-the-trial-and-error-out-of-ivf",
+          "name": "Fertility startup Mojo wants to take the trial and error out of IVF | TechCrunch",
+          "date": "2019-11-18"
+        }
+      ],
+      "state": "enriched",
+      "description": "Automated sperm selection platform combining AI, microrobotics, and high-magnification imaging to reduce manual IVF processes and improve fertility outcomes.",
+      "lastRoundDate": "2019-11-18"
+    },
+    {
+      "calaId": "5ff46e5e-8a32-4ca4-89f7-6b6728736128",
+      "name": "Swappie",
+      "rounds": [
+        {
+          "calaId": "fa39ee09-434c-4f15-87c7-d60ef0060ddb",
+          "label": "Funding round",
+          "date": "2024-06-03",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/swappie/__OZLXVrwyNaLewJayNH7sE6-Fl6TKs-McQNmY8bKnWyI/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://www.crunchbase.com/organization/swappie/financial_details",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-24"
+            }
+          ]
+        },
+        {
+          "calaId": "da50e04c-305c-4151-8a67-345070dbbcda",
+          "label": "Funding round",
+          "date": "2022-02-15",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2022/02/15/iphone-refurbisher-swappie-raises-124m-series-c-led-by-verdane-to-scale-in-europe",
+              "name": "iPhone refurbisher Swappie raises $124M Series C led by Verdane to scale in Europe | TechCrunch",
+              "date": "2022-02-15"
+            },
+            {
+              "url": "https://pitchbook.com/newsletter/swappie-lands-124m-for-refurbished-smartphone-marketplace",
+              "name": "pitchbook.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/swappie/__OZLXVrwyNaLewJayNH7sE6-Fl6TKs-McQNmY8bKnWyI/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            }
+          ]
+        },
+        {
+          "calaId": "e04b6c8f-df5d-4135-a56b-2a1f4eab4e01",
+          "label": "Funding round",
+          "date": "2020-06-16",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2020/06/16/swappie-bags-40-6m-to-sell-more-secondhand-iphones-across-europe",
+              "name": "Swappie bags $40.6M to sell more secondhand iPhones across Europe | TechCrunch",
+              "date": "2020-06-16"
+            },
+            {
+              "url": "https://news.crunchbase.com/startups/swappies-european-expansion-boosted-by-40-6m-series-b",
+              "name": "news.crunchbase.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/swappie/__OZLXVrwyNaLewJayNH7sE6-Fl6TKs-McQNmY8bKnWyI/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            }
+          ]
+        },
+        {
+          "calaId": "4a8a34c1-e34f-4752-9b67-d486fafddf15",
+          "label": "Funding round",
+          "date": "2019-05-28",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://news.crunchbase.com/startups/swappies-european-expansion-boosted-by-40-6m-series-b",
+              "name": "news.crunchbase.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://techcrunch.com/2020/06/16/swappie-bags-40-6m-to-sell-more-secondhand-iphones-across-europe",
+              "name": "Swappie bags $40.6M to sell more secondhand iPhones across Europe | TechCrunch",
+              "date": "2020-06-16"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/swappie/__OZLXVrwyNaLewJayNH7sE6-Fl6TKs-McQNmY8bKnWyI/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2024-06",
+          "date": "2024-06-03",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/swappie/__OZLXVrwyNaLewJayNH7sE6-Fl6TKs-McQNmY8bKnWyI/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://www.crunchbase.com/organization/swappie/financial_details",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-24"
+            }
+          ]
+        }
+      ],
+      "founders": [
+        {
+          "name": "Jiri Heinonen",
+          "via": "cala",
+          "evidence": "Cala: FOUNDED",
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Swappie",
+              "name": "en.wikipedia.org",
+              "date": "2026-08-20"
+            },
+            {
+              "url": "https://businessmodelcanvastemplate.com/blogs/owners/swappie-who-owns",
+              "name": "Who Owns Swappie Company?",
+              "date": "2024-07-03"
+            },
+            {
+              "url": "https://startupintros.com/orgs/swappie",
+              "name": "Swappie: Funding, Team & Investors",
+              "date": "2026-07-13"
+            }
+          ]
+        },
+        {
+          "name": "Sami Marttinen",
+          "via": "cala",
+          "evidence": "Cala: FOUNDED",
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Swappie",
+              "name": "en.wikipedia.org",
+              "date": "2026-08-20"
+            },
+            {
+              "url": "https://businessmodelcanvastemplate.com/blogs/owners/swappie-who-owns",
+              "name": "Who Owns Swappie Company?",
+              "date": "2024-07-03"
+            },
+            {
+              "url": "https://startupintros.com/orgs/swappie",
+              "name": "Swappie: Funding, Team & Investors",
+              "date": "2026-07-13"
+            },
+            {
+              "url": "https://sacra.com/c/swappie",
+              "name": "Swappie revenue, funding & news",
+              "date": "2024-05-31"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://news.crunchbase.com/startups/swappies-european-expansion-boosted-by-40-6m-series-b",
+          "name": "news.crunchbase.com",
+          "date": "2026-08-24"
+        },
+        {
+          "url": "https://techcrunch.com/2020/06/16/swappie-bags-40-6m-to-sell-more-secondhand-iphones-across-europe",
+          "name": "Swappie bags $40.6M to sell more secondhand iPhones across Europe | TechCrunch",
+          "date": "2020-06-16"
+        },
+        {
+          "url": "https://tracxn.com/d/companies/swappie/__OZLXVrwyNaLewJayNH7sE6-Fl6TKs-McQNmY8bKnWyI/funding-and-investors",
+          "name": "tracxn.com",
+          "date": "2026-08-24"
+        }
+      ],
+      "state": "enriched",
+      "description": "A Finnish retailer of refurbished smartphones.",
+      "lastRoundDate": "2024-06-03"
+    },
+    {
+      "calaId": "66ccd8d4-e3c9-47e8-8687-2c24b80d12ae",
+      "name": "Oneio Cloud Oy",
+      "rounds": [
+        {
+          "calaId": "f70b3c16-0921-423f-a59a-8ea596896434",
+          "label": "Funding round",
+          "date": "2025-09-11",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/oneio/__9yhTualN2lDpS1usk36JxdOhpShKTuCgycLPLWjutcA/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        },
+        {
+          "calaId": "347740f8-d770-4170-8423-d845e2d6c611",
+          "label": "Funding round",
+          "date": "2022-04-20",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/oneio/__9yhTualN2lDpS1usk36JxdOhpShKTuCgycLPLWjutcA/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        },
+        {
+          "calaId": "cb4c6e1e-e7a2-40ac-9238-fca8ac144e03",
+          "label": "Funding round",
+          "date": "2021-09-30",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/oneio/__9yhTualN2lDpS1usk36JxdOhpShKTuCgycLPLWjutcA/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        },
+        {
+          "calaId": "20ca0e5a-39c8-46d9-bece-aa265990d47e",
+          "label": "Funding round",
+          "date": "2019-10-01",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/oneio/__9yhTualN2lDpS1usk36JxdOhpShKTuCgycLPLWjutcA/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        },
+        {
+          "calaId": "0cfe3055-6dd8-4462-8e31-ffdf7e3fc59c",
+          "label": "Funding round",
+          "date": "2018-05-29",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/oneio/__9yhTualN2lDpS1usk36JxdOhpShKTuCgycLPLWjutcA/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        },
+        {
+          "calaId": "e4056fb4-dfce-43f7-b94a-0600071bc2a7",
+          "label": "Funding round",
+          "date": "2017-06-30",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/oneio/__9yhTualN2lDpS1usk36JxdOhpShKTuCgycLPLWjutcA/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/oneio/__9yhTualN2lDpS1usk36JxdOhpShKTuCgycLPLWjutcA",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2025-09",
+          "date": "2025-09-11",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/oneio/__9yhTualN2lDpS1usk36JxdOhpShKTuCgycLPLWjutcA/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "founders": [],
+      "sources": [
+        {
+          "url": "https://tracxn.com/d/companies/oneio/__9yhTualN2lDpS1usk36JxdOhpShKTuCgycLPLWjutcA/funding-and-investors",
+          "name": "tracxn.com",
+          "date": "2026-08-25"
+        }
+      ],
+      "state": "enriched",
+      "description": "A Finnish company founded in 2011 and headquartered in Helsinki.",
+      "lastRoundDate": "2025-09-11"
+    },
+    {
+      "calaId": "7ff2ec4f-159b-4a6c-8f7f-be6070abf5b6",
+      "name": "Anyday",
+      "rounds": [
+        {
+          "calaId": "c6a1e4f2-fef8-4af0-afe0-a0ad5067bb06",
+          "label": "Funding round",
+          "date": "2024-03-22",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/anyday/__sp63OkD5GafRH22ntq9yffNnrKjR1EOd_J3jhOcN2vA",
+              "name": "tracxn.com",
+              "date": "2026-06-10"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/anyday/__sp63OkD5GafRH22ntq9yffNnrKjR1EOd_J3jhOcN2vA/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-06-10"
+            }
+          ]
+        },
+        {
+          "calaId": "446b9a78-3a1a-40a6-be7b-0d420c69bbc1",
+          "label": "Funding round",
+          "date": "2023-09-19",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/anyday/__sp63OkD5GafRH22ntq9yffNnrKjR1EOd_J3jhOcN2vA",
+              "name": "tracxn.com",
+              "date": "2026-06-10"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/anyday/__sp63OkD5GafRH22ntq9yffNnrKjR1EOd_J3jhOcN2vA/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-06-10"
+            }
+          ]
+        },
+        {
+          "calaId": "5ede3a85-d574-46f3-a999-bc3fc9c3594c",
+          "label": "Funding round",
+          "date": "2022-03-17",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/anyday/__sp63OkD5GafRH22ntq9yffNnrKjR1EOd_J3jhOcN2vA",
+              "name": "tracxn.com",
+              "date": "2026-06-10"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/anyday/__sp63OkD5GafRH22ntq9yffNnrKjR1EOd_J3jhOcN2vA/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-06-10"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2024-03",
+          "date": "2024-03-22",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/anyday/__sp63OkD5GafRH22ntq9yffNnrKjR1EOd_J3jhOcN2vA",
+              "name": "tracxn.com",
+              "date": "2026-06-10"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/anyday/__sp63OkD5GafRH22ntq9yffNnrKjR1EOd_J3jhOcN2vA/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-06-10"
+            }
+          ]
+        },
+        {
+          "kind": "status",
+          "text": "Cala status: ACTIVE",
+          "sources": [
+            {
+              "url": "https://find-and-update.company-information.service.gov.uk/company/09137939",
+              "name": "Companies House UK",
+              "date": "2026-08-01"
+            },
+            {
+              "url": "https://anyday.io/",
+              "name": "anyday.io",
+              "date": "2026-11-02"
+            },
+            {
+              "url": "https://www.linkedin.com/company/anydayio",
+              "name": "linkedin.com",
+              "date": "2026-11-02"
+            },
+            {
+              "url": "https://danskcvrapi.dk/en/news/41140216-stiftelse-2020-02-05",
+              "name": "danskcvrapi.dk",
+              "date": "2020-02-05"
+            },
+            {
+              "url": "https://estatistik.dk/virksomhed/anyday-as/41140216",
+              "name": "estatistik.dk",
+              "date": "2026-11-10"
+            }
+          ]
+        }
+      ],
+      "founders": [
+        {
+          "name": "Jonas Overgaard",
+          "via": "cala",
+          "evidence": "Cala: FOUNDED",
+          "sources": [
+            {
+              "url": "https://www.crunchbase.com/person/jonas-overgaard",
+              "name": "www.crunchbase.com",
+              "date": "2026-07-29"
+            },
+            {
+              "url": "https://dk.linkedin.com/in/overgaard",
+              "name": "dk.linkedin.com",
+              "date": "2026-07-29"
+            },
+            {
+              "url": "https://thehub.io/startups/anydayio",
+              "name": "The Hub | Anyday A/S",
+              "date": "2020-09-11"
+            },
+            {
+              "url": "https://frontlines.io/podcasts/jonas-overgaard",
+              "name": "frontlines.io",
+              "date": "2026-07-29"
+            },
+            {
+              "url": "https://theorg.com/org/anyday-io/org-chart/jonas-overgaard",
+              "name": "ANYDAY | The Org",
+              "date": "2025-09-05"
+            },
+            {
+              "url": "https://tech.eu/2022/03/29/anyday-raises-4-million-in-seed-round-offering-an-active-stance-on-ethical-payments",
+              "name": "Anyday raises €4 million in seed round offering 'An active stance on ethical payments'",
+              "date": "2022-03-29"
+            }
+          ]
+        },
+        {
+          "name": "Kenneth Ahlquist",
+          "via": "cala",
+          "evidence": "Cala: FOUNDED",
+          "sources": [
+            {
+              "url": "https://www.crunchbase.com/organization/anyday-d61f",
+              "name": "www.crunchbase.com",
+              "date": "2026-07-29"
+            },
+            {
+              "url": "https://www.crunchbase.com/person/kenneth-ahlquist",
+              "name": "www.crunchbase.com",
+              "date": "2026-07-29"
+            },
+            {
+              "url": "https://thehub.io/startups/anydayio",
+              "name": "The Hub | Anyday A/S",
+              "date": "2020-09-11"
+            },
+            {
+              "url": "https://theorg.com/org/anyday-io",
+              "name": "ANYDAY | The Org",
+              "date": "2025-09-05"
+            },
+            {
+              "url": "https://craft.co/anyday-555",
+              "name": "craft.co",
+              "date": "2026-07-29"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://tech.eu/2022/03/29/anyday-raises-4-million-in-seed-round-offering-an-active-stance-on-ethical-payments/",
+          "name": "tech.eu",
+          "date": "2022-03-29"
+        },
+        {
+          "url": "https://arcticstartup.com/?p=95750",
+          "name": "arcticstartup.com",
+          "date": "2026-11-10"
+        }
+      ],
+      "state": "enriched",
+      "description": "Anyday gør afbetaling nemt og fleksibelt. Køb nu, betal senere i 4 rater, og fordel betalingen over tid hos mere end 3000 webshops uden renter eller skjulte gebyrer.",
+      "lastRoundDate": "2024-03-22"
+    },
+    {
+      "calaId": "839be083-4df1-4d8c-96eb-411f8eaa4f2c",
+      "name": "Freespee",
+      "rounds": [
+        {
+          "calaId": "84bad08f-c3c5-42a8-8f93-e314f126bd28",
+          "label": "Funding round",
+          "date": "2016-11-07",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://www.crunchbase.com/funding_round/freespee-series-b--a5fd9046",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://techcrunch.com/2016/11/07/a-freespee-for-all",
+              "name": "Freespee secures €9.25M Series B to help companies manage conversations with customers | TechCrunch",
+              "date": "2016-11-07"
+            }
+          ]
+        },
+        {
+          "calaId": "7be4cf2c-09c4-4bf6-9bdb-68d964843311",
+          "label": "Funding round",
+          "date": "2012-10-09",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://www.crunchbase.com/funding_round/freespee-series-a--34b8ef2e",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://techcrunch.com/2012/10/09/freespee-raises-a-further-e3-3-million-for-its-mobile-click-to-call-advertising-and-analytics-service",
+              "name": "Freespee Raises Further €3.3 Million For Its Mobile Click-To-Call Advertising And Analytics Service | TechCrunch",
+              "date": "2012-10-09"
+            }
+          ]
+        },
+        {
+          "calaId": "0dce0e07-2ea6-4c45-8b4d-3cb1a80d4a79",
+          "label": "Funding round",
+          "date": "2011-02-08",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://www.crunchbase.com/funding_round/freespee-series-a--e184de11",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://techcrunch.com/2011/02/08/freespee-raises-e1-1m-for-its-call-tracking-and-pay-per-call-solution",
+              "name": "Freespee raises €1.1m for its call tracking and pay-per-call solution | TechCrunch",
+              "date": "2011-02-08"
+            }
+          ]
+        },
+        {
+          "calaId": "a2304575-916d-41b6-96c9-086412b0ce61",
+          "label": "Funding round",
+          "date": "2009-10-15",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://www.crunchbase.com/funding_round/freespee-seed--68c7e00b",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://techcrunch.com/2011/02/08/freespee-raises-e1-1m-for-its-call-tracking-and-pay-per-call-solution",
+              "name": "Freespee raises €1.1m for its call tracking and pay-per-call solution | TechCrunch",
+              "date": "2011-02-08"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2016-11",
+          "date": "2016-11-07",
+          "sources": [
+            {
+              "url": "https://www.crunchbase.com/funding_round/freespee-series-b--a5fd9046",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://techcrunch.com/2016/11/07/a-freespee-for-all",
+              "name": "Freespee secures €9.25M Series B to help companies manage conversations with customers | TechCrunch",
+              "date": "2016-11-07"
+            }
+          ]
+        }
+      ],
+      "founders": [],
+      "sources": [
+        {
+          "url": "https://www.crunchbase.com/funding_round/freespee-seed--68c7e00b",
+          "name": "www.crunchbase.com",
+          "date": "2026-08-25"
+        },
+        {
+          "url": "https://techcrunch.com/2011/02/08/freespee-raises-e1-1m-for-its-call-tracking-and-pay-per-call-solution",
+          "name": "Freespee raises €1.1m for its call tracking and pay-per-call solution | TechCrunch",
+          "date": "2011-02-08"
+        }
+      ],
+      "state": "enriched",
+      "description": "Provides a real-time conversation cloud technology platform enabling mobile click-to-call advertising and analytics for businesses.",
+      "lastRoundDate": "2016-11-07"
+    },
+    {
+      "calaId": "8d34fdfc-e92f-409b-82fa-4a7f1b14fca8",
+      "name": "Biomatter",
+      "rounds": [
+        {
+          "calaId": "b4f74b15-bea8-4ce2-956e-852e787b7d65",
+          "label": "Funding round",
+          "date": "2024-08-05",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://www.crunchbase.com/organization/biomatter-designs/company_overview/overview_timeline",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.crunchbase.com/organization/biomatter-designs/financial_details",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/342952-48",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/explore/healthtech-startups-in-lithuania/__ln06QUP_tDqJlr3fH4I965QBISpSqIiOSi8EJp1_rgI",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2024-08",
+          "date": "2024-08-05",
+          "sources": [
+            {
+              "url": "https://www.crunchbase.com/organization/biomatter-designs/company_overview/overview_timeline",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.crunchbase.com/organization/biomatter-designs/financial_details",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/342952-48",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/explore/healthtech-startups-in-lithuania/__ln06QUP_tDqJlr3fH4I965QBISpSqIiOSi8EJp1_rgI",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "founders": [
+        {
+          "name": "Donatas Repečka",
+          "linkedinUrl": "https://linkedin.com/in/donatasrep",
+          "via": "exa+gemini",
+          "evidence": "Head of Artificial Intelligence & Co-founder, Biomatter",
+          "sources": [
+            {
+              "url": "https://linkedin.com/in/donatasrep",
+              "name": "linkedin.com"
+            }
+          ]
+        },
+        {
+          "name": "Laurynas Karpus",
+          "linkedinUrl": "https://linkedin.com/in/laurynaskarpus",
+          "via": "exa+gemini",
+          "evidence": "CEO & Co-Founder, Biomatter",
+          "sources": [
+            {
+              "url": "https://linkedin.com/in/laurynaskarpus",
+              "name": "linkedin.com"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.crunchbase.com/organization/biomatter-designs/company_overview/overview_timeline",
+          "name": "www.crunchbase.com",
+          "date": "2026-08-25"
+        },
+        {
+          "url": "https://www.crunchbase.com/organization/biomatter-designs/financial_details",
+          "name": "www.crunchbase.com",
+          "date": "2026-08-25"
+        },
+        {
+          "url": "https://pitchbook.com/profiles/company/342952-48",
+          "name": "pitchbook.com",
+          "date": "2026-08-25"
+        },
+        {
+          "url": "https://tracxn.com/d/explore/healthtech-startups-in-lithuania/__ln06QUP_tDqJlr3fH4I965QBISpSqIiOSi8EJp1_rgI",
+          "name": "tracxn.com",
+          "date": "2026-08-25"
+        }
+      ],
+      "state": "enriched",
+      "description": "A seed-stage synthetic biology company focused on generative protein design.",
+      "lastRoundDate": "2024-08-05"
+    },
+    {
+      "calaId": "8d86b359-0e1a-4add-be95-9be5f3829d5f",
+      "name": "Avenue Biosciences",
+      "rounds": [],
+      "signals": [],
+      "founders": [],
+      "sources": [
+        {
+          "url": "https://tracxn.com/d/companies/avenue-biosciences/__n6hrofHHHimPfyLiUigrwjxoi0E5zb5vctCOcGzJmCg/funding-and-investors",
+          "name": "tracxn.com",
+          "date": "2026-08-25"
+        },
+        {
+          "url": "https://tracxn.com/d/companies/avenuebiosciences/__n6hrofHHHimPfyLiUigrwjxoi0E5zb5vctCOcGzJmCg",
+          "name": "tracxn.com",
+          "date": "2026-08-25"
+        },
+        {
+          "url": "https://pitchbook.com/profiles/company/607123-18",
+          "name": "pitchbook.com",
+          "date": "2026-08-25"
+        }
+      ],
+      "state": "unavailable"
+    },
+    {
+      "calaId": "a0ccde2f-61c9-43d3-835d-319a81caa7cc",
+      "name": "Leya AI",
+      "rounds": [
+        {
+          "calaId": "8eed5613-3c15-4931-8197-85ca341cba2f",
+          "label": "Funding round",
+          "date": "2024-02-06",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/leyaai/__7F01Q06-q2YXPTKT34Xt1YKiOpGXAkOf09hbav5EKrY/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/leyaai/__7F01Q06-q2YXPTKT34Xt1YKiOpGXAkOf09hbav5EKrY",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/artificial-intelligence/ai-startups-in-passion-economy/__aKUJq0oIFqZnC6Dx6O5XCkpte5FYJExJJ162IbfSAW8/companies",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2024-02",
+          "date": "2024-02-06",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/leyaai/__7F01Q06-q2YXPTKT34Xt1YKiOpGXAkOf09hbav5EKrY/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/leyaai/__7F01Q06-q2YXPTKT34Xt1YKiOpGXAkOf09hbav5EKrY",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/artificial-intelligence/ai-startups-in-passion-economy/__aKUJq0oIFqZnC6Dx6O5XCkpte5FYJExJJ162IbfSAW8/companies",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "founders": [
+        {
+          "name": "Mindaugas Bruzas",
+          "linkedinUrl": "https://linkedin.com/in/mindaugas-bruzas",
+          "via": "exa+gemini",
+          "evidence": "CEO & Co-Founder, Leya AI",
+          "sources": [
+            {
+              "url": "https://linkedin.com/in/mindaugas-bruzas",
+              "name": "linkedin.com"
+            }
+          ]
+        },
+        {
+          "name": "Donatas Tamošauskas",
+          "linkedinUrl": "https://linkedin.com/in/donatas-tamosauskas",
+          "via": "exa+gemini",
+          "evidence": "CTO & Co-Founder, Leya AI",
+          "sources": [
+            {
+              "url": "https://linkedin.com/in/donatas-tamosauskas",
+              "name": "linkedin.com"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://tracxn.com/d/companies/leyaai/__7F01Q06-q2YXPTKT34Xt1YKiOpGXAkOf09hbav5EKrY/funding-and-investors",
+          "name": "tracxn.com",
+          "date": "2026-08-25"
+        },
+        {
+          "url": "https://tracxn.com/d/companies/leyaai/__7F01Q06-q2YXPTKT34Xt1YKiOpGXAkOf09hbav5EKrY",
+          "name": "tracxn.com",
+          "date": "2026-08-25"
+        },
+        {
+          "url": "https://tracxn.com/d/artificial-intelligence/ai-startups-in-passion-economy/__aKUJq0oIFqZnC6Dx6O5XCkpte5FYJExJJ162IbfSAW8/companies",
+          "name": "tracxn.com",
+          "date": "2026-08-25"
+        }
+      ],
+      "state": "enriched",
+      "description": "An AI-powered English language tutor app that enables real-time speaking practice sessions using personalized, science-backed coaching methods.",
+      "lastRoundDate": "2024-02-06"
+    },
+    {
+      "calaId": "dbee0ce9-7052-4796-8145-3ddb90a1e9d3",
+      "name": "Sólfar Studios",
+      "rounds": [
+        {
+          "calaId": "28478486-72cb-4b93-8f4e-91646152d0dc",
+          "label": "Funding round",
+          "date": "2015-11-10",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/solfar-studios/__FS7us7Eq4bqxJ0bGevCY10N0TzaI0K4Jpzsm-5DywnM",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/solfarstudios/__FS7us7Eq4bqxJ0bGevCY10N0TzaI0K4Jpzsm-5DywnM/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/129190-78",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            }
+          ]
+        },
+        {
+          "calaId": "4c06644a-db9b-4706-82bd-6b900a331056",
+          "label": "Funding round",
+          "date": "2015-04-25",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/solfarstudios/__FS7us7Eq4bqxJ0bGevCY10N0TzaI0K4Jpzsm-5DywnM/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/129190-78",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2015-11",
+          "date": "2015-11-10",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/solfar-studios/__FS7us7Eq4bqxJ0bGevCY10N0TzaI0K4Jpzsm-5DywnM",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/solfarstudios/__FS7us7Eq4bqxJ0bGevCY10N0TzaI0K4Jpzsm-5DywnM/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/129190-78",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "founders": [
+        {
+          "name": "Kjartan Emilsson",
+          "linkedinUrl": "https://linkedin.com/in/kjartan-emilsson-534b",
+          "via": "exa+gemini",
+          "evidence": "CEO/Co-Founder, Sólfar Studios",
+          "sources": [
+            {
+              "url": "https://linkedin.com/in/kjartan-emilsson-534b",
+              "name": "linkedin.com"
+            }
+          ]
+        },
+        {
+          "name": "Thor Gunnarsson",
+          "linkedinUrl": "https://linkedin.com/in/thorg",
+          "via": "exa+gemini",
+          "evidence": "Co-Founder / Biz Dev, Sólfar Studios",
+          "sources": [
+            {
+              "url": "https://linkedin.com/in/thorg",
+              "name": "linkedin.com"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://tracxn.com/d/companies/solfar-studios/__FS7us7Eq4bqxJ0bGevCY10N0TzaI0K4Jpzsm-5DywnM",
+          "name": "tracxn.com",
+          "date": "2026-08-25"
+        },
+        {
+          "url": "https://tracxn.com/d/companies/solfarstudios/__FS7us7Eq4bqxJ0bGevCY10N0TzaI0K4Jpzsm-5DywnM/funding-and-investors",
+          "name": "tracxn.com",
+          "date": "2026-08-25"
+        },
+        {
+          "url": "https://pitchbook.com/profiles/company/129190-78",
+          "name": "pitchbook.com",
+          "date": "2026-08-25"
+        }
+      ],
+      "state": "enriched",
+      "description": "VR game development studio based in Reykjavik, merged with Mainframe Industries",
+      "lastRoundDate": "2015-11-10"
+    },
+    {
+      "calaId": "e408efba-d8d3-43df-ac47-7b9603e847bb",
+      "name": "KYC Intelligence",
+      "rounds": [],
+      "signals": [],
+      "founders": [],
+      "sources": [
+        {
+          "url": "https://startupintros.com/orgs/strise",
+          "name": "Strise: Funding, Team & Investors",
+          "date": "2026-07-13"
+        }
+      ],
+      "state": "unavailable"
+    },
+    {
+      "calaId": "e8eb9a8c-7ac0-4b37-86a9-d90ce8496172",
+      "name": "Blueprint Genetics Oy",
+      "rounds": [
+        {
+          "calaId": "e6e4d822-e4c3-4012-ba55-bc979bfb81b1",
+          "label": "Funding round",
+          "date": "2026-08-25",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://www.crunchbase.com/organization/blueprint-genetics",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            }
+          ]
+        },
+        {
+          "calaId": "eef161ca-3c4f-4bc7-b7f9-fae6366de97a",
+          "label": "Funding round",
+          "date": "2017-07-11",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/blueprint-genetics/__TH1WtFyhc_0P8VYO8sp--RgV0Auw_JuMk514EmqOaZo/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/blueprint-genetics/__TH1WtFyhc_0P8VYO8sp--RgV0Auw_JuMk514EmqOaZo",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/82591-84",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            }
+          ]
+        },
+        {
+          "calaId": "9e3d7c6f-498a-4f94-99d8-e441ff089489",
+          "label": "Funding round",
+          "date": "2014-08-29",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/blueprint-genetics/__TH1WtFyhc_0P8VYO8sp--RgV0Auw_JuMk514EmqOaZo/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/blueprint-genetics/__TH1WtFyhc_0P8VYO8sp--RgV0Auw_JuMk514EmqOaZo",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/82591-84",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-08",
+          "date": "2026-08-25",
+          "sources": [
+            {
+              "url": "https://www.crunchbase.com/organization/blueprint-genetics",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "founders": [
+        {
+          "name": "Samuel Myllykangas",
+          "linkedinUrl": "https://linkedin.com/in/samuelmyllykangas",
+          "via": "exa+gemini",
+          "evidence": "Founder and CEO, Blueprint Genetics",
+          "sources": [
+            {
+              "url": "https://linkedin.com/in/samuelmyllykangas",
+              "name": "linkedin.com"
+            }
+          ]
+        },
+        {
+          "name": "Tommi Lehtonen",
+          "linkedinUrl": "https://linkedin.com/in/tommilehtonen",
+          "via": "exa+gemini",
+          "evidence": "Co-Founder, CEO, Blueprint Genetics",
+          "sources": [
+            {
+              "url": "https://linkedin.com/in/tommilehtonen",
+              "name": "linkedin.com"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://tracxn.com/d/companies/blueprint-genetics/__TH1WtFyhc_0P8VYO8sp--RgV0Auw_JuMk514EmqOaZo/funding-and-investors",
+          "name": "tracxn.com",
+          "date": "2026-08-25"
+        },
+        {
+          "url": "https://tracxn.com/d/companies/blueprint-genetics/__TH1WtFyhc_0P8VYO8sp--RgV0Auw_JuMk514EmqOaZo",
+          "name": "tracxn.com",
+          "date": "2026-08-25"
+        },
+        {
+          "url": "https://pitchbook.com/profiles/company/82591-84",
+          "name": "pitchbook.com",
+          "date": "2026-08-25"
+        }
+      ],
+      "state": "enriched",
+      "description": "Finnish biotechnology and healthcare company headquartered in Espoo, founded in 2008, and a subsidiary of Quest Diagnostics.",
+      "lastRoundDate": "2026-08-25"
+    },
+    {
+      "calaId": "e99a5f8f-4b80-4380-ad08-6c6788dbc26d",
+      "name": "Stockeld Dreamery AB",
+      "rounds": [
+        {
+          "calaId": "650602a2-1180-40e8-a011-ba61ed65479d",
+          "label": "Funding round",
+          "date": "2021-09-02",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2021/09/02/stockeld-dreamery-loves-cheese-so-much-that-it-raised-20m-to-make-it-out-of-legumes",
+              "name": "Stockeld Dreamery loves cheese so much that it raised $20M to make it out of legumes | TechCrunch",
+              "date": "2021-09-02"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/stockeld-dreamery/__ah-tautQKoSON9i3u5-EA3IUEQ88-NzzT7d32o6mk6w",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/stockeld-dreamery/__ah-tautQKoSON9i3u5-EA3IUEQ88-NzzT7d32o6mk6w/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            }
+          ]
+        },
+        {
+          "calaId": "3cff4fa7-1694-4258-b84a-a7c4b45294e4",
+          "label": "Funding round",
+          "date": "2020-01-23",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/stockeld-dreamery/__ah-tautQKoSON9i3u5-EA3IUEQ88-NzzT7d32o6mk6w",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/stockeld-dreamery/__ah-tautQKoSON9i3u5-EA3IUEQ88-NzzT7d32o6mk6w/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://techcrunch.com/2021/09/02/stockeld-dreamery-loves-cheese-so-much-that-it-raised-20m-to-make-it-out-of-legumes",
+              "name": "Stockeld Dreamery loves cheese so much that it raised $20M to make it out of legumes | TechCrunch",
+              "date": "2021-09-02"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2021-09",
+          "date": "2021-09-02",
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2021/09/02/stockeld-dreamery-loves-cheese-so-much-that-it-raised-20m-to-make-it-out-of-legumes",
+              "name": "Stockeld Dreamery loves cheese so much that it raised $20M to make it out of legumes | TechCrunch",
+              "date": "2021-09-02"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/stockeld-dreamery/__ah-tautQKoSON9i3u5-EA3IUEQ88-NzzT7d32o6mk6w",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/stockeld-dreamery/__ah-tautQKoSON9i3u5-EA3IUEQ88-NzzT7d32o6mk6w/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            }
+          ]
+        },
+        {
+          "kind": "status",
+          "text": "Cala status: INACTIVE",
+          "sources": [
+            {
+              "url": "https://agfundernews.com/plant-based-cheese-startup-stockeld-dreamery-shutters-as-flexitarian-dream-fizzles",
+              "name": "Plant-based cheese startup Stockeld Dreamery shutters as flexitarian dream fizzles",
+              "date": "2025-10-23"
+            },
+            {
+              "url": "https://finance.yahoo.com/news/stockeld-dreamery-shuts-amid-intense-135820349.html",
+              "name": "guce",
+              "date": "2017-01-01"
+            },
+            {
+              "url": "https://vegconomist.com/organisations-and-brands/stockeld-dreamery",
+              "name": "vegconomist.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "founders": [
+        {
+          "name": "Sorosh Tavakoli",
+          "linkedinUrl": "https://linkedin.com/in/sorosh",
+          "via": "exa+gemini",
+          "evidence": "Founder and CEO, Stockeld Dreamery",
+          "sources": [
+            {
+              "url": "https://linkedin.com/in/sorosh",
+              "name": "linkedin.com"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://tracxn.com/d/companies/stockeld-dreamery/__ah-tautQKoSON9i3u5-EA3IUEQ88-NzzT7d32o6mk6w",
+          "name": "tracxn.com",
+          "date": "2026-08-24"
+        },
+        {
+          "url": "https://tracxn.com/d/companies/stockeld-dreamery/__ah-tautQKoSON9i3u5-EA3IUEQ88-NzzT7d32o6mk6w/funding-and-investors",
+          "name": "tracxn.com",
+          "date": "2026-08-24"
+        },
+        {
+          "url": "https://techcrunch.com/2021/09/02/stockeld-dreamery-loves-cheese-so-much-that-it-raised-20m-to-make-it-out-of-legumes",
+          "name": "Stockeld Dreamery loves cheese so much that it raised $20M to make it out of legumes | TechCrunch",
+          "date": "2021-09-02"
+        }
+      ],
+      "state": "enriched",
+      "description": "Swedish company headquartered in Solna, founded in 2019.",
+      "lastRoundDate": "2021-09-02"
+    }
+  ],
+  "callList": [
+    {
+      "companyId": "4b7e8bc6-3844-45bf-8297-1702be319174",
+      "companyName": "Sarokal Solutions Oy",
+      "founder": {
+        "name": "Harri Valasma",
+        "linkedinUrl": "https://linkedin.com/in/harri-valasma-bb253a",
+        "via": "exa+gemini",
+        "evidence": "Founder & CEO, Sarokal Solutions",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/harri-valasma-bb253a",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "no_recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2018-02",
+          "date": "2018-02-07",
+          "sources": [
+            {
+              "url": "https://www.cbinsights.com/company/sarokal-test-systems",
+              "name": "Sarokal Test Systems - Products, Competitors, Financials, Employees, Headquarters Locations",
+              "date": "2018-02-16"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Inventure behave when the company hit its hardest stretch?",
+        "What did Inventure's partners actually do for you after the investment?",
+        "Would you take money from Inventure again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "54972ffb-9a56-4a24-945e-5036cfffc449",
+      "companyName": "AI & Robotics-Powered IVF Platform",
+      "founder": {
+        "name": "Daniel Seidman",
+        "via": "cala",
+        "evidence": "Cala: FOUNDED",
+        "sources": [
+          {
+            "url": "https://aivf.co/about",
+            "name": "About AIVF - Pioneers in AI-Driven Embryo Grading | AIVF",
+            "date": "2026-02-01"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/AIVF",
+            "name": "en.wikipedia.org",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://finder.startupnationcentral.org/company_page/aivf1",
+            "name": "finder.startupnationcentral.org",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://aivf.co",
+            "name": "AIVF - Revolutionizing IVF with AI Technology | AIVF",
+            "date": "2026-02-01"
+          }
+        ]
+      },
+      "group": "no_recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2019-11",
+          "date": "2019-11-18",
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2019/11/18/fertility-startup-mojo-wants-to-take-the-trial-and-error-out-of-ivf",
+              "name": "Fertility startup Mojo wants to take the trial and error out of IVF | TechCrunch",
+              "date": "2019-11-18"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Inventure behave when the company hit its hardest stretch?",
+        "What did Inventure's partners actually do for you after the investment?",
+        "Would you take money from Inventure again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "54972ffb-9a56-4a24-945e-5036cfffc449",
+      "companyName": "AI & Robotics-Powered IVF Platform",
+      "founder": {
+        "name": "Daniella Gilboa",
+        "via": "cala",
+        "evidence": "Cala: FOUNDED",
+        "sources": [
+          {
+            "url": "https://aivf.co/about",
+            "name": "About AIVF - Pioneers in AI-Driven Embryo Grading | AIVF",
+            "date": "2026-02-01"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/AIVF",
+            "name": "en.wikipedia.org",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://finder.startupnationcentral.org/company_page/aivf1",
+            "name": "finder.startupnationcentral.org",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://femtechinsider.com/aivf-series-a",
+            "name": "femtechinsider.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://de.linkedin.com/company/aivf",
+            "name": "AIVF | LinkedIn",
+            "date": "2025-09-29"
+          }
+        ]
+      },
+      "group": "no_recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2019-11",
+          "date": "2019-11-18",
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2019/11/18/fertility-startup-mojo-wants-to-take-the-trial-and-error-out-of-ivf",
+              "name": "Fertility startup Mojo wants to take the trial and error out of IVF | TechCrunch",
+              "date": "2019-11-18"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Inventure behave when the company hit its hardest stretch?",
+        "What did Inventure's partners actually do for you after the investment?",
+        "Would you take money from Inventure again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "5ff46e5e-8a32-4ca4-89f7-6b6728736128",
+      "companyName": "Swappie",
+      "founder": {
+        "name": "Jiri Heinonen",
+        "via": "cala",
+        "evidence": "Cala: FOUNDED",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Swappie",
+            "name": "en.wikipedia.org",
+            "date": "2026-08-20"
+          },
+          {
+            "url": "https://businessmodelcanvastemplate.com/blogs/owners/swappie-who-owns",
+            "name": "Who Owns Swappie Company?",
+            "date": "2024-07-03"
+          },
+          {
+            "url": "https://startupintros.com/orgs/swappie",
+            "name": "Swappie: Funding, Team & Investors",
+            "date": "2026-07-13"
+          }
+        ]
+      },
+      "group": "no_recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2024-06",
+          "date": "2024-06-03",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/swappie/__OZLXVrwyNaLewJayNH7sE6-Fl6TKs-McQNmY8bKnWyI/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://www.crunchbase.com/organization/swappie/financial_details",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-24"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Inventure behave when the company hit its hardest stretch?",
+        "What did Inventure's partners actually do for you after the investment?",
+        "Would you take money from Inventure again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "5ff46e5e-8a32-4ca4-89f7-6b6728736128",
+      "companyName": "Swappie",
+      "founder": {
+        "name": "Sami Marttinen",
+        "via": "cala",
+        "evidence": "Cala: FOUNDED",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Swappie",
+            "name": "en.wikipedia.org",
+            "date": "2026-08-20"
+          },
+          {
+            "url": "https://businessmodelcanvastemplate.com/blogs/owners/swappie-who-owns",
+            "name": "Who Owns Swappie Company?",
+            "date": "2024-07-03"
+          },
+          {
+            "url": "https://startupintros.com/orgs/swappie",
+            "name": "Swappie: Funding, Team & Investors",
+            "date": "2026-07-13"
+          },
+          {
+            "url": "https://sacra.com/c/swappie",
+            "name": "Swappie revenue, funding & news",
+            "date": "2024-05-31"
+          }
+        ]
+      },
+      "group": "no_recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2024-06",
+          "date": "2024-06-03",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/swappie/__OZLXVrwyNaLewJayNH7sE6-Fl6TKs-McQNmY8bKnWyI/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://www.crunchbase.com/organization/swappie/financial_details",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-24"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Inventure behave when the company hit its hardest stretch?",
+        "What did Inventure's partners actually do for you after the investment?",
+        "Would you take money from Inventure again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "7ff2ec4f-159b-4a6c-8f7f-be6070abf5b6",
+      "companyName": "Anyday",
+      "founder": {
+        "name": "Jonas Overgaard",
+        "via": "cala",
+        "evidence": "Cala: FOUNDED",
+        "sources": [
+          {
+            "url": "https://www.crunchbase.com/person/jonas-overgaard",
+            "name": "www.crunchbase.com",
+            "date": "2026-07-29"
+          },
+          {
+            "url": "https://dk.linkedin.com/in/overgaard",
+            "name": "dk.linkedin.com",
+            "date": "2026-07-29"
+          },
+          {
+            "url": "https://thehub.io/startups/anydayio",
+            "name": "The Hub | Anyday A/S",
+            "date": "2020-09-11"
+          },
+          {
+            "url": "https://frontlines.io/podcasts/jonas-overgaard",
+            "name": "frontlines.io",
+            "date": "2026-07-29"
+          },
+          {
+            "url": "https://theorg.com/org/anyday-io/org-chart/jonas-overgaard",
+            "name": "ANYDAY | The Org",
+            "date": "2025-09-05"
+          },
+          {
+            "url": "https://tech.eu/2022/03/29/anyday-raises-4-million-in-seed-round-offering-an-active-stance-on-ethical-payments",
+            "name": "Anyday raises €4 million in seed round offering 'An active stance on ethical payments'",
+            "date": "2022-03-29"
+          }
+        ]
+      },
+      "group": "no_recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2024-03",
+          "date": "2024-03-22",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/anyday/__sp63OkD5GafRH22ntq9yffNnrKjR1EOd_J3jhOcN2vA",
+              "name": "tracxn.com",
+              "date": "2026-06-10"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/anyday/__sp63OkD5GafRH22ntq9yffNnrKjR1EOd_J3jhOcN2vA/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-06-10"
+            }
+          ]
+        },
+        {
+          "kind": "status",
+          "text": "Cala status: ACTIVE",
+          "sources": [
+            {
+              "url": "https://find-and-update.company-information.service.gov.uk/company/09137939",
+              "name": "Companies House UK",
+              "date": "2026-08-01"
+            },
+            {
+              "url": "https://anyday.io/",
+              "name": "anyday.io",
+              "date": "2026-11-02"
+            },
+            {
+              "url": "https://www.linkedin.com/company/anydayio",
+              "name": "linkedin.com",
+              "date": "2026-11-02"
+            },
+            {
+              "url": "https://danskcvrapi.dk/en/news/41140216-stiftelse-2020-02-05",
+              "name": "danskcvrapi.dk",
+              "date": "2020-02-05"
+            },
+            {
+              "url": "https://estatistik.dk/virksomhed/anyday-as/41140216",
+              "name": "estatistik.dk",
+              "date": "2026-11-10"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Inventure behave when the company hit its hardest stretch?",
+        "What did Inventure's partners actually do for you after the investment?",
+        "Would you take money from Inventure again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "7ff2ec4f-159b-4a6c-8f7f-be6070abf5b6",
+      "companyName": "Anyday",
+      "founder": {
+        "name": "Kenneth Ahlquist",
+        "via": "cala",
+        "evidence": "Cala: FOUNDED",
+        "sources": [
+          {
+            "url": "https://www.crunchbase.com/organization/anyday-d61f",
+            "name": "www.crunchbase.com",
+            "date": "2026-07-29"
+          },
+          {
+            "url": "https://www.crunchbase.com/person/kenneth-ahlquist",
+            "name": "www.crunchbase.com",
+            "date": "2026-07-29"
+          },
+          {
+            "url": "https://thehub.io/startups/anydayio",
+            "name": "The Hub | Anyday A/S",
+            "date": "2020-09-11"
+          },
+          {
+            "url": "https://theorg.com/org/anyday-io",
+            "name": "ANYDAY | The Org",
+            "date": "2025-09-05"
+          },
+          {
+            "url": "https://craft.co/anyday-555",
+            "name": "craft.co",
+            "date": "2026-07-29"
+          }
+        ]
+      },
+      "group": "no_recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2024-03",
+          "date": "2024-03-22",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/anyday/__sp63OkD5GafRH22ntq9yffNnrKjR1EOd_J3jhOcN2vA",
+              "name": "tracxn.com",
+              "date": "2026-06-10"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/anyday/__sp63OkD5GafRH22ntq9yffNnrKjR1EOd_J3jhOcN2vA/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-06-10"
+            }
+          ]
+        },
+        {
+          "kind": "status",
+          "text": "Cala status: ACTIVE",
+          "sources": [
+            {
+              "url": "https://find-and-update.company-information.service.gov.uk/company/09137939",
+              "name": "Companies House UK",
+              "date": "2026-08-01"
+            },
+            {
+              "url": "https://anyday.io/",
+              "name": "anyday.io",
+              "date": "2026-11-02"
+            },
+            {
+              "url": "https://www.linkedin.com/company/anydayio",
+              "name": "linkedin.com",
+              "date": "2026-11-02"
+            },
+            {
+              "url": "https://danskcvrapi.dk/en/news/41140216-stiftelse-2020-02-05",
+              "name": "danskcvrapi.dk",
+              "date": "2020-02-05"
+            },
+            {
+              "url": "https://estatistik.dk/virksomhed/anyday-as/41140216",
+              "name": "estatistik.dk",
+              "date": "2026-11-10"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Inventure behave when the company hit its hardest stretch?",
+        "What did Inventure's partners actually do for you after the investment?",
+        "Would you take money from Inventure again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "e99a5f8f-4b80-4380-ad08-6c6788dbc26d",
+      "companyName": "Stockeld Dreamery AB",
+      "founder": {
+        "name": "Sorosh Tavakoli",
+        "linkedinUrl": "https://linkedin.com/in/sorosh",
+        "via": "exa+gemini",
+        "evidence": "Founder and CEO, Stockeld Dreamery",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/sorosh",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "no_recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2021-09",
+          "date": "2021-09-02",
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2021/09/02/stockeld-dreamery-loves-cheese-so-much-that-it-raised-20m-to-make-it-out-of-legumes",
+              "name": "Stockeld Dreamery loves cheese so much that it raised $20M to make it out of legumes | TechCrunch",
+              "date": "2021-09-02"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/stockeld-dreamery/__ah-tautQKoSON9i3u5-EA3IUEQ88-NzzT7d32o6mk6w",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/stockeld-dreamery/__ah-tautQKoSON9i3u5-EA3IUEQ88-NzzT7d32o6mk6w/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            }
+          ]
+        },
+        {
+          "kind": "status",
+          "text": "Cala status: INACTIVE",
+          "sources": [
+            {
+              "url": "https://agfundernews.com/plant-based-cheese-startup-stockeld-dreamery-shutters-as-flexitarian-dream-fizzles",
+              "name": "Plant-based cheese startup Stockeld Dreamery shutters as flexitarian dream fizzles",
+              "date": "2025-10-23"
+            },
+            {
+              "url": "https://finance.yahoo.com/news/stockeld-dreamery-shuts-amid-intense-135820349.html",
+              "name": "guce",
+              "date": "2017-01-01"
+            },
+            {
+              "url": "https://vegconomist.com/organisations-and-brands/stockeld-dreamery",
+              "name": "vegconomist.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Inventure behave when the company hit its hardest stretch?",
+        "What did Inventure's partners actually do for you after the investment?",
+        "Would you take money from Inventure again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "17c5c020-6037-4743-ae24-49a59ec0cbe6",
+      "companyName": "ReOrbit",
+      "founder": {
+        "name": "Sethu Saveda Suvanam",
+        "linkedinUrl": "https://linkedin.com/in/sethu-saveda-suvanam-426a9421",
+        "via": "exa+gemini",
+        "evidence": "Founder and CEO, ReOrbit",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/sethu-saveda-suvanam-426a9421",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2025-09",
+          "date": "2025-09-08",
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2025/09/08/reorbit-lands-record-funding-to-take-on-musks-starlink-from-europe",
+              "name": "ReOrbit lands record funding to take on Musk's Starlink from Europe | TechCrunch",
+              "date": "2025-09-08"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/reorbit/__jHH-J3eAQMBCCadIhwtvwYXFm3lkmdlH_FvBx81hPew/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Inventure behave when the company hit its hardest stretch?",
+        "What did Inventure's partners actually do for you after the investment?",
+        "Would you take money from Inventure again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "0d0425ad-207d-4c48-8b02-88a46ca34c6f",
+      "companyName": "Lassie",
+      "founder": {
+        "name": "Hedda Båverud Olsson",
+        "linkedinUrl": "https://linkedin.com/in/hedda-baverud-olsson",
+        "via": "exa+gemini",
+        "evidence": "CEO and Co-founder, Lassie",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/hedda-baverud-olsson",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-02",
+          "date": "2026-02-12",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/lassie/__Wh9KKMSooOLoyHDonkeuoZYg21nHJhUKVokKq5wl-HU",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/lassie/__Wh9KKMSooOLoyHDonkeuoZYg21nHJhUKVokKq5wl-HU/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/464207-59",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Inventure behave when the company hit its hardest stretch?",
+        "What did Inventure's partners actually do for you after the investment?",
+        "Would you take money from Inventure again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "323b8e51-ec68-4241-9358-a5812066dff6",
+      "companyName": "Medoma",
+      "founder": {
+        "name": "Henrik Bjärtun",
+        "linkedinUrl": "https://linkedin.com/in/henrikbjartun",
+        "via": "exa+gemini",
+        "evidence": "Chief Medical Officer & Co-founder, Medoma",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/henrikbjartun",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "no_recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2022-09",
+          "date": "2022-09-07",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/medoma/__TPK1kbDI6fp_OJttmHyxM0fGHO3uf3y-DLXGV_yJhEE",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/medoma/__TPK1kbDI6fp_OJttmHyxM0fGHO3uf3y-DLXGV_yJhEE/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/506965-60",
+              "name": "pitchbook.com",
+              "date": "2026-08-24"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Inventure behave when the company hit its hardest stretch?",
+        "What did Inventure's partners actually do for you after the investment?",
+        "Would you take money from Inventure again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "323b8e51-ec68-4241-9358-a5812066dff6",
+      "companyName": "Medoma",
+      "founder": {
+        "name": "Johan Nordenström",
+        "linkedinUrl": "https://linkedin.com/in/johan-nordenstr%C3%B6m-45947a6",
+        "via": "exa+gemini",
+        "evidence": "Chief Executive Officer and Co-founder, Medoma",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/johan-nordenstr%C3%B6m-45947a6",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "no_recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2022-09",
+          "date": "2022-09-07",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/medoma/__TPK1kbDI6fp_OJttmHyxM0fGHO3uf3y-DLXGV_yJhEE",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/medoma/__TPK1kbDI6fp_OJttmHyxM0fGHO3uf3y-DLXGV_yJhEE/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/506965-60",
+              "name": "pitchbook.com",
+              "date": "2026-08-24"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Inventure behave when the company hit its hardest stretch?",
+        "What did Inventure's partners actually do for you after the investment?",
+        "Would you take money from Inventure again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "3981c362-c703-4d93-bd64-c63ded49cc4d",
+      "companyName": "Material Exchange",
+      "founder": {
+        "name": "Andy Polk",
+        "linkedinUrl": "https://linkedin.com/in/andy-polk",
+        "via": "exa+gemini",
+        "evidence": "Co-Founder, Material Exchange",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/andy-polk",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "no_recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2022-04",
+          "date": "2022-04-11",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/materialexchange/__AWOkF0XIj5Y5m_Ec17X8ScmhslfI8YI0JRobJInQhV0",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/material-exchange/__AWOkF0XIj5Y5m_Ec17X8ScmhslfI8YI0JRobJInQhV0/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.crunchbase.com/organization/material-exchange/financial_details",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/327120-40",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Inventure behave when the company hit its hardest stretch?",
+        "What did Inventure's partners actually do for you after the investment?",
+        "Would you take money from Inventure again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "3981c362-c703-4d93-bd64-c63ded49cc4d",
+      "companyName": "Material Exchange",
+      "founder": {
+        "name": "Russell Glenister",
+        "linkedinUrl": "https://linkedin.com/in/russell-glenister-7179b814",
+        "via": "exa+gemini",
+        "evidence": "Co-Founder, Material Exchange",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/russell-glenister-7179b814",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "no_recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2022-04",
+          "date": "2022-04-11",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/materialexchange/__AWOkF0XIj5Y5m_Ec17X8ScmhslfI8YI0JRobJInQhV0",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/material-exchange/__AWOkF0XIj5Y5m_Ec17X8ScmhslfI8YI0JRobJInQhV0/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.crunchbase.com/organization/material-exchange/financial_details",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/327120-40",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Inventure behave when the company hit its hardest stretch?",
+        "What did Inventure's partners actually do for you after the investment?",
+        "Would you take money from Inventure again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "421cacef-3390-49eb-a100-8dabe395f7d4",
+      "companyName": "Insurello",
+      "founder": {
+        "name": "Marcus Janback",
+        "linkedinUrl": "https://linkedin.com/in/marcusjanback",
+        "via": "exa+gemini",
+        "evidence": "CEO and Founder, Insurello",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/marcusjanback",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "no_recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2021-07",
+          "date": "2021-07-08",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/insurello/__lXMYkJUKgbjFJ0kbSDY0ctsk3XcY1JbEYJ3X7yxsAQ8",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/insurello/__lXMYkJUKgbjFJ0kbSDY0ctsk3XcY1JbEYJ3X7yxsAQ8/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/181895-41",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.crunchbase.com/organization/insurello/company_overview/overview_timeline",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Inventure behave when the company hit its hardest stretch?",
+        "What did Inventure's partners actually do for you after the investment?",
+        "Would you take money from Inventure again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "50a2f560-801e-4059-8d0d-1840327b99a5",
+      "companyName": "Stravito AB",
+      "founder": {
+        "name": "Thor Olof P.",
+        "linkedinUrl": "https://linkedin.com/in/thorolof",
+        "via": "exa+gemini",
+        "evidence": "Founder / CEO, Stravito",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/thorolof",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "no_recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2021-09",
+          "date": "2021-09-02",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/stravito/__Ij7OUugepRn6AfSa5e_Yv0TIahciuFEYsL73DxIXB_o",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/stravito/__Ij7OUugepRn6AfSa5e_Yv0TIahciuFEYsL73DxIXB_o/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/newsletter/stockholms-stravito-picks-up-124m-series-a",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/228903-76",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.crunchbase.com/organization/stravito",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Inventure behave when the company hit its hardest stretch?",
+        "What did Inventure's partners actually do for you after the investment?",
+        "Would you take money from Inventure again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "50a2f560-801e-4059-8d0d-1840327b99a5",
+      "companyName": "Stravito AB",
+      "founder": {
+        "name": "Anders Örbom",
+        "linkedinUrl": "https://linkedin.com/in/anders-orbom",
+        "via": "exa+gemini",
+        "evidence": "Founder, Board Member (former Chairman of the Board), Stravito",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/anders-orbom",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "no_recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2021-09",
+          "date": "2021-09-02",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/stravito/__Ij7OUugepRn6AfSa5e_Yv0TIahciuFEYsL73DxIXB_o",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/stravito/__Ij7OUugepRn6AfSa5e_Yv0TIahciuFEYsL73DxIXB_o/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/newsletter/stockholms-stravito-picks-up-124m-series-a",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/228903-76",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.crunchbase.com/organization/stravito",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Inventure behave when the company hit its hardest stretch?",
+        "What did Inventure's partners actually do for you after the investment?",
+        "Would you take money from Inventure again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "8d34fdfc-e92f-409b-82fa-4a7f1b14fca8",
+      "companyName": "Biomatter",
+      "founder": {
+        "name": "Donatas Repečka",
+        "linkedinUrl": "https://linkedin.com/in/donatasrep",
+        "via": "exa+gemini",
+        "evidence": "Head of Artificial Intelligence & Co-founder, Biomatter",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/donatasrep",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "no_recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2024-08",
+          "date": "2024-08-05",
+          "sources": [
+            {
+              "url": "https://www.crunchbase.com/organization/biomatter-designs/company_overview/overview_timeline",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.crunchbase.com/organization/biomatter-designs/financial_details",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/342952-48",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/explore/healthtech-startups-in-lithuania/__ln06QUP_tDqJlr3fH4I965QBISpSqIiOSi8EJp1_rgI",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Inventure behave when the company hit its hardest stretch?",
+        "What did Inventure's partners actually do for you after the investment?",
+        "Would you take money from Inventure again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "8d34fdfc-e92f-409b-82fa-4a7f1b14fca8",
+      "companyName": "Biomatter",
+      "founder": {
+        "name": "Laurynas Karpus",
+        "linkedinUrl": "https://linkedin.com/in/laurynaskarpus",
+        "via": "exa+gemini",
+        "evidence": "CEO & Co-Founder, Biomatter",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/laurynaskarpus",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "no_recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2024-08",
+          "date": "2024-08-05",
+          "sources": [
+            {
+              "url": "https://www.crunchbase.com/organization/biomatter-designs/company_overview/overview_timeline",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.crunchbase.com/organization/biomatter-designs/financial_details",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/342952-48",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/explore/healthtech-startups-in-lithuania/__ln06QUP_tDqJlr3fH4I965QBISpSqIiOSi8EJp1_rgI",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Inventure behave when the company hit its hardest stretch?",
+        "What did Inventure's partners actually do for you after the investment?",
+        "Would you take money from Inventure again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "a0ccde2f-61c9-43d3-835d-319a81caa7cc",
+      "companyName": "Leya AI",
+      "founder": {
+        "name": "Mindaugas Bruzas",
+        "linkedinUrl": "https://linkedin.com/in/mindaugas-bruzas",
+        "via": "exa+gemini",
+        "evidence": "CEO & Co-Founder, Leya AI",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/mindaugas-bruzas",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "no_recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2024-02",
+          "date": "2024-02-06",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/leyaai/__7F01Q06-q2YXPTKT34Xt1YKiOpGXAkOf09hbav5EKrY/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/leyaai/__7F01Q06-q2YXPTKT34Xt1YKiOpGXAkOf09hbav5EKrY",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/artificial-intelligence/ai-startups-in-passion-economy/__aKUJq0oIFqZnC6Dx6O5XCkpte5FYJExJJ162IbfSAW8/companies",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Inventure behave when the company hit its hardest stretch?",
+        "What did Inventure's partners actually do for you after the investment?",
+        "Would you take money from Inventure again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "a0ccde2f-61c9-43d3-835d-319a81caa7cc",
+      "companyName": "Leya AI",
+      "founder": {
+        "name": "Donatas Tamošauskas",
+        "linkedinUrl": "https://linkedin.com/in/donatas-tamosauskas",
+        "via": "exa+gemini",
+        "evidence": "CTO & Co-Founder, Leya AI",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/donatas-tamosauskas",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "no_recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2024-02",
+          "date": "2024-02-06",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/leyaai/__7F01Q06-q2YXPTKT34Xt1YKiOpGXAkOf09hbav5EKrY/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/leyaai/__7F01Q06-q2YXPTKT34Xt1YKiOpGXAkOf09hbav5EKrY",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/artificial-intelligence/ai-startups-in-passion-economy/__aKUJq0oIFqZnC6Dx6O5XCkpte5FYJExJJ162IbfSAW8/companies",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Inventure behave when the company hit its hardest stretch?",
+        "What did Inventure's partners actually do for you after the investment?",
+        "Would you take money from Inventure again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "e8eb9a8c-7ac0-4b37-86a9-d90ce8496172",
+      "companyName": "Blueprint Genetics Oy",
+      "founder": {
+        "name": "Samuel Myllykangas",
+        "linkedinUrl": "https://linkedin.com/in/samuelmyllykangas",
+        "via": "exa+gemini",
+        "evidence": "Founder and CEO, Blueprint Genetics",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/samuelmyllykangas",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-08",
+          "date": "2026-08-25",
+          "sources": [
+            {
+              "url": "https://www.crunchbase.com/organization/blueprint-genetics",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Inventure behave when the company hit its hardest stretch?",
+        "What did Inventure's partners actually do for you after the investment?",
+        "Would you take money from Inventure again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "e8eb9a8c-7ac0-4b37-86a9-d90ce8496172",
+      "companyName": "Blueprint Genetics Oy",
+      "founder": {
+        "name": "Tommi Lehtonen",
+        "linkedinUrl": "https://linkedin.com/in/tommilehtonen",
+        "via": "exa+gemini",
+        "evidence": "Co-Founder, CEO, Blueprint Genetics",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/tommilehtonen",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-08",
+          "date": "2026-08-25",
+          "sources": [
+            {
+              "url": "https://www.crunchbase.com/organization/blueprint-genetics",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Inventure behave when the company hit its hardest stretch?",
+        "What did Inventure's partners actually do for you after the investment?",
+        "Would you take money from Inventure again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "dbee0ce9-7052-4796-8145-3ddb90a1e9d3",
+      "companyName": "Sólfar Studios",
+      "founder": {
+        "name": "Kjartan Emilsson",
+        "linkedinUrl": "https://linkedin.com/in/kjartan-emilsson-534b",
+        "via": "exa+gemini",
+        "evidence": "CEO/Co-Founder, Sólfar Studios",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/kjartan-emilsson-534b",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "no_recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2015-11",
+          "date": "2015-11-10",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/solfar-studios/__FS7us7Eq4bqxJ0bGevCY10N0TzaI0K4Jpzsm-5DywnM",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/solfarstudios/__FS7us7Eq4bqxJ0bGevCY10N0TzaI0K4Jpzsm-5DywnM/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/129190-78",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Inventure behave when the company hit its hardest stretch?",
+        "What did Inventure's partners actually do for you after the investment?",
+        "Would you take money from Inventure again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "dbee0ce9-7052-4796-8145-3ddb90a1e9d3",
+      "companyName": "Sólfar Studios",
+      "founder": {
+        "name": "Thor Gunnarsson",
+        "linkedinUrl": "https://linkedin.com/in/thorg",
+        "via": "exa+gemini",
+        "evidence": "Co-Founder / Biz Dev, Sólfar Studios",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/thorg",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "no_recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2015-11",
+          "date": "2015-11-10",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/solfar-studios/__FS7us7Eq4bqxJ0bGevCY10N0TzaI0K4Jpzsm-5DywnM",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/solfarstudios/__FS7us7Eq4bqxJ0bGevCY10N0TzaI0K4Jpzsm-5DywnM/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/129190-78",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Inventure behave when the company hit its hardest stretch?",
+        "What did Inventure's partners actually do for you after the investment?",
+        "Would you take money from Inventure again, and why?"
+      ],
+      "writing": []
+    }
+  ]
+}

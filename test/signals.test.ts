@@ -48,6 +48,21 @@ describe("analyseCompany", () => {
     expect(r.group).toBe("news_event");
   });
 
+  it("a Cala source where the company is the buyer is not an acquisition of it", () => {
+    const kahoot = {
+      ...company([
+        link("buy", {
+          sources: [{ name: "Educational gaming platform Kahoot acquires math app maker DragonBox for $18M", document: "https://techcrunch.com/k", date: "2019-05-09" }],
+        }),
+      ]),
+      name: "Kahoot!",
+    };
+    const r = run(kahoot);
+    expect(r.signals).toEqual([]);
+    expect(r.rounds).toEqual([]);
+    expect(r.group).toBeNull();
+  });
+
   it("Klaus: dated rounds with an acquisition source stay rounds and also yield the news", () => {
     const r = run(klaus);
     expect(r.rounds.map((x) => x.date)).toEqual(["2022-09-29", "2019-07-03"]);

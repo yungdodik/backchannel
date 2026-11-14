@@ -1,0 +1,1228 @@
+{
+  "fund": {
+    "calaId": "415bc278-6ed1-4973-a684-07a8b8c5d855",
+    "name": "Maki.vc",
+    "description": "Helsinki-based venture capital firm managing €260M across three funds, backing ambitious Nordic technology companies from day one."
+  },
+  "generatedAt": "2026-11-14T04:08:18.327Z",
+  "complete": true,
+  "portfolio": [
+    {
+      "calaId": "0296a764-1899-4000-8017-79758eb6d4d1",
+      "name": "IQM",
+      "rounds": [
+        {
+          "calaId": "5df23ae0-2b5c-423b-8527-c35bf4d4dde8",
+          "label": "Funding round",
+          "date": "2026-03-30",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/iqm/__YJnoEa58_JzzNNc0QB1_1E2AaA2-T8oKBfVJHepF-y4",
+              "name": "IQM - 2026 Company Profile & Team - Tracxn",
+              "date": "2021-08-17"
+            }
+          ]
+        },
+        {
+          "calaId": "d49ad81e-b640-4205-8fc0-12eee2a01510",
+          "label": "Funding round",
+          "date": "2025-09-03",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2025/09/03/brand-new-unicorn-iqm-sets-its-sights-beyond-europe-for-its-quantum-computers",
+              "name": "Brand new unicorn IQM sets its sights beyond Europe for its quantum computers | TechCrunch",
+              "date": "2025-09-03"
+            },
+            {
+              "url": "https://techcrunch.com/2026/02/23/finnish-quantum-unicorn-iqm-set-to-go-public",
+              "name": "Finnish quantum unicorn IQM set to go public | TechCrunch",
+              "date": "2026-02-23"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/iqm/__YJnoEa58_JzzNNc0QB1_1E2AaA2-T8oKBfVJHepF-y4",
+              "name": "IQM - 2026 Company Profile & Team - Tracxn",
+              "date": "2021-08-17"
+            }
+          ]
+        },
+        {
+          "calaId": "40d78387-8157-468f-9c21-9a478eba3739",
+          "label": "Funding round",
+          "date": "2025-05-05",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2025/05/05/meet-the-companies-racing-to-build-quantum-chips",
+              "name": "Meet the companies racing to build quantum chips | TechCrunch",
+              "date": "2025-05-05"
+            }
+          ]
+        },
+        {
+          "calaId": "f36deda7-4f45-400d-a778-35191318625c",
+          "label": "Funding round",
+          "date": "2025-05-05",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2025/05/05/meet-the-companies-racing-to-build-quantum-chips",
+              "name": "Meet the companies racing to build quantum chips | TechCrunch",
+              "date": "2025-05-05"
+            }
+          ]
+        },
+        {
+          "calaId": "db8adda8-fc6a-4ee2-885c-f5ea2c9c6265",
+          "label": "Funding round",
+          "date": "2022-07-31",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/iqm/__YJnoEa58_JzzNNc0QB1_1E2AaA2-T8oKBfVJHepF-y4",
+              "name": "IQM - 2026 Company Profile & Team - Tracxn",
+              "date": "2021-08-17"
+            }
+          ]
+        },
+        {
+          "calaId": "becacc2d-f7d9-4c59-acf2-f3f6eab0755b",
+          "label": "Funding round",
+          "date": "2020-06-11",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2020/06/11/european-quantum-computing-startup-takes-its-funding-to-e32m-with-fresh-raise",
+              "name": "European quantum computing startup takes its funding to €32M with fresh raise | TechCrunch",
+              "date": "2020-06-11"
+            }
+          ]
+        },
+        {
+          "calaId": "cd8b7aba-8038-4fc4-9570-a63ca2f09015",
+          "label": "Funding round",
+          "date": "2020-06-11",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2020/06/11/european-quantum-computing-startup-takes-its-funding-to-e32m-with-fresh-raise",
+              "name": "European quantum computing startup takes its funding to €32M with fresh raise | TechCrunch",
+              "date": "2020-06-11"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-03",
+          "date": "2026-03-30",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/iqm/__YJnoEa58_JzzNNc0QB1_1E2AaA2-T8oKBfVJHepF-y4",
+              "name": "IQM - 2026 Company Profile & Team - Tracxn",
+              "date": "2021-08-17"
+            }
+          ]
+        }
+      ],
+      "founders": [
+        {
+          "name": "Kuan Yen Tan",
+          "via": "cala",
+          "evidence": "Cala: FOUNDED",
+          "sources": [
+            {
+              "url": "https://thequantuminsider.com/2022/07/22/finnish-startup-iqm-raises-e128m-in-series-a2-funding",
+              "name": "thequantuminsider.com",
+              "date": "2026-08-20"
+            },
+            {
+              "url": "https://startupintros.com/orgs/iqm",
+              "name": "IQM: Funding, Team & Investors",
+              "date": "2026-07-13"
+            },
+            {
+              "url": "https://maki.vc/case/iqm",
+              "name": "IQM - Maki.vc",
+              "date": "2026-03-13"
+            },
+            {
+              "url": "https://seedtable.com/companies/iqm",
+              "name": "seedtable.com",
+              "date": "2026-08-20"
+            },
+            {
+              "url": "https://www.worldfund.vc/portfolio/iqm",
+              "name": "IQM is building the quantum computers of tomorrow – today.",
+              "date": "1997-01-01"
+            },
+            {
+              "url": "https://www.talentbee.io/resources/scaling-iqm-to-300-people-in-5-years",
+              "name": "Scaling IQM to +300 people in 5 years -",
+              "date": "2024-09-06"
+            }
+          ]
+        },
+        {
+          "name": "Jan Goetz",
+          "via": "cala",
+          "evidence": "Cala: FOUNDED",
+          "sources": [
+            {
+              "url": "https://iqm.tech/company/leadership-team",
+              "name": "Leadership Team - IQM Quantum Computers",
+              "date": "2025-02-15"
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/IQM_Quantum_Computers",
+              "name": "en.wikipedia.org",
+              "date": "2026-08-20"
+            },
+            {
+              "url": "https://fi.wikipedia.org/wiki/IQM_Quantum_Computers",
+              "name": "fi.wikipedia.org",
+              "date": "2026-08-20"
+            },
+            {
+              "url": "https://www.sttinfo.fi/tiedote/69861656/suomalainen-iqm-tahtaa-mullistaviin-harppauksiin-kvanttitietokoneteknologiassa",
+              "name": "SUOMALAINEN IQM TÄHTÄÄ MULLISTAVIIN HARPPAUKSIIN KVANTTITIETOKONETEKNOLOGIASSA | IQM Quantum Computers Oyj",
+              "date": "2022-11-15"
+            },
+            {
+              "url": "https://maki.vc/case/iqm",
+              "name": "IQM - Maki.vc",
+              "date": "2026-03-13"
+            },
+            {
+              "url": "https://seedtable.com/companies/iqm",
+              "name": "seedtable.com",
+              "date": "2026-08-20"
+            },
+            {
+              "url": "https://www.fairedih.fi/2026/07/06/iqmsta-ensimmainen-eurooppalainen-kvanttilaskentayhtio-suuressa-yhdysvaltalaisporssissa",
+              "name": "IQM:stä ensimmäinen eurooppalainen kvanttilaskentayhtiö New Yorkin Nasdaq-pörssissä",
+              "date": "2026-07-06"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://maki.vc/portfolio",
+          "name": "Portfolio - Maki.vc",
+          "date": "2026-03-11"
+        }
+      ],
+      "state": "enriched",
+      "description": "European quantum computing hardware company building superconducting quantum computers.",
+      "lastRoundDate": "2026-03-30"
+    },
+    {
+      "calaId": "16fa515b-1434-58c9-be73-8754e77ade00",
+      "name": "Metaktik",
+      "rounds": [],
+      "signals": [
+        {
+          "kind": "status",
+          "text": "Cala status: ACTIVE",
+          "sources": [
+            {
+              "url": "https://metaktik.com/",
+              "name": "metaktik.com",
+              "date": "2026-11-02"
+            },
+            {
+              "url": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=3604810-2",
+              "name": "avoindata.prh.fi",
+              "date": "2026-03-01"
+            },
+            {
+              "url": "https://metaktik.com/news/2026-03/metaktik-ltd-has-been-founded",
+              "name": "metaktik.com",
+              "date": "2026-03-01"
+            }
+          ]
+        }
+      ],
+      "founders": [],
+      "sources": [
+        {
+          "url": "https://metaktik.com/news/2026-03/metaktik-receives-one-million-euro-funding",
+          "name": "metaktik.com",
+          "date": "2026-03-30"
+        },
+        {
+          "url": "https://www.sttinfo.fi/tiedote/71918726/metaktik-sai-miljoonan-euron-rahoituksen-suomalainen-antenni-innovaatio-vakuutti-sijoittajat",
+          "name": "sttinfo.fi",
+          "date": "2026-03-31"
+        }
+      ],
+      "state": "enriched",
+      "description": "A Finnish aerospace and defense company founded in 2026 and headquartered in Espoo."
+    },
+    {
+      "calaId": "31ab6e8a-3dd2-5da1-a76e-f8538a809347",
+      "name": "Ethira",
+      "rounds": [],
+      "signals": [
+        {
+          "kind": "status",
+          "text": "Cala status: ACTIVE",
+          "sources": [
+            {
+              "url": "https://upplysningar.syna.se/foretag/5595311480",
+              "name": "upplysningar.syna.se",
+              "date": "2026-11-13"
+            },
+            {
+              "url": "https://www.ethira.dev/",
+              "name": "ethira.dev",
+              "date": "2026-11-13"
+            }
+          ]
+        }
+      ],
+      "founders": [],
+      "sources": [
+        {
+          "url": "https://www.ethira.dev/",
+          "name": "ethira.dev",
+          "date": "2026-11-13"
+        },
+        {
+          "url": "https://www.allabolag.se/befattningshavare/ethira-ab/stockholm/internet-konsulter-operatc3b6rer/2KJAXYWI5YFHL",
+          "name": "allabolag.se",
+          "date": "2026-11-13"
+        }
+      ],
+      "state": "enriched",
+      "description": "Ethira builds an AI-native platform that maps a company's ICT estate (vendors, systems, AI agents and data flows) to manage supply chain and third-party risk."
+    },
+    {
+      "calaId": "3e0524ad-7104-44a6-8f0f-788bc2772922",
+      "name": "IQM Quantum Computers Oyj",
+      "rounds": [],
+      "signals": [],
+      "founders": [],
+      "sources": [
+        {
+          "url": "https://www.aalto.fi/en/news/aalto-quantum-computing-spinout-secures-eu1145m-in-funding",
+          "name": "aalto.fi",
+          "date": "2019-07-10"
+        },
+        {
+          "url": "https://tech.eu/2019/07/09/finnish-hardware-startup-raises-e11-million-in-seed-funding-to-take-quantum-computing-to-the-next-level/",
+          "name": "tech.eu",
+          "date": "2019-07-09"
+        }
+      ],
+      "state": "enriched",
+      "description": "IQM builds superconducting full-stack quantum computers with up to 150 high-fidelity qubits and the highest connectivity out there."
+    },
+    {
+      "calaId": "41c34f5a-2dab-49b3-9ca4-51d70b1bf54f",
+      "name": "AI Agents",
+      "rounds": [],
+      "signals": [],
+      "founders": [
+        {
+          "name": "Benjamin Chino",
+          "via": "cala",
+          "evidence": "Cala: FOUNDED",
+          "sources": [
+            {
+              "url": "https://www.makipeople.com/company/team",
+              "name": "Fair chances for candidates, the right hires for organizations. Faster.",
+              "date": "2026-01-01"
+            },
+            {
+              "url": "https://www.businesswire.com/news/home/20250115141347/en/Maki-Raised-%2428.6M-Series-A-to-Redefine-HR-with-Conversational-AI-Agents",
+              "name": "www.businesswire.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://www.linkedin.com/company/makipeople",
+              "name": "MakiPeople | LinkedIn",
+              "date": "2026-07-21"
+            },
+            {
+              "url": "https://councils.forbes.com/profile/Maxime-Legardez-Coquin-CEO-Maki-People/72837735-e03f-4315-906f-b6b1fc16250b",
+              "name": "Maxime Legardez Coquin | CEO - Maki People | Forbes HR Council",
+              "date": "2026-05-28"
+            }
+          ]
+        },
+        {
+          "name": "Paul-Louis Caylar",
+          "via": "cala",
+          "evidence": "Cala: FOUNDED",
+          "sources": [
+            {
+              "url": "https://www.makipeople.com/company/team",
+              "name": "Fair chances for candidates, the right hires for organizations. Faster.",
+              "date": "2026-01-01"
+            },
+            {
+              "url": "https://www.businesswire.com/news/home/20250115141347/en/Maki-Raised-%2428.6M-Series-A-to-Redefine-HR-with-Conversational-AI-Agents",
+              "name": "www.businesswire.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://rocketreach.co/maki-people-profile_b7e9b1dbc2a81b9f",
+              "name": "rocketreach.co",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://councils.forbes.com/profile/Maxime-Legardez-Coquin-CEO-Maki-People/72837735-e03f-4315-906f-b6b1fc16250b",
+              "name": "Maxime Legardez Coquin | CEO - Maki People | Forbes HR Council",
+              "date": "2026-05-28"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://maki.vc/portfolio",
+          "name": "Portfolio - Maki.vc",
+          "date": "2026-03-11"
+        }
+      ],
+      "state": "enriched",
+      "description": "An AI-native hiring platform that deploys conversational agents to autonomously handle end-to-end recruitment, from candidate screening and skills testing to interviewing and selection."
+    },
+    {
+      "calaId": "4bb38245-af8b-4a3c-ae22-de40aa1be500",
+      "name": "Quantum Computing",
+      "rounds": [
+        {
+          "calaId": "e7927e7d-42d0-4368-b28b-eb4e5abe73c2",
+          "label": "Funding round",
+          "date": "2021-05-03",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://www.cbinsights.com/company/bleximo/financials",
+              "name": "Bleximo",
+              "date": "2018-09-25"
+            }
+          ]
+        },
+        {
+          "calaId": "cd81b0ed-d07a-488a-9942-b496d908593b",
+          "label": "Funding round",
+          "date": "2018-09-25",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2018/09/25/bleximo-raises-1-5m-for-its-quantum-computing-accelerators",
+              "name": "Bleximo raises $1.5M for its quantum computing accelerators | TechCrunch",
+              "date": "2018-09-25"
+            },
+            {
+              "url": "https://fi.co/insight/marchenkov-startup-bleximo-raise-1-5m-to-hybridize-quantum-classical-computing",
+              "name": "Bleximo Raises $1.5M to Introduce Quantum Computing to Real-World Applications",
+              "date": "2022-08-08"
+            },
+            {
+              "url": "https://www.amarchenkova.com/posts/bleximo-1-5mm-quantum-computing",
+              "name": "Anastasia Marchenkova",
+              "date": "2018-09-25"
+            },
+            {
+              "url": "https://medium.com/eniacvc/eniac-backs-bleximo-bringing-quantum-to-real-world-applications-8a2eb78cff3c",
+              "name": "medium.com",
+              "date": "2026-08-25"
+            }
+          ]
+        },
+        {
+          "calaId": "df9bd439-db81-4ed0-87a1-e8fe193d698f",
+          "label": "Funding round",
+          "date": "2018-09-25",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://www.cbinsights.com/company/bleximo/financials",
+              "name": "Bleximo",
+              "date": "2018-09-25"
+            }
+          ]
+        },
+        {
+          "calaId": "7cb9bf42-c62b-47d3-9cd3-00f8e72570cf",
+          "label": "Funding round",
+          "date": "2017-06-01",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://app.dealroom.co/companies/bleximo",
+              "name": "Bleximo company information, funding & investors",
+              "date": "2017-02-01"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2021-05",
+          "date": "2021-05-03",
+          "sources": [
+            {
+              "url": "https://www.cbinsights.com/company/bleximo/financials",
+              "name": "Bleximo",
+              "date": "2018-09-25"
+            }
+          ]
+        }
+      ],
+      "founders": [],
+      "sources": [
+        {
+          "url": "https://maki.vc/portfolio",
+          "name": "Portfolio - Maki.vc",
+          "date": "2026-03-11"
+        }
+      ],
+      "state": "enriched",
+      "description": "Builds superconducting quantum computers for research labs and supercomputing centers, using application-specific co-design and novel chip architecture to deliver quantum advantage.",
+      "lastRoundDate": "2021-05-03"
+    },
+    {
+      "calaId": "636e313d-2933-451f-90f8-bc77db6f0329",
+      "name": "Mixed Reality",
+      "rounds": [
+        {
+          "calaId": "4ab98dae-b767-4c72-a1b5-4c1894ee6630",
+          "label": "Funding round",
+          "date": "2024-09-24",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://distance.tech/news/distance-technologies-closes-oversubscribed-eur10m-seed-round-led-by-gv-google-ventures",
+              "name": "Distance Technologies Closes Oversubscribed €10M Seed Round, Led by GV (Google Ventures)",
+              "date": "2024-09-26"
+            },
+            {
+              "url": "https://www.cnbc.com/2024/09/26/google-backs-distance-startup-bringing-mixed-reality-to-cars-planes.html",
+              "name": "Google venture arm backs startup aiming to bring mixed reality to any car windshield or plane cockpit",
+              "date": "2024-09-26"
+            },
+            {
+              "url": "https://www.auganix.org/mr-news-distance-technologies-closes-oversubscribed-e10m-seed-round-led-by-gv",
+              "name": "Distance Technologies Closes Oversubscribed €10M Seed Round",
+              "date": "2024-09-27"
+            }
+          ]
+        },
+        {
+          "calaId": "bc0bfea2-53da-4424-a7cf-738b7b25ab8f",
+          "label": "Funding round",
+          "date": "2024-06-13",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://distance.tech/news/launch_release",
+              "name": "DISTANCE LAUNCH RELEASE",
+              "date": "2024-06-13"
+            },
+            {
+              "url": "https://en.ain.ua/2024/06/14/distance-technologies-pre-seed-investment",
+              "name": "en.ain.ua",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2024-09",
+          "date": "2024-09-24",
+          "sources": [
+            {
+              "url": "https://distance.tech/news/distance-technologies-closes-oversubscribed-eur10m-seed-round-led-by-gv-google-ventures",
+              "name": "Distance Technologies Closes Oversubscribed €10M Seed Round, Led by GV (Google Ventures)",
+              "date": "2024-09-26"
+            },
+            {
+              "url": "https://www.cnbc.com/2024/09/26/google-backs-distance-startup-bringing-mixed-reality-to-cars-planes.html",
+              "name": "Google venture arm backs startup aiming to bring mixed reality to any car windshield or plane cockpit",
+              "date": "2024-09-26"
+            },
+            {
+              "url": "https://www.auganix.org/mr-news-distance-technologies-closes-oversubscribed-e10m-seed-round-led-by-gv",
+              "name": "Distance Technologies Closes Oversubscribed €10M Seed Round",
+              "date": "2024-09-27"
+            }
+          ]
+        },
+        {
+          "kind": "news_event",
+          "text": "Reported acquisition (auganix.org, 2024-06)",
+          "date": "2024-06-13",
+          "sources": [
+            {
+              "url": "https://www.auganix.org/xr-news-distance-emerges-from-stealth-with-2-7m-in-funding-to-announce-its-glasses-free-xr-technology",
+              "name": "Distance emerges from stealth with $2.7M in funding",
+              "date": "2024-06-13"
+            }
+          ]
+        }
+      ],
+      "founders": [],
+      "sources": [
+        {
+          "url": "https://maki.vc/portfolio",
+          "name": "Portfolio - Maki.vc",
+          "date": "2026-03-11"
+        }
+      ],
+      "state": "enriched",
+      "description": "Develops the world's first glasses-free mixed reality solution that transforms transparent surfaces into 3D light fields, designed for automotive and aeronautics integration.",
+      "lastRoundDate": "2024-09-24"
+    },
+    {
+      "calaId": "82c65c94-8e28-47fe-90eb-53daf0a1a025",
+      "name": "Eyewear Company",
+      "rounds": [],
+      "signals": [],
+      "founders": [],
+      "sources": [
+        {
+          "url": "https://maki.vc/portfolio",
+          "name": "Portfolio - Maki.vc",
+          "date": "2026-03-11"
+        }
+      ],
+      "state": "enriched",
+      "description": "Introducing adaptive eyewear"
+    },
+    {
+      "calaId": "8a521560-6420-4acc-ae64-084c0b2b1d53",
+      "name": "Auto Retail AI",
+      "rounds": [],
+      "signals": [],
+      "founders": [],
+      "sources": [
+        {
+          "url": "https://maki.vc/portfolio",
+          "name": "Portfolio - Maki.vc",
+          "date": "2026-03-11"
+        }
+      ],
+      "state": "enriched",
+      "description": "Provides AI-powered solutions for automotive retail dealerships, enabling smarter operations, personalized experiences, and data-driven decisions."
+    },
+    {
+      "calaId": "afba0cba-5006-5d2f-b50a-9dca60fa309a",
+      "name": "Sono",
+      "rounds": [],
+      "signals": [
+        {
+          "kind": "status",
+          "text": "Cala status: ACTIVE",
+          "sources": [
+            {
+              "url": "https://callsono.com/",
+              "name": "callsono.com",
+              "date": "2026-11-02"
+            },
+            {
+              "url": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=3515243-4",
+              "name": "avoindata.prh.fi",
+              "date": "2025-03-17"
+            },
+            {
+              "url": "https://www.linkedin.com/company/sointu/",
+              "name": "linkedin.com",
+              "date": "2026-11-02"
+            }
+          ]
+        },
+        {
+          "kind": "news_event",
+          "text": "Reported bankruptcy (highmotor.com, 2026-08)",
+          "date": "2026-08-03",
+          "sources": [
+            {
+              "url": "https://www.highmotor.com/en/sono-motors-declares-bankruptcy-for-the-second-time.html",
+              "name": "Sono Motors declares bankruptcy for the second time – Highmotor",
+              "date": "2026-08-03"
+            }
+          ]
+        }
+      ],
+      "founders": [
+        {
+          "name": "Simo Potinkara",
+          "via": "cala",
+          "evidence": "Cala: FOUNDED",
+          "sources": [
+            {
+              "url": "https://callsono.com/about/",
+              "name": "callsono.com",
+              "date": "2026-11-03"
+            }
+          ]
+        },
+        {
+          "name": "Olli Lehikoinen",
+          "via": "cala",
+          "evidence": "Cala: FOUNDED",
+          "sources": [
+            {
+              "url": "https://callsono.com/about/",
+              "name": "callsono.com",
+              "date": "2026-11-03"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://callsono.com/funding/",
+          "name": "callsono.com",
+          "date": "2026-06-03"
+        },
+        {
+          "url": "https://callsono.com/about/",
+          "name": "callsono.com",
+          "date": "2026-11-10"
+        }
+      ],
+      "state": "enriched",
+      "description": "Sono's voice AI agents answer and make calls 24/7 in your customers' language: booking appointments, handling support, and reminding, negotiating and collecting on overdue accounts."
+    },
+    {
+      "calaId": "b2501123-e040-4c42-8599-41630a549c90",
+      "name": "FinanceKey Oy",
+      "rounds": [],
+      "signals": [
+        {
+          "kind": "status",
+          "text": "Cala status: ACTIVE",
+          "sources": [
+            {
+              "url": "https://financekey.com/",
+              "name": "financekey.com",
+              "date": "2026-11-02"
+            }
+          ]
+        }
+      ],
+      "founders": [],
+      "sources": [
+        {
+          "url": "https://siliconcanals.com/helsinkis-financekey-secures-e3m/",
+          "name": "siliconcanals.com",
+          "date": "2025-06-10"
+        }
+      ],
+      "state": "enriched",
+      "description": "FinanceKey helps you future-proof connectivity, gain real-time cash visibility across the organisation and manage money movements with ease."
+    },
+    {
+      "calaId": "e408efba-d8d3-43df-ac47-7b9603e847bb",
+      "name": "KYC Intelligence",
+      "rounds": [
+        {
+          "calaId": "f832e4b3-f9a2-414c-b316-95bfe848a818",
+          "label": "Funding round",
+          "date": "2023-09-06",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://www.businessinsider.com/strise-anti-money-laundering-ai-startup-raises-108-million-2023-9",
+              "name": "Norwegian AI startup Strise helps banks tackle financial crime. It just raised a $10.8 million Series A round with this 8-slide pitch deck.",
+              "date": "2023-09-06"
+            },
+            {
+              "url": "https://www.crowdfundinsider.com/2023/09/212541-aml-firm-strise-raises-10-8-million-led-by-atomico",
+              "name": "www.crowdfundinsider.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://atomico.com/insights/our-investment-in-strise-overhauling-the-way-we-fight-financial-crime",
+              "name": "atomico.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.finextra.com/newsarticle/42896/financial-crime-becomes-a-hot-ticket-for-investors-as-strise-raises-108-million",
+              "name": "www.finextra.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://fintech.global/2023/09/06/strise-secures-10-8m-in-series-a-to-redefine-aml-automation",
+              "name": "Strise secures $10.8m in series A to redefine AML automation",
+              "date": "2023-09-06"
+            },
+            {
+              "url": "https://tech.eu/2023/09/06/aml-software-strise-funding-for-global-expansion",
+              "name": "Norwegian AML software firm Strise secures $10.8M funding for global expansion",
+              "date": "2023-09-06"
+            }
+          ]
+        },
+        {
+          "calaId": "6b772e08-a3d4-4772-af2e-00ea25922094",
+          "label": "Funding round",
+          "date": "2022-11-07",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://www.curiosityvc.com/post/kyc-software-company-strise-completes-eu3-3-million-funding-round-led-by-curiosity-vc",
+              "name": "KYC software company Strise completes €3.3 million funding round led by Curiosity | Curiosity Venture Capital",
+              "date": "2022-11-07"
+            },
+            {
+              "url": "https://siliconcanals.com/strise-raises-3-3m",
+              "name": "Dutch VC Curiosity backs Norwegian KYC intelligence startup Strise in €3.3M round - Silicon Canals",
+              "date": "2022-11-08"
+            },
+            {
+              "url": "https://www.thesaasnews.com/news/strise-raises-3-3-million-in-funding",
+              "name": "Strise Raises €3.3 Million in Funding",
+              "date": "2022-11-09"
+            }
+          ]
+        },
+        {
+          "calaId": "2069c869-c527-4056-8894-ef513d65aba6",
+          "label": "Funding round",
+          "date": "2022-11-01",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://startupintros.com/orgs/strise",
+              "name": "Strise: Funding, Team & Investors",
+              "date": "2026-07-13"
+            }
+          ]
+        },
+        {
+          "calaId": "ff46db97-7d37-4bd7-8398-22021ed9792a",
+          "label": "Funding round",
+          "date": "2020-04-27",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://startupintros.com/orgs/strise",
+              "name": "Strise: Funding, Team & Investors",
+              "date": "2026-07-13"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/strise-tech/__-QF3gbZmi_xBMbmhEUlqhXRCmq85Quaxbn01bNtTIX0",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://maki.vc/case/strise",
+              "name": "Strise - Maki.vc",
+              "date": "2026-03-10"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2023-09",
+          "date": "2023-09-06",
+          "sources": [
+            {
+              "url": "https://www.businessinsider.com/strise-anti-money-laundering-ai-startup-raises-108-million-2023-9",
+              "name": "Norwegian AI startup Strise helps banks tackle financial crime. It just raised a $10.8 million Series A round with this 8-slide pitch deck.",
+              "date": "2023-09-06"
+            },
+            {
+              "url": "https://www.crowdfundinsider.com/2023/09/212541-aml-firm-strise-raises-10-8-million-led-by-atomico",
+              "name": "www.crowdfundinsider.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://atomico.com/insights/our-investment-in-strise-overhauling-the-way-we-fight-financial-crime",
+              "name": "atomico.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.finextra.com/newsarticle/42896/financial-crime-becomes-a-hot-ticket-for-investors-as-strise-raises-108-million",
+              "name": "www.finextra.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://fintech.global/2023/09/06/strise-secures-10-8m-in-series-a-to-redefine-aml-automation",
+              "name": "Strise secures $10.8m in series A to redefine AML automation",
+              "date": "2023-09-06"
+            },
+            {
+              "url": "https://tech.eu/2023/09/06/aml-software-strise-funding-for-global-expansion",
+              "name": "Norwegian AML software firm Strise secures $10.8M funding for global expansion",
+              "date": "2023-09-06"
+            }
+          ]
+        }
+      ],
+      "founders": [],
+      "sources": [
+        {
+          "url": "https://maki.vc/portfolio",
+          "name": "Portfolio - Maki.vc",
+          "date": "2026-03-11"
+        }
+      ],
+      "state": "enriched",
+      "description": "An AI-powered platform for KYC, AML, and due diligence that connects business intelligence and network data from 200k+ sources for automated compliance and perpetual company monitoring.",
+      "lastRoundDate": "2023-09-06"
+    },
+    {
+      "calaId": "f755b17d-26a2-5d1f-9e95-1cb19935d325",
+      "name": "Aavuus",
+      "rounds": [],
+      "signals": [
+        {
+          "kind": "status",
+          "text": "Cala status: ACTIVE",
+          "sources": [
+            {
+              "url": "https://aavuus.com/",
+              "name": "aavuus.com",
+              "date": "2026-11-02"
+            }
+          ]
+        }
+      ],
+      "founders": [],
+      "sources": [
+        {
+          "url": "https://www.aavuus.com/news/aavuus-raises-pre-seed",
+          "name": "aavuus.com",
+          "date": "2026-06-09"
+        },
+        {
+          "url": "https://tech.eu/2026/06/09/finnish-space-safety-startup-aavuus-lands-pre-seed-funding-to-tackle-space-debris-tracking",
+          "name": "tech.eu",
+          "date": "2026-06-09"
+        },
+        {
+          "url": "https://www.cbinsights.com/company/aavuus/financials",
+          "name": "cbinsights.com",
+          "date": "2026-11-13"
+        }
+      ],
+      "state": "enriched",
+      "description": "A Finnish aerospace and defense company headquartered in Espoo, founded in 2024."
+    },
+    {
+      "calaId": "fa92035a-411b-40a4-a2b0-a90afbdeccdb",
+      "name": "Egg White Company",
+      "rounds": [
+        {
+          "calaId": "fc6da176-e81b-44cf-b0e7-cde321fb7f51",
+          "label": "Funding round",
+          "date": "2024-04-01",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2024/04/01/animal-free-egg-protein-onego-bio-40m",
+              "name": "Animal-free egg protein startup Onego Bio is one step closer to cracking the traditional egg market | TechCrunch",
+              "date": "2024-04-01"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2024-04",
+          "date": "2024-04-01",
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2024/04/01/animal-free-egg-protein-onego-bio-40m",
+              "name": "Animal-free egg protein startup Onego Bio is one step closer to cracking the traditional egg market | TechCrunch",
+              "date": "2024-04-01"
+            }
+          ]
+        }
+      ],
+      "founders": [],
+      "sources": [
+        {
+          "url": "https://maki.vc/portfolio",
+          "name": "Portfolio - Maki.vc",
+          "date": "2026-03-11"
+        }
+      ],
+      "state": "enriched",
+      "description": "Produces animal-free egg white protein (Bioalbumen®) using precision fermentation, creating a bioidentical alternative to chicken egg white without the need for animals.",
+      "lastRoundDate": "2024-04-01"
+    }
+  ],
+  "callList": [
+    {
+      "companyId": "0296a764-1899-4000-8017-79758eb6d4d1",
+      "companyName": "IQM",
+      "founder": {
+        "name": "Kuan Yen Tan",
+        "via": "cala",
+        "evidence": "Cala: FOUNDED",
+        "sources": [
+          {
+            "url": "https://thequantuminsider.com/2022/07/22/finnish-startup-iqm-raises-e128m-in-series-a2-funding",
+            "name": "thequantuminsider.com",
+            "date": "2026-08-20"
+          },
+          {
+            "url": "https://startupintros.com/orgs/iqm",
+            "name": "IQM: Funding, Team & Investors",
+            "date": "2026-07-13"
+          },
+          {
+            "url": "https://maki.vc/case/iqm",
+            "name": "IQM - Maki.vc",
+            "date": "2026-03-13"
+          },
+          {
+            "url": "https://seedtable.com/companies/iqm",
+            "name": "seedtable.com",
+            "date": "2026-08-20"
+          },
+          {
+            "url": "https://www.worldfund.vc/portfolio/iqm",
+            "name": "IQM is building the quantum computers of tomorrow – today.",
+            "date": "1997-01-01"
+          },
+          {
+            "url": "https://www.talentbee.io/resources/scaling-iqm-to-300-people-in-5-years",
+            "name": "Scaling IQM to +300 people in 5 years -",
+            "date": "2024-09-06"
+          }
+        ]
+      },
+      "group": "recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-03",
+          "date": "2026-03-30",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/iqm/__YJnoEa58_JzzNNc0QB1_1E2AaA2-T8oKBfVJHepF-y4",
+              "name": "IQM - 2026 Company Profile & Team - Tracxn",
+              "date": "2021-08-17"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Maki.vc behave when the company hit its hardest stretch?",
+        "What did Maki.vc's partners actually do for you after the investment?",
+        "Would you take money from Maki.vc again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "0296a764-1899-4000-8017-79758eb6d4d1",
+      "companyName": "IQM",
+      "founder": {
+        "name": "Jan Goetz",
+        "via": "cala",
+        "evidence": "Cala: FOUNDED",
+        "sources": [
+          {
+            "url": "https://iqm.tech/company/leadership-team",
+            "name": "Leadership Team - IQM Quantum Computers",
+            "date": "2025-02-15"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/IQM_Quantum_Computers",
+            "name": "en.wikipedia.org",
+            "date": "2026-08-20"
+          },
+          {
+            "url": "https://fi.wikipedia.org/wiki/IQM_Quantum_Computers",
+            "name": "fi.wikipedia.org",
+            "date": "2026-08-20"
+          },
+          {
+            "url": "https://www.sttinfo.fi/tiedote/69861656/suomalainen-iqm-tahtaa-mullistaviin-harppauksiin-kvanttitietokoneteknologiassa",
+            "name": "SUOMALAINEN IQM TÄHTÄÄ MULLISTAVIIN HARPPAUKSIIN KVANTTITIETOKONETEKNOLOGIASSA | IQM Quantum Computers Oyj",
+            "date": "2022-11-15"
+          },
+          {
+            "url": "https://maki.vc/case/iqm",
+            "name": "IQM - Maki.vc",
+            "date": "2026-03-13"
+          },
+          {
+            "url": "https://seedtable.com/companies/iqm",
+            "name": "seedtable.com",
+            "date": "2026-08-20"
+          },
+          {
+            "url": "https://www.fairedih.fi/2026/07/06/iqmsta-ensimmainen-eurooppalainen-kvanttilaskentayhtio-suuressa-yhdysvaltalaisporssissa",
+            "name": "IQM:stä ensimmäinen eurooppalainen kvanttilaskentayhtiö New Yorkin Nasdaq-pörssissä",
+            "date": "2026-07-06"
+          }
+        ]
+      },
+      "group": "recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-03",
+          "date": "2026-03-30",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/iqm/__YJnoEa58_JzzNNc0QB1_1E2AaA2-T8oKBfVJHepF-y4",
+              "name": "IQM - 2026 Company Profile & Team - Tracxn",
+              "date": "2021-08-17"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Maki.vc behave when the company hit its hardest stretch?",
+        "What did Maki.vc's partners actually do for you after the investment?",
+        "Would you take money from Maki.vc again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "afba0cba-5006-5d2f-b50a-9dca60fa309a",
+      "companyName": "Sono",
+      "founder": {
+        "name": "Simo Potinkara",
+        "via": "cala",
+        "evidence": "Cala: FOUNDED",
+        "sources": [
+          {
+            "url": "https://callsono.com/about/",
+            "name": "callsono.com",
+            "date": "2026-11-03"
+          }
+        ]
+      },
+      "group": "news_event",
+      "why": [
+        {
+          "kind": "status",
+          "text": "Cala status: ACTIVE",
+          "sources": [
+            {
+              "url": "https://callsono.com/",
+              "name": "callsono.com",
+              "date": "2026-11-02"
+            },
+            {
+              "url": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=3515243-4",
+              "name": "avoindata.prh.fi",
+              "date": "2025-03-17"
+            },
+            {
+              "url": "https://www.linkedin.com/company/sointu/",
+              "name": "linkedin.com",
+              "date": "2026-11-02"
+            }
+          ]
+        },
+        {
+          "kind": "news_event",
+          "text": "Reported bankruptcy (highmotor.com, 2026-08)",
+          "date": "2026-08-03",
+          "sources": [
+            {
+              "url": "https://www.highmotor.com/en/sono-motors-declares-bankruptcy-for-the-second-time.html",
+              "name": "Sono Motors declares bankruptcy for the second time – Highmotor",
+              "date": "2026-08-03"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Maki.vc behave when the company hit its hardest stretch?",
+        "What did Maki.vc's partners actually do for you after the investment?",
+        "Would you take money from Maki.vc again, and why?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "afba0cba-5006-5d2f-b50a-9dca60fa309a",
+      "companyName": "Sono",
+      "founder": {
+        "name": "Olli Lehikoinen",
+        "via": "cala",
+        "evidence": "Cala: FOUNDED",
+        "sources": [
+          {
+            "url": "https://callsono.com/about/",
+            "name": "callsono.com",
+            "date": "2026-11-03"
+          }
+        ]
+      },
+      "group": "news_event",
+      "why": [
+        {
+          "kind": "status",
+          "text": "Cala status: ACTIVE",
+          "sources": [
+            {
+              "url": "https://callsono.com/",
+              "name": "callsono.com",
+              "date": "2026-11-02"
+            },
+            {
+              "url": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=3515243-4",
+              "name": "avoindata.prh.fi",
+              "date": "2025-03-17"
+            },
+            {
+              "url": "https://www.linkedin.com/company/sointu/",
+              "name": "linkedin.com",
+              "date": "2026-11-02"
+            }
+          ]
+        },
+        {
+          "kind": "news_event",
+          "text": "Reported bankruptcy (highmotor.com, 2026-08)",
+          "date": "2026-08-03",
+          "sources": [
+            {
+              "url": "https://www.highmotor.com/en/sono-motors-declares-bankruptcy-for-the-second-time.html",
+              "name": "Sono Motors declares bankruptcy for the second time – Highmotor",
+              "date": "2026-08-03"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "How did Maki.vc behave when the company hit its hardest stretch?",
+        "What did Maki.vc's partners actually do for you after the investment?",
+        "Would you take money from Maki.vc again, and why?"
+      ],
+      "writing": []
+    }
+  ]
+}

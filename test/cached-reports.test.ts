@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { cachedReports } from "@/lib/cached-reports";
+import { NEWS_BLOCKLIST } from "@/lib/news-blocklist";
 import { assertReport } from "@/lib/replay";
 import type { Founder, Signal } from "@/lib/types";
 
@@ -18,6 +19,7 @@ describe("cachedReports", () => {
         for (const s of x.sources) expect(s.url, id).not.toBe("");
       }
       for (const s of signals) expect(s.text, id).not.toMatch(VERDICT);
+      for (const s of signals) for (const x of s.sources) expect(NEWS_BLOCKLIST.has(x.url), `${id} ${x.url}`).toBe(false);
       for (const q of r.callList.flatMap((e) => e.questions)) expect(q, id).not.toMatch(VERDICT);
     }
   });

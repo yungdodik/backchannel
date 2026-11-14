@@ -2,7 +2,8 @@
 import { CalaGaveUp, type Cala, type CalaEntity, type CalaLink } from "@/lib/cala";
 import type { Exa, ExaResult } from "@/lib/exa";
 import type { Gemini } from "@/lib/gemini";
-import { analyseCompany, domain, normalise, toSources } from "@/lib/signals";
+import { NEWS_BLOCKLIST } from "@/lib/news-blocklist";
+import { analyseCompany, domain, normalise, toSources, wasAcquired } from "@/lib/signals";
 import type { CallListEntry, Founder, FundMatch, PortfolioCompany, Report, Signal, Source, StreamEvent } from "@/lib/types";
 
 export interface PipelineDeps {
@@ -72,7 +73,7 @@ export function checkQuestions(qs: unknown, why: Signal[], fund: string): string
   return ok.slice(0, 3);
 }
 
-function questionPrompt(company: string, fund: string, why: Signal[]) {
+export function questionPrompt(company: string, fund: string, why: Signal[]) {
   return [
     `You help a startup founder prepare a reference call about the venture fund ${fund}.`,
     `They will call a founder of ${company}, a ${fund} portfolio company. Known facts:`,
@@ -83,15 +84,6 @@ function questionPrompt(company: string, fund: string, why: Signal[]) {
   ].join("\n");
 }
 
-/** "Zendesk acquires Klaus" / "Klaus acquired by Zendesk", not "Klaus acquires Promoty". Both args normalised (no regex specials). */
-function wasAcquired(t: string, n: string) {
-  return [
-    `\\bacqui(re|res|red|ring|sition)( of)? ${n}\\b`,
-    `\\b${n} (\\S+ ){0,10}acquired by\\b`,
-    `\\b${n} (is|was|has been|had been|gets|got) acquired\\b`,
-  ].some((re) => new RegExp(re).test(t));
-}
-
 export function newsSignals(results: ExaResult[], company: string, fundName: string): Signal[] {
   const n = normalise(company);
   const fundSlug = normalise(fundName).replace(/ /g, "");
@@ -99,7 +91,9 @@ export function newsSignals(results: ExaResult[], company: string, fundName: str
   for (const r of results) {
     const host = domain(r.url);
     if (host.replace(/[^a-z0-9]/g, "").includes(fundSlug) || r.url.includes(`medium.com/${fundSlug}`)) continue;
-    const text = `${r.title ?? ""} ${(r.highlights ?? []).join(" ")}`;
+    if (/(^|\.)glassdoor\./.test(host) || NEWS_BLOCKLIST.has(r.url)) continue; // employee reviews aren't news
+    // Title only: highlights of a page about something else name the company in passing (namesakes, "X acquires Y").
+    const text = r.title ?? "";
     if (!` ${normalise(text)} `.includes(` ${n} `) || !NEWS_WORD.test(text)) continue;
     const kind = NEWS_KIND.find(([re]) => re.test(text))![1];
     if (kind === "acquisition" && !wasAcquired(normalise(text), n)) continue;
@@ -238,8 +232,8 @@ export function createPipeline(deps: PipelineDeps) {
           const raw = await gemini.questions(questionPrompt(co.name, fund.name, a.signals)).catch(() => []);
           const questions = checkQuestions(raw, a.signals, fund.name);
           for (const founder of co.founders) {
-            // Cala sometimes has two entities for one company (FLOWHAVEN OY / Flowhaven Oy): one entry per person.
-            const key = `${normalise(co.name)}|${normalise(founder.name)}`;
+            // Cala sometimes has two entities for one company (FLOWHAVEN OY / Flowhaven Oy, IQM / IQM Quantum Computers Oyj): one entry per person.
+            const key = normalise(founder.name);
             if (listed.has(key)) continue;
             listed.add(key);
             const entry: CallListEntry = {
@@ -257,7 +251,10 @@ export function createPipeline(deps: PipelineDeps) {
         }
       };
 
-      for (const i of order) {
+      // Cala's quota seems to reset about once a minute; a company it gave up on gets one more try at the end.
+      const queue = [...order];
+      const retried = new Set<number>();
+      for (let i = queue.shift(); i !== undefined; i = queue.shift()) {
         if (now().getTime() - start > budgetMs) {
           complete = false;
           progress("Stopped early; showing what was found");
@@ -268,6 +265,12 @@ export function createPipeline(deps: PipelineDeps) {
         try {
           entity = await cala.getEntity(co.calaId, COMPANY_PROJECTION, { onRetry });
         } catch (e) {
+          if (e instanceof CalaGaveUp && !retried.has(i)) {
+            retried.add(i);
+            queue.push(i);
+            progress(`Data source busy; will retry ${co.name} later`);
+            continue;
+          }
           co.state = "unavailable";
           out.push({ type: "company", company: structuredClone(co) });
           progress(e instanceof CalaGaveUp ? `Data source busy; skipped ${co.name}` : `Could not load ${co.name}`);

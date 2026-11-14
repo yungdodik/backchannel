@@ -36,7 +36,7 @@ The founder types a fund name and picks the right fund from the matches. Within 
 3. **Enrich companies in priority order** (D17: oldest first, using the earliest source date on the INVESTED_IN link). One Cala call per company: `POST /v1/entities/{company}` with properties `description, operational_status, founding_date` and relationships `incoming FOUNDED / IS_CEO_OF` (limit 10) and `outgoing PARTICIPATES_IN_CORPORATE_EVENT` (limit 20). Fixtures: `test/fixtures/cala/company_*.json`.
    - **Company rounds:** these are the PrivateCompanyFundingRound links. The projection carries **no label, amount or investors**. Set `label = "Funding round"`, `amount` undefined, `coInvestors: []`. No per-round fetches.
    - **Round date:** `event_date`, unless it is missing or ends in `-01-01` (year precision; the Modash fund round shows 2019-01-01 against a 2022-11 announcement). Otherwise use the earliest source `date`.
-   - **Acquisition, not a round:** sources whose names match `/acqui|exit|merge/i` are acquisition evidence, never round sources. A link with such a source and no `event_date` is not a round; a link with an `event_date` stays a round with its other sources (Klaus: 2019/2022 rounds each carry a 2024 "Klaus acquired" source). It becomes a `news_event` signal, "Reported acquisition ({source domain}, {YYYY-MM})", with those sources. Fixture: Vespia ("Icebreaker.vc exits from Vespia").
+   - **Acquisition, not a round:** sources whose names match `/acqui|exit|merge/i` are acquisition evidence, never round sources. A link with such a source and no `event_date` is not a round; a link with an `event_date` stays a round with its other sources (Klaus: 2019/2022 rounds each carry a 2024 "Klaus acquired" source). An "acqui…" source counts as an acquisition of the company only in the acquired direction (same rule as step 6; "Kahoot acquires DragonBox" is neither a round nor news). It becomes a `news_event` signal, "Reported acquisition ({source domain}, {YYYY-MM})", with those sources. Fixture: Vespia ("Icebreaker.vc exits from Vespia").
    - **fund_led:** join each fund round from step 2 to a company round when they share a source `document` URL. On a match, set that `Round.fundIsLead = is_lead` and, if true, emit `fund_led`, "{fund} led a round ({YYYY-MM})". No match means `fundIsLead: null` and no signal. No issuer fetches.
    - **Sources:** drop any whose `document` is empty (e.g. `"Cala AI"`).
    - **Give-up:** if Cala gives up on a company after its retries, or the time budget is hit, set `state: "unavailable"`.
@@ -59,11 +59,12 @@ The founder types a fund name and picks the right fund from the matches. Within 
      - Exact match only: "Alvin" ≠ "Alvin Technologies" ≠ "AlvinAI" (fixture `exa/exa_probe.json` → `people_Alvin`).
      - A name in parentheses also counts: "Zendesk QA (Klaus)" matches Klaus (acquired companies keep the old name there).
      - `evidence = "{title}, {company}"`, `linkedinUrl` = the result URL, source = that URL. `via: "exa+gemini"` (legacy name; the UI shows "via web").
-   - Dedupe people by normalised name (Cala lists one person under both FOUNDED and IS_CEO_OF), and one call-list entry per (normalised company name, founder): Cala can hold two entities for one company (FLOWHAVEN OY / Flowhaven Oy).
+   - Dedupe people by normalised name (Cala lists one person under both FOUNDED and IS_CEO_OF), and one call-list entry per founder (normalised name) per fund: Cala can hold two entities for one company (FLOWHAVEN OY / Flowhaven Oy, IQM / IQM Quantum Computers Oyj).
    - Max 2 founders per company. A grouped company with 0 founders is **not** on the call list; it stays in the table.
 6. **News** (runs before step 5, since news can give an undated company its group) runs only for grouped companies whose group is `no_recent_round`, plus companies with no dated round. One Exa search: `"{normalise(name)}" shut down OR acquired OR layoffs OR bankruptcy`, `startPublishedDate` = now − 3 years, 5 results with highlights. Exclude the fund's own domain and its `medium.com/<fund>` blog (D22).
-   - Keep a result only if title + highlight contains `normalise(name)` and matches `/shut ?down|acqui[rs]|layoff|bankrupt/i` ("acquisition" too).
+   - Keep a result only if the **title** (highlights name companies in passing: namesakes, "X acquires Y") contains `normalise(name)` and matches `/shut ?down|acqui[rs]|layoff|bankrupt/i` ("acquisition" too).
    - An acquisition counts only when the company is the one acquired: "acquire(s/d)/acquisition (of) {name}", "{name} … acquired by", "{name} was/has been acquired" (not "Modash acquires Promoty").
+   - Skip employee-review sites (glassdoor.*) and URLs in `lib/news-blocklist.ts` (namesakes found when reading the demo reports by hand, each with a reason).
    - The kind comes from the matched word. Group results by kind and keep only the kind(s) with the most results, all of them as sources: namesakes slip through ("Klaus Brewing Co. to shut down" vs 4 sources on the Klaus acquisition).
    - The kind comes from the matched word. It becomes "Reported {acquisition|shutdown|layoffs|bankruptcy} ({domain}, {YYYY-MM})". Recompute the group.
    - No LLM in this step.
@@ -75,7 +76,7 @@ The founder types a fund name and picks the right fund from the matches. Within 
    - `npm run precompute -- <calaId>…` runs the pipeline locally with no time budget. It writes `data/reports/{calaId}.json` and regenerates `lib/cached-reports.ts`, a static import map `{ [calaId]: () => import("@/data/reports/<id>.json") }`.
    - There is no runtime `fs` (Vercel doesn't bundle it) and no Upstash in v1.
 10. **Limits:**
-    - **Cala:** one shared queue, concurrency 1, configurable minimum gap (start 1 s). On a 429, retry with backoff 1, 2, 4, 8, 16 s, then give up on that item. While retrying, emit `progress: "waiting for data source…"`.
+    - **Cala:** one shared queue, concurrency 1, configurable minimum gap (start 1 s). On a 429, retry with backoff 1, 2, 4, 8, 16 s, then give up on that item; a company given up on gets one more try at the end of the run (the quota looks per-minute: give-ups came every ~64 s). While retrying, emit `progress: "waiting for data source…"`.
     - **Exa and Gemini:** concurrency 5 each.
     - **Live time budget** = `maxDuration` − 20 s. When it's hit, stop, set the remaining companies to `unavailable`, emit `progress: "Stopped early; showing what was found"`, then `done` with `complete: false`. Live runs enrich at most the first 25 companies by priority.
 
