@@ -149,7 +149,52 @@
       ],
       "state": "enriched",
       "description": "Finnish company founded in 2020 and based in Helsinki.",
-      "lastRoundDate": "2021-01-28"
+      "lastRoundDate": "2021-01-28",
+      "overview": {
+        "text": "FLOWHAVEN OY is a Finnish company founded in 2020 and based in Helsinki. It completed a funding round in April 2020 and raised $16 million in a January 2021 funding round from Sapphire Sport and Global Founders Capital.",
+        "sources": [
+          {
+            "url": "https://www.icebreaker.vc",
+            "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+            "date": "2021-01-28"
+          },
+          {
+            "url": "https://thehub.io/funding/icebreaker",
+            "name": "The Hub | Funding | Icebreaker.vc",
+            "date": "2017-01-26"
+          },
+          {
+            "url": "https://www.finsmes.com/tag/icebreaker-vc",
+            "name": "www.finsmes.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://techcrunch.com/2021/01/28/flowhaven-raises-16m-to-evolve-brand-licensing-management-beyond-emails-and-spreadsheets",
+            "name": "Flowhaven raises $16M to evolve brand licensing management beyond emails and spreadsheets | TechCrunch",
+            "date": "2021-01-28"
+          },
+          {
+            "url": "https://www.businessinsider.com/linkedin-flowhaven-sapphire-pitch-deck-technology-2021-2",
+            "name": "Linkedin investor Sapphire backed licensing platform Flowhaven in a $16 million funding round after seeing this pitch deck",
+            "date": "2021-02-02"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/265427-56",
+            "name": "pitchbook.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://find-and-update.company-information.service.gov.uk/company/FC037274",
+            "name": "Companies House UK",
+            "date": "2026-11-01"
+          },
+          {
+            "url": "https://techcrunch.com?p=1978976",
+            "name": "Finnish VC Icebreaker launches second fund to continue backing 'pre-founders' and pre-seed startups | TechCrunch",
+            "date": "2020-04-26"
+          }
+        ]
+      }
     },
     {
       "calaId": "07a7a3de-5519-48f5-8538-6589a4c6a9e0",
@@ -234,7 +279,32 @@
       ],
       "state": "enriched",
       "description": "Provides institutional digital asset lending services, enabling institutions to lend and borrow cryptocurrencies.",
-      "lastRoundDate": "2026-08-25"
+      "lastRoundDate": "2026-08-25",
+      "overview": {
+        "text": "Tesseract provides institutional digital asset lending services, enabling institutions to lend and borrow cryptocurrencies. The company's last recorded funding round occurred in August 2026.",
+        "sources": [
+          {
+            "url": "https://www.icebreaker.vc",
+            "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+            "date": "2021-01-28"
+          },
+          {
+            "url": "https://superscout.co/investor/icebreaker-vc",
+            "name": "Icebreaker.vc: The Early Stage Founder's Guide",
+            "date": "2017-01-01"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/tesseract/__NszA0k6Tl8b39VC6HtqBCauWhjvk3xoS300jb8qKDKs/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/233640-28",
+            "name": "pitchbook.com",
+            "date": "2026-08-25"
+          }
+        ]
+      }
     },
     {
       "calaId": "0f3a64e2-48c8-4fd8-8f77-483096cae74c",
@@ -380,7 +450,27 @@
       ],
       "state": "enriched",
       "description": "The platform for all your life events.",
-      "lastRoundDate": "2016-11-08"
+      "lastRoundDate": "2016-11-08",
+      "overview": {
+        "text": "Joy is a platform for all your life events. In November 2016, the company raised $4.5 million in a funding round. Investors in the round included Sierra Ventures, Matrix Partners, Fuel Capital, Liquid 2 Ventures, Joe Montana, Matt Bellamy, Marc Pincus, and Alexia Tsotsis.",
+        "sources": [
+          {
+            "url": "https://unicorn-nest.com/funds/icebreaker-vc",
+            "name": "unicorn-nest.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://techcrunch.com/2016/11/08/digital-wedding-planner-joy-says-i-do-to-4-5-million-in-seed-funding",
+            "name": "Digital wedding planner Joy says 'I do' to $4.5 million in seed funding | TechCrunch",
+            "date": "2016-11-08"
+          },
+          {
+            "url": "https://github.com/yc-oss/api",
+            "name": "Y Combinator",
+            "date": "2026-06-30"
+          }
+        ]
+      }
     },
     {
       "calaId": "1281e10a-7a2e-4f4b-a6e1-548c32178126",
@@ -542,7 +632,42 @@
       ],
       "state": "enriched",
       "description": "Estonian fintech and software services company founded in 2020 and headquartered in Maardu.",
-      "lastRoundDate": "2026-02-05"
+      "lastRoundDate": "2026-02-05",
+      "overview": {
+        "text": "Vespia OÜ is an Estonian fintech and software services company founded in 2020 and headquartered in Maardu. In February 2026, the company recorded a funding round and was acquired by Veriff, with Icebreaker.vc exiting the company.",
+        "sources": [
+          {
+            "url": "https://estvca.ee/news/exit-icebreaker-vc-portfolio-company-vespia-has-been-acquired-by-veriff",
+            "name": "EXIT: Icebreaker.vc portfolio company Vespia has been acquired by Veriff | EstVCA",
+            "date": "2026-02-06"
+          },
+          {
+            "url": "https://www.balticvc.com/2026/02/estonian-icebreakervc-exits-from-vespia.html",
+            "name": "Estonian Icebreaker.vc exits from Vespia",
+            "date": "2026-02-06"
+          },
+          {
+            "url": "https://www.veriff.com/pr-news/kyb-business-verification",
+            "name": "www.veriff.com",
+            "date": "2026-06-10"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/182847-25",
+            "name": "pitchbook.com",
+            "date": "2026-06-10"
+          },
+          {
+            "url": "https://www.cbinsights.com/company/vespia/financials",
+            "name": "Vespia",
+            "date": "2022-09-22"
+          },
+          {
+            "url": "https://www.estvca.ee/news/exit-icebreaker-vc-portfolio-company-vespia-has-been-acquired-by-veriff",
+            "name": "EXIT: Icebreaker.vc portfolio company Vespia has been acquired by Veriff | EstVCA",
+            "date": "2026-02-06"
+          }
+        ]
+      }
     },
     {
       "calaId": "1370d7cd-70a5-5639-8ad6-4530517f12c9",
@@ -580,7 +705,32 @@
         }
       ],
       "state": "enriched",
-      "description": "Hemby provides elderly care that is personal, family-centered and encompasses all that is needed from a single point of contact"
+      "description": "Hemby provides elderly care that is personal, family-centered and encompasses all that is needed from a single point of contact",
+      "overview": {
+        "text": "Hemby provides elderly care that is personal, family-centered, and encompasses all that is needed from a single point of contact.",
+        "sources": [
+          {
+            "url": "https://en.ain.ua/2022/05/17/helppy-secures-3m",
+            "name": "en.ain.ua",
+            "date": "2022-05-17"
+          },
+          {
+            "url": "https://hemby.com/",
+            "name": "hemby.com",
+            "date": "2026-11-02"
+          },
+          {
+            "url": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=2910554-3",
+            "name": "avoindata.prh.fi",
+            "date": "2026-11-12"
+          },
+          {
+            "url": "https://www.hemby.fi/tietoa-meista",
+            "name": "hemby.fi",
+            "date": "2026-11-12"
+          }
+        ]
+      }
     },
     {
       "calaId": "17c5c020-6037-4743-ae24-49a59ec0cbe6",
@@ -749,7 +899,47 @@
       ],
       "state": "enriched",
       "description": "Finnish aerospace and defense company based in Helsinki specializing in space technology.",
-      "lastRoundDate": "2025-09-08"
+      "lastRoundDate": "2025-09-08",
+      "overview": {
+        "text": "ReOrbit is a Finnish aerospace and defense company based in Helsinki specializing in space technology. The company raised a $7.4M funding round in August 2023 with investors Inventure VC, 10xFounders, Expansion, and YesVC, followed by a round from Business Finland in December 2023. In September 2025, ReOrbit raised a €45 million funding round backed by Springvest, Varma, Elo, Expansion VC, 10x Founders, and Inventure.",
+        "sources": [
+          {
+            "url": "https://www.icebreaker.vc",
+            "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+            "date": "2021-01-28"
+          },
+          {
+            "url": "https://superscout.co/investor/icebreaker-vc",
+            "name": "Icebreaker.vc: The Early Stage Founder's Guide",
+            "date": "2017-01-01"
+          },
+          {
+            "url": "https://leadiq.com/c/icebreakervc/5a1daee62300005c00a59559",
+            "name": "Icebreaker.vc Company Overview, Contact Details & Competitors | LeadIQ",
+            "date": "2026-06-02"
+          },
+          {
+            "url": "https://techcrunch.com/2025/09/08/reorbit-lands-record-funding-to-take-on-musks-starlink-from-europe",
+            "name": "ReOrbit lands record funding to take on Musk's Starlink from Europe | TechCrunch",
+            "date": "2025-09-08"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/reorbit/__jHH-J3eAQMBCCadIhwtvwYXFm3lkmdlH_FvBx81hPew/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://www.reorbit.space/news/reorbit-receives-young-innovative-company-funding-from-business-finland-to-help-expand-and-scale-internationally",
+            "name": "ReOrbit Receives Young Innovative Company Funding from Business Finland to Help Expand and Scale Internationally | ReOrbit",
+            "date": "2023-12-18"
+          },
+          {
+            "url": "https://www.reorbit.space/news/reorbit-completes-oversubscribed-usd7-4m-seed-funding-round-enabling-real-time-dataflow-in-space",
+            "name": "ReOrbit Completes Oversubscribed $7.4M Seed Funding Round: Enabling Real-Time Dataflow in Space | ReOrbit",
+            "date": "2023-08-30"
+          }
+        ]
+      }
     },
     {
       "calaId": "18b35d73-31f2-4dda-8d4a-7e602e1e8a8d",
@@ -838,7 +1028,27 @@
       ],
       "state": "enriched",
       "description": "A plug-and-play SaaS platform that automates data lineage to help data teams improve data quality, reliability, governance, and reduce costs.",
-      "lastRoundDate": "2022-10-12"
+      "lastRoundDate": "2022-10-12",
+      "overview": {
+        "text": "Alvin is a plug-and-play SaaS platform that automates data lineage to help data teams improve data quality, reliability, governance, and reduce costs. In October 2022, the company raised $6 million in a funding round with Project A Ventures named as an investor.",
+        "sources": [
+          {
+            "url": "https://www.icebreaker.vc",
+            "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+            "date": "2021-01-28"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/462271-78",
+            "name": "pitchbook.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://venturebeat.com/business/alvin-nabs-6m-to-help-enterprises-map-data-flows-address-quality-issues",
+            "name": "Alvin improves data quality, maps flows with data lineage platform, nabs $6M | VentureBeat",
+            "date": "2022-10-12"
+          }
+        ]
+      }
     },
     {
       "calaId": "1d347b8a-f062-4aec-b2ce-cd64081ec640",
@@ -962,7 +1172,42 @@
       ],
       "state": "enriched",
       "description": "A company founded in 2020.",
-      "lastRoundDate": "2020-04-15"
+      "lastRoundDate": "2020-04-15",
+      "overview": {
+        "text": "DASHBIRD INC. is a company founded in 2020. It had a funding round in May 2018 and raised $2.1 million in an April 2020 funding round from Paladin Capital Group, Passion Capital, and Lemonade Stand.",
+        "sources": [
+          {
+            "url": "https://medium.com/icebreakervc/dashbird-raises-2-1-7c009c2cb992",
+            "name": "medium.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://www.eu-startups.com/tag/icebreaker-vc",
+            "name": "www.eu-startups.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/dashbird/__zgZEC4W2qoWXFBHN_ZPq6JubAE6l4q0KQzM3UYjOIck",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/229054-87",
+            "name": "pitchbook.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://find-and-update.company-information.service.gov.uk/company/FC037801",
+            "name": "Companies House UK",
+            "date": "2026-11-01"
+          },
+          {
+            "url": "https://dashbird.io/blog/serveless-monitoring-startup-raises-2-million/",
+            "name": "Dashbird Funding: $2.1m Raised, Plus New Releases",
+            "date": "2020-04-15"
+          }
+        ]
+      }
     },
     {
       "calaId": "1ece17c7-9a2a-42cc-81f2-6d91ed566f76",
@@ -1156,7 +1401,72 @@
       ],
       "state": "enriched",
       "description": "Digital end-to-end transfer pricing platform for multinational companies",
-      "lastRoundDate": "2025-06-06"
+      "lastRoundDate": "2025-06-06",
+      "overview": {
+        "text": "Aibidia is a digital end-to-end transfer pricing platform for multinational companies. The company raised funding rounds in March 2020, May 2023 for $14.2 million, and June 2025 for $28 million.",
+        "sources": [
+          {
+            "url": "https://www.icebreaker.vc",
+            "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+            "date": "2021-01-28"
+          },
+          {
+            "url": "https://superscout.co/investor/icebreaker-vc",
+            "name": "Icebreaker.vc: The Early Stage Founder's Guide",
+            "date": "2017-01-01"
+          },
+          {
+            "url": "https://www.finsmes.com/tag/icebreaker-vc",
+            "name": "www.finsmes.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/ai-bidia/__HbW5NrBixg5OtX4f9l55n9pXr7LCRtEu4HdAtUrN3ho",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/aibidia/__HbW5NrBixg5OtX4f9l55n9pXr7LCRtEu4HdAtUrN3ho/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.crunchbase.com/organization/aibidia",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.crunchbase.com/organization/icebreaker-vc/investor_summary/overview_timeline",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/265427-02",
+            "name": "pitchbook.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.axios.com/pro/fintech-deals/2025/06/04/ai-transfer-pricing-aibidia-28-million",
+            "name": "Aibidia raises $28M for AI tax compliance",
+            "date": "2025-06-04"
+          },
+          {
+            "url": "https://www.businessinsider.com/aibidia-finnish-fintech-startup-raises-142-million-in-fresh-funds-2023-5",
+            "name": "Aibidia: Finnish Fintech Startup Raises $14.2 Million in Fresh Funds - Business Insider",
+            "date": "2023-05-15"
+          },
+          {
+            "url": "https://techcrunch.com/2020/04/26/icebreaker-ii",
+            "name": "Finnish VC Icebreaker launches second fund to continue backing 'pre-founders' and pre-seed startups | TechCrunch",
+            "date": "2020-04-26"
+          },
+          {
+            "url": "https://techcrunch.com?p=1978976",
+            "name": "Finnish VC Icebreaker launches second fund to continue backing 'pre-founders' and pre-seed startups | TechCrunch",
+            "date": "2020-04-26"
+          }
+        ]
+      }
     },
     {
       "calaId": "258f92f7-7772-4cfa-8f20-5d5b16facd5d",
@@ -1267,7 +1577,47 @@
       ],
       "state": "enriched",
       "description": "Osgenic provides high-quality resources for faster understanding of what matters in orthopaedics, traumatology and related disciplines.",
-      "lastRoundDate": "2017-08-22"
+      "lastRoundDate": "2017-08-22",
+      "overview": {
+        "text": "Osgenic Oy provides resources for faster understanding of what matters in orthopaedics, traumatology, and related disciplines. The company had a funding round in August 2017.",
+        "sources": [
+          {
+            "url": "https://www.success.ai/profile/Lasse-Lehtinen-755744597586",
+            "name": "www.success.ai",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://fundingtrip.com/f/icebreakervc",
+            "name": "Icebreaker.vc",
+            "date": "2023-03-29"
+          },
+          {
+            "url": "https://www.crunchbase.com/funding_round/osgenic-pre-seed--dfed7c30",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/222718-87",
+            "name": "pitchbook.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/osgenic/__XoSsEVSWwbBvYQCAC5KMoPkFoagP4UCETncwzIr8JZs",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://osgenic.com/",
+            "name": "osgenic.com",
+            "date": "2026-11-02"
+          },
+          {
+            "url": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=2851145-1",
+            "name": "avoindata.prh.fi",
+            "date": "2026-11-12"
+          }
+        ]
+      }
     },
     {
       "calaId": "28d85aec-8ab8-439c-a74b-205b55f884e4",
@@ -1504,7 +1854,62 @@
       ],
       "state": "enriched",
       "description": "High performing marketing teams use Modash to find, analyze and monitor influencers at scale all over the world. Join them today.",
-      "lastRoundDate": "2024-10-31"
+      "lastRoundDate": "2024-10-31",
+      "overview": {
+        "text": "Modash OÜ is used by marketing teams to find, analyze, and monitor influencers at scale all over the world. The company had a funding round in December 2018, raised $2M in November 2022 from Change Ventures, Tomas Slimas, Kristjan Vilosius, and Akim Arhipov, and raised $12 million in October 2024 from henQ.",
+        "sources": [
+          {
+            "url": "https://www.modash.io/blog/press-release-icebreaker-vc-backs-modash-total-funding-over-220000",
+            "name": "Press Release: Icebreaker.vc backs Modash. Total funding over $220,000",
+            "date": "2026-03-12"
+          },
+          {
+            "url": "https://seedtable.com/investors/icebreakervc",
+            "name": "seedtable.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://bebeez.eu/2024/10/31/estonias-modash-raises-12m-series-a-for-ai-driven-creator-discovery-and-payment-solutions/",
+            "name": "bebeez.eu",
+            "date": "2024-10-31"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/modash/__Ox4dGyAFq8IfQ8vCWivUjD0mUDGoZD4X1WA_zj-1C18",
+            "name": "tracxn.com",
+            "date": "2026-06-10"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/modash/__Ox4dGyAFq8IfQ8vCWivUjD0mUDGoZD4X1WA_zj-1C18/funding-and-investors",
+            "name": "Modash - 2026 Funding Rounds & List of Investors - Tracxn",
+            "date": "2021-08-17"
+          },
+          {
+            "url": "https://techcrunch.com/2024/10/30/modash-is-flipping-the-influencer-marketing-script-by-connecting-brands-with-the-long-tail-of-creators",
+            "name": "Modash is flipping the influencer marketing script by connecting brands with the long tail of creators | TechCrunch",
+            "date": "2024-10-30"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/265339-90",
+            "name": "pitchbook.com",
+            "date": "2026-06-10"
+          },
+          {
+            "url": "https://ariregister.rik.ee/est/company/14434162",
+            "name": "ariregister.rik.ee",
+            "date": "2026-11-02"
+          },
+          {
+            "url": "https://www.modash.io/",
+            "name": "modash.io",
+            "date": "2026-11-06"
+          },
+          {
+            "url": "https://www.modash.io/blog/modash-raises-2m",
+            "name": "Modash Raises $2M To Power 1,000,000 Creator Partnerships Per Year",
+            "date": "2022-11-23"
+          }
+        ]
+      }
     },
     {
       "calaId": "2fcbdac0-4027-4b78-8a5b-67a99447ca81",
@@ -1632,7 +2037,42 @@
       ],
       "state": "enriched",
       "description": "AI-powered customer service quality management platform (acquired by Zendesk)",
-      "lastRoundDate": "2022-09-29"
+      "lastRoundDate": "2022-09-29",
+      "overview": {
+        "text": "Klaus is an AI-powered customer service quality management platform. The company raised $1.9M in July 2019 with Creandum, followed by a €12 million (~$11.49 million) funding round in September 2022 with investor Acton Capital. In February 2024, TechCrunch reported that Klaus was acquired by Zendesk.",
+        "sources": [
+          {
+            "url": "https://www.icebreaker.vc",
+            "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+            "date": "2021-01-28"
+          },
+          {
+            "url": "https://angelspartners.com/firm/IcebreakerVC",
+            "name": "angelspartners.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://techcrunch.com/2022/09/29/klaus-secures-fresh-capital-to-automatically-categorize-and-score-customer-interactions",
+            "name": "Klaus secures fresh capital to automatically categorize and score customer interactions | TechCrunch",
+            "date": "2022-09-29"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/klaus/__caJc5TKxE2PXIYxiSY9PqIYKFJ7LJbFh9L1xAAugkcc/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://techcrunch.com/2024/02/13/ai-powered-estonian-qa-startup-klaus-acquired-by-zendesk",
+            "name": "AI-powered Estonian QA startup Klaus acquired by Zendesk | TechCrunch",
+            "date": "2024-02-13"
+          },
+          {
+            "url": "https://techcrunch.com/2019/07/03/klaus",
+            "name": "Klaus, the 'conversation review' tool for support teams, picks up $1.9M seed | TechCrunch",
+            "date": "2019-07-03"
+          }
+        ]
+      }
     },
     {
       "calaId": "32d9d83a-1a7b-4fde-9a53-a2a65f1a4013",
@@ -1841,7 +2281,57 @@
       ],
       "state": "enriched",
       "description": "Digital platform connecting elderly people with helpers for daily tasks",
-      "lastRoundDate": "2022-05-17"
+      "lastRoundDate": "2022-05-17",
+      "overview": {
+        "text": "Helppy is a digital platform that connects elderly people with helpers for daily tasks. The company raised a ‣3 million funding round in October 2021 from Alliance Venture, Johannes Schildt, and Elias Aalto. In May 2022, it raised another ‣3 million funding round from the same investors.",
+        "sources": [
+          {
+            "url": "https://www.icebreaker.vc",
+            "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+            "date": "2021-01-28"
+          },
+          {
+            "url": "https://www.finsmes.com/tag/icebreaker-vc",
+            "name": "www.finsmes.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://techfundingnews.com/helppy-secures-e3m-to-scale-up-its-neighbourhood-elderly-care-model",
+            "name": "techfundingnews.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://en.ain.ua/2022/05/17/helppy-secures-3m",
+            "name": "en.ain.ua",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.bloomberg.com/news/articles/2022-05-17/startup-helppy-bets-elderly-care-can-bring-100-million-revenue",
+            "name": "www.bloomberg.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://arcticstartup.com/helppy-raises-e3m-seed",
+            "name": "arcticstartup.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.eu-startups.com/2022/05/helsinki-based-helppy-is-revolutionising-home-care-and-has-picked-up-e3-million-to-expand-across-europe",
+            "name": "www.eu-startups.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://nordic9.com/news/helppy-in-a-3-million-in-a-round-led-by-alliance-venture",
+            "name": "nordic9.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.private-equitynews.com/news/helsinki-based-helppy-is-revolutionising-home-care-and-has-picked-up-e3-million-to-expand-across-europe",
+            "name": "Helsinki-based Helppy is revolutionising home care and has picked up €3 million to expand across Europe - private-equitynews.com",
+            "date": "2022-05-24"
+          }
+        ]
+      }
     },
     {
       "calaId": "3318442e-624e-4c94-8b0f-5f93c39a34fa",
@@ -1857,7 +2347,17 @@
         }
       ],
       "state": "enriched",
-      "description": "An automated dropshipping app for Shopify, WooCommerce, and Wix, connecting merchants with products from European and US brands and suppliers."
+      "description": "An automated dropshipping app for Shopify, WooCommerce, and Wix, connecting merchants with products from European and US brands and suppliers.",
+      "overview": {
+        "text": "Hertwill is an automated dropshipping app for Shopify, WooCommerce, and Wix. It connects merchants with products from European and US brands and suppliers.",
+        "sources": [
+          {
+            "url": "https://www.thenetwork.com/profile/aleksi-partanen-c955771d",
+            "name": "www.thenetwork.com",
+            "date": "2026-08-24"
+          }
+        ]
+      }
     },
     {
       "calaId": "332ba5ea-5dae-4a95-a2fc-54909c980eb3",
@@ -1962,7 +2462,47 @@
       ],
       "state": "enriched",
       "description": "Builds a secure interoperability layer for healthcare, enabling seamless data exchange across clinics and technology vendors to reduce friction in clinical workflows.",
-      "lastRoundDate": "2022-11-01"
+      "lastRoundDate": "2022-11-01",
+      "overview": {
+        "text": "Leyr builds a secure interoperability layer for healthcare, enabling seamless data exchange across clinics and technology vendors to reduce friction in clinical workflows. In November 2022, the company raised €635,000 in a funding round.",
+        "sources": [
+          {
+            "url": "https://www.caplight.com/investor/icebreaker",
+            "name": "Icebreaker.vc | Portfolio, Investments & AUM | Caplight",
+            "date": "2026-06-02"
+          },
+          {
+            "url": "https://www.linkedin.com/posts/litwinowski_pre-seed-truly-proud-of-what-helena-holma-activity-7008360018324393984-4xGn",
+            "name": "✅ Pre-seed Truly proud of what Helena Holma and I were able to achieve with Leyr. What a year it has been and OMG, there's so many things to come soon! Huge congratz to Antler and Icebreaker.vc on… | Anton Lytvynovskyi | 12 comments",
+            "date": "2022-12-13"
+          },
+          {
+            "url": "https://www.swedishtechnews.com/healthtech-api-platform-leyr-raises-pre-seed-funding",
+            "name": "Healthtech API platform Leyr raises €635,000 in pre-seed funding",
+            "date": "2022-12-04"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/leyr/__j2VFtoTOueSG2E2NRnjVsVOGVh_qPPu2XrWcspQECnY",
+            "name": "tracxn.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/leyr/__j2VFtoTOueSG2E2NRnjVsVOGVh_qPPu2XrWcspQECnY/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/504074-53",
+            "name": "pitchbook.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://www.swedishtechnews.com/healthtech-api-platform-leyr-raises-pre-seed-funding/",
+            "name": "Healthtech API platform Leyr raises €635,000 in pre-seed funding",
+            "date": "2022-12-04"
+          }
+        ]
+      }
     },
     {
       "calaId": "359b98de-094c-4986-9923-5fee49b5530c",
@@ -1990,7 +2530,22 @@
         }
       ],
       "state": "enriched",
-      "description": "A company incorporated in 2024."
+      "description": "A company incorporated in 2024.",
+      "overview": {
+        "text": "LUTSO is a company incorporated in 2024. Its Cala status is active.",
+        "sources": [
+          {
+            "url": "https://www.thenetwork.com/profile/aleksi-partanen-c955771d",
+            "name": "www.thenetwork.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://find-and-update.company-information.service.gov.uk/company/CE036397",
+            "name": "Companies House UK",
+            "date": "2026-10-01"
+          }
+        ]
+      }
     },
     {
       "calaId": "3fc18fd1-d404-4b59-a629-383a987445c9",
@@ -2095,7 +2650,42 @@
       ],
       "state": "enriched",
       "description": "AI-powered platform for automotive inventory management and fleet sales optimization",
-      "lastRoundDate": "2025-03-18"
+      "lastRoundDate": "2025-03-18",
+      "overview": {
+        "text": "FleetBrains is an AI-powered platform for automotive inventory management and fleet sales optimization. In March 2025, the company raised €800,000 in a funding round.",
+        "sources": [
+          {
+            "url": "https://www.estvca.ee/news/icebreaker-vc-invests-eur800-000-to-fleetbrains",
+            "name": "Icebreaker.vc invests €800,000 to FleetBrains | EstVCA",
+            "date": "2025-03-21"
+          },
+          {
+            "url": "https://en.ain.ua/2025/03/24/estonian-fleetbrains-secures-eur800k-from-icebreakervc",
+            "name": "en.ain.ua",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://www.thenetwork.com/profile/aleksi-partanen-c955771d",
+            "name": "www.thenetwork.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/fleetbrains/__SUOJs-X_I63t82GXvKQguqQU7-4C7yiY1uXuAMEBkPA/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/fleetbrainscom/__SUOJs-X_I63t82GXvKQguqQU7-4C7yiY1uXuAMEBkPA/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/fleetbrainscom/__SUOJs-X_I63t82GXvKQguqQU7-4C7yiY1uXuAMEBkPA",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          }
+        ]
+      }
     },
     {
       "calaId": "43f3f0d1-3535-486b-b0cb-6c3aaf6e27ff",
@@ -2222,7 +2812,37 @@
       ],
       "state": "enriched",
       "description": "Develops AI-powered EEG monitoring software (C-TREND™) that measures brain function in intensive care units using machine learning algorithms.",
-      "lastRoundDate": "2019-09-12"
+      "lastRoundDate": "2019-09-12",
+      "overview": {
+        "text": "Cerenion develops AI-powered EEG monitoring software, C-TREND™, that measures brain function in intensive care units using machine learning algorithms. The company completed a funding round in April 2018 and raised €2 million in a September 2019 funding round from Springvest and Butterfly Ventures.",
+        "sources": [
+          {
+            "url": "https://thehub.io/funding/icebreaker",
+            "name": "The Hub | Funding | Icebreaker.vc",
+            "date": "2017-01-26"
+          },
+          {
+            "url": "https://unicorn-nest.com/funds/icebreaker-vc",
+            "name": "unicorn-nest.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/cerenion/__VmN8avABbzZgSQyp5xS_eCe-Tloo1wJvgfixmctiW7k",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/cerenion/__VmN8avABbzZgSQyp5xS_eCe-Tloo1wJvgfixmctiW7k/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://medium.com/icebreakervc/cerenion-raises-2-million-from-springvest-d94925e040b7",
+            "name": "Cerenion raises €2 Million from Springvest! | by Akseli Taimi | icebreakervc | Medium",
+            "date": "2019-09-16"
+          }
+        ]
+      }
     },
     {
       "calaId": "45558335-1532-47ca-9fea-91ec28d33766",
@@ -2370,7 +2990,57 @@
       ],
       "state": "enriched",
       "description": "Work intelligence platform for process mining and optimization (acquired by Process Maker)",
-      "lastRoundDate": "2021-12-20"
+      "lastRoundDate": "2021-12-20",
+      "overview": {
+        "text": "Workfellow is a work intelligence platform for process mining and optimization. In December 2021, it raised a €2.73M funding round with OpenOcean listed as an investor. A shutdown was reported in February 2024, and ProcessMaker acquired the company in April 2024.",
+        "sources": [
+          {
+            "url": "https://www.icebreaker.vc",
+            "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+            "date": "2021-01-28"
+          },
+          {
+            "url": "https://www.balticvc.com/2026/02/estonian-icebreakervc-exits-from-vespia.html",
+            "name": "Estonian Icebreaker.vc exits from Vespia",
+            "date": "2026-02-06"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/workfellow/__bek7809eqKGYfYMso2ZmgEDWmO2-3PYMBD2ji6pHPX8",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.crunchbase.com/organization/workfellow-ai",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/472106-89",
+            "name": "pitchbook.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.crunchbase.com/person/kulpreet-singh",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tech.eu/2024/02/07/finnish-hrtech-startup-workfellow-announces-shutdown-amid-challenges/",
+            "name": "Finnish HRtech startup Workfellow announces shutdown amid challenges - Tech.eu",
+            "date": "2024-02-07"
+          },
+          {
+            "url": "https://decisions.com/blog/processmaker-acquires-workfellow",
+            "name": "ProcessMaker Acquires Workfellow",
+            "date": "2024-04-09"
+          },
+          {
+            "url": "https://medium.com/icebreakervc/workfellow-closes-a-2-73m-funding-round-led-by-openocean-913a0efdeb2f",
+            "name": "Workfellow closes a €2.73M funding round led by OpenOcean!",
+            "date": "2021-12-16"
+          }
+        ]
+      }
     },
     {
       "calaId": "4e91b640-41bb-45f7-b82c-711a94a2e0e5",
@@ -2515,7 +3185,62 @@
       ],
       "state": "enriched",
       "description": "Cross-border e-commerce for brands: merchant and importer of record, marketplace management on 200+ channels, fulfilment, Apollo AI platform. Started as a Nordic DTC brand aggregator.",
-      "lastRoundDate": "2025-03-12"
+      "lastRoundDate": "2025-03-12",
+      "overview": {
+        "text": "eBrands Global Oy provides cross-border e-commerce for brands, offering merchant and importer of record services, marketplace management on 200+ channels, fulfilment, and the Apollo AI platform. The company, which started as a Nordic DTC brand aggregator, completed funding rounds in May 2022 and March 2025.",
+        "sources": [
+          {
+            "url": "https://www.icebreaker.vc",
+            "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+            "date": "2021-01-28"
+          },
+          {
+            "url": "https://angelspartners.com/firm/IcebreakerVC",
+            "name": "angelspartners.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://ecommercenews.eu/?p=20730",
+            "name": "ecommercenews.eu",
+            "date": "2021-03-05"
+          },
+          {
+            "url": "https://www.crunchbase.com/funding_round/ebrands-series-unknown--26491dbe",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.crunchbase.com/organization/ebrands/company_overview/overview_timeline",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/ebrands/__5Vt2FrOycezBd6u0wlNPlwwd8JV2MvuUzCOlj7-mPNY",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://ebrands.com",
+            "name": "ebrands.com",
+            "date": "2026-11-04"
+          },
+          {
+            "url": "https://www.thesaasnews.com/news/ebrands-raises-7-5-million-in-funding/",
+            "name": "thesaasnews.com",
+            "date": "2026-11-04"
+          },
+          {
+            "url": "https://tech.eu/2022/05/19/sustainability-and-design-driven-nordic-marketplace-aggregator-rakes-in-50-million-funding/",
+            "name": "tech.eu",
+            "date": "2026-11-04"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/462356-20",
+            "name": "pitchbook.com",
+            "date": "2026-08-25"
+          }
+        ]
+      }
     },
     {
       "calaId": "517d6c7d-fc0b-4b97-897a-4ef5c2f62f10",
@@ -2627,7 +3352,32 @@
       ],
       "state": "enriched",
       "description": "A cleantech-focused accelerator and seed-stage fund providing early-stage startups with funding, mentorship, and strategic connections in energy, smart cities, and ESG sectors.",
-      "lastRoundDate": "2023-10-23"
+      "lastRoundDate": "2023-10-23",
+      "overview": {
+        "text": "Alinor is a cleantech-focused accelerator and seed-stage fund that provides early-stage startups with funding, mentorship, and strategic connections in the energy, smart cities, and ESG sectors. It completed funding rounds in October 2022 and October 2023.",
+        "sources": [
+          {
+            "url": "https://www.cbinsights.com/company/alinor/financials",
+            "name": "www.cbinsights.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/503428-06",
+            "name": "pitchbook.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.crunchbase.com/organization/alinor",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.crunchbase.com/funding_round/alinor-series-unknown--f32a7ca3",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-25"
+          }
+        ]
+      }
     },
     {
       "calaId": "55b24791-7df1-45a8-a4f8-e65f45c0ad0b",
@@ -2705,7 +3455,32 @@
       ],
       "state": "enriched",
       "description": "HR tech platform for onboarding and employee experience (merged with Typelane)",
-      "lastRoundDate": "2023-01-17"
+      "lastRoundDate": "2023-01-17",
+      "overview": {
+        "text": "Whippy is an HR tech platform for onboarding and employee experience that merged with Typelane. In January 2023, the company raised a $384K funding round from PION Group.",
+        "sources": [
+          {
+            "url": "https://www.icebreaker.vc",
+            "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+            "date": "2021-01-28"
+          },
+          {
+            "url": "https://vc-mapping.gilion.com/vc-firms/icebreaker",
+            "name": "Icebreaker – Info, Investments & Portfolio",
+            "date": "2026-04-08"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/whippy/__juSY59Kb58jzOTHyz0JxQ6mDTVfVxHVHY3WFHgeACWc/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/whippy/__juSY59Kb58jzOTHyz0JxQ6mDTVfVxHVHY3WFHgeACWc",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          }
+        ]
+      }
     },
     {
       "calaId": "5f625f67-a19d-43d0-9f95-3b4e67943d05",
@@ -2839,7 +3614,37 @@
       ],
       "state": "enriched",
       "description": "Estonian fintech and financial‑insurance company founded in 2020 and headquartered in Tallinn.",
-      "lastRoundDate": "2022-05-18"
+      "lastRoundDate": "2022-05-18",
+      "overview": {
+        "text": "Cachet is an Estonian fintech and financial-insurance company founded in 2020 and headquartered in Tallinn. In May 2022, the company raised €5.5 million in a funding round with participation from Truffle Capital and Uniqa Ventures.",
+        "sources": [
+          {
+            "url": "https://www.icebreaker.vc",
+            "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+            "date": "2021-01-28"
+          },
+          {
+            "url": "https://leadiq.com/c/icebreakervc/5a1daee62300005c00a59559",
+            "name": "Icebreaker.vc Company Overview, Contact Details & Competitors | LeadIQ",
+            "date": "2026-06-02"
+          },
+          {
+            "url": "https://tech.eu/tag/icebreaker-vc",
+            "name": "Icebreaker.vc Tag",
+            "date": "2020-09-03"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/cachet/__xBv-nwdcGrgdIdOax9uV6OPjTbxETBa947B65OHvOSA",
+            "name": "tracxn.com",
+            "date": "2026-06-10"
+          },
+          {
+            "url": "https://private.cachet.me/en/blog/cachet-raises-e5-5m-to-expand-its-marketplace-for-platform-economy-insurance/",
+            "name": "Cachet raises €5.5M to grow platform economy insurance | Cachet",
+            "date": "2022-05-12"
+          }
+        ]
+      }
     },
     {
       "calaId": "6ef526d5-ed22-4dd8-8c1a-ec68a9c40a93",
@@ -2970,7 +3775,52 @@
       ],
       "state": "enriched",
       "description": "A Finnish company founded in 2020 and based in Helsinki.",
-      "lastRoundDate": "2022-11-25"
+      "lastRoundDate": "2022-11-25",
+      "overview": {
+        "text": "Apiable Oy is a Finnish company founded in 2020 and based in Helsinki. In November 2022, the company raised $500,000 in a funding round.",
+        "sources": [
+          {
+            "url": "https://tech.eu/2022/11/25/xdao",
+            "name": "Apiable brings home $500,000 Icebreaker.vc-led funding to scale its no-code API-as-a-service",
+            "date": "2022-11-25"
+          },
+          {
+            "url": "https://www.finsmes.com/tag/icebreaker-vc",
+            "name": "www.finsmes.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://en.ain.ua/2025/03/24/estonian-fleetbrains-secures-eur800k-from-icebreakervc",
+            "name": "en.ain.ua",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://www.thesaasnews.com/news/apiable-raises-500-000-in-pre-seed-funding-round",
+            "name": "Apiable Raises $500,000 in pre-Seed Funding Round",
+            "date": "2022-11-28"
+          },
+          {
+            "url": "https://www.eu-startups.com/2022/11/finnish-startup-apiable-secures-fresh-funding-to-help-companies-join-the-api-economy",
+            "name": "www.eu-startups.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://arcticstartup.com/apiable-raises-500k-pre-seed",
+            "name": "arcticstartup.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.finsmes.com/2022/11/apiable-raises-500k-in-funding.html",
+            "name": "www.finsmes.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.caplight.com/company/apiable",
+            "name": "Apiable | Valuation, Funding Rounds & Stock Price | Caplight",
+            "date": "2021-02-01"
+          }
+        ]
+      }
     },
     {
       "calaId": "701ce45d-b557-4642-812b-eebd66f60d93",
@@ -2986,7 +3836,17 @@
         }
       ],
       "state": "enriched",
-      "description": "Technology startup"
+      "description": "Technology startup",
+      "overview": {
+        "text": "Theymes is a technology startup.",
+        "sources": [
+          {
+            "url": "https://www.thenetwork.com/profile/aleksi-partanen-c955771d",
+            "name": "www.thenetwork.com",
+            "date": "2026-08-24"
+          }
+        ]
+      }
     },
     {
       "calaId": "72561338-dccc-454b-a12e-acad6f73837f",
@@ -3102,7 +3962,42 @@
       ],
       "state": "enriched",
       "description": "QR-based data loggers for supply chain monitoring and condition tracking",
-      "lastRoundDate": "2026-08-25"
+      "lastRoundDate": "2026-08-25",
+      "overview": {
+        "text": "Logmore provides QR-based data loggers for supply chain monitoring and condition tracking. In April 2020, the company raised 4.5 million euros in a funding round from investors NordicNinja VC, Trind Ventures, Tekton Ventures, and Jaakkoo-Taara. Logmore held another funding round in August 2026.",
+        "sources": [
+          {
+            "url": "https://www.icebreaker.vc",
+            "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+            "date": "2021-01-28"
+          },
+          {
+            "url": "https://thehub.io/funding/icebreaker",
+            "name": "The Hub | Funding | Icebreaker.vc",
+            "date": "2017-01-26"
+          },
+          {
+            "url": "https://www.crunchbase.com/funding_round/logmore-seed--16577116",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/logmore/__C566rUTTdEBDdYHYY481O-D_9x9LBdQtjFf9iVLs9tQ/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/logmore/__C566rUTTdEBDdYHYY481O-D_9x9LBdQtjFf9iVLs9tQ",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.logmore.com/post/logmore-raises-eu4-5m/",
+            "name": "Logmore, the seamless QR data logging service for quality management teams, raises €4.5M Series A | Logmore",
+            "date": "2020-04-28"
+          }
+        ]
+      }
     },
     {
       "calaId": "734fbd38-7969-43d3-a47f-b953e4fe232b",
@@ -3231,7 +4126,47 @@
       ],
       "state": "enriched",
       "description": "AI-powered customer feedback analytics platform (acquired by Netigate)",
-      "lastRoundDate": "2018-06-05"
+      "lastRoundDate": "2018-06-05",
+      "overview": {
+        "text": "Lumoa is an AI-powered customer feedback analytics platform. In June 2018, the company raised a €650K funding round with investors Ali Omar and Business Finland. In March 2024, Netigate reported its acquisition of Lumoa.",
+        "sources": [
+          {
+            "url": "https://www.icebreaker.vc",
+            "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+            "date": "2021-01-28"
+          },
+          {
+            "url": "https://www.balticvc.com/2026/02/estonian-icebreakervc-exits-from-vespia.html",
+            "name": "Estonian Icebreaker.vc exits from Vespia",
+            "date": "2026-02-06"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/lumoa/__EUCCGhioyswrN91VgmB7uRpKuaau3wams-18H-GgFek",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/lumoa/__EUCCGhioyswrN91VgmB7uRpKuaau3wams-18H-GgFek/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/228025-99",
+            "name": "pitchbook.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.netigate.net/press/netigate-acquires-lumoa-to-better-harness-the-power-of-feedback/",
+            "name": "Netigate acquires Lumoa to better harness the power of feedback – Netigate",
+            "date": "2024-03-26"
+          },
+          {
+            "url": "https://www.eu-startups.com/2018/06/helsinki-based-lumoa-raises-e650k-to-take-ai-powered-customer-experience-analytics-to-new-markets/",
+            "name": "Helsinki-based Lumoa raises €650K to take AI-powered customer experience analytics to new markets | EU-Startups",
+            "date": "2018-06-05"
+          }
+        ]
+      }
     },
     {
       "calaId": "7f89f651-ba07-4218-a367-9f0f839dbf71",
@@ -3311,7 +4246,27 @@
       ],
       "state": "enriched",
       "description": "Finnish startup for document and proposal automation",
-      "lastRoundDate": "2025-06-01"
+      "lastRoundDate": "2025-06-01",
+      "overview": {
+        "text": "Fondion is a Finnish startup for document and proposal automation. Its last recorded funding round was in June 2025.",
+        "sources": [
+          {
+            "url": "https://tracxn.com/d/venture-capital/icebreaker/__6onsCCxoge0mlrsTAu7qNqkle4NFbLIHo2zNfANtVfw",
+            "name": "tracxn.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/fondion/__icKG0ID9GGRj4uXEJ6BZjuzc7771LCsfuuEFJYSEtHA/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/fondion/__icKG0ID9GGRj4uXEJ6BZjuzc7771LCsfuuEFJYSEtHA",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          }
+        ]
+      }
     },
     {
       "calaId": "8159469d-35ec-4956-ae63-98852911a998",
@@ -3443,7 +4398,37 @@
       ],
       "state": "enriched",
       "description": "PropTech startup and iBuyer providing instant offers for apartment owners",
-      "lastRoundDate": "2019-06-03"
+      "lastRoundDate": "2019-06-03",
+      "overview": {
+        "text": "Kodit.io is a PropTech startup and iBuyer providing instant offers for apartment owners. In June 2019, the company raised €12M ($13.4M) in a funding round with investors FJ Labs, Speedinvest, All Iron Ventures, and Adevinta.",
+        "sources": [
+          {
+            "url": "https://thehub.io/funding/icebreaker",
+            "name": "The Hub | Funding | Icebreaker.vc",
+            "date": "2017-01-26"
+          },
+          {
+            "url": "https://www.finsmes.com/2018/08/kodit-io-closes-e1-7m-seed-funding-round.html",
+            "name": "www.finsmes.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://tech.eu/tag/icebreaker-vc",
+            "name": "Icebreaker.vc Tag",
+            "date": "2020-09-03"
+          },
+          {
+            "url": "https://techcrunch.com/2019/06/03/proptech-startup-kodit-io-raises-13m-to-automate-house-buying-and-selling",
+            "name": "PropTech startup Kodit.io raises $13M to automate house buying and selling | TechCrunch",
+            "date": "2019-06-03"
+          },
+          {
+            "url": "https://pitchbook.com/newsletter/koditio-scores-17m",
+            "name": "pitchbook.com",
+            "date": "2026-08-25"
+          }
+        ]
+      }
     },
     {
       "calaId": "826eb696-eb63-4aac-ba42-cee82552ad20",
@@ -3511,7 +4496,27 @@
       ],
       "state": "enriched",
       "description": "Partnered with HTC, likely offering immersive or spatial computing experiences, but insufficient detail to describe the product precisely.",
-      "lastRoundDate": "2021-06-21"
+      "lastRoundDate": "2021-06-21",
+      "overview": {
+        "text": "Sense Of Space is partnered with HTC and likely offers immersive or spatial computing experiences. The company completed a funding round in June 2021.",
+        "sources": [
+          {
+            "url": "https://www.icebreaker.vc",
+            "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+            "date": "2021-01-28"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/sense-of-space/__uLK0EwjO0IGibpIqUqJ73OUnusiI2DZXn54d6dGeVxw/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.crunchbase.com/organization/sense-of-space",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-25"
+          }
+        ]
+      }
     },
     {
       "calaId": "8502a550-46b3-4790-b869-c450eb925672",
@@ -3690,7 +4695,77 @@
       ],
       "state": "enriched",
       "description": "Cytely operationalizes biological measurement, turning microscopy into standardized, reproducible data so research teams can accelerate discovery.",
-      "lastRoundDate": "2025-10-24"
+      "lastRoundDate": "2025-10-24",
+      "overview": {
+        "text": "Cytely operationalizes biological measurement, turning microscopy into standardized, reproducible data so research teams can accelerate discovery. The company raised a funding round in February 2024, followed by another funding round in October 2025 with investor Ugly Duckling Ventures.",
+        "sources": [
+          {
+            "url": "https://www.estvca.ee/news/tagged/icebreakervc",
+            "name": "News | EstVCA",
+            "date": "2026-06-02"
+          },
+          {
+            "url": "https://www.balticvc.com/2025/10/estonian-icebreakervc-invests-in.html",
+            "name": "Estonian Icebreaker.vc invests in Swedish medtech startup Cytely",
+            "date": "2025-10-23"
+          },
+          {
+            "url": "https://tracxn.com/d/venture-capital/icebreaker/__6onsCCxoge0mlrsTAu7qNqkle4NFbLIHo2zNfANtVfw",
+            "name": "tracxn.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://aiworld.eu/story/cytely-secures-3m-seed-round-to-automate-microscopy-analysis-in-biological-research",
+            "name": "aiworld.eu",
+            "date": "2025-10-31"
+          },
+          {
+            "url": "https://nordic9.com/news/cytely-in-a-3m-round-led-by-ugly-duckling-ventures-joined-by-existing-investor-icebreakervc",
+            "name": "nordic9.com",
+            "date": "2025-10-11"
+          },
+          {
+            "url": "https://www.cbinsights.com/company/cytely/financials",
+            "name": "cbinsights.com",
+            "date": "2026-11-13"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/cytely/__wT9vjUcZYU1Iy5umLisNlsd0wU4zPPfw-4M-6r1vZAA/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/cytely/__wT9vjUcZYU1Iy5umLisNlsd0wU4zPPfw-4M-6r1vZAA",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.crunchbase.com/organization/icebreaker-vc/investor_summary/overview_timeline",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/571802-68",
+            "name": "pitchbook.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://cytely.io/",
+            "name": "cytely.io",
+            "date": "2026-11-03"
+          },
+          {
+            "url": "https://upplysningar.syna.se/foretag/5593955593",
+            "name": "upplysningar.syna.se",
+            "date": "2026-11-13"
+          },
+          {
+            "url": "https://www.cytely.io/resources/news/cytely-accelerating-discovery-to-unlock-human-biology-and-cure-all-preventable-disease",
+            "name": "Cytely: Accelerating Discovery to Unlock Human Biology and Cure All Preventable Disease | Cytely",
+            "date": "2025-10-22"
+          }
+        ]
+      }
     },
     {
       "calaId": "85c41f1c-b4b6-4680-b029-d4c71dc9a9b9",
@@ -3887,7 +4962,52 @@
       ],
       "state": "enriched",
       "description": "Finnish software and education services company founded in 2016 and headquartered in Helsinki.",
-      "lastRoundDate": "2022-05-31"
+      "lastRoundDate": "2022-05-31",
+      "overview": {
+        "text": "Hoxhunt Oy is a Finnish software and education services company founded in 2016 and headquartered in Helsinki. It raised a funding round in June 2018, a €2.5 million funding round in October 2018 from Dawn Capital and Risto Siilasmaa, and a $40 million funding round in May 2022 from Level Equity Management.",
+        "sources": [
+          {
+            "url": "https://www.icebreaker.vc",
+            "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+            "date": "2021-01-28"
+          },
+          {
+            "url": "https://superscout.co/investor/icebreaker-vc",
+            "name": "Icebreaker.vc: The Early Stage Founder's Guide",
+            "date": "2017-01-01"
+          },
+          {
+            "url": "https://www.finsmes.com/tag/icebreaker-vc",
+            "name": "www.finsmes.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/hoxhunt/__ub9_idCcAAYjLYbxJdMRGeuWSGUR43qUQTJCnDvj-Rg/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-06-10"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/170548-21",
+            "name": "pitchbook.com",
+            "date": "2026-06-10"
+          },
+          {
+            "url": "https://news.cision.com/hoxhunt/r/hoxhunt-raises--40m-to-solve-the-hardest-part-of-cybersecurity--people,c3577495",
+            "name": "Hoxhunt raises $40M to solve the hardest part of cybersecurity: people - Hoxhunt",
+            "date": "2022-05-31"
+          },
+          {
+            "url": "https://www.accessnewswire.com/newsroom/en/business-and-professional-services/hoxhunt-announces-%e2%82%ac2.5-million-series-a-round-led-by-dawn-525410",
+            "name": "HoxHunt announces €2.5 million Series A round led by Dawn Capital",
+            "date": "2018-10-16"
+          },
+          {
+            "url": "https://techcrunch.com/2020/04/26/icebreaker-ii",
+            "name": "Finnish VC Icebreaker launches second fund to continue backing 'pre-founders' and pre-seed startups | TechCrunch",
+            "date": "2020-04-26"
+          }
+        ]
+      }
     },
     {
       "calaId": "89888bda-2012-418d-b8b9-ae9368306ecf",
@@ -4029,7 +5149,47 @@
       ],
       "state": "enriched",
       "description": "Software platform to help repair service providers extend the lifetime of devices",
-      "lastRoundDate": "2023-06-07"
+      "lastRoundDate": "2023-06-07",
+      "overview": {
+        "text": "Fixably is a software platform to help repair service providers extend the lifetime of devices. The company raised a €1.6 million funding round in September 2020. In June 2023, it raised a $10 million funding round with investors 468 Capital, Cusp Capital, and Business Finland.",
+        "sources": [
+          {
+            "url": "https://www.icebreaker.vc",
+            "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+            "date": "2021-01-28"
+          },
+          {
+            "url": "https://www.finsmes.com/tag/icebreaker-vc",
+            "name": "www.finsmes.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://goldi.ai/intelligence/vc/icebreakervc",
+            "name": "Icebreaker.vc — Investment Portfolio & Profile",
+            "date": "2026-05-10"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/fixably/__lz3RA1ai2rSMPUTO-ZCflKoDZLzbES7I9ASCBs3kofU/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/439302-43",
+            "name": "pitchbook.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.fixably.com/blog/fixably-secures-10-million-launches-new-product-to-support-recommerce",
+            "name": "Fixably Secures $10 Million, Launches New Product to Support Recommerce",
+            "date": "2023-06-06"
+          },
+          {
+            "url": "https://www.eu-startups.com/2020/09/espoo-based-fixably-the-software-to-help-fix-hardware-raises-e1-6-million-to-extend-the-lifetime-of-a-billion-devices/",
+            "name": "Espoo-based Fixably, the software to help fix hardware, raises €1.6 million to extend the lifetime of a billion devices | EU-Startups",
+            "date": "2020-09-18"
+          }
+        ]
+      }
     },
     {
       "calaId": "8e416e4e-1947-4dde-ba6e-a1a07228867c",
@@ -4141,7 +5301,32 @@
       ],
       "state": "enriched",
       "description": "Provides infrastructure for automatic digital receipts, integrating with banks, payment providers, and merchants to replace paper receipts with seamless digital delivery.",
-      "lastRoundDate": "2025-12-01"
+      "lastRoundDate": "2025-12-01",
+      "overview": {
+        "text": "Tab provides infrastructure for automatic digital receipts, integrating with banks, payment providers, and merchants to replace paper receipts with digital delivery. In March 2024, the company raised €210K in a funding round from Markus Villig, Mikko Silventola, and Alexander Hanhikoski. It later raised another funding round in December 2025 from Wellstreet Fintech Fund I.",
+        "sources": [
+          {
+            "url": "https://estvca.ee/news/exit-icebreaker-vc-portfolio-company-tab-has-been-acquired-by-kivra",
+            "name": "Exit: Icebreaker.vc portfolio company Tab has been acquired by Kivra | EstVCA",
+            "date": "2026-04-20"
+          },
+          {
+            "url": "https://wellstreet.se/story/wellstreet-invests-in-tab-technology-to-build-the-missing-infrastructure-layer-for-digital-receipts",
+            "name": "Wellstreet invests in Tab Technology to build the missing infrastructure layer for digital receipts",
+            "date": "2026-03-17"
+          },
+          {
+            "url": "https://www.linkedin.com/company/tabtechnology",
+            "name": "Tab | LinkedIn",
+            "date": "2026-03-03"
+          },
+          {
+            "url": "https://nordic9.com/news/tab-technology-raised-210k-pre-seed-with-icebreaker-vc-and-angel-investors-from-the-nordics",
+            "name": "nordic9.com",
+            "date": "2026-08-25"
+          }
+        ]
+      }
     },
     {
       "calaId": "8e7dc3e9-e10a-4f41-9ade-4e2e1504680e",
@@ -4264,7 +5449,32 @@
       ],
       "state": "enriched",
       "description": "Spacetech startup focused on satellite operations and space cybersecurity",
-      "lastRoundDate": "2021-08-10"
+      "lastRoundDate": "2021-08-10",
+      "overview": {
+        "text": "Spaceit is a spacetech startup focused on satellite operations and space cybersecurity. The company completed funding rounds in December 2017 and May 2018, followed by an August 2021 funding round of €1 million from UG Investments.",
+        "sources": [
+          {
+            "url": "https://leadiq.com/c/icebreakervc/5a1daee62300005c00a59559",
+            "name": "Icebreaker.vc Company Overview, Contact Details & Competitors | LeadIQ",
+            "date": "2026-06-02"
+          },
+          {
+            "url": "https://parsers.vc/fund/icebreaker.vc",
+            "name": "parsers.vc",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/spaceit/__GgL1ICuY05q7FkU0A8cS9l2kdMxz9x0xyntbsvc9YMs",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tech.eu/2021/08/10/estonian-satellite-operations-and-space-cybersecurity-startup-spaceit-raises-e1-million/",
+            "name": "Estonian satellite operations and space cybersecurity startup Spaceit raises €1 million - Tech.eu",
+            "date": "2021-08-10"
+          }
+        ]
+      }
     },
     {
       "calaId": "91c46bd3-b0e2-4b6a-b4b0-4f0734627703",
@@ -4280,7 +5490,17 @@
         }
       ],
       "state": "enriched",
-      "description": "A productivity and note‑taking platform that employs Sigge Labor."
+      "description": "A productivity and note‑taking platform that employs Sigge Labor.",
+      "overview": {
+        "text": "Scrintal is a productivity and note-taking platform that employs Sigge Labor.",
+        "sources": [
+          {
+            "url": "https://www.icebreaker.vc",
+            "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+            "date": "2021-01-28"
+          }
+        ]
+      }
     },
     {
       "calaId": "93aea4b5-068c-4218-b61e-8eecfe2b1f5b",
@@ -4325,7 +5545,22 @@
       ],
       "state": "enriched",
       "description": "A social media platform that raised seed funding in early 2023.",
-      "lastRoundDate": "2023-01-19"
+      "lastRoundDate": "2023-01-19",
+      "overview": {
+        "text": "Equel Social is a social media platform. It raised a seed funding round in January 2023.",
+        "sources": [
+          {
+            "url": "https://www.thenetwork.com/profile/aleksi-partanen-c955771d",
+            "name": "www.thenetwork.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://www.crunchbase.com/organization/icebreaker-vc/investor_summary/overview_timeline",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-25"
+          }
+        ]
+      }
     },
     {
       "calaId": "9a138617-86b6-564f-b183-490e264459e1",
@@ -4363,7 +5598,32 @@
         }
       ],
       "state": "enriched",
-      "description": "True incremental ROAS at campaign and ad-set level, every day. Sellforte unifies MMM, incrementality testing and attribution for retail & ecommerce brands."
+      "description": "True incremental ROAS at campaign and ad-set level, every day. Sellforte unifies MMM, incrementality testing and attribution for retail & ecommerce brands.",
+      "overview": {
+        "text": "Sellforte Solutions Oy unifies MMM, incrementality testing, and attribution for retail and ecommerce brands. The company provides true incremental return on ad spend at the campaign and ad-set level every day.",
+        "sources": [
+          {
+            "url": "https://news.cision.com/san-francisco-oy/r/sellforte-raises--4m-funding-to-bring-science-to-marketing,c3311905",
+            "name": "news.cision.com",
+            "date": "2021-03-23"
+          },
+          {
+            "url": "https://sellforte.com/articles/sellforte-raises-4m-funding",
+            "name": "sellforte.com",
+            "date": "2021-03-23"
+          },
+          {
+            "url": "https://sellforte.com/",
+            "name": "sellforte.com",
+            "date": "2026-11-02"
+          },
+          {
+            "url": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=2832424-2",
+            "name": "avoindata.prh.fi",
+            "date": "2026-11-13"
+          }
+        ]
+      }
     },
     {
       "calaId": "9b87212a-ceb8-4887-a6e6-c64b0cda9a43",
@@ -4491,7 +5751,47 @@
       ],
       "state": "enriched",
       "description": "A Tallinn‑based energy‑tech startup.",
-      "lastRoundDate": "2025-02-12"
+      "lastRoundDate": "2025-02-12",
+      "overview": {
+        "text": "Gridraven is a Tallinn-based energy-tech startup. In February 2025, the company raised €4 million in a funding round with investor 42CAP.",
+        "sources": [
+          {
+            "url": "https://www.icebreaker.vc",
+            "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+            "date": "2021-01-28"
+          },
+          {
+            "url": "https://estvca.ee/news/icebreaker-vc-participates-in-gridraven-s-eur4-million-funding-round",
+            "name": "Icebreaker.vc participates in GridRaven's €4 Million funding round | EstVCA",
+            "date": "2025-02-11"
+          },
+          {
+            "url": "https://www.baltictimes.com/gridraven_expands_to_the_united_states_and_secures__4_million_funding",
+            "name": "www.baltictimes.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/gridraven/__c7sJ7n6SHyd516PtSjCSBWMOoKtdNMJ5DauOmIhy44k",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/explore/energy-saas-startups-in-estonia/__tIJ9Rnp9K7j6TVPSFCMnYUxODJX6xJEoKP9Dibk_Xn0/companies",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.crunchbase.com/organization/grid-raven/financial_details",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.gridraven.com/resources/news/press/gridraven-expands-to-the-united-states-and-secures-eu4-million-funding",
+            "name": "Gridraven Expands to the United States and Secures €4 Million Funding",
+            "date": "2025-01-23"
+          }
+        ]
+      }
     },
     {
       "calaId": "a5568f00-2a99-4fa1-9110-3c134112fcb1",
@@ -4607,7 +5907,42 @@
       ],
       "state": "enriched",
       "description": "An early-stage venture capital firm backing idea-stage and pre-seed tech startups across Finland, Estonia, and Sweden with tickets ranging from €150K to €1.5M.",
-      "lastRoundDate": "2021-09-01"
+      "lastRoundDate": "2021-09-01",
+      "overview": {
+        "text": "Spindl is an early-stage venture capital firm backing idea-stage and pre-seed tech startups across Finland, Estonia, and Sweden with tickets ranging from €150K to €1.5M. The firm raised a funding round in September 2021 with investor Aleksi Partanen. In January 2025, Coinbase reportedly acquired Spindl to accelerate the future of onchain ads.",
+        "sources": [
+          {
+            "url": "https://www.thenetwork.com/profile/aleksi-partanen-c955771d",
+            "name": "www.thenetwork.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/spindl/__hfs4EbUh5syAifb4VuYcYCkO06Nu33UN_Q2mFBXi5xY",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.gritt.io/company/spindlapp",
+            "name": "www.gritt.io",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://ecosystem.startupestonia.ee/companies/spindl",
+            "name": "Spindl company information, funding & investors",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.coinbase.com/en-gb/blog/Coinbase-acquires-Spindl-to-accelerate-the-future-of-onchain-ads",
+            "name": "Coinbase acquires Spindl to accelerate the future of onchain ads",
+            "date": "2025-01-31"
+          },
+          {
+            "url": "https://crypto.news/coinbase-acquires-spindl-for-better-onchain-advertising/",
+            "name": "Coinbase acquires Spindl for better onchain advertising",
+            "date": "2025-01-31"
+          }
+        ]
+      }
     },
     {
       "calaId": "b64a3cd3-5541-4b49-94d7-d4bdabdc51af",
@@ -4712,7 +6047,47 @@
       ],
       "state": "enriched",
       "description": "A subsidiary of Goodyear Tire & Rubber Co.",
-      "lastRoundDate": "2018-09-16"
+      "lastRoundDate": "2018-09-16",
+      "overview": {
+        "text": "RoadCloud OY is a subsidiary of Goodyear Tire & Rubber Co. The company had a funding round in September 2018. In May 2024, an acquisition of RoadCloud Oy by The Goodyear Tire & Rubber Company was reported.",
+        "sources": [
+          {
+            "url": "https://www.icebreaker.vc",
+            "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+            "date": "2021-01-28"
+          },
+          {
+            "url": "https://angelspartners.com/firm/IcebreakerVC",
+            "name": "angelspartners.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/roadcloud/__hyLFlTJW4GyCdmVjlazT3jAMdF1S9hG1-6kBLMa9ajc",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.crunchbase.com/organization/roadcloud",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.crunchbase.com/organization/roadcloud/financial_details",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/265429-27",
+            "name": "pitchbook.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.linkedin.com/posts/ari-tuononen-4a88418a_home-roadcloud-activity-7201831088938192896-gBWa",
+            "name": "As announced yesterday, The Goodyear Tire & Rubber Company has acquired RoadCloud Oy. I’d like to thank all our supporters, especially our employees, board members, investors, and customers. RoadCloud’s business will continue … | Ari Tuononen",
+            "date": "2024-05-30"
+          }
+        ]
+      }
     },
     {
       "calaId": "cadf8009-d7e4-41aa-83ff-540accfe7f8a",
@@ -4863,7 +6238,47 @@
       ],
       "state": "enriched",
       "description": "AI-driven service-as-a-software solution for maritime crew management",
-      "lastRoundDate": "2025-05-27"
+      "lastRoundDate": "2025-05-27",
+      "overview": {
+        "text": "Crewpoint is an AI-driven service-as-a-software solution for maritime crew management. The company raised a funding round in May 2025.",
+        "sources": [
+          {
+            "url": "https://crewpoint.com/news/fundraising-round-icebreaker-vc",
+            "name": "Crewpoint Announces First Funding Round Led by Icebreaker.vc to Transform Maritime Crew Travel",
+            "date": "2025-05-30"
+          },
+          {
+            "url": "https://www.estvca.ee/news/tagged/icebreakervc",
+            "name": "News | EstVCA",
+            "date": "2026-06-02"
+          },
+          {
+            "url": "https://tracxn.com/d/venture-capital/icebreaker/__6onsCCxoge0mlrsTAu7qNqkle4NFbLIHo2zNfANtVfw",
+            "name": "tracxn.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/crewpoint/__Z1hgjCGkD0aB01NJl7qMeuhz0OEaPe6GpWXzG_NPspM",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.linkedin.com/posts/crewpoint_crewpoint-announces-first-funding-round-led-activity-7331241981513195521-7e7u",
+            "name": "Crewpoint Announces First Funding Round Led by Icebreaker.vc to Transform Maritime Crew Travel with AI-Driven Service-as-a-Software Solution Tallinn, Estonia – May 2025 Crewpoint, a next-generation… | Crewpoint",
+            "date": "2025-05-22"
+          },
+          {
+            "url": "https://en.ain.ua/2025/05/27/crewpoint-closes-funding-round",
+            "name": "en.ain.ua",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.crunchbase.com/organization/crewpoint",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-25"
+          }
+        ]
+      }
     },
     {
       "calaId": "cc75e3f7-3e62-4964-abcb-9bfe5f4b8bc1",
@@ -5040,7 +6455,62 @@
       ],
       "state": "enriched",
       "description": "Swedish company headquartered in Hjärup, founded in 2022.",
-      "lastRoundDate": "2026-06-03"
+      "lastRoundDate": "2026-06-03",
+      "overview": {
+        "text": "Oplane AB is a Swedish company headquartered in Hjärup that was founded in 2022. In October 2023, the company raised SEK 11.5 million in a funding round. It subsequently raised €4.5 million in a June 2026 funding round from investors Seed Capital, Emil Eifrem, Robert Lagerström, and Joakim Nydrén.",
+        "sources": [
+          {
+            "url": "https://www.linkedin.com/posts/lehtinenlasse_great-news-from-the-icebreakervc-portfolio-activity-7467520906920349697--wbG",
+            "name": "Great news from the Icebreaker.vc portfolio: Oplane raises $5.2M seed round and releases their product globally! But the journey from idea-stage to here was far from a linear path. I had my first… | Lasse Lehtinen",
+            "date": "2026-06-02"
+          },
+          {
+            "url": "https://www.caplight.com/investor/icebreaker",
+            "name": "Icebreaker.vc | Portfolio, Investments & AUM | Caplight",
+            "date": "2026-06-02"
+          },
+          {
+            "url": "https://www.cbinsights.com/investor/icebreaker",
+            "name": "Icebreaker Portfolio Investments, Icebreaker Funds, Icebreaker Exits",
+            "date": "2026-07-27"
+          },
+          {
+            "url": "https://arcticstartup.com/oplane-raises-e4-5m-seed",
+            "name": "arcticstartup.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tech.eu/2026/06/02/oplane-raises-eur45m-to-bring-security-to-ai-development-teams",
+            "name": "Oplane raises €4.5M to bring security to AI development teams",
+            "date": "2026-06-02"
+          },
+          {
+            "url": "https://bebeez.eu/2026/06/02/swedish-oplane-raises-e4-5m-seed-to-automate-threat-modeling-for-ai-coding-teams",
+            "name": "Swedish Oplane raises €4.5M seed to automate threat modeling for AI coding teams",
+            "date": "2026-06-02"
+          },
+          {
+            "url": "https://dealroom.co/news/130839-oplane-raises-4-5m-seed-to-automate-threat-modeling-for-ai-coding-teams",
+            "name": "Oplane raises €4.5M seed to automate threat modeling for AI coding teams | Dealroom News",
+            "date": "2026-06-02"
+          },
+          {
+            "url": "https://startupmafia.eu/oplane-raises-5-2m-seed-to-build-automated-security-architecture-for-ai-native-systems",
+            "name": "Oplane raises $5.2M seed to build automated security architecture for AI-native systems",
+            "date": "2026-06-10"
+          },
+          {
+            "url": "https://nordic9.com/news/oplane-raised-sek-115-million",
+            "name": "nordic9.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/oplane/__QXFzBnd4lu2I93kxDQbHx7RGIK721O0P5Te2I86KD00/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          }
+        ]
+      }
     },
     {
       "calaId": "d17e0abf-0a57-4574-820b-822e5cac6308",
@@ -5193,7 +6663,62 @@
       ],
       "state": "enriched",
       "description": "We transform geopolitical intelligence into actionable business understanding that enhance your business resilience.",
-      "lastRoundDate": "2024-02-07"
+      "lastRoundDate": "2024-02-07",
+      "overview": {
+        "text": "Clock&Cloud transforms geopolitical intelligence into actionable business understanding that enhances business resilience. In February 2024, the company raised a funding round of 271.75k.",
+        "sources": [
+          {
+            "url": "https://www.estvca.ee/news/icebreaker-vc-participates-in-clock-and-cloud-s-eur1-5m-pre-seed-round",
+            "name": "Icebreaker.vc participates in Clock&Cloud's €1.5M pre-seed round | EstVCA",
+            "date": "2025-03-28"
+          },
+          {
+            "url": "https://www.arctictoday.com/%F0%9F%87%AB%F0%9F%87%AE-clockcloud-secures-e1-5-million-pre-seed-to-advance-ai-powered-geopolitical-intelligence-platform/",
+            "name": "arctictoday.com",
+            "date": "2025-04-03"
+          },
+          {
+            "url": "https://www.crunchbase.com/organization/clock-cloud",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.crunchbase.com/organization/clock-cloud/financial_details",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/591423-67",
+            "name": "pitchbook.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/fund/17532-91F",
+            "name": "pitchbook.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://clockcloud.ai/",
+            "name": "clockcloud.ai",
+            "date": "2026-11-02"
+          },
+          {
+            "url": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=3359547-7",
+            "name": "avoindata.prh.fi",
+            "date": "2023-06-12"
+          },
+          {
+            "url": "https://www.linkedin.com/company/clockcloud",
+            "name": "linkedin.com",
+            "date": "2026-11-02"
+          },
+          {
+            "url": "https://nordic9.com/news/clockcloud-was-pre-seeded-by-icebreaker-in-finland/",
+            "name": "Clock&Cloud was pre-seeded by Icebreaker in Finland - Nordic9.com",
+            "date": "2024-03-31"
+          }
+        ]
+      }
     },
     {
       "calaId": "d24577b7-ce7c-54a0-90ac-274cab40c065",
@@ -5231,7 +6756,27 @@
         }
       ],
       "state": "enriched",
-      "description": "We are building autonomous AI to find high-intent leads no one else can find."
+      "description": "We are building autonomous AI to find high-intent leads no one else can find.",
+      "overview": {
+        "text": "Matagi is building autonomous AI to find high-intent leads.",
+        "sources": [
+          {
+            "url": "https://ariregister.rik.ee/eng/company/17221751/tab/registry_card",
+            "name": "ariregister.rik.ee",
+            "date": "2026-11-13"
+          },
+          {
+            "url": "https://matagi.ai/",
+            "name": "matagi.ai",
+            "date": "2026-11-13"
+          },
+          {
+            "url": "https://ariregister.rik.ee/eng/company/17221751",
+            "name": "ariregister.rik.ee",
+            "date": "2026-11-13"
+          }
+        ]
+      }
     },
     {
       "calaId": "d3f9304b-8ffd-46d6-bf90-a40993bc1cd2",
@@ -5456,7 +7001,52 @@
       ],
       "state": "enriched",
       "description": "AI-powered marketing optimization platform helping CMOs make data-driven decisions on marketing, sales, and promotions.",
-      "lastRoundDate": "2021-02-12"
+      "lastRoundDate": "2021-02-12",
+      "overview": {
+        "text": "Sellforte is an AI-powered marketing optimization platform that helps CMOs make data-driven decisions on marketing, sales, and promotions. The company completed funding rounds in August 2017, May 2019, February 2020, and February 2021. In the February 2021 round, it raised €4 million ($4.78 million) from investors Sonae IM and Bonnier Ventures.",
+        "sources": [
+          {
+            "url": "https://www.icebreaker.vc",
+            "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+            "date": "2021-01-28"
+          },
+          {
+            "url": "https://www.finsmes.com/tag/icebreaker-vc",
+            "name": "www.finsmes.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/222718-69",
+            "name": "pitchbook.com",
+            "date": "2026-06-10"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/sellforte/__8U2TNfk3XesWaKqnM0Q4qc1YEgbL-eeP_AWqbHQ_ZNg",
+            "name": "tracxn.com",
+            "date": "2026-06-10"
+          },
+          {
+            "url": "https://tracxn.com/d/venture-capital/icebreaker/__6onsCCxoge0mlrsTAu7qNqkle4NFbLIHo2zNfANtVfw",
+            "name": "tracxn.com",
+            "date": "2026-06-10"
+          },
+          {
+            "url": "https://find-and-update.company-information.service.gov.uk/company/12307261",
+            "name": "Companies House UK",
+            "date": "2026-10-01"
+          },
+          {
+            "url": "https://venturebeat.com/business/marketing-campaign-analytics-startup-sellforte-raises-4-78m",
+            "name": "Marketing campaign analytics startup Sellforte raises $4.78M | VentureBeat",
+            "date": "2021-03-23"
+          },
+          {
+            "url": "https://nordic9.com/news/sellforte-raises-pre-seed-funding-from-icebreaker-for-a-saas-solution-for-retail-industry-news7012920459/",
+            "name": "Sellforte raises pre-seed funding from Icebreaker for a SAAS ...",
+            "date": "2017-08-23"
+          }
+        ]
+      }
     },
     {
       "calaId": "d582b19b-00db-4851-9644-59baacc5cb4b",
@@ -5484,7 +7074,22 @@
         }
       ],
       "state": "enriched",
-      "description": "Employees are already using GenAI. Secure enterprise AI with real-time guardrails, data protection, and full visibility—while safely increasing productivity."
+      "description": "Employees are already using GenAI. Secure enterprise AI with real-time guardrails, data protection, and full visibility—while safely increasing productivity.",
+      "overview": {
+        "text": "NROC Security, Inc. secures enterprise artificial intelligence with real-time guardrails, data protection, and full visibility while safely increasing productivity. It addresses organizations where employees are already using generative artificial intelligence.",
+        "sources": [
+          {
+            "url": "https://nordic9.com/news/nroc-security-was-pre-seeded-by-icebreaker-in-finland/",
+            "name": "nordic9.com",
+            "date": "2023-12-30"
+          },
+          {
+            "url": "https://nrocsecurity.com/",
+            "name": "nrocsecurity.com",
+            "date": "2026-11-02"
+          }
+        ]
+      }
     },
     {
       "calaId": "d7106c50-2d55-4172-a242-8f997e4f89d5",
@@ -5500,7 +7105,17 @@
         }
       ],
       "state": "enriched",
-      "description": "Technology company (acquired by HVD Group)"
+      "description": "Technology company (acquired by HVD Group)",
+      "overview": {
+        "text": "Accurator is a technology company that was acquired by HVD Group.",
+        "sources": [
+          {
+            "url": "https://www.icebreaker.vc",
+            "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+            "date": "2021-01-28"
+          }
+        ]
+      }
     },
     {
       "calaId": "d71148bb-4c54-423c-883c-be4abaf9cc65",
@@ -5548,7 +7163,42 @@
         }
       ],
       "state": "enriched",
-      "description": "ShookAI is your AI creative strategist with persistent memory. It connects to your ad account, tags every video you run, and turns performance into learnings your team keeps. The loop runs on every..."
+      "description": "ShookAI is your AI creative strategist with persistent memory. It connects to your ad account, tags every video you run, and turns performance into learnings your team keeps. The loop runs on every...",
+      "overview": {
+        "text": "Shook Digital provides ShookAI, an AI creative strategist with persistent memory. It connects to an ad account, tags every video run, and turns performance into learnings for a team.",
+        "sources": [
+          {
+            "url": "https://nordic9.com/news/shook-in-a-22m-pre-seed-round-with-icebreaked-and-angel-investors-in-finland/",
+            "name": "nordic9.com",
+            "date": "2024-01-31"
+          },
+          {
+            "url": "https://www.vcbacked.co/company/shook",
+            "name": "vcbacked.co",
+            "date": "2026-11-13"
+          },
+          {
+            "url": "https://www.crunchbase.com/organization/shook-dcaf",
+            "name": "crunchbase.com",
+            "date": "2026-11-13"
+          },
+          {
+            "url": "https://find-and-update.company-information.service.gov.uk/company/FC038940",
+            "name": "Companies House UK",
+            "date": "2026-10-01"
+          },
+          {
+            "url": "https://shook.ai/",
+            "name": "shook.ai",
+            "date": "2026-11-02"
+          },
+          {
+            "url": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=3217492-9",
+            "name": "avoindata.prh.fi",
+            "date": "2026-11-13"
+          }
+        ]
+      }
     },
     {
       "calaId": "d71306ad-ba56-4846-8a33-1cc1914f9d0f",
@@ -5647,7 +7297,32 @@
       ],
       "state": "enriched",
       "description": "Develops microfluidic organ-on-chip platforms using microtechnology and 3D biology solutions for biomedical research and drug testing.",
-      "lastRoundDate": "2022-04-08"
+      "lastRoundDate": "2022-04-08",
+      "overview": {
+        "text": "Finnadvance develops microfluidic organ-on-chip platforms using microtechnology and 3D biology solutions for biomedical research and drug testing. In April 2022, the company raised 1.2 million Euros in a funding round from Athensmed, Voima Ventures, Takoa Invest, Dr. Leena Niemistö, and Sauli Törmälä.",
+        "sources": [
+          {
+            "url": "https://www.icebreaker.vc",
+            "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+            "date": "2021-01-28"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/finnadvance/__HpUEywkFPopCfZGYpSCZqDJUPvJRTcAdaaApiZpSqJU/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.crunchbase.com/funding_round/finnadvance-seed--4ddbb183",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://kuopiohealth.fi/en/finnadvance-has-secured-a-1-2-million-euros-seed-funding-round/",
+            "name": "Finnadvance has secured a 1.2 million Euros seed funding round! - Kuopio Health",
+            "date": "2022-04-13"
+          }
+        ]
+      }
     },
     {
       "calaId": "da87c715-6d32-52c7-b107-aeee58229f79",
@@ -5675,7 +7350,22 @@
         }
       ],
       "state": "enriched",
-      "description": "Flowhaven is the Licensing Relationship Management platform that brings agreements, approvals, royalties, and analytics into one purpose-built system."
+      "description": "Flowhaven is the Licensing Relationship Management platform that brings agreements, approvals, royalties, and analytics into one purpose-built system.",
+      "overview": {
+        "text": "Flowhaven Oy is a Licensing Relationship Management platform that brings agreements, approvals, royalties, and analytics into one system.",
+        "sources": [
+          {
+            "url": "https://licensinginternational.org/news/flowhaven-raises-5-2-million-in-seed-funding-led-by-global-founders-capital-to-expand-brand-licensing-business/",
+            "name": "licensinginternational.org",
+            "date": "2019-12-09"
+          },
+          {
+            "url": "https://flowhaven.com/",
+            "name": "flowhaven.com",
+            "date": "2026-11-02"
+          }
+        ]
+      }
     },
     {
       "calaId": "dd64c2b7-b551-4322-ac10-57fa4eead37e",
@@ -5841,7 +7531,62 @@
       ],
       "state": "enriched",
       "description": "One custom-trained AI engine for prior art search, patent intelligence, and prior-art-aware drafting. Trusted by 275+ organizations worldwide.",
-      "lastRoundDate": "2023-03-21"
+      "lastRoundDate": "2023-03-21",
+      "overview": {
+        "text": "IPRally is a custom-trained AI engine for prior art search, patent intelligence, and prior-art-aware drafting that is trusted by more than 275 organizations worldwide. In January 2021, the company raised a €2 million funding round from JOIN Capital and Spintop Ventures. It later raised a €10 million ($10.8 million) funding round in March 2023 from Endeit Capital, Join Capital, and Spintop Ventures.",
+        "sources": [
+          {
+            "url": "https://www.icebreaker.vc",
+            "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+            "date": "2021-01-28"
+          },
+          {
+            "url": "https://vc-mapping.gilion.com/vc-firms/icebreaker",
+            "name": "Icebreaker – Info, Investments & Portfolio",
+            "date": "2026-04-08"
+          },
+          {
+            "url": "https://goldi.ai/intelligence/vc/icebreakervc",
+            "name": "Icebreaker.vc — Investment Portfolio & Profile",
+            "date": "2026-05-10"
+          },
+          {
+            "url": "https://startupintros.com/news/2018-04-01-iprally-seed",
+            "name": "startupintros.com",
+            "date": "2026-11-12"
+          },
+          {
+            "url": "https://www.iprally.com/news/press-release-iprally-raises-eu2-0-million-to-build-the-patent-search-engine-2-0",
+            "name": "iprally.com",
+            "date": "2021-01-07"
+          },
+          {
+            "url": "https://techcrunch.com/2023/03/21/iprally-a-patent-search-engine-powered-by-explainable-ai-raises-10-8m",
+            "name": "IPRally, a patent search engine powered by explainable AI, raises $10.8M | TechCrunch",
+            "date": "2023-03-21"
+          },
+          {
+            "url": "https://www.crunchbase.com/funding_round/iprally-series-a--c92fe6c6",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.crunchbase.com/organization/iprally/company_overview/overview_timeline",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://iprally.com/",
+            "name": "iprally.com",
+            "date": "2026-11-02"
+          },
+          {
+            "url": "https://techcrunch.com/2021/01/07/iprally",
+            "name": "IPRally is building a knowledge graph-based search engine for patents | TechCrunch",
+            "date": "2021-01-07"
+          }
+        ]
+      }
     },
     {
       "calaId": "eb012d31-2b1c-4bca-9523-9bd8710f5891",
@@ -5970,7 +7715,42 @@
       ],
       "state": "enriched",
       "description": "A Finnish hardware, equipment, and hospitality company headquartered in Kirjala, founded in 2008.",
-      "lastRoundDate": "2022-04-18"
+      "lastRoundDate": "2022-04-18",
+      "overview": {
+        "text": "Valpas is a Finnish hardware, equipment, and hospitality company headquartered in Kirjala that was founded in 2008. In April 2022, the company raised €1.6 million in a funding round from investors ActivumSG Ventures, TESI, Realty Corporation, Maki.vc, and Reaktor.",
+        "sources": [
+          {
+            "url": "https://www.icebreaker.vc",
+            "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+            "date": "2021-01-28"
+          },
+          {
+            "url": "https://thehub.io/funding/icebreaker",
+            "name": "The Hub | Funding | Icebreaker.vc",
+            "date": "2017-01-26"
+          },
+          {
+            "url": "https://goldi.ai/intelligence/vc/icebreakervc",
+            "name": "Icebreaker.vc — Investment Portfolio & Profile",
+            "date": "2026-05-10"
+          },
+          {
+            "url": "https://tracxn.com/d/venture-capital/reaktorventures/__pV0wE3RphXvncsG7r4YzgC67qEvQp1ZHH2obLi3U35o",
+            "name": "tracxn.com",
+            "date": "2026-06-10"
+          },
+          {
+            "url": "https://www.crunchbase.com/organization/valpas",
+            "name": "www.crunchbase.com",
+            "date": "2026-06-10"
+          },
+          {
+            "url": "https://valpashotels.com/blog/valpas-raises-1-6meur-to-empower-hotels-to-make-every-trip-bed-bug-safe",
+            "name": "Valpas raises 1.6m€ to empower hotels to make every trip bed bug-safe",
+            "date": "2022-04-21"
+          }
+        ]
+      }
     },
     {
       "calaId": "ef7781cd-5b49-415b-be03-09891bd4e84e",
@@ -6080,7 +7860,42 @@
       ],
       "state": "enriched",
       "description": "Swedish digital booking management platform for healthcare",
-      "lastRoundDate": "2025-06-26"
+      "lastRoundDate": "2025-06-26",
+      "overview": {
+        "text": "Zymego is a Swedish digital booking management platform for healthcare. In June 2025, the company raised a funding round of 33 miljoner kronor with Industrifonden as a named investor.",
+        "sources": [
+          {
+            "url": "https://www.icebreaker.vc",
+            "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+            "date": "2021-01-28"
+          },
+          {
+            "url": "https://superscout.co/investor/icebreaker-vc",
+            "name": "Icebreaker.vc: The Early Stage Founder's Guide",
+            "date": "2017-01-01"
+          },
+          {
+            "url": "https://industrifonden.com/news/zymego-raises-sek-30-million-in-funding-round-led-by-industrifonden",
+            "name": "Zymego raises SEK 30 million in funding round led by Industrifonden",
+            "date": "2025-06-26"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/zymego/__3qtMmL6xbwMh3r8jBk6D12b-ok_u8m_PTyUkcAubtZI",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/zymego/__3qtMmL6xbwMh3r8jBk6D12b-ok_u8m_PTyUkcAubtZI/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.di.se/nyheter/svenska-vardbokaren-expanderar-i-storbritannien/",
+            "name": "Zymego fyller vårdjättarnas avbokningar: ”Räddar liv”",
+            "date": "2025-06-26"
+          }
+        ]
+      }
     },
     {
       "calaId": "f495c031-5680-416a-9c67-3be77b257269",
@@ -6165,7 +7980,42 @@
       ],
       "state": "enriched",
       "description": "A couples app that helps partners deepen their relationship and improve communication through daily micro journaling and other interactive features.",
-      "lastRoundDate": "2021-06-04"
+      "lastRoundDate": "2021-06-04",
+      "overview": {
+        "text": "Coupleness is a couples app that helps partners deepen their relationship and improve communication through daily micro journaling and other interactive features. The company had a funding round in June 2021.",
+        "sources": [
+          {
+            "url": "https://medium.com/icebreakervc/we-are-excited-to-welcome-coupleness-into-the-icebreaker-family-31ef1a7b20f7",
+            "name": "medium.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/coupleness/__TusE2NYD5hGFfoltMXcaUCFqa3C6B5yrznTOsL99ZkE",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/explore/matchmaking-startups-in-sweden/__-gz5nGfQNrv_UUW0v_XeK8WvE-iglZVeJz0PhodrR-4",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.crunchbase.com/organization/coupleness",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.crunchbase.com/organization/coupleness/financial_details",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/436050-28",
+            "name": "pitchbook.com",
+            "date": "2026-08-25"
+          }
+        ]
+      }
     },
     {
       "calaId": "f8441c16-1ef2-4530-ab7c-f686dbd9a56b",
@@ -6320,7 +8170,52 @@
       ],
       "state": "enriched",
       "description": "Finnish company incorporated in 2023 and headquartered in Helsinki.",
-      "lastRoundDate": "2023-03-23"
+      "lastRoundDate": "2023-03-23",
+      "overview": {
+        "text": "MVISION AI OY is a Finnish company incorporated in 2023 and headquartered in Helsinki. The company raised a funding round in May 2018 and a 5.4M€ funding round in March 2023 with investors J12 Ventures and Voima Ventures.",
+        "sources": [
+          {
+            "url": "https://www.icebreaker.vc",
+            "name": "Supporting +100 teams from Idea to Seed and beyond since 2017",
+            "date": "2021-01-28"
+          },
+          {
+            "url": "https://thehub.io/funding/icebreaker",
+            "name": "The Hub | Funding | Icebreaker.vc",
+            "date": "2017-01-26"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/mvision/__UX-lrHUbejxsB04hhDsOhvonEIbjXdc0AgTt_1kDLg4",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/mvision/__UX-lrHUbejxsB04hhDsOhvonEIbjXdc0AgTt_1kDLg4/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/explore/ai-in-healthcare-startups-in-nordics/__lCHYGnnfZDXDSVomvz3_NV0-kklFvvujFLSxzcUuRU0/companies",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/227809-54",
+            "name": "pitchbook.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://find-and-update.company-information.service.gov.uk/company/FC040864",
+            "name": "Companies House UK",
+            "date": "2026-10-01"
+          },
+          {
+            "url": "https://mvision.ai/press-release-mvision-ai-raises-5-4me-to-make-same-day-cancer-treatment-the-new-standard/",
+            "name": "Press Release: MVision AI raises 5.4M€ to make same-day cancer treatment the new standard | MVision AI",
+            "date": "2023-03-23"
+          }
+        ]
+      }
     },
     {
       "calaId": "f96945c0-23f5-4e68-a54c-f8e1ef9b3681",
@@ -6390,7 +8285,22 @@
       ],
       "state": "enriched",
       "description": "Provides online label ordering solutions for food and beverage sector production companies.",
-      "lastRoundDate": "2026-08-25"
+      "lastRoundDate": "2026-08-25",
+      "overview": {
+        "text": "Wisby provides online label ordering solutions for food and beverage sector production companies. In August 2026, the company raised €250,000 in a funding round from Buildit VC, the EstBAN angel investor syndicate, and Martin Goroško.",
+        "sources": [
+          {
+            "url": "https://pitchbook.com/profiles/company/490181-86",
+            "name": "pitchbook.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://wisby.eu/wisby-raises-e250000-to-accelerate-growth/",
+            "name": "Wisby Raises €250,000 to accelerate growth - Wisby",
+            "date": "2026-08-26"
+          }
+        ]
+      }
     },
     {
       "calaId": "ff73ebe2-0270-4ce2-9e4a-f8ccf2fda9d1",
@@ -6453,7 +8363,27 @@
       ],
       "state": "enriched",
       "description": "A rental payment processing platform designed to streamline payments between tenants and landlords.",
-      "lastRoundDate": "2026-08-25"
+      "lastRoundDate": "2026-08-25",
+      "overview": {
+        "text": "CasaPay is a rental payment processing platform designed to streamline payments between tenants and landlords. The company raised a funding round in August 2026.",
+        "sources": [
+          {
+            "url": "https://www.thenetwork.com/profile/aleksi-partanen-c955771d",
+            "name": "www.thenetwork.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://tark.legal/en/after-a-successful-pilot-casapay-is-expanding",
+            "name": "After a successful pilot CasaPay is expanding - TARK Legal",
+            "date": "2024-09-11"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/541658-08",
+            "name": "pitchbook.com",
+            "date": "2026-08-25"
+          }
+        ]
+      }
     }
   ],
   "callList": [

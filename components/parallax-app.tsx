@@ -264,6 +264,25 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
   const selectedFund = allFunds.find((f) => f.id === selectedId);
   const visible = report.entries.filter((e) => filters[e.group]);
   const sel = skyCompanies.find((c) => c.id === selCo);
+  // D29: shown in a founder's open entry, or at the top of the list for a selected company with no entry there
+  const overviewOf = (companyId: string | null) => {
+    const o = report.companies.find((c) => c.calaId === companyId)?.overview;
+    return o && (
+      <div className="px-det">
+        <p className="px-desc">{o.text}</p>
+        <details className="px-note">
+          <summary>AI overview by Gemini, written only from these {o.sources.length} sources</summary>
+          <span className="px-chips">
+            {o.sources.map((src) => (
+              <a key={src.url} className="px-chip" href={src.url} target="_blank" rel="noopener noreferrer">
+                {[domain(src.url), src.date?.slice(0, 7)].filter(Boolean).join(" · ")}
+              </a>
+            ))}
+          </span>
+        </details>
+      </div>
+    );
+  };
 
   return (
     <div className="px-app">
@@ -394,6 +413,7 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
             {report.complete !== undefined && report.entries.length === 0 && (
               <p className="px-empty">No founders to call yet. None of the checked portfolio companies had a dated round or news with a founder we could confirm.</p>
             )}
+            {!visible.some((e) => e.companyId === selCo) && overviewOf(selCo)}
             {visible.map((e) => {
               const key = `${e.companyId}:${e.founder.name}`, isOpen = open.has(key);
               const c = skyCompanies.find((x) => x.id === e.companyId);
@@ -419,6 +439,7 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
                     <span><b>{e.founder.name}</b><span>{e.companyName}</span></span>
                     <small>{c?.last ?? "no date"}</small>
                   </button>
+                  {isOpen && overviewOf(e.companyId)}
                   {isOpen && (
                     <div className="px-det">
                       <ul>

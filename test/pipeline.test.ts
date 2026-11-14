@@ -65,7 +65,7 @@ function deps(over: Partial<PipelineDeps> = {}): PipelineDeps {
   return {
     cala: fakeCala(),
     exa: fakeExa,
-    gemini: { questions: async () => questions as string[] },
+    gemini: { questions: async () => questions as string[], overview: async () => "A company." },
     now: () => new Date("2026-11-14T12:00:00Z"),
     budgetMs: 60_000,
     ...over,
@@ -151,9 +151,23 @@ describe("createPipeline on Icebreaker fixtures", () => {
     }
   });
 
+  it("adds a sourced overview to enriched companies, and leaves it out when Gemini fails (D29)", async () => {
+    const ok = doneReport(await collect(createPipeline(deps()).run(FUND)));
+    const withOverview = ok.portfolio.filter((c) => c.overview);
+    expect(withOverview.length).toBeGreaterThan(0);
+    for (const c of withOverview) {
+      expect(c.overview!.text).toBe("A company.");
+      expect(c.overview!.sources.length && c.overview!.sources.every((x) => x.url)).toBeTruthy();
+    }
+    const gemini = { questions: async () => questions as string[], overview: () => Promise.reject(new Error("503")) };
+    const down = doneReport(await collect(createPipeline(deps({ gemini })).run(FUND)));
+    expect(down.portfolio.every((c) => c.overview === undefined)).toBe(true);
+    expect(down.callList.length).toBe(ok.callList.length);
+  });
+
   it("Gemini questions survive the post-check unless a number is not in the facts as a whole number", async () => {
     const qs = ["What changed after the 2021 round?", "How did the fund help the 20 hires?", "How did the fund support you?"];
-    const report = doneReport(await collect(createPipeline(deps({ gemini: { questions: async () => qs } })).run(FUND)));
+    const report = doneReport(await collect(createPipeline(deps({ gemini: { questions: async () => qs, overview: async () => "" } })).run(FUND)));
     const flow = report.callList.find((e) => e.why.some((w) => w.date?.startsWith("2021")))!;
     expect(flow.questions.slice(0, 2)).toEqual([qs[0], qs[2]]);
     expect(flow.questions).not.toContain(qs[1]);

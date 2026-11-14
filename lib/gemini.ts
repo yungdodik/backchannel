@@ -3,6 +3,8 @@ import { limiter } from "@/lib/limit";
 
 export interface Gemini {
   questions(prompt: string): Promise<string[]>;
+  /** A short company overview from retrieved facts (D29); the caller checks it (lib/overview.ts). */
+  overview(prompt: string): Promise<string>;
   /** Free-form JSON extraction (round facts, D28); the caller verifies every quote. */
   extract(prompt: string): Promise<unknown>;
 }
@@ -25,6 +27,11 @@ export function createGemini(apiKey: string): Gemini {
   return {
     // a bad model hangs ~60 s; templates fill in
     questions: async (prompt) => ((await json(prompt, 20_000, { type: Type.ARRAY, items: { type: Type.STRING } })) ?? []) as string[],
+    overview: async (prompt) => {
+      const text = await json(prompt, 20_000, { type: Type.STRING });
+      if (typeof text !== "string" || !text.trim()) throw new Error("Gemini returned an empty overview");
+      return text;
+    },
     // an 8k-char article takes ~10 s
     extract: (prompt) => json(prompt, 60_000),
   };

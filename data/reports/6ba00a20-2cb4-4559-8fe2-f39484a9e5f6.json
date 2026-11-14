@@ -330,7 +330,52 @@
       ],
       "state": "enriched",
       "description": "The AI-native FP&A platform that helps Finance teams drive business…",
-      "lastRoundDate": "2025-05-28"
+      "lastRoundDate": "2025-05-28",
+      "overview": {
+        "text": "Abacum is an AI-native FP&A platform that helps finance teams drive business. The company raised $7 million in April 2021 and $25 million in November 2021 from investors including Y Combinator and Atomico. In May 2025, it secured a $60 million funding round with Scale Venture Partners.",
+        "sources": [
+          {
+            "url": "https://nordic9.com/news/abacum-announced-raising-7-million-in-a-round-backed-by-profounders-k-fund-and-creandum",
+            "name": "Discover what happens on the European investment scene",
+            "date": "2026-07-18"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/abacum/__xDxRifljOKgQzZe2E_piFD7so-KdlCGxVaHO-det66A",
+            "name": "tracxn.com",
+            "date": "2026-06-11"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/442509-31",
+            "name": "pitchbook.com",
+            "date": "2026-06-11"
+          },
+          {
+            "url": "https://github.com/yc-oss/api",
+            "name": "Y Combinator",
+            "date": "2026-07-25"
+          },
+          {
+            "url": "https://www.axios.com/pro/enterprise-software-deals/2025/06/11/abacum-series-b-60-million-finance",
+            "name": "Abacum raises $60M to bring AI to business finance planning",
+            "date": "2025-06-11"
+          },
+          {
+            "url": "https://techcrunch.com/2021/11/30/abacum-series-a",
+            "name": "Abacum adds $25M to scale its SaaS for finance teams",
+            "date": "2021-11-30"
+          },
+          {
+            "url": "https://techcrunch.com/2021/04/08/yc-backed-abacum-nets-7m-to-empower-finance-teams-with-real-time-data-and-collaboration-tools",
+            "name": "YC-backed Abacum nets $7M to empower finance teams with real-time data and collaboration tools | TechCrunch",
+            "date": "2021-04-08"
+          },
+          {
+            "url": "https://news.crunchbase.com/briefing/briefing-4-8-21",
+            "name": "news.crunchbase.com",
+            "date": "2026-06-11"
+          }
+        ]
+      }
     },
     {
       "calaId": "0686cee9-4e29-4a1e-8b25-0ce980cc098e",
@@ -611,7 +656,37 @@
       ],
       "state": "enriched",
       "description": "We're building Africa's Commodity Exchange.",
-      "lastRoundDate": "2017-03-01"
+      "lastRoundDate": "2017-03-01",
+      "overview": {
+        "text": "Trade is building Africa's Commodity Exchange. It raised $2.6M funding rounds in May 2016, June 2016, and March 2017 from investors Founders Fund, Peter Thiel, Reid Hoffman, Sam Altman, and Y Combinator.",
+        "sources": [
+          {
+            "url": "https://startupintros.com/orgs/trade",
+            "name": "Trade",
+            "date": "2026-07-13"
+          },
+          {
+            "url": "https://www.startuplist.africa/startups/trade-ghana/fundings",
+            "name": "Trade Ghana",
+            "date": "2017-03-20"
+          },
+          {
+            "url": "https://www.crunchbase.com/organization/trade",
+            "name": "www.crunchbase.com",
+            "date": "2026-07-29"
+          },
+          {
+            "url": "https://www.ycombinator.com/companies/trade",
+            "name": "Trade: We're building Africa's Commodity Exchange. | Y Combinator",
+            "date": "2026-07-29"
+          },
+          {
+            "url": "https://github.com/yc-oss/api",
+            "name": "Y Combinator",
+            "date": "2026-07-25"
+          }
+        ]
+      }
     },
     {
       "calaId": "0f84f5e5-fd26-45af-9e25-95a06d18b01e",
@@ -818,7 +893,47 @@
       ],
       "state": "enriched",
       "description": "Direct-to-consumer monetisation platform for mobile game publishers, acting as merchant of record with branded web stores, gamified offers, global checkout and in-app payment SDKs.",
-      "lastRoundDate": "2026-08-25"
+      "lastRoundDate": "2026-08-25",
+      "overview": {
+        "text": "Appcharge is a direct-to-consumer monetisation platform for mobile game publishers that acts as a merchant of record with branded web stores, gamified offers, global checkout, and in-app payment SDKs. In November 2024, the company raised $26 million from Supercell, Bitkraft Ventures, Moneta Ventures, Play Ventures, and Glilot Capital, followed by a $58 million round in August 2025 from IVP, Playrix, Play Ventures, Glilot Capital Partners, Smilegate Investment, Moneta Ventures, BITKRAFT Ventures, and Corundum. Appcharge raised another funding round in August 2026.",
+        "sources": [
+          {
+            "url": "https://techcrunch.com/2024/11/25/appcharge-raises-26m-to-help-gaming-apps-cut-out-apple-and-google-from-virtual-goods-revenues",
+            "name": "Appcharge raises $26M to help gaming apps cut out Apple and Google from virtual goods revenues | TechCrunch",
+            "date": "2024-11-25"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/appcharge/__Eo2etVQw5Iz6uKh7hPAvsAIaqQGMohYQVMNYsUPZyvA/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.caplight.com/company/appcharge",
+            "name": "caplight.com",
+            "date": "2026-10-09"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Appcharge",
+            "name": "en.wikipedia.org",
+            "date": "2026-10-09"
+          },
+          {
+            "url": "https://www.businesswire.com/news/home/20250813210482/en/Appcharge-Raises-$58-Million-in-Series-B-Round-Led-by-IVP-to-Scale-Top-Direct-to-Consumer-Platform-for-Mobile-Games",
+            "name": "businesswire.com",
+            "date": "2025-08-13"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/522629-65",
+            "name": "pitchbook.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.appcharge.com/blog/announcing-our-58-m-series-b",
+            "name": "Appcharge Blog | Announcing Our $58M Series B: Powering the Direct-to-Consumer Revolution in Mobile App Monetization",
+            "date": "2025-08-13"
+          }
+        ]
+      }
     },
     {
       "calaId": "1a2db2be-b643-43dc-8b85-4bd402af07a0",
@@ -1229,7 +1344,32 @@
       ],
       "state": "enriched",
       "description": "We're building Africa's Commodity Exchange.",
-      "lastRoundDate": "2017-03-01"
+      "lastRoundDate": "2017-03-01",
+      "overview": {
+        "text": "Trade is building Africa's Commodity Exchange. The company had a funding round in March 2017.",
+        "sources": [
+          {
+            "url": "https://startupintros.com/orgs/trade",
+            "name": "Trade: Funding, Team & Investors",
+            "date": "2026-07-13"
+          },
+          {
+            "url": "https://www.ycombinator.com/companies/trade",
+            "name": "Trade: We're building Africa's Commodity Exchange. | Y Combinator",
+            "date": "2026-07-29"
+          },
+          {
+            "url": "https://github.com/yc-oss/api",
+            "name": "Y Combinator",
+            "date": "2026-07-18"
+          },
+          {
+            "url": "https://www.tradeghana.co/story",
+            "name": "Trade",
+            "date": "2014-09-01"
+          }
+        ]
+      }
     },
     {
       "calaId": "1ef021a4-6c07-4033-a965-05313e60a9e4",
@@ -1454,7 +1594,57 @@
       ],
       "state": "enriched",
       "description": "A private AI-native accounting platform.",
-      "lastRoundDate": "2026-08-19"
+      "lastRoundDate": "2026-08-19",
+      "overview": {
+        "text": "Rillet is a private AI-native accounting platform. The company raised $25 million in July 2024, $25 million in May 2025, $70 million in August 2025, and $100 million in August 2026. Its investors include Sequoia Capital, First Round Capital, Susa Ventures, Andreessen Horowitz, Iconiq, and Oak HC/FT.",
+        "sources": [
+          {
+            "url": "https://techcrunch.com/2025/05/28/rillet-raises-25m-from-sequoia-to-automate-general-ledger-systems-using-ai",
+            "name": "Rillet raises $25M from Sequoia to automate general ledger systems using AI | TechCrunch",
+            "date": "2025-05-28"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/rillet/__Rz1MMAsME_mL7iTWytJzOc1urfvqa8jnNoUYjm3H_W8/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://techcrunch.com/2026/08/19/rillet-raises-100m-series-c-at-1b-valuation-2-years-after-emerging-from-stealth",
+            "name": "Rillet raises $100M Series C at $1B valuation — 2 years after emerging from stealth | TechCrunch",
+            "date": "2026-08-19"
+          },
+          {
+            "url": "https://techcrunch.com/2026/08/21/how-ai-accounting-startup-rillet-raised-100m-and-became-a-unicorn-in-48-hours",
+            "name": "How AI accounting startup Rillet raised $100M and became a unicorn in 48 hours | TechCrunch",
+            "date": "2026-08-21"
+          },
+          {
+            "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-defense-tech-ai-infrastructure-castelion",
+            "name": "The Week’s 10 Biggest Funding Rounds: Defense Tech, AI Tools And Infrastructure Lead The Way",
+            "date": "2026-08-21"
+          },
+          {
+            "url": "https://www.instagram.com/p/DcWTf2NE3DK",
+            "name": "Instagram",
+            "date": "2000-01-01"
+          },
+          {
+            "url": "https://news.crunchbase.com/fintech/startup-rillet-ai-seriesb-a16z-iconiq",
+            "name": "Fintech Startup Rillet Lands $70M Series B From a16z, Iconiq Just 12 Weeks After Last Raise",
+            "date": "2025-08-06"
+          },
+          {
+            "url": "https://www.rillet.com/blog/rillet-raises-70m-series-b-from-andreessen-horowitz-and-iconiq",
+            "name": "Rillet Raises $70M Series B from a16z and ICONIQ | Rillet Blog",
+            "date": "2026-08-19"
+          },
+          {
+            "url": "https://www.linkedin.com/posts/jeffcooper_ai-accounting-startup-rillet-raises-70m-activity-7359036517329084416-UVt_",
+            "name": "Rillet raises $70M, valued at $500M, with AI ERP platform | Jeffrey Cooper posted on the topic | LinkedIn",
+            "date": "2025-08-07"
+          }
+        ]
+      }
     },
     {
       "calaId": "2095072e-ea2d-4db0-ba08-02ea66078fb9",
@@ -1675,7 +1865,52 @@
       ],
       "state": "enriched",
       "description": "A French company founded in 1989 by Nicolas Kopp, headquartered in Le Controis-en-Sologne.",
-      "lastRoundDate": "2025-08-06"
+      "lastRoundDate": "2025-08-06",
+      "overview": {
+        "text": "SARL ALBERT RILLET is a French company founded in 1989 by Nicolas Kopp and headquartered in Le Controis-en-Sologne. It raised $25 million funding rounds in July 2024 and May 2025, both involving investors Sequoia Capital, First Round Capital, and Susa Ventures. The company recorded another funding round in August 2025.",
+        "sources": [
+          {
+            "url": "https://techcrunch.com/2025/05/28/rillet-raises-25m-from-sequoia-to-automate-general-ledger-systems-using-ai",
+            "name": "Rillet raises $25M from Sequoia to automate general ledger systems using AI | TechCrunch",
+            "date": "2025-05-28"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/503679-61",
+            "name": "pitchbook.com",
+            "date": "2026-07-29"
+          },
+          {
+            "url": "https://techcrunch.com/2025/05/30/startups-weekly-amd-acquisition-and-other-moves-to-scale-ai-startups",
+            "name": "Startups Weekly: AMD acquisition and other moves to scale AI startups | TechCrunch",
+            "date": "2025-05-30"
+          },
+          {
+            "url": "https://news.crunchbase.com/fintech/startup-rillet-ai-seriesb-a16z-iconiq",
+            "name": "news.crunchbase.com",
+            "date": "2026-07-29"
+          },
+          {
+            "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-public-safety-healthcare-fintech",
+            "name": "news.crunchbase.com",
+            "date": "2026-07-29"
+          },
+          {
+            "url": "https://techcrunch.com/sponsor/greenfield-partners/meet-the-ai-disruptors-60-the-startups-defining-ais-future",
+            "name": "Meet the AI Disruptors 60: The Startups Defining AI’s Future | TechCrunch",
+            "date": "2025-10-27"
+          },
+          {
+            "url": "https://techcrunch.com/2025/12/03/vcs-deploy-kingmaking-strategy-to-crown-ai-winners-in-their-infancy",
+            "name": "VCs deploy 'kingmaking' strategy to crown AI winners in their infancy | TechCrunch",
+            "date": "2025-12-03"
+          },
+          {
+            "url": "https://data.inpi.fr/entreprises/351272331",
+            "name": "INPI",
+            "date": "2025-01-29"
+          }
+        ]
+      }
     },
     {
       "calaId": "2102bd9c-8835-4cbe-8d34-1999d874ebc8",
@@ -1982,7 +2217,47 @@
       ],
       "state": "enriched",
       "description": "A Barcelona‑based fintech and business‑planning software company founded in 2020.",
-      "lastRoundDate": "2025-05-28"
+      "lastRoundDate": "2025-05-28",
+      "overview": {
+        "text": "Founded in 2020, ABACUM PLANNING S.L. (SOCIEDAD UNIPERSONAL) is a Barcelona-based fintech and business-planning software company. It secured a $7M funding round in April 2021 followed by a $25M round in November 2021 with investors such as Y Combinator, PROFounders, K-Fund, Atomico, FJ Labs, and S16VC. In May 2025, the company raised $60M from investors including Scale Venture Partners, Cathay Innovation, Y Combinator, Atomico, and Kfund.",
+        "sources": [
+          {
+            "url": "https://inforcapital.com/companies/factorial",
+            "name": "InforCapital: Market Intelligence for Private Equity & Venture Capital",
+            "date": "2026-06-29"
+          },
+          {
+            "url": "https://www.cfoshortlist.com/vendors/abacum",
+            "name": "Abacum Review [2026]: Pricing, AI & Mid-Market FP&A Fit",
+            "date": "2026-07-15"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/abacum/__xDxRifljOKgQzZe2E_piFD7so-KdlCGxVaHO-det66A/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-07-28"
+          },
+          {
+            "url": "https://nordic9.com/news/abacum-raised-25-million-in-a-series-a-round-led-by-atomico",
+            "name": "Discover what happens on the European investment scene",
+            "date": "2026-05-07"
+          },
+          {
+            "url": "https://techcrunch.com/2021/11/30/abacum-series-a",
+            "name": "Abacum adds $25M to scale its SaaS for finance teams",
+            "date": "2021-11-30"
+          },
+          {
+            "url": "https://techcrunch.com?p=2240131",
+            "name": "Abacum adds $25M to scale its SaaS for finance teams",
+            "date": "2021-11-30"
+          },
+          {
+            "url": "https://techcrunch.com/2021/04/08/yc-backed-abacum-nets-7m-to-empower-finance-teams-with-real-time-data-and-collaboration-tools",
+            "name": "YC-backed Abacum nets $7M to empower finance teams with real-time data and collaboration tools | TechCrunch",
+            "date": "2021-04-08"
+          }
+        ]
+      }
     },
     {
       "calaId": "2448ce87-71ca-43c2-912e-6fd06057ced6",
@@ -1998,7 +2273,17 @@
         }
       ],
       "state": "enriched",
-      "description": "A Spanish fintech startup founded in 2021 that offers treasury management software and services."
+      "description": "A Spanish fintech startup founded in 2021 that offers treasury management software and services.",
+      "overview": {
+        "text": "Embat is a Spanish fintech startup founded in 2021 that offers treasury management software and services.",
+        "sources": [
+          {
+            "url": "https://tracxn.com/d/explore/finance-accounting-tech-startups-in-madrid-spain/__RnSzq5mRIZu4YzYtIaPeHhuFwfqfOlKC9H-NSVLZOc8/companies",
+            "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+            "date": "2026-06-20"
+          }
+        ]
+      }
     },
     {
       "calaId": "2b09b91b-e624-46d3-882b-ebb203628e3b",
@@ -2026,7 +2311,22 @@
         }
       ],
       "state": "enriched",
-      "description": "A London‑based software and asset‑management company founded in 2017."
+      "description": "A London‑based software and asset‑management company founded in 2017.",
+      "overview": {
+        "text": "LAKA LTD is a London‑based software and asset‑management company founded in 2017.",
+        "sources": [
+          {
+            "url": "https://www.cbinsights.com/company/insure-a-thing/financials",
+            "name": "CB Insights — Predictive Intelligence on Private Companies",
+            "date": "2026-06-01"
+          },
+          {
+            "url": "https://find-and-update.company-information.service.gov.uk/company/10575209",
+            "name": "Companies House UK",
+            "date": "2026-10-01"
+          }
+        ]
+      }
     },
     {
       "calaId": "2d19ac3c-a7af-4edd-a37e-9d36d76a386a",
@@ -2232,7 +2532,52 @@
       ],
       "state": "enriched",
       "description": "German company founded in 2018 and headquartered in Munich.",
-      "lastRoundDate": "2026-08-24"
+      "lastRoundDate": "2026-08-24",
+      "overview": {
+        "text": "TWAICE Technologies GmbH is a German company founded in 2018 and headquartered in Munich. The company completed funding rounds in September 2018, May 2019, March 2020, May 2021, April 2022, February 2026, and August 2026. Its March 2020 round raised €11 million and its May 2021 round raised $26 million, backed by investors including Energize Ventures, UVC Partners, Cherry Ventures, and Speedinvest.",
+        "sources": [
+          {
+            "url": "https://techcrunch.com/2020/03/25/battery-analytics-software-startup-twaice-raises-e11m-series-a-led-by-creandum",
+            "name": "Battery analytics software startup Twaice raises €11M Series A led by Creandum | TechCrunch",
+            "date": "2020-03-25"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/twaice/__Q1YZOxAc-FTx6Us_BU5hcCufvyiZBzp8QscgzbNraFo",
+            "name": "tracxn.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://data.inpi.fr/entreprises/902712322",
+            "name": "INPI",
+            "date": "2024-12-05"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/twaice/__Q1YZOxAc-FTx6Us_BU5hcCufvyiZBzp8QscgzbNraFo/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://techcrunch.com/2021/05/19/twaice-raised-26m-to-scale-its-battery-analytics-software",
+            "name": "Twaice raised $26M to scale its battery analytics software | TechCrunch",
+            "date": "2021-05-19"
+          },
+          {
+            "url": "https://news.crunchbase.com/briefing/briefing-5-19-21",
+            "name": "news.crunchbase.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://techcrunch.com/2019/05/29/twaice",
+            "name": "Twaice picks up backing from Cherry Ventures to help electric vehicles eke out more battery life | TechCrunch",
+            "date": "2019-05-29"
+          },
+          {
+            "url": "https://www.crunchbase.com/funding_round/twaice-seed--add31273",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-24"
+          }
+        ]
+      }
     },
     {
       "calaId": "2fcbdac0-4027-4b78-8a5b-67a99447ca81",
@@ -2359,7 +2704,32 @@
       ],
       "state": "enriched",
       "description": "AI-powered customer service quality management platform (acquired by Zendesk)",
-      "lastRoundDate": "2022-09-29"
+      "lastRoundDate": "2022-09-29",
+      "overview": {
+        "text": "Klaus is an AI-powered customer service quality management platform. The company raised a $1.9 million funding round in July 2019, followed by a €12 million (~$11.49 million) round in September 2022 with Acton Capital named as an investor. In February 2024, TechCrunch reported that the Estonian startup was acquired by Zendesk.",
+        "sources": [
+          {
+            "url": "https://techcrunch.com/2019/07/03/klaus",
+            "name": "Klaus, the 'conversation review' tool for support teams, picks up $1.9M seed | TechCrunch",
+            "date": "2019-07-03"
+          },
+          {
+            "url": "https://techcrunch.com/2024/02/13/ai-powered-estonian-qa-startup-klaus-acquired-by-zendesk",
+            "name": "AI-powered Estonian QA startup Klaus acquired by Zendesk | TechCrunch",
+            "date": "2024-02-13"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/klaus/__caJc5TKxE2PXIYxiSY9PqIYKFJ7LJbFh9L1xAAugkcc/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://techcrunch.com/2022/09/29/klaus-secures-fresh-capital-to-automatically-categorize-and-score-customer-interactions",
+            "name": "Klaus secures fresh capital to automatically categorize and score customer interactions | TechCrunch",
+            "date": "2022-09-29"
+          }
+        ]
+      }
     },
     {
       "calaId": "3006840a-fea6-42d0-a5cc-c6c991f38e69",
@@ -2586,7 +2956,42 @@
       ],
       "state": "enriched",
       "description": "Vienna TU Wien spin-off offering an AI supply-chain risk, sustainability and compliance platform that maps, scores and monitors millions of supplier nodes for 140 risk types from public sources in...",
-      "lastRoundDate": "2026-06-10"
+      "lastRoundDate": "2026-06-10",
+      "overview": {
+        "text": "Prewave GmbH is a Vienna TU Wien spin-off that offers an AI supply-chain risk, sustainability and compliance platform that maps, scores and monitors millions of supplier nodes for 140 risk types from public sources. In May 2023, the company raised €18 million ($20 million) in a funding round with investors Ventech, Kompas, Seed+Speed, Segnalita, Speedinvest, Working Capital Fund and Xista Science Ventures. It recorded another funding round in June 2026.",
+        "sources": [
+          {
+            "url": "https://www.deutsche-startups.de/2023/05/09/dealmonitor-prewave-dermanostic/",
+            "name": "deutsche-startups.de",
+            "date": "2023-05-09"
+          },
+          {
+            "url": "https://www.crunchbase.com/funding_round/prewave-series-b--cd088409",
+            "name": "www.crunchbase.com",
+            "date": "2026-06-10"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/224194-06",
+            "name": "pitchbook.com",
+            "date": "2026-06-10"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/keyesg/__S4O8F5sKkdD9vEcniiorev8GNxKjL9DkoC3wCd65TtI",
+            "name": "tracxn.com",
+            "date": "2026-06-10"
+          },
+          {
+            "url": "https://xista.vc/news/detail/prewave-raises-eur63m-series-b-to-revolutionise-supply-chain-risk-management-with-ai-driven-superintelligence-platform",
+            "name": "xista.vc",
+            "date": "2024-06-25"
+          },
+          {
+            "url": "https://techcrunch.com/2023/05/08/prewave-pulls-in-20m-as-supply-chain-tech-investments-remain-on-vc-radars",
+            "name": "Prewave pulls in $20M as supply chain tech investments remain on VC radars | TechCrunch",
+            "date": "2023-05-08"
+          }
+        ]
+      }
     },
     {
       "calaId": "3105fdbe-e3c9-4019-bc71-7c89d36f4d84",
@@ -2773,7 +3178,47 @@
       ],
       "state": "enriched",
       "description": "Spanish fintech and software services company headquartered in Madrid, founded in 2021.",
-      "lastRoundDate": "2026-05-12"
+      "lastRoundDate": "2026-05-12",
+      "overview": {
+        "text": "EMBAT TECHNOLOGIES SL is a Spanish fintech and software services company headquartered in Madrid, founded in 2021. The company held funding rounds in May 2022 and June 2023, followed by a $16 million round in February 2024 with investors Samaipata, 4Founders, Venture Friends, Kilian Thalhammer, and Martin Blessing. Its last recorded funding round occurred in May 2026.",
+        "sources": [
+          {
+            "url": "https://www.pymnts.com/news/investment-tracker/2024/treasury-management-fintech-embat-raises-15-96-million-to-expand-globally",
+            "name": "Home Page",
+            "date": "2026-07-18"
+          },
+          {
+            "url": "https://www.pymnts.com/?p=1865280",
+            "name": "Home Page",
+            "date": "2026-07-18"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/embat/__U9jK-4YRpbTUmyuPIclbHXdzAhwq12ZYGUejWW8IVBs/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-07-28"
+          },
+          {
+            "url": "https://tracxn.com/d/venture-capital/samaipata/__EbTTkgNtiNBpqqSHOg5y19YV8fg7FIMfUCt6XNmTfAQ",
+            "name": "tracxn.com",
+            "date": "2026-07-28"
+          },
+          {
+            "url": "https://tracxn.com/d/venture-capital/cathayinnovation/__wih0DGEsHfrTzlhcF-LOfzcQKuMWIfhriAGd0XsP-gE",
+            "name": "tracxn.com",
+            "date": "2026-07-28"
+          },
+          {
+            "url": "https://startupvalencia.org/investment-spanish-startups-2025/",
+            "name": "Empowering global tech founders",
+            "date": "2026-05-07"
+          },
+          {
+            "url": "https://techcrunch.com/2024/02/27/embat",
+            "name": "Spain's Embat, which has raised $16M, plans to compete with Trovata in real-time accounting | TechCrunch",
+            "date": "2024-02-27"
+          }
+        ]
+      }
     },
     {
       "calaId": "3740ae75-23a2-4d96-aef9-53b21bf95853",
@@ -2954,7 +3399,37 @@
       ],
       "state": "enriched",
       "description": "Swedish market research technology company founded in 1998 and headquartered in Stockholm.",
-      "lastRoundDate": "2012-10-18"
+      "lastRoundDate": "2012-10-18",
+      "overview": {
+        "text": "Cint AB is a Swedish market research technology company founded in 1998 and headquartered in Stockholm. It raised funding in November 2007, $13 million from Prime Technology Ventures in September 2010, and EUR 6.9 million from Prime Technology Ventures in October 2012. Layoffs at the company were reported on LinkedIn in December 2024.",
+        "sources": [
+          {
+            "url": "https://tracxn.com/d/companies/cint/__0nrm0CfXzH_fKUYQQQ8fgv3mBHv8KtRgLWMraT5OAsk",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/cint/__0nrm0CfXzH_fKUYQQQ8fgv3mBHv8KtRgLWMraT5OAsk/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.linkedin.com/posts/jddeitch_cint-is-reducing-its-cost-base-to-increase-activity-7272965861693378560-D7Tv",
+            "name": "Big layoff at Cint today including my former team. Message me if you’re looking for top project managers, or if you’re looking for work. | JD Deitch",
+            "date": "2024-12-12"
+          },
+          {
+            "url": "https://www.mrweb.com/drno/news16265.htm",
+            "name": "Daily Research News Online no. 16265 - Cint Raises EUR 6.9m to Aid Expansion",
+            "date": "2012-10-18"
+          },
+          {
+            "url": "https://techcrunch.com/2010/09/17/cint-secures-13m-from-prime-technology-ventures-and-existing-owners",
+            "name": "Cint secures $13m from Prime Technology Ventures and existing owners | TechCrunch",
+            "date": "2010-09-17"
+          }
+        ]
+      }
     },
     {
       "calaId": "39651925-4781-427a-9456-99a959189943",
@@ -3073,7 +3548,32 @@
       ],
       "state": "enriched",
       "description": "Provides satellite and maritime communications network solutions, offering connectivity services for remote and challenging environments.",
-      "lastRoundDate": "2016-10-27"
+      "lastRoundDate": "2016-10-27",
+      "overview": {
+        "text": "Kyynel provides satellite and maritime communications network solutions, offering connectivity services for remote and challenging environments. In August 2014, it raised a funding round of lähes kahden miljoonan euron from Butterfly Venture, Inventure, and paikalliset bisnesenkelit. In October 2016, the company raised a funding round from Inventure, Butterfly Ventures, and Tamares Group.",
+        "sources": [
+          {
+            "url": "https://tracxn.com/d/companies/knl/__coS857ngQmwKhLznVQ40En308Kan8XRzvg27OTBeJ3M",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.crunchbase.com/person/john-lindfors",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.kaleva.fi/oululainen-kyynel-sai-valtavan-rahoituspotin/1693506",
+            "name": "Oululainen Kyynel sai valtavan rahoituspotin | Kaleva",
+            "date": "2016-10-27"
+          },
+          {
+            "url": "https://www.kaleva.fi/oululainen-kyynel-saa-kaksi-miljoonaa-riskirahaa/1645018",
+            "name": "Oululainen Kyynel saa kaksi miljoonaa riskirahaa | Kaleva",
+            "date": "2014-08-15"
+          }
+        ]
+      }
     },
     {
       "calaId": "3e1f0925-cb71-4859-97f5-01e36eed1718",
@@ -3287,7 +3787,67 @@
       ],
       "state": "enriched",
       "description": "AI networking 'superconnector': users talk to an AI agent (phone/voice/chat) that learns their goals and makes double-opt-in introductions to investors, customers, partners and talent; 237K people...",
-      "lastRoundDate": "2025-01-14"
+      "lastRoundDate": "2025-01-14",
+      "overview": {
+        "text": "Boardy is an AI networking superconnector where users talk to an AI agent via phone, voice, or chat that learns their goals and makes double-opt-in introductions to investors, customers, partners, and talent. In October 2024, the company raised a $3 million funding round from investors including HF0, 8VC, Precursor, Afore, FJ Labs, and NextView. In January 2025, Boardy raised an $8 million funding round from Andy Dunn, Leah Solivan, and Andrew Yeung.",
+        "sources": [
+          {
+            "url": "https://lfgventures.com/closeddeals/boardy",
+            "name": "lfgventures.com",
+            "date": "2026-06-20"
+          },
+          {
+            "url": "https://decoder.ca/boardy-ai-secures-8m-to-revolutionize-networking",
+            "name": "decoder.ca",
+            "date": "2026-06-20"
+          },
+          {
+            "url": "https://www.osler.com/en/about-us/representative-work/boardy-ai/",
+            "name": "osler.com",
+            "date": "2025-01-14"
+          },
+          {
+            "url": "https://techcrunch.com/2025/01/14/boardy-ai-raises-8m-seed-round-months-after-closing-pre-seed",
+            "name": "Boardy AI raises $8M seed round months after closing pre-seed | TechCrunch",
+            "date": "2025-01-14"
+          },
+          {
+            "url": "https://techcrunch.com?p=2945500",
+            "name": "Boardy AI raises $8M seed round months after closing pre-seed | TechCrunch",
+            "date": "2025-01-14"
+          },
+          {
+            "url": "https://www.crunchbase.com/organization/boardy/company_overview/overview_timeline",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.crunchbase.com/funding_round/boardy-seed--30c4093f",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/boardy/__Q9F9n7a5begrmLrwfUqd4eKsfDiJ_ZjS8czvusPe-wE/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.eomag.io/article/boardy-launching",
+            "name": "eomag.io",
+            "date": "2026-09-30"
+          },
+          {
+            "url": "https://techcrunch.com/2024/10/24/ai-networking-startup-boardy-raises-3m-pre-seed",
+            "name": "AI networking startup Boardy raises $3M pre-seed | TechCrunch",
+            "date": "2024-10-24"
+          },
+          {
+            "url": "https://techcrunch.com?p=2904472",
+            "name": "AI networking startup Boardy raises $3M pre-seed | TechCrunch",
+            "date": "2024-10-24"
+          }
+        ]
+      }
     },
     {
       "calaId": "3f99b196-92ef-4d4b-a8f7-eae97604a143",
@@ -3463,7 +4023,37 @@
       ],
       "state": "enriched",
       "description": "German SaaS startup based in Freiburg im Breisgau",
-      "lastRoundDate": "2025-11-21"
+      "lastRoundDate": "2025-11-21",
+      "overview": {
+        "text": "Black Forest Labs is a German SaaS startup based in Freiburg im Breisgau. In August 2024, it raised $31 million in a funding round from Andreessen Horowitz, Garry Tan, and Brendan Iribe. In November 2025, the company raised $300 million in a funding round from investors including Salesforce Ventures, Anjney Midha (AMP), a16z, NVIDIA, Northzone, Earlybird VC, BroadLight Capital, General Catalyst, Temasek, Bain Capital Ventures, Air Street Capital, Visionaries Club, Canva, and Figma Ventures.",
+        "sources": [
+          {
+            "url": "https://tracxn.com/d/companies/black-forest-labs/__0TiC_rSJRn1Ryd3agZGAamglipjZ10EaG6Rzi0P5cWg",
+            "name": "tracxn.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/black-forest-labs/__0TiC_rSJRn1Ryd3agZGAamglipjZ10EaG6Rzi0P5cWg/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://techcrunch.com/2025/12/01/black-forest-labs-raises-300m-at-3-25b-valuation",
+            "name": "Black Forest Labs raises $300M at $3.25B valuation | TechCrunch",
+            "date": "2025-12-01"
+          },
+          {
+            "url": "https://techcrunch.com/2024/08/14/meet-black-forest-labs-the-startup-powering-elon-musks-unhinged-ai-image-generator",
+            "name": "Meet Black Forest Labs, the startup powering Elon Musk's unhinged AI image generator | TechCrunch",
+            "date": "2024-08-14"
+          },
+          {
+            "url": "https://techcrunch.com/2024/09/20/grok-image-generator-black-forest-labs-raising-100m-at-1b-valuation",
+            "name": "Exclusive: Black Forest Labs, the company that powers Grok's image generation, is raising another $100M on a $1B valuation, say sources",
+            "date": "2024-09-20"
+          }
+        ]
+      }
     },
     {
       "calaId": "439fe7e2-930f-4a07-bc23-7df212cfc3a7",
@@ -3804,7 +4394,92 @@
       ],
       "state": "enriched",
       "description": "A Japanese-backed venture capital firm investing in deeptech, industrial technology, digital transformation, and sustainability-focused startups across Northern Europe and the Baltics.",
-      "lastRoundDate": "2025-10-01"
+      "lastRoundDate": "2025-10-01",
+      "overview": {
+        "text": "Portfolio Companies is a Japanese-backed venture capital firm that invests in deeptech, industrial technology, digital transformation, and sustainability-focused startups across Northern Europe and the Baltics. The firm participated in funding rounds from August 2013 to October 2025, with its latest recorded round in October 2025.",
+        "sources": [
+          {
+            "url": "https://app.dealroom.co/companies/bolt1",
+            "name": "Bolt company information, funding & investors",
+            "date": "2013-08-01"
+          },
+          {
+            "url": "https://www.prnewswire.com/news-releases/einride-has-raised-100-million-to-accelerate-autonomous-freight-and-expand-global-operations-302573045.html",
+            "name": "Einride has Raised $100 Million to Accelerate Autonomous Freight and Expand Global Operations",
+            "date": "2025-10-01"
+          },
+          {
+            "url": "https://forgeglobal.com/bolt_ipo",
+            "name": "Bolt IPO Timeline and Financing Details - Forge",
+            "date": "2022-06-10"
+          },
+          {
+            "url": "https://www.einride.tech/press/einride-financing-2022",
+            "name": "Einride Secures $500 Million in Financin",
+            "date": "2026-08-17"
+          },
+          {
+            "url": "https://seedtable.com/companies/einride/funding-rounds/series-c-2022-12",
+            "name": "seedtable.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.veriff.com/blog/veriff-funding-announcement",
+            "name": "www.veriff.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://emerging-europe.com/new-funding-round-makes-veriff-estonias-latest-unicorn",
+            "name": "New funding round makes Veriff Estonia's latest unicorn",
+            "date": "2022-01-26"
+          },
+          {
+            "url": "https://www.cnbc.com/2022/01/11/european-uber-rival-bolt-valued-at-8point4-billion-in-new-funding-round.html",
+            "name": "European Uber rival Bolt valued at $8.4 billion in new funding round",
+            "date": "2022-01-11"
+          },
+          {
+            "url": "https://www.therobotreport.com/einride-raises-110m-develop-autonomous-trucks",
+            "name": "www.therobotreport.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/einride",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Bolt_(company)",
+            "name": "en.wikipedia.org",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://investinestonia.com/estonias-unicorn-bolt-raises-e150m",
+            "name": "Estonia’s unicorn Bolt raises €150M - Invest in Estonia",
+            "date": "2020-12-16"
+          },
+          {
+            "url": "https://app.dealroom.co/companies/einride",
+            "name": "Einride company information, funding & investors",
+            "date": "2016-09-01"
+          },
+          {
+            "url": "https://www.siliconrepublic.com/start-ups/veriff-estonia-identity-verification",
+            "name": "Estonian identity verification start-up Veriff raises $15.5m",
+            "date": "2020-07-03"
+          },
+          {
+            "url": "https://www.einride.tech/press/einride-raises-25-million-series-a-to-accelerate-commercialization-of-its-autonomous-electric-transport-system",
+            "name": "Einride raises $25 million series A",
+            "date": "2026-08-17"
+          },
+          {
+            "url": "https://app.dealroom.co/companies/veriff",
+            "name": "Veriff company information, funding & investors",
+            "date": "2015-10-01"
+          }
+        ]
+      }
     },
     {
       "calaId": "451b1614-8eaa-42ba-ba97-4ad58ebd3581",
@@ -4024,7 +4699,52 @@
       ],
       "state": "enriched",
       "description": "a Swedish B2B music streaming service for businesses",
-      "lastRoundDate": "2023-06-14"
+      "lastRoundDate": "2023-06-14",
+      "overview": {
+        "text": "Soundtrack Your Brand is a Swedish B2B music streaming service for businesses. The company raised funding rounds of $10.9 million in June 2015, $20 million in May 2016, $22 million in February 2017, and $15 million in June 2023. Investors across these rounds include Spotify, Telia, Northzone, Wellington Partners, PlayNetwork, Balderton Capital, Industrifonden, HMP, Jörg Mohaupt, MUSIC, Liontree, JS Capital Management, Schusterman Family Investments, Dundee Partners, Fuel Venture Capital, and DIG.",
+        "sources": [
+          {
+            "url": "https://techcrunch.com/2015/06/23/spotify-for-business-creator-soundtrack-your-brand-gets-11m-from-telia-spotify-and-more",
+            "name": "'Spotify For Business' Creator Soundtrack Your Brand Gets $11M From Telia, Spotify And More | TechCrunch",
+            "date": "2015-06-23"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/soundtrack-your-brand/__l3MzXSo3axueOe4Jk5XCwcQSPzk2BhXVGwBkz8isGpE/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/soundtrack-your-brand/__l3MzXSo3axueOe4Jk5XCwcQSPzk2BhXVGwBkz8isGpE",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/backgroundsounds/__vo0D5CqZ6T6NSVXfFrQKfn0j_wLyZkZuGiL_GcIKVy8",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.prnewswire.com/news-releases/soundtrack-your-brand-closes-funding-led-by-matt-pincus-music-to-unlock-premium-b2b-arpu-accelerate-growth-and-pursue-market-consolidation-301850301.html",
+            "name": "Soundtrack Your Brand Closes Funding Led by Matt Pincus' MUSIC to Unlock Premium B2B ARPU, Accelerate Growth and Pursue Market Consolidation",
+            "date": "2023-06-14"
+          },
+          {
+            "url": "https://techcrunch.com/2017/02/17/soundtrack-your-brand-a-spotify-for-b2b-nabs-22m-for-expansion",
+            "name": "Soundtrack Your Brand, a 'Spotify for B2B' nabs $22M for expansion | TechCrunch",
+            "date": "2017-02-17"
+          },
+          {
+            "url": "https://pitchbook.com/newsletter/soundtrack-your-brand-lands-22m",
+            "name": "pitchbook.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://techcrunch.com/2016/05/05/spotify-backed-soundtrack-your-brand-launches-in-u-s-inks-global-deal-with-mcdonalds",
+            "name": "Spotify-backed Soundtrack Your Brand launches in U.S., inks global deal with McDonald's | TechCrunch",
+            "date": "2016-05-05"
+          }
+        ]
+      }
     },
     {
       "calaId": "46917f06-2a9a-44be-a1f4-6579d9f1b321",
@@ -4157,7 +4877,27 @@
       ],
       "state": "enriched",
       "description": "A Swedish company headquartered in Spånga.",
-      "lastRoundDate": "2015-09-29"
+      "lastRoundDate": "2015-09-29",
+      "overview": {
+        "text": "Linas Matkasse NewCo AB is a Swedish company headquartered in Spånga. The company completed funding rounds in May 2011, July 2015, and September 2015.",
+        "sources": [
+          {
+            "url": "https://tracxn.com/d/companies/linas-matkasse/__vZ1XSVDD__1J3KM1GDYpV1JFALXYAmYNd_OtGgPbHFE",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/linasmatkasse/__vZ1XSVDD__1J3KM1GDYpV1JFALXYAmYNd_OtGgPbHFE",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/linasmatkasse/__vZ1XSVDD__1J3KM1GDYpV1JFALXYAmYNd_OtGgPbHFE/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          }
+        ]
+      }
     },
     {
       "calaId": "583abc19-8948-410d-85bc-eda4901334c4",
@@ -4341,7 +5081,37 @@
       ],
       "state": "enriched",
       "description": "Swedish e‑commerce platform for independent retailers.",
-      "lastRoundDate": "2015-07-29"
+      "lastRoundDate": "2015-07-29",
+      "overview": {
+        "text": "Tictail, Inc. is a Swedish e-commerce platform for independent retailers. It raised a €1.2 million funding round in October 2012 from Balderton Capital, Klaus Hommels, Gustav Söderström, and Fredrik Nylander, followed by an $8 million round from Thrive Capital in February 2014. In July 2015, it raised a $22 million funding round from Thrive Capital, Balderton Capital, and Acton Capital.",
+        "sources": [
+          {
+            "url": "https://techcrunch.com/2014/02/18/with-100000-stores-opened-tictail-ecommerce-platform-lands-8-million-led-by-thrive-capital",
+            "name": "TicTail eCommerce Platform Lands $8 Million Led By Thrive Capital | TechCrunch",
+            "date": "2014-02-18"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/tictail/__Bz09AuHEfRUXNGlZ1VM8eCmJdZeHnHHsAzvpYYcRBK4/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://techcrunch.com/2015/07/29/tictail-doubles-down-with-thrive-capital-creandum-raises-22m-to-carve-out-online-marketplace",
+            "name": "Tictail Doubles Down With Thrive Capital, Creandum, Raises $22M To Carve Out Online Marketplace | TechCrunch",
+            "date": "2015-07-29"
+          },
+          {
+            "url": "https://techcrunch.com/2015/07/29/tictail-doubles-down-with-thrive-capital-creandum-raises-22m-to-carve-out-online-marketplace#!",
+            "name": "Tictail Doubles Down With Thrive Capital, Creandum, Raises $22M To Carve Out Online Marketplace | TechCrunch",
+            "date": "2015-07-29"
+          },
+          {
+            "url": "https://techcrunch.com/2012/10/22/tictail-secures-e1-2m-for-its-super-simple-store-creator",
+            "name": "Tictail Secures €1.2M For Its Super Simple Store Creator | TechCrunch",
+            "date": "2012-10-22"
+          }
+        ]
+      }
     },
     {
       "calaId": "690ba9f2-670e-4e16-9b58-f115af300234",
@@ -4462,7 +5232,32 @@
       ],
       "state": "enriched",
       "description": "We're building Africa's Commodity Exchange.",
-      "lastRoundDate": "2017-03-01"
+      "lastRoundDate": "2017-03-01",
+      "overview": {
+        "text": "Trade is building Africa's Commodity Exchange. The company had a funding round in March 2017.",
+        "sources": [
+          {
+            "url": "https://startupintros.com/orgs/trade",
+            "name": "Trade: Funding, Team & Investors",
+            "date": "2026-07-13"
+          },
+          {
+            "url": "https://www.ycombinator.com/companies/trade",
+            "name": "Trade: We're building Africa's Commodity Exchange. | Y Combinator",
+            "date": "2026-07-29"
+          },
+          {
+            "url": "https://github.com/yc-oss/api",
+            "name": "Y Combinator",
+            "date": "2026-07-04"
+          },
+          {
+            "url": "https://www.linkedin.com/in/wilsoncusack",
+            "name": "www.linkedin.com",
+            "date": "2026-07-29"
+          }
+        ]
+      }
     },
     {
       "calaId": "6eb7af43-9fa6-4ac9-9594-9baa9a3f5de0",
@@ -4816,7 +5611,62 @@
       ],
       "state": "enriched",
       "description": "Swedish digital health‑care provider.",
-      "lastRoundDate": "2024-09-18"
+      "lastRoundDate": "2024-09-18",
+      "overview": {
+        "text": "KRY is a Swedish digital health-care provider. The company raised funding rounds of €6.1 million in August 2016, $22.8 million in June 2017, $66 million in June 2018, $312 million in April 2021, and over $160 million in July 2022. Its last recorded funding round occurred in September 2024 with investors including Leading European Tech Scaleups.",
+        "sources": [
+          {
+            "url": "https://techcrunch.com/2016/08/19/video-call-your-doctor-startup-kry-raises-e6-1m-seed-led-by-index-and-creandum",
+            "name": "Video-call-your-Doctor startup KRY raises €6.1M Seed led by Index and Creandum | TechCrunch",
+            "date": "2016-08-19"
+          },
+          {
+            "url": "https://www.kry.se/press/nyheter/kry-raises-usd66m-in-funding-round",
+            "name": "KRY raises $66m in funding round",
+            "date": "2018-06-12"
+          },
+          {
+            "url": "https://www.cbinsights.com/company/kry/financials",
+            "name": "Kry",
+            "date": "2018-05-30"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/kry/__iiMY9TfcoEDyHIl-lcMfyiMZocGAj7wQHsCMgWIY_ro",
+            "name": "tracxn.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://kry.health/news/kry-completes-fundraising-of-usd160m-to-support-better-healthcare-for",
+            "name": "Kry completes fundraising of $160m+ to support better healthcare for millions more patients",
+            "date": "2022-07-21"
+          },
+          {
+            "url": "https://techcrunch.com/2021/04/27/kry-closes-312m-series-d-after-use-of-its-telehealth-tools-surged-100-yoy",
+            "name": "Kry closes $312M Series D after use of its telehealth tools grows 100% yoy | TechCrunch",
+            "date": "2021-04-27"
+          },
+          {
+            "url": "https://www.cnbc.com/2021/04/27/digital-health-startup-kry-raises-300-million-at-2-billion-valuation.html",
+            "name": "Digital health start-up Kry triples valuation to $2 billion in new funding round",
+            "date": "2021-04-27"
+          },
+          {
+            "url": "https://news.crunchbase.com/briefing/briefing-4-27-21",
+            "name": "news.crunchbase.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://techcrunch.com/2018/06/12/kry-bags-66m-to-launch-its-video-call-a-doctor-service-in-more-european-markets",
+            "name": "Kry bags $66M to launch its video-call-a-doctor service in more European markets | TechCrunch",
+            "date": "2018-06-12"
+          },
+          {
+            "url": "https://techcrunch.com/2017/06/29/accel-leads-22-8m-series-a-in-swedish-telehealth-startup-kry",
+            "name": "Accel leads $22.8M Series A in Swedish telehealth startup, KRY | TechCrunch",
+            "date": "2017-06-29"
+          }
+        ]
+      }
     },
     {
       "calaId": "758c6052-3868-46f0-8fb6-ad9fb1244b0b",
@@ -5086,7 +5936,57 @@
       ],
       "state": "enriched",
       "description": "A German fintech and banking company headquartered in Berlin, founded in 2019.",
-      "lastRoundDate": "2022-06-03"
+      "lastRoundDate": "2022-06-03",
+      "overview": {
+        "text": "Trade Republic is a German fintech and banking company headquartered in Berlin, founded in 2019. It raised funding rounds of 8.5 million euros in July 2019, $67 million in April 2020, $900 million in May 2021, and €250 million in June 2022. Investors across these rounds include Project A, Accel, Founders Fund, Sequoia, TCV, Thrive Capital, and Ontario Teachers’ Pension Plan Board.",
+        "sources": [
+          {
+            "url": "https://app.dealroom.co/companies/trade_republic",
+            "name": "app.dealroom.co",
+            "date": "2026-06-03"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/traderepublic/__ZMQSr_ZQCo8NYgjxzwOkGJWSQsc517UICsiUAj21tqA/funding-and-investors",
+            "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+            "date": "2026-06-03"
+          },
+          {
+            "url": "https://find-and-update.company-information.service.gov.uk/company/FC039723",
+            "name": "Companies House UK",
+            "date": "2026-10-01"
+          },
+          {
+            "url": "https://www.finextra.com/newsarticle/40378/trade-republic-raises--250m",
+            "name": "Trade Republic raises  €250m",
+            "date": "2022-06-03"
+          },
+          {
+            "url": "https://techcrunch.com/2021/05/20/berlins-trade-republic-nabs-900m-led-by-sequoia-at-a-5b-valuation-to-take-its-neo-broker-app-across-europe",
+            "name": "Berlin's Trade Republic nabs $900M led by Sequoia at a $5B+ valuation to take its neobroker app across Europe | TechCrunch",
+            "date": "2021-05-20"
+          },
+          {
+            "url": "https://news.crunchbase.com/briefing/briefing-5-20-21",
+            "name": "news.crunchbase.com",
+            "date": "2026-06-09"
+          },
+          {
+            "url": "https://pitchbook.com/newsletter/trade-republic-tops-5b-valuation-with-series-c",
+            "name": "pitchbook.com",
+            "date": "2026-06-09"
+          },
+          {
+            "url": "https://techcrunch.com/2020/04/16/trade-republic-a-german-robinhood-raises-67m-led-by-accel-and-founders-fund",
+            "name": "Trade Republic, a German Robinhood, raises $67M led by Accel and Founders Fund | TechCrunch",
+            "date": "2020-04-16"
+          },
+          {
+            "url": "https://extraetf.com/de/news/millionen-kapitalerhoehung-trade-republic",
+            "name": "8,5 Millionen Euro Kapitalerhöhung Trade Republic",
+            "date": "2019-07-16"
+          }
+        ]
+      }
     },
     {
       "calaId": "80824ae5-c3dc-4316-b4cb-796834d7f919",
@@ -5242,7 +6142,32 @@
       ],
       "state": "enriched",
       "description": "The improvement engine for AI agents",
-      "lastRoundDate": "2026-07-29"
+      "lastRoundDate": "2026-07-29",
+      "overview": {
+        "text": "ATLA AI LTD is the improvement engine for AI agents. The company had a funding round in December 2023 and raised $5 million in a July 2026 funding round with investors Y Combinator and the founders of Reddit.",
+        "sources": [
+          {
+            "url": "https://tracxn.com/d/companies/atla/__pRDnEKop_Br5tG4IVjFmbCIvzttBxRkQCU7Jw4eUQRs",
+            "name": "tracxn.com",
+            "date": "2026-07-29"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/atla/__pRDnEKop_Br5tG4IVjFmbCIvzttBxRkQCU7Jw4eUQRs/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-07-29"
+          },
+          {
+            "url": "https://find-and-update.company-information.service.gov.uk/company/14986959",
+            "name": "Companies House UK",
+            "date": "2026-11-01"
+          },
+          {
+            "url": "https://newzchain.com/atla-ai-safety-and-honesty/",
+            "name": "Atla AI: Safety and Honesty - Founder-Owned AI Safety Startup - Newzchain",
+            "date": "2026-07-30"
+          }
+        ]
+      }
     },
     {
       "calaId": "89d3a43c-fee4-4491-853e-a216cbef6c50",
@@ -5631,7 +6556,62 @@
       ],
       "state": "enriched",
       "description": "A technology organization offering a no‑code platform that lets users create and maintain production‑ready applications and websites through natural‑language descriptions.",
-      "lastRoundDate": "2026-08-12"
+      "lastRoundDate": "2026-08-12",
+      "overview": {
+        "text": "Lovable is a technology organization offering a no-code platform that lets users create and maintain production-ready applications and websites through natural-language descriptions. The company completed funding rounds in June 2024, October 2024 for $15 million, February 2025 for $15 million, July 2025 for $200 million, December 2025 for $330 million, and August 2026 for $400 million. Its investors across these rounds include Visionaries Club, Accel, CapitalG, Khosla Ventures, Salesforce Ventures, Databricks Ventures, Scaleup Europe Fund, Regent, and Menlo Ventures.",
+        "sources": [
+          {
+            "url": "https://techcrunch.com/2025/02/25/swedens-lovable-an-app-building-ai-platform-rakes-in-16m-after-spectacular-growth",
+            "name": "Sweden's Lovable, an app-building AI platform, rakes in $15M after spectacular growth | TechCrunch",
+            "date": "2025-02-25"
+          },
+          {
+            "url": "https://news.crunchbase.com/ai/vibe-coding-startup-lovable-unicorn-status",
+            "name": "news.crunchbase.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/600908-32",
+            "name": "pitchbook.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m",
+            "name": "Lovable confirms new $13.3B valuation, raises another $400M | TechCrunch",
+            "date": "2026-08-12"
+          },
+          {
+            "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-databricks-river-ai-data-energy",
+            "name": "news.crunchbase.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/lovable/__fO6WUvzcx5q3814ietMd3kzGlRirsatzsTnpxmzLuMI",
+            "name": "tracxn.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://techcrunch.com/2025/12/18/vibe-coding-startup-lovable-raises-330m-at-a-6-6b-valuation",
+            "name": "Vibe-coding startup Lovable raises $330M at a $6.6B valuation | TechCrunch",
+            "date": "2025-12-18"
+          },
+          {
+            "url": "https://www.linkedin.com/posts/kains_vibe-coding-startup-lovables-latest-funding-activity-7406736578011664384-ad9r",
+            "name": "Lovable's $6.6B Valuation Surpasses Previous $1.8B | Kai Nicol-Schwarz posted on the topic | LinkedIn",
+            "date": "2025-12-16"
+          },
+          {
+            "url": "https://techcrunch.com/2025/11/19/as-lovable-hits-200m-arr-its-ceo-credits-staying-in-europe-for-its-success",
+            "name": "As Lovable hits $200M ARR, its CEO credits staying in Europe for its success | TechCrunch",
+            "date": "2025-11-19"
+          },
+          {
+            "url": "https://techcrunch.com/2025/07/02/lovable-on-track-to-raise-150m-at-2b-valuation",
+            "name": "Lovable on track to raise $150M at $2B valuation | TechCrunch",
+            "date": "2025-07-02"
+          }
+        ]
+      }
     },
     {
       "calaId": "8fe2b7b4-ee53-4b2f-8794-1832225784af",
@@ -5929,7 +6909,57 @@
       ],
       "state": "enriched",
       "description": "Norwegian educational software company founded in 2011 and headquartered in Oslo.",
-      "lastRoundDate": "2020-10-13"
+      "lastRoundDate": "2020-10-13",
+      "overview": {
+        "text": "Kahoot! is a Norwegian educational software company founded in 2011 and headquartered in Oslo. Between October 2017 and October 2020, the company completed several funding rounds, including a $215 million round in October 2020. Its investors across various rounds have included SoftBank, Microsoft, Disney, Northzone, Datum AS, Datum Invest AS, Microsoft Ventures, and Eilert Hanoa.",
+        "sources": [
+          {
+            "url": "https://techcrunch.com/2018/03/16/kahoot",
+            "name": "Education quiz app Kahoot raises another $17M at a $100M valuation | TechCrunch",
+            "date": "2018-03-16"
+          },
+          {
+            "url": "https://techcrunch.com/2020/10/13/kahoot-picks-up-215m-from-softbank-for-its-user-generated-gamified-e-learning-platform",
+            "name": "Kahoot picks up $215M from SoftBank for its user-generated, gamified e-learning platform | TechCrunch",
+            "date": "2020-10-13"
+          },
+          {
+            "url": "https://news.crunchbase.com/venture/briefing-10-13-20",
+            "name": "news.crunchbase.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://techcrunch.com/2020/06/11/kahoot-raises-28m-for-its-user-generated-educational-gaming-platform-now-valued-at-1-4b",
+            "name": "Kahoot raises $28M for its user-generated educational gaming platform, now valued at $1.4B | TechCrunch",
+            "date": "2020-06-11"
+          },
+          {
+            "url": "https://techcrunch.com?p=2001569",
+            "name": "Kahoot raises $28M for its user-generated educational gaming platform, now valued at $1.4B | TechCrunch",
+            "date": "2020-06-11"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/103252-60",
+            "name": "pitchbook.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://techcrunch.com/2018/12/14/disney-kahoot",
+            "name": "Disney's invested in educational gaming app Kahoot, now at a $376M valuation | TechCrunch",
+            "date": "2018-12-14"
+          },
+          {
+            "url": "https://techcrunch.com/2018/10/10/kahoot-the-educational-gaming-startup-has-raised-another-15m-now-at-a-300m-valuation",
+            "name": "Kahoot, the educational gaming startup, has raised another $15M, now at a $300M valuation | TechCrunch",
+            "date": "2018-10-10"
+          },
+          {
+            "url": "https://techcrunch.com/2017/10/03/kahoot-launches-premium-version-aimed-at-corporate-training-market",
+            "name": "Kahoot launches premium version aimed at corporate training market | TechCrunch",
+            "date": "2017-10-03"
+          }
+        ]
+      }
     },
     {
       "calaId": "9423779d-819b-46ac-bf29-a5edb6b2553f",
@@ -6098,7 +7128,37 @@
       ],
       "state": "enriched",
       "description": "A European AI semiconductor startup headquartered in London, founded in 2024.",
-      "lastRoundDate": "2026-08-03"
+      "lastRoundDate": "2026-08-03",
+      "overview": {
+        "text": "OLIX is a European AI semiconductor startup headquartered in London that was founded in 2024. The company held funding rounds in September 2024, April 2025, February 2026, and August 2026. Its February 2026 round raised $220 million with Hummingbird Ventures named as an investor.",
+        "sources": [
+          {
+            "url": "https://pitchbook.com/profiles/company/757157-77",
+            "name": "pitchbook.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/olix/__4TeHKbFTTtuPK_EwLW38sxw1Pvy4MigXlhFmbz6VUxU",
+            "name": "tracxn.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/olix/__4TeHKbFTTtuPK_EwLW38sxw1Pvy4MigXlhFmbz6VUxU/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://techcrunch.com/2026/08/09/this-former-notorious-red-light-district-is-now-one-of-the-worlds-top-ai-hubs",
+            "name": "This former notorious red-light district is now one of the world’s top AI hubs | TechCrunch",
+            "date": "2026-08-09"
+          },
+          {
+            "url": "https://www.cooley.com/news/coverage/2026/2026-02-11-olix-raises-$220-million-in-financing",
+            "name": "OLIX Raises $220 Million in Financing  // Cooley // Global Law Firm",
+            "date": "2026-02-11"
+          }
+        ]
+      }
     },
     {
       "calaId": "9767f74d-536e-4d63-b38e-23749f47aaa0",
@@ -6293,7 +7353,42 @@
       ],
       "state": "enriched",
       "description": "An AI company developing agentic AI models, founded by Antoine Chassang.",
-      "lastRoundDate": "2024-05-21"
+      "lastRoundDate": "2024-05-21",
+      "overview": {
+        "text": "H Company is an AI company founded by Antoine Chassang that develops agentic AI models. In May 2024, the company raised $220 million in a funding round. Investors in the round included Eric Schmidt, Xavier Niel, Yuri Milner, Bernard Arnault, Aglaé Ventures, Motier Ventures, Accel, Bpifrance’s Large Venture fund, Elaia Partners, Eurazeo, FirstMark Capital, Visionaries Club, Amazon, Samsung, and UiPath.",
+        "sources": [
+          {
+            "url": "https://techcrunch.com/2024/05/21/french-ai-startup-h-raises-220-million-seed-round",
+            "name": "French AI startup H raises $220M seed round | TechCrunch",
+            "date": "2024-05-21"
+          },
+          {
+            "url": "https://techcrunch.com/2024/11/20/h-the-ai-startup-that-raised-220m-launches-its-first-product-runner-h-for-agentic-applications",
+            "name": "H, the AI startup that raised $220M, launches its first product: Runner H for 'agentic' applications | TechCrunch",
+            "date": "2024-11-20"
+          },
+          {
+            "url": "https://techcrunch.com/2024/05/24/big-tech-companies-are-plowing-money-into-ai-startups-which-could-help-them-dodge-antitrust-concerns",
+            "name": "Big Tech companies are plowing money into AI startups, which could help them dodge antitrust concerns | TechCrunch",
+            "date": "2024-05-24"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/597244-24",
+            "name": "pitchbook.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/h-company/__YVYUkH859DojHjoaBdy6njhzP_PuhOhaKyM4Y6A7NyI/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.crunchbase.com/organization/holistic-ai-0946",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-25"
+          }
+        ]
+      }
     },
     {
       "calaId": "a1a12886-3119-492f-801a-9bfb38143209",
@@ -6650,7 +7745,57 @@
       ],
       "state": "enriched",
       "description": "Swedish AI startup founded in 2024 that provides an AI coding platform, headquartered in Stockholm.",
-      "lastRoundDate": "2026-08-12"
+      "lastRoundDate": "2026-08-12",
+      "overview": {
+        "text": "Lovable is a Stockholm-headquartered Swedish AI startup founded in 2024 that provides an AI coding platform. The company completed funding rounds in June 2024, October 2024 ($15 million), February 2025 ($15 million), July 2025 ($200 million), December 2025 ($330 million), and August 2026 ($400 million). Its investors include Visionaries Club, Accel, CapitalG, and Menlo Ventures.",
+        "sources": [
+          {
+            "url": "https://techcrunch.com/2025/02/25/swedens-lovable-an-app-building-ai-platform-rakes-in-16m-after-spectacular-growth",
+            "name": "Sweden's Lovable, an app-building AI platform, rakes in $15M after spectacular growth | TechCrunch",
+            "date": "2025-02-25"
+          },
+          {
+            "url": "https://news.crunchbase.com/ai/vibe-coding-startup-lovable-unicorn-status",
+            "name": "news.crunchbase.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m",
+            "name": "Lovable confirms new $13.3B valuation, raises another $400M | TechCrunch",
+            "date": "2026-08-12"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/lovable/__fO6WUvzcx5q3814ietMd3kzGlRirsatzsTnpxmzLuMI",
+            "name": "tracxn.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/600908-32",
+            "name": "pitchbook.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://lovable.dev/blog/series-b",
+            "name": "Lovable raises $330M to power the age of the builder | Lovable",
+            "date": "2026-08-12"
+          },
+          {
+            "url": "https://techcrunch.com/2025/12/18/vibe-coding-startup-lovable-raises-330m-at-a-6-6b-valuation",
+            "name": "Vibe-coding startup Lovable raises $330M at a $6.6B valuation | TechCrunch",
+            "date": "2025-12-18"
+          },
+          {
+            "url": "https://techcrunch.com/2025/07/02/lovable-on-track-to-raise-150m-at-2b-valuation",
+            "name": "Lovable on track to raise $150M at $2B valuation | TechCrunch",
+            "date": "2025-07-02"
+          },
+          {
+            "url": "https://techcrunch.com/2025/11/19/as-lovable-hits-200m-arr-its-ceo-credits-staying-in-europe-for-its-success",
+            "name": "As Lovable hits $200M ARR, its CEO credits staying in Europe for its success | TechCrunch",
+            "date": "2025-11-19"
+          }
+        ]
+      }
     },
     {
       "calaId": "a5660fb2-82e1-467b-9751-cf09e1e69661",
@@ -6915,7 +8060,57 @@
       ],
       "state": "enriched",
       "description": "Finnish mobile gaming studio founded in 2013, headquartered in Helsinki and operating as a subsidiary of Zynga.",
-      "lastRoundDate": "2020-05-27"
+      "lastRoundDate": "2020-05-27",
+      "overview": {
+        "text": "Small Giant Games Oy is a Finnish mobile gaming studio founded in 2013, headquartered in Helsinki, and operating as a subsidiary of Zynga. In December 2018, TechCrunch reported that Zynga would acquire Small Giant Games, the maker of Empires & Puzzles, for $700M. The company held multiple funding rounds between October 2013 and May 2020, including a $41 million round in February 2018.",
+        "sources": [
+          {
+            "url": "https://tracxn.com/d/companies/smallgiantgames/__lf3lUpfznpwmNEwj2KI8SIJb-h998tc6WLVFP3sywVw/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/mygamez/__ThIoyDhz638O9ac4drqiDK-221hQN4stDYzeVqZnRYA/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/people/peter-vesterbacka/__2d4fdz3Ks5NPgRVf7Y2dn__-scBDUjHT2kI0KLjiL2o",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://techcrunch.com/2018/12/20/zynga-to-acquire-small-giant-games-the-maker-of-empires-puzzles-for-700m",
+            "name": "Zynga to acquire Small Giant Games, the maker of Empires & Puzzles, for $700M | TechCrunch",
+            "date": "2018-12-20"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/small-giant-games/__lf3lUpfznpwmNEwj2KI8SIJb-h998tc6WLVFP3sywVw",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://spintopventures.com/small-giant-games-secures-41-million-investment-to-accelerate-growth-and-international-reach-of-empires-puzzles-and-drive-creation-of-new-games/",
+            "name": "Small Giant Games secures $41 million investment to accelerate growth and international reach of Empires & Puzzles and drive creation of new games - Spintop",
+            "date": "2018-02-20"
+          },
+          {
+            "url": "https://www.avance.com/cases/small-giant-games-raises-eur-5-4-million-in-financing",
+            "name": "Small Giant Games raises EUR 5.4 million in financing – Avance Attorneys",
+            "date": "2017-03-09"
+          },
+          {
+            "url": "https://www.pocketgamer.biz/buoyant-helsinki-small-giant-games-raise-31-million/",
+            "name": "Buoyant Helsinki: Small Giant Games raises $3.1 million | PocketGamer.biz",
+            "date": "2014-10-22"
+          },
+          {
+            "url": "https://arcticstartup.com/the-ex-sulake-names-behind-small-giant-games-picks-up-e547000-investment/",
+            "name": "The Ex-Sulake Names Behind Small Giant Games Picks Up €547,000 Investment - ArcticStartup",
+            "date": "2013-10-17"
+          }
+        ]
+      }
     },
     {
       "calaId": "a58e9b67-3848-44c1-a672-14eab8fed24f",
@@ -7282,7 +8477,92 @@
       ],
       "state": "enriched",
       "description": "European shared micromobility operator: 150,000+ e-scooters and e-bikes in 110+ cities across 12 countries in partnership with cities; ~1,000 employees.",
-      "lastRoundDate": "2024-03-12"
+      "lastRoundDate": "2024-03-12",
+      "overview": {
+        "text": "Voi is a European shared micromobility operator with approximately 1,000 employees that manages over 150,000 e-scooters and e-bikes across more than 110 cities in 12 countries. The company completed funding rounds in June 2018, November 2019 ($85 million), December 2020 ($160 million), August 2021 ($45 million), and December 2021 ($115 million). In March 2024, Voi raised a $25 million funding round with investors including VNV Global, Raine Group, Nineyards Equity, Balderton, Project A, Stena, and Black Ice Capital.",
+        "sources": [
+          {
+            "url": "https://www.cbinsights.com/company/voi-technology/financials",
+            "name": "CB Insights — Predictive Intelligence on Private Companies",
+            "date": "2026-06-01"
+          },
+          {
+            "url": "https://www.unquote.com/nordics/official-record/3022008/raine-group-leads-usd160m-series-c-round-for-voi",
+            "name": "unquote.com",
+            "date": "2020-12-02"
+          },
+          {
+            "url": "https://tech.eu/2019/03/03/swedish-e-scooter-startup-voi-raises-30-million-claims-to-be-close-to-profitability-in-several-cities/",
+            "name": "tech.eu",
+            "date": "2019-03-03"
+          },
+          {
+            "url": "https://arcticstartup.com/swedish-voi-technology-raised-85-million-in-series-b-round/",
+            "name": "arcticstartup.com",
+            "date": "2019-11-13"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/voi/__VOWty8yZz1tEOSEed5whoX2hyZ86ZBYHKmhp3pdmRE8",
+            "name": "tracxn.com",
+            "date": "2026-06-10"
+          },
+          {
+            "url": "https://tracxn.com/d/venture-capital/nineyardsequity/__i4NaWaxttbja32Npe057d-JsffnioC723IljsJpCD90",
+            "name": "tracxn.com",
+            "date": "2026-06-10"
+          },
+          {
+            "url": "https://www.eu-startups.com/2026/09/swedish-micromobility-company-voi-secures-e150-million-rcf-to-redeem-outstanding-bonds-and-scale-its-fleet",
+            "name": "eu-startups.com",
+            "date": "2026-09-30"
+          },
+          {
+            "url": "https://web.archive.org/web/20030319000000*/voi.com",
+            "name": "web.archive.org",
+            "date": "2026-10-01"
+          },
+          {
+            "url": "https://www.voi.com/blog/voi-closes-financing-round-following-record-year",
+            "name": "Voi | Voi closes financing round following a record year in revenue and profitability",
+            "date": "2024-03-12"
+          },
+          {
+            "url": "https://techcrunch.com/2021/12/20/2250109",
+            "name": "Voi scooters raises $115M Series D round as it preps to enter new cities -- and for an IPO | TechCrunch",
+            "date": "2021-12-20"
+          },
+          {
+            "url": "https://techcrunch.com/2021/08/05/micromobility-startup-voi-raises-45-million-to-end-sidewalk-riding-improve-safety",
+            "name": "Micromobility startup Voi raises $45 million to end sidewalk riding, improve safety | TechCrunch",
+            "date": "2021-08-05"
+          },
+          {
+            "url": "https://news.crunchbase.com/briefing/briefing-8-6-21",
+            "name": "news.crunchbase.com",
+            "date": "2026-06-10"
+          },
+          {
+            "url": "https://techcrunch.com/2020/12/01/voi-the-european-micro-mobility-rental-company-raises-160m-additional-equity-and-debt-funding",
+            "name": "Voi, the European 'micromobility' rental company, raises $160M additional equity and debt funding | TechCrunch",
+            "date": "2020-12-01"
+          },
+          {
+            "url": "https://news.crunchbase.com/venture/for-lime-and-e-scooters-2020-has-been-tough-but-not-a-disaster",
+            "name": "news.crunchbase.com",
+            "date": "2026-06-10"
+          },
+          {
+            "url": "https://techcrunch.com/2019/11/10/voi-raises-another-85m",
+            "name": "Voi raises another $85M for its European e-scooter service | TechCrunch",
+            "date": "2019-11-10"
+          },
+          {
+            "url": "https://techcrunch.com/2018/10/23/voi",
+            "name": "Sources: Balderton Capital gearing up to invest in Swedish e-scooter startup VOI | TechCrunch",
+            "date": "2018-10-23"
+          }
+        ]
+      }
     },
     {
       "calaId": "a9b85b89-ac07-4c31-a485-eaacfb2a37c1",
@@ -7441,7 +8721,42 @@
       ],
       "state": "enriched",
       "description": "a UK‑based digital cryptocurrency wallet and financial services platform",
-      "lastRoundDate": "2022-04-28"
+      "lastRoundDate": "2022-04-28",
+      "overview": {
+        "text": "Argent is a UK-based digital cryptocurrency wallet and financial services platform. It raised $4 million in a November 2018 funding round with investors Index Ventures, firstminute, Hummingbird, Atomico, and Mattias Ljungman, followed by a round in January 2020. Its last recorded funding round in April 2022 raised $40 million from Fabric Ventures, Metaplanet, Paradigm, Index Ventures, Jump Crypto, Animoca Brands, and Starkware.",
+        "sources": [
+          {
+            "url": "https://techcrunch.com/2018/11/20/argent-a-smart-crypto-wallet-app-with-a-banking-look-raises-4m-from-euro-vcs",
+            "name": "Argent, a smart crypto wallet app with a banking look, raises $4M from Euro VCs | TechCrunch",
+            "date": "2018-11-20"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/argent/__IDv5fYqwftYMwvIipy_VKhBThNohZATFuRJZujhXpN4/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/argent/__IDv5fYqwftYMwvIipy_VKhBThNohZATFuRJZujhXpN4",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.coindesk.com/business/2022/04/28/argent-raises-40m-to-make-crypto-wallets-easier-to-use",
+            "name": "Argent Raises $40M to Make Crypto Wallets Easier to Use",
+            "date": "2022-04-28"
+          },
+          {
+            "url": "https://techcrunch.com/2020/05/18/buzzy-ethereum-wallet-app-argent-comes-out-of-stealth",
+            "name": "Buzzy Ethereum wallet app Argent comes out of stealth | TechCrunch",
+            "date": "2020-05-18"
+          },
+          {
+            "url": "https://techcrunch.com/2020/03/13/n8n-a-fair-code-workflow-automation-platform-raises-seed-from-sequoia-as-vc-firm-steps-up-in-europe",
+            "name": "n8n, a 'fair code' workflow automation platform, raises seed from Sequoia as VC firm steps up in Europe | TechCrunch",
+            "date": "2020-03-13"
+          }
+        ]
+      }
     },
     {
       "calaId": "b55c7e1e-bf18-40ad-b680-645ea9c64cd9",
@@ -7586,7 +8901,42 @@
       ],
       "state": "enriched",
       "description": "Online ordering platform for restaurants and food suppliers",
-      "lastRoundDate": "2020-07-07"
+      "lastRoundDate": "2020-07-07",
+      "overview": {
+        "text": "Rekki is an online ordering platform for restaurants and food suppliers. Its last recorded funding round was in July 2020.",
+        "sources": [
+          {
+            "url": "https://tracxn.com/d/companies/rekki/__nLAM9BcC-fOq02sn6GQvw3udhIUTCJf4sDYMLd8OX2E/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://techcrunch.com/2020/07/17/carolina-brochado-eqt-growth",
+            "name": "Former Atomico and SoftBank VC Carolina Brochado has joined EQT to help build its new growth fund | TechCrunch",
+            "date": "2020-07-17"
+          },
+          {
+            "url": "https://techcrunch.com/2020/09/17/brochado-and-bendz-on-the-boom-in-europes-early-and-growth-stage-startups",
+            "name": "Caroline Brochado and Sophia Bendz on the boom in Europe's early and growth-stage startups | TechCrunch",
+            "date": "2020-09-17"
+          },
+          {
+            "url": "https://techcrunch.com/2020/07/07/berlins-cavalry-ventures-closes-e80m-backed-by-dach-founders-and-eif",
+            "name": "Berlin's Cavalry Ventures closes €80M, backed by DACH founders and EIF | TechCrunch",
+            "date": "2020-07-07"
+          },
+          {
+            "url": "https://techcrunch.com/2021/09/23/meet-the-five-judges-who-will-pick-the-2021-winner-of-techcrunch-disrupts-startup-battlefield",
+            "name": "Meet the 5 judges who will pick the 2021 winner of TechCrunch Disrupt's Startup Battlefield | TechCrunch",
+            "date": "2021-09-23"
+          },
+          {
+            "url": "https://techcrunch.com/2020/09/22/i-got-99999999-problems-and-carry-isnt-one-of-them",
+            "name": "Europe's Point Nine outs new ~€100M fund to back early-stage SaaS and digital marketplaces | TechCrunch",
+            "date": "2020-09-22"
+          }
+        ]
+      }
     },
     {
       "calaId": "b83744c2-5f25-4df7-98fd-c0b3d96e49f0",
@@ -7740,7 +9090,57 @@
       ],
       "state": "enriched",
       "description": "PAVE Space develops orbital mobility vehicles to deliver payloads beyond low Earth orbit and unlock the industrial potential of space.",
-      "lastRoundDate": "2026-03-25"
+      "lastRoundDate": "2026-03-25",
+      "overview": {
+        "text": "PAVE Space develops orbital mobility vehicles to deliver payloads beyond low Earth orbit and unlock the industrial potential of space. In March 2026, the company raised $40 million in a funding round.",
+        "sources": [
+          {
+            "url": "https://tracxn.com/d/companies/pavespace/__thPv9XgJuw1NsEA2xjFiDRiPrKS_dTS--Cs6S4Ac1vI/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/pave-space/__thPv9XgJuw1NsEA2xjFiDRiPrKS_dTS--Cs6S4Ac1vI",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/597074-41",
+            "name": "pitchbook.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tech.eu/2026/03/25/pave-space-secures-40m-to-fast-track-satellite-deployment/",
+            "name": "tech.eu",
+            "date": "2026-03-25"
+          },
+          {
+            "url": "https://www.legal500.com/firms/10418-niederer-kraft-frey-ltd/c-switzerland/news-and-developments/pave-space-raises-usd-40m-in-seed-financing",
+            "name": "legal500.com",
+            "date": "2026-03-26"
+          },
+          {
+            "url": "https://pave.space/",
+            "name": "pave.space",
+            "date": "2026-11-02"
+          },
+          {
+            "url": "https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Aorganization%3A98843282&keywords=pave%20space%20sa&origin=RICH_QUERY_TYPEAHEAD_HISTORY&position=0&searchId=3d16a2e4-d85e-407e-9991-66f84677b3c4&sid=5bV&spellCorrectionEnabled=true",
+            "name": "linkedin.com",
+            "date": "2026-11-02"
+          },
+          {
+            "url": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/1614124.json",
+            "name": "zefix.admin.ch",
+            "date": "2023-11-27"
+          },
+          {
+            "url": "https://spacenews.com/pave-space-raises-40-million-to-develop-european-heavy-kickstage/",
+            "name": "Pave Space raises $40 million to develop European heavy kickstage - SpaceNews",
+            "date": "2026-03-25"
+          }
+        ]
+      }
     },
     {
       "calaId": "bbdead4b-d3fa-4f9a-a94a-181ec813a93c",
@@ -7924,7 +9324,42 @@
       ],
       "state": "enriched",
       "description": "a US fintech company headquartered in New York, founded in 2023",
-      "lastRoundDate": "2025-02-18"
+      "lastRoundDate": "2025-02-18",
+      "overview": {
+        "text": "CAPI MONEY INC. is a US fintech company headquartered in New York, founded in 2023. In February 2025, the company raised €17.2 million in a funding round.",
+        "sources": [
+          {
+            "url": "https://tracxn.com/d/companies/capi-money/__56xXonPKP4iqD7yu5J027ZNvF-3-15Bc4WnLdvh8SGI",
+            "name": "tracxn.com",
+            "date": "2026-07-29"
+          },
+          {
+            "url": "https://tracxn.com/d/venture-capital/four-cities-capital/__-q_P3de35zlR-ZqGhQA4ozPm4JNYMZluLoT7jAV8CME",
+            "name": "tracxn.com",
+            "date": "2026-07-29"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/534577-87",
+            "name": "pitchbook.com",
+            "date": "2026-07-29"
+          },
+          {
+            "url": "https://www.crunchbase.com/organization/capi-money",
+            "name": "www.crunchbase.com",
+            "date": "2026-07-29"
+          },
+          {
+            "url": "https://github.com/yc-oss/api",
+            "name": "Y Combinator",
+            "date": "2026-06-30"
+          },
+          {
+            "url": "https://www.axios.com/pro/fintech-deals/2025/02/18/cross-border-trade-startup-capi-money-raises-17-2m",
+            "name": "Cross-border trade startup Capi Money raises €17.2M",
+            "date": "2025-02-18"
+          }
+        ]
+      }
     },
     {
       "calaId": "c4915979-3a90-4565-9e76-a6f6b849998c",
@@ -7940,7 +9375,17 @@
         }
       ],
       "state": "enriched",
-      "description": "A Spanish AI enterprise automation startup founded in 2025 and headquartered in Valencia."
+      "description": "A Spanish AI enterprise automation startup founded in 2025 and headquartered in Valencia.",
+      "overview": {
+        "text": "Maisa AI is a Spanish AI enterprise automation startup headquartered in Valencia that was founded in 2025.",
+        "sources": [
+          {
+            "url": "https://startuprise.co.uk/spanish-ai-startup-maisa-raises-25m-in-pre-seed-round",
+            "name": "Startup Rise EU - European Startup News | Funding | Startup Insights",
+            "date": "2026-06-09"
+          }
+        ]
+      }
     },
     {
       "calaId": "cb9ef4ad-f5ee-4ae9-bd35-d3924b57eb21",
@@ -8349,7 +9794,57 @@
       ],
       "state": "enriched",
       "description": "A UK‑based fintech platform offering business current accounts and financial administration tools.",
-      "lastRoundDate": "2025-09-22"
+      "lastRoundDate": "2025-09-22",
+      "overview": {
+        "text": "Tide is a UK-based fintech platform offering business current accounts and financial administration tools. Between July 2016 and September 2025, it raised funding through multiple rounds, including a $100 million round in July 2021, a £100 million round in May 2025, and a $120 million round in September 2025. The company also completed funding rounds in July 2016, June 2017, August 2018, February 2019, October 2019, and September 2020.",
+        "sources": [
+          {
+            "url": "https://tracxn.com/d/companies/tide/__-iodg6wQzO-J1zXdyyIGbC7ghptVvUxsCpenj247epM/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://techcrunch.com/2017/07/03/uks-tide-raises-14m-to-challenge-big-banks-with-a-mobile-first-service-for-smbs",
+            "name": "UK's Tide raises $14M to challenge big banks with a mobile-first service for SMBs | TechCrunch",
+            "date": "2017-07-03"
+          },
+          {
+            "url": "https://techcrunch.com/2025/09/21/powered-by-indias-small-businesses-uk-fintech-tide-becomes-a-tpg-backed-unicorn",
+            "name": "Powered by India's small businesses, UK fintech Tide becomes a TPG-backed unicorn | TechCrunch",
+            "date": "2025-09-21"
+          },
+          {
+            "url": "https://pitchbook.com/news/articles/fintech-startup-tide-hits-1-5b-valuation-in-tpg-led-round",
+            "name": "pitchbook.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.fasanara.com/press/internal/tide-secures-100-million-debt-facility-from-fasanara",
+            "name": "Tide Secures £100 Million Debt Facility from Fasanara for Enhanced Credit Offerings | Fasanara Capital",
+            "date": "2025-05-01"
+          },
+          {
+            "url": "https://www.apax.com/news-views/tide-raises-100-million-in-series-c-funding-led-by-the-apax-digital-fund/",
+            "name": "Tide raises $100 million in Series C funding led by the ...",
+            "date": "2021-07-12"
+          },
+          {
+            "url": "https://www.finsmes.com/2019/10/tide-raises-44-1m-in-first-series-b-funding.html",
+            "name": "Tide Raises £44.1M in First Series B Funding - FinSMEs",
+            "date": "2019-10-07"
+          },
+          {
+            "url": "https://fintech.global/2018/08/20/tide-raises-8m-in-funding-to-support-its-rapid-expansion/",
+            "name": "Tide raises £8m in funding to support its rapid expansion",
+            "date": "2018-08-20"
+          },
+          {
+            "url": "https://techcrunch.com/2016/07/25/super-fast-small-biz-mobile-banking-service-tide-raises-2m-seed-round",
+            "name": "Super-fast small biz mobile banking service Tide raises $2M seed round | TechCrunch",
+            "date": "2016-07-25"
+          }
+        ]
+      }
     },
     {
       "calaId": "ceb30617-8ab1-414c-8e75-cac1e0ee5e4f",
@@ -8524,7 +10019,37 @@
       ],
       "state": "enriched",
       "description": "Swedish video game developer specializing in virtual reality, headquartered in Stockholm and founded in 2015.",
-      "lastRoundDate": "2021-07-14"
+      "lastRoundDate": "2021-07-14",
+      "overview": {
+        "text": "Resolution Games AB is a Swedish video game developer specializing in virtual reality, headquartered in Stockholm and founded in 2015. The company raised a funding round in August 2015 from Google Ventures and a $7.5 million round in October 2018. In July 2021, it raised a $25 million funding round from investors including Qualcomm Ventures, BITKRAFT Ventures, and GV.",
+        "sources": [
+          {
+            "url": "https://tracxn.com/d/companies/resolution-games/__IgFw-mHDbXtKyvy0OwlU0xIsEzhoJnzOGTHlx6q19h8",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.crunchbase.com/organization/bonnier-ventures/investor_summary/overview_timeline",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://roadtovr.com/resolution-games-secures-25m-series-c-funding-demeo-surpasses-multi-million-dollars-revenue/",
+            "name": "Resolution Games Secures $25M Series C Funding ...",
+            "date": "2021-07-14"
+          },
+          {
+            "url": "https://techcrunch.com/2018/10/23/stockholm-based-resolution-games-nabs-7-5m-to-pioneer-ar-vr-experiences",
+            "name": "Stockholm-based Resolution Games nabs $7.5M to pioneer AR/VR experiences | TechCrunch",
+            "date": "2018-10-23"
+          },
+          {
+            "url": "https://www.pocketgamer.biz/rovio-studio-profile-resolution-games-strike-vr-gold-how-to-make-success-from-failure/",
+            "name": "Rovio Studio Profile, Resolution Games strike VR gold, how to make success from failure | PocketGamer.biz",
+            "date": "2015-08-31"
+          }
+        ]
+      }
     },
     {
       "calaId": "d108a1a5-d9cc-42f8-87f4-3872b111c5a5",
@@ -8910,7 +10435,62 @@
       ],
       "state": "enriched",
       "description": "HR software platform that streamlines and automates human resource processes for SMBs",
-      "lastRoundDate": "2026-05-11"
+      "lastRoundDate": "2026-05-11",
+      "overview": {
+        "text": "Factorial is an HR software platform that streamlines and automates human resource processes for SMBs. The company raised funding in October 2018, April 2020, September 2021, October 2022, April 2024, and March 2025. Most recently, it raised $150 million in a May 2026 round with investors General Catalyst, Atomico, and Four Rivers.",
+        "sources": [
+          {
+            "url": "https://inforcapital.com/companies/factorial",
+            "name": "InforCapital: Market Intelligence for Private Equity & Venture Capital",
+            "date": "2026-06-01"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/factorial/__yFQlmD0MS99oW7c8knlCu-gnXS0swtDXuIrHpBgeIIk/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-05-11"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/factorial/__yFQlmD0MS99oW7c8knlCu-gnXS0swtDXuIrHpBgeIIk",
+            "name": "tracxn.com",
+            "date": "2026-05-11"
+          },
+          {
+            "url": "https://factorial.com/blog/factorial-raises-150m-series-d-becoming-most-valuable-ai-scale-ups-europe/",
+            "name": "Factorial Series D: $150M funding for AI growth | Factorial",
+            "date": "2026-06-03"
+          },
+          {
+            "url": "https://www.crunchbase.com/organization/factorial/company_overview/overview_timeline",
+            "name": "www.crunchbase.com",
+            "date": "2026-05-11"
+          },
+          {
+            "url": "https://techcrunch.com/2025/03/19/factorial-snaps-up-120m-from-general-catalyst-to-boost-its-hr-sales-and-marketing/",
+            "name": "Factorial, an HR unicorn, snaps up $120M from General ...",
+            "date": "2025-03-19"
+          },
+          {
+            "url": "https://factorial.com/blog/factorial-secures-80m-of-go-to-market-investment-from-general-catalyst-to-accelerate-growth/",
+            "name": "Factorial secures $80M of Go-To-Market investment 🚀",
+            "date": "2024-04-11"
+          },
+          {
+            "url": "https://news.crunchbase.com/job-market/factorial-unicorn-hr/",
+            "name": "news.crunchbase.com",
+            "date": "2026-05-11"
+          },
+          {
+            "url": "https://techcrunch.com/2020/04/27/factorial-raises-16m-to-take-on-the-hr-world-with-a-platform-for-smbs/",
+            "name": "Factorial raises $16M to take on the HR world with a platform for SMBs | TechCrunch",
+            "date": "2020-04-27"
+          },
+          {
+            "url": "https://www.eu-startups.com/2018/10/barcelona-based-factorial-raises-e2-8-million-from-two-international-funds/",
+            "name": "Barcelona-based Factorial raises €2.8 million to change ...",
+            "date": "2018-10-01"
+          }
+        ]
+      }
     },
     {
       "calaId": "d98ffae1-1829-447c-8151-5a033e861895",
@@ -9258,7 +10838,62 @@
       ],
       "state": "enriched",
       "description": "A graph database provider and software services company based in San Mateo, California, founded in 2024.",
-      "lastRoundDate": "2026-08-24"
+      "lastRoundDate": "2026-08-24",
+      "overview": {
+        "text": "Neo4j, Inc. is a graph database provider and software services company based in San Mateo, California, founded in 2024. The company raised multiple funding rounds between October 2009 and August 2026, including $325 million in June 2021 and $50 million in November 2024. Its investors include Dawn Capital, One Peak Partners, Morgan Stanley Expansion Capital, Eight Roads, Greenbridge Partners, Eurazeo, GV, DTCP, Lightrock, Inovia, Alanda Capital Management, and Noteus Partners.",
+        "sources": [
+          {
+            "url": "https://tracxn.com/d/companies/neo4j/__nPBGtpp2oSzyOKZjZabZI40RgEha3i3AC51z6fAxZS4/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://www.ffiec.gov/npw/Institution/Profile/5974816",
+            "name": "FFIEC",
+            "date": "2026-05-18"
+          },
+          {
+            "url": "https://techcrunch.com/2024/11/19/database-startup-neo4j-embraces-ai-to-supercharge-growth",
+            "name": "Database startup Neo4j embraces AI to supercharge growth | TechCrunch",
+            "date": "2024-11-19"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/neo4j/__nPBGtpp2oSzyOKZjZabZI40RgEha3i3AC51z6fAxZS4",
+            "name": "tracxn.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://betakit.com/patrick-pichette-joins-neo4js-board-as-inovia-leads-startups-65-million-usd-seed-extension/",
+            "name": "Patrick Pichette joins Neo4j's board as Inovia leads startup's $66 million USD Series F extension",
+            "date": "2021-11-09"
+          },
+          {
+            "url": "https://techcrunch.com/2021/06/17/neo4j-series-f",
+            "name": "Neo4j raises $325M as graph-based data analysis takes hold in enterprise",
+            "date": "2021-06-17"
+          },
+          {
+            "url": "https://news.crunchbase.com/enterprise/neo4j-hits-2b-plus-valuation-after-325m-raise",
+            "name": "news.crunchbase.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://www.di.se/nyheter/svenske-teknikstjarnan-tar-in-260-miljoner-i-usa/",
+            "name": "Svenska techstjärnan Emil Eifrém tar in 260 miljoner till sitt Neo4J",
+            "date": "2020-11-09"
+          },
+          {
+            "url": "https://techcrunch.com/2018/11/01/neo4j-nabs-80m-series-e-as-graph-database-tech-matures",
+            "name": "Neo4j nabs $80M Series E as graph database tech flourishes | TechCrunch",
+            "date": "2018-11-01"
+          },
+          {
+            "url": "https://neo4j.com/blog/emil-eifrem/neo-technology-series-c-funding/",
+            "name": "Neo Technology, creator of Neo4j, closes Series C funding",
+            "date": "2015-01-15"
+          }
+        ]
+      }
     },
     {
       "calaId": "dae82b91-1787-45fe-88b1-cb2eea1cc65e",
@@ -9404,7 +11039,32 @@
       ],
       "state": "enriched",
       "description": "Lithuanian AI orchestration startup offering the AI Workspace platform.",
-      "lastRoundDate": "2025-10-21"
+      "lastRoundDate": "2025-10-21",
+      "overview": {
+        "text": "Nexos.ai is a Lithuanian AI orchestration startup that offers the AI Workspace platform. In January 2025, the company raised an $8 million funding round from Index Ventures, Dig Ventures, Datadog, Klarna, Supercell, and Wix. It subsequently raised a €30 million funding round in October 2025 from Index, Evantic Capital, and Dig Ventures.",
+        "sources": [
+          {
+            "url": "https://techcrunch.com/2025/01/17/nord-security-founders-launch-nexos-ai-to-help-enterprises-take-ai-projects-from-pilot-to-production",
+            "name": "Nord Security founders launch Nexos.ai to help enterprises take AI projects from pilot to production | TechCrunch",
+            "date": "2025-01-17"
+          },
+          {
+            "url": "https://techcrunch.com/2025/10/20/european-ai-rising-star-nexos-ai-raises-30m-to-unlock-enterprise-ai-adoption",
+            "name": "European AI rising star Nexos AI raises €30M to unlock enterprise AI adoption | TechCrunch",
+            "date": "2025-10-20"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/nexos.ai/__R_l7hJYukbce3eMNvJvmxPIqvkp6LTkcQHLP9Cr3mqc/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/732345-85",
+            "name": "pitchbook.com",
+            "date": "2026-08-24"
+          }
+        ]
+      }
     },
     {
       "calaId": "e970961f-b15f-4f84-a6c7-1fa858527450",
@@ -9529,7 +11189,32 @@
       ],
       "state": "enriched",
       "description": "A Berlin-based software and services company founded in 2017.",
-      "lastRoundDate": "2022-03-24"
+      "lastRoundDate": "2022-03-24",
+      "overview": {
+        "text": "Leapsome GmbH is a Berlin-based software and services company founded in 2017. It raised a funding round in March 2022.",
+        "sources": [
+          {
+            "url": "https://tracxn.com/d/companies/leapsome/__ySUZhJASWxM1gOpZ3KQWjOriU5SAsHnFPPvfK2U2Crk",
+            "name": "tracxn.com",
+            "date": "2026-07-29"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/leapsome/__ySUZhJASWxM1gOpZ3KQWjOriU5SAsHnFPPvfK2U2Crk/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-07-29"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/416656-99",
+            "name": "pitchbook.com",
+            "date": "2026-07-29"
+          },
+          {
+            "url": "https://techcrunch.com/2022/09/22/berlins-visionaries-club-vc-boosts-its-funds-with-e350m-worth-of-fresh-capital-for-b2b-investments",
+            "name": "Berlin's Visionaries Club VC boosts its funds with €400M worth of fresh capital for B2B investments | TechCrunch",
+            "date": "2022-09-22"
+          }
+        ]
+      }
     },
     {
       "calaId": "eff6bb01-8485-4e9f-a427-285f62bef0d3",
@@ -9545,7 +11230,17 @@
         }
       ],
       "state": "enriched",
-      "description": "a Spain-based AI process automation startup founded in 2024, operating in the software and services industry"
+      "description": "a Spain-based AI process automation startup founded in 2024, operating in the software and services industry",
+      "overview": {
+        "text": "Maisa is a Spain-based AI process automation startup founded in 2024. It operates in the software and services industry.",
+        "sources": [
+          {
+            "url": "https://pitchbook.com/newsletter/global-vc-deals-for-august-29-2025",
+            "name": "pitchbook.com",
+            "date": "2026-06-27"
+          }
+        ]
+      }
     },
     {
       "calaId": "f065108c-ff44-4103-bee0-292f18618035",
@@ -9561,7 +11256,17 @@
         }
       ],
       "state": "enriched",
-      "description": "A Madrid‑based AI firm in the software and services sector that offers a digital‑workers platform aimed at reducing hallucinations."
+      "description": "A Madrid‑based AI firm in the software and services sector that offers a digital‑workers platform aimed at reducing hallucinations.",
+      "overview": {
+        "text": "Maisa is a Madrid-based AI firm in the software and services sector that offers a digital-workers platform aimed at reducing hallucinations.",
+        "sources": [
+          {
+            "url": "https://pitchbook.com/newsletter/global-vc-deals-for-august-29-2025",
+            "name": "pitchbook.com",
+            "date": "2026-08-11"
+          }
+        ]
+      }
     },
     {
       "calaId": "f372411c-0d36-415b-8479-0a2e8a79ccc7",
@@ -9719,7 +11424,37 @@
       ],
       "state": "enriched",
       "description": "An Indian organization that offers an enterprise AI gateway, headquartered in Bengaluru.",
-      "lastRoundDate": "2025-10-21"
+      "lastRoundDate": "2025-10-21",
+      "overview": {
+        "text": "Nexos AI is an Indian organization headquartered in Bengaluru that offers an enterprise AI gateway. In January 2025, it raised an $8 million funding round from Index Ventures and Dig Ventures. It raised another funding round of €30 million in October 2025 from Index, Evantic Capital, and Dig Ventures.",
+        "sources": [
+          {
+            "url": "https://techcrunch.com/2025/01/17/nord-security-founders-launch-nexos-ai-to-help-enterprises-take-ai-projects-from-pilot-to-production",
+            "name": "Nord Security founders launch Nexos.ai to help enterprises take AI projects from pilot to production | TechCrunch",
+            "date": "2025-01-17"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/nexosai/__R_l7hJYukbce3eMNvJvmxPIqvkp6LTkcQHLP9Cr3mqc/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/732345-85",
+            "name": "pitchbook.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://www.crunchbase.com/organization/nexos-ai/financial_details",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://techcrunch.com/2025/10/20/european-ai-rising-star-nexos-ai-raises-30m-to-unlock-enterprise-ai-adoption",
+            "name": "European AI rising star Nexos AI raises €30M to unlock enterprise AI adoption | TechCrunch",
+            "date": "2025-10-20"
+          }
+        ]
+      }
     },
     {
       "calaId": "f5f751ec-7865-4355-8e29-341ce55c83ac",
@@ -9802,7 +11537,27 @@
       ],
       "state": "enriched",
       "description": "London‑based UK startup that provides AI‑driven recruitment‑agent services.",
-      "lastRoundDate": "2025-10-16"
+      "lastRoundDate": "2025-10-16",
+      "overview": {
+        "text": "Jack & Jill AI is a London-based UK startup that provides AI-driven recruitment-agent services. The company raised $20 million in a funding round in October 2025.",
+        "sources": [
+          {
+            "url": "https://techcrunch.com/2025/10/16/jack-jill-raises-20-million-to-bring-conversational-ai-to-job-hunting",
+            "name": "Jack & Jill raises $20M to bring conversational AI to job-hunting | TechCrunch",
+            "date": "2025-10-16"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/jack-jill-ai/__wLcwVwws4k1gNMZOig9YJQ2ERxniHFBUBezcJQ0ShIw",
+            "name": "tracxn.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/jackjillai/__wLcwVwws4k1gNMZOig9YJQ2ERxniHFBUBezcJQ0ShIw/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-24"
+          }
+        ]
+      }
     },
     {
       "calaId": "f9a29a95-b997-410f-95df-98b4106a4eb7",
@@ -9835,7 +11590,27 @@
         }
       ],
       "state": "enriched",
-      "description": "Lifesum helps you improve your well-being with insights regarding food and nutrition while creating sustainable habits – start your health journey today."
+      "description": "Lifesum helps you improve your well-being with insights regarding food and nutrition while creating sustainable habits – start your health journey today.",
+      "overview": {
+        "text": "Lifesum AB helps individuals improve their well-being with insights regarding food and nutrition while creating sustainable habits.",
+        "sources": [
+          {
+            "url": "https://www.cbinsights.com/company/lifesum/financials",
+            "name": "CB Insights — Predictive Intelligence on Private Companies",
+            "date": "2026-06-01"
+          },
+          {
+            "url": "https://lifesum.com/",
+            "name": "lifesum.com",
+            "date": "2026-11-02"
+          },
+          {
+            "url": "https://upplysningar.syna.se/foretag/5567292841",
+            "name": "upplysningar.syna.se",
+            "date": "2026-11-13"
+          }
+        ]
+      }
     },
     {
       "calaId": "fc9b463a-a6db-41e7-ba8c-b94e51a163e3",
@@ -9908,7 +11683,67 @@
         }
       ],
       "state": "enriched",
-      "description": "Causa Prima is the agent-to-agent network for finance teams — AI agents handle invoicing, disputes and discounts on both sides of every B2B transaction, so you end the chase and money moves on the..."
+      "description": "Causa Prima is the agent-to-agent network for finance teams — AI agents handle invoicing, disputes and discounts on both sides of every B2B transaction, so you end the chase and money moves on the...",
+      "overview": {
+        "text": "Causa Prima is an agent-to-agent network for finance teams where AI agents handle invoicing, disputes, and discounts on both sides of every B2B transaction.",
+        "sources": [
+          {
+            "url": "https://seedtable.com/companies/causa-prima/funding-rounds/pre-seed-2026-06",
+            "name": "Seedtable: Connect with fast-growing startups at the perfect moment",
+            "date": "2026-09-17"
+          },
+          {
+            "url": "https://www.thesaasnews.com/news/causa-prima-raises-10m-pre-seed",
+            "name": "SaaS B2B Fundraising News | The SaaS News",
+            "date": "2026-09-17"
+          },
+          {
+            "url": "https://www.startup.eu/investments/causa-prima-10-m-pre-seed-06-2026",
+            "name": "Europe’s Most Complete Startup Investment Tracker",
+            "date": "2026-09-17"
+          },
+          {
+            "url": "https://dealroom.co/news/134810-causa-prima-raises-10m-pre-seed-led-by-creandum-for-agent-to-agent-b2b-p",
+            "name": "Dealroom.co | Mapping the world's tech ecosystems",
+            "date": "2026-09-17"
+          },
+          {
+            "url": "https://thedisruptormag.com/causa-prima-raises-10-million-pre-seed-round-backed-by-borusan-ventures-and-creandum",
+            "name": "thedisruptormag.com",
+            "date": "2026-09-17"
+          },
+          {
+            "url": "https://seedtable.com/companies/causa-prima",
+            "name": "Seedtable: Connect with fast-growing startups at the perfect moment",
+            "date": "2026-09-17"
+          },
+          {
+            "url": "https://fortune.com/2026/10/13/startup-causa-prima-20-million-billing-disputes-ai-agents/",
+            "name": "fortune.com",
+            "date": "2026-10-13"
+          },
+          {
+            "url": "https://forbes.es/ultima-hora/1043071/la-tecnologica-causa-prima-capta-18-millones-de-euros-en-una-nueva-ronda-y-sube-su-financiacion-a-27-millones/",
+            "name": "forbes.es",
+            "date": "2026-10-13"
+          },
+          {
+            "url": "https://causaprima.ai/",
+            "name": "causaprima.ai",
+            "date": "2026-11-02"
+          },
+          {
+            "url": "https://causaprima.com/",
+            "name": "causaprima.com",
+            "date": "2026-11-09"
+          },
+          {
+            "url": "https://www.linkedin.com/company/causa-prima/?viewAsMember=true",
+            "name": "linkedin.com",
+            "date": "2026-11-02"
+          }
+        ]
+      }
     }
   ],
   "callList": [
