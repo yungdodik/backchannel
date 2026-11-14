@@ -3,13 +3,14 @@ import { CalaGaveUp, type Cala, type CalaEntity, type CalaLink } from "@/lib/cal
 import type { Exa, ExaResult } from "@/lib/exa";
 import type { Gemini } from "@/lib/gemini";
 import { NEWS_BLOCKLIST } from "@/lib/news-blocklist";
+import { companyOverview } from "@/lib/overview";
 import { analyseCompany, domain, normalise, toSources, wasAcquired } from "@/lib/signals";
 import type { CallListEntry, Founder, FundMatch, PortfolioCompany, Report, Signal, Source, StreamEvent } from "@/lib/types";
 
 export interface PipelineDeps {
   cala: Cala;
   exa: Pick<Exa, "searchPeople" | "searchNews">;
-  gemini: Pick<Gemini, "questions">;
+  gemini: Pick<Gemini, "questions" | "overview">;
   now: () => Date;
   budgetMs: number;
   /** Live runs enrich at most this many companies by priority (spec step 10). */
@@ -228,6 +229,13 @@ export function createPipeline(deps: PipelineDeps) {
         co.state = "enriched";
         out.push({ type: "company", company: structuredClone(co) });
 
+        // D29: runs beside the questions; the company is sent again once the overview exists. A Gemini failure leaves it out.
+        const overview = companyOverview(co, gemini).then((o) => {
+          if (!o) return;
+          co.overview = o;
+          out.push({ type: "company", company: structuredClone(co) });
+        });
+
         if (a.group && co.founders.length) {
           const raw = await gemini.questions(questionPrompt(co.name, fund.name, a.signals)).catch((e) => {
             console.warn(`Gemini failed for ${co.name}, using template questions: ${e instanceof Error ? e.message.slice(0, 200) : e}`);
@@ -252,6 +260,7 @@ export function createPipeline(deps: PipelineDeps) {
             out.push({ type: "entry", entry });
           }
         }
+        await overview;
       };
 
       // Cala's quota seems to reset about once a minute; a company it gave up on gets one more try at the end.

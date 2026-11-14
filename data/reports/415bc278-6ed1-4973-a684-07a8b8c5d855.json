@@ -339,7 +339,52 @@
       ],
       "state": "enriched",
       "description": "European quantum computing hardware company building superconducting quantum computers.",
-      "lastRoundDate": "2026-03-30"
+      "lastRoundDate": "2026-03-30",
+      "overview": {
+        "text": "IQM is a European quantum computing hardware company building superconducting quantum computers. Its funding history includes €15 million raised in June 2020, €128 million in July 2022, funding rounds in May 2025, $300 million raised in September 2025, and €50 million raised in March 2026.",
+        "sources": [
+          {
+            "url": "https://maki.vc/portfolio",
+            "name": "Portfolio - Maki.vc",
+            "date": "2026-03-11"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/iqm/__YJnoEa58_JzzNNc0QB1_1E2AaA2-T8oKBfVJHepF-y4",
+            "name": "IQM - 2026 Company Profile & Team - Tracxn",
+            "date": "2021-08-17"
+          },
+          {
+            "url": "https://iqm.tech/press-releases/iqm-secures-e50m-financing-to-accelerate-global-growth/",
+            "name": "IQM secures €50M financing to accelerate global growth - IQM Quantum Computers",
+            "date": "2026-03-30"
+          },
+          {
+            "url": "https://techcrunch.com/2025/09/03/brand-new-unicorn-iqm-sets-its-sights-beyond-europe-for-its-quantum-computers",
+            "name": "Brand new unicorn IQM sets its sights beyond Europe for its quantum computers | TechCrunch",
+            "date": "2025-09-03"
+          },
+          {
+            "url": "https://techcrunch.com/2026/02/23/finnish-quantum-unicorn-iqm-set-to-go-public",
+            "name": "Finnish quantum unicorn IQM set to go public | TechCrunch",
+            "date": "2026-02-23"
+          },
+          {
+            "url": "https://techcrunch.com/2025/05/05/meet-the-companies-racing-to-build-quantum-chips",
+            "name": "Meet the companies racing to build quantum chips | TechCrunch",
+            "date": "2025-05-05"
+          },
+          {
+            "url": "https://iqm.tech/press-releases/european-quantum-computing-leader-iqm-raises-e128m-led-by-world-fund-to-help-combat-the-climate-crisis/",
+            "name": "European quantum computing leader IQM raises €128m led by World Fund to help combat the climate crisis - IQM Quantum Computers",
+            "date": "2022-07-22"
+          },
+          {
+            "url": "https://techcrunch.com/2020/06/11/european-quantum-computing-startup-takes-its-funding-to-e32m-with-fresh-raise",
+            "name": "European quantum computing startup takes its funding to €32M with fresh raise | TechCrunch",
+            "date": "2020-06-11"
+          }
+        ]
+      }
     },
     {
       "calaId": "16fa515b-1434-58c9-be73-8754e77ade00",
@@ -382,7 +427,37 @@
         }
       ],
       "state": "enriched",
-      "description": "A Finnish aerospace and defense company founded in 2026 and headquartered in Espoo."
+      "description": "A Finnish aerospace and defense company founded in 2026 and headquartered in Espoo.",
+      "overview": {
+        "text": "Metaktik is a Finnish aerospace and defense company founded in 2026 and headquartered in Espoo.",
+        "sources": [
+          {
+            "url": "https://metaktik.com/news/2026-03/metaktik-receives-one-million-euro-funding",
+            "name": "metaktik.com",
+            "date": "2026-03-30"
+          },
+          {
+            "url": "https://www.sttinfo.fi/tiedote/71918726/metaktik-sai-miljoonan-euron-rahoituksen-suomalainen-antenni-innovaatio-vakuutti-sijoittajat",
+            "name": "sttinfo.fi",
+            "date": "2026-03-31"
+          },
+          {
+            "url": "https://metaktik.com/",
+            "name": "metaktik.com",
+            "date": "2026-11-02"
+          },
+          {
+            "url": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=3604810-2",
+            "name": "avoindata.prh.fi",
+            "date": "2026-03-01"
+          },
+          {
+            "url": "https://metaktik.com/news/2026-03/metaktik-ltd-has-been-founded",
+            "name": "metaktik.com",
+            "date": "2026-03-01"
+          }
+        ]
+      }
     },
     {
       "calaId": "31ab6e8a-3dd2-5da1-a76e-f8538a809347",
@@ -420,7 +495,27 @@
         }
       ],
       "state": "enriched",
-      "description": "Ethira builds an AI-native platform that maps a company's ICT estate (vendors, systems, AI agents and data flows) to manage supply chain and third-party risk."
+      "description": "Ethira builds an AI-native platform that maps a company's ICT estate (vendors, systems, AI agents and data flows) to manage supply chain and third-party risk.",
+      "overview": {
+        "text": "Ethira builds an AI-native platform that maps a company's ICT estate, including vendors, systems, AI agents, and data flows, to manage supply chain and third-party risk.",
+        "sources": [
+          {
+            "url": "https://www.ethira.dev/",
+            "name": "ethira.dev",
+            "date": "2026-11-13"
+          },
+          {
+            "url": "https://www.allabolag.se/befattningshavare/ethira-ab/stockholm/internet-konsulter-operatc3b6rer/2KJAXYWI5YFHL",
+            "name": "allabolag.se",
+            "date": "2026-11-13"
+          },
+          {
+            "url": "https://upplysningar.syna.se/foretag/5595311480",
+            "name": "upplysningar.syna.se",
+            "date": "2026-11-13"
+          }
+        ]
+      }
     },
     {
       "calaId": "3e0524ad-7104-44a6-8f0f-788bc2772922",
@@ -441,7 +536,22 @@
         }
       ],
       "state": "enriched",
-      "description": "IQM builds superconducting full-stack quantum computers with up to 150 high-fidelity qubits and the highest connectivity out there."
+      "description": "IQM builds superconducting full-stack quantum computers with up to 150 high-fidelity qubits and the highest connectivity out there.",
+      "overview": {
+        "text": "IQM Quantum Computers Oyj builds superconducting full-stack quantum computers with up to 150 high-fidelity qubits and high connectivity.",
+        "sources": [
+          {
+            "url": "https://www.aalto.fi/en/news/aalto-quantum-computing-spinout-secures-eu1145m-in-funding",
+            "name": "aalto.fi",
+            "date": "2019-07-10"
+          },
+          {
+            "url": "https://tech.eu/2019/07/09/finnish-hardware-startup-raises-e11-million-in-seed-funding-to-take-quantum-computing-to-the-next-level/",
+            "name": "tech.eu",
+            "date": "2019-07-09"
+          }
+        ]
+      }
     },
     {
       "calaId": "41c34f5a-2dab-49b3-9ca4-51d70b1bf54f",
@@ -512,7 +622,17 @@
         }
       ],
       "state": "enriched",
-      "description": "An AI-native hiring platform that deploys conversational agents to autonomously handle end-to-end recruitment, from candidate screening and skills testing to interviewing and selection."
+      "description": "An AI-native hiring platform that deploys conversational agents to autonomously handle end-to-end recruitment, from candidate screening and skills testing to interviewing and selection.",
+      "overview": {
+        "text": "AI Agents is an AI-native hiring platform that deploys conversational agents to autonomously handle end-to-end recruitment, from candidate screening and skills testing to interviewing and selection.",
+        "sources": [
+          {
+            "url": "https://maki.vc/portfolio",
+            "name": "Portfolio - Maki.vc",
+            "date": "2026-03-11"
+          }
+        ]
+      }
     },
     {
       "calaId": "4bb38245-af8b-4a3c-ae22-de40aa1be500",
@@ -648,7 +768,47 @@
       ],
       "state": "enriched",
       "description": "Builds superconducting quantum computers for research labs and supercomputing centers, using application-specific co-design and novel chip architecture to deliver quantum advantage.",
-      "lastRoundDate": "2021-05-03"
+      "lastRoundDate": "2021-05-03",
+      "overview": {
+        "text": "Quantum Computing builds superconducting quantum computers for research labs and supercomputing centers using application-specific co-design and novel chip architecture to deliver quantum advantage. The company completed funding rounds in June 2017, September 2018, and May 2021. Its September 2018 round raised $1.5M from investors including Eniac Ventures, Boost VC, Creative Ventures, KEC Ventures, and Gyan Kapur.",
+        "sources": [
+          {
+            "url": "https://maki.vc/portfolio",
+            "name": "Portfolio - Maki.vc",
+            "date": "2026-03-11"
+          },
+          {
+            "url": "https://www.cbinsights.com/company/bleximo/financials",
+            "name": "Bleximo",
+            "date": "2018-09-25"
+          },
+          {
+            "url": "https://techcrunch.com/2018/09/25/bleximo-raises-1-5m-for-its-quantum-computing-accelerators",
+            "name": "Bleximo raises $1.5M for its quantum computing accelerators | TechCrunch",
+            "date": "2018-09-25"
+          },
+          {
+            "url": "https://fi.co/insight/marchenkov-startup-bleximo-raise-1-5m-to-hybridize-quantum-classical-computing",
+            "name": "Bleximo Raises $1.5M to Introduce Quantum Computing to Real-World Applications",
+            "date": "2022-08-08"
+          },
+          {
+            "url": "https://www.amarchenkova.com/posts/bleximo-1-5mm-quantum-computing",
+            "name": "Anastasia Marchenkova",
+            "date": "2018-09-25"
+          },
+          {
+            "url": "https://medium.com/eniacvc/eniac-backs-bleximo-bringing-quantum-to-real-world-applications-8a2eb78cff3c",
+            "name": "medium.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://app.dealroom.co/companies/bleximo",
+            "name": "Bleximo company information, funding & investors",
+            "date": "2017-02-01"
+          }
+        ]
+      }
     },
     {
       "calaId": "636e313d-2933-451f-90f8-bc77db6f0329",
@@ -782,7 +942,47 @@
       ],
       "state": "enriched",
       "description": "Develops the world's first glasses-free mixed reality solution that transforms transparent surfaces into 3D light fields, designed for automotive and aeronautics integration.",
-      "lastRoundDate": "2024-09-24"
+      "lastRoundDate": "2024-09-24",
+      "overview": {
+        "text": "Mixed Reality develops a glasses-free mixed reality solution that transforms transparent surfaces into 3D light fields, designed for automotive and aeronautics integration. In June 2024, it raised $2.7M in a funding round from FOV Ventures, Business Finland, and Foobar.vc. In September 2024, the company raised €10M in a funding round with GV and FOV Ventures.",
+        "sources": [
+          {
+            "url": "https://maki.vc/portfolio",
+            "name": "Portfolio - Maki.vc",
+            "date": "2026-03-11"
+          },
+          {
+            "url": "https://distance.tech/news/distance-technologies-closes-oversubscribed-eur10m-seed-round-led-by-gv-google-ventures",
+            "name": "Distance Technologies Closes Oversubscribed €10M Seed Round, Led by GV (Google Ventures)",
+            "date": "2024-09-26"
+          },
+          {
+            "url": "https://www.cnbc.com/2024/09/26/google-backs-distance-startup-bringing-mixed-reality-to-cars-planes.html",
+            "name": "Google venture arm backs startup aiming to bring mixed reality to any car windshield or plane cockpit",
+            "date": "2024-09-26"
+          },
+          {
+            "url": "https://www.auganix.org/mr-news-distance-technologies-closes-oversubscribed-e10m-seed-round-led-by-gv",
+            "name": "Distance Technologies Closes Oversubscribed €10M Seed Round",
+            "date": "2024-09-27"
+          },
+          {
+            "url": "https://distance.tech/news/launch_release",
+            "name": "DISTANCE LAUNCH RELEASE",
+            "date": "2024-06-13"
+          },
+          {
+            "url": "https://en.ain.ua/2024/06/14/distance-technologies-pre-seed-investment",
+            "name": "en.ain.ua",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.auganix.org/xr-news-distance-emerges-from-stealth-with-2-7m-in-funding-to-announce-its-glasses-free-xr-technology",
+            "name": "Distance emerges from stealth with $2.7M in funding",
+            "date": "2024-06-13"
+          }
+        ]
+      }
     },
     {
       "calaId": "82c65c94-8e28-47fe-90eb-53daf0a1a025",
@@ -798,7 +998,17 @@
         }
       ],
       "state": "enriched",
-      "description": "Introducing adaptive eyewear"
+      "description": "Introducing adaptive eyewear",
+      "overview": {
+        "text": "Eyewear Company is introducing adaptive eyewear.",
+        "sources": [
+          {
+            "url": "https://maki.vc/portfolio",
+            "name": "Portfolio - Maki.vc",
+            "date": "2026-03-11"
+          }
+        ]
+      }
     },
     {
       "calaId": "8a521560-6420-4acc-ae64-084c0b2b1d53",
@@ -814,7 +1024,17 @@
         }
       ],
       "state": "enriched",
-      "description": "Provides AI-powered solutions for automotive retail dealerships, enabling smarter operations, personalized experiences, and data-driven decisions."
+      "description": "Provides AI-powered solutions for automotive retail dealerships, enabling smarter operations, personalized experiences, and data-driven decisions.",
+      "overview": {
+        "text": "Auto Retail AI provides AI-powered solutions for automotive retail dealerships, enabling smarter operations, personalized experiences, and data-driven decisions.",
+        "sources": [
+          {
+            "url": "https://maki.vc/portfolio",
+            "name": "Portfolio - Maki.vc",
+            "date": "2026-03-11"
+          }
+        ]
+      }
     },
     {
       "calaId": "afba0cba-5006-5d2f-b50a-9dca60fa309a",
@@ -882,7 +1102,37 @@
         }
       ],
       "state": "enriched",
-      "description": "Sono's voice AI agents answer and make calls 24/7 in your customers' language: booking appointments, handling support, and reminding, negotiating and collecting on overdue accounts."
+      "description": "Sono's voice AI agents answer and make calls 24/7 in your customers' language: booking appointments, handling support, and reminding, negotiating and collecting on overdue accounts.",
+      "overview": {
+        "text": "Sono provides voice AI agents that answer and make calls 24/7 in customers' languages. These agents book appointments, handle support, and remind, negotiate, and collect on overdue accounts.",
+        "sources": [
+          {
+            "url": "https://callsono.com/funding/",
+            "name": "callsono.com",
+            "date": "2026-06-03"
+          },
+          {
+            "url": "https://callsono.com/about/",
+            "name": "callsono.com",
+            "date": "2026-11-10"
+          },
+          {
+            "url": "https://callsono.com/",
+            "name": "callsono.com",
+            "date": "2026-11-02"
+          },
+          {
+            "url": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=3515243-4",
+            "name": "avoindata.prh.fi",
+            "date": "2025-03-17"
+          },
+          {
+            "url": "https://www.linkedin.com/company/sointu/",
+            "name": "linkedin.com",
+            "date": "2026-11-02"
+          }
+        ]
+      }
     },
     {
       "calaId": "b2501123-e040-4c42-8599-41630a549c90",
@@ -910,7 +1160,22 @@
         }
       ],
       "state": "enriched",
-      "description": "FinanceKey helps you future-proof connectivity, gain real-time cash visibility across the organisation and manage money movements with ease."
+      "description": "FinanceKey helps you future-proof connectivity, gain real-time cash visibility across the organisation and manage money movements with ease.",
+      "overview": {
+        "text": "FinanceKey Oy helps organizations future-proof connectivity, gain real-time cash visibility across the organisation, and manage money movements.",
+        "sources": [
+          {
+            "url": "https://siliconcanals.com/helsinkis-financekey-secures-e3m/",
+            "name": "siliconcanals.com",
+            "date": "2025-06-10"
+          },
+          {
+            "url": "https://financekey.com/",
+            "name": "financekey.com",
+            "date": "2026-11-02"
+          }
+        ]
+      }
     },
     {
       "calaId": "e408efba-d8d3-43df-ac47-7b9603e847bb",
@@ -1067,7 +1332,77 @@
       ],
       "state": "enriched",
       "description": "An AI-powered platform for KYC, AML, and due diligence that connects business intelligence and network data from 200k+ sources for automated compliance and perpetual company monitoring.",
-      "lastRoundDate": "2023-09-06"
+      "lastRoundDate": "2023-09-06",
+      "overview": {
+        "text": "KYC Intelligence is an AI-powered platform for KYC, AML, and due diligence that connects business intelligence and network data from 200k+ sources for automated compliance and perpetual company monitoring. It held funding rounds in April 2020, November 2022, and September 2023, with its last recorded round occurring in September 2023.",
+        "sources": [
+          {
+            "url": "https://maki.vc/portfolio",
+            "name": "Portfolio - Maki.vc",
+            "date": "2026-03-11"
+          },
+          {
+            "url": "https://www.businessinsider.com/strise-anti-money-laundering-ai-startup-raises-108-million-2023-9",
+            "name": "Norwegian AI startup Strise helps banks tackle financial crime. It just raised a $10.8 million Series A round with this 8-slide pitch deck.",
+            "date": "2023-09-06"
+          },
+          {
+            "url": "https://www.crowdfundinsider.com/2023/09/212541-aml-firm-strise-raises-10-8-million-led-by-atomico",
+            "name": "www.crowdfundinsider.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://atomico.com/insights/our-investment-in-strise-overhauling-the-way-we-fight-financial-crime",
+            "name": "atomico.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.finextra.com/newsarticle/42896/financial-crime-becomes-a-hot-ticket-for-investors-as-strise-raises-108-million",
+            "name": "www.finextra.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://fintech.global/2023/09/06/strise-secures-10-8m-in-series-a-to-redefine-aml-automation",
+            "name": "Strise secures $10.8m in series A to redefine AML automation",
+            "date": "2023-09-06"
+          },
+          {
+            "url": "https://tech.eu/2023/09/06/aml-software-strise-funding-for-global-expansion",
+            "name": "Norwegian AML software firm Strise secures $10.8M funding for global expansion",
+            "date": "2023-09-06"
+          },
+          {
+            "url": "https://www.curiosityvc.com/post/kyc-software-company-strise-completes-eu3-3-million-funding-round-led-by-curiosity-vc",
+            "name": "KYC software company Strise completes €3.3 million funding round led by Curiosity | Curiosity Venture Capital",
+            "date": "2022-11-07"
+          },
+          {
+            "url": "https://siliconcanals.com/strise-raises-3-3m",
+            "name": "Dutch VC Curiosity backs Norwegian KYC intelligence startup Strise in €3.3M round - Silicon Canals",
+            "date": "2022-11-08"
+          },
+          {
+            "url": "https://www.thesaasnews.com/news/strise-raises-3-3-million-in-funding",
+            "name": "Strise Raises €3.3 Million in Funding",
+            "date": "2022-11-09"
+          },
+          {
+            "url": "https://startupintros.com/orgs/strise",
+            "name": "Strise: Funding, Team & Investors",
+            "date": "2026-07-13"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/strise-tech/__-QF3gbZmi_xBMbmhEUlqhXRCmq85Quaxbn01bNtTIX0",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://maki.vc/case/strise",
+            "name": "Strise - Maki.vc",
+            "date": "2026-03-10"
+          }
+        ]
+      }
     },
     {
       "calaId": "f755b17d-26a2-5d1f-9e95-1cb19935d325",
@@ -1105,7 +1440,32 @@
         }
       ],
       "state": "enriched",
-      "description": "A Finnish aerospace and defense company headquartered in Espoo, founded in 2024."
+      "description": "A Finnish aerospace and defense company headquartered in Espoo, founded in 2024.",
+      "overview": {
+        "text": "Aavuus is a Finnish aerospace and defense company headquartered in Espoo, founded in 2024.",
+        "sources": [
+          {
+            "url": "https://www.aavuus.com/news/aavuus-raises-pre-seed",
+            "name": "aavuus.com",
+            "date": "2026-06-09"
+          },
+          {
+            "url": "https://tech.eu/2026/06/09/finnish-space-safety-startup-aavuus-lands-pre-seed-funding-to-tackle-space-debris-tracking",
+            "name": "tech.eu",
+            "date": "2026-06-09"
+          },
+          {
+            "url": "https://www.cbinsights.com/company/aavuus/financials",
+            "name": "cbinsights.com",
+            "date": "2026-11-13"
+          },
+          {
+            "url": "https://aavuus.com/",
+            "name": "aavuus.com",
+            "date": "2026-11-02"
+          }
+        ]
+      }
     },
     {
       "calaId": "fa92035a-411b-40a4-a2b0-a90afbdeccdb",
@@ -1174,7 +1534,22 @@
       ],
       "state": "enriched",
       "description": "Produces animal-free egg white protein (Bioalbumen®) using precision fermentation, creating a bioidentical alternative to chicken egg white without the need for animals.",
-      "lastRoundDate": "2024-04-01"
+      "lastRoundDate": "2024-04-01",
+      "overview": {
+        "text": "Egg White Company produces animal-free egg white protein (Bioalbumen®) using precision fermentation, creating a bioidentical alternative to chicken egg white without the need for animals. In April 2024, the company raised $40 million in a funding round from NordicNinja, Tesi, EIT Food, Agronomics, Holdix, Turret, and Business Finland.",
+        "sources": [
+          {
+            "url": "https://maki.vc/portfolio",
+            "name": "Portfolio - Maki.vc",
+            "date": "2026-03-11"
+          },
+          {
+            "url": "https://techcrunch.com/2024/04/01/animal-free-egg-protein-onego-bio-40m",
+            "name": "Animal-free egg protein startup Onego Bio is one step closer to cracking the traditional egg market | TechCrunch",
+            "date": "2024-04-01"
+          }
+        ]
+      }
     }
   ],
   "callList": [

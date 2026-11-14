@@ -1,6 +1,7 @@
 import type { ExaResult } from "@/lib/exa";
 import { liveCala, liveDeps } from "@/lib/live";
 import { BANNED, createPipeline, questionTemplates } from "@/lib/pipeline";
+import { VERDICT } from "@/lib/overview";
 import { normalise } from "@/lib/signals";
 import type { Founder, PortfolioCompany, Signal, StreamEvent } from "@/lib/types";
 
@@ -89,6 +90,8 @@ async function main() {
     "no banned words in signals/questions",
     [...signals.map((s) => s.text), ...entries.flatMap((e) => e.questions)].filter((t) => BANNED.test(t)),
   );
+  const overviews = cs.flatMap((c) => (c.overview ? [{ name: c.name, ...c.overview }] : []));
+  gate("every overview has text, >=1 source with url and no verdict word (D29)", overviews.filter((o) => !o.text || noSource(o) || VERDICT.test(o.text)).map((o) => o.name));
   gate("protocol order", orderErr);
   const callList = done?.callList ?? entries;
   const templated = callList.filter((e) => e.questions.every((q) => questionTemplates(fundName).includes(q)));
@@ -97,12 +100,13 @@ async function main() {
   const groups: Record<string, number> = {};
   callList.forEach((e) => (groups[e.group] = (groups[e.group] ?? 0) + 1));
   const first = events.find((x) => x.e.type === "entry");
+  const final = done?.portfolio ?? [...companies.values()];
   console.log("\n-- metrics --");
   console.log(`entries: ${done?.callList.length ?? entries.length} (target >= 8)  by group: ${JSON.stringify(groups)}`);
   console.log(`time to first entry: ${first ? secs(first.t) + "s" : "n/a"}  total: ${total}s`);
   console.log(`template-only entries: ${templated.length}/${callList.length}`);
+  console.log(`overviews: ${final.filter((c) => c.overview).length}/${final.filter((c) => c.state === "enriched").length} enriched companies`);
   console.log(`cala 429s: ${liveCala().hits429}`);
-  const final = done?.portfolio ?? [...companies.values()];
   console.log(`unavailable companies: ${final.filter((c) => c.state === "unavailable").length}/${final.length}`);
   console.log(`CALA_MIN_GAP_MS: ${process.env.CALA_MIN_GAP_MS ?? "1000 (default)"}`);
   process.exit(failed ? 1 : 0);

@@ -71,6 +71,7 @@ The founder types a fund name and picks the right fund from the matches. Within 
 7. **Questions:** one Gemini call per company on the call list (shared by its ≤2 entries), given only its `why` signals, returning exactly 3 questions as JSON. Post-check:
    - Drop questions containing a 4-digit year or a number not present in the signals, or matching the banned-words regex.
    - Fill up to 3 from fixed templates.
+7b. **Overview (D29):** beside the questions, one Gemini call per enriched company with at least one sourced fact (`lib/overview.ts`): description, signals, news titles, dated rounds. Code drops a text with a verdict word, a number or a mid-sentence name that is not in the facts, talk about the prompt, or more than 600 characters. The company is then sent again in a second `company` event with `overview`. Committed reports: `npm run overviews` (Gemini only).
 8. **Entries:** one `CallListEntry` per (company, founder), with `why` = the company's signals and `writing: []`.
 9. **Cache:**
    - `npm run precompute -- <calaId>…` runs the pipeline locally with no time budget. It writes `data/reports/{calaId}.json` and regenerates `lib/cached-reports.ts`, a static import map `{ [calaId]: () => import("@/data/reports/<id>.json") }`.
@@ -87,7 +88,7 @@ The founder types a fund name and picks the right fund from the matches. Within 
 - **Order:**
   1. Zero or more `progress` events.
   2. Exactly one `portfolio`.
-  3. `company`, `entry` and `progress` events, interleaved.
+  3. `company`, `entry` and `progress` events, interleaved. A company can be sent more than once (the later event replaces the earlier one).
   4. Exactly one terminal line: `done` or `error`.
 - **Errors:**
   - A per-company failure is sent as a `progress` event, never `error`.

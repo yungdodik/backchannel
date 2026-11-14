@@ -216,7 +216,47 @@
       ],
       "state": "enriched",
       "description": "A Spanish digital pet insurer operating in the financial, fintech, and health insurance sectors.",
-      "lastRoundDate": "2026-02-12"
+      "lastRoundDate": "2026-02-12",
+      "overview": {
+        "text": "Lassie is a Spanish digital pet insurer operating in the financial, fintech, and health insurance sectors. The company raised funding rounds of €2 million in October 2021, €11 million in May 2022, €23 million in November 2023, and $75 million in February 2026. Its investors include Balderton Capital, Felix Capital, Passion Capital, Stena Sessan, Philian, Josefin Landgård, Fredrik Hjälm, Caroline Hjelm, Karl-Johan Persson, Philian Invest AB, and Stefan Lindeberg.",
+        "sources": [
+          {
+            "url": "https://tracxn.com/d/companies/lassie/__Wh9KKMSooOLoyHDonkeuoZYg21nHJhUKVokKq5wl-HU/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/lassie/__Wh9KKMSooOLoyHDonkeuoZYg21nHJhUKVokKq5wl-HU",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/464207-59",
+            "name": "pitchbook.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.balderton.com/news/pet-love-boom-fuels-lassies-75m-series-c/",
+            "name": "Pet love boom fuels Lassie’s $75m Series C - Balderton Capital",
+            "date": "2026-02-12"
+          },
+          {
+            "url": "https://techcrunch.com/2023/11/28/as-pet-owners-turn-to-mobile-insurance-apps-lassie-raises-25m-series-b-led-by-balderton",
+            "name": "As pet owners turn to mobile insurance apps, Lassie raises $25M Series B led by Balderton | TechCrunch",
+            "date": "2023-11-28"
+          },
+          {
+            "url": "https://techcrunch.com/2022/05/20/covid-was-the-best-thing-for-kitty-as-insurance-apps-for-pets-boom",
+            "name": "Pet app and insurance provider Lassie closed €11M Series A",
+            "date": "2022-05-20"
+          },
+          {
+            "url": "https://nordic9.com/news/lassie-raised-a-2-million-seed-round-led-by-inventure-with-participation-from-passion-capital/",
+            "name": "Lassie raised a €2 million seed round led by Inventure with participation from Passion Capital. - Nordic9.com",
+            "date": "2021-10-06"
+          }
+        ]
+      }
     },
     {
       "calaId": "14d6b8ac-ff64-47f4-8d96-0ba667f9c2e7",
@@ -319,7 +359,27 @@
       ],
       "state": "enriched",
       "description": "Provides automotive HMI graphics software (Kanzi) enabling rapid creation and deployment of user interfaces for car clusters, IVIs, and HUDs.",
-      "lastRoundDate": "2013-05-14"
+      "lastRoundDate": "2013-05-14",
+      "overview": {
+        "text": "RightWare provides automotive HMI graphics software, Kanzi, enabling rapid creation and deployment of user interfaces for car clusters, IVIs, and HUDs. The company raised €3m in a funding round in January 2010 with Nexit Ventures Oy, and $5.2 million in a May 2013 funding round with Nexit Ventures and Finnish Industry Investment.",
+        "sources": [
+          {
+            "url": "https://tracxn.com/d/companies/rightware/__ac_Agdd1VsMkytaJjBrvG_jXShNyzQOiZJM-aBhWzic/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://techcrunch.com/2013/05/14/rightware-series-b",
+            "name": "Finnish Startup Rightware Closes $5.2M Series B To Drive Global Growth Of Its Embedded UI Creation Tool Business | TechCrunch",
+            "date": "2013-05-14"
+          },
+          {
+            "url": "https://www.finsmes.com/2010/01/rightware-closes-e3m-funding-and-acquires-futuremarks-mobile-and-embedded-business-unit.html",
+            "name": "Rightware Closes €3M Funding and Acquires Futuremark’s Mobile and Embedded Business Unit - FinSMEs",
+            "date": "2010-01-07"
+          }
+        ]
+      }
     },
     {
       "calaId": "17c5c020-6037-4743-ae24-49a59ec0cbe6",
@@ -497,7 +557,32 @@
       ],
       "state": "enriched",
       "description": "Finnish aerospace and defense company based in Helsinki specializing in space technology.",
-      "lastRoundDate": "2025-09-08"
+      "lastRoundDate": "2025-09-08",
+      "overview": {
+        "text": "ReOrbit is a Finnish aerospace and defense company based in Helsinki specializing in space technology. The company raised US$7.4M in August 2023 from 10xFounders, Icebreaker.vc, Expansion, and YesVC, followed by a funding round from Business Finland in December 2023. In September 2025, ReOrbit raised €45 million in a funding round with investors Springvest, Varma, Elo, Icebreaker.vc, Expansion VC, and 10x Founders.",
+        "sources": [
+          {
+            "url": "https://techcrunch.com/2025/09/08/reorbit-lands-record-funding-to-take-on-musks-starlink-from-europe",
+            "name": "ReOrbit lands record funding to take on Musk's Starlink from Europe | TechCrunch",
+            "date": "2025-09-08"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/reorbit/__jHH-J3eAQMBCCadIhwtvwYXFm3lkmdlH_FvBx81hPew/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://www.reorbit.space/news/reorbit-receives-young-innovative-company-funding-from-business-finland-to-help-expand-and-scale-internationally",
+            "name": "ReOrbit Receives Young Innovative Company Funding from Business Finland to Help Expand and Scale Internationally | ReOrbit",
+            "date": "2023-12-18"
+          },
+          {
+            "url": "https://www.reorbit.space/news/reorbit-completes-oversubscribed-usd7-4m-seed-funding-round-enabling-real-time-dataflow-in-space",
+            "name": "ReOrbit Completes Oversubscribed $7.4M Seed Funding Round: Enabling Real-Time Dataflow in Space | ReOrbit",
+            "date": "2023-08-30"
+          }
+        ]
+      }
     },
     {
       "calaId": "323b8e51-ec68-4241-9358-a5812066dff6",
@@ -610,7 +695,32 @@
       ],
       "state": "enriched",
       "description": "Swedish virtual care company offering patients acute hospital care in their home instead of in the hospital.",
-      "lastRoundDate": "2022-09-07"
+      "lastRoundDate": "2022-09-07",
+      "overview": {
+        "text": "Medoma is a Swedish virtual care company that offers patients acute hospital care in their home instead of in the hospital. In September 2022, the company raised €6 million in a funding round.",
+        "sources": [
+          {
+            "url": "https://tracxn.com/d/companies/medoma/__TPK1kbDI6fp_OJttmHyxM0fGHO3uf3y-DLXGV_yJhEE",
+            "name": "tracxn.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/medoma/__TPK1kbDI6fp_OJttmHyxM0fGHO3uf3y-DLXGV_yJhEE/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/506965-60",
+            "name": "pitchbook.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://sifted.eu/articles/healthtech-medoma-seed-round",
+            "name": "Healthtech startup Medoma raises €6m for ”virtual acute wards” | Sifted",
+            "date": "2022-09-06"
+          }
+        ]
+      }
     },
     {
       "calaId": "39651925-4781-427a-9456-99a959189943",
@@ -723,7 +833,32 @@
       ],
       "state": "enriched",
       "description": "Provides satellite and maritime communications network solutions, offering connectivity services for remote and challenging environments.",
-      "lastRoundDate": "2016-10-27"
+      "lastRoundDate": "2016-10-27",
+      "overview": {
+        "text": "Kyynel provides satellite and maritime communications network solutions, offering connectivity services for remote and challenging environments. In August 2014, the company raised a funding round with investors Butterfly Venture and paikalliset bisnesenkelit. In October 2016, it secured a funding round of 10 miljoonaa dollaria from Creandum, Butterfly Ventures, and Tamares Group.",
+        "sources": [
+          {
+            "url": "https://tracxn.com/d/companies/knl/__coS857ngQmwKhLznVQ40En308Kan8XRzvg27OTBeJ3M",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.crunchbase.com/person/john-lindfors",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.kaleva.fi/oululainen-kyynel-sai-valtavan-rahoituspotin/1693506",
+            "name": "Oululainen Kyynel sai valtavan rahoituspotin | Kaleva",
+            "date": "2016-10-27"
+          },
+          {
+            "url": "https://www.kaleva.fi/oululainen-kyynel-saa-kaksi-miljoonaa-riskirahaa/1645018",
+            "name": "Oululainen Kyynel saa kaksi miljoonaa riskirahaa | Kaleva",
+            "date": "2014-08-15"
+          }
+        ]
+      }
     },
     {
       "calaId": "3981c362-c703-4d93-bd64-c63ded49cc4d",
@@ -889,7 +1024,37 @@
       ],
       "state": "enriched",
       "description": "A digital platform simplifying material sourcing for the fashion industry, enabling brands and suppliers to collaborate on collections.",
-      "lastRoundDate": "2022-04-11"
+      "lastRoundDate": "2022-04-11",
+      "overview": {
+        "text": "Material Exchange is a digital platform that simplifies material sourcing for the fashion industry, enabling brands and suppliers to collaborate on collections. The company raised funding rounds in November 2019 and November 2020, followed by a €25 million round in April 2022 from investors Molten Ventures, Partech, Norrsken, Lyra, and Day One Capital.",
+        "sources": [
+          {
+            "url": "https://tracxn.com/d/companies/materialexchange/__AWOkF0XIj5Y5m_Ec17X8ScmhslfI8YI0JRobJInQhV0",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/material-exchange/__AWOkF0XIj5Y5m_Ec17X8ScmhslfI8YI0JRobJInQhV0/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.crunchbase.com/organization/material-exchange/financial_details",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/327120-40",
+            "name": "pitchbook.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.vogue.com/article/sustainable-sourcing-startup-material-exchange-raises-euro25-million",
+            "name": "Sustainable sourcing startup Material Exchange raises €25 ...",
+            "date": "2022-04-12"
+          }
+        ]
+      }
     },
     {
       "calaId": "3cbd981d-f00c-59d5-8df3-a48fa0b721c5",
@@ -932,7 +1097,37 @@
         }
       ],
       "state": "enriched",
-      "description": "NinaData runs a contextual data and buying-intent platform that helps publishers monetize their content and advertisers reach consumers at the moment of a purchase decision."
+      "description": "NinaData runs a contextual data and buying-intent platform that helps publishers monetize their content and advertisers reach consumers at the moment of a purchase decision.",
+      "overview": {
+        "text": "NinaData runs a contextual data and buying-intent platform that helps publishers monetize their content and advertisers reach consumers at the moment of a purchase decision.",
+        "sources": [
+          {
+            "url": "https://news.cision.com/san-francisco-oy/r/thirdpresence-raises--2-4m-to-transform-in-app-programmatic-video-advertising-with-ai,c2456776",
+            "name": "news.cision.com",
+            "date": "2018-02-21"
+          },
+          {
+            "url": "https://tech.eu/2018/02/21/thirdpresence-funding/",
+            "name": "tech.eu",
+            "date": "2018-02-21"
+          },
+          {
+            "url": "https://www.unquote.com/nordics/official-record/3008731/inventure-tesi-raise-usd24m-for-thirdpresence",
+            "name": "unquote.com",
+            "date": "2018-02-21"
+          },
+          {
+            "url": "https://ninadata.io/",
+            "name": "ninadata.io",
+            "date": "2026-11-02"
+          },
+          {
+            "url": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=2092760-4",
+            "name": "avoindata.prh.fi",
+            "date": "2026-11-13"
+          }
+        ]
+      }
     },
     {
       "calaId": "421cacef-3390-49eb-a100-8dabe395f7d4",
@@ -1097,7 +1292,42 @@
       ],
       "state": "enriched",
       "description": "Automating Insurance Claim Recoveries for Maximum Payouts",
-      "lastRoundDate": "2021-07-08"
+      "lastRoundDate": "2021-07-08",
+      "overview": {
+        "text": "Insurello automates insurance claim recoveries for maximum payouts. It raised 2,4 miljoner kronor in a June 2017 funding round from DHS Venture Partners, followed by a €15 million funding round in July 2021 with investors Nordstjernan Growth and Schibsted.",
+        "sources": [
+          {
+            "url": "https://tracxn.com/d/companies/insurello/__lXMYkJUKgbjFJ0kbSDY0ctsk3XcY1JbEYJ3X7yxsAQ8",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/insurello/__lXMYkJUKgbjFJ0kbSDY0ctsk3XcY1JbEYJ3X7yxsAQ8/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/181895-41",
+            "name": "pitchbook.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.crunchbase.com/organization/insurello/company_overview/overview_timeline",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.eu-startups.com/2021/07/swedish-insurtech-startups-insurello-raises-e15-million-for-its-european-expansion/",
+            "name": "Swedish insurtech startup Insurello raises €15 million for its European expansion | EU-Startups",
+            "date": "2021-07-09"
+          },
+          {
+            "url": "https://www.mynewsdesk.com/se/insurello/pressreleases/de-hjaelper-dig-att-faa-foersaekringsersaettning-naer-du-skadat-dig-nu-drar-insurello-in-24-miljoner-i-sin-foersta-investeringsrunda-2000240",
+            "name": "De hjälper dig att få försäkringsersättning när du skadat dig – nu drar Insurello in 2,4 miljoner i sin första investeringsrunda | Insurello AB",
+            "date": "2017-06-05"
+          }
+        ]
+      }
     },
     {
       "calaId": "4b7e8bc6-3844-45bf-8297-1702be319174",
@@ -1202,7 +1432,27 @@
       ],
       "state": "enriched",
       "description": "Finnish company headquartered in Oulu, founded in 2007.",
-      "lastRoundDate": "2018-02-07"
+      "lastRoundDate": "2018-02-07",
+      "overview": {
+        "text": "Sarokal Solutions Oy is a Finnish company headquartered in Oulu, founded in 2007. It raised a funding round with Butterfly Ventures in August 2014, followed by another funding round in February 2018.",
+        "sources": [
+          {
+            "url": "https://nordic9.com/news/sarokal-closes-seed-investment-in-a-round-including-butterfly-ventures-and-inventure-news3420164108",
+            "name": "nordic9.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.cbinsights.com/company/sarokal-test-systems",
+            "name": "Sarokal Test Systems - Products, Competitors, Financials, Employees, Headquarters Locations",
+            "date": "2018-02-16"
+          },
+          {
+            "url": "https://www.crunchbase.com/organization/sarokal-test-systems-oy",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-25"
+          }
+        ]
+      }
     },
     {
       "calaId": "4f2f147e-7128-4153-bc94-75ac26ae7da6",
@@ -1286,7 +1536,27 @@
       ],
       "state": "enriched",
       "description": "Engineering Wireless Networks to Perfection.",
-      "lastRoundDate": "2026-08-25"
+      "lastRoundDate": "2026-08-25",
+      "overview": {
+        "text": "Hamina engineers wireless networks. In August 2026, the company raised EUR 105 million in a funding round from investors HitecVision and Taaleri.",
+        "sources": [
+          {
+            "url": "https://www.crunchbase.com/funding_round/hamina-wireless-seed--27ab661b",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/501254-92",
+            "name": "pitchbook.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.avance.com/cases/hitecvision-invests-in-fintoil-hamina-oy",
+            "name": "HitecVision invests in Fintoil Hamina Oy – Avance Attorneys",
+            "date": "2026-07-07"
+          }
+        ]
+      }
     },
     {
       "calaId": "50a2f560-801e-4059-8d0d-1840327b99a5",
@@ -1513,7 +1783,52 @@
       ],
       "state": "enriched",
       "description": "Swedish company founded in 2017 and headquartered in Stockholm.",
-      "lastRoundDate": "2021-09-02"
+      "lastRoundDate": "2021-09-02",
+      "overview": {
+        "text": "Stravito AB is a Swedish company founded in 2017 and headquartered in Stockholm. It raised a funding round from Creades in April 2018, followed by a €5.6 million funding round from henQ and Creades in April 2019. In September 2021, the company raised a $14.6 million funding round from Endeit Capital, HenQ, and Creades.",
+        "sources": [
+          {
+            "url": "https://tracxn.com/d/companies/stravito/__Ij7OUugepRn6AfSa5e_Yv0TIahciuFEYsL73DxIXB_o",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/stravito/__Ij7OUugepRn6AfSa5e_Yv0TIahciuFEYsL73DxIXB_o/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://pitchbook.com/newsletter/stockholms-stravito-picks-up-124m-series-a",
+            "name": "pitchbook.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/228903-76",
+            "name": "pitchbook.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.crunchbase.com/organization/stravito",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://techcrunch.com/2021/09/02/stravito-raises-14-6m-to-create-a-netflix-for-enterprise-market-research/",
+            "name": "Stravito raises $14.6M to create a 'Netflix for enterprise market research' | TechCrunch",
+            "date": "2021-09-02"
+          },
+          {
+            "url": "https://tech.eu/2019/04/04/swedish-knowledge-tech-startup-stravito-raises-e5-6-million/",
+            "name": "Swedish knowledge tech startup Stravito raises €5.6 million - Tech.eu",
+            "date": "2019-04-04"
+          },
+          {
+            "url": "https://www.linkedin.com/posts/thorolof_its-official-our-new-venture-stravito-has-activity-6392010652289953792-HJBT",
+            "name": "It’s official! Our new venture Stravito has received funding from Inventure and Creades. Now let’s bring speed to knowledge to teams and organisations everywhere. Here’s why we’re so excited: | Thor Olof P.",
+            "date": "2018-04-17"
+          }
+        ]
+      }
     },
     {
       "calaId": "54972ffb-9a56-4a24-945e-5036cfffc449",
@@ -1651,7 +1966,17 @@
       ],
       "state": "enriched",
       "description": "Automated sperm selection platform combining AI, microrobotics, and high-magnification imaging to reduce manual IVF processes and improve fertility outcomes.",
-      "lastRoundDate": "2019-11-18"
+      "lastRoundDate": "2019-11-18",
+      "overview": {
+        "text": "AI & Robotics-Powered IVF Platform is an automated sperm selection platform that combines AI, microrobotics, and high-magnification imaging to reduce manual IVF processes and improve fertility outcomes. In November 2019, the company raised €1.7 million (~$1.8M) in a funding round from Doberman, Privilege Ventures, Josefin Landgard, and Hampus Jakobsson.",
+        "sources": [
+          {
+            "url": "https://techcrunch.com/2019/11/18/fertility-startup-mojo-wants-to-take-the-trial-and-error-out-of-ivf",
+            "name": "Fertility startup Mojo wants to take the trial and error out of IVF | TechCrunch",
+            "date": "2019-11-18"
+          }
+        ]
+      }
     },
     {
       "calaId": "5ff46e5e-8a32-4ca4-89f7-6b6728736128",
@@ -1914,7 +2239,47 @@
       ],
       "state": "enriched",
       "description": "A Finnish retailer of refurbished smartphones.",
-      "lastRoundDate": "2024-06-03"
+      "lastRoundDate": "2024-06-03",
+      "overview": {
+        "text": "Swappie is a Finnish retailer of refurbished smartphones. The company raised funding rounds of €35.8 million ($40.6M) in May 2019, €35.8 million ($40.6M) in June 2020, $124 million in February 2022, and €17 million in June 2024. Its investors include TESI, Lifeline Ventures, Reaktor Ventures, Verdane, and the European Investment Bank.",
+        "sources": [
+          {
+            "url": "https://news.crunchbase.com/startups/swappies-european-expansion-boosted-by-40-6m-series-b",
+            "name": "news.crunchbase.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://techcrunch.com/2020/06/16/swappie-bags-40-6m-to-sell-more-secondhand-iphones-across-europe",
+            "name": "Swappie bags $40.6M to sell more secondhand iPhones across Europe | TechCrunch",
+            "date": "2020-06-16"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/swappie/__OZLXVrwyNaLewJayNH7sE6-Fl6TKs-McQNmY8bKnWyI/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://www.crunchbase.com/organization/swappie/financial_details",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://www.eib.org/en/press/all/2024-192-eib-signs-eur17-million-loan-to-finnish-iphone-refurbisher-swappie",
+            "name": "Finland: EIB signs €17 million loan to iPhone refurbisher Swappie",
+            "date": "2024-05-30"
+          },
+          {
+            "url": "https://techcrunch.com/2022/02/15/iphone-refurbisher-swappie-raises-124m-series-c-led-by-verdane-to-scale-in-europe",
+            "name": "iPhone refurbisher Swappie raises $124M Series C led by Verdane to scale in Europe | TechCrunch",
+            "date": "2022-02-15"
+          },
+          {
+            "url": "https://pitchbook.com/newsletter/swappie-lands-124m-for-refurbished-smartphone-marketplace",
+            "name": "pitchbook.com",
+            "date": "2026-08-24"
+          }
+        ]
+      }
     },
     {
       "calaId": "66ccd8d4-e3c9-47e8-8687-2c24b80d12ae",
@@ -2034,7 +2399,22 @@
       ],
       "state": "enriched",
       "description": "A Finnish company founded in 2011 and headquartered in Helsinki.",
-      "lastRoundDate": "2025-09-11"
+      "lastRoundDate": "2025-09-11",
+      "overview": {
+        "text": "Oneio Cloud Oy is a Finnish company founded in 2011 and headquartered in Helsinki. The company raised funding rounds in June 2017, May 2018, October 2019, September 2021, April 2022, and September 2025.",
+        "sources": [
+          {
+            "url": "https://tracxn.com/d/companies/oneio/__9yhTualN2lDpS1usk36JxdOhpShKTuCgycLPLWjutcA/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/oneio/__9yhTualN2lDpS1usk36JxdOhpShKTuCgycLPLWjutcA",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          }
+        ]
+      }
     },
     {
       "calaId": "7ff2ec4f-159b-4a6c-8f7f-be6070abf5b6",
@@ -2430,7 +2810,47 @@
       ],
       "state": "enriched",
       "description": "Provides a real-time conversation cloud technology platform enabling mobile click-to-call advertising and analytics for businesses.",
-      "lastRoundDate": "2016-11-07"
+      "lastRoundDate": "2016-11-07",
+      "overview": {
+        "text": "Freespee provides a real-time conversation cloud technology platform enabling mobile click-to-call advertising and analytics for businesses. The company raised funding rounds of 1.1 million euros in October 2009, 1.1 million euros in February 2011, €3.3 million from Sunstone Capital in October 2012, and €9.25 million in November 2016 from Ventech, Sunstone Capital, and Silicon Valley Bank.",
+        "sources": [
+          {
+            "url": "https://www.crunchbase.com/funding_round/freespee-seed--68c7e00b",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://techcrunch.com/2011/02/08/freespee-raises-e1-1m-for-its-call-tracking-and-pay-per-call-solution",
+            "name": "Freespee raises €1.1m for its call tracking and pay-per-call solution | TechCrunch",
+            "date": "2011-02-08"
+          },
+          {
+            "url": "https://www.crunchbase.com/funding_round/freespee-series-b--a5fd9046",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://techcrunch.com/2016/11/07/a-freespee-for-all",
+            "name": "Freespee secures €9.25M Series B to help companies manage conversations with customers | TechCrunch",
+            "date": "2016-11-07"
+          },
+          {
+            "url": "https://www.crunchbase.com/funding_round/freespee-series-a--34b8ef2e",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://techcrunch.com/2012/10/09/freespee-raises-a-further-e3-3-million-for-its-mobile-click-to-call-advertising-and-analytics-service",
+            "name": "Freespee Raises Further €3.3 Million For Its Mobile Click-To-Call Advertising And Analytics Service | TechCrunch",
+            "date": "2012-10-09"
+          },
+          {
+            "url": "https://www.crunchbase.com/funding_round/freespee-series-a--e184de11",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-25"
+          }
+        ]
+      }
     },
     {
       "calaId": "8d34fdfc-e92f-409b-82fa-4a7f1b14fca8",
@@ -2560,7 +2980,37 @@
       ],
       "state": "enriched",
       "description": "A seed-stage synthetic biology company focused on generative protein design.",
-      "lastRoundDate": "2024-08-05"
+      "lastRoundDate": "2024-08-05",
+      "overview": {
+        "text": "Biomatter is a seed-stage synthetic biology company focused on generative protein design. In August 2024, the company raised a €6.5 million funding round with UVC partners named as an investor.",
+        "sources": [
+          {
+            "url": "https://www.crunchbase.com/organization/biomatter-designs/company_overview/overview_timeline",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.crunchbase.com/organization/biomatter-designs/financial_details",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/342952-48",
+            "name": "pitchbook.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/explore/healthtech-startups-in-lithuania/__ln06QUP_tDqJlr3fH4I965QBISpSqIiOSi8EJp1_rgI",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.inventure.vc/articles/backing-biomatter-to-revolutionize-enzyme-design-from-the-ground-up",
+            "name": "Backing Biomatter to revolutionize enzyme design | Inventure",
+            "date": "2024-08-05"
+          }
+        ]
+      }
     },
     {
       "calaId": "8d86b359-0e1a-4add-be95-9be5f3829d5f",
@@ -2705,7 +3155,32 @@
       ],
       "state": "enriched",
       "description": "An AI-powered English language tutor app that enables real-time speaking practice sessions using personalized, science-backed coaching methods.",
-      "lastRoundDate": "2024-02-06"
+      "lastRoundDate": "2024-02-06",
+      "overview": {
+        "text": "Leya AI is an AI-powered English language tutor app that enables real-time speaking practice sessions using personalized, science-backed coaching methods. In February 2024, the company raised €1 million in a funding round from V-Sharp Venture Studio and BADideas.fund.",
+        "sources": [
+          {
+            "url": "https://tracxn.com/d/companies/leyaai/__7F01Q06-q2YXPTKT34Xt1YKiOpGXAkOf09hbav5EKrY/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/leyaai/__7F01Q06-q2YXPTKT34Xt1YKiOpGXAkOf09hbav5EKrY",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/artificial-intelligence/ai-startups-in-passion-economy/__aKUJq0oIFqZnC6Dx6O5XCkpte5FYJExJJ162IbfSAW8/companies",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://en.ain.ua/2024/02/06/leya-ai-raises-1m-pre-seed-funding/",
+            "name": "Lithuanian edtech Leya AI raises €1M in a pre-seed funding - AIN",
+            "date": "2024-02-06"
+          }
+        ]
+      }
     },
     {
       "calaId": "dbee0ce9-7052-4796-8145-3ddb90a1e9d3",
@@ -2846,7 +3321,32 @@
       ],
       "state": "enriched",
       "description": "VR game development studio based in Reykjavik, merged with Mainframe Industries",
-      "lastRoundDate": "2015-11-10"
+      "lastRoundDate": "2015-11-10",
+      "overview": {
+        "text": "Sólfar Studios is a VR game development studio based in Reykjavik that merged with Mainframe Industries. The company held a funding round in April 2015 and raised $2.1 million in November 2015 from investors including Shanda Group, Tianqiao Chen’s private investment group, NSA Ventures, and Reaktor Ventures.",
+        "sources": [
+          {
+            "url": "https://tracxn.com/d/companies/solfar-studios/__FS7us7Eq4bqxJ0bGevCY10N0TzaI0K4Jpzsm-5DywnM",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/solfarstudios/__FS7us7Eq4bqxJ0bGevCY10N0TzaI0K4Jpzsm-5DywnM/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/129190-78",
+            "name": "pitchbook.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://siliconangle.com/2015/11/11/icelandic-vr-startup-solfar-studios-raises-2-1-million-seed-funding/",
+            "name": "Icelandic startup Sólfar Studios raises $2.1 million to bring Everest to VR - SiliconANGLE",
+            "date": "2015-11-11"
+          }
+        ]
+      }
     },
     {
       "calaId": "e408efba-d8d3-43df-ac47-7b9603e847bb",
@@ -3053,7 +3553,42 @@
       ],
       "state": "enriched",
       "description": "Finnish biotechnology and healthcare company headquartered in Espoo, founded in 2008, and a subsidiary of Quest Diagnostics.",
-      "lastRoundDate": "2026-08-25"
+      "lastRoundDate": "2026-08-25",
+      "overview": {
+        "text": "Blueprint Genetics Oy is a Finnish biotechnology and healthcare company headquartered in Espoo, founded in 2008, and a subsidiary of Quest Diagnostics. It raised a $3.9 million funding round in August 2014 from Avohoidon Tutkimussäätiö, Finnish business angels, and Tekes, the Finnish Funding Agency for Innovation, followed by a €14 million round in July 2017 from Creathor Venture, MedTech Innovation Partners, and Pontos Group. The company recorded another funding round in August 2026.",
+        "sources": [
+          {
+            "url": "https://tracxn.com/d/companies/blueprint-genetics/__TH1WtFyhc_0P8VYO8sp--RgV0Auw_JuMk514EmqOaZo/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/blueprint-genetics/__TH1WtFyhc_0P8VYO8sp--RgV0Auw_JuMk514EmqOaZo",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/82591-84",
+            "name": "pitchbook.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.crunchbase.com/organization/blueprint-genetics",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.genomeweb.com/business-news/finnish-dx-firm-blueprint-genetics-raises-14m",
+            "name": "Finnish Dx Firm Blueprint Genetics Raises €14M | GenomeWeb",
+            "date": "2017-07-13"
+          },
+          {
+            "url": "https://www.blueprintgenetics.com/news/blueprint-genetics-announces-3-9-million-in-funding-leading-to-us-expansion/",
+            "name": "Blueprint Genetics Announces $3.9 Million in Funding, Leading to US Expansion - Blueprint Genetics",
+            "date": "2014-08-29"
+          }
+        ]
+      }
     },
     {
       "calaId": "e99a5f8f-4b80-4380-ad08-6c6788dbc26d",
@@ -3230,7 +3765,42 @@
       ],
       "state": "enriched",
       "description": "Swedish company headquartered in Solna, founded in 2019.",
-      "lastRoundDate": "2021-09-02"
+      "lastRoundDate": "2021-09-02",
+      "overview": {
+        "text": "Stockeld Dreamery AB is a Swedish company founded in 2019 and headquartered in Solna. The company raised $20 million in a funding round in January 2020 and another $20 million in September 2021. Investors listed for both rounds include Astanor Ventures, Northzone, Gullspång Re:food, Eurazeo, Norrsken VC, Edastra, Trellis Road, David Frenkiel, and Alexander Ljung.",
+        "sources": [
+          {
+            "url": "https://tracxn.com/d/companies/stockeld-dreamery/__ah-tautQKoSON9i3u5-EA3IUEQ88-NzzT7d32o6mk6w",
+            "name": "tracxn.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/stockeld-dreamery/__ah-tautQKoSON9i3u5-EA3IUEQ88-NzzT7d32o6mk6w/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://techcrunch.com/2021/09/02/stockeld-dreamery-loves-cheese-so-much-that-it-raised-20m-to-make-it-out-of-legumes",
+            "name": "Stockeld Dreamery loves cheese so much that it raised $20M to make it out of legumes | TechCrunch",
+            "date": "2021-09-02"
+          },
+          {
+            "url": "https://agfundernews.com/plant-based-cheese-startup-stockeld-dreamery-shutters-as-flexitarian-dream-fizzles",
+            "name": "Plant-based cheese startup Stockeld Dreamery shutters as flexitarian dream fizzles",
+            "date": "2025-10-23"
+          },
+          {
+            "url": "https://finance.yahoo.com/news/stockeld-dreamery-shuts-amid-intense-135820349.html",
+            "name": "guce",
+            "date": "2017-01-01"
+          },
+          {
+            "url": "https://vegconomist.com/organisations-and-brands/stockeld-dreamery",
+            "name": "vegconomist.com",
+            "date": "2026-08-25"
+          }
+        ]
+      }
     }
   ],
   "callList": [

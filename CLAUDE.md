@@ -16,7 +16,7 @@ Context, terms and all decisions (read before changing behaviour):
 Build spec: `docs/spec.md` (Part A = data, Part B = UI, stream protocol, ownership table, coordination). Two parallel sessions (D10): stay in your lane per the spec's Ownership table.
 
 ## Rules that bite
-- **Fixed pipeline, not a free agent (D4):** Cala walk → coded signals → Exa per founder → Gemini only writes 3 questions from retrieved facts.
+- **Fixed pipeline, not a free agent (D4):** Cala walk → coded signals → Exa per founder → Gemini only writes 3 questions and a short company overview from retrieved facts (D29), and extracts quoted round facts (D28).
 - **Neutral, sourced facts only (D6):** never "failed/dead"; every Signal/Founder carries sources. No source → don't show it.
 - **Cala:** use `POST /v1/entities/{id}` with relationship projection (fast, ~0.5 s). Never `/knowledge/query|search` live (50–90 s, errors).
   Rate limit is tight and undocumented → one shared queue, retry 429 with exponential backoff.
