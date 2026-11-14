@@ -1,8 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { Fragment, useEffect, useMemo, useRef, useState, type FormEvent, type KeyboardEvent, type ReactNode } from "react";
+import { Fragment, useCallback, useEffect, useMemo, useRef, useState, type FormEvent, type KeyboardEvent, type ReactNode } from "react";
 import { fundsUrl, reportUrl } from "@/components/api-urls";
+import { Landing } from "@/components/landing";
 import { deriveReport } from "@/components/report-state";
 import { SkyEngine, type Group, type SkyCompany, type SkyFund } from "@/components/sky/engine";
 import { useReportStream } from "@/components/use-report-stream";
@@ -19,6 +20,8 @@ const GROUPS: { g: CallGroup; label: string; color: string }[] = [
 ];
 const SEVERITY: Record<CallGroup, number> = { news_event: 0, no_recent_round: 1, recent_round: 2 };
 const groupColor = (g: Group) => GROUPS.find((x) => x.g === g)?.color ?? "var(--none)";
+/** While the landing page is up the sky looks high and close, at stars only; entering tilts back down and zooms out. */
+const LIFT = { pitch: 40, zoom: 0.6 };
 const norm = (v: string) => v.toLowerCase().replace(/[^a-z0-9]/g, "");
 const monthsSince = (iso: string | undefined, now: Date) =>
   iso ? (now.getFullYear() - +iso.slice(0, 4)) * 12 + (now.getMonth() + 1 - +iso.slice(5, 7)) : null;
@@ -52,6 +55,10 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
 
   const [extra, setExtra] = useState<SkyFund[]>([]);
   const allFunds = useMemo(() => [...funds, ...extra.filter((e) => !funds.some((f) => f.id === e.id))], [funds, extra]);
+  const [landing, setLanding] = useState(true);
+  const landingOn = useRef(true);
+  const [settling, setSettling] = useState(false); // the camera pull-back after the landing page; the sky stays inert until it ends
+  const focusSky = useRef(false);
   const [phase, setPhase] = useState<Phase>("sky");
   const [targetId, setTargetId] = useState<string | null>(null);
   const [selectedId, setSelectedId] = useState<string | null>(null);
@@ -109,17 +116,21 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
       onView: (t) => cb.current.onView(t),
     }, reduce);
     engine.current = e;
+    if (location.hash !== "#sky") {
+      e.turn(0, LIFT.pitch);
+      e.zoom(LIFT.zoom);
+    }
     return () => e.destroy();
   }, []);
   useEffect(() => engine.current?.setFunds(allFunds), [allFunds]);
   useEffect(() => {
     const e = engine.current;
     if (!e) return;
-    e.labels = labels;
+    e.labels = labels && !landing; // no fund names ghosting behind the landing copy
     e.grid = grid;
     e.orbits = orbits;
     e.filters = { ...e.filters, ...filters };
-  }, [labels, grid, orbits, filters]);
+  }, [labels, grid, orbits, filters, landing]);
 
   /* ---------- the portfolio as planets ---------- */
   const skyCompanies = useMemo<SkyCompany[]>(() => {
@@ -164,7 +175,7 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
   }, []);
   useEffect(() => {
     const onKey = (e: globalThis.KeyboardEvent) => {
-      if (e.target === input.current) return;
+      if (landingOn.current || e.target === input.current) return;
       if (e.key === "/") {
         e.preventDefault();
         input.current?.focus();
@@ -180,7 +191,7 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
       }
     };
     // the opening hint stays until the visitor does something
-    const dismiss = () => setToast((t) => (t?.id === 0 ? null : t));
+    const dismiss = () => landingOn.current || setToast((t) => (t?.id === 0 ? null : t));
     addEventListener("keydown", onKey);
     addEventListener("pointerdown", dismiss);
     addEventListener("keydown", dismiss);
@@ -207,6 +218,44 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
     // let setFunds() place a newly found star before the engine aims at it
     requestAnimationFrame(() => engine.current?.flyTo(f.id));
   }
+  const skipLanding = useCallback(() => {
+    landingOn.current = false;
+    setLanding(false);
+  }, []);
+  /** Leave the landing page: the camera pulls back from the stars to the horizon view, then goes on to the fund that was asked for. */
+  function enter(text: string) {
+    skipLanding();
+    setSettling(true);
+    focusSky.current = true;
+    history.replaceState(null, "", "#sky");
+    const then = () => {
+      setSettling(false);
+      engine.current?.resetView();
+      if (!norm(text)) return;
+      const f = allFunds.find((x) => norm(x.name).includes(norm(text)));
+      if (f) return flyTo(f);
+      setQ(text);
+      lookup(text);
+    };
+    if (matchMedia("(prefers-reduced-motion: reduce)").matches) return then();
+    let t0 = 0, prev = 0;
+    const step = (t: number) => {
+      t0 ||= t;
+      const p = Math.min(1, (t - t0) / 1600), eased = 1 - (1 - p) ** 3;
+      engine.current?.turn(0, -LIFT.pitch * (eased - prev));
+      engine.current?.zoom(LIFT.zoom ** (prev - eased));
+      prev = eased;
+      if (p < 1) requestAnimationFrame(step);
+      else then();
+    };
+    requestAnimationFrame(step);
+  }
+  // the Fly button that had focus is gone with the landing page: hand focus to the sky once it is usable
+  useEffect(() => {
+    if (landing || settling || !focusSky.current) return;
+    focusSky.current = false;
+    document.getElementById("sky")?.focus({ preventScroll: true });
+  }, [landing, settling]);
   function selectCompany(id: string) {
     setSelCo(id);
     engine.current?.selectCompany(id);
@@ -224,15 +273,18 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
   });
 
   const matches = allFunds.filter((f) => !norm(q) || norm(f.name).includes(norm(q)));
-  async function onSubmit(e: FormEvent) {
+  function onSubmit(e: FormEvent) {
     e.preventDefault();
     const pick = matches[Math.max(0, sIdx)];
     if (pick && (sIdx >= 0 || norm(q))) return flyTo(pick);
-    if (norm(q).length < 2) return setSuggest(true);
+    return lookup(q);
+  }
+  async function lookup(text: string) {
     setSuggest(true);
+    if (norm(text).length < 2) return;
     setSearch({ kind: "loading" });
     try {
-      const res = await fetch(fundsUrl(q.trim()));
+      const res = await fetch(fundsUrl(text.trim()));
       if (!res.ok) throw new Error(String(res.status));
       setSearch({ kind: "results", matches: (await res.json()) as FundMatch[] });
     } catch {
@@ -315,7 +367,9 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
   };
 
   return (
-    <div className="px-app">
+    <>
+    {landing && <Landing funds={funds} onEnter={enter} onSkip={skipLanding} />}
+    <div className="px-app" id="sky" tabIndex={-1} inert={landing || settling}>
       <canvas ref={canvas} className="px-sky" aria-label="Sky map of venture funds. Drag to rotate; use the search to fly to a fund." />
       <div ref={tip} className="px-tip" aria-hidden />
 
@@ -576,5 +630,6 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
         <div key={toast.id} className={toast.id ? "px-ui px-glass px-toast" : "px-ui px-glass px-toast px-stay"} role="status">{toast.text}</div>
       )}
     </div>
+    </>
   );
 }

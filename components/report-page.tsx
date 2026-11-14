@@ -9,7 +9,7 @@ export function ReportPage({ calaId }: { calaId: string }) {
   const { events } = useReportStream(reportUrl(calaId));
   return (
     <main className="mx-auto flex w-full max-w-3xl flex-col gap-6 px-4 py-8 sm:py-12">
-      <Link href="/" className="text-sm text-muted-foreground hover:text-foreground">
+      <Link href="/#sky" className="text-sm text-muted-foreground hover:text-foreground">
         ← Back to the sky
       </Link>
       <ReportView events={events} />
