@@ -114,6 +114,8 @@ export class SkyEngine {
   grid = false;
   orbits = true;
   filters: Record<Group, boolean> = { news_event: true, no_recent_round: true, recent_round: true, none: true, pending: true };
+  /** Company ids to pick out in the fund system; the other planets dim. Null = no highlight. */
+  highlight: ReadonlySet<string> | null = null;
 
   constructor(
     private canvas: HTMLCanvasElement,
@@ -876,9 +878,9 @@ export class SkyEngine {
         continue;
       }
       const p = it.p, c = p.c, age = out4(clamp((t - p.born) / 700, 0, 1)), [R_, G_, B_] = RGB[c.group];
-      const dim = this.filters[c.group] ? (c.group === "pending" ? 0.5 : 1) : 0.12;
+      const dim = this.filters[c.group] && (!this.highlight || this.highlight.has(c.id)) ? (c.group === "pending" ? 0.5 : 1) : 0.12;
       const size = 0.012 + Math.min(c.founders, 4) * 0.006;
-      const s = Math.max(1.6, (F * size) / z) * (0.4 + 0.6 * age) * (this.hovered === p || this.selCo === c.id ? 1.45 : 1);
+      const s = Math.max(1.6, (F * size) / z) * (0.4 + 0.6 * age) * (this.hovered === p || this.selCo === c.id || this.highlight?.has(c.id) ? 1.45 : 1);
       const fog = clamp(1.25 - (z - this.orb.dist) * 0.35, 0.45, 1);
       if (age < 1) {
         cx.strokeStyle = `rgba(${R_},${G_},${B_},${(1 - age) * 0.7})`;

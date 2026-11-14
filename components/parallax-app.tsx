@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useMemo, useRef, useState, type FormEvent, type KeyboardEvent } from "react";
+import { Fragment, useEffect, useMemo, useRef, useState, type FormEvent, type KeyboardEvent, type ReactNode } from "react";
 import { fundsUrl, reportUrl } from "@/components/api-urls";
 import { deriveReport } from "@/components/report-state";
 import { SkyEngine, type Group, type SkyCompany, type SkyFund } from "@/components/sky/engine";
@@ -57,6 +57,7 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [selCo, setSelCo] = useState<string | null>(null);
   const [open, setOpen] = useState<Set<string>>(new Set());
+  const [hl, setHl] = useState<{ fund: string | null; key: string; ids: Set<string> } | null>(null);
   const [q, setQ] = useState("");
   const [suggest, setSuggest] = useState(false);
   const [sIdx, setSIdx] = useState(-1);
@@ -140,6 +141,12 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
   useEffect(() => {
     if (phase === "system") engine.current?.setCompanies(skyCompanies);
   }, [phase, skyCompanies]);
+
+  useEffect(() => {
+    const ids = hl && hl.fund === targetId ? hl.ids : null;
+    if (engine.current) engine.current.highlight = ids;
+    if (ids) listRef.current?.querySelector('[data-hl="true"]')?.scrollIntoView({ block: "nearest" });
+  }, [hl, targetId]);
 
   /* ---------- clock + keys ---------- */
   useEffect(() => {
@@ -270,6 +277,24 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
   const visible = report.entries.filter((e) => filters[e.group]);
   const sel = skyCompanies.find((c) => c.id === selCo);
   // D29: shown in a founder's open entry, or at the top of the list for a selected company with no entry there
+  // Indicators (issue #22): a count picks out the planets and call-list entries behind it. Tagged with the fund, so a new flight starts clear.
+  const companyOfRound = new Map(report.companies.flatMap((c) => c.rounds.map((r) => [r.calaId, c.calaId] as const)));
+  const hlIds = hl && hl.fund === targetId ? hl.ids : null;
+  const count = (key: string, ids: string[], label: string, text: ReactNode) => (
+    <button
+      className="px-count"
+      aria-pressed={!!hlIds && hl?.key === key}
+      aria-label={`${label}: show on the map and in the call list`}
+      disabled={!ids.length}
+      onClick={() => {
+        const on = !(hlIds && hl?.key === key);
+        const set = new Set(ids.map((id) => companyOfRound.get(id) ?? id));
+        setHl(on ? { fund: targetId, key, ids: set } : null);
+      }}
+    >
+      {text}
+    </button>
+  );
   const overviewOf = (companyId: string | null) => {
     const o = report.companies.find((c) => c.calaId === companyId)?.overview;
     return o && (
@@ -383,13 +408,33 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
             <dt>News found</dt><dd>{newsN} <small>companies</small></dd>
             {fp && (
               <>
-                <dt>No recorded round in 24+ months</dt><dd>{fp.noRoundIn24Months.n} <small>/ {fp.noRoundIn24Months.of}</small></dd>
-                <dt>Named in a later round<small>lower bound</small></dt><dd>{fp.namedInLaterRound.n} <small>/ {fp.namedInLaterRound.of}</small></dd>
-                <dt>Rounds the fund led<small>where the lead is known</small></dt><dd>{fp.ledRounds.n} <small>/ {fp.ledRounds.of}</small></dd>
+                <dt>No recorded round in 24+ months</dt><dd>{count("quiet", fp.noRoundIn24Months.ids, "No recorded round in 24+ months", <>{fp.noRoundIn24Months.n} <small>/ {fp.noRoundIn24Months.of}</small></>)}</dd>
+                <dt>Named in a later round<small>lower bound</small></dt><dd>{count("later", fp.namedInLaterRound.ids, "Named in a later round", <>{fp.namedInLaterRound.n} <small>/ {fp.namedInLaterRound.of}</small></>)}</dd>
+                <dt>Rounds the fund led<small>where the lead is known</small></dt><dd>{count("led", fp.ledRounds.ids, "Rounds the fund led", <>{fp.ledRounds.n} <small>/ {fp.ledRounds.of}</small></>)}</dd>
                 {fp.medianMonthsBetweenRounds != null && (<><dt>Median time between rounds</dt><dd>{Math.round(fp.medianMonthsBetweenRounds)} <small>months</small></dd></>)}
               </>
             )}
           </dl>
+          {fp && fp.topCoInvestors.length > 0 && (
+            <details className="px-more">
+              <summary>Top co-investors<small>in rounds that name the fund</small></summary>
+              <dl>
+                {fp.topCoInvestors.slice(0, 5).map((c) => (
+                  <Fragment key={c.name}><dt>{c.name}</dt><dd>{count(`co:${c.name}`, c.roundIds, `Rounds with ${c.name}`, <>{c.roundIds.length} <small>{c.roundIds.length > 1 ? "rounds" : "round"}</small></>)}</dd></Fragment>
+                ))}
+              </dl>
+            </details>
+          )}
+          {fp && fp.partners.length > 0 && (
+            <details className="px-more">
+              <summary>Fund partners<small>quoted in round announcements</small></summary>
+              <dl>
+                {fp.partners.slice(0, 5).map((p) => (
+                  <Fragment key={p.name}><dt>{p.name}{p.title && <small>{p.title}</small>}</dt><dd>{count(`partner:${p.name}`, p.roundIds, `Rounds where ${p.name} is quoted`, <>{p.roundIds.length} <small>{p.roundIds.length > 1 ? "rounds" : "round"}</small></>)}</dd></Fragment>
+                ))}
+              </dl>
+            </details>
+          )}
           <p className="px-note">A missing round is not evidence of failure.</p>
           {report.error && <div className="px-alert" role="alert">{report.error}</div>}
           <div className="px-prog" data-state={progState}>
@@ -438,7 +483,7 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
               const key = `${e.companyId}:${e.founder.name}`, isOpen = open.has(key);
               const c = skyCompanies.find((x) => x.id === e.companyId);
               return (
-                <div key={key} className="px-who" data-cid={e.companyId} data-hl={selCo === e.companyId}>
+                <div key={key} className="px-who" data-cid={e.companyId} data-hl={selCo === e.companyId || !!hlIds?.has(e.companyId)}>
                   <button
                     className="px-row"
                     aria-expanded={isOpen}
