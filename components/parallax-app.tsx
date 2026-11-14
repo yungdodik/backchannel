@@ -424,7 +424,7 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
             {!norm(q) && <div className="px-hint">Funds in the sky</div>}
             {matches.map((f, i) => (
               <button key={f.id} id={`fund-opt-${i}`} tabIndex={-1} type="button" role="option" aria-selected={i === sIdx} className="px-option" onMouseDown={(e) => e.preventDefault()} onClick={() => flyTo(f)}>
-                <i /><span>{f.name}</span><small>{f.companies != null ? `${f.companies} co` : "live"}</small>
+                <i /><span>{f.name}</span><small>{f.companies != null ? `${f.companies} companies` : "not checked yet"}</small>
               </button>
             ))}
             {search.kind === "loading" && <div className="px-hint">Searching…</div>}
@@ -432,12 +432,20 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
             {search.kind === "results" &&
               (search.matches.length ? (
                 <>
-                  <div className="px-hint">Matches from Cala</div>
-                  {search.matches.map((m) => (
-                    <button key={m.calaId} type="button" role="option" aria-selected={false} className="px-option" onMouseDown={(e) => e.preventDefault()} onClick={() => flyTo({ id: m.calaId, name: m.name })}>
-                      <i /><span>{m.name}{m.description && <em>{m.description}</em>}</span><small>{m.companies == null ? "new star" : m.companies === 0 ? "no portfolio" : `${m.companies}${m.companies >= 200 ? "+" : ""} co`}</small>
-                    </button>
-                  ))}
+                  <div className="px-hint">
+                    {search.matches.some((m) => m.companies !== 0)
+                      ? "Not checked yet. A first check reads the fund's portfolio live and takes a few minutes."
+                      : "None of these has any investments on record, so there is nothing to check."}
+                  </div>
+                  {search.matches.map((m) => {
+                    // no investments on record: a report would be empty, so the row says so and does not fly
+                    const empty = m.companies === 0;
+                    return (
+                      <button key={m.calaId} type="button" role="option" aria-selected={false} aria-disabled={empty} className="px-option" onMouseDown={(e) => e.preventDefault()} onClick={() => empty || flyTo({ id: m.calaId, name: m.name })}>
+                        <i /><span>{m.name}{m.description && <em>{m.description}</em>}</span><small>{m.companies == null ? "not counted" : empty ? "nothing to show" : `${m.companies}${m.companies >= 200 ? "+" : ""} companies`}</small>
+                      </button>
+                    );
+                  })}
                 </>
               ) : (
                 <div className="px-warn">No matching funds</div>
@@ -449,7 +457,7 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
 
       {phase === "sky" && selectedFund && (
         <section className="px-ui px-glass px-info" aria-label={selectedFund.name}>
-          <div className="px-type">Venture fund · Cala entity</div>
+          <div className="px-type">{selectedFund.companies != null ? "Venture fund" : "Investor · not checked yet"}</div>
           <h1>{selectedFund.name}</h1>
           <dl>
             {selectedFund.companies != null && (<><dt>Portfolio companies</dt><dd>{selectedFund.companies}</dd></>)}
@@ -464,7 +472,7 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
 
       {phase === "system" && target && (
         <section className="px-ui px-glass px-info px-compact" aria-label={report.fund?.name ?? target.name} aria-live="polite">
-          <div className="px-type">Venture fund · Cala entity</div>
+          <div className="px-type">{target.companies != null ? "Venture fund" : "Investor · checked live"}</div>
           <h1>{report.fund?.name ?? target.name}</h1>
           {report.fund?.description && <p className="px-desc">{report.fund.description}</p>}
           {/* headline counts, then one block per fact about follow-on funding: number, share bar, what it is measured against */}

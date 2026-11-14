@@ -178,6 +178,9 @@
 .px-option:hover, .px-option[aria-selected="true"] { background: oklch(0.3 0.025 268 / 0.7); }
 .px-option i { width: 9px; height: 9px; border-radius: 50%; background: var(--star); box-shadow: 0 0 8px var(--star); justify-self: center; }
 .px-option small { font: 400 12px var(--mono); color: var(--muted); }
+.px-option[aria-disabled="true"] { cursor: default; opacity: 0.5; }
+.px-option[aria-disabled="true"]:hover { background: none; }
+.px-option[aria-disabled="true"] i { background: var(--none); box-shadow: none; }
 .px-option span { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; }
 .px-option em { display: block; margin-top: 1px; font-style: normal; font-size: 12.5px; line-height: 1.35; color: var(--muted); }
 .px-hint { padding: 8px 10px 2px; font-size: 12.5px; color: var(--muted); }
