@@ -1,5 +1,5 @@
-import { afterEach, describe, expect, it } from "vitest";
-import { cleanup, fireEvent, render, screen, within } from "@testing-library/react";
+import { afterEach, describe, expect, it, vi } from "vitest";
+import { act, cleanup, fireEvent, render, screen, within } from "@testing-library/react";
 import { ReportView } from "@/components/report-view";
 import { reportToEvents } from "@/lib/replay";
 import type { Report, StreamEvent } from "@/lib/types";
@@ -9,7 +9,14 @@ const report = mock as Report;
 const all = reportToEvents(report); // progress, portfolio, 11 × entry, done
 const upToPortfolio = all.slice(0, 2);
 
-afterEach(cleanup);
+afterEach(() => {
+  cleanup();
+  vi.useRealTimers();
+});
+
+function stubClipboard(writeText: unknown) {
+  Object.defineProperty(navigator, "clipboard", { value: { writeText }, configurable: true });
+}
 
 describe("ReportView", () => {
   it("shows a skeleton before the portfolio arrives", () => {
@@ -140,5 +147,80 @@ describe("ReportView", () => {
     render(<ReportView events={onlyKlaus} />);
     expect(screen.getByRole("region", { name: /News found/ })).toBeInTheDocument();
     expect(screen.queryByRole("region", { name: /Raised again/ })).not.toBeInTheDocument();
+  });
+
+  describe("copy questions", () => {
+    const card = () => screen.getByRole("article", { name: "Kair Käsper" });
+
+    it("copies the 3 numbered questions and shows Copied", async () => {
+      const writeText = vi.fn().mockResolvedValue(undefined);
+      stubClipboard(writeText);
+      render(<ReportView events={all} />);
+      fireEvent.click(within(card()).getByRole("button", { name: "Copy questions" }));
+      expect(writeText).toHaveBeenCalledWith(
+        "1. [mock] How involved was the fund in the acquisition talks?\n" +
+          "2. [mock] Did they push for or against the sale?\n" +
+          "3. [mock] Would you take their money again?",
+      );
+      expect(await within(card()).findByText("Copied")).toBeInTheDocument();
+    });
+
+    it("goes back to Copy questions after ~2 s", async () => {
+      stubClipboard(vi.fn().mockResolvedValue(undefined));
+      vi.useFakeTimers();
+      render(<ReportView events={all} />);
+      fireEvent.click(within(card()).getByRole("button", { name: "Copy questions" }));
+      await act(async () => {});
+      expect(within(card()).getByText("Copied")).toBeInTheDocument();
+      await act(async () => {
+        vi.advanceTimersByTime(2100);
+      });
+      expect(within(card()).getByRole("button", { name: "Copy questions" })).toBeInTheDocument();
+    });
+
+    it("shows Copy failed when the write rejects", async () => {
+      stubClipboard(vi.fn().mockRejectedValue(new Error("denied")));
+      render(<ReportView events={all} />);
+      fireEvent.click(within(card()).getByRole("button", { name: "Copy questions" }));
+      expect(await within(card()).findByText("Copy failed")).toBeInTheDocument();
+    });
+
+    it("shows Copy failed when the clipboard is unavailable", async () => {
+      Object.defineProperty(navigator, "clipboard", { value: undefined, configurable: true });
+      render(<ReportView events={all} />);
+      fireEvent.click(within(card()).getByRole("button", { name: "Copy questions" }));
+      expect(await within(card()).findByText("Copy failed")).toBeInTheDocument();
+    });
+  });
+
+  describe("empty call list", () => {
+    const empty = { ...report, callList: [] } as Report;
+    const text =
+      "No founders to call yet. None of the checked portfolio companies had a dated round or news with a founder we could confirm. The portfolio table below shows what was checked.";
+
+    it("explains an empty list once done has arrived", () => {
+      render(<ReportView events={reportToEvents(empty)} />);
+      expect(screen.getByText(text)).toBeInTheDocument();
+    });
+
+    it("does not explain while still streaming", () => {
+      render(<ReportView events={reportToEvents(empty).slice(0, 2)} />);
+      expect(screen.queryByText(/No founders to call yet/)).not.toBeInTheDocument();
+    });
+
+    it("does not show it when there are entries", () => {
+      render(<ReportView events={all} />);
+      expect(screen.queryByText(/No founders to call yet/)).not.toBeInTheDocument();
+    });
+  });
+
+  it("shows the footer note once the portfolio has arrived", () => {
+    const { unmount } = render(<ReportView events={all.slice(0, 1)} />);
+    expect(screen.queryByRole("contentinfo")).not.toBeInTheDocument();
+    unmount();
+    render(<ReportView events={upToPortfolio} />);
+    expect(screen.getByRole("contentinfo")).toHaveTextContent(
+      "Facts from public sources via Cala and Exa. A missing round is not evidence that a company failed.",
+    );
   });
 });

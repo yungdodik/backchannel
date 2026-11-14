@@ -1,7 +1,9 @@
 "use client";
 
+import { useEffect, useRef, useState } from "react";
 import { ChevronDown, ExternalLink } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
 import { Skeleton } from "@/components/ui/skeleton";
@@ -89,6 +91,30 @@ function SourceChip({ source }: { source: Source }) {
   );
 }
 
+function CopyQuestionsButton({ questions }: { questions: string[] }) {
+  const [status, setStatus] = useState<"idle" | "copied" | "failed">("idle");
+  const timer = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
+  useEffect(() => () => clearTimeout(timer.current), []);
+
+  async function copy() {
+    let next: "copied" | "failed" = "copied";
+    try {
+      await navigator.clipboard.writeText(questions.map((q, i) => `${i + 1}. ${q}`).join("\n"));
+    } catch {
+      next = "failed";
+    }
+    setStatus(next);
+    clearTimeout(timer.current);
+    timer.current = setTimeout(() => setStatus("idle"), 2000);
+  }
+
+  return (
+    <Button type="button" variant="outline" size="sm" onClick={copy}>
+      {status === "copied" ? "Copied" : status === "failed" ? "Copy failed" : "Copy questions"}
+    </Button>
+  );
+}
+
 function EntryCard({ entry }: { entry: CallListEntry }) {
   const { founder } = entry;
   const headingId = `entry-${entry.companyId}-${founder.name}`.replace(/\W+/g, "-");
@@ -132,6 +158,7 @@ function EntryCard({ entry }: { entry: CallListEntry }) {
             <li key={i}>{q}</li>
           ))}
         </ol>
+        <CopyQuestionsButton questions={entry.questions} />
       </CardContent>
     </Card>
   );
@@ -237,6 +264,12 @@ export function ReportView({ events }: { events: StreamEvent[] }) {
         </p>
       </header>
       {banner}
+      {s.complete !== undefined && s.entries.length === 0 && (
+        <p className="text-muted-foreground">
+          No founders to call yet. None of the checked portfolio companies had a dated round or news with a
+          founder we could confirm. The portfolio table below shows what was checked.
+        </p>
+      )}
       {GROUPS.map(({ group, title }) => {
         const entries = s.entries.filter((e) => e.group === group);
         if (!entries.length) return null;
@@ -252,6 +285,9 @@ export function ReportView({ events }: { events: StreamEvent[] }) {
         );
       })}
       <PortfolioTable companies={s.companies} />
+      <footer className="text-sm text-muted-foreground">
+        Facts from public sources via Cala and Exa. A missing round is not evidence that a company failed.
+      </footer>
     </div>
   );
 }
