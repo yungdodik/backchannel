@@ -198,9 +198,9 @@
 .px-tool:hover { color: var(--text) !important; }
 .px-dot { width: 12px; height: 12px; border-radius: 50%; }
 .px-tool[aria-pressed="false"] .px-dot { opacity: 0.35; }
-.px-tool[data-tip]:hover::after { content: attr(data-tip); position: absolute; bottom: 52px; left: 50%; transform: translateX(-50%); white-space: nowrap; background: var(--glass-2); border: 1px solid var(--line); padding: 4px 10px; border-radius: 8px; font-size: 12.5px; color: var(--text); }
+.px-tool[data-tip]:is(:hover, :focus-visible)::after { content: attr(data-tip); position: absolute; bottom: 52px; left: 50%; transform: translateX(-50%); white-space: nowrap; background: var(--glass-2); border: 1px solid var(--line); padding: 4px 10px; border-radius: 8px; font-size: 12.5px; color: var(--text); }
 
-.px-info { top: 76px; left: 16px; width: 360px; max-height: calc(100% - 170px); overflow: auto; border-radius: 18px; padding: 18px 18px 16px; animation: px-drop 0.35s var(--quart) both; }
+.px-info { background: oklch(0.17 0.02 268 / 0.97); top: 76px; left: 16px; width: 360px; max-height: calc(100% - 170px); overflow: auto; border-radius: 18px; padding: 18px 18px 16px; animation: px-drop 0.35s var(--quart) both; }
 @keyframes px-drop { from { opacity: 0; transform: translateY(-8px); } }
 .px-type { font: 400 12px var(--mono); color: var(--muted); }
 .px-info h1 { margin-top: 4px; font: 600 26px/1.15 var(--sans); letter-spacing: -0.01em; }
@@ -252,6 +252,7 @@
 .px-tip[data-on] { opacity: 1; }
 .px-tip small { display: block; font: 400 11.5px var(--mono); color: var(--muted); }
 .px-toast { top: 76px; left: 50%; transform: translateX(-50%); padding: 8px 16px; border-radius: 999px; font: 400 13px var(--mono); color: var(--muted); white-space: nowrap; animation: px-fade 2.8s var(--quart) both; pointer-events: none; }
+.px-toast.px-stay { animation: none; }
 @keyframes px-fade { 0% { opacity: 0; } 10%, 80% { opacity: 1; } 100% { opacity: 0; } }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 
@@ -267,3 +268,5 @@
 @media (prefers-reduced-motion: reduce) {
   .px-app *, .px-app *::before, .px-app *::after { animation: none !important; transition: none !important; }
 }
+
+

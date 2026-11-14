@@ -62,12 +62,12 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
   const [suggest, setSuggest] = useState(false);
   const [sIdx, setSIdx] = useState(-1);
   const [search, setSearch] = useState<SearchState>({ kind: "idle" });
-  const [viewText, setViewText] = useState("FOV 110°");
+  const [viewText, setViewText] = useState("FOV 80°");
   const [labels, setLabels] = useState(true);
   const [grid, setGrid] = useState(false);
   const [orbits, setOrbits] = useState(true);
   const [filters, setFilters] = useState<Record<CallGroup, boolean>>({ news_event: true, no_recent_round: true, recent_round: true });
-  const [toast, setToast] = useState<{ id: number; text: string } | null>({ id: 0, text: "Drag to rotate the sky. Click a fund, or press / to search." });
+  const [toast, setToast] = useState<{ id: number; text: string } | null>({ id: 0, text: "Each bright star is a VC fund. Click one to see its founders to call." });
   const [clock, setClock] = useState<{ t: string; d: string } | null>(null);
   const [mountedAt, setMountedAt] = useState<number | null>(null);
 
@@ -76,7 +76,12 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
   const report = useMemo(() => deriveReport(events), [events]);
   const target = allFunds.find((f) => f.id === targetId);
 
-  const say = (text: string) => setToast({ id: Date.now(), text });
+  const say = (text: string) => {
+    const id = Date.now();
+    setToast({ id, text });
+    // the fade is CSS; under reduced motion there is none, so clear it here too
+    setTimeout(() => setToast((t) => (t?.id === id ? null : t)), 2800);
+  };
 
   /* ---------- engine lifecycle ---------- */
   const cb = useRef({
@@ -159,9 +164,25 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
         input.current?.focus();
       }
       if (e.key === "Escape") engine.current?.flyOut();
+      if ((e.target as HTMLElement).closest?.("input, textarea, button, a, .px-list") || e.ctrlKey || e.metaKey || e.altKey) return;
+      if (e.key === "+" || e.key === "=") engine.current?.zoom(0.85);
+      if (e.key === "-") engine.current?.zoom(1 / 0.85);
+      const arrow = { ArrowLeft: [-6, 0], ArrowRight: [6, 0], ArrowUp: [0, 4], ArrowDown: [0, -4] }[e.key];
+      if (arrow) {
+        e.preventDefault();
+        engine.current?.turn(arrow[0], arrow[1]);
+      }
     };
+    // the opening hint stays until the visitor does something
+    const dismiss = () => setToast((t) => (t?.id === 0 ? null : t));
     addEventListener("keydown", onKey);
-    return () => removeEventListener("keydown", onKey);
+    addEventListener("pointerdown", dismiss);
+    addEventListener("keydown", dismiss);
+    return () => {
+      removeEventListener("keydown", onKey);
+      removeEventListener("pointerdown", dismiss);
+      removeEventListener("keydown", dismiss);
+    };
   }, []);
 
   /* ---------- actions ---------- */
@@ -188,6 +209,12 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
   }
   useEffect(() => {
     cb.current.onSelectCompany = selectCompany;
+    // the selected fund's name goes into the search bar, ready for Fly
+    cb.current.onSelectFund = (id) => {
+      setSelectedId(id);
+      const f = allFunds.find((x) => x.id === id);
+      if (f) setQ(f.name);
+    };
   });
 
   const matches = allFunds.filter((f) => !norm(q) || norm(f.name).includes(norm(q)));
@@ -262,13 +289,14 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
             onFocus={() => setSuggest(true)}
             onBlur={() => setTimeout(() => setSuggest(false), 150)}
             onKeyDown={onKeyDown}
-            placeholder="Search a fund..."
+            placeholder="Which fund do you want to reference-check?"
             autoComplete="off"
             role="combobox"
             aria-autocomplete="list"
             aria-label="Search a venture fund"
             aria-expanded={suggest}
             aria-controls="fund-suggestions"
+            aria-activedescendant={suggest && sIdx >= 0 ? `fund-opt-${sIdx}` : undefined}
           />
           <button className="px-fly" aria-label="Fly to fund">{Icon.arrow}Fly</button>
         </form>
@@ -276,7 +304,7 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
           <div className="px-sugg" id="fund-suggestions" role="listbox" aria-label="Funds">
             {!norm(q) && <div className="px-hint">Funds in the sky</div>}
             {matches.map((f, i) => (
-              <button key={f.id} type="button" role="option" aria-selected={i === sIdx} className="px-option" onMouseDown={(e) => e.preventDefault()} onClick={() => flyTo(f)}>
+              <button key={f.id} id={`fund-opt-${i}`} tabIndex={-1} type="button" role="option" aria-selected={i === sIdx} className="px-option" onMouseDown={(e) => e.preventDefault()} onClick={() => flyTo(f)}>
                 <i /><span>{f.name}</span><small>{f.companies != null ? `${f.companies} co` : "live"}</small>
               </button>
             ))}
@@ -362,7 +390,7 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
                 : "Drag to rotate the system. Click a planet, or pick a founder."}
             </p>
           </div>
-          <div className="px-list" ref={listRef}>
+          <div className="px-list" ref={listRef} tabIndex={0}>
             {report.complete !== undefined && report.entries.length === 0 && (
               <p className="px-empty">No founders to call yet. None of the checked portfolio companies had a dated round or news with a founder we could confirm.</p>
             )}
@@ -459,7 +487,7 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
         <small>{clock?.d ?? ""}</small>
       </div>
       {toast && (
-        <div key={toast.id} className="px-ui px-glass px-toast" role="status">{toast.text}</div>
+        <div key={toast.id} className={toast.id ? "px-ui px-glass px-toast" : "px-ui px-glass px-toast px-stay"} role="status">{toast.text}</div>
       )}
     </div>
   );
