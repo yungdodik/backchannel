@@ -370,7 +370,7 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
                   <div className="px-hint">Matches from Cala</div>
                   {search.matches.map((m) => (
                     <button key={m.calaId} type="button" role="option" aria-selected={false} className="px-option" onMouseDown={(e) => e.preventDefault()} onClick={() => flyTo({ id: m.calaId, name: m.name })}>
-                      <i /><span>{m.name}{m.description && <em>{m.description}</em>}</span><small>new star</small>
+                      <i /><span>{m.name}{m.description && <em>{m.description}</em>}</span><small>{m.companies == null ? "new star" : m.companies === 0 ? "no portfolio" : `${m.companies}${m.companies >= 200 ? "+" : ""} co`}</small>
                     </button>
                   ))}
                 </>
