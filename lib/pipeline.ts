@@ -65,10 +65,10 @@ export function questionTemplates(fund: string) {
 }
 
 export function checkQuestions(qs: unknown, why: Signal[], fund: string): string[] {
-  const facts = why.map((s) => `${s.text} ${s.date ?? ""}`).join(" ");
+  const facts = new Set(why.map((s) => `${s.text} ${s.date ?? ""}`).join(" ").match(/\d+/g)); // whole numbers: "20" is not in "2021"
   const ok = (Array.isArray(qs) ? qs : [])
     .filter((q): q is string => typeof q === "string" && q.trim().length > 0)
-    .filter((q) => !BANNED.test(q) && (q.match(/\d+/g) ?? []).every((n) => facts.includes(n)));
+    .filter((q) => !BANNED.test(q) && (q.match(/\d+/g) ?? []).every((n) => facts.has(n)));
   for (const t of questionTemplates(fund)) if (ok.length < 3 && !ok.includes(t)) ok.push(t);
   return ok.slice(0, 3);
 }
@@ -229,7 +229,10 @@ export function createPipeline(deps: PipelineDeps) {
         out.push({ type: "company", company: structuredClone(co) });
 
         if (a.group && co.founders.length) {
-          const raw = await gemini.questions(questionPrompt(co.name, fund.name, a.signals)).catch(() => []);
+          const raw = await gemini.questions(questionPrompt(co.name, fund.name, a.signals)).catch((e) => {
+            console.warn(`Gemini failed for ${co.name}, using template questions: ${e instanceof Error ? e.message.slice(0, 200) : e}`);
+            return [];
+          });
           const questions = checkQuestions(raw, a.signals, fund.name);
           for (const founder of co.founders) {
             // Cala sometimes has two entities for one company (FLOWHAVEN OY / Flowhaven Oy, IQM / IQM Quantum Computers Oyj): one entry per person.

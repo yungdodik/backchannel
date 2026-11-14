@@ -3,7 +3,7 @@ import type { CalaEntity, CalaLink, CalaSource } from "@/lib/cala";
 import type { CallGroup, Round, Signal, Source } from "@/lib/types";
 
 const LEGAL_FORM = /\s+(oy|oyj|oü|ab|as|asa|aps|ltd|limited|gmbh|inc|llc|sa|bv|nv|plc)$/;
-const ACQUISITION = /acqui|exit|merge/i;
+const ACQUISITION = /acqui|exit|merge[drs]?/i; // not "emerges"
 
 /** "Zendesk acquires Klaus" / "Klaus acquired by Zendesk", not "Klaus acquires Promoty". Both args normalised (no regex specials). */
 export function wasAcquired(t: string, n: string) {

@@ -65,7 +65,7 @@ The founder types a fund name and picks the right fund from the matches. Within 
    - Keep a result only if the **title** (highlights name companies in passing: namesakes, "X acquires Y") contains `normalise(name)` and matches `/shut ?down|acqui[rs]|layoff|bankrupt/i` ("acquisition" too).
    - An acquisition counts only when the company is the one acquired: "acquire(s/d)/acquisition (of) {name}", "{name} … acquired by", "{name} was/has been acquired" (not "Modash acquires Promoty").
    - Skip employee-review sites (glassdoor.*) and URLs in `lib/news-blocklist.ts` (namesakes found when reading the demo reports by hand, each with a reason).
-   - The kind comes from the matched word. Group results by kind and keep only the kind(s) with the most results, all of them as sources: namesakes slip through ("Klaus Brewing Co. to shut down" vs 4 sources on the Klaus acquisition).
+   - Group results by kind and keep only the kind(s) with the most results, all of them as sources: namesakes slip through ("Klaus Brewing Co. to shut down" vs 4 sources on the Klaus acquisition).
    - The kind comes from the matched word. It becomes "Reported {acquisition|shutdown|layoffs|bankruptcy} ({domain}, {YYYY-MM})". Recompute the group.
    - No LLM in this step.
 7. **Questions:** one Gemini call per company on the call list (shared by its ≤2 entries), given only its `why` signals, returning exactly 3 questions as JSON. Post-check:
@@ -75,6 +75,7 @@ The founder types a fund name and picks the right fund from the matches. Within 
 9. **Cache:**
    - `npm run precompute -- <calaId>…` runs the pipeline locally with no time budget. It writes `data/reports/{calaId}.json` and regenerates `lib/cached-reports.ts`, a static import map `{ [calaId]: () => import("@/data/reports/<id>.json") }`.
    - There is no runtime `fs` (Vercel doesn't bundle it) and no Upstash in v1.
+   - `npm run apply-blocklist` re-filters committed reports offline (no Cala): drops news from `lib/news-blocklist.ts`, regroups, and re-asks Gemini for changed companies and for entries left with only template questions. A Gemini failure is logged; `check:pipeline` fails if every entry is on templates.
 10. **Limits:**
     - **Cala:** one shared queue, concurrency 1, configurable minimum gap (start 1 s). On a 429, retry with backoff 1, 2, 4, 8, 16 s, then give up on that item; a company given up on gets one more try at the end of the run (the quota looks per-minute: give-ups came every ~64 s). While retrying, emit `progress: "waiting for data source…"`.
     - **Exa and Gemini:** concurrency 5 each.
