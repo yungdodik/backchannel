@@ -57,10 +57,12 @@ The founder types a fund name and picks the right fund from the matches. Within 
      - The person's `entities[0].properties.workHistory` has an item whose `title` matches `/founder|ceo/i` and `normalise(company.name) === normalise(portfolio name)`.
      - Exclude anyone with any workHistory company containing the fund name. Regression: Riku Seppälä, "Co-founder and General Partner, Icebreaker.vc".
      - Exact match only: "Alvin" ≠ "Alvin Technologies" ≠ "AlvinAI" (fixture `exa/exa_probe.json` → `people_Alvin`).
+     - A name in parentheses also counts: "Zendesk QA (Klaus)" matches Klaus (acquired companies keep the old name there).
      - `evidence = "{title}, {company}"`, `linkedinUrl` = the result URL, source = that URL. `via: "exa+gemini"` (legacy name; the UI shows "via web").
    - Max 2 founders per company. A grouped company with 0 founders is **not** on the call list; it stays in the table.
-6. **News** runs only for grouped companies whose group is `no_recent_round`, plus companies with no dated round. One Exa search: `"{normalise(name)}" shut down OR acquired OR layoffs OR bankruptcy`, `startPublishedDate` = now − 3 years, 5 results with highlights. Exclude the fund's own domain and its `medium.com/<fund>` blog (D22).
-   - Keep a result only if title + highlight contains `normalise(name)` and matches `/shut ?down|acquir|layoff|bankrupt/i`.
+6. **News** (runs before step 5, since news can give an undated company its group) runs only for grouped companies whose group is `no_recent_round`, plus companies with no dated round. One Exa search: `"{normalise(name)}" shut down OR acquired OR layoffs OR bankruptcy`, `startPublishedDate` = now − 3 years, 5 results with highlights. Exclude the fund's own domain and its `medium.com/<fund>` blog (D22).
+   - Keep a result only if title + highlight contains `normalise(name)` and matches `/shut ?down|acqui[rs]|layoff|bankrupt/i` ("acquisition" too).
+   - The kind comes from the matched word. Group results by kind and keep only the kind(s) with the most results, all of them as sources: namesakes slip through ("Klaus Brewing Co. to shut down" vs 4 sources on the Klaus acquisition).
    - The kind comes from the matched word. It becomes "Reported {acquisition|shutdown|layoffs|bankruptcy} ({domain}, {YYYY-MM})". Recompute the group.
    - No LLM in this step.
 7. **Questions:** one Gemini call per company on the call list (shared by its ≤2 entries), given only its `why` signals, returning exactly 3 questions as JSON. Post-check:
