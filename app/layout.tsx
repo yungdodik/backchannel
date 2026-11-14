@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Backchannel",
-  description: "Reference-check a VC fund: portfolio founders to call, with sourced facts.",
+  title: "Parallax",
+  description: "Reference-check a VC fund: the portfolio founders to call, with sourced facts.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -23,7 +23,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col"><main className="mx-auto w-full max-w-3xl px-4 py-8 sm:py-12">{children}</main></body>
+      <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
 }

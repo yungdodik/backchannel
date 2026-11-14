@@ -8,63 +8,14 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
-import type {
-  CallGroup,
-  CallListEntry,
-  FundMatch,
-  PortfolioCompany,
-  Source,
-  StreamEvent,
-} from "@/lib/types";
+import { deriveReport } from "@/components/report-state";
+import type { CallGroup, CallListEntry, PortfolioCompany, Source, StreamEvent } from "@/lib/types";
 
 const GROUPS: { group: CallGroup; title: string }[] = [
   { group: "news_event", title: "News found (acquisition, shutdown, layoffs)" },
   { group: "no_recent_round", title: "No recorded round in 24+ months" },
   { group: "recent_round", title: "Raised again recently" },
 ];
-
-interface ViewState {
-  fund?: FundMatch;
-  companies: PortfolioCompany[];
-  entries: CallListEntry[];
-  progress?: string;
-  error?: string;
-  /** Set once `done` arrives. */
-  complete?: boolean;
-}
-
-/** Folds the events received so far into what the page shows. */
-function derive(events: StreamEvent[]): ViewState {
-  const s: ViewState = { companies: [], entries: [] };
-  for (const ev of events) {
-    switch (ev.type) {
-      case "progress":
-        s.progress = ev.message;
-        break;
-      case "portfolio":
-        s.fund = ev.fund;
-        s.companies = ev.companies;
-        break;
-      case "company":
-        s.companies = s.companies.map((c) => (c.calaId === ev.company.calaId ? ev.company : c));
-        break;
-      case "entry":
-        s.entries = [...s.entries, ev.entry];
-        break;
-      case "done": // authoritative: replaces everything streamed so far
-        s.fund = ev.report.fund;
-        s.companies = ev.report.portfolio;
-        s.entries = ev.report.callList;
-        s.complete = ev.report.complete;
-        s.progress = undefined;
-        break;
-      case "error":
-        s.error = ev.message;
-        break;
-    }
-  }
-  return s;
-}
 
 function domain(url: string): string {
   try {
@@ -228,7 +179,7 @@ function ReportSkeleton() {
 
 /** Pure render of a report from the stream events received so far (spec Part B, seam 1). */
 export function ReportView({ events }: { events: StreamEvent[] }) {
-  const s = derive(events);
+  const s = deriveReport(events);
 
   const banner = s.error && (
     <div
