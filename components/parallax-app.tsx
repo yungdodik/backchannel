@@ -45,6 +45,8 @@ const Icon = {
   logo: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" aria-hidden><circle cx="12" cy="12" r="2.4" fill="currentColor" /><ellipse cx="12" cy="12" rx="10" ry="4.2" transform="rotate(-20 12 12)" /></svg>,
 };
 
+let toastSeq = 0; // each toast gets its own id, so a newer one is not cleared by an older one's timer
+
 /** Parallax: the funds as stars on a 3D sky; search flies to one, and its portfolio appears around it. */
 export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
   const canvas = useRef<HTMLCanvasElement>(null);
@@ -74,7 +76,9 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
   const [grid, setGrid] = useState(false);
   const [orbits, setOrbits] = useState(true);
   const [filters, setFilters] = useState<Record<CallGroup, boolean>>({ news_event: true, no_recent_round: true, recent_round: true });
-  const [toast, setToast] = useState<{ id: number; text: string } | null>({ id: 0, text: "Each bright star is a VC fund. Click one to see its founders to call." });
+  const [toast, setToast] = useState<{ id: number; text: string } | null>(null);
+  const [visited, setVisited] = useState(false); // a first flight has happened: the opening explanation is no longer needed
+  const [touchedFund, setTouchedFund] = useState<string | null>(null); // the fund whose call list the visitor has opened or closed by hand
   const [clock, setClock] = useState<{ t: string; d: string } | null>(null);
   const [mountedAt, setMountedAt] = useState<number | null>(null);
 
@@ -84,7 +88,7 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
   const target = allFunds.find((f) => f.id === targetId);
 
   const say = (text: string) => {
-    const id = Date.now();
+    const id = ++toastSeq;
     setToast({ id, text });
     // the fade is CSS; under reduced motion there is none, so clear it here too
     setTimeout(() => setToast((t) => (t?.id === id ? null : t)), 2800);
@@ -190,16 +194,8 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
         engine.current?.turn(arrow[0], arrow[1]);
       }
     };
-    // the opening hint stays until the visitor does something
-    const dismiss = () => landingOn.current || setToast((t) => (t?.id === 0 ? null : t));
     addEventListener("keydown", onKey);
-    addEventListener("pointerdown", dismiss);
-    addEventListener("keydown", dismiss);
-    return () => {
-      removeEventListener("keydown", onKey);
-      removeEventListener("pointerdown", dismiss);
-      removeEventListener("keydown", dismiss);
-    };
+    return () => removeEventListener("keydown", onKey);
   }, []);
 
   /* ---------- actions ---------- */
@@ -212,6 +208,7 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
     setSelectedId(null);
     setSelCo(null);
     setOpen(new Set());
+    setVisited(true);
     setTargetId(f.id);
     setPhase("flying");
     say(`Flying to ${f.name}…`);
@@ -259,7 +256,8 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
   function selectCompany(id: string) {
     setSelCo(id);
     engine.current?.selectCompany(id);
-    setOpen((o) => new Set([...o, ...report.entries.filter((e) => e.companyId === id).map((e) => `${e.companyId}:${e.founder.name}`)]));
+    setTouchedFund(targetId);
+    setOpen((o) => new Set([...o, ...(autoKey ? [autoKey] : []), ...report.entries.filter((e) => e.companyId === id).map((e) => `${e.companyId}:${e.founder.name}`)]));
     requestAnimationFrame(() => listRef.current?.querySelector(`[data-cid="${CSS.escape(id)}"]`)?.scrollIntoView({ block: "nearest" }));
   }
   useEffect(() => {
@@ -333,6 +331,18 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
   // Indicators (issue #22): a count picks out the planets and call-list entries behind it. Tagged with the fund, so a new flight starts clear.
   const companyOfRound = new Map(report.companies.flatMap((c) => c.rounds.map((r) => [r.calaId, c.calaId] as const)));
   const hlIds = hl && hl.fund === targetId ? hl.ids : null;
+  // the first founder's card opens by itself on arrival, so the reasons and the questions are on screen without a click
+  const first = report.entries.find((e) => filters[e.group]);
+  const autoKey = first && touchedFund !== targetId ? `${first.companyId}:${first.founder.name}` : null;
+  const demoFund = allFunds.find((f) => /icebreaker/i.test(f.name)) ?? allFunds[0];
+  const mapKey = (
+    <ul>
+      <li><i style={{ background: "var(--news)" }} />News found</li>
+      <li><i style={{ background: "var(--quiet)" }} />No round in 2+ years</li>
+      <li><i style={{ background: "var(--recent)" }} />Raised recently</li>
+      <li><i style={{ background: "var(--none)" }} />No founder found</li>
+    </ul>
+  );
   const count = (key: string, ids: string[], label: string, text: ReactNode) => (
     <button
       className="px-count"
@@ -538,6 +548,20 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
         </section>
       )}
 
+      {phase === "sky" && !landing && !settling && !visited && !selectedFund && !suggest && demoFund && (
+        <section className="px-ui px-glass px-pitch" aria-label="What Parallax is">
+          <p><b>Reference checks for VC funds.</b> Each bright star is a fund: pick one to see its portfolio and the founders worth calling before you sign.</p>
+          <button className="px-btn px-primary" onClick={() => flyTo(demoFund)}>Try {demoFund.name}</button>
+        </section>
+      )}
+
+      {phase === "system" && (
+        <div className="px-ui px-glass px-key px-key-float" role="note" aria-label="How to read the map">
+          <p>Each planet is a portfolio company. Further from the star = longer since its last round.</p>
+          {mapKey}
+        </div>
+      )}
+
       {phase === "system" && (
         <aside className="px-ui px-glass px-drawer" aria-label="Founders to call">
           <div className="px-dh">
@@ -547,6 +571,10 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
                 ? `${sel.name}: ${sel.founders ? `${sel.founders} founder${sel.founders > 1 ? "s" : ""}` : "no founder confirmed"} · last round ${sel.last ?? "not on record"}`
                 : "Drag to rotate the system. Click a planet, or pick a founder."}
             </p>
+            <div className="px-key px-key-inline" role="note" aria-label="How to read the map">
+              {mapKey}
+              <p>Further from the star = longer since the last round.</p>
+            </div>
           </div>
           <div className="px-list" ref={listRef} tabIndex={0}>
             {report.complete !== undefined && report.entries.length === 0 && (
@@ -554,7 +582,7 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
             )}
             {!visible.some((e) => e.companyId === selCo) && overviewOf(selCo)}
             {visible.map((e) => {
-              const key = `${e.companyId}:${e.founder.name}`, isOpen = open.has(key);
+              const key = `${e.companyId}:${e.founder.name}`, isOpen = open.has(key) || key === autoKey;
               const c = skyCompanies.find((x) => x.id === e.companyId);
               return (
                 <div key={key} className="px-who" data-cid={e.companyId} data-hl={selCo === e.companyId || !!hlIds?.has(e.companyId)}>
@@ -562,9 +590,11 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
                     className="px-row"
                     aria-expanded={isOpen}
                     onClick={() => {
+                      setTouchedFund(targetId);
                       setOpen((o) => {
                         const n = new Set(o);
-                        if (n.has(key)) n.delete(key);
+                        if (autoKey) n.add(autoKey); // the card that opened by itself is now the visitor's to keep or close
+                        if (isOpen) n.delete(key);
                         else n.add(key);
                         return n;
                       });
@@ -647,7 +677,7 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
         <small>{clock?.d ?? ""}</small>
       </div>
       {toast && (
-        <div key={toast.id} className={toast.id ? "px-ui px-glass px-toast" : "px-ui px-glass px-toast px-stay"} role="status">{toast.text}</div>
+        <div key={toast.id} className="px-ui px-glass px-toast" role="status">{toast.text}</div>
       )}
     </div>
     </>
