@@ -265,11 +265,12 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
   /* ---------- derived numbers ---------- */
   const fp = report.report ? profile(report.report) : null;
   const companiesN = report.companies.length;
-  const checked = report.companies.filter((c) => c.state !== "pending").length;
+  const checked = report.checked;
+  const planned = Math.min(report.planned ?? companiesN, companiesN); // a capped live run checks fewer than the portfolio holds
   // progress line: done, stopped by an error, a bar once the company list is known, a spinner before that
   const done = report.complete !== undefined;
   const progState = done ? "done" : report.error ? "stopped" : companiesN ? "bar" : "wait";
-  const pct = done ? 100 : companiesN ? Math.round((100 * checked) / companiesN) : 0;
+  const pct = done ? 100 : planned ? Math.round((100 * checked) / planned) : 0;
   // the latest pipeline message, unless the company list arrived after it ("Reading the fund's portfolio…" is then stale)
   const note = events.findLastIndex((e) => e.type === "progress") > events.findLastIndex((e) => e.type === "portfolio") ? report.progress : undefined;
   const newsN = skyCompanies.filter((c) => c.group === "news_event").length;
@@ -470,10 +471,10 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
               {progState === "wait" && <i className="px-spin" aria-hidden />}
               {progState === "done" && <i className="px-ok" aria-hidden />}
               {progState === "done"
-                ? `Done · ${companiesN} of ${companiesN} companies checked${report.complete ? "" : " · partial report"}`
+                ? `Done · ${checked} of ${companiesN} companies checked${report.complete ? "" : " · partial report"}`
                 : progState === "wait"
                   ? (report.progress ?? "Connecting…")
-                  : `${progState === "stopped" ? "Stopped · " : ""}${checked} of ${companiesN} companies checked${note && progState === "bar" ? ` · ${note}` : ""}`}
+                  : `${progState === "stopped" ? "Stopped · " : ""}${checked} of ${planned} companies checked${note && progState === "bar" ? ` · ${note}` : ""}`}
             </p>
           </div>
           <div className="px-acts">

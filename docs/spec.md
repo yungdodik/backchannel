@@ -87,7 +87,7 @@ The founder types a fund name and picks the right fund from the matches. Within 
 - `GET /api/report?fund=<calaId>[&mock=1][&fresh=1]` returns `Content-Type: application/x-ndjson`, one `StreamEvent` per line.
 - **Order:**
   1. Zero or more `progress` events.
-  2. Exactly one `portfolio`.
+  2. Exactly one `portfolio`. It carries `planned`: how many of its companies this run will check (a live run is capped; absent on replays, meaning all).
   3. `company`, `entry` and `progress` events, interleaved. A company can be sent more than once (the later event replaces the earlier one).
   4. Exactly one terminal line: `done` or `error`.
 - **Errors:**

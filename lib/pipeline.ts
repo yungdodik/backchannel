@@ -186,14 +186,14 @@ export function createPipeline(deps: PipelineDeps) {
         sources: toSources(l.properties.sources),
         state: "pending",
       }));
-      out.push({ type: "portfolio", fund, companies: structuredClone(companies) });
-
       // D17: oldest first by the earliest source date on the INVESTED_IN link; undated last.
       const order = invested
         .map((l, i) => ({ i, d: firstDate(l) ?? "9999" }))
         .sort((a, b) => a.d.localeCompare(b.d) || a.i - b.i)
         .map((x) => x.i)
         .slice(0, maxCompanies ?? Infinity);
+      // `planned` tells the client how far the progress bar can go when the run is capped (issue #32)
+      out.push({ type: "portfolio", fund, companies: structuredClone(companies), planned: order.length });
 
       const callList: CallListEntry[] = [];
       const listed = new Set<string>();
