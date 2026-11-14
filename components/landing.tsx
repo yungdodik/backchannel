@@ -133,7 +133,7 @@ export function Landing({ funds, onEnter, onSkip }: { funds: SkyFund[]; onEnter:
   const [going, setGoing] = useState(false);
   const [slide, setSlide] = useState(0);
   const shown = useRef(0);
-  const wheel = useRef({ last: 0, lock: 0 });
+  const wheel = useRef({ last: 0, lock: 0, spent: false });
   const touch = useRef<{ y: number; top: boolean; bottom: boolean } | null>(null);
   const step = (d: number) => setSlide((n) => clampSlide(n + d));
 
@@ -195,12 +195,15 @@ export function Landing({ funds, onEnter, onSkip }: { funds: SkyFund[]; onEnter:
     return { top: sec.scrollTop <= 2, bottom: sec.scrollTop + sec.clientHeight >= sec.scrollHeight - 2 };
   };
   function onWheel(e: WheelEvent) {
-    const w = wheel.current, quiet = e.timeStamp - w.last > 160;
+    const w = wheel.current;
+    if (e.timeStamp - w.last > 160) w.spent = false; // a pause: a new gesture starts
     w.last = e.timeStamp;
-    // one slide per gesture: a trackpad keeps sending events long after the fingers left
-    if (!quiet || e.timeStamp < w.lock || Math.abs(e.deltaY) < 8) return;
+    // One slide per gesture: a trackpad keeps sending events long after the fingers left. A trackpad gesture also
+    // begins with a few tiny deltas, so the gesture is judged on its first real one, not on its first event.
+    if (w.spent || e.timeStamp < w.lock || Math.abs(e.deltaY) < 8) return;
+    w.spent = true;
     const down = e.deltaY > 0, at = room();
-    if (down ? !at.bottom : !at.top) return;
+    if (down ? !at.bottom : !at.top) return; // the slide scrolls inside itself: this gesture is its own
     w.lock = e.timeStamp + 600;
     step(down ? 1 : -1);
   }
