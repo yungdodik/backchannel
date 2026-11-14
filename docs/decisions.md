@@ -26,6 +26,7 @@
 | D22 | Exclude fund's own domain/blog from founder-voice search; use it only as event source for timeline | Exa returned mostly fund PR |
 | D23 | Code: new git repo junction/backchannel/ (Next.js), private GitHub → Vercel; public at submission. .env git-ignored, keys in Vercel env | |
 | D24 | Gemini: one Flash model (gemini-3.8-flash unless model list says otherwise), GEMINI_API_KEY; no Pro | many cheap calls |
+| D24b | (amends D24) Gemini model `gemini-3.5-flash`: 3.8/3.7/3.6-flash are listed but returned 504/503 on every call (2026-11-14); 20 s timeout, templates fill in | A2 probe |
 | D25 | Demo funds: Icebreaker.vc, Creandum, Inventure (FI), Lifeline Ventures, Maki.vc; ask Cala for a favourite | Nordic, varied |
 | D26 | h0–0:30: lib/types.ts + mock report from real Icebreaker probe data + project CLAUDE.md; then 2 sessions in parallel | |
 | D11b | (amends D11) No Upstash in v1: cached = committed reports via static imports; live = no cache | spec review: scope, Vercel fs |
