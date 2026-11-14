@@ -31,7 +31,7 @@ describe("FundSearch", () => {
     expect(link).toHaveAttribute("href", "/report/70fb3317-cd8c-4c52-aa86-66502789bce3");
     const url = String(fetchMock.mock.calls[0][0]);
     expect(url).toContain("/api/funds?q=icebreaker");
-    expect(url).toContain("mock=1");
+    expect(url).not.toContain("mock=1"); // B5: the UI calls the live API
   });
 
   it("shows an empty state", async () => {
