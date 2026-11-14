@@ -811,6 +811,77 @@ export class SkyEngine {
     }
   }
 
+  /** One small texture per company and group, drawn once: the frame loop only blits it. */
+  private sprites = new Map<string, HTMLCanvasElement>();
+  private sprite(c: SkyCompany) {
+    const key = `${c.id}:${c.group}`, hit = this.sprites.get(key);
+    if (hit) return hit;
+    const T = 64, R = T / 2, sp = document.createElement("canvas");
+    sp.width = sp.height = T;
+    const g = sp.getContext("2d")!, rgb = RGB[c.group];
+    const h = (k: number) => hash(c.id, k + 20); // same company, same planet
+    const tone = (f: number, a = 1) => `rgba(${rgb.map((v) => clamp(v * f, 0, 255) | 0).join(",")},${a})`;
+    const blob = (x: number, y: number, rx: number, ry: number, rot = 0) => {
+      g.beginPath();
+      g.ellipse(x, y, rx, ry, rot, 0, 6.283);
+      g.fill();
+    };
+    g.beginPath();
+    g.arc(R, R, R, 0, 6.283);
+    g.clip();
+    g.fillStyle = tone(0.85);
+    g.fillRect(0, 0, T, T);
+    g.translate(R, R);
+    g.rotate((h(0) - 0.5) * 1.1); // axial tilt
+    if (c.group === "news_event") {
+      // gas giant: bands and one storm (the ring is drawn per frame)
+      for (let i = 0, y = -R; y < R; i++) {
+        const w = 3 + h(i + 1) * 9;
+        g.fillStyle = tone(i % 2 ? 0.55 + h(i + 30) * 0.2 : 1.05 + h(i + 30) * 0.3, 0.85);
+        g.fillRect(-R, y, T, w);
+        y += w;
+      }
+      g.fillStyle = tone(1.5, 0.85);
+      blob((h(9) - 0.5) * R, (h(10) - 0.5) * R, 7, 3.5);
+    } else if (c.group === "no_recent_round") {
+      // quiet moon: craters with a lit rim
+      for (let i = 0; i < 7; i++) {
+        const a = h(i + 1) * 6.283, d = Math.sqrt(h(i + 11)) * R * 0.85, cr = 3 + h(i + 21) * 6, x = Math.cos(a) * d, y = Math.sin(a) * d;
+        g.fillStyle = tone(0.55, 0.85);
+        blob(x, y, cr, cr);
+        g.strokeStyle = tone(1.35, 0.7);
+        g.lineWidth = 1.3;
+        g.beginPath();
+        g.arc(x, y, cr, 0.6, 3.6);
+        g.stroke();
+      }
+    } else if (c.group === "recent_round") {
+      // living world: land masses and an ice cap
+      g.fillStyle = tone(0.55, 0.75);
+      for (let i = 0; i < 5; i++) blob((h(i + 1) - 0.5) * T * 0.8, (h(i + 11) - 0.4) * T * 0.7, 5 + h(i + 21) * 8, 3 + h(i + 31) * 5, h(i + 41) * 3.14);
+      g.fillStyle = "rgba(240,250,255,.92)";
+      blob(0, -R * 0.95, R * 0.75, R * (0.2 + h(8) * 0.12));
+    } else if (c.group === "none") {
+      // bare rock: speckles
+      for (let i = 0; i < 16; i++) {
+        g.fillStyle = tone(i % 2 ? 0.6 : 1.25, 0.55);
+        const r = 1 + h(i + 21) * 2.2;
+        blob((h(i + 1) - 0.5) * T, (h(i + 41) - 0.5) * T, r, r);
+      }
+    } else {
+      // pending: not surveyed yet, latitude lines only
+      g.strokeStyle = tone(1.4, 0.55);
+      g.lineWidth = 1.2;
+      for (const ry of [0.28, 0.62]) {
+        g.beginPath();
+        g.ellipse(0, 0, R, R * ry, 0, 0, 6.283);
+        g.stroke();
+      }
+    }
+    this.sprites.set(key, sp);
+    return sp;
+  }
+
   private reveal(t: number) {
     while (this.queue.length && t >= this.nextReveal) {
       const c = this.queue.shift()!;
@@ -898,8 +969,18 @@ export class SkyEngine {
       cx.fill();
       const lx = (sq ? sq[0] : cxp) - x, ly = (sq ? sq[1] : cyp) - y, ll = Math.hypot(lx, ly) || 1;
       const sh = cx.createRadialGradient(x + (lx / ll) * s * 0.45, y + (ly / ll) * s * 0.45, s * 0.1, x, y, s);
-      sh.addColorStop(0, `rgba(${Math.min(255, R_ + 50)},${Math.min(255, G_ + 50)},${Math.min(255, B_ + 50)},${dim * fog})`);
-      sh.addColorStop(1, `rgba(${(R_ * 0.45) | 0},${(G_ * 0.45) | 0},${(B_ * 0.45) | 0},${dim * fog})`);
+      if (s >= 3) {
+        // texture first, then the sunlit side and the dark limb over it; below 3 px the texture cannot be seen
+        cx.globalAlpha = dim * fog;
+        cx.drawImage(this.sprite(c), x - s, y - s, s * 2, s * 2);
+        cx.globalAlpha = 1;
+        sh.addColorStop(0, `rgba(255,255,255,${0.3 * dim * fog})`);
+        sh.addColorStop(0.5, "rgba(0,0,0,0)");
+        sh.addColorStop(1, `rgba(4,6,16,${0.62 * dim * fog})`);
+      } else {
+        sh.addColorStop(0, `rgba(${Math.min(255, R_ + 50)},${Math.min(255, G_ + 50)},${Math.min(255, B_ + 50)},${dim * fog})`);
+        sh.addColorStop(1, `rgba(${(R_ * 0.45) | 0},${(G_ * 0.45) | 0},${(B_ * 0.45) | 0},${dim * fog})`);
+      }
       cx.fillStyle = sh;
       cx.beginPath();
       cx.arc(x, y, s, 0, 6.283);
@@ -966,6 +1047,7 @@ export class SkyEngine {
 
   private clearSystem() {
     this.planets.clear();
+    this.sprites.clear();
     this.queue = [];
     this.selCo = null;
   }
