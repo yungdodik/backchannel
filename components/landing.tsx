@@ -133,7 +133,7 @@ export function Landing({ funds, onEnter, onSkip }: { funds: SkyFund[]; onEnter:
   const [going, setGoing] = useState(false);
   const [slide, setSlide] = useState(0);
   const shown = useRef(0);
-  const wheel = useRef({ last: 0, lock: 0, spent: false });
+  const wheel = useRef({ last: 0, lock: 0, spent: false, inner: false, sum: 0 });
   const touch = useRef<{ y: number; top: boolean; bottom: boolean } | null>(null);
   const step = (d: number) => setSlide((n) => clampSlide(n + d));
 
@@ -194,16 +194,24 @@ export function Landing({ funds, onEnter, onSkip }: { funds: SkyFund[]; onEnter:
     const sec = root.current!.querySelectorAll<HTMLElement>("section")[slide];
     return { top: sec.scrollTop <= 2, bottom: sec.scrollTop + sec.clientHeight >= sec.scrollHeight - 2 };
   };
+  /** One slide per wheel gesture. A trackpad sends many small deltas, so the gesture is judged on their running sum. */
   function onWheel(e: WheelEvent) {
     const w = wheel.current;
-    if (e.timeStamp - w.last > 160) w.spent = false; // a pause: a new gesture starts
+    if (e.timeStamp - w.last > 160) Object.assign(w, { spent: false, inner: false, sum: 0 }); // a pause: a new gesture starts
     w.last = e.timeStamp;
-    // One slide per gesture: a trackpad keeps sending events long after the fingers left. A trackpad gesture also
-    // begins with a few tiny deltas, so the gesture is judged on its first real one, not on its first event.
-    if (w.spent || e.timeStamp < w.lock || Math.abs(e.deltaY) < 8) return;
+    if (!e.deltaY) return;
+    const down = e.deltaY > 0, sec = root.current!.querySelectorAll<HTMLElement>("section")[slide];
+    const left = down ? sec.scrollHeight - sec.clientHeight - sec.scrollTop : sec.scrollTop; // what the slide can still scroll that way
+    if (left > 2) {
+      // the slide is scrolling inside itself; more than a sliver of it and the whole gesture is the slide's own
+      if (left > 40) w.inner = true;
+      w.sum = 0;
+      return;
+    }
+    if (w.spent || w.inner || e.timeStamp < w.lock) return; // a trackpad keeps sending events long after the fingers left
+    w.sum = Math.sign(w.sum) === Math.sign(e.deltaY) ? w.sum + e.deltaY : e.deltaY;
+    if (Math.abs(w.sum) < 40) return;
     w.spent = true;
-    const down = e.deltaY > 0, at = room();
-    if (down ? !at.bottom : !at.top) return; // the slide scrolls inside itself: this gesture is its own
     w.lock = e.timeStamp + 600;
     step(down ? 1 : -1);
   }

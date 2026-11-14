@@ -393,11 +393,11 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
       <canvas ref={canvas} className="px-sky" aria-label="Sky map of venture funds. Drag to rotate; use the search to fly to a fund." />
       <div ref={tip} className="px-tip" aria-hidden />
 
-      {/* the logo is the way home: back to the sky from a fund, or back to the opening view when already there */}
+      {/* the logo is the way home: back to the sky from a fund, and from the sky back to the start page (a fresh load without #sky) */}
       <button
         className="px-ui px-glass px-brand"
-        aria-label={phase === "sky" ? "Parallax: reset the sky view" : "Parallax: return to the sky"}
-        onClick={() => (phase === "sky" ? engine.current?.resetView() : engine.current?.flyOut())}
+        aria-label={phase === "sky" ? "Parallax: back to the start page" : "Parallax: return to the sky"}
+        onClick={() => (phase === "sky" ? location.assign(location.pathname) : engine.current?.flyOut())}
       >
         {Icon.logo}<span>Parallax</span>
       </button>
