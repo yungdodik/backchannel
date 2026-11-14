@@ -14,6 +14,11 @@ describe("toFundMatches", () => {
     ]);
     expect(out[1].name).toBe("Inventure");
   });
+
+  it("puts funds with a precomputed report first, so a typed search reaches the demo report", () => {
+    const out = toFundMatches(inventure, new Set(["fd3ba350-0e55-40b5-96e3-013994777fdc"]));
+    expect(out.map((m) => m.calaId.slice(0, 8))).toEqual(["fd3ba350", "3794cb88", "f5b15ae0", "edc54c04", "b532fa93"]);
+  });
 });
 
 describe("slug", () => {
