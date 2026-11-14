@@ -1,4 +1,5 @@
 import mock from "@/mock/icebreaker.json";
+import { cachedReports } from "@/lib/cached-reports";
 import { liveDeps } from "@/lib/live";
 import { createPipeline } from "@/lib/pipeline";
 import { assertReport, ndjsonResponse, paced, reportToEvents } from "@/lib/replay";
@@ -15,7 +16,7 @@ async function* fail(message: string): AsyncIterable<StreamEvent> {
   yield { type: "error", message };
 }
 
-export function GET(request: Request) {
+export async function GET(request: Request) {
   const params = new URL(request.url).searchParams;
   if (params.get("mock") === "1") {
     assertReport(mock);
@@ -24,6 +25,12 @@ export function GET(request: Request) {
   const fund = params.get("fund") ?? "";
   if (!UUID.test(fund)) return ndjsonResponse(fail("Unknown fund id"));
   try {
+    const cached = cachedReports[fund];
+    if (cached && params.get("fresh") !== "1") {
+      const report = (await cached()).default;
+      assertReport(report);
+      return ndjsonResponse(paced(reportToEvents(report)));
+    }
     const pipeline = createPipeline(liveDeps({ budgetMs: BUDGET_MS, maxCompanies: LIVE_MAX_COMPANIES }));
     return ndjsonResponse(pipeline.run(fund));
   } catch (e) {
