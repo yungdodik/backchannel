@@ -217,6 +217,7 @@ export function ReportView({ events, onRetry }: { events: StreamEvent[]; onRetry
         </p>
       </header>
       {banner}
+      {(s.report?.portfolioTruncated || s.companies.length >= 200) && <p className="text-sm text-muted-foreground">Showing up to 200 recorded investments. This is a partial portfolio snapshot.</p>}
       <div className="space-y-1"><p className="text-sm text-muted-foreground">{researched} of {s.companies.length} companies researched · {s.companies.filter((c) => c.state === "unavailable").length} unavailable · {s.companies.filter((c) => c.state === "not_researched").length} not researched</p>
       <p className="text-sm text-muted-foreground">{s.report ? `${s.report.prepared ? "Prepared report" : "Research snapshot"} · updated ${s.report.generatedAt.slice(0, 10)}` : "Live research · up to 25 companies"}</p></div>
       {picks.length > 0 && <section aria-label="Recommended contacts" className="space-y-3">

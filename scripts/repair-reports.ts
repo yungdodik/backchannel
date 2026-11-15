@@ -5,8 +5,9 @@ import type { Report } from "../lib/types";
 
 // Only deterministic corrections supported by the existing linked sources. Never refresh generatedAt here.
 async function main() {
+  const ids = new Set(process.argv.slice(2));
   for (const file of await readdir("data/reports")) {
-    if (!file.endsWith(".json")) continue;
+    if (!file.endsWith(".json") || (ids.size && !ids.has(file.slice(0, -5)))) continue;
     const path = `data/reports/${file}`;
     const report: Report = JSON.parse(await readFile(path, "utf8"));
     report.portfolio = report.portfolio.filter((c) => !EXCLUDED_COMPANIES.has(c.calaId));

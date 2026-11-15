@@ -467,7 +467,7 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
 
       {phase === "sky" && selectedFund && (
         <section className="px-ui px-glass px-info" aria-label={selectedFund.name}>
-          <div className="px-type">{selectedFund.companies != null ? "Venture fund" : "Investor · not checked yet"}</div>
+          <div className="px-type">{selectedFund.companies != null ? "Investment portfolio" : "Investor · not checked yet"}</div>
           <h1>{selectedFund.name}</h1>
           <dl>
             {selectedFund.companies != null && (<><dt>Portfolio companies</dt><dd>{selectedFund.companies}</dd></>)}
@@ -486,10 +486,11 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
           <button className="px-btn px-statsbtn" aria-expanded={statsFund === targetId} onClick={() => setStatsFund((f) => (f === targetId ? null : targetId))}>
             {statsFund === targetId ? "Hide stats" : "Stats"}
           </button>
-          <div className="px-type">{target.companies != null ? "Venture fund" : "Investor · checked live"}</div>
+          <div className="px-type">{target.companies != null ? "Investment portfolio" : "Investor · checked live"}</div>
           <h1>{report.fund?.name ?? target.name}</h1>
           <p className="px-note">{report.report ? `${report.report.prepared ? "Prepared report" : "Research snapshot"} · updated ${report.report.generatedAt.slice(0, 10)}` : "Live research · up to 25 companies"}</p>
           {report.fund?.description && <p className="px-desc">{report.fund.description}</p>}
+          {(report.report?.portfolioTruncated || companiesN >= 200) && <p className="px-note">Showing up to 200 recorded investments. This is a partial portfolio snapshot.</p>}
           {/* headline counts, then one block per fact about follow-on funding: number, share bar, what it is measured against */}
           <dl className="px-tiles px-three">
             <div><dt>Companies</dt><dd>{companiesN || "…"}</dd></div>

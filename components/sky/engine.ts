@@ -158,12 +158,13 @@ export class SkyEngine {
   /* ---------------- public API ---------------- */
 
   setFunds(list: SkyFund[]) {
-    const narrow = innerWidth < 700;
-    const spots = narrow
-      ? [[12, 47], [-12, 62], [17, 30], [-8, 22], [-17, 38]]
-      : [[16, 40], [-28, 42], [52, 26], [2, 20], [-50, 27]];
+    // Fibonacci points cover the full sky dome, independent of the viewport.
+    // Equal steps in sin(altitude) give equal sky area; keep clear of the treeline.
+    const goldenAngle = 180 * (3 - Math.sqrt(5));
+    const floor = Math.sin(24 * D2R);
     this.funds = list.map((f, i) => {
-      const [az, alt] = spots[i] ?? [lerp(-60, 70, hash(f.id)), lerp(18, 60, hash(f.id, 3))];
+      const az = ((16 + i * goldenAngle + 180) % 360) - 180;
+      const alt = Math.asin(lerp(floor, 1, (i + 0.5) / list.length)) / D2R;
       const old = this.funds.find((o) => o.id === f.id);
       return { ...f, az, alt, v: dir(az, alt), r: old?.r ?? 16 };
     });

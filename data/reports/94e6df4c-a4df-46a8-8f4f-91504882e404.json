@@ -1,0 +1,2549 @@
+{
+  "fund": {
+    "calaId": "94e6df4c-a4df-46a8-8f4f-91504882e404",
+    "name": "Jane Street",
+    "description": "global quantitative trading firm and proprietary market maker"
+  },
+  "generatedAt": "2026-11-14T23:50:02.181Z",
+  "complete": true,
+  "portfolio": [
+    {
+      "calaId": "058d6bd9-dfb8-4e26-8e69-5544a08350c6",
+      "name": "Kraken",
+      "rounds": [
+        {
+          "calaId": "fececdb2-9352-4496-a879-9aef30f2d597",
+          "label": "Funding round",
+          "date": "2026-01-20",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/kraken/__K8eQ_bnwtoEzrre_iQrRk_2-6sBivxjdpOCeXGVrx1w/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        },
+        {
+          "calaId": "3e961338-3fde-4354-acf8-05441773c337",
+          "label": "Funding round",
+          "date": "2025-09-01",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/kraken/__K8eQ_bnwtoEzrre_iQrRk_2-6sBivxjdpOCeXGVrx1w/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        },
+        {
+          "calaId": "030a34ab-ab72-494f-b222-6e93ecc5dc49",
+          "label": "Funding round",
+          "date": "2025-01-15",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/1money/__yMTKvjqcn_NDCh88kqGEwas5JJQtbR9yaX12gWkKCl8/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/1money/__sL0UB_wB8nz7-apy6pFkWC8VvFu0-l8go-GUeSzB8L4/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.causeartist.com/blog/1money-launches-with-20m-in-funding-to-revolutionize-stablecoin-payments",
+              "name": "1Money Raises $20M for Stablecoin-Only Blockchain Protocol",
+              "date": "2025-01-18"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/734745-25",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.1money.com",
+              "name": "Stablecoin Payments Platform for Global Business | 1Money",
+              "date": "2026-01-01"
+            },
+            {
+              "url": "https://1moneynetwork.com",
+              "name": "The World's Stablecoin Payments Network",
+              "date": "2026-01-01"
+            }
+          ]
+        },
+        {
+          "calaId": "74414b63-82f4-4706-a0ce-2d846a78a5c3",
+          "label": "Funding round",
+          "date": "2021-03-01",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/kraken/__K8eQ_bnwtoEzrre_iQrRk_2-6sBivxjdpOCeXGVrx1w/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        },
+        {
+          "calaId": "ce05ca62-555b-47c1-8028-e687d78a1442",
+          "label": "Funding round",
+          "date": "2020-05-13",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/kraken/__K8eQ_bnwtoEzrre_iQrRk_2-6sBivxjdpOCeXGVrx1w/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        },
+        {
+          "calaId": "c43ff92a-b42f-499e-a95e-ef4651c1c022",
+          "label": "Funding round",
+          "date": "2019-06-25",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/kraken/__K8eQ_bnwtoEzrre_iQrRk_2-6sBivxjdpOCeXGVrx1w/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        },
+        {
+          "calaId": "b41d2fc3-6cf1-49c7-bc9a-7e0db25cbdd8",
+          "label": "Funding round",
+          "date": "2016-02-01",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/kraken/__K8eQ_bnwtoEzrre_iQrRk_2-6sBivxjdpOCeXGVrx1w/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        },
+        {
+          "calaId": "81cf4c21-0c21-4188-b359-a520352259a6",
+          "label": "Funding round",
+          "date": "2014-03-25",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2014/03/25/payward-raises-5m-from-hummingbird-to-fund-kraken-bitcoin-exchange",
+              "name": "Payward Raises $5M From Hummingbird To Fund Kraken Bitcoin Exchange | TechCrunch",
+              "date": "2014-03-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/kraken/__K8eQ_bnwtoEzrre_iQrRk_2-6sBivxjdpOCeXGVrx1w/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-01",
+          "date": "2026-01-20",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/kraken/__K8eQ_bnwtoEzrre_iQrRk_2-6sBivxjdpOCeXGVrx1w/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "founders": [
+        {
+          "name": "Jesse Powell",
+          "linkedinUrl": "https://linkedin.com/in/jessepowell",
+          "via": "exa+gemini",
+          "evidence": "Co-Founder, Chairman of the Board, Kraken",
+          "sources": [
+            {
+              "url": "https://linkedin.com/in/jessepowell",
+              "name": "linkedin.com"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://tracxn.com/d/companies/kraken/__K8eQ_bnwtoEzrre_iQrRk_2-6sBivxjdpOCeXGVrx1w/funding-and-investors",
+          "name": "tracxn.com",
+          "date": "2026-08-25"
+        }
+      ],
+      "state": "enriched",
+      "description": "A United States‑based cryptocurrency exchange operating without a traditional banking charter.",
+      "lastRoundDate": "2026-01-20",
+      "overview": {
+        "text": "Kraken is a United States‑based cryptocurrency exchange operating without a traditional banking charter. It completed funding rounds in March 2014, February 2016, June 2019, May 2020, March 2021, January 2025, September 2025, and January 2026.",
+        "sources": [
+          {
+            "url": "https://tracxn.com/d/companies/kraken/__K8eQ_bnwtoEzrre_iQrRk_2-6sBivxjdpOCeXGVrx1w/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/1money/__yMTKvjqcn_NDCh88kqGEwas5JJQtbR9yaX12gWkKCl8/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/1money/__sL0UB_wB8nz7-apy6pFkWC8VvFu0-l8go-GUeSzB8L4/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.causeartist.com/blog/1money-launches-with-20m-in-funding-to-revolutionize-stablecoin-payments",
+            "name": "1Money Raises $20M for Stablecoin-Only Blockchain Protocol",
+            "date": "2025-01-18"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/734745-25",
+            "name": "pitchbook.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.1money.com",
+            "name": "Stablecoin Payments Platform for Global Business | 1Money",
+            "date": "2026-01-01"
+          },
+          {
+            "url": "https://1moneynetwork.com",
+            "name": "The World's Stablecoin Payments Network",
+            "date": "2026-01-01"
+          },
+          {
+            "url": "https://techcrunch.com/2014/03/25/payward-raises-5m-from-hummingbird-to-fund-kraken-bitcoin-exchange",
+            "name": "Payward Raises $5M From Hummingbird To Fund Kraken Bitcoin Exchange | TechCrunch",
+            "date": "2014-03-25"
+          }
+        ]
+      }
+    },
+    {
+      "calaId": "289c0902-ba37-4317-b3fd-3580f41c7f23",
+      "name": "Thinking Machines Lab",
+      "rounds": [
+        {
+          "calaId": "f95d7215-b8d3-489f-84d6-cc4294ee3fb5",
+          "label": "Funding round",
+          "date": "2025-06-23",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-thinking-machines-abridge/",
+              "name": "news.crunchbase.com",
+              "date": "2026-05-11"
+            },
+            {
+              "url": "https://news.crunchbase.com/venture/biggest-seed-round-ai-thinking-machines-mira-murati/",
+              "name": "news.crunchbase.com",
+              "date": "2026-05-11"
+            },
+            {
+              "url": "https://news.crunchbase.com/venture/largest-funding-rounds-genai-defense-eoy-2025/",
+              "name": "news.crunchbase.com",
+              "date": "2026-05-11"
+            },
+            {
+              "url": "https://news.crunchbase.com/venture/global-funding-climbs-q2-2025-ai-ma-data/",
+              "name": "news.crunchbase.com",
+              "date": "2026-05-11"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2025-06",
+          "date": "2025-06-23",
+          "sources": [
+            {
+              "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-thinking-machines-abridge/",
+              "name": "news.crunchbase.com",
+              "date": "2026-05-11"
+            },
+            {
+              "url": "https://news.crunchbase.com/venture/biggest-seed-round-ai-thinking-machines-mira-murati/",
+              "name": "news.crunchbase.com",
+              "date": "2026-05-11"
+            },
+            {
+              "url": "https://news.crunchbase.com/venture/largest-funding-rounds-genai-defense-eoy-2025/",
+              "name": "news.crunchbase.com",
+              "date": "2026-05-11"
+            },
+            {
+              "url": "https://news.crunchbase.com/venture/global-funding-climbs-q2-2025-ai-ma-data/",
+              "name": "news.crunchbase.com",
+              "date": "2026-05-11"
+            }
+          ]
+        }
+      ],
+      "founders": [
+        {
+          "name": "Lilian Weng",
+          "via": "cala",
+          "evidence": "Cala: FOUNDED",
+          "sources": [
+            {
+              "url": "https://builtin.com/articles/what-is-thinking-machines-lab",
+              "name": "Latest Tech Jobs Personalized For You.",
+              "date": "2026-01-21"
+            },
+            {
+              "url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FThinking_Machines_Lab&hl=es&sl=en&tl=es&client=srp",
+              "name": "Before you continue to Google",
+              "date": "2026-03-15"
+            },
+            {
+              "url": "https://www.bgr.com/tech/mira-murati-and-former-openai-execs-announce-thinking-machines-lab-to-take-on-chatgpt/",
+              "name": "BGR | Industry-Leading Insights In Tech And Entertainment",
+              "date": "2025-02-19"
+            }
+          ]
+        },
+        {
+          "name": "Mira Murati",
+          "via": "cala",
+          "evidence": "Cala: FOUNDED",
+          "sources": [
+            {
+              "url": "https://ai-daily.news/articles/thinking-machines-lab-in-50-billion-funding-talks",
+              "name": "AI Daily - Latest AI News, Research & Technology Updates",
+              "date": "2026-05-07"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.reuters.com/technology/mira-muratis-ai-startup-thinking-machines-raises-2-billion-a16z-led-round-2025-07-15",
+          "name": "www.reuters.com",
+          "date": "2026-08-20"
+        }
+      ],
+      "state": "enriched",
+      "description": "A San Francisco-based software and services company founded in 2025 by Mira Murati, Barret Zoph, and Lilian Weng, with Murati as CEO.",
+      "lastRoundDate": "2025-06-23",
+      "overview": {
+        "text": "Thinking Machines Lab is a San Francisco-based software and services company founded in 2025 by Mira Murati, Barret Zoph, and Lilian Weng, with Murati as CEO. The company raised a funding round in June 2025.",
+        "sources": [
+          {
+            "url": "https://www.reuters.com/technology/mira-muratis-ai-startup-thinking-machines-raises-2-billion-a16z-led-round-2025-07-15",
+            "name": "www.reuters.com",
+            "date": "2026-08-20"
+          },
+          {
+            "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-thinking-machines-abridge/",
+            "name": "news.crunchbase.com",
+            "date": "2026-05-11"
+          },
+          {
+            "url": "https://news.crunchbase.com/venture/biggest-seed-round-ai-thinking-machines-mira-murati/",
+            "name": "news.crunchbase.com",
+            "date": "2026-05-11"
+          },
+          {
+            "url": "https://news.crunchbase.com/venture/largest-funding-rounds-genai-defense-eoy-2025/",
+            "name": "news.crunchbase.com",
+            "date": "2026-05-11"
+          },
+          {
+            "url": "https://news.crunchbase.com/venture/global-funding-climbs-q2-2025-ai-ma-data/",
+            "name": "news.crunchbase.com",
+            "date": "2026-05-11"
+          }
+        ]
+      }
+    },
+    {
+      "calaId": "5e1f6416-8017-4b7e-a0b6-d3c6a8c10a70",
+      "name": "Anthropic PBC",
+      "rounds": [
+        {
+          "calaId": "a4c61d30-cc44-44a6-9296-9777b06ab97f",
+          "label": "Funding round",
+          "date": "2026-08-24",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/accordance/__urXdYRT4H10eLGsyikIixePkkGyV8Cww5aa3TvkmWw8",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/accordance/__urXdYRT4H10eLGsyikIixePkkGyV8Cww5aa3TvkmWw8/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            }
+          ]
+        },
+        {
+          "calaId": "0505cddb-3846-4d12-a379-4d0223ccd855",
+          "label": "Funding round",
+          "date": "2026-04-21",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/anthropic/__SzoxXDMin-NK5tKB7ks8yHr6S9Mz68pjVCzFEcGFZ08",
+              "name": "tracxn.com",
+              "date": "2026-07-28"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/anthropic/__SzoxXDMin-NK5tKB7ks8yHr6S9Mz68pjVCzFEcGFZ08/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-07-28"
+            }
+          ]
+        },
+        {
+          "calaId": "075bd101-ed42-430b-bd0a-c87c2f19c659",
+          "label": "Funding round",
+          "date": "2026-04-02",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://nordic9.com/news/juno-chat-joined-yc-spring-2026",
+              "name": "nordic9.com",
+              "date": "2026-07-29"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/1392729-85",
+              "name": "pitchbook.com",
+              "date": "2026-07-29"
+            },
+            {
+              "url": "https://www.linkedin.com/posts/claude-for-business_juno-x-claude-activity-7482842630725332992-NPhZ",
+              "name": "Juno AI Health Assistant for Chronic Illness Users | Claude for Business posted on the topic | LinkedIn",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://www.ycombinator.com/companies/juno-chat",
+              "name": "Juno: AI Health Assistant for Chronic Illness | Y Combinator",
+              "date": "2026-05-22"
+            }
+          ]
+        },
+        {
+          "calaId": "0c657976-ece2-4d52-9165-a914b5eff2bd",
+          "label": "Funding round",
+          "date": "2026-03-04",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://www.linkedin.com/posts/claude-for-business_juno-x-claude-activity-7482842630725332992-NPhZ",
+              "name": "Juno AI Health Assistant for Chronic Illness Users | Claude for Business posted on the topic | LinkedIn",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://www.forbes.com/sites/alisoncoleman/2026/03/04/how-these-three-ai-healthcare-companies-are-restoring-the-human-touch",
+              "name": "How These Three AI Healthcare Companies Are Restoring The Human Touch",
+              "date": "2026-03-04"
+            }
+          ]
+        },
+        {
+          "calaId": "2920f7d8-9c8a-4c0a-bac1-ad270cd12700",
+          "label": "Funding round",
+          "date": "2026-02-12",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/anthropic/__SzoxXDMin-NK5tKB7ks8yHr6S9Mz68pjVCzFEcGFZ08/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-07-28"
+            }
+          ]
+        },
+        {
+          "calaId": "aba98239-24ea-4e60-9577-a6f88fabfb25",
+          "label": "Funding round",
+          "date": "2026-01-27",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/anthropic/__SzoxXDMin-NK5tKB7ks8yHr6S9Mz68pjVCzFEcGFZ08/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-07-28"
+            }
+          ]
+        },
+        {
+          "calaId": "12035595-8692-4ae2-b348-e0115f96415c",
+          "label": "Funding round",
+          "date": "2025-09-30",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://www.crunchbase.com/organization/zania-47a5",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/zania/__BPlXKvGDz8fhiWQd8aLS9a5s9QzAuv_xXJ08IodbfWo",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/zania/__BPlXKvGDz8fhiWQd8aLS9a5s9QzAuv_xXJ08IodbfWo/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/588842-11",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.crunchbase.com/organization/zania-47a5/company_financials",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            }
+          ]
+        },
+        {
+          "calaId": "33249d2a-62a2-4ca5-8802-10b891276b09",
+          "label": "Funding round",
+          "date": "2025-08-06",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2025/12/15/openai-backed-biotech-firm-chai-discovery-raises-130m-series-b-at-1-3b-valuation",
+              "name": "OpenAI-backed biotech firm Chai Discovery raises $130M Series B at $1.3B valuation | TechCrunch",
+              "date": "2025-12-15"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/chaidiscovery/__SQnTcJg7yoi61wRbyISv9Gb_IdU5lVzCVV2NeQNBIlY/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        },
+        {
+          "calaId": "3fab8f47-2678-40a7-bce6-43a669950f15",
+          "label": "Funding round",
+          "date": "2025-05-16",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/anthropic/__SzoxXDMin-NK5tKB7ks8yHr6S9Mz68pjVCzFEcGFZ08/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-07-28"
+            }
+          ]
+        },
+        {
+          "calaId": "614a54d4-6d3f-48e1-8051-15fd17cf68f3",
+          "label": "Funding round",
+          "date": "2025-03-03",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/anthropic/__SzoxXDMin-NK5tKB7ks8yHr6S9Mz68pjVCzFEcGFZ08/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-07-28"
+            },
+            {
+              "url": "https://news.crunchbase.com/ai/generative-ai-elon-musk-xai-debt-equity",
+              "name": "news.crunchbase.com",
+              "date": "2026-07-28"
+            }
+          ]
+        },
+        {
+          "calaId": "bf9b9b15-58ff-4251-b7c2-d23198819f49",
+          "label": "Funding round",
+          "date": "2024-11-22",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/anthropic/__SzoxXDMin-NK5tKB7ks8yHr6S9Mz68pjVCzFEcGFZ08/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-07-28"
+            },
+            {
+              "url": "https://techcrunch.com/2024/11/22/anthropic-raises-an-additional-4b-from-amazon-makes-aws-its-primary-cloud-partner",
+              "name": "Anthropic raises another $4B from Amazon, makes AWS its 'primary' training partner | TechCrunch",
+              "date": "2024-11-22"
+            }
+          ]
+        },
+        {
+          "calaId": "059de411-5a1e-41ce-a6ab-da82de2e4d58",
+          "label": "Funding round",
+          "date": "2024-07-08",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/anthropic/__SzoxXDMin-NK5tKB7ks8yHr6S9Mz68pjVCzFEcGFZ08/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-07-28"
+            }
+          ]
+        },
+        {
+          "calaId": "8b40c135-ba61-4e3a-8659-a078c3bdaf6e",
+          "label": "Funding round",
+          "date": "2024-03-27",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/anthropic/__SzoxXDMin-NK5tKB7ks8yHr6S9Mz68pjVCzFEcGFZ08/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-07-28"
+            },
+            {
+              "url": "https://techcrunch.com/2024/11/22/anthropic-raises-an-additional-4b-from-amazon-makes-aws-its-primary-cloud-partner",
+              "name": "Anthropic raises another $4B from Amazon, makes AWS its 'primary' training partner | TechCrunch",
+              "date": "2024-11-22"
+            }
+          ]
+        },
+        {
+          "calaId": "4b34cad2-cc81-4956-accf-3f4fee86de53",
+          "label": "Funding round",
+          "date": "2023-09-25",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/anthropic/__SzoxXDMin-NK5tKB7ks8yHr6S9Mz68pjVCzFEcGFZ08/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-07-28"
+            },
+            {
+              "url": "https://techcrunch.com/2024/11/22/anthropic-raises-an-additional-4b-from-amazon-makes-aws-its-primary-cloud-partner",
+              "name": "Anthropic raises another $4B from Amazon, makes AWS its 'primary' training partner | TechCrunch",
+              "date": "2024-11-22"
+            }
+          ]
+        },
+        {
+          "calaId": "1512fe16-09ca-4a7c-9eb1-4432d4cd185b",
+          "label": "Funding round",
+          "date": "2023-06-27",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/anthropic/__SzoxXDMin-NK5tKB7ks8yHr6S9Mz68pjVCzFEcGFZ08/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-07-28"
+            }
+          ]
+        },
+        {
+          "calaId": "9fa24ba2-ab2e-4f29-a643-5bb7e55bb39c",
+          "label": "Funding round",
+          "date": "2021-05-31",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/anthropic/__SzoxXDMin-NK5tKB7ks8yHr6S9Mz68pjVCzFEcGFZ08",
+              "name": "tracxn.com",
+              "date": "2026-07-28"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-08",
+          "date": "2026-08-24",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/accordance/__urXdYRT4H10eLGsyikIixePkkGyV8Cww5aa3TvkmWw8",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/accordance/__urXdYRT4H10eLGsyikIixePkkGyV8Cww5aa3TvkmWw8/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            }
+          ]
+        }
+      ],
+      "founders": [
+        {
+          "name": "Jack Clark",
+          "via": "cala",
+          "evidence": "Cala: FOUNDED",
+          "sources": [
+            {
+              "url": "https://techcrunch.com/",
+              "name": "Amazon to invest as much as $4 billion in AI startup Anthropic | TechCrunch",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://www.reuters.com/",
+              "name": "www.reuters.com",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://www.oecd-events.org/",
+              "name": "OECD Events",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://www.cs.jhu.edu/",
+              "name": "Johns Hopkins Department of Computer Science",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://www.deccanchronicle.com/",
+              "name": "Deccan Chronicle - News Headlines | Today Headlines | Hyderabad News | English News | Top Stories | Breaking news",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://www.founderoo.co/",
+              "name": "Founderoo",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://itif.org/",
+              "name": "Information Technology and Innovation Foundation - The leading think tank for science and technology policy.",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://www.techmeme.com/",
+              "name": "Top News",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://www.geekwire.com/",
+              "name": "www.geekwire.com",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://en.wikipedia.org/",
+              "name": "https://en.wikipedia.org/wiki/Anthropic",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://hofcapital.com/",
+              "name": "Blog",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://www.bailliegifford.com/",
+              "name": "Anthropic: why we are backing the AI frontrunner",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://search.gleif.org/",
+              "name": "GLEIF",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://aiconference.com/",
+              "name": "Ben Mann",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://en.wikipedia.org/",
+              "name": "en.wikipedia.org",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://www.siliconrepublic.com/",
+              "name": "Amazon to invest up to $4bn in AI start-up Anthropic",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://www.3commacapital.com/",
+              "name": "Portfolio",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://leaderportfolio.com/",
+              "name": "Leader Portfolio",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://www.forbes.com/",
+              "name": "FTX Owned Anthropic, Solana And SpaceX, Then Had To Sell Too Soon",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://www.bloomberg.com/",
+              "name": "www.bloomberg.com",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://finance.yahoo.com/",
+              "name": "finance.yahoo.com",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://www.cnbc.com/",
+              "name": "www.cnbc.com",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://www.cnbc.com/",
+              "name": "https://www.cnbc.com/video/2024/04/23/watch-cnbcs-full-interview-with-anthropic-co-founder-and-ceo-dario-amodei.html",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://www.ayeshakhanna.com/",
+              "name": "https://www.ayeshakhanna.com/women-in-ai-feature/daniela-amodei",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://pitchbook.com/",
+              "name": "pitchbook.com",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://www.britannica.com/",
+              "name": "www.britannica.com",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://observer.com/",
+              "name": "Observer",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://theorg.com/",
+              "name": "The Org",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://hofcapital.substack.com/",
+              "name": "Why We Invested in Anthropic",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://www.insightpartners.com/",
+              "name": "Anthropic | Investment | Insight Partners",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://www.nytimes.com/",
+              "name": "www.nytimes.com",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://www.lennysnewsletter.com/",
+              "name": "Anthropic co-founder on quitting OpenAI, AGI predictions, $100M talent wars, 20% unemployment, and the nightmare scenarios keeping him up at night | Ben Mann",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://www.linkedin.com/",
+              "name": "Welp, the video didn’t post so here it is haha: Who’s Who in Venture Part 5: Insight Partners Quick facts: - $90b AUM - 55 IPOs - $12b in latest fund - Founded in 1995 - Big wins include Wix… | Jonny Boyarsky",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://analyticsindiamag.com/",
+              "name": "Analytics India Magazine",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://raisedly.com/",
+              "name": "raisedly.com",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://www.notion.so/",
+              "name": "https://www.notion.so/blog/first-block-with-daniela-amodei",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://jang.com.pk/",
+              "name": "Daily Jang: Urdu News - Latest Breaking News update Pakistan - jang.com.pk",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://www.companieshistory.com/",
+              "name": "Anthropic",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://cloudwars.com/",
+              "name": "cloudwars.com",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://techfundingnews.com/",
+              "name": "techfundingnews.com",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://www.news18.com/",
+              "name": "https://www.news18.com/business/economy/ai-will-enhance-not-replace-saas-and-it-firms-anthropic-founder-dario-amodei-ws-l-9927364.html",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://www.caproasia.com/",
+              "name": "United States $56 Billion Investment Manager Sands Capital Raised $1.1 Billion for Global Innovation Fund III to Invest in Mid-Stage to Late-Stage Category-Defining Technology Companies, Anchor Investors Include Canada Pension Plan Investment Board (CPP Investments) & Hamilton Lane, Global Innovation Strategy Launched in 2018 Invested Portfolio Companies Include DoorDash, Snowflake, Nubank, Databricks, Anduril, Ramp, Rippling, Anthropic & OpenAI | Caproasia",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://www.forbes.com/",
+              "name": "Forbes",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://www.bloomberg.com/",
+              "name": "bloomberg.com",
+              "date": "2026-07-14"
+            },
+            {
+              "url": "https://fundbat.com/",
+              "name": "Track the money.",
+              "date": "2026-07-14"
+            }
+          ]
+        },
+        {
+          "name": "Jared Kaplan",
+          "via": "cala",
+          "evidence": "Cala: FOUNDED",
+          "sources": [
+            {
+              "url": "https://bizntric.com/claude-founder",
+              "name": "bizntric.com",
+              "date": "2026-09-23"
+            },
+            {
+              "url": "https://www.britannica.com/question/Who-owns-Anthropic",
+              "name": "britannica.com",
+              "date": "2026-09-23"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://tracxn.com/d/companies/anthropic/__SzoxXDMin-NK5tKB7ks8yHr6S9Mz68pjVCzFEcGFZ08/funding-and-investors",
+          "name": "tracxn.com",
+          "date": "2026-07-28"
+        },
+        {
+          "url": "https://news.crunchbase.com/ai/generative-ai-elon-musk-xai-debt-equity",
+          "name": "news.crunchbase.com",
+          "date": "2026-07-28"
+        }
+      ],
+      "state": "enriched",
+      "description": "A U.S. artificial intelligence research and deployment company headquartered in San Francisco.",
+      "lastRoundDate": "2026-08-24",
+      "overview": {
+        "text": "Anthropic PBC is a U.S. artificial intelligence research and deployment company headquartered in San Francisco. Its recorded funding rounds occurred in May 2021, June 2023, September 2023, March 2024, July 2024, November 2024, March 2025, May 2025, August 2025, September 2025, January 2026, February 2026, March 2026, April 2026, and August 2026.",
+        "sources": [
+          {
+            "url": "https://tracxn.com/d/companies/anthropic/__SzoxXDMin-NK5tKB7ks8yHr6S9Mz68pjVCzFEcGFZ08/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-07-28"
+          },
+          {
+            "url": "https://news.crunchbase.com/ai/generative-ai-elon-musk-xai-debt-equity",
+            "name": "news.crunchbase.com",
+            "date": "2026-07-28"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/accordance/__urXdYRT4H10eLGsyikIixePkkGyV8Cww5aa3TvkmWw8",
+            "name": "tracxn.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/accordance/__urXdYRT4H10eLGsyikIixePkkGyV8Cww5aa3TvkmWw8/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/anthropic/__SzoxXDMin-NK5tKB7ks8yHr6S9Mz68pjVCzFEcGFZ08",
+            "name": "tracxn.com",
+            "date": "2026-07-28"
+          },
+          {
+            "url": "https://nordic9.com/news/juno-chat-joined-yc-spring-2026",
+            "name": "nordic9.com",
+            "date": "2026-07-29"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/1392729-85",
+            "name": "pitchbook.com",
+            "date": "2026-07-29"
+          },
+          {
+            "url": "https://www.linkedin.com/posts/claude-for-business_juno-x-claude-activity-7482842630725332992-NPhZ",
+            "name": "Juno AI Health Assistant for Chronic Illness Users | Claude for Business posted on the topic | LinkedIn",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://www.ycombinator.com/companies/juno-chat",
+            "name": "Juno: AI Health Assistant for Chronic Illness | Y Combinator",
+            "date": "2026-05-22"
+          },
+          {
+            "url": "https://www.forbes.com/sites/alisoncoleman/2026/03/04/how-these-three-ai-healthcare-companies-are-restoring-the-human-touch",
+            "name": "How These Three AI Healthcare Companies Are Restoring The Human Touch",
+            "date": "2026-03-04"
+          },
+          {
+            "url": "https://www.crunchbase.com/organization/zania-47a5",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/zania/__BPlXKvGDz8fhiWQd8aLS9a5s9QzAuv_xXJ08IodbfWo",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/zania/__BPlXKvGDz8fhiWQd8aLS9a5s9QzAuv_xXJ08IodbfWo/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/588842-11",
+            "name": "pitchbook.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.crunchbase.com/organization/zania-47a5/company_financials",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://techcrunch.com/2025/12/15/openai-backed-biotech-firm-chai-discovery-raises-130m-series-b-at-1-3b-valuation",
+            "name": "OpenAI-backed biotech firm Chai Discovery raises $130M Series B at $1.3B valuation | TechCrunch",
+            "date": "2025-12-15"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/chaidiscovery/__SQnTcJg7yoi61wRbyISv9Gb_IdU5lVzCVV2NeQNBIlY/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://techcrunch.com/2024/11/22/anthropic-raises-an-additional-4b-from-amazon-makes-aws-its-primary-cloud-partner",
+            "name": "Anthropic raises another $4B from Amazon, makes AWS its 'primary' training partner | TechCrunch",
+            "date": "2024-11-22"
+          }
+        ]
+      }
+    },
+    {
+      "calaId": "700c1832-9836-403d-8eaf-0f0f4317a1bf",
+      "name": "Anthropic, PBC",
+      "rounds": [],
+      "signals": [
+        {
+          "kind": "status",
+          "text": "Cala status: ACTIVE",
+          "sources": [
+            {
+              "url": "https://anthropic.com/",
+              "name": "anthropic.com",
+              "date": "2026-11-03"
+            },
+            {
+              "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm",
+              "name": "sec.gov",
+              "date": "2026-11-02"
+            }
+          ]
+        }
+      ],
+      "founders": [],
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/news/anthropic-raises-series-e-at-usd61-5b-post-money-valuation",
+          "name": "anthropic.com",
+          "date": "2025-03-03"
+        }
+      ],
+      "state": "enriched",
+      "description": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "overview": {
+        "text": "Anthropic, PBC is an AI safety and research company that works to build reliable, interpretable, and steerable AI systems.",
+        "sources": [
+          {
+            "url": "https://www.anthropic.com/news/anthropic-raises-series-e-at-usd61-5b-post-money-valuation",
+            "name": "anthropic.com",
+            "date": "2025-03-03"
+          },
+          {
+            "url": "https://anthropic.com/",
+            "name": "anthropic.com",
+            "date": "2026-11-03"
+          },
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm",
+            "name": "sec.gov",
+            "date": "2026-11-02"
+          }
+        ]
+      }
+    },
+    {
+      "calaId": "809cbc45-32fe-4f99-9b50-70e848021feb",
+      "name": "Etched",
+      "rounds": [
+        {
+          "calaId": "288bd06e-d4bf-499b-bacd-027e0ca6e4b8",
+          "label": "Funding round",
+          "date": "2026-08-18",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month",
+              "name": "Etched's valuation doubles to $21B in a month | TechCrunch",
+              "date": "2026-08-18"
+            }
+          ]
+        },
+        {
+          "calaId": "ee8ffb87-6e25-47b5-8f8b-f70128b81bc4",
+          "label": "Funding round",
+          "date": "2026-07-23",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors",
+              "name": "AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors | TechCrunch",
+              "date": "2026-07-23"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/etched/__3zzKZ_EwjDWuqLGBBb226w8HaMHjYTk-PidyUh8oh6E",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        },
+        {
+          "calaId": "668c0c9e-f2f9-46d9-839e-d4d5bf5fe6a4",
+          "label": "Funding round",
+          "date": "2025-12-01",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip",
+              "name": "Nvidia competitor Etched hits $5B valuation, $1B in sales for AI chip | TechCrunch",
+              "date": "2026-06-30"
+            },
+            {
+              "url": "https://techcrunch.com/2026/02/24/nvidia-challenger-ai-chip-startup-matx-raised-500m",
+              "name": "Nvidia challenger AI chip startup MatX raised $500M | TechCrunch",
+              "date": "2026-02-24"
+            }
+          ]
+        },
+        {
+          "calaId": "3f3e7221-5746-42a9-8a31-149a889696cb",
+          "label": "Funding round",
+          "date": "2024-06-25",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2024/06/25/etched-is-building-an-ai-chip-that-only-runs-transformer-models",
+              "name": "Etched is building an AI chip that only runs one type of model | TechCrunch",
+              "date": "2024-06-25"
+            },
+            {
+              "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-biotech-sila-formation-bio",
+              "name": "news.crunchbase.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://techcrunch.com/2026/07/02/thiel-capitals-jack-selby-nabs-stakes-in-hot-startups-like-etched-through-arizona-connections",
+              "name": "Thiel Capital’s Jack Selby nabs stakes in hot startups like Etched through Arizona connections | TechCrunch",
+              "date": "2026-07-02"
+            }
+          ]
+        },
+        {
+          "calaId": "bdb80118-ffdd-45a3-84f0-5f81d0c21aec",
+          "label": "Funding round",
+          "date": "2023-03-01",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/etched/__3zzKZ_EwjDWuqLGBBb226w8HaMHjYTk-PidyUh8oh6E",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://techcrunch.com/podcast/etched-founder-gavin-uberti-thinks-his-company-stands-on-the-shoulders-of-giants",
+              "name": "Etched founder Gavin Uberti thinks his company stands on the 'shoulders of giants'",
+              "date": "2024-08-20"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-08",
+          "date": "2026-08-18",
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month",
+              "name": "Etched's valuation doubles to $21B in a month | TechCrunch",
+              "date": "2026-08-18"
+            }
+          ]
+        }
+      ],
+      "founders": [
+        {
+          "name": "Chris Zhu",
+          "linkedinUrl": "https://linkedin.com/in/czhu1729",
+          "via": "exa+gemini",
+          "evidence": "Co-Founder, Etched",
+          "sources": [
+            {
+              "url": "https://linkedin.com/in/czhu1729",
+              "name": "linkedin.com"
+            }
+          ]
+        },
+        {
+          "name": "Robert W.",
+          "linkedinUrl": "https://linkedin.com/in/robertwachen",
+          "via": "exa+gemini",
+          "evidence": "Co-Founder and President, Etched",
+          "sources": [
+            {
+              "url": "https://linkedin.com/in/robertwachen",
+              "name": "linkedin.com"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month",
+          "name": "TechCrunch | Startup and Technology News",
+          "date": "2026-08-20"
+        },
+        {
+          "url": "https://www.reuters.com/technology/ai-chip-startup-etched-valued-21-billion-latest-funding-round-2026-08-18",
+          "name": "reuters.com",
+          "date": "2026-08-20"
+        }
+      ],
+      "state": "enriched",
+      "description": "A US semiconductor startup founded in 2020 that designs transformer‑specific ASICs, headquartered in San Jose, California.",
+      "lastRoundDate": "2026-08-18",
+      "overview": {
+        "text": "Etched is a US semiconductor startup founded in 2020 and headquartered in San Jose, California, that designs transformer-specific ASICs. The company completed funding rounds in March 2023, June 2024, December 2025, July 2026, and August 2026.",
+        "sources": [
+          {
+            "url": "https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month",
+            "name": "TechCrunch | Startup and Technology News",
+            "date": "2026-08-20"
+          },
+          {
+            "url": "https://www.reuters.com/technology/ai-chip-startup-etched-valued-21-billion-latest-funding-round-2026-08-18",
+            "name": "reuters.com",
+            "date": "2026-08-20"
+          },
+          {
+            "url": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors",
+            "name": "AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors | TechCrunch",
+            "date": "2026-07-23"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/etched/__3zzKZ_EwjDWuqLGBBb226w8HaMHjYTk-PidyUh8oh6E",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip",
+            "name": "Nvidia competitor Etched hits $5B valuation, $1B in sales for AI chip | TechCrunch",
+            "date": "2026-06-30"
+          },
+          {
+            "url": "https://techcrunch.com/2026/02/24/nvidia-challenger-ai-chip-startup-matx-raised-500m",
+            "name": "Nvidia challenger AI chip startup MatX raised $500M | TechCrunch",
+            "date": "2026-02-24"
+          },
+          {
+            "url": "https://techcrunch.com/2024/06/25/etched-is-building-an-ai-chip-that-only-runs-transformer-models",
+            "name": "Etched is building an AI chip that only runs one type of model | TechCrunch",
+            "date": "2024-06-25"
+          },
+          {
+            "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-biotech-sila-formation-bio",
+            "name": "news.crunchbase.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://techcrunch.com/2026/07/02/thiel-capitals-jack-selby-nabs-stakes-in-hot-startups-like-etched-through-arizona-connections",
+            "name": "Thiel Capital’s Jack Selby nabs stakes in hot startups like Etched through Arizona connections | TechCrunch",
+            "date": "2026-07-02"
+          },
+          {
+            "url": "https://techcrunch.com/podcast/etched-founder-gavin-uberti-thinks-his-company-stands-on-the-shoulders-of-giants",
+            "name": "Etched founder Gavin Uberti thinks his company stands on the 'shoulders of giants'",
+            "date": "2024-08-20"
+          }
+        ]
+      }
+    },
+    {
+      "calaId": "952531cd-f0fd-40a9-8a5e-8ff587544a1c",
+      "name": "CoreWeave",
+      "rounds": [
+        {
+          "calaId": "3b1b5c11-5bcf-48db-aacc-2bd5c90f3c6e",
+          "label": "Funding round",
+          "date": "2025-03-20",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://www.crunchbase.com/organization/moonvalley-c1d1",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://www.crunchbase.com/organization/moon-valley-software",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/moon-valley/__ykGg_iNNY1gLm1nGe-rdZDGOCrV8zIl0ohu4ZnccHFQ",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://techcrunch.com/2025/04/07/ai-video-startup-moonvalley-raised-a-fresh-43m-sec-filing-shows",
+              "name": "AI video startup Moonvalley raised a fresh $43M, SEC filing shows | TechCrunch",
+              "date": "2025-04-07"
+            },
+            {
+              "url": "https://techcrunch.com/2025/05/16/ai-video-startup-moonvalley-lands-53m-according-to-filing",
+              "name": "AI video startup Moonvalley lands $53M, according to filing | TechCrunch",
+              "date": "2025-05-16"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2025-03",
+          "date": "2025-03-20",
+          "sources": [
+            {
+              "url": "https://www.crunchbase.com/organization/moonvalley-c1d1",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://www.crunchbase.com/organization/moon-valley-software",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/moon-valley/__ykGg_iNNY1gLm1nGe-rdZDGOCrV8zIl0ohu4ZnccHFQ",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://techcrunch.com/2025/04/07/ai-video-startup-moonvalley-raised-a-fresh-43m-sec-filing-shows",
+              "name": "AI video startup Moonvalley raised a fresh $43M, SEC filing shows | TechCrunch",
+              "date": "2025-04-07"
+            },
+            {
+              "url": "https://techcrunch.com/2025/05/16/ai-video-startup-moonvalley-lands-53m-according-to-filing",
+              "name": "AI video startup Moonvalley lands $53M, according to filing | TechCrunch",
+              "date": "2025-05-16"
+            }
+          ]
+        }
+      ],
+      "founders": [
+        {
+          "name": "Brian Venturo",
+          "via": "cala",
+          "evidence": "Cala: FOUNDED",
+          "sources": [
+            {
+              "url": "https://ycharts.com/companies/CRWV/tech_chart",
+              "name": "YCharts - Financial Research and Proposal Platform",
+              "date": "2026-05-11"
+            }
+          ]
+        },
+        {
+          "name": "Brannin McBee",
+          "via": "cala",
+          "evidence": "Cala: FOUNDED",
+          "sources": [
+            {
+              "url": "https://ycharts.com/companies/CRWV/tech_chart",
+              "name": "YCharts - Financial Research and Proposal Platform",
+              "date": "2026-05-11"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.coreweave.com/news/jane-street-signs-6-billion-ai-cloud-agreement-with-coreweave",
+          "name": "Jane Street Signs $6 Billion AI Cloud Agreement with CoreWeave",
+          "date": "2026-04-15"
+        }
+      ],
+      "state": "enriched",
+      "description": "a cloud computing and GPU services company headquartered in Livingston, New Jersey, founded in 2017",
+      "lastRoundDate": "2025-03-20",
+      "overview": {
+        "text": "CoreWeave is a cloud computing and GPU services company headquartered in Livingston, New Jersey, that was founded in 2017. Its last recorded funding round occurred in March 2025.",
+        "sources": [
+          {
+            "url": "https://www.coreweave.com/news/jane-street-signs-6-billion-ai-cloud-agreement-with-coreweave",
+            "name": "Jane Street Signs $6 Billion AI Cloud Agreement with CoreWeave",
+            "date": "2026-04-15"
+          },
+          {
+            "url": "https://www.crunchbase.com/organization/moonvalley-c1d1",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://www.crunchbase.com/organization/moon-valley-software",
+            "name": "www.crunchbase.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/moon-valley/__ykGg_iNNY1gLm1nGe-rdZDGOCrV8zIl0ohu4ZnccHFQ",
+            "name": "tracxn.com",
+            "date": "2026-08-24"
+          },
+          {
+            "url": "https://techcrunch.com/2025/04/07/ai-video-startup-moonvalley-raised-a-fresh-43m-sec-filing-shows",
+            "name": "AI video startup Moonvalley raised a fresh $43M, SEC filing shows | TechCrunch",
+            "date": "2025-04-07"
+          },
+          {
+            "url": "https://techcrunch.com/2025/05/16/ai-video-startup-moonvalley-lands-53m-according-to-filing",
+            "name": "AI video startup Moonvalley lands $53M, according to filing | TechCrunch",
+            "date": "2025-05-16"
+          }
+        ]
+      }
+    },
+    {
+      "calaId": "96b94bdd-e1de-48b8-b407-ffde72b98b6b",
+      "name": "Nscale",
+      "rounds": [
+        {
+          "calaId": "793e652f-9d4b-40e1-802d-e9736fd18dd8",
+          "label": "Funding round",
+          "date": "2026-03-09",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-robotics-ecommerce-quince/",
+              "name": "news.crunchbase.com",
+              "date": "2026-05-11"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/nscale/___dhLHMquAR5qddFAKM-if-hDvPQ2O3L5XB7pi2cqmpc/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-05-11"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/taetechnologies/__rBhBqa3BmG4RbocqiL1AjryMJRgcUr0vZhk4KSi0kZU/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-05-11"
+            },
+            {
+              "url": "https://news.crunchbase.com/unicorn-company-list/",
+              "name": "news.crunchbase.com",
+              "date": "2026-05-11"
+            }
+          ]
+        },
+        {
+          "calaId": "bdc47d80-1ef6-4ab0-8631-cc770d61d49a",
+          "label": "Funding round",
+          "date": "2026-02-13",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/nscale/___dhLHMquAR5qddFAKM-if-hDvPQ2O3L5XB7pi2cqmpc/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-05-11"
+            }
+          ]
+        },
+        {
+          "calaId": "62310c14-7457-46e9-aac7-691629249f42",
+          "label": "Funding round",
+          "date": "2025-09-18",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/nscale/___dhLHMquAR5qddFAKM-if-hDvPQ2O3L5XB7pi2cqmpc/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-05-11"
+            }
+          ]
+        },
+        {
+          "calaId": "d94e569c-6910-4ca2-b25b-4dd05d32b375",
+          "label": "Funding round",
+          "date": "2024-12-09",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/nscale/___dhLHMquAR5qddFAKM-if-hDvPQ2O3L5XB7pi2cqmpc/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-05-11"
+            }
+          ]
+        },
+        {
+          "calaId": "74d3d71b-0d71-4ab1-8d3b-2723779d814e",
+          "label": "Funding round",
+          "date": "2023-12-01",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/nscale/___dhLHMquAR5qddFAKM-if-hDvPQ2O3L5XB7pi2cqmpc/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-05-11"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-03",
+          "date": "2026-03-09",
+          "sources": [
+            {
+              "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-robotics-ecommerce-quince/",
+              "name": "news.crunchbase.com",
+              "date": "2026-05-11"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/nscale/___dhLHMquAR5qddFAKM-if-hDvPQ2O3L5XB7pi2cqmpc/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-05-11"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/taetechnologies/__rBhBqa3BmG4RbocqiL1AjryMJRgcUr0vZhk4KSi0kZU/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-05-11"
+            },
+            {
+              "url": "https://news.crunchbase.com/unicorn-company-list/",
+              "name": "news.crunchbase.com",
+              "date": "2026-05-11"
+            }
+          ]
+        },
+        {
+          "kind": "status",
+          "text": "Cala status: ACTIVE",
+          "sources": [
+            {
+              "url": "https://www.nscale.com/press-releases/nscale-series-c",
+              "name": "nscale.com",
+              "date": "2026-03-09"
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Nscale",
+              "name": "en.wikipedia.org",
+              "date": "2026-09-01"
+            },
+            {
+              "url": "https://find-and-update.company-information.service.gov.uk/company/16925886",
+              "name": "find-and-update.company-information.service.gov.uk",
+              "date": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "founders": [
+        {
+          "name": "Donald Morrison",
+          "via": "cala",
+          "evidence": "Cala: FOUNDED",
+          "sources": [
+            {
+              "url": "https://www.crunchbase.com/organization/nscale",
+              "name": "www.crunchbase.com",
+              "date": "2026-07-30"
+            },
+            {
+              "url": "https://siliconvalleyinvestclub.com/2026/03/10/nscale-raises-2-billion-at-a-14-6-billion-valuation",
+              "name": "Nscale Raises $2 Billion at a $14.6 Billion Valuation | Silicon Valley Investclub",
+              "date": "2026-03-10"
+            },
+            {
+              "url": "https://pr.ai/threads/nscale-global-holdings-limited-superintelligence-london-england-united-kingdom.27659",
+              "name": "Checking your browser",
+              "date": "2026-07-30"
+            }
+          ]
+        },
+        {
+          "name": "Josh Payne",
+          "via": "cala",
+          "evidence": "Cala: FOUNDED",
+          "sources": [
+            {
+              "url": "https://www.nscale.com/blog/nscale-155m-series-a-words-from-the-ceo",
+              "name": "Nscale $155M Series A: Words from the CEO | Nscale",
+              "date": "2025-12-09"
+            },
+            {
+              "url": "https://www.crunchbase.com/organization/nscale",
+              "name": "www.crunchbase.com",
+              "date": "2026-07-30"
+            },
+            {
+              "url": "https://www.cnbc.com/2025/09/17/ai-startup-nscale-from-uk-is-blowing-away-nvidia-ceo-jensen-huang.html",
+              "name": "AI startup Nscale came out of nowhere and is blowing away Nvidia CEO Jensen Huang",
+              "date": "2025-09-17"
+            },
+            {
+              "url": "https://www.prnewswire.com/news-releases/nscale-raises-2-billion-in-series-c--the-largest-in-european-history-302707945.html",
+              "name": "Nscale Raises $2 Billion in Series C -- the Largest in European History",
+              "date": "2026-03-09"
+            },
+            {
+              "url": "https://app.dealroom.co/companies/nscale_1",
+              "name": "Nscale company information, funding & investors",
+              "date": "2024-06-01"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.nscale.com/press-releases/nscale-series-c",
+          "name": "nscale.com",
+          "date": "2026-03-09"
+        }
+      ],
+      "state": "enriched",
+      "description": "UK AI-infrastructure hyperscaler owning the stack from power and data centres (e.g. Narvik, Norway) to GPU clusters, networking and orchestration software; sells reserved private-cloud clusters and...",
+      "lastRoundDate": "2026-03-09",
+      "overview": {
+        "text": "Nscale is a UK AI-infrastructure hyperscaler that owns its stack from power and data centres, such as in Narvik, Norway, to GPU clusters, networking, and orchestration software, and sells reserved private-cloud clusters. It raised funding rounds in December 2023, December 2024, September 2025, February 2026, and March 2026.",
+        "sources": [
+          {
+            "url": "https://www.nscale.com/press-releases/nscale-series-c",
+            "name": "nscale.com",
+            "date": "2026-03-09"
+          },
+          {
+            "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-robotics-ecommerce-quince/",
+            "name": "news.crunchbase.com",
+            "date": "2026-05-11"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/nscale/___dhLHMquAR5qddFAKM-if-hDvPQ2O3L5XB7pi2cqmpc/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-05-11"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/taetechnologies/__rBhBqa3BmG4RbocqiL1AjryMJRgcUr0vZhk4KSi0kZU/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-05-11"
+          },
+          {
+            "url": "https://news.crunchbase.com/unicorn-company-list/",
+            "name": "news.crunchbase.com",
+            "date": "2026-05-11"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Nscale",
+            "name": "en.wikipedia.org",
+            "date": "2026-09-01"
+          },
+          {
+            "url": "https://find-and-update.company-information.service.gov.uk/company/16925886",
+            "name": "find-and-update.company-information.service.gov.uk",
+            "date": "2026-11-11"
+          }
+        ]
+      }
+    }
+  ],
+  "callList": [
+    {
+      "companyId": "96b94bdd-e1de-48b8-b407-ffde72b98b6b",
+      "companyName": "Nscale",
+      "founder": {
+        "name": "Donald Morrison",
+        "via": "cala",
+        "evidence": "Cala: FOUNDED",
+        "sources": [
+          {
+            "url": "https://www.crunchbase.com/organization/nscale",
+            "name": "www.crunchbase.com",
+            "date": "2026-07-30"
+          },
+          {
+            "url": "https://siliconvalleyinvestclub.com/2026/03/10/nscale-raises-2-billion-at-a-14-6-billion-valuation",
+            "name": "Nscale Raises $2 Billion at a $14.6 Billion Valuation | Silicon Valley Investclub",
+            "date": "2026-03-10"
+          },
+          {
+            "url": "https://pr.ai/threads/nscale-global-holdings-limited-superintelligence-london-england-united-kingdom.27659",
+            "name": "Checking your browser",
+            "date": "2026-07-30"
+          }
+        ]
+      },
+      "group": "recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-03",
+          "date": "2026-03-09",
+          "sources": [
+            {
+              "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-robotics-ecommerce-quince/",
+              "name": "news.crunchbase.com",
+              "date": "2026-05-11"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/nscale/___dhLHMquAR5qddFAKM-if-hDvPQ2O3L5XB7pi2cqmpc/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-05-11"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/taetechnologies/__rBhBqa3BmG4RbocqiL1AjryMJRgcUr0vZhk4KSi0kZU/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-05-11"
+            },
+            {
+              "url": "https://news.crunchbase.com/unicorn-company-list/",
+              "name": "news.crunchbase.com",
+              "date": "2026-05-11"
+            }
+          ]
+        },
+        {
+          "kind": "status",
+          "text": "Cala status: ACTIVE",
+          "sources": [
+            {
+              "url": "https://www.nscale.com/press-releases/nscale-series-c",
+              "name": "nscale.com",
+              "date": "2026-03-09"
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Nscale",
+              "name": "en.wikipedia.org",
+              "date": "2026-09-01"
+            },
+            {
+              "url": "https://find-and-update.company-information.service.gov.uk/company/16925886",
+              "name": "find-and-update.company-information.service.gov.uk",
+              "date": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "What happened from your perspective in your working relationship with Jane Street surrounding Nscale's 2026-03 round while the company has remained active?",
+        "Did Jane Street provide support to Nscale, and if so, what is a concrete example of how that support was provided?",
+        "Based on your experience, would you choose to take investment from Jane Street again?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "96b94bdd-e1de-48b8-b407-ffde72b98b6b",
+      "companyName": "Nscale",
+      "founder": {
+        "name": "Josh Payne",
+        "via": "cala",
+        "evidence": "Cala: FOUNDED",
+        "sources": [
+          {
+            "url": "https://www.nscale.com/blog/nscale-155m-series-a-words-from-the-ceo",
+            "name": "Nscale $155M Series A: Words from the CEO | Nscale",
+            "date": "2025-12-09"
+          },
+          {
+            "url": "https://www.crunchbase.com/organization/nscale",
+            "name": "www.crunchbase.com",
+            "date": "2026-07-30"
+          },
+          {
+            "url": "https://www.cnbc.com/2025/09/17/ai-startup-nscale-from-uk-is-blowing-away-nvidia-ceo-jensen-huang.html",
+            "name": "AI startup Nscale came out of nowhere and is blowing away Nvidia CEO Jensen Huang",
+            "date": "2025-09-17"
+          },
+          {
+            "url": "https://www.prnewswire.com/news-releases/nscale-raises-2-billion-in-series-c--the-largest-in-european-history-302707945.html",
+            "name": "Nscale Raises $2 Billion in Series C -- the Largest in European History",
+            "date": "2026-03-09"
+          },
+          {
+            "url": "https://app.dealroom.co/companies/nscale_1",
+            "name": "Nscale company information, funding & investors",
+            "date": "2024-06-01"
+          }
+        ]
+      },
+      "group": "recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-03",
+          "date": "2026-03-09",
+          "sources": [
+            {
+              "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-robotics-ecommerce-quince/",
+              "name": "news.crunchbase.com",
+              "date": "2026-05-11"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/nscale/___dhLHMquAR5qddFAKM-if-hDvPQ2O3L5XB7pi2cqmpc/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-05-11"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/taetechnologies/__rBhBqa3BmG4RbocqiL1AjryMJRgcUr0vZhk4KSi0kZU/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-05-11"
+            },
+            {
+              "url": "https://news.crunchbase.com/unicorn-company-list/",
+              "name": "news.crunchbase.com",
+              "date": "2026-05-11"
+            }
+          ]
+        },
+        {
+          "kind": "status",
+          "text": "Cala status: ACTIVE",
+          "sources": [
+            {
+              "url": "https://www.nscale.com/press-releases/nscale-series-c",
+              "name": "nscale.com",
+              "date": "2026-03-09"
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Nscale",
+              "name": "en.wikipedia.org",
+              "date": "2026-09-01"
+            },
+            {
+              "url": "https://find-and-update.company-information.service.gov.uk/company/16925886",
+              "name": "find-and-update.company-information.service.gov.uk",
+              "date": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "What happened from your perspective in your working relationship with Jane Street surrounding Nscale's 2026-03 round while the company has remained active?",
+        "Did Jane Street provide support to Nscale, and if so, what is a concrete example of how that support was provided?",
+        "Based on your experience, would you choose to take investment from Jane Street again?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "952531cd-f0fd-40a9-8a5e-8ff587544a1c",
+      "companyName": "CoreWeave",
+      "founder": {
+        "name": "Brian Venturo",
+        "via": "cala",
+        "evidence": "Cala: FOUNDED",
+        "sources": [
+          {
+            "url": "https://ycharts.com/companies/CRWV/tech_chart",
+            "name": "YCharts - Financial Research and Proposal Platform",
+            "date": "2026-05-11"
+          }
+        ]
+      },
+      "group": "recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2025-03",
+          "date": "2025-03-20",
+          "sources": [
+            {
+              "url": "https://www.crunchbase.com/organization/moonvalley-c1d1",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://www.crunchbase.com/organization/moon-valley-software",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/moon-valley/__ykGg_iNNY1gLm1nGe-rdZDGOCrV8zIl0ohu4ZnccHFQ",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://techcrunch.com/2025/04/07/ai-video-startup-moonvalley-raised-a-fresh-43m-sec-filing-shows",
+              "name": "AI video startup Moonvalley raised a fresh $43M, SEC filing shows | TechCrunch",
+              "date": "2025-04-07"
+            },
+            {
+              "url": "https://techcrunch.com/2025/05/16/ai-video-startup-moonvalley-lands-53m-according-to-filing",
+              "name": "AI video startup Moonvalley lands $53M, according to filing | TechCrunch",
+              "date": "2025-05-16"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "From your perspective, what happened during and after Jane Street's involvement in CoreWeave's 2025-03 round?",
+        "Did Jane Street provide any investor support to CoreWeave, and if so, what is a concrete example of how they assisted your company?",
+        "Would you choose Jane Street as an investor again, and if so, how does that decision reflect your experience with them?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "952531cd-f0fd-40a9-8a5e-8ff587544a1c",
+      "companyName": "CoreWeave",
+      "founder": {
+        "name": "Brannin McBee",
+        "via": "cala",
+        "evidence": "Cala: FOUNDED",
+        "sources": [
+          {
+            "url": "https://ycharts.com/companies/CRWV/tech_chart",
+            "name": "YCharts - Financial Research and Proposal Platform",
+            "date": "2026-05-11"
+          }
+        ]
+      },
+      "group": "recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2025-03",
+          "date": "2025-03-20",
+          "sources": [
+            {
+              "url": "https://www.crunchbase.com/organization/moonvalley-c1d1",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://www.crunchbase.com/organization/moon-valley-software",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/moon-valley/__ykGg_iNNY1gLm1nGe-rdZDGOCrV8zIl0ohu4ZnccHFQ",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://techcrunch.com/2025/04/07/ai-video-startup-moonvalley-raised-a-fresh-43m-sec-filing-shows",
+              "name": "AI video startup Moonvalley raised a fresh $43M, SEC filing shows | TechCrunch",
+              "date": "2025-04-07"
+            },
+            {
+              "url": "https://techcrunch.com/2025/05/16/ai-video-startup-moonvalley-lands-53m-according-to-filing",
+              "name": "AI video startup Moonvalley lands $53M, according to filing | TechCrunch",
+              "date": "2025-05-16"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "From your perspective, what happened during and after Jane Street's involvement in CoreWeave's 2025-03 round?",
+        "Did Jane Street provide any investor support to CoreWeave, and if so, what is a concrete example of how they assisted your company?",
+        "Would you choose Jane Street as an investor again, and if so, how does that decision reflect your experience with them?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "5e1f6416-8017-4b7e-a0b6-d3c6a8c10a70",
+      "companyName": "Anthropic PBC",
+      "founder": {
+        "name": "Jack Clark",
+        "via": "cala",
+        "evidence": "Cala: FOUNDED",
+        "sources": [
+          {
+            "url": "https://techcrunch.com/",
+            "name": "Amazon to invest as much as $4 billion in AI startup Anthropic | TechCrunch",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://www.reuters.com/",
+            "name": "www.reuters.com",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://www.oecd-events.org/",
+            "name": "OECD Events",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://www.cs.jhu.edu/",
+            "name": "Johns Hopkins Department of Computer Science",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://www.deccanchronicle.com/",
+            "name": "Deccan Chronicle - News Headlines | Today Headlines | Hyderabad News | English News | Top Stories | Breaking news",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://www.founderoo.co/",
+            "name": "Founderoo",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://itif.org/",
+            "name": "Information Technology and Innovation Foundation - The leading think tank for science and technology policy.",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://www.techmeme.com/",
+            "name": "Top News",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://www.geekwire.com/",
+            "name": "www.geekwire.com",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://en.wikipedia.org/",
+            "name": "https://en.wikipedia.org/wiki/Anthropic",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://hofcapital.com/",
+            "name": "Blog",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://www.bailliegifford.com/",
+            "name": "Anthropic: why we are backing the AI frontrunner",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://search.gleif.org/",
+            "name": "GLEIF",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://aiconference.com/",
+            "name": "Ben Mann",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://en.wikipedia.org/",
+            "name": "en.wikipedia.org",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://www.siliconrepublic.com/",
+            "name": "Amazon to invest up to $4bn in AI start-up Anthropic",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://www.3commacapital.com/",
+            "name": "Portfolio",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://leaderportfolio.com/",
+            "name": "Leader Portfolio",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://www.forbes.com/",
+            "name": "FTX Owned Anthropic, Solana And SpaceX, Then Had To Sell Too Soon",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://www.bloomberg.com/",
+            "name": "www.bloomberg.com",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://finance.yahoo.com/",
+            "name": "finance.yahoo.com",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://www.cnbc.com/",
+            "name": "www.cnbc.com",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://www.cnbc.com/",
+            "name": "https://www.cnbc.com/video/2024/04/23/watch-cnbcs-full-interview-with-anthropic-co-founder-and-ceo-dario-amodei.html",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://www.ayeshakhanna.com/",
+            "name": "https://www.ayeshakhanna.com/women-in-ai-feature/daniela-amodei",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://pitchbook.com/",
+            "name": "pitchbook.com",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://www.britannica.com/",
+            "name": "www.britannica.com",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://observer.com/",
+            "name": "Observer",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://theorg.com/",
+            "name": "The Org",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://hofcapital.substack.com/",
+            "name": "Why We Invested in Anthropic",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://www.insightpartners.com/",
+            "name": "Anthropic | Investment | Insight Partners",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://www.nytimes.com/",
+            "name": "www.nytimes.com",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://www.lennysnewsletter.com/",
+            "name": "Anthropic co-founder on quitting OpenAI, AGI predictions, $100M talent wars, 20% unemployment, and the nightmare scenarios keeping him up at night | Ben Mann",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://www.linkedin.com/",
+            "name": "Welp, the video didn’t post so here it is haha: Who’s Who in Venture Part 5: Insight Partners Quick facts: - $90b AUM - 55 IPOs - $12b in latest fund - Founded in 1995 - Big wins include Wix… | Jonny Boyarsky",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://analyticsindiamag.com/",
+            "name": "Analytics India Magazine",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://raisedly.com/",
+            "name": "raisedly.com",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://www.notion.so/",
+            "name": "https://www.notion.so/blog/first-block-with-daniela-amodei",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://jang.com.pk/",
+            "name": "Daily Jang: Urdu News - Latest Breaking News update Pakistan - jang.com.pk",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://www.companieshistory.com/",
+            "name": "Anthropic",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://cloudwars.com/",
+            "name": "cloudwars.com",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://techfundingnews.com/",
+            "name": "techfundingnews.com",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://www.news18.com/",
+            "name": "https://www.news18.com/business/economy/ai-will-enhance-not-replace-saas-and-it-firms-anthropic-founder-dario-amodei-ws-l-9927364.html",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://www.caproasia.com/",
+            "name": "United States $56 Billion Investment Manager Sands Capital Raised $1.1 Billion for Global Innovation Fund III to Invest in Mid-Stage to Late-Stage Category-Defining Technology Companies, Anchor Investors Include Canada Pension Plan Investment Board (CPP Investments) & Hamilton Lane, Global Innovation Strategy Launched in 2018 Invested Portfolio Companies Include DoorDash, Snowflake, Nubank, Databricks, Anduril, Ramp, Rippling, Anthropic & OpenAI | Caproasia",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://www.forbes.com/",
+            "name": "Forbes",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://www.bloomberg.com/",
+            "name": "bloomberg.com",
+            "date": "2026-07-14"
+          },
+          {
+            "url": "https://fundbat.com/",
+            "name": "Track the money.",
+            "date": "2026-07-14"
+          }
+        ]
+      },
+      "group": "recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-08",
+          "date": "2026-08-24",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/accordance/__urXdYRT4H10eLGsyikIixePkkGyV8Cww5aa3TvkmWw8",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/accordance/__urXdYRT4H10eLGsyikIixePkkGyV8Cww5aa3TvkmWw8/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "What happened from your perspective regarding the working relationship with Jane Street following the 2026-08 round?",
+        "Did Jane Street provide support to Anthropic PBC beyond their financial investment, and if so, what is a concrete example of that support?",
+        "Would you choose Jane Street as an investor again?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "5e1f6416-8017-4b7e-a0b6-d3c6a8c10a70",
+      "companyName": "Anthropic PBC",
+      "founder": {
+        "name": "Jared Kaplan",
+        "via": "cala",
+        "evidence": "Cala: FOUNDED",
+        "sources": [
+          {
+            "url": "https://bizntric.com/claude-founder",
+            "name": "bizntric.com",
+            "date": "2026-09-23"
+          },
+          {
+            "url": "https://www.britannica.com/question/Who-owns-Anthropic",
+            "name": "britannica.com",
+            "date": "2026-09-23"
+          }
+        ]
+      },
+      "group": "recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-08",
+          "date": "2026-08-24",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/accordance/__urXdYRT4H10eLGsyikIixePkkGyV8Cww5aa3TvkmWw8",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/accordance/__urXdYRT4H10eLGsyikIixePkkGyV8Cww5aa3TvkmWw8/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "What happened from your perspective regarding the working relationship with Jane Street following the 2026-08 round?",
+        "Did Jane Street provide support to Anthropic PBC beyond their financial investment, and if so, what is a concrete example of that support?",
+        "Would you choose Jane Street as an investor again?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "289c0902-ba37-4317-b3fd-3580f41c7f23",
+      "companyName": "Thinking Machines Lab",
+      "founder": {
+        "name": "Lilian Weng",
+        "via": "cala",
+        "evidence": "Cala: FOUNDED",
+        "sources": [
+          {
+            "url": "https://builtin.com/articles/what-is-thinking-machines-lab",
+            "name": "Latest Tech Jobs Personalized For You.",
+            "date": "2026-01-21"
+          },
+          {
+            "url": "https://translate.google.com/translate?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FThinking_Machines_Lab&hl=es&sl=en&tl=es&client=srp",
+            "name": "Before you continue to Google",
+            "date": "2026-03-15"
+          },
+          {
+            "url": "https://www.bgr.com/tech/mira-murati-and-former-openai-execs-announce-thinking-machines-lab-to-take-on-chatgpt/",
+            "name": "BGR | Industry-Leading Insights In Tech And Entertainment",
+            "date": "2025-02-19"
+          }
+        ]
+      },
+      "group": "recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2025-06",
+          "date": "2025-06-23",
+          "sources": [
+            {
+              "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-thinking-machines-abridge/",
+              "name": "news.crunchbase.com",
+              "date": "2026-05-11"
+            },
+            {
+              "url": "https://news.crunchbase.com/venture/biggest-seed-round-ai-thinking-machines-mira-murati/",
+              "name": "news.crunchbase.com",
+              "date": "2026-05-11"
+            },
+            {
+              "url": "https://news.crunchbase.com/venture/largest-funding-rounds-genai-defense-eoy-2025/",
+              "name": "news.crunchbase.com",
+              "date": "2026-05-11"
+            },
+            {
+              "url": "https://news.crunchbase.com/venture/global-funding-climbs-q2-2025-ai-ma-data/",
+              "name": "news.crunchbase.com",
+              "date": "2026-05-11"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "What happened from your perspective regarding Thinking Machines Lab's relationship with Jane Street around the 2025-06 round?",
+        "Did Jane Street provide any investor support after the 2025-06 round, and if so, what is a concrete example of that support?",
+        "Would you choose Jane Street as an investor again?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "289c0902-ba37-4317-b3fd-3580f41c7f23",
+      "companyName": "Thinking Machines Lab",
+      "founder": {
+        "name": "Mira Murati",
+        "via": "cala",
+        "evidence": "Cala: FOUNDED",
+        "sources": [
+          {
+            "url": "https://ai-daily.news/articles/thinking-machines-lab-in-50-billion-funding-talks",
+            "name": "AI Daily - Latest AI News, Research & Technology Updates",
+            "date": "2026-05-07"
+          }
+        ]
+      },
+      "group": "recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2025-06",
+          "date": "2025-06-23",
+          "sources": [
+            {
+              "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-thinking-machines-abridge/",
+              "name": "news.crunchbase.com",
+              "date": "2026-05-11"
+            },
+            {
+              "url": "https://news.crunchbase.com/venture/biggest-seed-round-ai-thinking-machines-mira-murati/",
+              "name": "news.crunchbase.com",
+              "date": "2026-05-11"
+            },
+            {
+              "url": "https://news.crunchbase.com/venture/largest-funding-rounds-genai-defense-eoy-2025/",
+              "name": "news.crunchbase.com",
+              "date": "2026-05-11"
+            },
+            {
+              "url": "https://news.crunchbase.com/venture/global-funding-climbs-q2-2025-ai-ma-data/",
+              "name": "news.crunchbase.com",
+              "date": "2026-05-11"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "What happened from your perspective regarding Thinking Machines Lab's relationship with Jane Street around the 2025-06 round?",
+        "Did Jane Street provide any investor support after the 2025-06 round, and if so, what is a concrete example of that support?",
+        "Would you choose Jane Street as an investor again?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "809cbc45-32fe-4f99-9b50-70e848021feb",
+      "companyName": "Etched",
+      "founder": {
+        "name": "Chris Zhu",
+        "linkedinUrl": "https://linkedin.com/in/czhu1729",
+        "via": "exa+gemini",
+        "evidence": "Co-Founder, Etched",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/czhu1729",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-08",
+          "date": "2026-08-18",
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month",
+              "name": "Etched's valuation doubles to $21B in a month | TechCrunch",
+              "date": "2026-08-18"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "What has happened from your perspective in your work with Jane Street since the 2026-08 round for Etched?",
+        "Did Jane Street provide support to Etched after the 2026-08 round, and if so, what is a concrete example of that support?",
+        "Would you choose Jane Street as an investor again?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "809cbc45-32fe-4f99-9b50-70e848021feb",
+      "companyName": "Etched",
+      "founder": {
+        "name": "Robert W.",
+        "linkedinUrl": "https://linkedin.com/in/robertwachen",
+        "via": "exa+gemini",
+        "evidence": "Co-Founder and President, Etched",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/robertwachen",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-08",
+          "date": "2026-08-18",
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month",
+              "name": "Etched's valuation doubles to $21B in a month | TechCrunch",
+              "date": "2026-08-18"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "What has happened from your perspective in your work with Jane Street since the 2026-08 round for Etched?",
+        "Did Jane Street provide support to Etched after the 2026-08 round, and if so, what is a concrete example of that support?",
+        "Would you choose Jane Street as an investor again?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "058d6bd9-dfb8-4e26-8e69-5544a08350c6",
+      "companyName": "Kraken",
+      "founder": {
+        "name": "Jesse Powell",
+        "linkedinUrl": "https://linkedin.com/in/jessepowell",
+        "via": "exa+gemini",
+        "evidence": "Co-Founder, Chairman of the Board, Kraken",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/jessepowell",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-01",
+          "date": "2026-01-20",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/kraken/__K8eQ_bnwtoEzrre_iQrRk_2-6sBivxjdpOCeXGVrx1w/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "From your perspective, what happened during and after the 2026-01 financing round with Jane Street?",
+        "Did Jane Street provide support to Kraken, and if so, could you share a concrete example of how they provided that support?",
+        "Would you choose to accept investment from Jane Street again?"
+      ],
+      "writing": []
+    }
+  ]
+}

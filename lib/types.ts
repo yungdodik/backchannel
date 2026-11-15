@@ -92,6 +92,8 @@ export interface CallListEntry {
 }
 
 export interface Report {
+  /** Cala returned the maximum number of portfolio links; more may exist. */
+  portfolioTruncated?: boolean;
   fund: FundMatch;
   generatedAt: string; // ISO
   complete: boolean;

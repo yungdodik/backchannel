@@ -262,6 +262,18 @@ describe("createPipeline on Icebreaker fixtures", () => {
     expect(report.callList.filter((e) => e.companyName === "Vespia OÜ")).toHaveLength(2);
   });
 
+  it("keeps a 200-link portfolio partial after excluding an invalid aggregate", async () => {
+    const fund = empty();
+    fund.relationships.outgoing.INVESTED_IN = Array.from({ length: 200 }, (_, i) => ({
+      id: i === 0 ? "439fe7e2-930f-4a07-bc23-7df212cfc3a7" : `company-${i}`,
+      name: `Company ${i}`, entity_type: "Company", properties: {},
+    }));
+    const report = doneReport(await collect(createPipeline(deps({ cala: fakeCala({ [FUND]: fund }) })).run(FUND)));
+    expect(report.portfolio).toHaveLength(199);
+    expect(report.portfolioTruncated).toBe(true);
+    expect(report.complete).toBe(false);
+  });
+
   it("a capped run says how many companies it will check, and reports itself partial", async () => {
     const events = await collect(createPipeline(deps({ maxCompanies: 5 })).run(FUND));
     assertProtocol(events);
@@ -317,6 +329,24 @@ describe("createPipeline on Icebreaker fixtures", () => {
     expect(questions).not.toContain(presumed);
     expect(questions).toContain(conditional);
     expect(questions).toHaveLength(3);
+  });
+
+  it("rejects questions that presume participation in a recorded round", () => {
+    const presumed = "What happened during the investment round involving Fund?";
+    const conditional = "Did Fund participate in that round, and if so what did they contribute?";
+    const questions = checkQuestions([presumed, conditional], [], "Fund");
+    expect(questions).not.toContain(presumed);
+    expect(questions).toContain(conditional);
+  });
+
+  it("allows digits in the investor name without allowing invented amounts", () => {
+    const valid = "Would you choose a16z again?";
+    const invented = "Did a16z invest 16 million?";
+    const questions = checkQuestions([valid, invented], [], "a16z");
+    expect(questions).toContain(valid);
+    expect(questions).not.toContain(invented);
+    expect(checkQuestions(["What support did Workflow86 receive?"], [], "Fund", "Workflow86"))
+      .toContain("What support did Workflow86 receive?");
   });
 
 });

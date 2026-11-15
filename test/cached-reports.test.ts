@@ -9,8 +9,7 @@ import type { Founder, Signal } from "@/lib/types";
 const VERDICT = /\b(fail(ed|ure)?|dead|died)\b/i;
 
 describe("cachedReports", () => {
-  it("every cached report is valid, sourced and verdict-free", async () => {
-    for (const [id, load] of Object.entries(cachedReports)) {
+  it.each(Object.entries(cachedReports))("%s is valid, sourced and verdict-free", async (id, load) => {
       const r = (await load()).default;
       assertReport(r);
       expect(r.fund.calaId, id).toBe(id);
@@ -29,6 +28,5 @@ describe("cachedReports", () => {
       for (const s of signals) expect(s.text, id).not.toMatch(VERDICT);
       for (const s of signals) for (const x of s.sources) expect(NEWS_BLOCKLIST.has(x.url), `${id} ${x.url}`).toBe(false);
       for (const q of r.callList.flatMap((e) => e.questions)) expect(q, id).not.toMatch(VERDICT);
-    }
   });
 });

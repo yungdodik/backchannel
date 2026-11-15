@@ -1,0 +1,930 @@
+{
+  "fund": {
+    "calaId": "f9cca0dd-7e96-49c7-a57f-dd01751d657b",
+    "name": "CITADEL SECURITIES LLC",
+    "description": "A U.S. fintech and financial services company headquartered in Miami, founded in 2002."
+  },
+  "generatedAt": "2026-11-14T23:49:54.736Z",
+  "complete": true,
+  "portfolio": [
+    {
+      "calaId": "058d6bd9-dfb8-4e26-8e69-5544a08350c6",
+      "name": "Kraken",
+      "rounds": [
+        {
+          "calaId": "fececdb2-9352-4496-a879-9aef30f2d597",
+          "label": "Funding round",
+          "date": "2026-01-20",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/kraken/__K8eQ_bnwtoEzrre_iQrRk_2-6sBivxjdpOCeXGVrx1w/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        },
+        {
+          "calaId": "3e961338-3fde-4354-acf8-05441773c337",
+          "label": "Funding round",
+          "date": "2025-09-01",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/kraken/__K8eQ_bnwtoEzrre_iQrRk_2-6sBivxjdpOCeXGVrx1w/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        },
+        {
+          "calaId": "030a34ab-ab72-494f-b222-6e93ecc5dc49",
+          "label": "Funding round",
+          "date": "2025-01-15",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/1money/__yMTKvjqcn_NDCh88kqGEwas5JJQtbR9yaX12gWkKCl8/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/1money/__sL0UB_wB8nz7-apy6pFkWC8VvFu0-l8go-GUeSzB8L4/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.causeartist.com/blog/1money-launches-with-20m-in-funding-to-revolutionize-stablecoin-payments",
+              "name": "1Money Raises $20M for Stablecoin-Only Blockchain Protocol",
+              "date": "2025-01-18"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/734745-25",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.1money.com",
+              "name": "Stablecoin Payments Platform for Global Business | 1Money",
+              "date": "2026-01-01"
+            },
+            {
+              "url": "https://1moneynetwork.com",
+              "name": "The World's Stablecoin Payments Network",
+              "date": "2026-01-01"
+            }
+          ]
+        },
+        {
+          "calaId": "74414b63-82f4-4706-a0ce-2d846a78a5c3",
+          "label": "Funding round",
+          "date": "2021-03-01",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/kraken/__K8eQ_bnwtoEzrre_iQrRk_2-6sBivxjdpOCeXGVrx1w/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        },
+        {
+          "calaId": "ce05ca62-555b-47c1-8028-e687d78a1442",
+          "label": "Funding round",
+          "date": "2020-05-13",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/kraken/__K8eQ_bnwtoEzrre_iQrRk_2-6sBivxjdpOCeXGVrx1w/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        },
+        {
+          "calaId": "c43ff92a-b42f-499e-a95e-ef4651c1c022",
+          "label": "Funding round",
+          "date": "2019-06-25",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/kraken/__K8eQ_bnwtoEzrre_iQrRk_2-6sBivxjdpOCeXGVrx1w/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        },
+        {
+          "calaId": "b41d2fc3-6cf1-49c7-bc9a-7e0db25cbdd8",
+          "label": "Funding round",
+          "date": "2016-02-01",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/kraken/__K8eQ_bnwtoEzrre_iQrRk_2-6sBivxjdpOCeXGVrx1w/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        },
+        {
+          "calaId": "81cf4c21-0c21-4188-b359-a520352259a6",
+          "label": "Funding round",
+          "date": "2014-03-25",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2014/03/25/payward-raises-5m-from-hummingbird-to-fund-kraken-bitcoin-exchange",
+              "name": "Payward Raises $5M From Hummingbird To Fund Kraken Bitcoin Exchange | TechCrunch",
+              "date": "2014-03-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/kraken/__K8eQ_bnwtoEzrre_iQrRk_2-6sBivxjdpOCeXGVrx1w/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-01",
+          "date": "2026-01-20",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/kraken/__K8eQ_bnwtoEzrre_iQrRk_2-6sBivxjdpOCeXGVrx1w/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "founders": [
+        {
+          "name": "Jesse Powell",
+          "linkedinUrl": "https://linkedin.com/in/jessepowell",
+          "via": "exa+gemini",
+          "evidence": "Co-Founder, Chairman of the Board, Kraken",
+          "sources": [
+            {
+              "url": "https://linkedin.com/in/jessepowell",
+              "name": "linkedin.com"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://tracxn.com/d/companies/kraken/__K8eQ_bnwtoEzrre_iQrRk_2-6sBivxjdpOCeXGVrx1w/funding-and-investors",
+          "name": "tracxn.com",
+          "date": "2026-08-25"
+        }
+      ],
+      "state": "enriched",
+      "description": "A United States‑based cryptocurrency exchange operating without a traditional banking charter.",
+      "lastRoundDate": "2026-01-20",
+      "overview": {
+        "text": "Kraken is a United States-based cryptocurrency exchange operating without a traditional banking charter. It held funding rounds in March 2014, February 2016, June 2019, May 2020, March 2021, January 2025, September 2025, and January 2026.",
+        "sources": [
+          {
+            "url": "https://tracxn.com/d/companies/kraken/__K8eQ_bnwtoEzrre_iQrRk_2-6sBivxjdpOCeXGVrx1w/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/1money/__yMTKvjqcn_NDCh88kqGEwas5JJQtbR9yaX12gWkKCl8/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/1money/__sL0UB_wB8nz7-apy6pFkWC8VvFu0-l8go-GUeSzB8L4/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.causeartist.com/blog/1money-launches-with-20m-in-funding-to-revolutionize-stablecoin-payments",
+            "name": "1Money Raises $20M for Stablecoin-Only Blockchain Protocol",
+            "date": "2025-01-18"
+          },
+          {
+            "url": "https://pitchbook.com/profiles/company/734745-25",
+            "name": "pitchbook.com",
+            "date": "2026-08-25"
+          },
+          {
+            "url": "https://www.1money.com",
+            "name": "Stablecoin Payments Platform for Global Business | 1Money",
+            "date": "2026-01-01"
+          },
+          {
+            "url": "https://1moneynetwork.com",
+            "name": "The World's Stablecoin Payments Network",
+            "date": "2026-01-01"
+          },
+          {
+            "url": "https://techcrunch.com/2014/03/25/payward-raises-5m-from-hummingbird-to-fund-kraken-bitcoin-exchange",
+            "name": "Payward Raises $5M From Hummingbird To Fund Kraken Bitcoin Exchange | TechCrunch",
+            "date": "2014-03-25"
+          }
+        ]
+      }
+    },
+    {
+      "calaId": "0e60ca64-1c8b-435b-b561-bd3b9ddbcda2",
+      "name": "LayerZero Labs",
+      "rounds": [
+        {
+          "calaId": "86c7624d-332a-44d0-8dc6-c9daaa6b0775",
+          "label": "Funding round",
+          "date": "2026-02-11",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/layerzerolabscanadainc/__QOKjCgxZsFD6yf0lTjsufYIjkdLo3wVpOCQKKfgGYNk",
+              "name": "tracxn.com",
+              "date": "2026-06-10"
+            }
+          ]
+        },
+        {
+          "calaId": "c93e5bfb-388a-4210-92f9-d58b6e5cfe8c",
+          "label": "Funding round",
+          "date": "2025-04-17",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/layerzerolabscanadainc/__QOKjCgxZsFD6yf0lTjsufYIjkdLo3wVpOCQKKfgGYNk",
+              "name": "tracxn.com",
+              "date": "2026-06-10"
+            }
+          ]
+        },
+        {
+          "calaId": "f2aa51ba-5053-4da4-b474-eb2601c523a9",
+          "label": "Funding round",
+          "date": "2023-04-04",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2023/04/04/blockchain-messaging-protocol-layerzero-raises-120m-hitting-3b-valuation",
+              "name": "Blockchain messaging protocol LayerZero raises $120M, hitting $3B valuation | TechCrunch",
+              "date": "2023-04-04"
+            },
+            {
+              "url": "https://news.crunchbase.com/web3/blockchain-venture-funding-valuation-layerzero-a16z",
+              "name": "news.crunchbase.com",
+              "date": "2026-06-10"
+            },
+            {
+              "url": "https://techcrunch.com/2023/07/05/crypto-funding-drops-fifth-straight-quarter",
+              "name": "Crypto funding drops for fifth straight quarter as investors continue to pull back | TechCrunch",
+              "date": "2023-07-05"
+            }
+          ]
+        },
+        {
+          "calaId": "4b195f1b-413e-44a2-9d76-6372959f0983",
+          "label": "Funding round",
+          "date": "2022-03-01",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://news.crunchbase.com/web3/blockchain-venture-funding-valuation-layerzero-a16z",
+              "name": "news.crunchbase.com",
+              "date": "2026-06-10"
+            },
+            {
+              "url": "https://news.crunchbase.com/business/unicorn-board-new-companies-march-2022",
+              "name": "news.crunchbase.com",
+              "date": "2026-06-10"
+            },
+            {
+              "url": "https://techcrunch.com/2023/04/04/blockchain-messaging-protocol-layerzero-raises-120m-hitting-3b-valuation",
+              "name": "Blockchain messaging protocol LayerZero raises $120M, hitting $3B valuation | TechCrunch",
+              "date": "2023-04-04"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-02",
+          "date": "2026-02-11",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/layerzerolabscanadainc/__QOKjCgxZsFD6yf0lTjsufYIjkdLo3wVpOCQKKfgGYNk",
+              "name": "tracxn.com",
+              "date": "2026-06-10"
+            }
+          ]
+        }
+      ],
+      "founders": [
+        {
+          "name": "Ryan Zarick",
+          "via": "cala",
+          "evidence": "Cala: FOUNDED",
+          "sources": [
+            {
+              "url": "https://sequoiacap.com/article/bryan-pellegrino-spotlight-layerzero",
+              "name": "LayerZero's Bryan Pellegrino: From Poker to Protocols",
+              "date": "2022-06-28"
+            },
+            {
+              "url": "https://www.businesswire.com/news/home/20220330005301/en/LayerZero-Labs-Raises-%24135-Million-to-Create-Omnichain-Crypto-Networks",
+              "name": "www.businesswire.com",
+              "date": "2026-07-29"
+            },
+            {
+              "url": "https://businessmodelcanvastemplate.com/blogs/brief-history/layerzero-labs-brief-history",
+              "name": "businessmodelcanvastemplate.com",
+              "date": "2026-07-29"
+            },
+            {
+              "url": "https://ca.linkedin.com/in/ryanzarick",
+              "name": "ca.linkedin.com",
+              "date": "2026-07-29"
+            }
+          ]
+        },
+        {
+          "name": "Caleb Banister",
+          "via": "cala",
+          "evidence": "Cala: FOUNDED",
+          "sources": [
+            {
+              "url": "https://sequoiacap.com/article/bryan-pellegrino-spotlight-layerzero",
+              "name": "LayerZero's Bryan Pellegrino: From Poker to Protocols",
+              "date": "2022-06-28"
+            },
+            {
+              "url": "https://www.businesswire.com/news/home/20220330005301/en/LayerZero-Labs-Raises-%24135-Million-to-Create-Omnichain-Crypto-Networks",
+              "name": "www.businesswire.com",
+              "date": "2026-07-29"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/layerzero-labs-canada-inc/__QOKjCgxZsFD6yf0lTjsufYIjkdLo3wVpOCQKKfgGYNk",
+              "name": "tracxn.com",
+              "date": "2026-07-29"
+            },
+            {
+              "url": "https://businessmodelcanvastemplate.com/blogs/brief-history/layerzero-labs-brief-history",
+              "name": "businessmodelcanvastemplate.com",
+              "date": "2026-07-29"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://fortune.com/2026/02/10/layerzero-blockchain-ark-citadel-cathie-wood-nyse-dtcc-ice-tokenization-crypto",
+          "name": "Citadel Securities and Cathie Wood back Zero, a new blockchain designed for traditional finance | Fortune",
+          "date": "2026-02-10"
+        }
+      ],
+      "state": "enriched",
+      "description": "A Vancouver-based software and fintech company founded in 2021 that develops an omnichain interoperability protocol.",
+      "lastRoundDate": "2026-02-11",
+      "overview": {
+        "text": "LayerZero Labs is a Vancouver-based software and fintech company founded in 2021 that develops an omnichain interoperability protocol. The company held funding rounds in March 2022, April 2023, April 2025, and February 2026.",
+        "sources": [
+          {
+            "url": "https://fortune.com/2026/02/10/layerzero-blockchain-ark-citadel-cathie-wood-nyse-dtcc-ice-tokenization-crypto",
+            "name": "Citadel Securities and Cathie Wood back Zero, a new blockchain designed for traditional finance | Fortune",
+            "date": "2026-02-10"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/layerzerolabscanadainc/__QOKjCgxZsFD6yf0lTjsufYIjkdLo3wVpOCQKKfgGYNk",
+            "name": "tracxn.com",
+            "date": "2026-06-10"
+          },
+          {
+            "url": "https://techcrunch.com/2023/04/04/blockchain-messaging-protocol-layerzero-raises-120m-hitting-3b-valuation",
+            "name": "Blockchain messaging protocol LayerZero raises $120M, hitting $3B valuation | TechCrunch",
+            "date": "2023-04-04"
+          },
+          {
+            "url": "https://news.crunchbase.com/web3/blockchain-venture-funding-valuation-layerzero-a16z",
+            "name": "news.crunchbase.com",
+            "date": "2026-06-10"
+          },
+          {
+            "url": "https://techcrunch.com/2023/07/05/crypto-funding-drops-fifth-straight-quarter",
+            "name": "Crypto funding drops for fifth straight quarter as investors continue to pull back | TechCrunch",
+            "date": "2023-07-05"
+          },
+          {
+            "url": "https://news.crunchbase.com/business/unicorn-board-new-companies-march-2022",
+            "name": "news.crunchbase.com",
+            "date": "2026-06-10"
+          }
+        ]
+      }
+    },
+    {
+      "calaId": "4092eb27-bf57-42d8-a755-79e977f7cba1",
+      "name": "Ripple Labs",
+      "rounds": [],
+      "signals": [],
+      "founders": [],
+      "sources": [
+        {
+          "url": "https://fortune.com/crypto/2025/11/05/ripple-xrp-fortress-citadel-securities-500-million-pantera-galaxy-brevan-howard-marshall-wace",
+          "name": "Ripple says Fortress, Citadel Securities invest $500 Million | Fortune",
+          "date": "2025-11-05"
+        }
+      ],
+      "state": "enriched",
+      "description": "A financial technology company that provides blockchain-based payment solutions.",
+      "overview": {
+        "text": "Ripple Labs is a financial technology company that provides blockchain-based payment solutions.",
+        "sources": [
+          {
+            "url": "https://fortune.com/crypto/2025/11/05/ripple-xrp-fortress-citadel-securities-500-million-pantera-galaxy-brevan-howard-marshall-wace",
+            "name": "Ripple says Fortress, Citadel Securities invest $500 Million | Fortune",
+            "date": "2025-11-05"
+          }
+        ]
+      }
+    },
+    {
+      "calaId": "6620a800-59ba-43f0-a33c-7847f18967e4",
+      "name": "Ripple",
+      "rounds": [
+        {
+          "calaId": "01873e82-32f2-4963-8651-627403a4abd6",
+          "label": "Funding round",
+          "date": "2026-05-11",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/ripple/__RI5NqNB2xmmrUkf5iftdStz97omfcqLLEWHh-AydmF8/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-07-29"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/ripple/__RI5NqNB2xmmrUkf5iftdStz97omfcqLLEWHh-AydmF8",
+              "name": "tracxn.com",
+              "date": "2026-07-29"
+            }
+          ]
+        },
+        {
+          "calaId": "40a05815-6f0c-4dee-b660-ea150b73f222",
+          "label": "Funding round",
+          "date": "2025-11-04",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ripple-metropolis",
+              "name": "news.crunchbase.com",
+              "date": "2026-07-29"
+            },
+            {
+              "url": "https://news.crunchbase.com/fintech-ecommerce/crypto/unicorn-ripple-500m-raise",
+              "name": "news.crunchbase.com",
+              "date": "2026-07-29"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/ripple/__RI5NqNB2xmmrUkf5iftdStz97omfcqLLEWHh-AydmF8/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-07-29"
+            }
+          ]
+        },
+        {
+          "calaId": "683b6c92-74b4-467f-a1e3-2dd2189f713d",
+          "label": "Funding round",
+          "date": "2019-12-20",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2019/12/20/ripple-raises-200-million-to-improve-global-payments",
+              "name": "Ripple raises $200 million to improve global payments | TechCrunch",
+              "date": "2019-12-20"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-05",
+          "date": "2026-05-11",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/ripple/__RI5NqNB2xmmrUkf5iftdStz97omfcqLLEWHh-AydmF8/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-07-29"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/ripple/__RI5NqNB2xmmrUkf5iftdStz97omfcqLLEWHh-AydmF8",
+              "name": "tracxn.com",
+              "date": "2026-07-29"
+            }
+          ]
+        }
+      ],
+      "founders": [
+        {
+          "name": "Arthur Britto",
+          "via": "cala",
+          "evidence": "Cala: FOUNDED",
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/XRP_Ledger",
+              "name": "en.wikipedia.org",
+              "date": "2026-07-29"
+            },
+            {
+              "url": "https://xrpl.org/about/history",
+              "name": "History",
+              "date": "2026-01-01"
+            },
+            {
+              "url": "https://research.contrary.com/company/ripple",
+              "name": "Report: Ripple Business Breakdown & Founding Story | Contrary Research",
+              "date": "2026-07-16"
+            },
+            {
+              "url": "https://iq.wiki/wiki/arthur-britto",
+              "name": "Arthur Britto - People in crypto | IQ.wiki",
+              "date": "2022-12-29"
+            },
+            {
+              "url": "https://www.tradingview.com/news/cointelegraph:cdb1130a9094b:0-who-is-arthur-britto-the-ripple-ghost-who-just-broke-14-years-of-silence",
+              "name": "Who is Arthur Britto, the Ripple ‘ghost’ who just broke 14 years of silence?",
+              "date": "2025-06-24"
+            }
+          ]
+        },
+        {
+          "name": "Jed Mccaleb",
+          "via": "cala",
+          "evidence": "Cala: FOUNDED",
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Ripple_Labs",
+              "name": "en.wikipedia.org",
+              "date": "2026-07-29"
+            },
+            {
+              "url": "https://xrpl.org/about/history",
+              "name": "History",
+              "date": "2026-01-01"
+            },
+            {
+              "url": "https://research.contrary.com/company/ripple",
+              "name": "Report: Ripple Business Breakdown & Founding Story | Contrary Research",
+              "date": "2026-07-16"
+            },
+            {
+              "url": "https://www.btcmarkets.net/blog/the-history-of-ripple-labs-and-xrps-development",
+              "name": "www.btcmarkets.net",
+              "date": "2026-07-29"
+            },
+            {
+              "url": "https://microventures.com/microventures-portfolio-company-ripple-labs-history-and-milestones",
+              "name": "MicroVentures Portfolio Company: Ripple Labs’ History and Milestones",
+              "date": "2024-07-16"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ripple-metropolis",
+          "name": "news.crunchbase.com",
+          "date": "2026-07-29"
+        },
+        {
+          "url": "https://news.crunchbase.com/fintech-ecommerce/crypto/unicorn-ripple-500m-raise",
+          "name": "news.crunchbase.com",
+          "date": "2026-07-29"
+        },
+        {
+          "url": "https://tracxn.com/d/companies/ripple/__RI5NqNB2xmmrUkf5iftdStz97omfcqLLEWHh-AydmF8/funding-and-investors",
+          "name": "tracxn.com",
+          "date": "2026-07-29"
+        }
+      ],
+      "state": "enriched",
+      "description": "Fintech organization founded by Arthur Britto, Chris Larsen and Jed McCaleb that provides stablecoin‑powered cross‑border payments and digital‑asset custody solutions.",
+      "lastRoundDate": "2026-05-11",
+      "overview": {
+        "text": "Ripple is a fintech organization founded by Arthur Britto, Chris Larsen, and Jed McCaleb that provides stablecoin-powered cross-border payments and digital-asset custody solutions. The company held funding rounds in December 2019, November 2025, and May 2026.",
+        "sources": [
+          {
+            "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ripple-metropolis",
+            "name": "news.crunchbase.com",
+            "date": "2026-07-29"
+          },
+          {
+            "url": "https://news.crunchbase.com/fintech-ecommerce/crypto/unicorn-ripple-500m-raise",
+            "name": "news.crunchbase.com",
+            "date": "2026-07-29"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/ripple/__RI5NqNB2xmmrUkf5iftdStz97omfcqLLEWHh-AydmF8/funding-and-investors",
+            "name": "tracxn.com",
+            "date": "2026-07-29"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/ripple/__RI5NqNB2xmmrUkf5iftdStz97omfcqLLEWHh-AydmF8",
+            "name": "tracxn.com",
+            "date": "2026-07-29"
+          },
+          {
+            "url": "https://techcrunch.com/2019/12/20/ripple-raises-200-million-to-improve-global-payments",
+            "name": "Ripple raises $200 million to improve global payments | TechCrunch",
+            "date": "2019-12-20"
+          }
+        ]
+      }
+    }
+  ],
+  "callList": [
+    {
+      "companyId": "0e60ca64-1c8b-435b-b561-bd3b9ddbcda2",
+      "companyName": "LayerZero Labs",
+      "founder": {
+        "name": "Ryan Zarick",
+        "via": "cala",
+        "evidence": "Cala: FOUNDED",
+        "sources": [
+          {
+            "url": "https://sequoiacap.com/article/bryan-pellegrino-spotlight-layerzero",
+            "name": "LayerZero's Bryan Pellegrino: From Poker to Protocols",
+            "date": "2022-06-28"
+          },
+          {
+            "url": "https://www.businesswire.com/news/home/20220330005301/en/LayerZero-Labs-Raises-%24135-Million-to-Create-Omnichain-Crypto-Networks",
+            "name": "www.businesswire.com",
+            "date": "2026-07-29"
+          },
+          {
+            "url": "https://businessmodelcanvastemplate.com/blogs/brief-history/layerzero-labs-brief-history",
+            "name": "businessmodelcanvastemplate.com",
+            "date": "2026-07-29"
+          },
+          {
+            "url": "https://ca.linkedin.com/in/ryanzarick",
+            "name": "ca.linkedin.com",
+            "date": "2026-07-29"
+          }
+        ]
+      },
+      "group": "recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-02",
+          "date": "2026-02-11",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/layerzerolabscanadainc/__QOKjCgxZsFD6yf0lTjsufYIjkdLo3wVpOCQKKfgGYNk",
+              "name": "tracxn.com",
+              "date": "2026-06-10"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "What happened from your perspective around the 2026-02 round, and did CITADEL SECURITIES LLC participate in it?",
+        "Did CITADEL SECURITIES LLC provide any support to LayerZero Labs, and if so, could you share a concrete example of how they helped?",
+        "Would you choose CITADEL SECURITIES LLC as an investor again?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "0e60ca64-1c8b-435b-b561-bd3b9ddbcda2",
+      "companyName": "LayerZero Labs",
+      "founder": {
+        "name": "Caleb Banister",
+        "via": "cala",
+        "evidence": "Cala: FOUNDED",
+        "sources": [
+          {
+            "url": "https://sequoiacap.com/article/bryan-pellegrino-spotlight-layerzero",
+            "name": "LayerZero's Bryan Pellegrino: From Poker to Protocols",
+            "date": "2022-06-28"
+          },
+          {
+            "url": "https://www.businesswire.com/news/home/20220330005301/en/LayerZero-Labs-Raises-%24135-Million-to-Create-Omnichain-Crypto-Networks",
+            "name": "www.businesswire.com",
+            "date": "2026-07-29"
+          },
+          {
+            "url": "https://tracxn.com/d/companies/layerzero-labs-canada-inc/__QOKjCgxZsFD6yf0lTjsufYIjkdLo3wVpOCQKKfgGYNk",
+            "name": "tracxn.com",
+            "date": "2026-07-29"
+          },
+          {
+            "url": "https://businessmodelcanvastemplate.com/blogs/brief-history/layerzero-labs-brief-history",
+            "name": "businessmodelcanvastemplate.com",
+            "date": "2026-07-29"
+          }
+        ]
+      },
+      "group": "recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-02",
+          "date": "2026-02-11",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/layerzerolabscanadainc/__QOKjCgxZsFD6yf0lTjsufYIjkdLo3wVpOCQKKfgGYNk",
+              "name": "tracxn.com",
+              "date": "2026-06-10"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "What happened from your perspective around the 2026-02 round, and did CITADEL SECURITIES LLC participate in it?",
+        "Did CITADEL SECURITIES LLC provide any support to LayerZero Labs, and if so, could you share a concrete example of how they helped?",
+        "Would you choose CITADEL SECURITIES LLC as an investor again?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "6620a800-59ba-43f0-a33c-7847f18967e4",
+      "companyName": "Ripple",
+      "founder": {
+        "name": "Arthur Britto",
+        "via": "cala",
+        "evidence": "Cala: FOUNDED",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/XRP_Ledger",
+            "name": "en.wikipedia.org",
+            "date": "2026-07-29"
+          },
+          {
+            "url": "https://xrpl.org/about/history",
+            "name": "History",
+            "date": "2026-01-01"
+          },
+          {
+            "url": "https://research.contrary.com/company/ripple",
+            "name": "Report: Ripple Business Breakdown & Founding Story | Contrary Research",
+            "date": "2026-07-16"
+          },
+          {
+            "url": "https://iq.wiki/wiki/arthur-britto",
+            "name": "Arthur Britto - People in crypto | IQ.wiki",
+            "date": "2022-12-29"
+          },
+          {
+            "url": "https://www.tradingview.com/news/cointelegraph:cdb1130a9094b:0-who-is-arthur-britto-the-ripple-ghost-who-just-broke-14-years-of-silence",
+            "name": "Who is Arthur Britto, the Ripple ‘ghost’ who just broke 14 years of silence?",
+            "date": "2025-06-24"
+          }
+        ]
+      },
+      "group": "recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-05",
+          "date": "2026-05-11",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/ripple/__RI5NqNB2xmmrUkf5iftdStz97omfcqLLEWHh-AydmF8/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-07-29"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/ripple/__RI5NqNB2xmmrUkf5iftdStz97omfcqLLEWHh-AydmF8",
+              "name": "tracxn.com",
+              "date": "2026-07-29"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "What happened from your perspective regarding Ripple's 2026-05 round with CITADEL SECURITIES LLC?",
+        "What is a concrete example of support, if any, that CITADEL SECURITIES LLC provided to Ripple?",
+        "Would you choose CITADEL SECURITIES LLC as an investor again, and if so, how would you evaluate their role?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "6620a800-59ba-43f0-a33c-7847f18967e4",
+      "companyName": "Ripple",
+      "founder": {
+        "name": "Jed Mccaleb",
+        "via": "cala",
+        "evidence": "Cala: FOUNDED",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Ripple_Labs",
+            "name": "en.wikipedia.org",
+            "date": "2026-07-29"
+          },
+          {
+            "url": "https://xrpl.org/about/history",
+            "name": "History",
+            "date": "2026-01-01"
+          },
+          {
+            "url": "https://research.contrary.com/company/ripple",
+            "name": "Report: Ripple Business Breakdown & Founding Story | Contrary Research",
+            "date": "2026-07-16"
+          },
+          {
+            "url": "https://www.btcmarkets.net/blog/the-history-of-ripple-labs-and-xrps-development",
+            "name": "www.btcmarkets.net",
+            "date": "2026-07-29"
+          },
+          {
+            "url": "https://microventures.com/microventures-portfolio-company-ripple-labs-history-and-milestones",
+            "name": "MicroVentures Portfolio Company: Ripple Labs’ History and Milestones",
+            "date": "2024-07-16"
+          }
+        ]
+      },
+      "group": "recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-05",
+          "date": "2026-05-11",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/ripple/__RI5NqNB2xmmrUkf5iftdStz97omfcqLLEWHh-AydmF8/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-07-29"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/ripple/__RI5NqNB2xmmrUkf5iftdStz97omfcqLLEWHh-AydmF8",
+              "name": "tracxn.com",
+              "date": "2026-07-29"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "What happened from your perspective regarding Ripple's 2026-05 round with CITADEL SECURITIES LLC?",
+        "What is a concrete example of support, if any, that CITADEL SECURITIES LLC provided to Ripple?",
+        "Would you choose CITADEL SECURITIES LLC as an investor again, and if so, how would you evaluate their role?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "058d6bd9-dfb8-4e26-8e69-5544a08350c6",
+      "companyName": "Kraken",
+      "founder": {
+        "name": "Jesse Powell",
+        "linkedinUrl": "https://linkedin.com/in/jessepowell",
+        "via": "exa+gemini",
+        "evidence": "Co-Founder, Chairman of the Board, Kraken",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/jessepowell",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-01",
+          "date": "2026-01-20",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/kraken/__K8eQ_bnwtoEzrre_iQrRk_2-6sBivxjdpOCeXGVrx1w/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "What happened from your perspective during and after the 2026-01 round with CITADEL SECURITIES LLC?",
+        "Did CITADEL SECURITIES LLC provide support to Kraken, and if so, what is a concrete example of that support?",
+        "Would you choose CITADEL SECURITIES LLC as an investor again?"
+      ],
+      "writing": []
+    }
+  ]
+}

@@ -69,11 +69,16 @@ export function questionTemplates(fund: string) {
   ];
 }
 
-export function checkQuestions(qs: unknown, why: Signal[], fund: string): string[] {
-  const facts = new Set(why.map((s) => `${s.text} ${s.date ?? ""}`).join(" ").match(/\d+/g)); // whole numbers: "20" is not in "2021"
+export function checkQuestions(qs: unknown, why: Signal[], fund: string, company = ""): string[] {
+  const facts = new Set(why.map((s) => `${s.text} ${s.date ?? ""}`).join(" ").match(/\d+/g));
+  // Digits inside a known name are not financial claims; standalone figures still need evidence.
+  const figures = (q: string) => [fund, company].filter(Boolean)
+    .reduce((text, name) => text.replaceAll(name.toLowerCase(), ""), q.toLowerCase()).match(/\d+/g) ?? [];
   const ok = (Array.isArray(qs) ? qs : [])
     .filter((q): q is string => typeof q === "string" && q.trim().length > 0)
-    .filter((q) => !(/board/i.test(q) && !/^did\b|\b(whether|if)\b/i.test(q)) && !BANNED.test(q) && (q.match(/\d+/g) ?? []).every((n) => facts.has(n)));
+    .filter((q) => !(/board/i.test(q) && !/^did\b|\b(whether|if)\b/i.test(q))
+      && !(/round\b.{0,60}\b(involving|led by|backed by|with participation from)\b/i.test(q) && !/^did\b|\b(whether|if)\b/i.test(q))
+      && !BANNED.test(q) && figures(q).every((n) => facts.has(n)));
   for (const t of groundedQuestions(fund, why)) if (ok.length < 3 && !ok.includes(t)) ok.push(t);
   return ok.slice(0, 3);
 }
@@ -85,6 +90,7 @@ export function questionPrompt(company: string, fund: string, why: Signal[]) {
     ...why.map((s) => `- ${s.text}`),
     `Write exactly 3 specific, neutral questions about how ${fund} behaved as an investor, grounded only in these facts.`,
     `Use this sequence: what happened from their perspective; a concrete example of investor support; whether they would choose the fund again. Never presume a board seat, follow-on commitment, or investor involvement. Ask whether before asking how.`,
+    `A last recorded round does not establish that ${fund} joined that round. Do not describe any round as involving, led by, or backed by ${fund}; ask whether they participated instead.`,
     `No dates or numbers that are not in the facts. Never use the words failed, failure, dead or died.`,
     `Return a JSON array of 3 strings.`,
   ].join("\n");
@@ -209,7 +215,8 @@ export function createPipeline(deps: PipelineDeps) {
       const callList: CallListEntry[] = [];
       const listed = new Set<string>();
       const tails: Promise<void>[] = [];
-      let complete = order.length === invested.length && invested.length < 200;
+      const portfolioTruncated = (walk.relationships?.outgoing?.INVESTED_IN?.length ?? 0) >= 200;
+      let complete = order.length === invested.length && !portfolioTruncated;
 
       const finish = async (co: PortfolioCompany, entity: CalaEntity) => {
         let a = analyseCompany({ entity, fundRounds, fundName: fund.name }, now());
@@ -255,7 +262,7 @@ export function createPipeline(deps: PipelineDeps) {
             return [];
           });
           signal.throwIfAborted();
-          const questions = checkQuestions(raw, a.signals, fund.name);
+          const questions = checkQuestions(raw, a.signals, fund.name, co.name);
           for (const founder of co.founders) {
             // Cala sometimes has two entities for one company (FLOWHAVEN OY / Flowhaven Oy, IQM / IQM Quantum Computers Oyj): one entry per person.
             const key = normalise(founder.name);
@@ -316,7 +323,7 @@ export function createPipeline(deps: PipelineDeps) {
       await Promise.all(tails);
       for (const co of companies) if (co.state === "pending") co.state = "not_researched";
 
-      const report: Report = { fund, generatedAt: now().toISOString(), complete, portfolio: companies, callList };
+      const report: Report = { fund, portfolioTruncated, generatedAt: now().toISOString(), complete, portfolio: companies, callList };
       out.push({ type: "done", report });
     };
 
