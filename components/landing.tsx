@@ -133,7 +133,7 @@ export function Landing({ funds, onEnter, onSkip }: { funds: SkyFund[]; onEnter:
   const [going, setGoing] = useState(false);
   const [slide, setSlide] = useState(0);
   const shown = useRef(0);
-  const wheel = useRef({ last: 0, lock: 0, spent: false, inner: false, sum: 0 });
+  const wheel = useRef({ last: 0, lock: 0, spent: false, inner: false, sum: 0, dir: 0, low: 0 });
   const touch = useRef<{ y: number; top: boolean; bottom: boolean } | null>(null);
   const step = (d: number) => setSlide((n) => clampSlide(n + d));
 
@@ -197,9 +197,14 @@ export function Landing({ funds, onEnter, onSkip }: { funds: SkyFund[]; onEnter:
   /** One slide per wheel gesture. A trackpad sends many small deltas, so the gesture is judged on their running sum. */
   function onWheel(e: WheelEvent) {
     const w = wheel.current;
-    if (e.timeStamp - w.last > 160) Object.assign(w, { spent: false, inner: false, sum: 0 }); // a pause: a new gesture starts
-    w.last = e.timeStamp;
     if (!e.deltaY) return;
+    const dir = Math.sign(e.deltaY), size = Math.abs(e.deltaY);
+    // A new gesture starts after a pause, when the direction turns round, or when the deltas climb back up from where
+    // they had faded to: a trackpad keeps sending the last swipe's momentum for a second or more, and the next swipe
+    // often begins inside it.
+    w.low = Math.min(w.low, size);
+    if (e.timeStamp - w.last > 160 || dir !== w.dir || (size >= 15 && size >= w.low * 3)) Object.assign(w, { spent: false, inner: false, sum: 0, low: size });
+    Object.assign(w, { last: e.timeStamp, dir });
     const down = e.deltaY > 0, sec = root.current!.querySelectorAll<HTMLElement>("section")[slide];
     const left = down ? sec.scrollHeight - sec.clientHeight - sec.scrollTop : sec.scrollTop; // what the slide can still scroll that way
     if (left > 2) {
@@ -212,6 +217,7 @@ export function Landing({ funds, onEnter, onSkip }: { funds: SkyFund[]; onEnter:
     w.sum = Math.sign(w.sum) === Math.sign(e.deltaY) ? w.sum + e.deltaY : e.deltaY;
     if (Math.abs(w.sum) < 40) return;
     w.spent = true;
+    w.low = size;
     w.lock = e.timeStamp + 600;
     step(down ? 1 : -1);
   }
