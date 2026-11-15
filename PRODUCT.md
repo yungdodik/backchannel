@@ -8,8 +8,6 @@ product
 
 Founders who have a term sheet, or a serious conversation, with a specific VC fund and want to know how that fund behaves after the money lands. Typical moment: the evening before a partner call or a signing deadline, at a laptop, reading carefully, often in a second language (Nordic and European founders around Slush). They are not browsing; they have one fund in mind and a decision to make.
 
-Secondary audience: Junction 2026 judges watching a live demo on a projector. The product must look finished and work live, but founders come first: nothing is added only for the demo.
-
 Job to be done: "Tell me which founders from this fund's portfolio I should call, why each one is worth calling, and what to ask, so I hear the truth from people who already took this fund's money."
 
 ## Product Purpose

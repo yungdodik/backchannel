@@ -1,58 +1,75 @@
 # Parallax
 
-Reference-check a VC fund through people who already took its money. A fund becomes a star, its recorded portfolio becomes planets, and a sourced shortlist gives you people to contact and questions to ask. Built for Junction 2026.
+**Before you take a fund's money, hear from the founders who already did.**
+
+Every VC hands you its happiest founders as references. Parallax shows you the rest of the portfolio. Name a fund and Parallax maps every recorded investment as planets around the fund's star, then gives you a sourced shortlist: which founders to call, why each one is worth calling, and what to ask them.
+
+**[Try it live →](https://parallax-one-pi.vercel.app)** · Built in 48 hours at [Junction 2026](https://2026.hackjunction.com/), Helsinki.
+
+![Icebreaker.vc in Parallax: the portfolio as a solar system, fund stats on the left, three recommended founder calls on the right](docs/img/fund.jpg)
+
+## What it does
+
+- **Map the whole portfolio.** Each planet is a portfolio company. The further it is from the star, the longer it's been since its last recorded round. Colors mark news of exits and closures, no recorded round in 2+ years, or a recent raise.
+- **Get a call list.** "Start with these 3" picks founders from different companies and different experiences: an acquisition, a long gap between rounds, a fresh raise. Every reason links to its source.
+- **Ask the right questions.** Each contact comes with questions written for that founder's situation, using only the facts Parallax retrieved.
+- **Take it with you.** **Copy call brief** copies each person, company, contact route, questions and sources in one go.
+- **See the fund at a glance.** Follow-on rate, rounds led, median time between rounds, and exits and closures, all counted from records rather than rated.
+
+Parallax states neutral, sourced facts and never verdicts. A missing funding record is a reason to ask a question, not proof that a company failed.
+
+## How it works
+
+```
+fund name ─▶ Cala ─▶ portfolio, rounds, lead flags, co-investors
+                 └─▶ coded signals (last round, follow-on, gaps)
+           ─▶ Exa  ─▶ founders (verified by work history) + news of exits, shutdowns, layoffs
+           ─▶ Gemini ─▶ call questions and company overviews, only from retrieved facts
+           ─▶ NDJSON stream ─▶ sky map + list view
+```
+
+- **[Cala](https://cala.ai)** is the knowledge graph. One relationship projection returns a fund's whole portfolio with sourced rounds in about half a second.
+- **[Exa](https://exa.ai)** finds founders and news. Someone counts as a founder only if their work history shows a founder or CEO title at that exact company. Anyone who worked at the fund is excluded.
+- **Gemini** only writes text. It never classifies or judges anything. Code drops any generated overview that contains a verdict word, or a number or name that isn't in the retrieved facts.
+- Results **stream in as they arrive**. The portfolio comes first, then enrichment, starting with the companies whose last round is oldest.
+
+## Stack
+
+Next.js 16 · React 19 · TypeScript · Tailwind + shadcn/ui · a hand-written canvas sky engine (`components/sky/engine.ts`) · Vitest · deployed on Vercel.
 
 ## Run locally
 
-Use Node 22 and npm. Run `npm ci`, then `npm run dev`. Open http://localhost:3000.
+Use Node 22: `npm ci`, then `npm run dev`, then open http://localhost:3000.
 
-The five prepared examples work without API keys. Live search/research requires these server-only variables in `.env.local`:
+The prepared funds work without API keys. Live search needs these keys in `.env.local`:
 
 ```dotenv
 CALA_API_KEY=
 EXA_API_KEY=
 GEMINI_API_KEY=
-# Optional minimum delay between Cala requests in this process
+# Optional minimum delay between Cala requests
 CALA_MIN_GAP_MS=1000
 ```
 
-Never commit `.env.local`. The initial production build needs network access for Google fonts.
+Checks: `npm run lint` · `npm test -- --run` · `npm run build`
 
-## Demo path (about 90 seconds)
+## Project layout
 
-1. Choose **Icebreaker.vc**, then Fly. The prepared snapshot loads without external services.
-2. Show **Start with these 3**: different companies and recorded experiences. Open a contact for evidence and questions.
-3. Open a source. Explain that missing funding records are reasons to ask questions, never verdicts about a fund.
-4. Use **Copy call brief**: person, company, contact route, questions and sources travel together. Missing direct profiles are explicitly labeled **Search LinkedIn**.
-5. Switch **Map / List**. Both use the same report without restarting research. The list includes fund context and round sources.
-6. If showing live search, say it researches up to 25 companies and may take minutes. Keep a prepared example ready. Errors offer retry and the map offers a prepared-example fallback.
+| Path | What |
+|---|---|
+| `lib/pipeline.ts` | Cala records → Exa evidence → Gemini questions and overviews |
+| `lib/signals.ts` | Neutral facts per company |
+| `lib/call-brief.ts` | Shortlist that spreads across companies and experiences |
+| `lib/rounds.ts` | Offline round enrichment: every extracted fact must come with a quote found in the source |
+| `app/api/report/route.ts` | NDJSON streaming, prepared snapshots, shared live runs |
+| `components/parallax-app.tsx` | Map and list views, both reading one report stream |
+| `data/reports/` | Prepared fund snapshots, each showing its research date |
+| `docs/` | Domain terms, design decisions, API research |
 
-Before presenting: `npm run lint`, `npm test -- --run`, `npm run build`, then `npm start`. Check the actual projector size and a narrow viewport.
+## Limits
 
-## Architecture
+Live runs read up to 200 portfolio links and research up to 25 companies, so a live run can take a few minutes. When coverage is partial, the app says so. Entity matching and generated text can be wrong: check the linked evidence before relying on it. Source publication dates may differ from the dates of the events they report.
 
-- `lib/pipeline.ts`: Cala records, Exa news and role evidence, Gemini questions and summaries.
-- `lib/signals.ts`: neutral facts. Map color is independent of contact availability.
-- `lib/call-brief.ts`: shortlist across companies and experiences, prioritizing article evidence, direct profiles and sourced founder roles. CEO-only evidence stays labeled CEO.
-- `lib/rounds.ts`: optional offline enrichment; extracted facts require a quote found in the source.
-- `app/api/report/route.ts`: NDJSON streaming, prepared snapshots and shared live runs.
-- `components/parallax-app.tsx`: map and reading view share one report stream.
-- `data/reports/`: five snapshots, with the original research date displayed.
+---
 
-## Coverage and limits
-
-Live runs read up to 200 portfolio links and research up to 25 companies, prioritizing older investment records. Researched, unavailable and not-researched companies are distinct. Partial coverage stays visible when research finishes.
-
-Live runs do not perform the offline funding-announcement enrichment. Insufficient follow-on evidence is labeled, not represented as a meaningful zero.
-
-Live reports are reused for ten minutes within one server process. Simultaneous readers share work; abandoned runs are cancelled after a short reconnect grace period. This is not persistent or cross-instance caching. Provider calls and the total run have deadlines. Gemini failure falls back to neutral questions.
-
-Entity matching and generated summaries can still be wrong. Inspect linked evidence before relying on it. One known aggregate entity is excluded before analysis. Source publication dates can differ from event dates; recorded round dates are not guaranteed exact transaction dates.
-
-## Maintain prepared examples
-
-`npm run precompute`, `npm run enrich-rounds`, and `npm run overviews` use paid APIs to retrieve/enrich snapshots.
-
-`npx tsx scripts/repair-reports.ts` applies deterministic local repairs: excludes the known aggregate, normalizes Mojo using its existing source, grounds prepared questions, and marks unavailable coverage partial. It preserves research timestamps.
-
-Tests cover pipeline fixtures, source rules, streaming, coverage, question guards, shortlist diversity, contact fallbacks and shared-run cancellation. They do not call live providers.
+Built with [Cala](https://cala.ai), [Exa](https://exa.ai) and Gemini at Junction 2026.
