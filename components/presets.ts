@@ -10,4 +10,12 @@ export const PRESET_FUNDS: { name: string; calaId: string }[] = [
   { name: "Citadel Securities", calaId: "f9cca0dd-7e96-49c7-a57f-dd01751d657b" },
   { name: "Jane Street", calaId: "94e6df4c-a4df-46a8-8f4f-91504882e404" },
   { name: "Sequoia Capital", calaId: "151bf814-7566-4b14-a7d2-f0d802ef0981" },
+  { name: "Northzone", calaId: "10c75ca4-24d6-4a32-8f22-08d4b1dfffce" },
+  { name: "Index Ventures", calaId: "4a7ccd5d-1310-46b0-bd42-4ff8b409acc5" },
+  { name: "Balderton Capital", calaId: "7bbba2f8-97f6-46f0-8bbe-5faa328f7b9c" },
+  { name: "Accel", calaId: "aee065b7-5ae9-45c7-8c30-457f6d339958" },
+  { name: "Lightspeed", calaId: "5a9d0c1c-1e04-4816-b38a-28c4f560569b" },
+  { name: "Voima Ventures", calaId: "1f973216-f1e5-4466-8409-da6608460c02" },
+  { name: "Superhero Capital", calaId: "8f18dee5-e41b-4eaa-86e2-f03f1a846edc" },
+  { name: "byFounders", calaId: "20003112-87a9-4ac0-be1a-bc97efecf19e" },
 ];

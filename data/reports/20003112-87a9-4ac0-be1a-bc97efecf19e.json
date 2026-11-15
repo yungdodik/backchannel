@@ -1,0 +1,2293 @@
+{
+  "fund": {
+    "calaId": "20003112-87a9-4ac0-be1a-bc97efecf19e",
+    "name": "byFounders",
+    "description": "a Copenhagen-based venture capital firm founded by Josefin Landgard"
+  },
+  "portfolioTruncated": false,
+  "generatedAt": "2026-11-15T08:14:44.565Z",
+  "complete": true,
+  "portfolio": [
+    {
+      "calaId": "1717c90d-b82b-4220-9e94-4eab13085fcd",
+      "name": "Outfunnel",
+      "rounds": [
+        {
+          "calaId": "0f1f2505-8ef5-4237-97da-b9cce8d46cd3",
+          "label": "Funding round",
+          "date": "2026-08-25",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/outfunnel/__t0X4HE_hQxRjtPg4sSnju_UQwj8PSntfkzm7MFml1fE",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/outfunnel/__t0X4HE_hQxRjtPg4sSnju_UQwj8PSntfkzm7MFml1fE/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        },
+        {
+          "calaId": "aa9284c9-acab-43a8-a029-fa417cbcedb4",
+          "label": "Funding round",
+          "date": "2020-09-16",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2020/09/16/outfunnel",
+              "name": "Outfunnel picks up €1.1M pre-seed to bridge the gap between marketing and sales | TechCrunch",
+              "date": "2020-09-16"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/outfunnel/__t0X4HE_hQxRjtPg4sSnju_UQwj8PSntfkzm7MFml1fE",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.crunchbase.com/funding_round/outfunnel-pre-seed--8e158ad6",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-08",
+          "date": "2026-08-25",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/outfunnel/__t0X4HE_hQxRjtPg4sSnju_UQwj8PSntfkzm7MFml1fE",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/outfunnel/__t0X4HE_hQxRjtPg4sSnju_UQwj8PSntfkzm7MFml1fE/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "founders": [
+        {
+          "name": "Andrus Purde",
+          "linkedinUrl": "https://linkedin.com/in/andruspurde",
+          "via": "exa+gemini",
+          "evidence": "Co-founder/CEO, Outfunnel",
+          "sources": [
+            {
+              "url": "https://linkedin.com/in/andruspurde",
+              "name": "linkedin.com"
+            }
+          ]
+        },
+        {
+          "name": "Markus Frank Leming",
+          "linkedinUrl": "https://ee.linkedin.com/in/markusleming",
+          "via": "exa+gemini",
+          "evidence": "Co-founder and Head of Product, Outfunnel",
+          "sources": [
+            {
+              "url": "https://ee.linkedin.com/in/markusleming",
+              "name": "ee.linkedin.com"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2020/09/16/outfunnel",
+          "name": "Outfunnel picks up €1.1M pre-seed to bridge the gap between marketing and sales | TechCrunch",
+          "date": "2020-09-16"
+        },
+        {
+          "url": "https://tracxn.com/d/companies/outfunnel/__t0X4HE_hQxRjtPg4sSnju_UQwj8PSntfkzm7MFml1fE",
+          "name": "tracxn.com",
+          "date": "2026-08-25"
+        },
+        {
+          "url": "https://www.crunchbase.com/funding_round/outfunnel-pre-seed--8e158ad6",
+          "name": "www.crunchbase.com",
+          "date": "2026-08-25"
+        }
+      ],
+      "state": "enriched",
+      "description": "Outfunnel connects sales and marketing tools for better lead management",
+      "lastRoundDate": "2026-08-25"
+    },
+    {
+      "calaId": "266be895-86f1-5d37-8a6c-24625aa2df83",
+      "name": "Bob W",
+      "rounds": [],
+      "signals": [
+        {
+          "kind": "status",
+          "text": "Cala status: ACTIVE",
+          "sources": [
+            {
+              "url": "https://bobw.co/",
+              "name": "bobw.co",
+              "date": "2026-11-06"
+            },
+            {
+              "url": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=2713564-2",
+              "name": "avoindata.prh.fi",
+              "date": "2026-11-09"
+            }
+          ]
+        }
+      ],
+      "founders": [],
+      "sources": [
+        {
+          "url": "https://tech.eu/2020/06/15/bob-w-seed/",
+          "name": "tech.eu",
+          "date": "2020-06-15"
+        }
+      ],
+      "state": "enriched",
+      "description": "Bob W is a tech-enabled hospitality operator running aparthotels in European cities as an alternative to mainstream hotels and short-term rentals."
+    },
+    {
+      "calaId": "3608d99f-cd9c-4948-a494-0ee0e4ce4afe",
+      "name": "Greenely Premium AB",
+      "rounds": [
+        {
+          "calaId": "177dd4fb-fb44-48c5-a357-c1825cb9dca1",
+          "label": "Funding round",
+          "date": "2024-07-26",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2024/07/26/energy-tech-startup-greenely-grabs-e8m-to-reach-more-households-and-support-europes-energy-transition",
+              "name": "Energy tech startup Greenely grabs €8M to reach more households and support Europe's energy transition | TechCrunch",
+              "date": "2024-07-26"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/greenely/__Kf6ejAg-tDJRXbL0SoRaZyd31XcDubiGni9oBbt-QIg",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            }
+          ]
+        },
+        {
+          "calaId": "b0144e21-639d-44d7-8d24-798d46d63f77",
+          "label": "Funding round",
+          "date": "2019-07-25",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/people/per-emanuelsson/__rI_1BOVN2znd8-u0YnkR50uE-A71fy0vrwof2s3tZKw",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://techcrunch.com/2024/07/26/energy-tech-startup-greenely-grabs-e8m-to-reach-more-households-and-support-europes-energy-transition",
+              "name": "Energy tech startup Greenely grabs €8M to reach more households and support Europe's energy transition | TechCrunch",
+              "date": "2024-07-26"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2024-07",
+          "date": "2024-07-26",
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2024/07/26/energy-tech-startup-greenely-grabs-e8m-to-reach-more-households-and-support-europes-energy-transition",
+              "name": "Energy tech startup Greenely grabs €8M to reach more households and support Europe's energy transition | TechCrunch",
+              "date": "2024-07-26"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/greenely/__Kf6ejAg-tDJRXbL0SoRaZyd31XcDubiGni9oBbt-QIg",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            }
+          ]
+        }
+      ],
+      "founders": [],
+      "sources": [
+        {
+          "url": "https://tracxn.com/d/people/per-emanuelsson/__rI_1BOVN2znd8-u0YnkR50uE-A71fy0vrwof2s3tZKw",
+          "name": "tracxn.com",
+          "date": "2026-08-24"
+        },
+        {
+          "url": "https://techcrunch.com/2024/07/26/energy-tech-startup-greenely-grabs-e8m-to-reach-more-households-and-support-europes-energy-transition",
+          "name": "Energy tech startup Greenely grabs €8M to reach more households and support Europe's energy transition | TechCrunch",
+          "date": "2024-07-26"
+        }
+      ],
+      "state": "enriched",
+      "description": "A Swedish energy‑tech company based in Stockholm.",
+      "lastRoundDate": "2024-07-26"
+    },
+    {
+      "calaId": "3d3edba6-f4d7-432b-80d3-d07872e11def",
+      "name": "Verda",
+      "rounds": [
+        {
+          "calaId": "8143c874-44c4-45e4-b4e0-ccb42a8c84c2",
+          "label": "Funding round",
+          "date": "2024-10-21",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2024/10/21/datacrunch-wants-to-be-europes-first-ai-cloud-hyperscaler-powered-by-renewable-energy",
+              "name": "DataCrunch wants to be Europe's first AI cloud hyperscaler — powered by renewable energy | TechCrunch",
+              "date": "2024-10-21"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2024-10",
+          "date": "2024-10-21",
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2024/10/21/datacrunch-wants-to-be-europes-first-ai-cloud-hyperscaler-powered-by-renewable-energy",
+              "name": "DataCrunch wants to be Europe's first AI cloud hyperscaler — powered by renewable energy | TechCrunch",
+              "date": "2024-10-21"
+            }
+          ]
+        },
+        {
+          "kind": "status",
+          "text": "Cala status: ACTIVE",
+          "sources": [
+            {
+              "url": "https://verda.com/blog/verda-raises-189m",
+              "name": "verda.com",
+              "date": "2026-09-22"
+            },
+            {
+              "url": "https://verda.com/",
+              "name": "verda.com",
+              "date": "2026-09-30"
+            }
+          ]
+        }
+      ],
+      "founders": [
+        {
+          "name": "Ruben Bryon",
+          "via": "cala",
+          "evidence": "Cala: FOUNDED",
+          "sources": [
+            {
+              "url": "https://verda.com/blog/verda-raises-189m",
+              "name": "verda.com",
+              "date": "2026-09-22"
+            },
+            {
+              "url": "https://verda.com/company",
+              "name": "verda.com",
+              "date": "2026-09-30"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2024/10/21/datacrunch-wants-to-be-europes-first-ai-cloud-hyperscaler-powered-by-renewable-energy",
+          "name": "DataCrunch wants to be Europe's first AI cloud hyperscaler — powered by renewable energy | TechCrunch",
+          "date": "2024-10-21"
+        },
+        {
+          "url": "https://www.eu-startups.com/2024/10/helsinki-based-datacrunch-io-raises-e12-million-to-hyperscale-ai-computing-in-europe/",
+          "name": "eu-startups.com",
+          "date": "2024-10-22"
+        },
+        {
+          "url": "https://siliconcanals.com/datacrunch-bags-12m/",
+          "name": "siliconcanals.com",
+          "date": "2024-10-21"
+        }
+      ],
+      "state": "enriched",
+      "description": "Full-stack AI cloud provider operating its own data centres, NVIDIA GPU hardware and platform (GPU instances, InfiniBand instant clusters, serverless containers, storage, managed inference) from th...",
+      "lastRoundDate": "2024-10-21"
+    },
+    {
+      "calaId": "4ac538f7-0e56-508f-8c72-ed938a41cea4",
+      "name": "Qa Tech Ab",
+      "rounds": [],
+      "signals": [
+        {
+          "kind": "status",
+          "text": "Cala status: ACTIVE",
+          "sources": [
+            {
+              "url": "https://qa.tech/",
+              "name": "qa.tech",
+              "date": "2026-11-02"
+            }
+          ]
+        }
+      ],
+      "founders": [],
+      "sources": [
+        {
+          "url": "https://qa.tech/downloads/230926_QA.tech_pressrelease_eng_FINAL.pdf",
+          "name": "qa.tech",
+          "date": "2023-09-26"
+        },
+        {
+          "url": "https://bebeez.eu/2023/10/05/swedish-startup-raises-1-million-pre-seed-to-disrupt-software-testing-with-ai-advancements/",
+          "name": "bebeez.eu",
+          "date": "2023-10-05"
+        },
+        {
+          "url": "https://arcticstartup.com/qa-tech-raises-1m-pre-seed/",
+          "name": "arcticstartup.com",
+          "date": "2026-11-12"
+        }
+      ],
+      "state": "enriched",
+      "description": "QA.tech is the AI QA testing platform: autonomous QA agents run end-to-end, regression, exploratory and PR tests on web and native mobile from plain-language goals. No scripts, no selectors."
+    },
+    {
+      "calaId": "52a72b11-60a8-4fa8-833a-2715df7da42b",
+      "name": "Dazzle Rocks",
+      "rounds": [
+        {
+          "calaId": "c109fa80-4c94-49b3-9526-1832b34b3670",
+          "label": "Funding round",
+          "date": "2020-05-05",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/dazzle-rocks/__L7x89K7h8phFjIsrRIzOTqm2bwGg6o6fSicAT6zGeNI",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.crunchbase.com/organization/dazzle-rocks",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.crunchbase.com/person/ken-lamb",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.crunchbase.com/organization/eos-vc-fund/investor_summary/overview_timeline",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/162889-66",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2020-05",
+          "date": "2020-05-05",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/dazzle-rocks/__L7x89K7h8phFjIsrRIzOTqm2bwGg6o6fSicAT6zGeNI",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.crunchbase.com/organization/dazzle-rocks",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.crunchbase.com/person/ken-lamb",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.crunchbase.com/organization/eos-vc-fund/investor_summary/overview_timeline",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/162889-66",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "founders": [
+        {
+          "name": "Stella Wang",
+          "linkedinUrl": "https://linkedin.com/in/stellarocks",
+          "via": "exa+gemini",
+          "evidence": "CEO, Co-Founder at Dazzle Rocks, Dazzle Rocks",
+          "sources": [
+            {
+              "url": "https://linkedin.com/in/stellarocks",
+              "name": "linkedin.com"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://tracxn.com/d/companies/dazzle-rocks/__L7x89K7h8phFjIsrRIzOTqm2bwGg6o6fSicAT6zGeNI",
+          "name": "tracxn.com",
+          "date": "2026-08-25"
+        },
+        {
+          "url": "https://www.crunchbase.com/organization/dazzle-rocks",
+          "name": "www.crunchbase.com",
+          "date": "2026-08-25"
+        },
+        {
+          "url": "https://www.crunchbase.com/person/ken-lamb",
+          "name": "www.crunchbase.com",
+          "date": "2026-08-25"
+        },
+        {
+          "url": "https://www.crunchbase.com/organization/eos-vc-fund/investor_summary/overview_timeline",
+          "name": "www.crunchbase.com",
+          "date": "2026-08-25"
+        },
+        {
+          "url": "https://pitchbook.com/profiles/company/162889-66",
+          "name": "pitchbook.com",
+          "date": "2026-08-25"
+        }
+      ],
+      "state": "enriched",
+      "description": "Mobile game studio focused on puzzle games with match-3 mechanics",
+      "lastRoundDate": "2020-05-05"
+    },
+    {
+      "calaId": "7d7f02ed-d2e1-4a82-8feb-d721c8b2c64e",
+      "name": "DIGITAIL COMMERCE LIMITED",
+      "rounds": [],
+      "signals": [
+        {
+          "kind": "status",
+          "text": "Cala status: ACTIVE",
+          "sources": [
+            {
+              "url": "https://find-and-update.company-information.service.gov.uk/company/13852209",
+              "name": "Companies House UK",
+              "date": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "founders": [],
+      "sources": [
+        {
+          "url": "https://nordic9.com/news/abacum-raised-25-million-in-a-series-a-round-led-by-atomico",
+          "name": "Discover what happens on the European investment scene",
+          "date": "2026-06-29"
+        }
+      ],
+      "state": "enriched",
+      "description": "British consulting firm founded in 2022 and headquartered in London."
+    },
+    {
+      "calaId": "7e249878-5e48-480a-97d1-1dcd83c737e2",
+      "name": "Eduflow",
+      "rounds": [
+        {
+          "calaId": "30583b4c-1ab3-43f0-8834-71b082e64c72",
+          "label": "Funding round",
+          "date": "2026-07-29",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://www.crunchbase.com/organization/eduflow",
+              "name": "www.crunchbase.com",
+              "date": "2026-07-29"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/eduflow/__V39gArZNVsvRouiFuSixfJEhyaj69AhpZ-hbKdPJLfI",
+              "name": "tracxn.com",
+              "date": "2026-07-29"
+            },
+            {
+              "url": "https://tracxn.com/d/venture-capital/byfounders/__Eet_bbAPdI-x4P5NkGsAqoxqsPeqGZoiSVjT0OkA0fo",
+              "name": "tracxn.com",
+              "date": "2026-07-29"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-07",
+          "date": "2026-07-29",
+          "sources": [
+            {
+              "url": "https://www.crunchbase.com/organization/eduflow",
+              "name": "www.crunchbase.com",
+              "date": "2026-07-29"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/eduflow/__V39gArZNVsvRouiFuSixfJEhyaj69AhpZ-hbKdPJLfI",
+              "name": "tracxn.com",
+              "date": "2026-07-29"
+            },
+            {
+              "url": "https://tracxn.com/d/venture-capital/byfounders/__Eet_bbAPdI-x4P5NkGsAqoxqsPeqGZoiSVjT0OkA0fo",
+              "name": "tracxn.com",
+              "date": "2026-07-29"
+            }
+          ]
+        },
+        {
+          "kind": "status",
+          "text": "Cala status: INACTIVE",
+          "sources": [
+            {
+              "url": "https://github.com/yc-oss/api",
+              "name": "Y Combinator",
+              "date": "2026-07-25"
+            }
+          ]
+        }
+      ],
+      "founders": [
+        {
+          "name": "Simon Lind",
+          "via": "cala",
+          "evidence": "Cala: FOUNDED",
+          "sources": [
+            {
+              "url": "https://www.ycombinator.com/companies/eduflow",
+              "name": "Eduflow: Create and run collaborative online learning experiences. | Y Combinator",
+              "date": "2022-07-22"
+            },
+            {
+              "url": "https://www.byfounders.vc/portfolio/eduflow",
+              "name": "byFounders Portfolio Company → Eduflow",
+              "date": "2018-01-01"
+            },
+            {
+              "url": "https://www.starterstory.com/stories/eduflow",
+              "name": "How We Built & Scaled Our Learning Platform SaaS To More Than 1,000 Customers - Starter Story",
+              "date": "2022-10-21"
+            }
+          ]
+        },
+        {
+          "name": "Malthe Jørgensen",
+          "via": "cala",
+          "evidence": "Cala: FOUNDED",
+          "sources": [
+            {
+              "url": "https://www.ycombinator.com/companies/eduflow",
+              "name": "Eduflow: Create and run collaborative online learning experiences. | Y Combinator",
+              "date": "2022-07-22"
+            },
+            {
+              "url": "https://www.byfounders.vc/portfolio/eduflow",
+              "name": "byFounders Portfolio Company → Eduflow",
+              "date": "2018-01-01"
+            },
+            {
+              "url": "https://blog.digitalhubdenmark.dk/eduflow-facilitates-interactive-e-learning-experiences-with-educational-technolog",
+              "name": "blog.digitalhubdenmark.dk",
+              "date": "2026-07-29"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.crunchbase.com/organization/eduflow",
+          "name": "www.crunchbase.com",
+          "date": "2026-07-29"
+        },
+        {
+          "url": "https://tracxn.com/d/companies/eduflow/__V39gArZNVsvRouiFuSixfJEhyaj69AhpZ-hbKdPJLfI",
+          "name": "tracxn.com",
+          "date": "2026-07-29"
+        },
+        {
+          "url": "https://tracxn.com/d/venture-capital/byfounders/__Eet_bbAPdI-x4P5NkGsAqoxqsPeqGZoiSVjT0OkA0fo",
+          "name": "tracxn.com",
+          "date": "2026-07-29"
+        }
+      ],
+      "state": "enriched",
+      "description": "Create and run collaborative online learning experiences.",
+      "lastRoundDate": "2026-07-29"
+    },
+    {
+      "calaId": "89d3a43c-fee4-4491-853e-a216cbef6c50",
+      "name": "Lovable",
+      "rounds": [
+        {
+          "calaId": "23de104b-0c81-452f-bde8-bdd14551fcef",
+          "label": "Funding round",
+          "date": "2026-08-12",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m",
+              "name": "Lovable confirms new $13.3B valuation, raises another $400M | TechCrunch",
+              "date": "2026-08-12"
+            },
+            {
+              "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-databricks-river-ai-data-energy",
+              "name": "news.crunchbase.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/lovable/__fO6WUvzcx5q3814ietMd3kzGlRirsatzsTnpxmzLuMI",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/600908-32",
+              "name": "pitchbook.com",
+              "date": "2026-08-24"
+            }
+          ]
+        },
+        {
+          "calaId": "1b33a0e9-2fc8-4a54-bb9a-2a2c526980ae",
+          "label": "Funding round",
+          "date": "2025-12-18",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2025/12/18/vibe-coding-startup-lovable-raises-330m-at-a-6-6b-valuation",
+              "name": "Vibe-coding startup Lovable raises $330M at a $6.6B valuation | TechCrunch",
+              "date": "2025-12-18"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/lovable/__fO6WUvzcx5q3814ietMd3kzGlRirsatzsTnpxmzLuMI",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://www.linkedin.com/posts/kains_vibe-coding-startup-lovables-latest-funding-activity-7406736578011664384-ad9r",
+              "name": "Lovable's $6.6B Valuation Surpasses Previous $1.8B | Kai Nicol-Schwarz posted on the topic | LinkedIn",
+              "date": "2025-12-16"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/600908-32",
+              "name": "pitchbook.com",
+              "date": "2026-08-24"
+            }
+          ]
+        },
+        {
+          "calaId": "71ac7962-920a-4d58-a75b-b5f537ff7372",
+          "label": "Funding round",
+          "date": "2025-07-17",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://news.crunchbase.com/ai/vibe-coding-startup-lovable-unicorn-status",
+              "name": "news.crunchbase.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://techcrunch.com/2025/11/19/as-lovable-hits-200m-arr-its-ceo-credits-staying-in-europe-for-its-success",
+              "name": "As Lovable hits $200M ARR, its CEO credits staying in Europe for its success | TechCrunch",
+              "date": "2025-11-19"
+            },
+            {
+              "url": "https://techcrunch.com/2025/07/02/lovable-on-track-to-raise-150m-at-2b-valuation",
+              "name": "Lovable on track to raise $150M at $2B valuation | TechCrunch",
+              "date": "2025-07-02"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/600908-32",
+              "name": "pitchbook.com",
+              "date": "2026-08-24"
+            }
+          ]
+        },
+        {
+          "calaId": "c3770ef3-8bd1-4992-affe-5f328ca1e851",
+          "label": "Funding round",
+          "date": "2025-02-13",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2025/02/25/swedens-lovable-an-app-building-ai-platform-rakes-in-16m-after-spectacular-growth",
+              "name": "Sweden's Lovable, an app-building AI platform, rakes in $15M after spectacular growth | TechCrunch",
+              "date": "2025-02-25"
+            },
+            {
+              "url": "https://news.crunchbase.com/ai/vibe-coding-startup-lovable-unicorn-status",
+              "name": "news.crunchbase.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/600908-32",
+              "name": "pitchbook.com",
+              "date": "2026-08-24"
+            }
+          ]
+        },
+        {
+          "calaId": "2fb8136e-b7ae-4d43-8c56-85b2dbbc4dad",
+          "label": "Funding round",
+          "date": "2024-10-07",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2025/02/25/swedens-lovable-an-app-building-ai-platform-rakes-in-16m-after-spectacular-growth",
+              "name": "Sweden's Lovable, an app-building AI platform, rakes in $15M after spectacular growth | TechCrunch",
+              "date": "2025-02-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/lovable/__fO6WUvzcx5q3814ietMd3kzGlRirsatzsTnpxmzLuMI",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            }
+          ]
+        },
+        {
+          "calaId": "c551fd35-9c8f-426b-95e5-539228109fcf",
+          "label": "Funding round",
+          "date": "2024-06-07",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://pitchbook.com/profiles/company/600908-32",
+              "name": "pitchbook.com",
+              "date": "2026-08-24"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-08",
+          "date": "2026-08-12",
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m",
+              "name": "Lovable confirms new $13.3B valuation, raises another $400M | TechCrunch",
+              "date": "2026-08-12"
+            },
+            {
+              "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-databricks-river-ai-data-energy",
+              "name": "news.crunchbase.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/lovable/__fO6WUvzcx5q3814ietMd3kzGlRirsatzsTnpxmzLuMI",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/600908-32",
+              "name": "pitchbook.com",
+              "date": "2026-08-24"
+            }
+          ]
+        }
+      ],
+      "founders": [
+        {
+          "name": "Anton Osika",
+          "via": "cala",
+          "evidence": "Cala: FOUNDED",
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Lovable_(company)",
+              "name": "en.wikipedia.org",
+              "date": "2026-08-20"
+            },
+            {
+              "url": "https://www.forbes.com/sites/aliciapark/2025/12/19/ai-startup-lovable-just-minted-one-of-europes-youngest-ever-self-made-billionaires",
+              "name": "Two Cofounders of AI ‘Vibe Coding’ Startup Lovable Are Now Billionaires",
+              "date": "2025-12-19"
+            },
+            {
+              "url": "https://techcrunch.com/2025/02/25/swedens-lovable-an-app-building-ai-platform-rakes-in-16m-after-spectacular-growth",
+              "name": "Sweden's Lovable, an app-building AI platform, rakes in $15M after spectacular growth | TechCrunch",
+              "date": "2025-02-25"
+            },
+            {
+              "url": "https://news.crunchbase.com/ai/vibe-coding-startup-lovable-unicorn-status",
+              "name": "news.crunchbase.com",
+              "date": "2026-08-20"
+            },
+            {
+              "url": "https://startupintros.com/orgs/lovable",
+              "name": "Lovable: Funding, Team & Investors",
+              "date": "2026-07-13"
+            },
+            {
+              "url": "https://se.linkedin.com/in/antonosika",
+              "name": "se.linkedin.com",
+              "date": "2026-08-20"
+            }
+          ]
+        },
+        {
+          "name": "Fabian Hedin",
+          "via": "cala",
+          "evidence": "Cala: FOUNDED",
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Lovable_(company)",
+              "name": "en.wikipedia.org",
+              "date": "2026-08-20"
+            },
+            {
+              "url": "https://www.forbes.com/sites/aliciapark/2025/12/19/ai-startup-lovable-just-minted-one-of-europes-youngest-ever-self-made-billionaires",
+              "name": "Two Cofounders of AI ‘Vibe Coding’ Startup Lovable Are Now Billionaires",
+              "date": "2025-12-19"
+            },
+            {
+              "url": "https://techcrunch.com/2025/02/25/swedens-lovable-an-app-building-ai-platform-rakes-in-16m-after-spectacular-growth",
+              "name": "Sweden's Lovable, an app-building AI platform, rakes in $15M after spectacular growth | TechCrunch",
+              "date": "2025-02-25"
+            },
+            {
+              "url": "https://startupintros.com/orgs/lovable",
+              "name": "Lovable: Funding, Team & Investors",
+              "date": "2026-07-13"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2025/02/25/swedens-lovable-an-app-building-ai-platform-rakes-in-16m-after-spectacular-growth",
+          "name": "Sweden's Lovable, an app-building AI platform, rakes in $15M after spectacular growth | TechCrunch",
+          "date": "2025-02-25"
+        },
+        {
+          "url": "https://tracxn.com/d/companies/lovable/__fO6WUvzcx5q3814ietMd3kzGlRirsatzsTnpxmzLuMI",
+          "name": "tracxn.com",
+          "date": "2026-08-24"
+        }
+      ],
+      "state": "enriched",
+      "description": "A technology organization offering a no‑code platform that lets users create and maintain production‑ready applications and websites through natural‑language descriptions.",
+      "lastRoundDate": "2026-08-12"
+    },
+    {
+      "calaId": "a1a12886-3119-492f-801a-9bfb38143209",
+      "name": "Lovable",
+      "rounds": [
+        {
+          "calaId": "670a42e6-7395-461c-b49f-a5690505fc49",
+          "label": "Funding round",
+          "date": "2026-08-12",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m",
+              "name": "Lovable confirms new $13.3B valuation, raises another $400M | TechCrunch",
+              "date": "2026-08-12"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/lovable/__fO6WUvzcx5q3814ietMd3kzGlRirsatzsTnpxmzLuMI",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/600908-32",
+              "name": "pitchbook.com",
+              "date": "2026-08-24"
+            }
+          ]
+        },
+        {
+          "calaId": "34bbb7b5-e1be-4adf-93db-e725c9ab6e0b",
+          "label": "Funding round",
+          "date": "2025-12-18",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://lovable.dev/blog/series-b",
+              "name": "Lovable raises $330M to power the age of the builder | Lovable",
+              "date": "2026-08-12"
+            },
+            {
+              "url": "https://techcrunch.com/2025/12/18/vibe-coding-startup-lovable-raises-330m-at-a-6-6b-valuation",
+              "name": "Vibe-coding startup Lovable raises $330M at a $6.6B valuation | TechCrunch",
+              "date": "2025-12-18"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/lovable/__fO6WUvzcx5q3814ietMd3kzGlRirsatzsTnpxmzLuMI",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/600908-32",
+              "name": "pitchbook.com",
+              "date": "2026-08-24"
+            }
+          ]
+        },
+        {
+          "calaId": "06a7bcc2-78c4-4c07-bac1-1564dd1e4cee",
+          "label": "Funding round",
+          "date": "2025-07-17",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://news.crunchbase.com/ai/vibe-coding-startup-lovable-unicorn-status",
+              "name": "news.crunchbase.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://techcrunch.com/2025/07/02/lovable-on-track-to-raise-150m-at-2b-valuation",
+              "name": "Lovable on track to raise $150M at $2B valuation | TechCrunch",
+              "date": "2025-07-02"
+            },
+            {
+              "url": "https://techcrunch.com/2025/11/19/as-lovable-hits-200m-arr-its-ceo-credits-staying-in-europe-for-its-success",
+              "name": "As Lovable hits $200M ARR, its CEO credits staying in Europe for its success | TechCrunch",
+              "date": "2025-11-19"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/600908-32",
+              "name": "pitchbook.com",
+              "date": "2026-08-24"
+            }
+          ]
+        },
+        {
+          "calaId": "e3153f53-b57a-4b31-922e-be67b48cdbb8",
+          "label": "Funding round",
+          "date": "2025-02-25",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2025/02/25/swedens-lovable-an-app-building-ai-platform-rakes-in-16m-after-spectacular-growth",
+              "name": "Sweden's Lovable, an app-building AI platform, rakes in $15M after spectacular growth | TechCrunch",
+              "date": "2025-02-25"
+            },
+            {
+              "url": "https://news.crunchbase.com/ai/vibe-coding-startup-lovable-unicorn-status",
+              "name": "news.crunchbase.com",
+              "date": "2026-08-24"
+            }
+          ]
+        },
+        {
+          "calaId": "6a0eff74-0c18-4c11-bae6-2541bb9d933e",
+          "label": "Funding round",
+          "date": "2024-10-07",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2025/02/25/swedens-lovable-an-app-building-ai-platform-rakes-in-16m-after-spectacular-growth",
+              "name": "Sweden's Lovable, an app-building AI platform, rakes in $15M after spectacular growth | TechCrunch",
+              "date": "2025-02-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/lovable/__fO6WUvzcx5q3814ietMd3kzGlRirsatzsTnpxmzLuMI",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            }
+          ]
+        },
+        {
+          "calaId": "a3cef277-d698-4f66-a659-f36378b52685",
+          "label": "Funding round",
+          "date": "2024-06-07",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://pitchbook.com/profiles/company/600908-32",
+              "name": "pitchbook.com",
+              "date": "2026-08-24"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-08",
+          "date": "2026-08-12",
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m",
+              "name": "Lovable confirms new $13.3B valuation, raises another $400M | TechCrunch",
+              "date": "2026-08-12"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/lovable/__fO6WUvzcx5q3814ietMd3kzGlRirsatzsTnpxmzLuMI",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/600908-32",
+              "name": "pitchbook.com",
+              "date": "2026-08-24"
+            }
+          ]
+        }
+      ],
+      "founders": [
+        {
+          "name": "Anton Osika",
+          "via": "cala",
+          "evidence": "Cala: FOUNDED",
+          "sources": [
+            {
+              "url": "https://slush.org/program/anton-osika",
+              "name": "Slush",
+              "date": "2025-01-01"
+            },
+            {
+              "url": "https://se.linkedin.com/in/antonosika",
+              "name": "Anton Osika - On a mission to empower anyone to create. | LinkedIn",
+              "date": "2026-05-08"
+            },
+            {
+              "url": "https://www.forbes.com/profile/anton-osika/",
+              "name": "Anton Osika",
+              "date": "2026-03-10"
+            },
+            {
+              "url": "https://www.inc.com/chloe-aiello/5-things-to-know-about-anton-osika-co-founder-of-the-vibe-coding-unicorn-lovable/91223446",
+              "name": "www.inc.com",
+              "date": "2026-05-11"
+            }
+          ]
+        },
+        {
+          "name": "Fabian Hedin",
+          "linkedinUrl": "https://linkedin.com/in/fabian-hedin-2377b0144",
+          "via": "exa+gemini",
+          "evidence": "Co-Founder, Lovable",
+          "sources": [
+            {
+              "url": "https://linkedin.com/in/fabian-hedin-2377b0144",
+              "name": "linkedin.com"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2025/02/25/swedens-lovable-an-app-building-ai-platform-rakes-in-16m-after-spectacular-growth",
+          "name": "Sweden's Lovable, an app-building AI platform, rakes in $15M after spectacular growth | TechCrunch",
+          "date": "2025-02-25"
+        },
+        {
+          "url": "https://tracxn.com/d/companies/lovable/__fO6WUvzcx5q3814ietMd3kzGlRirsatzsTnpxmzLuMI",
+          "name": "tracxn.com",
+          "date": "2026-08-24"
+        }
+      ],
+      "state": "enriched",
+      "description": "Swedish AI startup founded in 2024 that provides an AI coding platform, headquartered in Stockholm.",
+      "lastRoundDate": "2026-08-12"
+    },
+    {
+      "calaId": "a88b0150-bad9-41b2-a39a-23ce2677c76c",
+      "name": "Smitten Technologies, Inc.",
+      "rounds": [],
+      "signals": [
+        {
+          "kind": "status",
+          "text": "Cala status: ACTIVE",
+          "sources": [
+            {
+              "url": "https://smitten.fun/",
+              "name": "smitten.fun",
+              "date": "2026-11-02"
+            }
+          ]
+        }
+      ],
+      "founders": [],
+      "sources": [
+        {
+          "url": "https://www.northstack.is/smitten-raises-2-7m-in-a-funding-round-led-by-byfounders/",
+          "name": "northstack.is",
+          "date": "2021-06-18"
+        }
+      ],
+      "state": "enriched",
+      "description": "Smitten is a dating app with icebreaker games on profiles. Play someone's game, and if you match, your result lands in the chat to start the conversation."
+    },
+    {
+      "calaId": "ababa791-215e-45cd-b6db-15374d6bb6b0",
+      "name": "Rumli",
+      "rounds": [
+        {
+          "calaId": "014bad60-447a-4802-8a7e-cb6cf7b74b53",
+          "label": "Funding round",
+          "date": "2022-11-18",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://arcticstartup.com/proper-raises-e3m-seed",
+              "name": "arcticstartup.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://tech.eu/2022/11/18/danish-proptech-proper",
+              "name": "Danish proptech Proper eyes European growth, following €3 million seed raise",
+              "date": "2022-11-18"
+            }
+          ]
+        },
+        {
+          "calaId": "a7c33c23-5186-4324-8870-9518c1500929",
+          "label": "Funding round",
+          "date": "2021-03-11",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://www.byfounders.vc/portfolio/proper",
+              "name": "byFounders Portfolio Company → Proper",
+              "date": "2021-02-21"
+            },
+            {
+              "url": "https://arcticstartup.com/proper-raises-e3m-seed",
+              "name": "arcticstartup.com",
+              "date": "2026-08-24"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2022-11",
+          "date": "2022-11-18",
+          "sources": [
+            {
+              "url": "https://arcticstartup.com/proper-raises-e3m-seed",
+              "name": "arcticstartup.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://tech.eu/2022/11/18/danish-proptech-proper",
+              "name": "Danish proptech Proper eyes European growth, following €3 million seed raise",
+              "date": "2022-11-18"
+            }
+          ]
+        }
+      ],
+      "founders": [
+        {
+          "name": "Morten Krarup",
+          "linkedinUrl": "https://linkedin.com/in/krarupmorten",
+          "via": "exa+gemini",
+          "evidence": "Co-Founder, Rumli",
+          "sources": [
+            {
+              "url": "https://linkedin.com/in/krarupmorten",
+              "name": "linkedin.com"
+            }
+          ]
+        },
+        {
+          "name": "Jacob Funch",
+          "linkedinUrl": "https://linkedin.com/in/jacobfunch",
+          "via": "exa+gemini",
+          "evidence": "Co-founder, Rumli",
+          "sources": [
+            {
+              "url": "https://linkedin.com/in/jacobfunch",
+              "name": "linkedin.com"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.byfounders.vc/portfolio/proper",
+          "name": "byFounders Portfolio Company → Proper",
+          "date": "2021-02-21"
+        },
+        {
+          "url": "https://arcticstartup.com/proper-raises-e3m-seed",
+          "name": "arcticstartup.com",
+          "date": "2026-08-24"
+        }
+      ],
+      "state": "enriched",
+      "description": "Tech-led property management roll-up across the Nordics.",
+      "lastRoundDate": "2022-11-18"
+    },
+    {
+      "calaId": "b79d6f8a-e9bd-513c-b478-b7be11decaef",
+      "name": "Willo",
+      "rounds": [],
+      "signals": [
+        {
+          "kind": "status",
+          "text": "Cala status: ACTIVE",
+          "sources": [
+            {
+              "url": "https://willo.tech",
+              "name": "willo.tech",
+              "date": "2026-11-04"
+            }
+          ]
+        }
+      ],
+      "founders": [],
+      "sources": [
+        {
+          "url": "https://tech.eu/2026/02/05/willo-secures-eur29m-to-commercialise-alignment-free-wireless-power/",
+          "name": "tech.eu",
+          "date": "2026-02-05"
+        },
+        {
+          "url": "https://www.arctictoday.com/%F0%9F%87%AB%F0%9F%87%AE-willo-weve-secured-e2-9-million-for-our-pre-seed-round/",
+          "name": "arctictoday.com",
+          "date": "2026-02-06"
+        },
+        {
+          "url": "https://willo.tech/",
+          "name": "willo.tech",
+          "date": "2026-11-09"
+        }
+      ],
+      "state": "enriched",
+      "description": "Wireless power delivery (\"Wi-Fi for power\"), multi-device, no line of sight."
+    },
+    {
+      "calaId": "b8aa7b90-0445-4265-8b4e-e65fc4e28f88",
+      "name": "Utopos Games",
+      "rounds": [
+        {
+          "calaId": "2dcf485d-329c-4fd1-9bf9-59002fcd6997",
+          "label": "Funding round",
+          "date": "2019-10-08",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/utoposgames/__wOOKLUdD9ARBLM8u8mbk8oY-aMcQHzgTBou7DmW7pK0",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/utoposgames/__wOOKLUdD9ARBLM8u8mbk8oY-aMcQHzgTBou7DmW7pK0/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2019-10",
+          "date": "2019-10-08",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/utoposgames/__wOOKLUdD9ARBLM8u8mbk8oY-aMcQHzgTBou7DmW7pK0",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/utoposgames/__wOOKLUdD9ARBLM8u8mbk8oY-aMcQHzgTBou7DmW7pK0/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "founders": [
+        {
+          "name": "John Comes",
+          "linkedinUrl": "https://www.linkedin.com/in/john-comes",
+          "via": "exa+gemini",
+          "evidence": "Co-founder, Creative Director, Game Director, Utopos Games",
+          "sources": [
+            {
+              "url": "https://www.linkedin.com/in/john-comes",
+              "name": "linkedin.com"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://tracxn.com/d/companies/utoposgames/__wOOKLUdD9ARBLM8u8mbk8oY-aMcQHzgTBou7DmW7pK0",
+          "name": "tracxn.com",
+          "date": "2026-08-25"
+        },
+        {
+          "url": "https://tracxn.com/d/companies/utoposgames/__wOOKLUdD9ARBLM8u8mbk8oY-aMcQHzgTBou7DmW7pK0/funding-and-investors",
+          "name": "tracxn.com",
+          "date": "2026-08-25"
+        }
+      ],
+      "state": "enriched",
+      "description": "Game development studio",
+      "lastRoundDate": "2019-10-08"
+    },
+    {
+      "calaId": "d6725096-d466-498d-9aa4-271f5983f4b8",
+      "name": "Lovable",
+      "rounds": [],
+      "signals": [
+        {
+          "kind": "status",
+          "text": "Cala status: ACTIVE",
+          "sources": [
+            {
+              "url": "https://lovable.dev/blog/radish-ai-team-joins-lovable",
+              "name": "lovable.dev",
+              "date": "2026-11-09"
+            },
+            {
+              "url": "https://www.sec.gov/Archives/edgar/data/2055162/000205516225000001/primary_doc.xml",
+              "name": "sec.gov",
+              "date": "2025-02-14"
+            }
+          ]
+        }
+      ],
+      "founders": [],
+      "sources": [
+        {
+          "url": "https://tech.eu/2024/10/07/lovable-raises-7-5m-for-gpt-engineer/",
+          "name": "tech.eu",
+          "date": "2024-10-07"
+        },
+        {
+          "url": "https://techcrunch.com/2025/02/25/swedens-lovable-an-app-building-ai-platform-rakes-in-16m-after-spectacular-growth/",
+          "name": "techcrunch.com",
+          "date": "2025-02-25"
+        }
+      ],
+      "state": "enriched",
+      "description": "A Stockholm-based software and services company that provides AI development tools."
+    },
+    {
+      "calaId": "dfd72d7f-3ceb-52ba-8e48-af7414f4f89b",
+      "name": "MAKIINA",
+      "rounds": [],
+      "signals": [
+        {
+          "kind": "status",
+          "text": "Cala status: ACTIVE",
+          "sources": [
+            {
+              "url": "https://makiina.com/",
+              "name": "makiina.com",
+              "date": "2026-11-02"
+            }
+          ]
+        }
+      ],
+      "founders": [],
+      "sources": [
+        {
+          "url": "https://nordic9.com/news/aql-robotics-in-a-800000-pre-seed-round-led-by-fov-ventures/",
+          "name": "nordic9.com",
+          "date": "2024-06-16"
+        },
+        {
+          "url": "https://thehub.io/startups/aql-robotics",
+          "name": "thehub.io",
+          "date": "2026-11-12"
+        }
+      ],
+      "state": "enriched",
+      "description": "MAKIINA designs and manufactures a low cost dual arm robot system for AI and teleoperation, and a 22 Nm robot actuator with integrated motor driver. Designed, manufactured and assembled in Finland."
+    },
+    {
+      "calaId": "e9513db0-86a1-4f4f-b8fd-540404a32c2a",
+      "name": "Aumio",
+      "rounds": [
+        {
+          "calaId": "5c7bd9bc-b907-4d99-ada6-7d3297445f57",
+          "label": "Funding round",
+          "date": "2026-08-25",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/aumio/__AKGeqCJbVx8YD4dQZ3C38aPMxnI82TqNjIz8AzH_xEg/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        },
+        {
+          "calaId": "fa982efa-6582-4769-af1d-fd76fd349036",
+          "label": "Funding round",
+          "date": "2022-05-19",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2022/06/04/for-mental-health-startups-happiness-is-in-niches",
+              "name": "For mental health startups, happiness is in niches",
+              "date": "2022-06-04"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/aumio/__AKGeqCJbVx8YD4dQZ3C38aPMxnI82TqNjIz8AzH_xEg/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.crunchbase.com/funding_round/aumio-seed--8219408c",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/399040-30",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            }
+          ]
+        },
+        {
+          "calaId": "5b868c45-81b2-4168-926f-bc30ecd44e99",
+          "label": "Funding round",
+          "date": "2020-06-02",
+          "fundIsLead": null,
+          "coInvestors": [],
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/aumio/__AKGeqCJbVx8YD4dQZ3C38aPMxnI82TqNjIz8AzH_xEg/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-08",
+          "date": "2026-08-25",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/aumio/__AKGeqCJbVx8YD4dQZ3C38aPMxnI82TqNjIz8AzH_xEg/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "founders": [
+        {
+          "name": "Simon Senkl-Zieger",
+          "linkedinUrl": "https://linkedin.com/in/simon-senkl",
+          "via": "exa+gemini",
+          "evidence": "Co-Founder, Aumio",
+          "sources": [
+            {
+              "url": "https://linkedin.com/in/simon-senkl",
+              "name": "linkedin.com"
+            }
+          ]
+        },
+        {
+          "name": "Jean Ochel",
+          "linkedinUrl": "https://linkedin.com/in/jeanochel",
+          "via": "exa+gemini",
+          "evidence": "Co-Founder, Aumio",
+          "sources": [
+            {
+              "url": "https://linkedin.com/in/jeanochel",
+              "name": "linkedin.com"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2022/06/04/for-mental-health-startups-happiness-is-in-niches",
+          "name": "For mental health startups, happiness is in niches",
+          "date": "2022-06-04"
+        },
+        {
+          "url": "https://tracxn.com/d/companies/aumio/__AKGeqCJbVx8YD4dQZ3C38aPMxnI82TqNjIz8AzH_xEg/funding-and-investors",
+          "name": "tracxn.com",
+          "date": "2026-08-25"
+        },
+        {
+          "url": "https://www.crunchbase.com/funding_round/aumio-seed--8219408c",
+          "name": "www.crunchbase.com",
+          "date": "2026-08-25"
+        },
+        {
+          "url": "https://pitchbook.com/profiles/company/399040-30",
+          "name": "pitchbook.com",
+          "date": "2026-08-25"
+        }
+      ],
+      "state": "enriched",
+      "description": "Aumio is the ultimate sleep and mindfulness app for children, helping them to grow up healthy, self-confident, and less stressed. The child-friendly app is already enjoyed by more than 200,000 familie",
+      "lastRoundDate": "2026-08-25"
+    },
+    {
+      "calaId": "ef8a4b73-656c-4ed9-a74b-a62a7b3b112b",
+      "name": "Fluencify",
+      "rounds": [],
+      "signals": [
+        {
+          "kind": "status",
+          "text": "Cala status: ACTIVE",
+          "sources": [
+            {
+              "url": "https://fluencify.io/",
+              "name": "fluencify.io",
+              "date": "2026-11-03"
+            },
+            {
+              "url": "https://tech.eu/2026/09/07/fluencify-secures-43m-to-scale-its-creator-campaign-platform/",
+              "name": "tech.eu",
+              "date": "2026-09-07"
+            }
+          ]
+        }
+      ],
+      "founders": [],
+      "sources": [
+        {
+          "url": "https://thenextweb.com/news/fluencify-4-3m-pre-seed-byfounders",
+          "name": "TNW | The heart of tech",
+          "date": "2026-09-13"
+        },
+        {
+          "url": "https://tech.eu/2026/09/07/fluencify-secures-43m-to-scale-its-creator-campaign-platform/",
+          "name": "tech.eu",
+          "date": "2026-09-07"
+        },
+        {
+          "url": "https://thesaasnews.com/news/fluencify-raises-4-3m-pre-seed",
+          "name": "thesaasnews.com",
+          "date": "2026-09-07"
+        },
+        {
+          "url": "https://startuprise.co.uk/fluencify-raises-4-3-million-to-expand-in-the-us-and-grow-its-creator-network/",
+          "name": "startuprise.co.uk",
+          "date": "2026-09-07"
+        }
+      ],
+      "state": "enriched",
+      "description": "Fluencify runs your entire creator program end to end — briefing, matching, quality control, distribution and payouts. Your team only sets the direction."
+    }
+  ],
+  "callList": [
+    {
+      "companyId": "1717c90d-b82b-4220-9e94-4eab13085fcd",
+      "companyName": "Outfunnel",
+      "founder": {
+        "name": "Andrus Purde",
+        "linkedinUrl": "https://linkedin.com/in/andruspurde",
+        "via": "exa+gemini",
+        "evidence": "Co-founder/CEO, Outfunnel",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/andruspurde",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-08",
+          "date": "2026-08-25",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/outfunnel/__t0X4HE_hQxRjtPg4sSnju_UQwj8PSntfkzm7MFml1fE",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/outfunnel/__t0X4HE_hQxRjtPg4sSnju_UQwj8PSntfkzm7MFml1fE/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "The last round in our sources is 2026-08. What financing decisions followed, and how was byFounders involved?",
+        "Can you give a concrete example of what byFounders did when you needed support, and what you wished it had done differently?",
+        "Would you choose byFounders again? What should a founder clarify before signing?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "1717c90d-b82b-4220-9e94-4eab13085fcd",
+      "companyName": "Outfunnel",
+      "founder": {
+        "name": "Markus Frank Leming",
+        "linkedinUrl": "https://ee.linkedin.com/in/markusleming",
+        "via": "exa+gemini",
+        "evidence": "Co-founder and Head of Product, Outfunnel",
+        "sources": [
+          {
+            "url": "https://ee.linkedin.com/in/markusleming",
+            "name": "ee.linkedin.com"
+          }
+        ]
+      },
+      "group": "recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-08",
+          "date": "2026-08-25",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/outfunnel/__t0X4HE_hQxRjtPg4sSnju_UQwj8PSntfkzm7MFml1fE",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/outfunnel/__t0X4HE_hQxRjtPg4sSnju_UQwj8PSntfkzm7MFml1fE/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "The last round in our sources is 2026-08. What financing decisions followed, and how was byFounders involved?",
+        "Can you give a concrete example of what byFounders did when you needed support, and what you wished it had done differently?",
+        "Would you choose byFounders again? What should a founder clarify before signing?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "e9513db0-86a1-4f4f-b8fd-540404a32c2a",
+      "companyName": "Aumio",
+      "founder": {
+        "name": "Simon Senkl-Zieger",
+        "linkedinUrl": "https://linkedin.com/in/simon-senkl",
+        "via": "exa+gemini",
+        "evidence": "Co-Founder, Aumio",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/simon-senkl",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-08",
+          "date": "2026-08-25",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/aumio/__AKGeqCJbVx8YD4dQZ3C38aPMxnI82TqNjIz8AzH_xEg/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "The last round in our sources is 2026-08. What financing decisions followed, and how was byFounders involved?",
+        "Can you give a concrete example of what byFounders did when you needed support, and what you wished it had done differently?",
+        "Would you choose byFounders again? What should a founder clarify before signing?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "e9513db0-86a1-4f4f-b8fd-540404a32c2a",
+      "companyName": "Aumio",
+      "founder": {
+        "name": "Jean Ochel",
+        "linkedinUrl": "https://linkedin.com/in/jeanochel",
+        "via": "exa+gemini",
+        "evidence": "Co-Founder, Aumio",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/jeanochel",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-08",
+          "date": "2026-08-25",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/aumio/__AKGeqCJbVx8YD4dQZ3C38aPMxnI82TqNjIz8AzH_xEg/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "The last round in our sources is 2026-08. What financing decisions followed, and how was byFounders involved?",
+        "Can you give a concrete example of what byFounders did when you needed support, and what you wished it had done differently?",
+        "Would you choose byFounders again? What should a founder clarify before signing?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "ababa791-215e-45cd-b6db-15374d6bb6b0",
+      "companyName": "Rumli",
+      "founder": {
+        "name": "Morten Krarup",
+        "linkedinUrl": "https://linkedin.com/in/krarupmorten",
+        "via": "exa+gemini",
+        "evidence": "Co-Founder, Rumli",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/krarupmorten",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "no_recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2022-11",
+          "date": "2022-11-18",
+          "sources": [
+            {
+              "url": "https://arcticstartup.com/proper-raises-e3m-seed",
+              "name": "arcticstartup.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://tech.eu/2022/11/18/danish-proptech-proper",
+              "name": "Danish proptech Proper eyes European growth, following €3 million seed raise",
+              "date": "2022-11-18"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "The last round in our sources is 2022-11. What financing decisions followed, and how was byFounders involved?",
+        "Can you give a concrete example of what byFounders did when you needed support, and what you wished it had done differently?",
+        "Would you choose byFounders again? What should a founder clarify before signing?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "ababa791-215e-45cd-b6db-15374d6bb6b0",
+      "companyName": "Rumli",
+      "founder": {
+        "name": "Jacob Funch",
+        "linkedinUrl": "https://linkedin.com/in/jacobfunch",
+        "via": "exa+gemini",
+        "evidence": "Co-founder, Rumli",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/jacobfunch",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "no_recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2022-11",
+          "date": "2022-11-18",
+          "sources": [
+            {
+              "url": "https://arcticstartup.com/proper-raises-e3m-seed",
+              "name": "arcticstartup.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://tech.eu/2022/11/18/danish-proptech-proper",
+              "name": "Danish proptech Proper eyes European growth, following €3 million seed raise",
+              "date": "2022-11-18"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "The last round in our sources is 2022-11. What financing decisions followed, and how was byFounders involved?",
+        "Can you give a concrete example of what byFounders did when you needed support, and what you wished it had done differently?",
+        "Would you choose byFounders again? What should a founder clarify before signing?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "89d3a43c-fee4-4491-853e-a216cbef6c50",
+      "companyName": "Lovable",
+      "founder": {
+        "name": "Anton Osika",
+        "via": "cala",
+        "evidence": "Cala: FOUNDED",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Lovable_(company)",
+            "name": "en.wikipedia.org",
+            "date": "2026-08-20"
+          },
+          {
+            "url": "https://www.forbes.com/sites/aliciapark/2025/12/19/ai-startup-lovable-just-minted-one-of-europes-youngest-ever-self-made-billionaires",
+            "name": "Two Cofounders of AI ‘Vibe Coding’ Startup Lovable Are Now Billionaires",
+            "date": "2025-12-19"
+          },
+          {
+            "url": "https://techcrunch.com/2025/02/25/swedens-lovable-an-app-building-ai-platform-rakes-in-16m-after-spectacular-growth",
+            "name": "Sweden's Lovable, an app-building AI platform, rakes in $15M after spectacular growth | TechCrunch",
+            "date": "2025-02-25"
+          },
+          {
+            "url": "https://news.crunchbase.com/ai/vibe-coding-startup-lovable-unicorn-status",
+            "name": "news.crunchbase.com",
+            "date": "2026-08-20"
+          },
+          {
+            "url": "https://startupintros.com/orgs/lovable",
+            "name": "Lovable: Funding, Team & Investors",
+            "date": "2026-07-13"
+          },
+          {
+            "url": "https://se.linkedin.com/in/antonosika",
+            "name": "se.linkedin.com",
+            "date": "2026-08-20"
+          }
+        ]
+      },
+      "group": "recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-08",
+          "date": "2026-08-12",
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m",
+              "name": "Lovable confirms new $13.3B valuation, raises another $400M | TechCrunch",
+              "date": "2026-08-12"
+            },
+            {
+              "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-databricks-river-ai-data-energy",
+              "name": "news.crunchbase.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/lovable/__fO6WUvzcx5q3814ietMd3kzGlRirsatzsTnpxmzLuMI",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/600908-32",
+              "name": "pitchbook.com",
+              "date": "2026-08-24"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "The last round in our sources is 2026-08. What financing decisions followed, and how was byFounders involved?",
+        "Can you give a concrete example of what byFounders did when you needed support, and what you wished it had done differently?",
+        "Would you choose byFounders again? What should a founder clarify before signing?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "89d3a43c-fee4-4491-853e-a216cbef6c50",
+      "companyName": "Lovable",
+      "founder": {
+        "name": "Fabian Hedin",
+        "via": "cala",
+        "evidence": "Cala: FOUNDED",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Lovable_(company)",
+            "name": "en.wikipedia.org",
+            "date": "2026-08-20"
+          },
+          {
+            "url": "https://www.forbes.com/sites/aliciapark/2025/12/19/ai-startup-lovable-just-minted-one-of-europes-youngest-ever-self-made-billionaires",
+            "name": "Two Cofounders of AI ‘Vibe Coding’ Startup Lovable Are Now Billionaires",
+            "date": "2025-12-19"
+          },
+          {
+            "url": "https://techcrunch.com/2025/02/25/swedens-lovable-an-app-building-ai-platform-rakes-in-16m-after-spectacular-growth",
+            "name": "Sweden's Lovable, an app-building AI platform, rakes in $15M after spectacular growth | TechCrunch",
+            "date": "2025-02-25"
+          },
+          {
+            "url": "https://startupintros.com/orgs/lovable",
+            "name": "Lovable: Funding, Team & Investors",
+            "date": "2026-07-13"
+          }
+        ]
+      },
+      "group": "recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-08",
+          "date": "2026-08-12",
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m",
+              "name": "Lovable confirms new $13.3B valuation, raises another $400M | TechCrunch",
+              "date": "2026-08-12"
+            },
+            {
+              "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-databricks-river-ai-data-energy",
+              "name": "news.crunchbase.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/lovable/__fO6WUvzcx5q3814ietMd3kzGlRirsatzsTnpxmzLuMI",
+              "name": "tracxn.com",
+              "date": "2026-08-24"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/600908-32",
+              "name": "pitchbook.com",
+              "date": "2026-08-24"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "The last round in our sources is 2026-08. What financing decisions followed, and how was byFounders involved?",
+        "Can you give a concrete example of what byFounders did when you needed support, and what you wished it had done differently?",
+        "Would you choose byFounders again? What should a founder clarify before signing?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "7e249878-5e48-480a-97d1-1dcd83c737e2",
+      "companyName": "Eduflow",
+      "founder": {
+        "name": "Simon Lind",
+        "via": "cala",
+        "evidence": "Cala: FOUNDED",
+        "sources": [
+          {
+            "url": "https://www.ycombinator.com/companies/eduflow",
+            "name": "Eduflow: Create and run collaborative online learning experiences. | Y Combinator",
+            "date": "2022-07-22"
+          },
+          {
+            "url": "https://www.byfounders.vc/portfolio/eduflow",
+            "name": "byFounders Portfolio Company → Eduflow",
+            "date": "2018-01-01"
+          },
+          {
+            "url": "https://www.starterstory.com/stories/eduflow",
+            "name": "How We Built & Scaled Our Learning Platform SaaS To More Than 1,000 Customers - Starter Story",
+            "date": "2022-10-21"
+          }
+        ]
+      },
+      "group": "recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-07",
+          "date": "2026-07-29",
+          "sources": [
+            {
+              "url": "https://www.crunchbase.com/organization/eduflow",
+              "name": "www.crunchbase.com",
+              "date": "2026-07-29"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/eduflow/__V39gArZNVsvRouiFuSixfJEhyaj69AhpZ-hbKdPJLfI",
+              "name": "tracxn.com",
+              "date": "2026-07-29"
+            },
+            {
+              "url": "https://tracxn.com/d/venture-capital/byfounders/__Eet_bbAPdI-x4P5NkGsAqoxqsPeqGZoiSVjT0OkA0fo",
+              "name": "tracxn.com",
+              "date": "2026-07-29"
+            }
+          ]
+        },
+        {
+          "kind": "status",
+          "text": "Cala status: INACTIVE",
+          "sources": [
+            {
+              "url": "https://github.com/yc-oss/api",
+              "name": "Y Combinator",
+              "date": "2026-07-25"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "The last round in our sources is 2026-07. What financing decisions followed, and how was byFounders involved?",
+        "Can you give a concrete example of what byFounders did when you needed support, and what you wished it had done differently?",
+        "Would you choose byFounders again? What should a founder clarify before signing?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "7e249878-5e48-480a-97d1-1dcd83c737e2",
+      "companyName": "Eduflow",
+      "founder": {
+        "name": "Malthe Jørgensen",
+        "via": "cala",
+        "evidence": "Cala: FOUNDED",
+        "sources": [
+          {
+            "url": "https://www.ycombinator.com/companies/eduflow",
+            "name": "Eduflow: Create and run collaborative online learning experiences. | Y Combinator",
+            "date": "2022-07-22"
+          },
+          {
+            "url": "https://www.byfounders.vc/portfolio/eduflow",
+            "name": "byFounders Portfolio Company → Eduflow",
+            "date": "2018-01-01"
+          },
+          {
+            "url": "https://blog.digitalhubdenmark.dk/eduflow-facilitates-interactive-e-learning-experiences-with-educational-technolog",
+            "name": "blog.digitalhubdenmark.dk",
+            "date": "2026-07-29"
+          }
+        ]
+      },
+      "group": "recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2026-07",
+          "date": "2026-07-29",
+          "sources": [
+            {
+              "url": "https://www.crunchbase.com/organization/eduflow",
+              "name": "www.crunchbase.com",
+              "date": "2026-07-29"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/eduflow/__V39gArZNVsvRouiFuSixfJEhyaj69AhpZ-hbKdPJLfI",
+              "name": "tracxn.com",
+              "date": "2026-07-29"
+            },
+            {
+              "url": "https://tracxn.com/d/venture-capital/byfounders/__Eet_bbAPdI-x4P5NkGsAqoxqsPeqGZoiSVjT0OkA0fo",
+              "name": "tracxn.com",
+              "date": "2026-07-29"
+            }
+          ]
+        },
+        {
+          "kind": "status",
+          "text": "Cala status: INACTIVE",
+          "sources": [
+            {
+              "url": "https://github.com/yc-oss/api",
+              "name": "Y Combinator",
+              "date": "2026-07-25"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "The last round in our sources is 2026-07. What financing decisions followed, and how was byFounders involved?",
+        "Can you give a concrete example of what byFounders did when you needed support, and what you wished it had done differently?",
+        "Would you choose byFounders again? What should a founder clarify before signing?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "52a72b11-60a8-4fa8-833a-2715df7da42b",
+      "companyName": "Dazzle Rocks",
+      "founder": {
+        "name": "Stella Wang",
+        "linkedinUrl": "https://linkedin.com/in/stellarocks",
+        "via": "exa+gemini",
+        "evidence": "CEO, Co-Founder at Dazzle Rocks, Dazzle Rocks",
+        "sources": [
+          {
+            "url": "https://linkedin.com/in/stellarocks",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "no_recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2020-05",
+          "date": "2020-05-05",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/dazzle-rocks/__L7x89K7h8phFjIsrRIzOTqm2bwGg6o6fSicAT6zGeNI",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.crunchbase.com/organization/dazzle-rocks",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.crunchbase.com/person/ken-lamb",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://www.crunchbase.com/organization/eos-vc-fund/investor_summary/overview_timeline",
+              "name": "www.crunchbase.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://pitchbook.com/profiles/company/162889-66",
+              "name": "pitchbook.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "The last round in our sources is 2020-05. What financing decisions followed, and how was byFounders involved?",
+        "Can you give a concrete example of what byFounders did when you needed support, and what you wished it had done differently?",
+        "Would you choose byFounders again? What should a founder clarify before signing?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "b8aa7b90-0445-4265-8b4e-e65fc4e28f88",
+      "companyName": "Utopos Games",
+      "founder": {
+        "name": "John Comes",
+        "linkedinUrl": "https://www.linkedin.com/in/john-comes",
+        "via": "exa+gemini",
+        "evidence": "Co-founder, Creative Director, Game Director, Utopos Games",
+        "sources": [
+          {
+            "url": "https://www.linkedin.com/in/john-comes",
+            "name": "linkedin.com"
+          }
+        ]
+      },
+      "group": "no_recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2019-10",
+          "date": "2019-10-08",
+          "sources": [
+            {
+              "url": "https://tracxn.com/d/companies/utoposgames/__wOOKLUdD9ARBLM8u8mbk8oY-aMcQHzgTBou7DmW7pK0",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            },
+            {
+              "url": "https://tracxn.com/d/companies/utoposgames/__wOOKLUdD9ARBLM8u8mbk8oY-aMcQHzgTBou7DmW7pK0/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-08-25"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "The last round in our sources is 2019-10. What financing decisions followed, and how was byFounders involved?",
+        "Can you give a concrete example of what byFounders did when you needed support, and what you wished it had done differently?",
+        "Would you choose byFounders again? What should a founder clarify before signing?"
+      ],
+      "writing": []
+    },
+    {
+      "companyId": "3d3edba6-f4d7-432b-80d3-d07872e11def",
+      "companyName": "Verda",
+      "founder": {
+        "name": "Ruben Bryon",
+        "via": "cala",
+        "evidence": "Cala: FOUNDED",
+        "sources": [
+          {
+            "url": "https://verda.com/blog/verda-raises-189m",
+            "name": "verda.com",
+            "date": "2026-09-22"
+          },
+          {
+            "url": "https://verda.com/company",
+            "name": "verda.com",
+            "date": "2026-09-30"
+          }
+        ]
+      },
+      "group": "no_recent_round",
+      "why": [
+        {
+          "kind": "last_round",
+          "text": "Last recorded round: 2024-10",
+          "date": "2024-10-21",
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2024/10/21/datacrunch-wants-to-be-europes-first-ai-cloud-hyperscaler-powered-by-renewable-energy",
+              "name": "DataCrunch wants to be Europe's first AI cloud hyperscaler — powered by renewable energy | TechCrunch",
+              "date": "2024-10-21"
+            }
+          ]
+        },
+        {
+          "kind": "status",
+          "text": "Cala status: ACTIVE",
+          "sources": [
+            {
+              "url": "https://verda.com/blog/verda-raises-189m",
+              "name": "verda.com",
+              "date": "2026-09-22"
+            },
+            {
+              "url": "https://verda.com/",
+              "name": "verda.com",
+              "date": "2026-09-30"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        "The last round in our sources is 2024-10. What financing decisions followed, and how was byFounders involved?",
+        "Can you give a concrete example of what byFounders did when you needed support, and what you wished it had done differently?",
+        "Would you choose byFounders again? What should a founder clarify before signing?"
+      ],
+      "writing": []
+    }
+  ]
+}
