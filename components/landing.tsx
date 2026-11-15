@@ -133,7 +133,7 @@ export function Landing({ funds, onEnter, onSkip }: { funds: SkyFund[]; onEnter:
   const [going, setGoing] = useState(false);
   const [slide, setSlide] = useState(0);
   const shown = useRef(0);
-  const wheel = useRef({ last: 0, lock: 0, spent: 0, inner: 0, sum: 0 });
+  const wheel = useRef({ last: 0, lock: 0, spent: 0, inner: 0, sum: 0, recent: [] as number[] });
   const touch = useRef<{ y: number; top: boolean; bottom: boolean } | null>(null);
   const step = (d: number) => setSlide((n) => clampSlide(n + d));
 
@@ -168,6 +168,7 @@ export function Landing({ funds, onEnter, onSkip }: { funds: SkyFund[]; onEnter:
     document.fonts.ready.then(place);
     if (shown.current !== slide) {
       shown.current = slide;
+      sec.scrollTop = 0; // a slide always opens at its top
       sec.focus({ preventScroll: true }); // the control that had focus is on the slide that left
     }
     return () => {
@@ -195,27 +196,35 @@ export function Landing({ funds, onEnter, onSkip }: { funds: SkyFund[]; onEnter:
     return { top: sec.scrollTop <= 2, bottom: sec.scrollTop + sec.clientHeight >= sec.scrollHeight - 2 };
   };
   /**
-   * One slide per wheel gesture and direction. A trackpad sends many small deltas, so a swipe is judged on their running
-   * sum; and it keeps sending fading momentum for a second or more after the fingers leave, so once the deck has moved
-   * one way, further movement that way is ignored until the stream pauses. Movement the other way is a new swipe.
+   * One slide per swipe. A trackpad sends many small deltas, so a swipe is judged on their running sum. It also keeps
+   * sending fading momentum for a second or more after the fingers leave, so once the deck has moved one way, more
+   * movement that way is ignored until the stream pauses, or until the deltas climb to three times what they were a
+   * moment ago (the next flick, begun inside the momentum; momentum itself only fades). Movement the other way is
+   * always a new swipe.
    */
   function onWheel(e: WheelEvent) {
     const w = wheel.current;
     if (!e.deltaY) return;
     if (e.timeStamp - w.last > 160) Object.assign(w, { spent: 0, inner: 0, sum: 0 }); // a pause: everything starts afresh
     w.last = e.timeStamp;
-    const dir = Math.sign(e.deltaY), sec = root.current!.querySelectorAll<HTMLElement>("section")[slide];
+    const dir = Math.sign(e.deltaY), size = Math.abs(e.deltaY), sec = root.current!.querySelectorAll<HTMLElement>("section")[slide];
     const left = dir > 0 ? sec.scrollHeight - sec.clientHeight - sec.scrollTop : sec.scrollTop; // what the slide can still scroll that way
-    if (left > 2) {
-      // the slide is scrolling inside itself; more than a sliver of it and the rest of this swipe is the slide's own
-      if (left > 40) w.inner = dir;
-      w.sum = 0;
+    if (left > 160) {
+      // a slide with real content to scroll: the rest of this swipe is the slide's own
+      Object.assign(w, { inner: dir, sum: 0 });
       return;
     }
-    if (w.spent === dir || w.inner === dir || e.timeStamp < w.lock) return;
+    // (a slide only a little taller than the window scrolls that little and the same swipe moves on)
+    if (w.spent === dir) {
+      const floor = Math.min(...w.recent); // the smallest of the last few deltas this way
+      w.recent = [...w.recent.slice(-7), size];
+      if (e.timeStamp < w.lock || size < 12 || size < floor * 3) return;
+      w.spent = 0; // a fresh flick inside the last one's momentum
+    }
+    if (w.inner === dir || e.timeStamp < w.lock) return;
     w.sum = Math.sign(w.sum) === dir ? w.sum + e.deltaY : e.deltaY;
     if (Math.abs(w.sum) < 40) return;
-    Object.assign(w, { spent: dir, sum: 0, lock: e.timeStamp + 600 });
+    Object.assign(w, { spent: dir, recent: [size], sum: 0, lock: e.timeStamp + 400 });
     step(dir);
   }
 
