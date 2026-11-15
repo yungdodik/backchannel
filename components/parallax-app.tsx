@@ -1,14 +1,15 @@
 "use client";
 
 import { ReportView } from "@/components/report-view";
-import { ContactLink, CopyBrief } from "@/components/call-actions";
+import { ContactLink, CopyBrief, DraftIntro } from "@/components/call-actions";
 import { contactRole, entryKey, reasonToCall, shortlist } from "@/lib/call-brief";
 import { groupFor } from "@/lib/signals";
 import { Fragment, useCallback, useEffect, useMemo, useRef, useState, type CSSProperties, type FormEvent, type KeyboardEvent, type ReactNode } from "react";
-import { fundsUrl, reportUrl } from "@/components/api-urls";
+import { USE_MOCK, fundsUrl, reportUrl } from "@/components/api-urls";
 import { Landing } from "@/components/landing";
 import { deriveReport } from "@/components/report-state";
 import { SkyEngine, type Group, type SkyCompany, type SkyFund } from "@/components/sky/engine";
+import type { RelatedFund } from "@/lib/related";
 import { useReportStream } from "@/components/use-report-stream";
 import { profile } from "@/lib/fund-profile";
 import type { CallGroup, CallListEntry, FundMatch } from "@/lib/types";
@@ -60,6 +61,8 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
   const [view, setView] = useState<"map" | "list">("map");
   const [showAll, setShowAll] = useState(false);
   const [retry, setRetry] = useState(0);
+  // "Research again" on a saved snapshot: that fund is researched live instead of replayed
+  const [freshFor, setFreshFor] = useState<string | null>(null);
   const searchRun = useRef(0);
   const [extra, setExtra] = useState<SkyFund[]>([]);
   const allFunds = useMemo(() => [...funds, ...extra.filter((e) => !funds.some((f) => f.id === e.id))], [funds, extra]);
@@ -89,7 +92,7 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
   const [mountedAt, setMountedAt] = useState<number | null>(null);
 
   // the report streams from the moment the flight starts, so data is ready on arrival
-  const { events } = useReportStream(targetId && phase !== "sky" ? reportUrl(targetId) : null, retry);
+  const { events } = useReportStream(targetId && phase !== "sky" ? reportUrl(targetId, freshFor === targetId) : null, retry);
   const report = useMemo(() => deriveReport(events), [events]);
   const target = allFunds.find((f) => f.id === targetId);
 
@@ -133,6 +136,16 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
     return () => e.destroy();
   }, []);
   useEffect(() => engine.current?.setFunds(allFunds), [allFunds]);
+  // funds anyone researched live join the sky as stars
+  useEffect(() => {
+    if (USE_MOCK) return;
+    let alive = true;
+    fetch("/api/saved")
+      .then((r) => (r.ok ? r.json() : []))
+      .then((saved: SkyFund[]) => { if (alive && Array.isArray(saved)) setExtra((xs) => [...xs, ...saved.filter((f) => !xs.some((x) => x.id === f.id))]); })
+      .catch(() => {});
+    return () => { alive = false; };
+  }, []);
   useEffect(() => {
     const e = engine.current;
     if (!e) return;
@@ -204,6 +217,7 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
     if (phase === "flying") return;
     if (!allFunds.some((x) => x.id === f.id)) setExtra((xs) => [...xs, f]);
     setShowAll(false);
+    setFreshFor(null);
     setView(matchMedia("(max-width: 860px)").matches ? "list" : "map");
     setFilters({ news_event: true, no_recent_round: true, recent_round: true });
     setQ(f.name);
@@ -321,6 +335,19 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
 
   /* ---------- derived numbers ---------- */
   const fp = report.report ? profile(report.report) : null;
+  // prepared funds that backed the same companies, matched by Cala id; fetched once the portfolio has arrived
+  const [related, setRelated] = useState<{ fund: string; funds: RelatedFund[] }>({ fund: "", funds: [] });
+  const portfolioIds = report.companies.length ? report.companies.map((c) => c.calaId).join(",") : "";
+  useEffect(() => {
+    if (USE_MOCK || !targetId || !portfolioIds) return;
+    let alive = true;
+    fetch("/api/related", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ fund: targetId, companies: portfolioIds.split(",") }) })
+      .then((r) => (r.ok ? r.json() : []))
+      .then((funds: RelatedFund[]) => { if (alive && Array.isArray(funds)) setRelated({ fund: targetId, funds }); })
+      .catch(() => {});
+    return () => { alive = false; };
+  }, [targetId, portfolioIds]);
+  const relatedHere = related.fund === targetId ? related.funds : [];
   const companiesN = report.companies.length;
   const checked = report.checked;
   const planned = Math.min(report.planned ?? companiesN, companiesN); // a capped live run checks fewer than the portfolio holds
@@ -495,7 +522,9 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
           </button>
           <div className="px-type">{target.companies != null ? "Investment portfolio" : "Investor · checked live"}</div>
           <h1>{report.fund?.name ?? target.name}</h1>
-          <p className="px-note">{report.report ? `${report.report.prepared ? "Prepared report" : "Research snapshot"} · updated ${report.report.generatedAt.slice(0, 10)}` : "Live research · up to 25 companies"}</p>
+          <p className="px-note">{report.report ? `${report.report.prepared ? "Prepared report" : "Research snapshot"} · updated ${report.report.generatedAt.slice(0, 10)}` : "Live research"}
+            {report.report && !report.report.prepared && freshFor !== targetId && <button className="px-relink" onClick={() => setFreshFor(targetId)}>Research again</button>}</p>
+          {report.calaLine && <p className="px-note px-cala">{report.calaLine}</p>}
           {report.fund?.description && <p className="px-desc">{report.fund.description}</p>}
           {(report.report?.portfolioTruncated || companiesN >= 200) && <p className="px-note">Showing up to 200 recorded investments. This is a partial portfolio snapshot.</p>}
           {/* headline counts, then one block per fact about follow-on funding: number, share bar, what it is measured against */}
@@ -567,6 +596,20 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
               <dl>
                 {fp.topCoInvestors.slice(0, 5).map((c) => (
                   <Fragment key={c.name}><dt>{c.name}</dt><dd>{count(`co:${c.name}`, c.roundIds, `Rounds with ${c.name}`, <>{c.roundIds.length} <small>{c.roundIds.length > 1 ? "rounds" : "round"}</small></>)}</dd></Fragment>
+                ))}
+              </dl>
+            </details>
+          )}
+          {relatedHere.length > 0 && (
+            <details className="px-more" open>
+              <summary>Funds that backed the same companies<small>linked by Cala</small></summary>
+              <dl>
+                {relatedHere.map((r) => (
+                  <Fragment key={r.id}>
+                    <dt><button className="px-relink px-fundlink" onClick={() => flyTo({ id: r.id, name: r.name, companies: r.companies, calls: r.calls })}>{r.name}</button>
+                      <small>{r.shared.slice(0, 3).map((c) => c.name).join(", ")}{r.shared.length > 3 ? "…" : ""}</small></dt>
+                    <dd>{r.shared.length} <small>shared</small></dd>
+                  </Fragment>
                 ))}
               </dl>
             </details>
@@ -712,7 +755,7 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
                       <ol>{e.questions.map((x, i) => <li key={i}>{x}</li>)}</ol>
                       <div className="px-acts">
                         <button className="px-btn px-primary" onClick={(ev) => copy(e, ev.currentTarget)}>Copy questions</button>
-                        <CopyBrief fund={report.fund?.name ?? "Fund"} entries={[e]} /><ContactLink entry={e} />
+                        <DraftIntro fund={report.fund?.name ?? "Fund"} entry={e} /><CopyBrief fund={report.fund?.name ?? "Fund"} entries={[e]} /><ContactLink entry={e} />
                       </div>
                     </div>
                   )}

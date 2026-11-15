@@ -247,6 +247,10 @@
 .px-info .px-more dl { margin-top: 6px; }
 .px-info .px-statsbtn { display: none; }
 .px-note { margin-top: 10px; font: 400 11.5px/1.5 var(--sans); color: var(--faint); }
+.px-relink { margin-left: 8px; padding: 0; border: 0; background: none; font: inherit; color: var(--star); text-decoration: underline; text-underline-offset: 2px; cursor: pointer; }
+.px-cala { margin-top: 4px; color: var(--star); }
+.px-fundlink { margin-left: 0; text-align: left; }
+.px-relink:hover { color: var(--ink, #fff); }
 .px-alert { margin-top: 12px; padding: 8px 10px; border-radius: 10px; border: 1px solid oklch(0.7 0.15 32 / 0.5); color: oklch(0.85 0.08 32); font-size: 13px; }
 .px-prog { padding-top: 14px; border-top: 1px solid var(--line); margin-top: 16px; display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 6px 10px; font: 400 12px/1.5 var(--sans); color: var(--muted); }
 .px-bar { height: 6px; border-radius: 999px; background: oklch(0.5 0.02 268 / 0.3); overflow: hidden; }

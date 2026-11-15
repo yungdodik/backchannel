@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { callBrief, contactLink, contactRole, groundedQuestions, shortlist } from "@/lib/call-brief";
+import { callBrief, contactLink, contactRole, groundedQuestions, INTRO_MAX, introMessage, shortlist } from "@/lib/call-brief";
 import type { CallListEntry } from "@/lib/types";
 const entry = (company: string, group: CallListEntry["group"], person = company, linked = false): CallListEntry => ({
   companyId: company, companyName: company, group,
@@ -31,5 +31,27 @@ describe("reference shortlist", () => {
   it("asks about recorded events without presuming a board role", () => {
     const qs = groundedQuestions("Fund", entry("Acme", "recent_round").why);
     expect(qs).toHaveLength(3); expect(qs[0]).toContain("2021-01"); expect(qs.join(" ")).not.toContain("board");
+  });
+});
+
+describe("introMessage", () => {
+  const entry = (name: string, evidence: string, company = "Alvin"): CallListEntry => ({
+    companyId: "c", companyName: company, group: "news_event", questions: [], writing: [],
+    why: [{ kind: "news_event", text: "Reported acquisition (techcrunch.com, 2024-02)", sources: [] }],
+    founder: { name, via: "cala", evidence, sources: [] },
+  });
+
+  it("is short, neutral and personal", () => {
+    const m = introMessage("Icebreaker.vc", entry("Kair Käsper", "Co-Founder, Alvin"));
+    expect(m).toMatch(/^Hi Kair, /);
+    expect(m).toContain("Icebreaker.vc");
+    expect(m).toContain("as a founder of Alvin");
+    expect(m).not.toMatch(/acqui|fail|layoff|shut/i);
+    expect(m.length).toBeLessThanOrEqual(INTRO_MAX);
+  });
+
+  it("falls back to a shorter message for long names", () => {
+    const m = introMessage("A".repeat(120), entry("Jo", "CEO", "B".repeat(120)));
+    expect(m.length).toBeLessThanOrEqual(INTRO_MAX);
   });
 });

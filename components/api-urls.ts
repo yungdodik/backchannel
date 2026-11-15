@@ -8,4 +8,4 @@ function build(path: string, params: Record<string, string>): string {
 }
 
 export const fundsUrl = (q: string) => build("/api/funds", { q });
-export const reportUrl = (calaId: string) => build("/api/report", { fund: calaId });
+export const reportUrl = (calaId: string, fresh = false) => build("/api/report", fresh ? { fund: calaId, fresh: "1" } : { fund: calaId });

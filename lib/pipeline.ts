@@ -211,6 +211,8 @@ export function createPipeline(deps: PipelineDeps) {
         .slice(0, maxCompanies ?? Infinity);
       // `planned` tells the client how far the progress bar can go when the run is capped (issue #32)
       out.push({ type: "portfolio", fund, companies: structuredClone(companies), planned: order.length });
+      // one Cala graph call returns the whole portfolio with sourced links; say how much and how fast
+      progress(`Cala: ${companies.length} portfolio companies and ${fundRounds.length} funding rounds, every link sourced, in ${((now().getTime() - start) / 1000).toFixed(1)} s`);
 
       const callList: CallListEntry[] = [];
       const listed = new Set<string>();

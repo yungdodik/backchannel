@@ -55,3 +55,19 @@ export function callBrief(fund: string, entries: CallListEntry[]): string {
     ...[...new Map([...e.why.flatMap((s) => s.sources), ...e.founder.sources].map((s) => [s.url, s])).values()].map((s) => `${s.name ?? "Source"}${s.date ? ` · ${s.date}` : ""}: ${s.url}`),
   ].join("\n"))].join("\n\n");
 }
+
+/** LinkedIn's connection-note limit for most accounts. */
+export const INTRO_MAX = 300;
+
+/**
+ * A short, polite first message to a portfolio contact, built only from the entry (no LLM).
+ * Neutral by design (D6): it names the company the fund backed, never the news or a judgement.
+ */
+export function introMessage(fund: string, e: CallListEntry): string {
+  const first = e.founder.name.trim().split(/\s+/)[0] || "there";
+  const role = contactRole(e.founder) === "Portfolio contact" ? "" : ` as ${contactRole(e.founder) === "Founder" ? "a founder" : "CEO"} of ${e.companyName}`;
+  const full = `Hi ${first}, I'm a founder considering investment from ${fund}. I'd value 15 minutes of your honest experience working with them${role}. Happy to keep it confidential. Thank you!`;
+  if (full.length <= INTRO_MAX) return full;
+  const short = `Hi ${first}, I'm a founder considering investment from ${fund}. Could I ask 15 minutes about your experience with them? Happy to keep it confidential.`;
+  return short.length <= INTRO_MAX ? short : short.slice(0, INTRO_MAX - 1) + "…";
+}

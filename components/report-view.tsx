@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { ContactLink, CopyBrief } from "@/components/call-actions";
+import { ContactLink, CopyBrief, DraftIntro } from "@/components/call-actions";
 import { contactRole, entryKey, reasonToCall, shortlist } from "@/lib/call-brief";
 import { profile } from "@/lib/fund-profile";
 import { ChevronDown } from "lucide-react";
@@ -106,7 +106,7 @@ function EntryCard({ entry, company, fund }: { entry: CallListEntry; company?: P
             <li key={i}>{q}</li>
           ))}
         </ol>
-        <div className="flex flex-wrap gap-2"><CopyBrief fund={fund} entries={[entry]} /><ContactLink entry={entry} /><CopyQuestionsButton questions={entry.questions} /></div>
+        <div className="flex flex-wrap gap-2"><DraftIntro fund={fund} entry={entry} /><CopyBrief fund={fund} entries={[entry]} /><ContactLink entry={entry} /><CopyQuestionsButton questions={entry.questions} /></div>
       </CardContent>
     </Card>
   );
@@ -175,7 +175,7 @@ function ReportSkeleton() {
 }
 
 /** Pure render of a report from the stream events received so far (spec Part B, seam 1). */
-export function ReportView({ events, onRetry }: { events: StreamEvent[]; onRetry?: () => void }) {
+export function ReportView({ events, onRetry, onRefresh }: { events: StreamEvent[]; onRetry?: () => void; onRefresh?: () => void }) {
   const s = deriveReport(events);
   const picks = shortlist(s.entries);
   const pickKeys = new Set(picks.map(entryKey));
@@ -219,7 +219,8 @@ export function ReportView({ events, onRetry }: { events: StreamEvent[]; onRetry
       {banner}
       {(s.report?.portfolioTruncated || s.companies.length >= 200) && <p className="text-sm text-muted-foreground">Showing up to 200 recorded investments. This is a partial portfolio snapshot.</p>}
       <div className="space-y-1"><p className="text-sm text-muted-foreground">{researched} of {s.companies.length} companies researched · {s.companies.filter((c) => c.state === "unavailable").length} unavailable · {s.companies.filter((c) => c.state === "not_researched").length} not researched</p>
-      <p className="text-sm text-muted-foreground">{s.report ? `${s.report.prepared ? "Prepared report" : "Research snapshot"} · updated ${s.report.generatedAt.slice(0, 10)}` : "Live research · up to 25 companies"}</p></div>
+      <p className="text-sm text-muted-foreground">{s.report ? `${s.report.prepared ? "Prepared report" : "Research snapshot"} · updated ${s.report.generatedAt.slice(0, 10)}` : "Live research"}
+        {s.report && !s.report.prepared && onRefresh && <button className="ml-2 underline hover:text-foreground" onClick={onRefresh}>Research again</button>}</p></div>
       {picks.length > 0 && <section aria-label="Recommended contacts" className="space-y-3">
         <h2 className="text-xl font-semibold">{picks.length === 1 ? "Start with this contact" : `Start with these ${picks.length}`}</h2>
         <p className="text-sm text-muted-foreground">One person per company, a mix of recorded experiences. Direct profiles and sourced founder roles are preferred. This is a starting set, not a rating.</p>

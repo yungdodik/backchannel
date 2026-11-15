@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { callBrief, contactLink } from "@/lib/call-brief";
+import { callBrief, contactLink, introMessage } from "@/lib/call-brief";
 import type { CallListEntry } from "@/lib/types";
 
 export function CopyBrief({ fund, entries }: { fund: string; entries: CallListEntry[] }) {
@@ -20,4 +20,19 @@ export function ContactLink({ entry }: { entry: CallListEntry }) {
   return <a className="px-btn" href={contactLink(entry)} target="_blank" rel="noopener noreferrer">
     {entry.founder.linkedinUrl ? "LinkedIn" : "Search LinkedIn"}
   </a>;
+}
+
+/** Copies a ready-to-send intro and opens the contact's LinkedIn, so the founder only has to paste and send. */
+export function DraftIntro({ fund, entry }: { fund: string; entry: CallListEntry }) {
+  const [status, setStatus] = useState("Draft intro");
+  const timer = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
+  useEffect(() => () => clearTimeout(timer.current), []);
+  const message = introMessage(fund, entry);
+  return <button className="px-btn" title={message} onClick={async () => {
+    try { await navigator.clipboard.writeText(message); setStatus("Intro copied · paste it on LinkedIn"); }
+    catch { setStatus("Copy failed — try again"); }
+    window.open(contactLink(entry), "_blank", "noopener,noreferrer");
+    clearTimeout(timer.current);
+    timer.current = setTimeout(() => setStatus("Draft intro"), 4000);
+  }}>{status}</button>;
 }

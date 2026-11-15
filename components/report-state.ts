@@ -5,6 +5,8 @@ export interface ReportState {
   companies: PortfolioCompany[];
   entries: CallListEntry[];
   progress?: string;
+  /** "Cala: N companies and M rounds … in X s" from a live run; kept after later progress messages. */
+  calaLine?: string;
   /** How many companies this run will check; fewer than `companies.length` when a live run is capped. */
   planned?: number;
   /** Companies checked so far (no longer pending). Once `done` arrives it stays at what the run reached. */
@@ -25,6 +27,7 @@ export function deriveReport(events: StreamEvent[]): ReportState {
     switch (ev.type) {
       case "progress":
         s.progress = ev.message;
+        if (ev.message.startsWith("Cala: ")) s.calaLine = ev.message;
         break;
       case "portfolio":
         s.fund = ev.fund;
