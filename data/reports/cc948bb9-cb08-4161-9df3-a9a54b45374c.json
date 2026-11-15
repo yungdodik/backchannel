@@ -8,59 +8,6 @@
   "complete": true,
   "portfolio": [
     {
-      "calaId": "03d55b53-cbac-4522-9954-fd3c648082e7",
-      "name": "Exa Labs Inc.",
-      "rounds": [],
-      "signals": [
-        {
-          "kind": "status",
-          "text": "Cala status: ACTIVE",
-          "sources": [
-            {
-              "url": "https://exa.ai/blog/announcing-series-c",
-              "name": "exa.ai",
-              "date": "2026-05-20"
-            },
-            {
-              "url": "https://exa.ai/",
-              "name": "exa.ai",
-              "date": "2026-09-25"
-            }
-          ]
-        }
-      ],
-      "founders": [],
-      "sources": [
-        {
-          "url": "https://news.google.com/rss/search?q=Exa.ai+investment",
-          "name": "Before you continue to Google",
-          "date": "2026-08-01"
-        }
-      ],
-      "state": "enriched",
-      "description": "Web search engine and API built for AI applications and agents: crawls and indexes the web with its own embedding models and vector databases, serving search, contents, answer and research endpoint...",
-      "overview": {
-        "text": "Exa Labs Inc. is a web search engine and API built for AI applications and agents. It crawls and indexes the web using its own embedding models and vector databases, serving search, contents, answer, and research endpoints.",
-        "sources": [
-          {
-            "url": "https://news.google.com/rss/search?q=Exa.ai+investment",
-            "name": "Before you continue to Google",
-            "date": "2026-08-01"
-          },
-          {
-            "url": "https://exa.ai/blog/announcing-series-c",
-            "name": "exa.ai",
-            "date": "2026-05-20"
-          },
-          {
-            "url": "https://exa.ai/",
-            "name": "exa.ai",
-            "date": "2026-09-25"
-          }
-        ]
-      }
-    },
-    {
       "calaId": "1900f404-de5d-48b4-967b-d566f28d6b16",
       "name": "Devoted Health, Inc.",
       "rounds": [
@@ -463,18 +410,6 @@
               "date": "2026-07-27"
             }
           ]
-        },
-        {
-          "name": "Kristy Rod",
-          "linkedinUrl": "https://linkedin.com/in/kristy-rod-9584b9280",
-          "via": "exa+gemini",
-          "evidence": "Co-Founder, Figma",
-          "sources": [
-            {
-              "url": "https://linkedin.com/in/kristy-rod-9584b9280",
-              "name": "linkedin.com"
-            }
-          ]
         }
       ],
       "sources": [
@@ -702,18 +637,6 @@
               "date": "2026-07-26"
             }
           ]
-        },
-        {
-          "name": "Nick Frosst",
-          "via": "cala",
-          "evidence": "Cala: FOUNDED",
-          "sources": [
-            {
-              "url": "https://qz.com/a-startup-founded-by-former-google-employees-claims-tha-1850919360",
-              "name": "Quartz",
-              "date": "2026-08-29"
-            }
-          ]
         }
       ],
       "sources": [
@@ -773,341 +696,9 @@
       }
     },
     {
-      "calaId": "3ef9236e-ee25-4458-bafc-705fe395c34d",
-      "name": "Exa Labs Inc.",
-      "rounds": [
-        {
-          "calaId": "3e39a9eb-35f1-48e5-b3a2-bbc324fa5302",
-          "label": "Funding round",
-          "date": "2026-05-20",
-          "fundIsLead": null,
-          "coInvestors": [],
-          "sources": [
-            {
-              "url": "https://tracxn.com/d/companies/exa/__fZ_N6xE6vB5WnR3ARRU3JhgS7LyruPQ57Prjmyqg37w/funding-and-investors",
-              "name": "tracxn.com",
-              "date": "2026-06-10"
-            },
-            {
-              "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-medical-devices-futuristic-ai-gadgets-frontier-labs-mirus",
-              "name": "news.crunchbase.com",
-              "date": "2026-06-10"
-            },
-            {
-              "url": "https://techcrunch.com/2026/05/20/ai-search-startups-are-blowing-up",
-              "name": "AI search startups are blowing up | TechCrunch",
-              "date": "2026-05-20"
-            }
-          ]
-        },
-        {
-          "calaId": "65212291-00f3-442a-a3e6-d9c07c88f92d",
-          "label": "Funding round",
-          "date": "2025-08-15",
-          "fundIsLead": null,
-          "coInvestors": [],
-          "sources": [
-            {
-              "url": "https://tracxn.com/d/companies/exa/__fZ_N6xE6vB5WnR3ARRU3JhgS7LyruPQ57Prjmyqg37w/funding-and-investors",
-              "name": "tracxn.com",
-              "date": "2026-06-10"
-            },
-            {
-              "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-anthropic-sierra",
-              "name": "news.crunchbase.com",
-              "date": "2026-06-10"
-            }
-          ]
-        },
-        {
-          "calaId": "e006bf6f-511d-42cb-9ace-4a8eefd79047",
-          "label": "Funding round",
-          "date": "2024-07-16",
-          "fundIsLead": null,
-          "coInvestors": [],
-          "sources": [
-            {
-              "url": "https://techcrunch.com/2024/07/16/exa-raises-17m-lightspeed-nvidia-ycombinator-google-ai-models",
-              "name": "Exa raises $17M from Lightspeed, Nvidia, Y Combinator to build a Google for AIs | TechCrunch",
-              "date": "2024-07-16"
-            },
-            {
-              "url": "https://tracxn.com/d/companies/exa/__fZ_N6xE6vB5WnR3ARRU3JhgS7LyruPQ57Prjmyqg37w/funding-and-investors",
-              "name": "tracxn.com",
-              "date": "2026-06-10"
-            }
-          ]
-        },
-        {
-          "calaId": "d2c4e213-8da3-488a-b63b-e234ee92bae8",
-          "label": "Funding round",
-          "date": "2024-05-13",
-          "fundIsLead": null,
-          "coInvestors": [],
-          "sources": [
-            {
-              "url": "https://techcrunch.com/2024/07/16/exa-raises-17m-lightspeed-nvidia-ycombinator-google-ai-models",
-              "name": "Exa raises $17M from Lightspeed, Nvidia, Y Combinator to build a Google for AIs | TechCrunch",
-              "date": "2024-07-16"
-            },
-            {
-              "url": "https://tracxn.com/d/companies/exa/__fZ_N6xE6vB5WnR3ARRU3JhgS7LyruPQ57Prjmyqg37w/funding-and-investors",
-              "name": "tracxn.com",
-              "date": "2026-06-10"
-            }
-          ]
-        }
-      ],
-      "signals": [
-        {
-          "kind": "last_round",
-          "text": "Last recorded round: 2026-05",
-          "date": "2026-05-20",
-          "sources": [
-            {
-              "url": "https://tracxn.com/d/companies/exa/__fZ_N6xE6vB5WnR3ARRU3JhgS7LyruPQ57Prjmyqg37w/funding-and-investors",
-              "name": "tracxn.com",
-              "date": "2026-06-10"
-            },
-            {
-              "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-medical-devices-futuristic-ai-gadgets-frontier-labs-mirus",
-              "name": "news.crunchbase.com",
-              "date": "2026-06-10"
-            },
-            {
-              "url": "https://techcrunch.com/2026/05/20/ai-search-startups-are-blowing-up",
-              "name": "AI search startups are blowing up | TechCrunch",
-              "date": "2026-05-20"
-            }
-          ]
-        },
-        {
-          "kind": "status",
-          "text": "Cala status: ACTIVE",
-          "sources": [
-            {
-              "url": "https://github.com/yc-oss/api",
-              "name": "Y Combinator",
-              "date": "2026-07-25"
-            }
-          ]
-        }
-      ],
-      "founders": [
-        {
-          "name": "Will Bryn",
-          "via": "cala",
-          "evidence": "Cala: FOUNDED",
-          "sources": [
-            {
-              "url": "https://www.thekeyword.co/news/benchmark-leads-85-million-investment-in-exa-labs-ai-search",
-              "name": "The Keyword",
-              "date": "2026-04-15"
-            }
-          ]
-        },
-        {
-          "name": "Jeffrey Wang",
-          "via": "cala",
-          "evidence": "Cala: FOUNDED",
-          "sources": [
-            {
-              "url": "https://www.businessinsider.com/",
-              "name": "Business Insider - Latest News in Tech, Markets, Economy & Innovation",
-              "date": "2026-04-24"
-            },
-            {
-              "url": "https://beamstart.com/",
-              "name": "beamstart.com",
-              "date": "2026-04-24"
-            },
-            {
-              "url": "https://www.linkedin.com/",
-              "name": "Exa | Jeffrey Wang",
-              "date": "2026-04-24"
-            },
-            {
-              "url": "https://tracxn.com/",
-              "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
-              "date": "2026-04-24"
-            },
-            {
-              "url": "https://www.aol.com/",
-              "name": "aol.com",
-              "date": "2026-04-24"
-            },
-            {
-              "url": "https://www.thekeyword.co/",
-              "name": "The Keyword",
-              "date": "2026-04-24"
-            },
-            {
-              "url": "https://app.fundz.net/",
-              "name": "app.fundz.net",
-              "date": "2026-04-24"
-            },
-            {
-              "url": "https://www.aol.com/",
-              "name": "aol.com",
-              "date": "2026-04-24"
-            },
-            {
-              "url": "https://system.privco.com/",
-              "name": "PrivCo - Uncover Private Company Opportunities Before Your Competitors Do",
-              "date": "2026-04-24"
-            },
-            {
-              "url": "https://theorg.com/",
-              "name": "The Org",
-              "date": "2026-04-24"
-            },
-            {
-              "url": "https://system.privco.com/",
-              "name": "PrivCo - Uncover Private Company Opportunities Before Your Competitors Do",
-              "date": "2026-04-24"
-            },
-            {
-              "url": "https://www.linkedin.com/",
-              "name": "Exa | Jeffrey Wang",
-              "date": "2026-04-24"
-            },
-            {
-              "url": "https://theorg.com/",
-              "name": "The Org",
-              "date": "2026-04-24"
-            },
-            {
-              "url": "https://tracxn.com/",
-              "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
-              "date": "2026-04-24"
-            },
-            {
-              "url": "https://search.gleif.org/",
-              "name": "GLEIF",
-              "date": "2026-04-24"
-            },
-            {
-              "url": "https://tracxn.com/",
-              "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
-              "date": "2026-04-24"
-            },
-            {
-              "url": "https://www.thekeyword.co/",
-              "name": "The Keyword",
-              "date": "2026-04-24"
-            },
-            {
-              "url": "https://www.preqin.com/",
-              "name": "Preqin | Alternative Assets Data, Solutions and Insights",
-              "date": "2026-04-24"
-            },
-            {
-              "url": "https://tracxn.com/",
-              "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
-              "date": "2026-04-24"
-            },
-            {
-              "url": "https://app.fundz.net/",
-              "name": "app.fundz.net",
-              "date": "2026-04-24"
-            },
-            {
-              "url": "https://search.gleif.org/",
-              "name": "GLEIF",
-              "date": "2026-04-24"
-            },
-            {
-              "url": "https://www.businessinsider.com/",
-              "name": "Business Insider - Latest News in Tech, Markets, Economy & Innovation",
-              "date": "2026-04-24"
-            },
-            {
-              "url": "https://beamstart.com/",
-              "name": "beamstart.com",
-              "date": "2026-04-24"
-            },
-            {
-              "url": "https://www.preqin.com/",
-              "name": "Preqin | Alternative Assets Data, Solutions and Insights",
-              "date": "2026-04-24"
-            }
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "url": "https://builtin.com/job/growth-marketing/7303892",
-          "name": "Latest Tech Jobs Personalized For You.",
-          "date": "2026-07-12"
-        }
-      ],
-      "state": "enriched",
-      "description": "A software and internet services company headquartered in San Francisco, founded in 2021.",
-      "lastRoundDate": "2026-05-20",
-      "overview": {
-        "text": "Exa Labs Inc. is a software and internet services company headquartered in San Francisco, founded in 2021. The company completed funding rounds in May 2024, July 2024, August 2025, and May 2026.",
-        "sources": [
-          {
-            "url": "https://builtin.com/job/growth-marketing/7303892",
-            "name": "Latest Tech Jobs Personalized For You.",
-            "date": "2026-07-12"
-          },
-          {
-            "url": "https://tracxn.com/d/companies/exa/__fZ_N6xE6vB5WnR3ARRU3JhgS7LyruPQ57Prjmyqg37w/funding-and-investors",
-            "name": "tracxn.com",
-            "date": "2026-06-10"
-          },
-          {
-            "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-medical-devices-futuristic-ai-gadgets-frontier-labs-mirus",
-            "name": "news.crunchbase.com",
-            "date": "2026-06-10"
-          },
-          {
-            "url": "https://techcrunch.com/2026/05/20/ai-search-startups-are-blowing-up",
-            "name": "AI search startups are blowing up | TechCrunch",
-            "date": "2026-05-20"
-          },
-          {
-            "url": "https://github.com/yc-oss/api",
-            "name": "Y Combinator",
-            "date": "2026-07-25"
-          },
-          {
-            "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-anthropic-sierra",
-            "name": "news.crunchbase.com",
-            "date": "2026-06-10"
-          },
-          {
-            "url": "https://techcrunch.com/2024/07/16/exa-raises-17m-lightspeed-nvidia-ycombinator-google-ai-models",
-            "name": "Exa raises $17M from Lightspeed, Nvidia, Y Combinator to build a Google for AIs | TechCrunch",
-            "date": "2024-07-16"
-          }
-        ]
-      }
-    },
-    {
       "calaId": "45f15b76-f6f0-44bb-b5f7-1f8129380471",
       "name": "Airbnb, Inc.",
       "rounds": [
-        {
-          "calaId": "369db5b7-5909-40cf-9387-49d76aa345c2",
-          "label": "Funding round",
-          "date": "2019-12-09",
-          "fundIsLead": null,
-          "coInvestors": [],
-          "sources": [
-            {
-              "url": "https://techcrunch.com/2019/12/09/airbnb-zeus",
-              "name": "Airbnb invests as Zeus corporate housing raises $55M at $205M | TechCrunch",
-              "date": "2019-12-09"
-            },
-            {
-              "url": "https://techcrunch.com/2023/11/08/proptech-startup-zeus-living-which-was-backed-by-airbnb-reportedly-shuts-down",
-              "name": "Proptech startup Zeus Living, which was backed by Airbnb, reportedly shuts down | TechCrunch",
-              "date": "2023-11-08"
-            }
-          ]
-        },
         {
           "calaId": "17f36d30-fb50-4c6c-a55d-6331ac4bd216",
           "label": "Funding round",
@@ -1169,18 +760,18 @@
       "signals": [
         {
           "kind": "last_round",
-          "text": "Last recorded round: 2019-12",
-          "date": "2019-12-09",
+          "text": "Last recorded round: 2015-12",
+          "date": "2015-12-08",
           "sources": [
             {
-              "url": "https://techcrunch.com/2019/12/09/airbnb-zeus",
-              "name": "Airbnb invests as Zeus corporate housing raises $55M at $205M | TechCrunch",
-              "date": "2019-12-09"
+              "url": "https://tracxn.com/d/companies/airbnb/__7LQipbu68GsySiuAjesyrgEJvq6FIc-aAcJ5SCzp7Mk/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-07-28"
             },
             {
-              "url": "https://techcrunch.com/2023/11/08/proptech-startup-zeus-living-which-was-backed-by-airbnb-reportedly-shuts-down",
-              "name": "Proptech startup Zeus Living, which was backed by Airbnb, reportedly shuts down | TechCrunch",
-              "date": "2023-11-08"
+              "url": "https://techcrunch.com/2015/02/27/airbnb-2",
+              "name": "Airbnb Is Raising A Monster Round At A $20B Valuation | TechCrunch",
+              "date": "2015-02-27"
             }
           ]
         },
@@ -1197,18 +788,6 @@
               "url": "https://github.com/yc-oss/api",
               "name": "Y Combinator",
               "date": "2026-07-25"
-            }
-          ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported layoffs (inc.com, 2024-05)",
-          "date": "2024-05-25",
-          "sources": [
-            {
-              "url": "https://www.inc.com/nick-hobson/airbnb-ceo-brian-chesky-tells-adam-grant-right-way-to-do-mass-layoffs-cut-deep.html",
-              "name": "Airbnb CEO Brian Chesky Tells Adam Grant the Right Way to Do Mass Layoffs: 'Cut Deep'",
-              "date": "2024-05-25"
             }
           ]
         }
@@ -1248,62 +827,7 @@
       ],
       "state": "enriched",
       "description": "A San Francisco-based American company founded in 2008 that operates an online marketplace for lodging and tourism services.",
-      "lastRoundDate": "2019-12-09",
-      "overview": {
-        "text": "Airbnb, Inc. is a San Francisco-based American company founded in 2008 that operates an online marketplace for lodging and tourism services. The company completed funding rounds in November 2010, July 2011, December 2015, and December 2019. In May 2024, inc.com reported layoffs at the company, coinciding with news titled \"Airbnb CEO Brian Chesky Tells Adam Grant the Right Way to Do Mass Layoffs: 'Cut Deep'\".",
-        "sources": [
-          {
-            "url": "https://vcbeast.com/vc-firms/andreessen-horowitz-a16z/portfolio",
-            "name": "VC Beast",
-            "date": "2026-09-22"
-          },
-          {
-            "url": "https://techcrunch.com/2019/12/09/airbnb-zeus",
-            "name": "Airbnb invests as Zeus corporate housing raises $55M at $205M | TechCrunch",
-            "date": "2019-12-09"
-          },
-          {
-            "url": "https://techcrunch.com/2023/11/08/proptech-startup-zeus-living-which-was-backed-by-airbnb-reportedly-shuts-down",
-            "name": "Proptech startup Zeus Living, which was backed by Airbnb, reportedly shuts down | TechCrunch",
-            "date": "2023-11-08"
-          },
-          {
-            "url": "https://www.sec.gov/edgar/browse/?CIK=1559720",
-            "name": "SEC",
-            "date": "2026-05-27"
-          },
-          {
-            "url": "https://github.com/yc-oss/api",
-            "name": "Y Combinator",
-            "date": "2026-07-25"
-          },
-          {
-            "url": "https://www.inc.com/nick-hobson/airbnb-ceo-brian-chesky-tells-adam-grant-right-way-to-do-mass-layoffs-cut-deep.html",
-            "name": "Airbnb CEO Brian Chesky Tells Adam Grant the Right Way to Do Mass Layoffs: 'Cut Deep'",
-            "date": "2024-05-25"
-          },
-          {
-            "url": "https://tracxn.com/d/companies/airbnb/__7LQipbu68GsySiuAjesyrgEJvq6FIc-aAcJ5SCzp7Mk/funding-and-investors",
-            "name": "tracxn.com",
-            "date": "2026-07-28"
-          },
-          {
-            "url": "https://techcrunch.com/2015/02/27/airbnb-2",
-            "name": "Airbnb Is Raising A Monster Round At A $20B Valuation | TechCrunch",
-            "date": "2015-02-27"
-          },
-          {
-            "url": "https://techcrunch.com/2011/07/24/airbnb-bags-112-million-in-series-b-from-andreessen-and-others",
-            "name": "Airbnb Bags $112 Million In Series B From Andreessen, DST And General Catalyst | TechCrunch",
-            "date": "2011-07-24"
-          },
-          {
-            "url": "https://techcrunch.com/2011/05/30/airbnb-has-arrived-raising-mega-round-at-a-1-billion-valuation",
-            "name": "Airbnb Has Arrived: Raising Mega-Round at a $1 Billion+ Valuation | TechCrunch",
-            "date": "2011-05-30"
-          }
-        ]
-      }
+      "lastRoundDate": "2015-12-08"
     },
     {
       "calaId": "4b02fa53-70d5-44cb-b875-b33d0d2a35a4",
@@ -3460,23 +2984,6 @@
         }
       ],
       "founders": [
-        {
-          "name": "J. Frederic Kerrest",
-          "via": "cala",
-          "evidence": "Cala: FOUNDED",
-          "sources": [
-            {
-              "url": "https://www.okta.com/blog/author/frederic-kerrest",
-              "name": "Author",
-              "date": "2020-05-05"
-            },
-            {
-              "url": "https://news.greylock.com/oktas-frederic-kerrest-on-the-life-lessons-that-help-startups-thrive-a136e7a7fa62",
-              "name": "news.greylock.com",
-              "date": "2026-06-26"
-            }
-          ]
-        },
         {
           "name": "Frederic Kerrest",
           "linkedinUrl": "https://linkedin.com/in/fkerrest",
@@ -7168,237 +6675,6 @@
   ],
   "callList": [
     {
-      "companyId": "3ef9236e-ee25-4458-bafc-705fe395c34d",
-      "companyName": "Exa Labs Inc.",
-      "founder": {
-        "name": "Will Bryn",
-        "via": "cala",
-        "evidence": "Cala: FOUNDED",
-        "sources": [
-          {
-            "url": "https://www.thekeyword.co/news/benchmark-leads-85-million-investment-in-exa-labs-ai-search",
-            "name": "The Keyword",
-            "date": "2026-04-15"
-          }
-        ]
-      },
-      "group": "recent_round",
-      "why": [
-        {
-          "kind": "last_round",
-          "text": "Last recorded round: 2026-05",
-          "date": "2026-05-20",
-          "sources": [
-            {
-              "url": "https://tracxn.com/d/companies/exa/__fZ_N6xE6vB5WnR3ARRU3JhgS7LyruPQ57Prjmyqg37w/funding-and-investors",
-              "name": "tracxn.com",
-              "date": "2026-06-10"
-            },
-            {
-              "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-medical-devices-futuristic-ai-gadgets-frontier-labs-mirus",
-              "name": "news.crunchbase.com",
-              "date": "2026-06-10"
-            },
-            {
-              "url": "https://techcrunch.com/2026/05/20/ai-search-startups-are-blowing-up",
-              "name": "AI search startups are blowing up | TechCrunch",
-              "date": "2026-05-20"
-            }
-          ]
-        },
-        {
-          "kind": "status",
-          "text": "Cala status: ACTIVE",
-          "sources": [
-            {
-              "url": "https://github.com/yc-oss/api",
-              "name": "Y Combinator",
-              "date": "2026-07-25"
-            }
-          ]
-        }
-      ],
-      "questions": [
-        "Did a16z participate in Exa Labs Inc.'s 2026-05 round, and from your perspective, what happened regarding your work with them?",
-        "Has a16z provided support while Exa Labs Inc. has been active, and if so, what is a concrete example of that support?",
-        "Given your experience with a16z, would you choose to work with the fund again?"
-      ],
-      "writing": []
-    },
-    {
-      "companyId": "3ef9236e-ee25-4458-bafc-705fe395c34d",
-      "companyName": "Exa Labs Inc.",
-      "founder": {
-        "name": "Jeffrey Wang",
-        "via": "cala",
-        "evidence": "Cala: FOUNDED",
-        "sources": [
-          {
-            "url": "https://www.businessinsider.com/",
-            "name": "Business Insider - Latest News in Tech, Markets, Economy & Innovation",
-            "date": "2026-04-24"
-          },
-          {
-            "url": "https://beamstart.com/",
-            "name": "beamstart.com",
-            "date": "2026-04-24"
-          },
-          {
-            "url": "https://www.linkedin.com/",
-            "name": "Exa | Jeffrey Wang",
-            "date": "2026-04-24"
-          },
-          {
-            "url": "https://tracxn.com/",
-            "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
-            "date": "2026-04-24"
-          },
-          {
-            "url": "https://www.aol.com/",
-            "name": "aol.com",
-            "date": "2026-04-24"
-          },
-          {
-            "url": "https://www.thekeyword.co/",
-            "name": "The Keyword",
-            "date": "2026-04-24"
-          },
-          {
-            "url": "https://app.fundz.net/",
-            "name": "app.fundz.net",
-            "date": "2026-04-24"
-          },
-          {
-            "url": "https://www.aol.com/",
-            "name": "aol.com",
-            "date": "2026-04-24"
-          },
-          {
-            "url": "https://system.privco.com/",
-            "name": "PrivCo - Uncover Private Company Opportunities Before Your Competitors Do",
-            "date": "2026-04-24"
-          },
-          {
-            "url": "https://theorg.com/",
-            "name": "The Org",
-            "date": "2026-04-24"
-          },
-          {
-            "url": "https://system.privco.com/",
-            "name": "PrivCo - Uncover Private Company Opportunities Before Your Competitors Do",
-            "date": "2026-04-24"
-          },
-          {
-            "url": "https://www.linkedin.com/",
-            "name": "Exa | Jeffrey Wang",
-            "date": "2026-04-24"
-          },
-          {
-            "url": "https://theorg.com/",
-            "name": "The Org",
-            "date": "2026-04-24"
-          },
-          {
-            "url": "https://tracxn.com/",
-            "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
-            "date": "2026-04-24"
-          },
-          {
-            "url": "https://search.gleif.org/",
-            "name": "GLEIF",
-            "date": "2026-04-24"
-          },
-          {
-            "url": "https://tracxn.com/",
-            "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
-            "date": "2026-04-24"
-          },
-          {
-            "url": "https://www.thekeyword.co/",
-            "name": "The Keyword",
-            "date": "2026-04-24"
-          },
-          {
-            "url": "https://www.preqin.com/",
-            "name": "Preqin | Alternative Assets Data, Solutions and Insights",
-            "date": "2026-04-24"
-          },
-          {
-            "url": "https://tracxn.com/",
-            "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
-            "date": "2026-04-24"
-          },
-          {
-            "url": "https://app.fundz.net/",
-            "name": "app.fundz.net",
-            "date": "2026-04-24"
-          },
-          {
-            "url": "https://search.gleif.org/",
-            "name": "GLEIF",
-            "date": "2026-04-24"
-          },
-          {
-            "url": "https://www.businessinsider.com/",
-            "name": "Business Insider - Latest News in Tech, Markets, Economy & Innovation",
-            "date": "2026-04-24"
-          },
-          {
-            "url": "https://beamstart.com/",
-            "name": "beamstart.com",
-            "date": "2026-04-24"
-          },
-          {
-            "url": "https://www.preqin.com/",
-            "name": "Preqin | Alternative Assets Data, Solutions and Insights",
-            "date": "2026-04-24"
-          }
-        ]
-      },
-      "group": "recent_round",
-      "why": [
-        {
-          "kind": "last_round",
-          "text": "Last recorded round: 2026-05",
-          "date": "2026-05-20",
-          "sources": [
-            {
-              "url": "https://tracxn.com/d/companies/exa/__fZ_N6xE6vB5WnR3ARRU3JhgS7LyruPQ57Prjmyqg37w/funding-and-investors",
-              "name": "tracxn.com",
-              "date": "2026-06-10"
-            },
-            {
-              "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-medical-devices-futuristic-ai-gadgets-frontier-labs-mirus",
-              "name": "news.crunchbase.com",
-              "date": "2026-06-10"
-            },
-            {
-              "url": "https://techcrunch.com/2026/05/20/ai-search-startups-are-blowing-up",
-              "name": "AI search startups are blowing up | TechCrunch",
-              "date": "2026-05-20"
-            }
-          ]
-        },
-        {
-          "kind": "status",
-          "text": "Cala status: ACTIVE",
-          "sources": [
-            {
-              "url": "https://github.com/yc-oss/api",
-              "name": "Y Combinator",
-              "date": "2026-07-25"
-            }
-          ]
-        }
-      ],
-      "questions": [
-        "Did a16z participate in Exa Labs Inc.'s 2026-05 round, and from your perspective, what happened regarding your work with them?",
-        "Has a16z provided support while Exa Labs Inc. has been active, and if so, what is a concrete example of that support?",
-        "Given your experience with a16z, would you choose to work with the fund again?"
-      ],
-      "writing": []
-    },
-    {
       "companyId": "880ed226-d73a-4e24-814d-dad4e8955a73",
       "companyName": "Replit",
       "founder": {
@@ -7549,80 +6825,6 @@
             "url": "https://www.nbcsandiego.com/news/business/money-report/ex-google-engineers-who-founded-character-ai-re-join-company-with-new-ai-partnership/3585761",
             "name": "NBC 7 San Diego - Local news, breaking news, weather",
             "date": "2026-07-26"
-          }
-        ]
-      },
-      "group": "news_event",
-      "why": [
-        {
-          "kind": "last_round",
-          "text": "Last recorded round: 2023-03",
-          "date": "2023-03-23",
-          "sources": [
-            {
-              "url": "https://tracxn.com/d/companies/characterai/__n7znlTkG7wRMEQ5fPboRSGJJKofYiuu1hfAIQkMX-jo",
-              "name": "tracxn.com",
-              "date": "2026-05-11"
-            },
-            {
-              "url": "https://tracxn.com/d/companies/characterai/__n7znlTkG7wRMEQ5fPboRSGJJKofYiuu1hfAIQkMX-jo/funding-and-investors",
-              "name": "tracxn.com",
-              "date": "2026-05-11"
-            },
-            {
-              "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-gravie-character-ai/",
-              "name": "news.crunchbase.com",
-              "date": "2026-05-11"
-            },
-            {
-              "url": "https://news.crunchbase.com/ai-robotics/character-ai-unicorn-venture-funding",
-              "name": "news.crunchbase.com",
-              "date": "2026-05-11"
-            },
-            {
-              "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-gravie-character-ai",
-              "name": "news.crunchbase.com",
-              "date": "2026-05-11"
-            }
-          ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported bankruptcy (axios.com, 2026-10)",
-          "date": "2026-10-13",
-          "sources": [
-            {
-              "url": "https://www.axios.com/pro/all-deals/2026/10/13/characterai-bankruptcy-disney-sale",
-              "name": "Character.AI files for bankruptcy",
-              "date": "2026-10-13"
-            },
-            {
-              "url": "https://www.nbcnews.com/tech/tech-news/characterai-files-bankruptcy-sell-assets-disney-20-million-rcna603174",
-              "name": "Character.AI files for bankruptcy, will sell some assets to Disney for $20 million",
-              "date": "2026-10-13"
-            }
-          ]
-        }
-      ],
-      "questions": [
-        "Did a16z participate in the 2023-03 round, and from your perspective, what happened between that round and the 2026-10 bankruptcy reported on axios.com?",
-        "Did a16z provide any investor support, and if so, what is a concrete example of that support?",
-        "Would you choose a16z as an investor again?"
-      ],
-      "writing": []
-    },
-    {
-      "companyId": "3ca364cf-e0a9-4366-928b-0d421a5e12f7",
-      "companyName": "Character.AI",
-      "founder": {
-        "name": "Nick Frosst",
-        "via": "cala",
-        "evidence": "Cala: FOUNDED",
-        "sources": [
-          {
-            "url": "https://qz.com/a-startup-founded-by-former-google-employees-claims-tha-1850919360",
-            "name": "Quartz",
-            "date": "2026-08-29"
           }
         ]
       },
@@ -8556,43 +7758,6 @@
       "writing": []
     },
     {
-      "companyId": "33957acc-7949-457f-a49a-7b7bd377097a",
-      "companyName": "Figma",
-      "founder": {
-        "name": "Kristy Rod",
-        "linkedinUrl": "https://linkedin.com/in/kristy-rod-9584b9280",
-        "via": "exa+gemini",
-        "evidence": "Co-Founder, Figma",
-        "sources": [
-          {
-            "url": "https://linkedin.com/in/kristy-rod-9584b9280",
-            "name": "linkedin.com"
-          }
-        ]
-      },
-      "group": "news_event",
-      "why": [
-        {
-          "kind": "news_event",
-          "text": "Reported layoffs (teamblind.com, 2024-09)",
-          "date": "2024-09-04",
-          "sources": [
-            {
-              "url": "https://www.teamblind.com/post/figma-layoffs-3peaqq58",
-              "name": "Figma layoffs?",
-              "date": "2024-09-04"
-            }
-          ]
-        }
-      ],
-      "questions": [
-        "From your perspective, what happened surrounding the layoffs reported on teamblind.com in 2024-09?",
-        "Did a16z provide support during that time, and if so, what is a concrete example of how they assisted your company?",
-        "Based on your overall experience, would you choose a16z as an investor again?"
-      ],
-      "writing": []
-    },
-    {
       "companyId": "45f15b76-f6f0-44bb-b5f7-1f8129380471",
       "companyName": "Airbnb, Inc.",
       "founder": {
@@ -8607,22 +7772,22 @@
           }
         ]
       },
-      "group": "news_event",
+      "group": "no_recent_round",
       "why": [
         {
           "kind": "last_round",
-          "text": "Last recorded round: 2019-12",
-          "date": "2019-12-09",
+          "text": "Last recorded round: 2015-12",
+          "date": "2015-12-08",
           "sources": [
             {
-              "url": "https://techcrunch.com/2019/12/09/airbnb-zeus",
-              "name": "Airbnb invests as Zeus corporate housing raises $55M at $205M | TechCrunch",
-              "date": "2019-12-09"
+              "url": "https://tracxn.com/d/companies/airbnb/__7LQipbu68GsySiuAjesyrgEJvq6FIc-aAcJ5SCzp7Mk/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-07-28"
             },
             {
-              "url": "https://techcrunch.com/2023/11/08/proptech-startup-zeus-living-which-was-backed-by-airbnb-reportedly-shuts-down",
-              "name": "Proptech startup Zeus Living, which was backed by Airbnb, reportedly shuts down | TechCrunch",
-              "date": "2023-11-08"
+              "url": "https://techcrunch.com/2015/02/27/airbnb-2",
+              "name": "Airbnb Is Raising A Monster Round At A $20B Valuation | TechCrunch",
+              "date": "2015-02-27"
             }
           ]
         },
@@ -8641,24 +7806,12 @@
               "date": "2026-07-25"
             }
           ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported layoffs (inc.com, 2024-05)",
-          "date": "2024-05-25",
-          "sources": [
-            {
-              "url": "https://www.inc.com/nick-hobson/airbnb-ceo-brian-chesky-tells-adam-grant-right-way-to-do-mass-layoffs-cut-deep.html",
-              "name": "Airbnb CEO Brian Chesky Tells Adam Grant the Right Way to Do Mass Layoffs: 'Cut Deep'",
-              "date": "2024-05-25"
-            }
-          ]
         }
       ],
       "questions": [
-        "From your perspective, what happened surrounding your last recorded round in 2019-12 and the layoffs reported in 2024-05, and did a16z participate in that 2019-12 round?",
-        "Did a16z provide investor support while your company remained active through the 2024-05 layoffs, and if so, what is a concrete example of that support?",
-        "Would you choose to take investment from a16z again?"
+        "The last round in our sources is 2015-12. What financing decisions followed, and how was a16z involved?",
+        "Can you give a concrete example of what a16z did when you needed support, and what you wished it had done differently?",
+        "Would you choose a16z again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -8677,22 +7830,22 @@
           }
         ]
       },
-      "group": "news_event",
+      "group": "no_recent_round",
       "why": [
         {
           "kind": "last_round",
-          "text": "Last recorded round: 2019-12",
-          "date": "2019-12-09",
+          "text": "Last recorded round: 2015-12",
+          "date": "2015-12-08",
           "sources": [
             {
-              "url": "https://techcrunch.com/2019/12/09/airbnb-zeus",
-              "name": "Airbnb invests as Zeus corporate housing raises $55M at $205M | TechCrunch",
-              "date": "2019-12-09"
+              "url": "https://tracxn.com/d/companies/airbnb/__7LQipbu68GsySiuAjesyrgEJvq6FIc-aAcJ5SCzp7Mk/funding-and-investors",
+              "name": "tracxn.com",
+              "date": "2026-07-28"
             },
             {
-              "url": "https://techcrunch.com/2023/11/08/proptech-startup-zeus-living-which-was-backed-by-airbnb-reportedly-shuts-down",
-              "name": "Proptech startup Zeus Living, which was backed by Airbnb, reportedly shuts down | TechCrunch",
-              "date": "2023-11-08"
+              "url": "https://techcrunch.com/2015/02/27/airbnb-2",
+              "name": "Airbnb Is Raising A Monster Round At A $20B Valuation | TechCrunch",
+              "date": "2015-02-27"
             }
           ]
         },
@@ -8711,24 +7864,12 @@
               "date": "2026-07-25"
             }
           ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported layoffs (inc.com, 2024-05)",
-          "date": "2024-05-25",
-          "sources": [
-            {
-              "url": "https://www.inc.com/nick-hobson/airbnb-ceo-brian-chesky-tells-adam-grant-right-way-to-do-mass-layoffs-cut-deep.html",
-              "name": "Airbnb CEO Brian Chesky Tells Adam Grant the Right Way to Do Mass Layoffs: 'Cut Deep'",
-              "date": "2024-05-25"
-            }
-          ]
         }
       ],
       "questions": [
-        "From your perspective, what happened surrounding your last recorded round in 2019-12 and the layoffs reported in 2024-05, and did a16z participate in that 2019-12 round?",
-        "Did a16z provide investor support while your company remained active through the 2024-05 layoffs, and if so, what is a concrete example of that support?",
-        "Would you choose to take investment from a16z again?"
+        "The last round in our sources is 2015-12. What financing decisions followed, and how was a16z involved?",
+        "Can you give a concrete example of what a16z did when you needed support, and what you wished it had done differently?",
+        "Would you choose a16z again? What should a founder clarify before signing?"
       ],
       "writing": []
     },
@@ -9328,64 +8469,6 @@
         "Did a16z participate in the 2026-07 round for Navan, Inc., and what happened from your perspective during that process?",
         "Did a16z provide investor support while Navan, Inc. has been active, and if so, what is a concrete example of that support?",
         "Would you choose to work with a16z again as an investor for a future venture?"
-      ],
-      "writing": []
-    },
-    {
-      "companyId": "8904884a-6a30-40a1-b839-dfddf82c7b0c",
-      "companyName": "Okta, Inc.",
-      "founder": {
-        "name": "J. Frederic Kerrest",
-        "via": "cala",
-        "evidence": "Cala: FOUNDED",
-        "sources": [
-          {
-            "url": "https://www.okta.com/blog/author/frederic-kerrest",
-            "name": "Author",
-            "date": "2020-05-05"
-          },
-          {
-            "url": "https://news.greylock.com/oktas-frederic-kerrest-on-the-life-lessons-that-help-startups-thrive-a136e7a7fa62",
-            "name": "news.greylock.com",
-            "date": "2026-06-26"
-          }
-        ]
-      },
-      "group": "news_event",
-      "why": [
-        {
-          "kind": "status",
-          "text": "Cala status: ACTIVE",
-          "sources": [
-            {
-              "url": "https://www.sec.gov/edgar/browse/?CIK=1660134",
-              "name": "SEC",
-              "date": "2026-05-27"
-            }
-          ]
-        },
-        {
-          "kind": "news_event",
-          "text": "Reported layoffs (bankinfosecurity.com, 2025-02)",
-          "date": "2025-02-04",
-          "sources": [
-            {
-              "url": "https://www.bankinfosecurity.com/okta-carries-out-another-round-layoffs-axing-180-workers-a-27445",
-              "name": "Okta Carries Out Another Round of Layoffs, Axing 180 Workers",
-              "date": "2025-02-04"
-            },
-            {
-              "url": "https://www.wsj.com/economy/jobs/okta-to-cut-400-jobs-in-latest-round-of-layoffs-1c8fa559",
-              "name": "Okta to Cut 400 Jobs in Latest Round of Layoffs - WSJ",
-              "date": "2024-02-01"
-            }
-          ]
-        }
-      ],
-      "questions": [
-        "Did a16z engage with your team around the time of the layoffs reported by bankinfosecurity.com in 2025-02, and what happened from your perspective?",
-        "Did a16z offer assistance while your company has remained active, and if so, what is a concrete example of investor support they provided?",
-        "Would you choose to take investment from a16z again, and if so, how would you describe the main factors behind that choice?"
       ],
       "writing": []
     },
