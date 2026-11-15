@@ -23,4 +23,5 @@ export const NEWS_BLOCKLIST = new Set([
   "https://www.conyers.com/publications/view/cordenpharma-acquisition-of-ambio-pharmaceuticals/", // Ambio Pharmaceuticals
   "https://www.oedigital.com/news/543842-techouse-acquires-ambio", // Ambio Water
   "https://whyy.org/articles/tmunity-therapeutics-purchase-layoffs-philadelphia/", // "bought by Big Pharma", not Bought (fashion)
+  "https://www.inc.com/nick-hobson/airbnb-ceo-brian-chesky-tells-adam-grant-right-way-to-do-mass-layoffs-cut-deep.html", // an interview about the 2020 layoffs, not layoffs in 2024
 ]);
