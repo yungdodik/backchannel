@@ -234,6 +234,12 @@
 .px-info .px-tiles dd small { font-size: 12.5px; }
 .px-meter { display: block; margin-top: 8px; height: 4px; border-radius: 999px; background: oklch(0.5 0.02 268 / 0.3); overflow: hidden; }
 .px-meter i { display: block; height: 100%; border-radius: inherit; background: var(--c); }
+.px-read { margin-top: 14px; padding: 10px 12px; border-radius: 12px; border: 1px solid var(--line); background: oklch(0.21 0.02 268 / 0.45); font-size: 13px; line-height: 1.5; color: var(--muted); }
+.px-read b { color: var(--text); font-weight: 600; }
+.px-events { list-style: none; margin-top: 8px; display: grid; gap: 8px; font-size: 13px; color: var(--muted); }
+.px-events b { color: var(--text); font-weight: 500; }
+.px-events .px-chips { margin-top: 3px; }
+.px-info .px-three dt small { margin-top: 3px; }
 .px-sec { margin-top: 20px; font: 600 13px var(--sans); color: var(--muted); }
 .px-more { margin-top: 8px; padding: 9px 12px; border-radius: 12px; border: 1px solid oklch(0.5 0.02 268 / 0.22); background: oklch(0.21 0.02 268 / 0.7); font-size: 13.5px; color: var(--text); }
 .px-more summary { cursor: pointer; }
@@ -410,7 +416,7 @@
   .px-tools { bottom: 10px; }
   .px-info { top: 72px; left: 10px; right: 10px; width: auto; max-height: 40%; }
   .px-drawer { top: auto; left: 10px; right: 10px; bottom: 72px; width: auto; height: 33%; }
-  .px-compact:not([data-stats]) :is(dl, .px-sec, .px-more, .px-desc, .px-note) { display: none; }
+  .px-compact:not([data-stats]) :is(dl, .px-sec, .px-more, .px-desc, .px-note, .px-read) { display: none; }
   .px-compact[data-stats] { max-height: calc(67% - 160px); }
   .px-info .px-statsbtn { display: inline-flex; position: absolute; top: 14px; right: 14px; height: 30px; font-size: 12.5px; }
   .px-compact h1 { padding-right: 96px; }
