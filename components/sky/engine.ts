@@ -54,7 +54,7 @@ export function hash(s: string, k = 0) {
 }
 
 const RGB: Record<Group, [number, number, number]> = {
-  news_event: [236, 120, 92],
+  news_event: [145, 184, 250], // Match --news: informational blue, not a warning.
   no_recent_round: [238, 196, 104],
   recent_round: [96, 214, 206],
   none: [132, 136, 156],
@@ -1184,7 +1184,7 @@ export class SkyEngine {
         cx.stroke();
       }
       if (this.selCo === c.id) {
-        cx.strokeStyle = "rgba(255,170,140,.95)";
+        cx.strokeStyle = "rgba(246,236,214,.95)";
         cx.lineWidth = 1.5;
         for (let q = 0; q < 4; q++) {
           const a = (q * Math.PI) / 2 + Math.PI / 4;
