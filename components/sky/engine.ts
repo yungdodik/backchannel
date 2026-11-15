@@ -73,6 +73,12 @@ const terrain = (az: number) => 1.5 * Math.sin(az * D2R * 2 + 1) + 0.9 * Math.si
 interface Flight { t0: number; dur: number; from: View; to: View; p: number; streak: number; dir: 1 | -1 }
 interface View { yaw: number; pitch: number; fov: number }
 
+/** Patches on the fund star's surface, fixed on the ball: longitude, latitude (radians), size (in star radii), bright or dark. */
+const SUN_PATCHES = (() => {
+  const r = rnd(97);
+  return Array.from({ length: 22 }, (_, i) => ({ lon: r() * 6.283, lat: Math.asin(r() * 1.7 - 0.85), size: 0.16 + r() * 0.26, hot: i % 3 !== 0 }));
+})();
+
 export class SkyEngine {
   private cx: CanvasRenderingContext2D;
   private sans = "system-ui, sans-serif";
@@ -1082,6 +1088,61 @@ export class SkyEngine {
     }
   }
 
+  /**
+   * The fund's star as a ball, not a disc: a white-hot centre that darkens and reddens toward the limb, bright and dark
+   * patches that ride round it as it turns (and squash toward the edge, as on a sphere), and a thin corona.
+   */
+  private sun(x: number, y: number, R: number) {
+    const cx = this.cx, turn = this.spin * 0.12; // radians; `spin` stands still under reduced motion
+    const body = cx.createRadialGradient(x - R * 0.12, y - R * 0.14, 0, x, y, R);
+    body.addColorStop(0, "#fffdf6");
+    body.addColorStop(0.45, "#fff0c8");
+    body.addColorStop(0.8, "#ffd08a");
+    body.addColorStop(1, "#f0a050");
+    cx.fillStyle = body;
+    cx.beginPath();
+    cx.arc(x, y, R, 0, 6.283);
+    cx.fill();
+    if (R > 5) {
+      cx.save();
+      cx.clip();
+      for (const g of SUN_PATCHES) {
+        const lon = g.lon + turn, depth = Math.cos(g.lat) * Math.cos(lon); // > 0: on the near side
+        if (depth <= 0.05) continue;
+        const px = x + R * Math.cos(g.lat) * Math.sin(lon), py = y - R * Math.sin(g.lat), r = R * g.size;
+        const patch = cx.createRadialGradient(px, py, 0, px, py, r);
+        patch.addColorStop(0, g.hot ? `rgba(255,255,250,${0.5 * depth})` : `rgba(206,104,32,${0.42 * depth})`);
+        patch.addColorStop(1, g.hot ? "rgba(255,255,250,0)" : "rgba(206,104,32,0)");
+        cx.fillStyle = patch;
+        // foreshortened toward the limb: an ellipse squeezed along the line to the centre
+        cx.save();
+        cx.translate(px, py);
+        cx.rotate(Math.atan2(py - y, px - x));
+        cx.scale(Math.max(0.25, depth), 1);
+        cx.beginPath();
+        cx.arc(0, 0, r, 0, 6.283);
+        cx.restore();
+        cx.fill();
+      }
+      // limb darkening over the patches, so they fade into the edge
+      const limb = cx.createRadialGradient(x, y, R * 0.55, x, y, R);
+      limb.addColorStop(0, "rgba(214,110,30,0)");
+      limb.addColorStop(0.75, "rgba(214,110,30,.22)");
+      limb.addColorStop(1, "rgba(170,70,14,.62)");
+      cx.fillStyle = limb;
+      cx.fillRect(x - R, y - R, R * 2, R * 2);
+      cx.restore();
+    }
+    const corona = cx.createRadialGradient(x, y, R * 0.96, x, y, R * 1.45);
+    corona.addColorStop(0, "rgba(255,236,196,.55)");
+    corona.addColorStop(1, "rgba(255,236,196,0)");
+    cx.fillStyle = corona;
+    cx.beginPath();
+    cx.arc(x, y, R * 1.45, 0, 6.283);
+    cx.arc(x, y, R * 0.96, 0, 6.283, true);
+    cx.fill();
+  }
+
   private drawSystem(t: number) {
     if (this.mode !== "system") return;
     const cx = this.cx, k = out4(clamp((t - this.sysStart) / 1100, 0, 1));
@@ -1133,10 +1194,7 @@ export class SkyEngine {
         cx.beginPath();
         cx.arc(x, y, R * 6, 0, 6.283);
         cx.fill();
-        cx.fillStyle = "#fff8ea";
-        cx.beginPath();
-        cx.arc(x, y, R, 0, 6.283);
-        cx.fill();
+        this.sun(x, y, R);
         continue;
       }
       const p = it.p, c = p.c, age = out4(clamp((t - p.born) / 700, 0, 1)), [R_, G_, B_] = RGB[c.group];
