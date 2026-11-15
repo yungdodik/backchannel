@@ -331,7 +331,14 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
   const pct = companiesN ? Math.round((100 * researched) / companiesN) : 0;
   // the latest pipeline message, unless the company list arrived after it ("Reading the fund's portfolio…" is then stale)
   const note = events.findLastIndex((e) => e.type === "progress") > events.findLastIndex((e) => e.type === "portfolio") ? report.progress : undefined;
-  const newsN = skyCompanies.filter((c) => c.group === "news_event").length;
+  // reported events in the portfolio (acquisition, shutdown, layoffs): about the companies, not the fund, each with its sources
+  const exits = report.companies.flatMap((c) =>
+    c.signals.filter((g) => g.kind === "news_event").map((g) => ({ id: c.calaId, name: c.name, kind: /^Reported (\w+)/.exec(g.text)?.[1] ?? "event", date: g.date?.slice(0, 7), sources: g.sources })),
+  );
+  const eventIds = [...new Set(exits.map((e) => e.id))];
+  const companiesWith = (kind: string) => new Set(exits.filter((e) => e.kind === kind).map((e) => e.id)).size;
+  const [acquired, shut, layoffs] = ["acquisition", "shutdown", "layoffs"].map(companiesWith);
+  const eventWords = [acquired && `${acquired} acquired`, shut && `${shut} shut down`, layoffs && `${layoffs} with layoffs`].filter(Boolean).join(" · ");
   const selectedFund = allFunds.find((f) => f.id === selectedId);
   const filtered = report.entries.filter((e) => filters[e.group]);
   const picks = shortlist(filtered);
@@ -495,8 +502,22 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
           <dl className="px-tiles px-three">
             <div><dt>Companies</dt><dd>{companiesN || "…"}</dd></div>
             <div><dt>Contacts to call</dt><dd>{report.entries.length}</dd></div>
-            <div style={{ "--c": "var(--news)" } as CSSProperties}><dt>With news</dt><dd>{newsN}</dd></div>
+            <div style={{ "--c": "var(--news)" } as CSSProperties}>
+              <dt>Exits and closures{eventWords && <small>{eventWords}</small>}</dt>
+              <dd>{count("events", eventIds, "Companies with a reported acquisition, shutdown or layoffs", eventIds.length)}</dd>
+            </div>
           </dl>
+          {fp && (
+            <p className="px-read">
+              <b>In plain words.</b>{" "}
+              {fp.noRoundIn24Months.of > 0 && `${fp.noRoundIn24Months.n} of ${fp.noRoundIn24Months.of} companies with a dated round have no recorded round in 2+ years. `}
+              {eventIds.length
+                ? `${[acquired && `${acquired} ${acquired === 1 ? "was" : "were"} acquired`, shut && `${shut} shut down`, layoffs && `${layoffs} had layoffs`].filter(Boolean).join(", ")}, by the news we found. `
+                : "We found no news of an acquisition, shutdown or layoffs. "}
+              {fp.namedInLaterRound.of > 0 && `The fund is named again in a later round at ${fp.namedInLaterRound.n} of ${fp.namedInLaterRound.of} companies that raised again. `}
+              These are records, not a rating: the calls tell you the rest.
+            </p>
+          )}
           {fp && (
             <>
               <h2 className="px-sec">Follow-on funding</h2>
@@ -522,6 +543,23 @@ export function ParallaxApp({ funds }: { funds: SkyFund[] }) {
                 )}
               </dl>
             </>
+          )}
+          {exits.length > 0 && (
+            <details className="px-more">
+              <summary>Exits and closures<small>{exits.length} reported, with sources</small></summary>
+              <ul className="px-events">
+                {exits.map((e, i) => (
+                  <li key={i}>
+                    <span><b>{e.name}</b> · {e.kind}{e.date && ` · ${e.date}`}</span>
+                    <span className="px-chips">
+                      {e.sources.slice(0, 3).map((src) => (
+                        <a key={src.url} className="px-chip" href={src.url} target="_blank" rel="noopener noreferrer">{domain(src.url)}</a>
+                      ))}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </details>
           )}
           {fp && fp.topCoInvestors.length > 0 && (
             <details className="px-more">
